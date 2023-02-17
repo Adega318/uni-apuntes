@@ -1,1 +1,1 @@
-[[bd-teoría]]
+# [[bd-teoría]]

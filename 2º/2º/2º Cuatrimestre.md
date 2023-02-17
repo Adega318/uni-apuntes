@@ -1,1 +1,2 @@
-[[cp-info]][[bd-info]]
+# [[cp-info]]
+# [[bd-info]]
