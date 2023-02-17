@@ -4,47 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "98cfcae3a7c1ebc4",
+        "id": "68a8c5df3712f5fa",
         "type": "tabs",
         "children": [
           {
-            "id": "ca4802f3ad407497",
+            "id": "b5a5f773b450fa15",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2º/2º/cp/teoría/cp-t4.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {},
+              "pinned": true
             }
           },
           {
-            "id": "6d2d8efe6c238082",
+            "id": "c695b53702061f2c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2º/2º/cp/teoría/cp-t3.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "22c18cb12cf7d4fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2º/2º/cp/teoría/cp-t5.md",
+                "file": "2º/2º/bd/bd-info.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2º/2º/cp/teoría/cp-t3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +111,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2º/2º/cp/teoría/cp-t3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +132,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2º/2º/cp/teoría/cp-t3.md"
-              }
+              "state": {}
             }
           },
           {
@@ -181,16 +162,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "83d7becb65b55f76",
+  "active": "b5a5f773b450fa15",
   "lastOpenFiles": [
-    "2º/2º/cp/teoría/cp-t5.md",
-    "2º/2º/cp/teoría/cp-t3.md",
+    "2º/2º/bd/bd-info.md",
+    "2º/2º/cp/teoría/cp-t2.md",
+    "2º/2º/cp/teoría/cp-teoría.md",
     "2º/2º/cp/teoría/cp-t4.md",
+    "2º/2º/cp/teoría/cp-t3.md",
+    "2º/2º/cp/teoría/cp-t5.md",
     "2º/2º/bd/teoríca/bd-t2.md",
     "2º/2º/bd/teoríca/bd-teoría.md",
-    "2º/2º/bd/bd-info.md",
     "2º/2º/2º Cuatrimestre.md",
-    "2º/2º/cp/cp-info.md",
-    "2º/2º/cp/teoría/cp-teoría.md"
+    "2º/2º/cp/cp-info.md"
   ]
 }
