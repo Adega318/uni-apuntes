@@ -1,20 +1,22 @@
 {
   "main": {
-    "id": "2d6649fc441a7c46",
+    "id": "d2e1f5c939075955",
     "type": "split",
     "children": [
       {
-        "id": "50ff358f723b33b3",
+        "id": "98cfcae3a7c1ebc4",
         "type": "tabs",
         "children": [
           {
-            "id": "a5f7d2c2e5eaada6",
+            "id": "ca4802f3ad407497",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true
+              "type": "markdown",
+              "state": {
+                "file": "2º/2º/cp/teoría/cp-t4.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -23,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "78534298e87f178f",
+    "id": "92d4d1b85cdb3757",
     "type": "split",
     "children": [
       {
-        "id": "c51a96e4e50b2030",
+        "id": "01c67efe393c844b",
         "type": "tabs",
         "children": [
           {
-            "id": "265370a69a39bb95",
+            "id": "fe36f533005d7a82",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -41,7 +43,7 @@
             }
           },
           {
-            "id": "3dbe2208d25dfd12",
+            "id": "5fc05cbd70c30e34",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -56,7 +58,7 @@
             }
           },
           {
-            "id": "38a609cbeae920f3",
+            "id": "b977da2047e2d758",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -67,22 +69,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "f6f640bf64fd71bd",
+    "id": "76350bb42f90fd9e",
     "type": "split",
     "children": [
       {
-        "id": "1496d700ddeec1e5",
+        "id": "150980e29484460f",
         "type": "tabs",
         "children": [
           {
-            "id": "6ae15e3a051ddee9",
+            "id": "a7054ec9eec01280",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2º/2º/cp/teoría/cp-t4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,18 +97,19 @@
             }
           },
           {
-            "id": "4db96a797af24e91",
+            "id": "4bf0269ed921feb0",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2º/2º/cp/teoría/cp-t4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "02e878f2df53386d",
+            "id": "1e69536fe02989e5",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -116,11 +120,13 @@
             }
           },
           {
-            "id": "4a497fef4733c0db",
+            "id": "83d7becb65b55f76",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2º/2º/cp/teoría/cp-t4.md"
+              }
             }
           }
         ]
@@ -140,17 +146,6 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a5f7d2c2e5eaada6",
-  "lastOpenFiles": [
-    "2º/2º/bd/teoríca/bd-t2.md",
-    "2º/2º/bd/bd-info.md",
-    "2º/2º/bd/teoríca/bd-teoría.md",
-    "2º/2º/2º Cuatrimestre.md",
-    "2º/2º/cp/cp-info.md",
-    "2º/2º/cp/teoría/cp-teoría.md",
-    "2º/2º/cp/teoría/cp-t4.md",
-    "2º/2º/cp/teoría/cp-t5.md",
-    "Untitled.md",
-    "Untitled.canvas"
-  ]
+  "active": "ca4802f3ad407497",
+  "lastOpenFiles": []
 }
