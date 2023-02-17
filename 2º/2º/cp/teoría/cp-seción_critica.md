@@ -33,7 +33,8 @@ int mtx_unlock(mtx_t *mutex);
 ## Semáforos
 Los semáforos son variables de tipo int sobre las que se puede esperar a su llegada a 0 y actualizar valor.
 ```
-sem_t *sem; //sem tiene que encontrarse en u espacio de memoria compartida por los procesos
+sem_t *sem;
+//sem tiene que encontrarse en u espacio de memoria compartida por los procesos
 
 //declaración
 int sem_init(sem_t *sem, int pshared, unsigned int value);  

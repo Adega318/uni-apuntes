@@ -6,7 +6,14 @@
   ],
   "spellcheckDictionary": [
     "Mutex",
-    "Mutex"
+    "Mutex",
+    "mutex",
+    "int",
+    "Broadcast",
+    "broadcast",
+    "threads",
+    "Signals",
+    "thread"
   ],
   "promptDelete": false
 }
