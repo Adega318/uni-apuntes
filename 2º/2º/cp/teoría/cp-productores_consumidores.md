@@ -106,7 +106,40 @@ int cnd_wait(cnd_t *, mtx_t *);
 //dormir limitado
 int cnd_timedwait(cnd_t *, mtx_t *, struct timespec *);
 ```
-### Consumidor
-### Productor
 ## Consideraciones
 Cuando se pone a esperar a un thread, se debe confirmar la condición despertadora, ya que puede haber variado desde su despertado.
+# Semáforos
+La implementación mediante el uso de [[cp-seción_critica#Semáforos|semáforos]]:
+## Declaración
+```
+//estado del buffet
+sem_init(&empty, 1, buffer_size());
+sem_init(&used, 1, 0);
+
+//acceso al buffer
+sem_t mutex;
+sem_init(&mutex, 1, 1);
+```
+## Consumidor
+```
+while(1) {
+	elemento e;
+	sem_wait(&used); // used-- o esperar
+	sem_wait(&mutex);
+	e = remove();
+	sem_post(&mutex);
+	sem_post(&empty); // empty++ o despertar productor
+	fun(e);
+}
+```
+## Productor
+```
+while(1) {
+	elemento e = crear_elemento();
+	sem_wait(&empty); // empty-- o espera
+	sem_wait(&mutex);
+	insert(e);
+	sem_post(&mutex);
+	sem_post(&used); // used++ o despertar consumidor
+}
+```
