@@ -1,4 +1,5 @@
 # Descripción
+El problema de los lectores y escritores es uno donde varios lectores intentan obtener información de una zona compartida (podiendo hacerlo simultaneamente entre si)
 # Prioridad de lectores
 Cuando le damos la prioridad a a los lectores si hay un lector pasara antes que cualquier escritor.
 ## Mutex
@@ -105,7 +106,8 @@ unlock(wlock)
 ### Lectores
 ```
 //parada de prioridad
-lock(rplock) //mitigar competencia de lectores con el escritor
+//mitigar competencia de lectores con el escritor
+lock(rplock)
 lock(wplock)
 unlock(wplock)
 
@@ -130,7 +132,42 @@ unlock(rlock)
 ```
 mtx lock
 cnd in_use
-int readers = 0, writers = 0, wwait =
+int readers = 0, writers = 0, wwait = 0
 ```
 ### Escritores
+```
+lock(lock)
+while(writers > 0 || readers > 0){
+	wwait++
+	wait(in_use, lock)
+	wwait--
+}
+writers++
+unlock(lock)
+write()
+lock(lock)
+writers--
+
+//despertamos a todos los lectores al poder leer simultáneamente
+broadcast(in_use)
+unlock(lock)
+```
 ### Lectores
+```
+lock(lock)
+while(writers > 0 || wwait > 0){
+	wait(in_use, lock)
+}
+readers++
+unlock(lock)
+
+read()
+
+lock(lock)
+readers--
+id(readers == 0){
+	//solo despertamos a un escritor
+	signal(in_use)
+}
+unlock(lock)
+```
