@@ -1,18 +1,19 @@
 # Descripción
 # Prioridad de lectores
+Cuando le damos la prioridad a a los lectores si hay unlector pasara antes que cualquier escrito
 ## Mutex
 ~~~
 mtx lock
 mtx rlock
 int readers = 0
 ~~~
-### Lectores
+### Escritores
 ~~~
 lock(lock)
 write()
 unlock(lock)
 ~~~
-### Escritores
+### Lectores
 ```
 lock(rlock)
 if(readers == 0){
@@ -34,14 +35,46 @@ unlock(rlock)
 ## Señales
 ```
 int readers = 0, writers = 0
+cnd in_use
+mtx lock
+```
+### Escritores
+```
+lock(lock)
+while(writers > 0 || readers > 0){
+	wait(in_use, lock)
+}
+writers++
+unlock(lock)
+write()
+lock(lock)
+writers--
 
+//despertamos a todos los lectores al poder leer simultáneamente
+broadcast(in_use)
+unlock(lock)
 ```
 ### Lectores
-### Escritores
+```
+lock(lock)
+while(writers > 0){
+	wait(in_use, lock)
+}
+readers++
+unlock(lock)
+read()
+lock(lock)
+readers--
+id(readers == 0){
+	//solo despertamos a un escritor
+	signal(in_use) 
+}
+unlock(lock)
+```
 # Prioridad de escritores
 ## Mutex
-### Lectores
 ### Escritores
+### Lectores
 ## Señales
-### Lectores
 ### Escritores
+### Lectores
