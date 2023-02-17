@@ -7,61 +7,38 @@
 # Proceso de Búsqueda
 ## Estrategia de exploración
 Las estrategias pueden ser diferentes y variadas
-- Básica 1, sistemática sin nuevos estados
+- Básica 1, sistemática sin nuevos estados.
 ![[Pasted image 20230217210324.png]]
-- Básica 2, sistemática con eliminación
+- Básica 2, sistemática con eliminación.
 ![[Pasted image 20230217210427.png]]
-- Básica 3, sistemática con eliminación de acciones y estados
-- Básica 4, sistemática con exploración (garantiza solución)
-
+- Básica 3, sistemática con eliminación de acciones y estados.
+![[Pasted image 20230217210450.png]]
+- Básica 4, sistemática con exploración (garantiza solución).
+![[Pasted image 20230217210503.png]]
 # Estrategias de búsqueda
-
 ## Generales
-
 Aplicables a todos los problemas con menor eficiencia.
-
 ## Especifico
-
 Requieren de conocimiento del problema otorgando mayor eficiencia.
-
 ## Características
-
 ### Dirección
-
 Se consideran dos direcciones, de los estados iniciales a los estados meta (proceso progresivo) o de los estados meta a los estados iniciales (proceso regresivo).
-
 ### Topología
-
 ### Criterios de selección
-
 ### Optimización de la búsqueda
-
 ## Implementación
-
 ### Reconstrucción de la solución
-
 La reconstrucción es el retroceso desde un final de camino hacia un estado anterior con caminos potencialmente válidos. Esto se puede aplicar únicamente a algoritmos con memoria de los caminos recorridos.
-
 ### Estructuras de datos
-
 #### Nodos
-
-Prea este tipo de algoritmos podemos de una estructura de datos basada en estados almacenados en nodos interconectados.
-
-![](https://lh5.googleusercontent.com/z05ON9EULNnzpCg8uiE-TOcByqJuTSnZsk1JFyKWGRSU_A6QoxhueEDwynrkGuuZerkqXNNQQsVdVhdbBeen_B7wImxHPvEfEZBAn-i0di4W56gle0QVgWgRQ5Rtd66ewPxYGsS5j5kD3KhGRfQMBmU)
-
+Para este tipo de algoritmos podemos de una estructura de datos basada en estados almacenados en nodos interconectados.
+![[Pasted image 20230217210909.png]]
 #### Listas
-
 Podemos hacer la implementación por listas, creando una lista con frontera y explorados.
-
 La frontera son los nodos a explorar y la de explorados almacena los nodos ya visitados.
-
 Podemos gestionarlo con tres tipos de algoritmo de siguiente:
-
 FIFO, LIFO, PR
-
 ### Pseudocódigo
-
 ![](https://lh3.googleusercontent.com/gy5dymib55HLvgnBmnIvKhNpNIrWZzc4sv_J-cve_Dzw382NBXcQHY1rpOcO20HAO76FPbMGzVDNfI7Bw_p_agzuwP9nMNWUtOzbHLqP3vZwHiyX1j_JA2aLc61Lh21qFRA0Ul-mgWAd74qVED8AsN4)
 
 ## Evaluación
