@@ -8,4 +8,8 @@ Las siguientes son las condiciones necesarias para que se produzca un interbloqu
 - Espera circular, procesos esperando por recursos que esperan por sus recursos.
 ## Soluciones
 ### Tratamiento
-### Detección
+El interbloqueo se puede tratar mediante varias técnicas, algunas aplicadas por el sistema operativo, otras por el propio sistema concurrente. Esto depende principalmente del problema que lo produzca.
+Algunos sistemas operativos (como Unix o Windows) ignoran el problema.
+### Prevención
+La manera de prevenir el interbloqueo es asegurar el incumplimiento de alguna de las condiciones del interbloqueo.
+- Exclusión mutua, se puede evitar no permitiendo el acceso exclusivo a recursos.
