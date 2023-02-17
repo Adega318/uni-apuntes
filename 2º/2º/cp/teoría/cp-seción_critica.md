@@ -5,7 +5,7 @@ La exclusión mutua es el proceso donde el acceso a la sección crítica es excl
 # Instrucciones atómicas
 Las instrucciones atómicas con la cuales permiten el bloqueo y desbloqueo para la gestión de la sección crítica.
 ## Mutex
-Los mutex son variables que permiten el bloqueo y espera a desbloqueo.
+Los mutex son variables que permiten el bloqueo y  desbloqueo.
 ```
 enum{
 	mtx_plain,

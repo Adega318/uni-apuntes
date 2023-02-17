@@ -1,6 +1,7 @@
 # Descripción
 Cuando tenemos productores y consumidores compartiendo un mismo buffer, se debe implementar métodos de sincronización para gestionar su uso.
-Mutex
+## Mutex
+la implementación mediante [[cp-seción_critica#Mutex|mutex]] presenta el problema de la espera activa, donde se esta comprobando constantemente si se libera.
 # Sincronización por condiciones
 ## Broadcast
 El broadcast se basa en poner a esperar a los threads en un canal y despertarlos simultáneamente al encenderlo. Es una solución simple pero poco eficiente al despertar todos los threads simultáneamente.
