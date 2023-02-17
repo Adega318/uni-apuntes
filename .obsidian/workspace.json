@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2º/2º/bd/teoríca/bd-fases_de_diseño.md",
+                "file": "2º/2º/bd/teoríca/bd-diseño_lógico.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2º/2º/bd/teoríca/bd-fases_de_diseño.md",
+                "file": "2º/2º/bd/teoríca/bd-diseño_lógico.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2º/2º/bd/teoríca/bd-fases_de_diseño.md",
+                "file": "2º/2º/bd/teoríca/bd-diseño_lógico.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2º/2º/bd/teoríca/bd-fases_de_diseño.md"
+                "file": "2º/2º/bd/teoríca/bd-diseño_lógico.md"
               }
             }
           },
@@ -181,9 +181,9 @@
   },
   "active": "c6857469a02b1fe1",
   "lastOpenFiles": [
-    "Pasted image 20230217203555.png.md",
     "2º/2º/bd/teoríca/bd-fases_de_diseño.md",
     "2º/2º/bd/teoríca/bd-diseño_lógico.md",
+    "Pasted image 20230217203555.png.md",
     "Pasted image 20230217203555.png",
     "2º/2º/cp/teoría/cp-lectores_escritores.md",
     "2º/2º/cp/teoría/cp-productores_consumidores.md",

@@ -8,5 +8,6 @@ El diseño físico es la implementación del esquema lógico atendiendo al [SGBD
 ![[Pasted image 20230217203700.png]]
 # Técnicas
 ## Ascendente
-Técnica purista 
+Técnica purista que implica contemplar el diseño de esquemas de bases de datos utilizando la semántica de los atributos, que es capturada por una serie de relaciones entre atributos (dependencias funcionales, dependencias multivaluadas y dependencias de join). Se basa en una técnica denominada [[bd-diseño_lógico#Normalización|Normalización]].
 ## Descendente
+Técnica que se emplea actualmente en el diseño de aplicaciones de bases de datos comerciales. Diseñar un esquema conceptual (modelo ER) y luego transformar el esquema conceptual en un conjunto de relaciones utilizando el procedimiento de transformación E/R a MR.

@@ -59,7 +59,7 @@ Descomposición:
 	CC: AD
 Después de la segunda vuelta todas las relaciones son FNBC.
 # Normalización
-Estas pruebas evalúan la redundancia a nivel funcional.
+Estas pruebas evalúan la redundancia a nivel funcional, utilizado en la tecnica de diseño.
 Para cumplir una forma se debe de cumplir la anterior.
 ## 1º FN
 El dominio de un atributo debe ser valores atómicos e individuales en un dominio.
