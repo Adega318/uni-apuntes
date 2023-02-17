@@ -9,7 +9,7 @@ Uso de los sistemas para resolver problemas de alta lógica para resolver proble
 # Agentes
 ## Estructura
 ### Función
-La función es la proyección de una ación basándonos en una percepción. La función se puede representar como una tabla de secuencias de percepción y acción a expresar.
+La función es la proyección de una acción basándonos en una percepción. La función se puede representar como una tabla de secuencias de percepción y acción a expresar.
 ### Programa
 El programa es la implementación de la función del agente.
 ### Arquitectura
@@ -29,6 +29,6 @@ Evolución del basado en metas, expandiendo los sistemas de planificación basá
 ![[Pasted image 20230217205842.png]]
 # Tipos de problemas
 ## Determinismo
-Los mundos se pueden caracterizar en deterministas o estocástico, en uno determinista una ación tiene un resultado asegurado, pero uno estocástico el resultado no está asegurado.
+Los mundos se pueden caracterizar en deterministas o estocástico, en uno determinista una acción tiene un resultado asegurado, pero uno estocástico el resultado no está asegurado.
 ## Observabilidad
 La observabilidad puede ser completa donde se tienen todos los datos requerirles o parcial donde no todos los datos son accesible o no con la precisión requerida.

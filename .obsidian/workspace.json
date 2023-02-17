@@ -16,33 +16,8 @@
               "state": {},
               "pinned": true
             }
-          },
-          {
-            "id": "50b1b4c20292b4aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2º/2º/si/teoría/si-búsqueda.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f8051a6ee595461e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2º/2º/si/teoría/si-introdución.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +83,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2º/2º/si/teoría/si-búsqueda.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +99,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2º/2º/si/teoría/si-búsqueda.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,9 +120,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2º/2º/si/teoría/si-búsqueda.md"
-              }
+              "state": {}
             }
           },
           {
@@ -179,17 +150,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "50b1b4c20292b4aa",
+  "active": "b5a5f773b450fa15",
   "lastOpenFiles": [
-    "2º/2º/si/teoría/si-introdución.md",
     "2º/2º/si/teoría/si-búsqueda.md",
+    "2º/2º/si/teoría/si-introdución.md",
+    "recursos/Pasted image 20230217210324.png",
     "2º/2º/bd/teoríca/bd-fases_de_diseño.md",
     "2º/2º/bd/teoríca/bd-diseño_lógico.md",
     "recursos/Pasted image 20230217205842.png",
     "Pasted image 20230217203555.png.md",
     "Pasted image 20230217203555.png",
     "2º/2º/cp/teoría/cp-lectores_escritores.md",
-    "2º/2º/cp/teoría/cp-productores_consumidores.md",
-    "2º/2º/cp/teoría/cp-seción_critica.md"
+    "2º/2º/cp/teoría/cp-productores_consumidores.md"
   ]
 }
