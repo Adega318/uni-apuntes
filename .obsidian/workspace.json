@@ -153,8 +153,17 @@
                 "file": "2º/2º/cp/teoría/cp-t3.md"
               }
             }
+          },
+          {
+            "id": "ce64eea7a84e8145",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -172,7 +181,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6d2d8efe6c238082",
+  "active": "83d7becb65b55f76",
   "lastOpenFiles": [
     "2º/2º/cp/teoría/cp-t5.md",
     "2º/2º/cp/teoría/cp-t3.md",
