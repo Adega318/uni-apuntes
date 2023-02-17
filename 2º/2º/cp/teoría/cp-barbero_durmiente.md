@@ -103,7 +103,7 @@ if(customers == Max_customers){
 }
 ~~~
 # Solución con semáforos
-Los semáforos complican el uso de colas y barberos concretos.
+Los [semáforos].([[cp-productores_consumidores#^3041e8]]) complican el uso de colas y barberos concretos.
 ~~~
 sem customers
 sem barber
