@@ -3,5 +3,6 @@ Cuando tenemos productores y consumidores compartiendo un mismo sistema, se debe
 # Broadcast
 El broadcast se basa en poner a esperar a los threads en un canal y despertarlos simultáneamente al encenderlo. Es una solución simple pero poco eficiente al despertar todos los threads simultáneamente.
 # Signals
-Las señales se basan en poner a esperar a los threads en un canal, cuando sea posteada esa variable y su valor sea 0 un thread despertará. Es un método ampliamente eficiente pero difícil de implementar.
+Las señales se basan en poner a esperar a los threads en un canal, cuando se mande una señal un thread despertará. Es un método ampliamente eficiente pero difícil de implementar.
 # Semáforos
+Los semáforos se basan en una variable sobre la que dormiremos los threads. Cuando se poste un valor de esa variable, si el valor es mayor de 0 
