@@ -77,8 +77,12 @@ while(1){
 	if(!customers){
 		barbers++
 		wait(no_customers, mut)
-		
+	}else{
+		signal(waiting_room)
+		customers--
 	}
+	unlock(mut)
+	cut()
 }
 ~~~
 ## Cliente
