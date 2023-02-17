@@ -18,31 +18,31 @@
             }
           },
           {
-            "id": "76b762ba969739c0",
+            "id": "8e3cb2a300e33ac9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2º/2º/cp/teoría/cp-lectores_escritores.md",
+                "file": "2º/2º/bd/teoríca/bd-diseño_lógico.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1a3fd8469fb05f19",
+            "id": "c6857469a02b1fe1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2º/2º/cp/teoría/cp-productores_consumidores.md",
+                "file": "2º/2º/bd/teoríca/Untitled.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2º/2º/cp/teoría/cp-lectores_escritores.md",
+                "file": "2º/2º/bd/teoríca/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2º/2º/cp/teoría/cp-lectores_escritores.md",
+                "file": "2º/2º/bd/teoríca/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2º/2º/cp/teoría/cp-lectores_escritores.md"
+                "file": "2º/2º/bd/teoríca/Untitled.md"
               }
             }
           },
@@ -179,17 +179,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "76b762ba969739c0",
+  "active": "c6857469a02b1fe1",
   "lastOpenFiles": [
-    "2º/2º/cp/teoría/cp-productores_consumidores.md",
+    "2º/2º/bd/teoríca/bd-diseño_lógico.md",
     "2º/2º/cp/teoría/cp-lectores_escritores.md",
+    "2º/2º/cp/teoría/cp-productores_consumidores.md",
     "2º/2º/cp/teoría/cp-seción_critica.md",
     "().md",
     "2º/2º/cp/teoría/cp-interbloqueo_inanición.md",
     "2º/2º/cp/teoría/cp-barbero_durmiente.md",
     "[[cp-productores_consumidores.md",
     "2º/2º/cp/teoría/cp-teoría.md",
-    "2º/2º/bd/bd-info.md",
-    "2º/2º/bd/teoríca/bd-t2.md"
+    "2º/2º/bd/bd-info.md"
   ]
 }

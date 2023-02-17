@@ -15,7 +15,10 @@
     "Signals",
     "thread",
     "Wait",
-    "wait"
+    "wait",
+    "Psudotransitiva",
+    "superclave",
+    "superclave"
   ],
   "promptDelete": false
 }

@@ -64,10 +64,10 @@ Para cumplir una forma se debe de cumplir la anterior.
 ## 1º FN
 El dominio de un atributo debe ser valores atómicos e individuales en un dominio.
 ## 2º FN
-Si todo atributo no primo A en R depende funcional mente de todas las claves candidatas, don dfs completas.
+Si todo atributo no primo A en R depende funcionalmente de todas las claves candidatas, don dfs completas.
 Es decir, no depende únicamente de una de las candidatas, sino del conjunto de ellas.
 ## 3º FN
-Ningún atributo no primo que dependa transitiva mente de una candidata.
+Ningún atributo no primo que dependa transitivamente de una candidata.
 ## FNBC
 Para toda dependencia no trivial, el atributo de la derecha debe de ser clave superclave.
 # Desnormalización
