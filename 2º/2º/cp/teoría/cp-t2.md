@@ -13,3 +13,7 @@ Algunos sistemas operativos (como Unix o Windows) ignoran el problema.
 ### Prevención
 La manera de prevenir el interbloqueo es asegurar el incumplimiento de alguna de las condiciones del interbloqueo.
 - Exclusión mutua, se puede evitar no permitiendo el acceso exclusivo a recursos.
+- Hold and wait, se evita obligando a liberar los recursos reservados antes de esperar por nuevos.
+- No acoplamiento, el uso del roll-back es la manera de resolver este tipo de problemas.
+- Espera circular, para evitarlo se puede hacer uso de la espera ordenada, requiere el establecimiento de un orden de recursos.
+# Inanición
