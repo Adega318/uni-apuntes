@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "22c18cb12cf7d4fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2º/2º/cp/teoría/cp-t5.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2º/2º/cp/teoría/cp-t4.md",
+                "file": "2º/2º/cp/teoría/cp-t5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2º/2º/cp/teoría/cp-t4.md",
+                "file": "2º/2º/cp/teoría/cp-t5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2º/2º/cp/teoría/cp-t4.md"
+                "file": "2º/2º/cp/teoría/cp-t5.md"
               }
             }
           }
@@ -147,15 +160,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ca4802f3ad407497",
+  "active": "22c18cb12cf7d4fb",
   "lastOpenFiles": [
+    "2º/2º/cp/teoría/cp-t4.md",
     "2º/2º/bd/teoríca/bd-t2.md",
     "2º/2º/bd/teoríca/bd-teoría.md",
     "2º/2º/bd/bd-info.md",
     "2º/2º/2º Cuatrimestre.md",
     "2º/2º/cp/cp-info.md",
     "2º/2º/cp/teoría/cp-teoría.md",
-    "2º/2º/cp/teoría/cp-t4.md",
     "2º/2º/cp/teoría/cp-t5.md"
   ]
 }

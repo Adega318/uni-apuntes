@@ -7,8 +7,14 @@ Tenemos un ejecutor que tiene un espacio de espera, cuando el ejecutor (barbero)
 while(1){
 	lock(mut)
 	if(!customers){
-		
+		barber = SLEEPING
+		wait(no_customers, mut)
+	}else{
+		signal(waiting_room)
+		customers--
 	}
+	unlock(mut)
+	cut()
 }
 ~~~
 ## Cliente
@@ -35,8 +41,14 @@ Multiples barberos simples con sala de espera compartida.
 while(1){
 	lock(mut)
 	if(!customers){
-		
+		barber = SLEEPING
+		wait(no_customers, mut)
+	}else{
+		signal(waiting_room)
+		customers--
 	}
+	unlock(mut)
+	cut()
 }
 ~~~
 ## Cliente
@@ -64,6 +76,7 @@ while(1){
 	lock(mut)
 	if(!customers){
 		barbers++
+		wait(no_customers, mut)
 		
 	}
 }
