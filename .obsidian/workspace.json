@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2º/2º/bd/teoríca/bd-t2.md",
+                "file": "2º/2º/cp/teoría/cp-t4.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2º/2º/bd/teoríca/bd-t2.md",
+                "file": "2º/2º/cp/teoría/cp-t4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2º/2º/bd/teoríca/bd-t2.md",
+                "file": "2º/2º/cp/teoría/cp-t4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2º/2º/bd/teoríca/bd-t2.md"
+                "file": "2º/2º/cp/teoría/cp-t4.md"
               }
             }
           }
@@ -143,13 +143,14 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "ca4802f3ad407497",
   "lastOpenFiles": [
-    "2º/2º/bd/teoríca/bd-teoría.md",
     "2º/2º/bd/teoríca/bd-t2.md",
+    "2º/2º/bd/teoríca/bd-teoría.md",
     "2º/2º/bd/bd-info.md",
     "2º/2º/2º Cuatrimestre.md",
     "2º/2º/cp/cp-info.md",
