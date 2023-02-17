@@ -1,5 +1,5 @@
 # Interbloqueo
-El interbloqueo es cuando dos o más threads esperan por recursos reservados por otros threads que esperan por recursos del primer grupo.
+El interbloqueo es cuando dos o más threads esperan por recursos reservados por otros threads que esperan por recursos del primer grupo. Esto es consecuencia directa del mal uso de mutex
 ## Condiciones
 Las siguientes son las condiciones necesarias para que se produzca un interbloqueo, es necesario que se cumplan simultáneamente.
 - Exclusión mutua, recursos no compartibles.
@@ -17,3 +17,4 @@ La manera de prevenir el interbloqueo es asegurar el incumplimiento de alguna de
 - No acoplamiento, el uso del roll-back es la manera de resolver este tipo de problemas.
 - Espera circular, para evitarlo se puede hacer uso de la espera ordenada, requiere el establecimiento de un orden de recursos.
 # Inanición
+Es el proceso de esperar un recurso sin conseguirlo. Esto se produce cuando un recurso no compartible es accedido por muchos procesos.

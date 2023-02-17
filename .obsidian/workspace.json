@@ -23,13 +23,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2º/2º/cp/teoría/cp-t2.md",
+                "file": "2º/2º/cp/teoría/cp-interbloqueo_inanición.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2º/2º/cp/teoría/cp-interbloqueo_inanición.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,6 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2º/2º/cp/teoría/cp-interbloqueo_inanición.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +135,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2º/2º/cp/teoría/cp-interbloqueo_inanición.md"
+              }
             }
           },
           {
@@ -162,9 +167,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b5a5f773b450fa15",
+  "active": "18f59edd50eea1e5",
   "lastOpenFiles": [
-    "2º/2º/cp/teoría/cp-t2.md",
+    "2º/2º/cp/teoría/cp-interbloqueo_inanición.md",
     "2º/2º/cp/teoría/cp-teoría.md",
     "2º/2º/cp/teoría/cp-t3.md",
     "2º/2º/bd/bd-info.md",
