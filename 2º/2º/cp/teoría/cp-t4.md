@@ -1,7 +1,7 @@
 # Descripción
-El problema de los lectores y escritores es uno donde varios lectores intentan obtener información de una zona compartida (podiendo hacerlo simultaneamente entre si)
+El problema de los lectores y escritores es uno donde varios lectores intentan obtener información de una zona compartida (pudiendo hacerlo simultáneamente entre sí). Por otro lado, tenemos los escritores, que sobreescribirán la zona compartida (no pudiendo compartirla).
 # Prioridad de lectores
-Cuando le damos la prioridad a a los lectores si hay un lector pasara antes que cualquier escritor.
+Cuando le damos la prioridad a los lectores si hay un lector pasará antes que cualquier escritor.
 ## Mutex
 ~~~
 mtx lock
@@ -73,7 +73,7 @@ id(readers == 0){
 unlock(lock)
 ```
 # Prioridad de escritores
-Cuando le damos la prioridad a a los escritores si hay un escritor pasara antes que cualquier lector.
+Cuando le damos la prioridad a los escritores si hay un escritor pasará antes que cualquier lector.
 ## Mutex
 ```
 mtx lock

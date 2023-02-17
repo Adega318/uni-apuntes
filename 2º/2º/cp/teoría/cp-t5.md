@@ -35,7 +35,7 @@ if(customers == Max_customers){
 }
 ~~~
 # Múltiples barberos
-Multiples barberos simples con sala de espera compartida.
+Múltiples barberos simples con sala de espera compartida.
 ## Barbero
 ~~~
 while(1){
@@ -69,7 +69,7 @@ if(customers == Max_customers){
 }
 ~~~
 # Barberos con cola
-Multiples barberos con cola de espera en su sala de espera.
+Múltiples barberos con cola de espera en su sala de espera.
 ## Barbero
 ~~~
 while(1){

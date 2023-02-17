@@ -3,5 +3,9 @@
   "spellcheckLanguages": [
     "en-US",
     "es"
+  ],
+  "spellcheckDictionary": [
+    "Mutex",
+    "Mutex"
   ]
 }

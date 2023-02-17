@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "6d2d8efe6c238082",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2º/2º/cp/teoría/cp-t3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "22c18cb12cf7d4fb",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2º/2º/cp/teoría/cp-t4.md",
+                "file": "2º/2º/cp/teoría/cp-t3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2º/2º/cp/teoría/cp-t4.md",
+                "file": "2º/2º/cp/teoría/cp-t3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2º/2º/cp/teoría/cp-t4.md"
+                "file": "2º/2º/cp/teoría/cp-t3.md"
               }
             }
           }
@@ -159,9 +172,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ca4802f3ad407497",
+  "active": "6d2d8efe6c238082",
   "lastOpenFiles": [
     "2º/2º/cp/teoría/cp-t5.md",
+    "2º/2º/cp/teoría/cp-t3.md",
     "2º/2º/cp/teoría/cp-t4.md",
     "2º/2º/bd/teoríca/bd-t2.md",
     "2º/2º/bd/teoríca/bd-teoría.md",
