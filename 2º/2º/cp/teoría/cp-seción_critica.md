@@ -1,1 +1,4 @@
-# Comunicación entre threads
+# Exclusión mutua
+# Instrucciones atómicas
+# Mutex
+# Semáforos

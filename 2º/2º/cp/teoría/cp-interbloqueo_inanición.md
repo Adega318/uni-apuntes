@@ -1,5 +1,5 @@
 # Interbloqueo
-El interbloqueo es cuando dos o más threads esperan por recursos reservados por otros threads que esperan por recursos del primer grupo. Esto es consecuencia directa del mal uso de mutex
+El interbloqueo es cuando dos o más threads esperan por recursos reservados por otros threads que esperan por recursos del primer grupo. Esto es consecuencia directa del mal uso de [[cp-seción_critica#Mutex|mutex]].
 ## Condiciones
 Las siguientes son las condiciones necesarias para que se produzca un interbloqueo, es necesario que se cumplan simultáneamente.
 - Exclusión mutua, recursos no compartibles.

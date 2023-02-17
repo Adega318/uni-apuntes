@@ -18,7 +18,7 @@
             }
           },
           {
-            "id": "4bffd64877314d01",
+            "id": "7d861872e72c9537",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2º/2º/cp/teoría/cp-seción_critica.md",
+                "file": "2º/2º/cp/teoría/cp-barbero_durmiente.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2º/2º/cp/teoría/cp-seción_critica.md",
+                "file": "2º/2º/cp/teoría/cp-barbero_durmiente.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2º/2º/cp/teoría/cp-seción_critica.md",
+                "file": "2º/2º/cp/teoría/cp-barbero_durmiente.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2º/2º/cp/teoría/cp-seción_critica.md"
+                "file": "2º/2º/cp/teoría/cp-barbero_durmiente.md"
               }
             }
           },
@@ -184,12 +184,12 @@
     "2º/2º/cp/teoría/cp-interbloqueo_inanición.md",
     "2º/2º/cp/teoría/cp-barbero_durmiente.md",
     "2º/2º/cp/teoría/cp-productores_consumidores.md",
+    "2º/2º/cp/teoría/cp-seción_critica.md",
     "2º/2º/cp/teoría/cp-lectores_escritores.md",
     "[[cp-productores_consumidores.md",
     "2º/2º/cp/teoría/cp-teoría.md",
     "2º/2º/bd/bd-info.md",
     "2º/2º/bd/teoríca/bd-t2.md",
-    "2º/2º/bd/teoríca/bd-teoría.md",
-    "2º/2º/2º Cuatrimestre.md"
+    "2º/2º/bd/teoríca/bd-teoría.md"
   ]
 }
