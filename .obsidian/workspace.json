@@ -1,0 +1,156 @@
+{
+  "main": {
+    "id": "2d6649fc441a7c46",
+    "type": "split",
+    "children": [
+      {
+        "id": "50ff358f723b33b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a5f7d2c2e5eaada6",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "78534298e87f178f",
+    "type": "split",
+    "children": [
+      {
+        "id": "c51a96e4e50b2030",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "265370a69a39bb95",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3dbe2208d25dfd12",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "38a609cbeae920f3",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "f6f640bf64fd71bd",
+    "type": "split",
+    "children": [
+      {
+        "id": "1496d700ddeec1e5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6ae15e3a051ddee9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4db96a797af24e91",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "02e878f2df53386d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4a497fef4733c0db",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "a5f7d2c2e5eaada6",
+  "lastOpenFiles": [
+    "2º/2º/bd/teoríca/bd-t2.md",
+    "2º/2º/bd/bd-info.md",
+    "2º/2º/bd/teoríca/bd-teoría.md",
+    "2º/2º/2º Cuatrimestre.md",
+    "2º/2º/cp/cp-info.md",
+    "2º/2º/cp/teoría/cp-teoría.md",
+    "2º/2º/cp/teoría/cp-t4.md",
+    "2º/2º/cp/teoría/cp-t5.md",
+    "Untitled.md",
+    "Untitled.canvas"
+  ]
+}
