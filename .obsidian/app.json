@@ -13,7 +13,9 @@
     "broadcast",
     "threads",
     "Signals",
-    "thread"
+    "thread",
+    "Wait",
+    "wait"
   ],
   "promptDelete": false
 }
