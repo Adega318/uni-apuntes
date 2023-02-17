@@ -1,5 +1,7 @@
 # Descripción
-Cuando tenemos productores y consumidores compartiendo un mismo sistema, se debe implement
+Cuando tenemos productores y consumidores compartiendo un mismo sistema, se debe implementar métodos de sincronización.
 # Broadcast
+El broadcast se basa en poner a esperar a los threads en un canal y despertarlos simultáneamente al encenderlo. Es una solución simple pero poco eficiente al despertar todos los threads simultáneamente.
 # Signals
-# Sem
+Las señales se basan en poner a esperar a los threads en un canal, cuando sea posteada esa variable y su valor sea 0 un thread despertará. Es un método ampliamente eficiente pero difícil de implementar.
+# Semáforos
