@@ -14,7 +14,7 @@ A análisis del problema
 ## Evolución
 Los requisitos evolucionarán a causa de las distintas fuentes y las cuestiones. Otra causa puede ser el cambio en la empresa.
 ## Proceso
-![](https://lh6.googleusercontent.com/CtPIlsttxSu7KKjWRl4Ke13XszYbEk1EL1v372b2B5vvCM3Y7jryKyogNqv66Rt0Fbmcj_7VjhW6-IQL5MgQeQ3n1GBVsgHP1YwkAfPt7z14CHMJs6VOEtdMf8J4OHVF9Ie0GErJG5P0jODaBvSX8kM)
+![[Pasted image 20230218174203.png]]
 ## Tipos
 ### Negocio
 ### Usuario
@@ -34,12 +34,11 @@ Búsqueda de ideas y opciones para el proyecto.
 ### Modelos casos de uso
 El modelo se basa en un diagrama, donde aparece las iteraciones con el programa.
 Actores: representación de los usuarios que dan las entradas. Siendo los principales los que hacen empleo del sistema y los secundarios los creados para el mismo.
-El nombre de un caso de uso debe representar la tarea a realizar por el sistema desde la vista del actor.
+El nombre de un caso de utilización debe representar la tarea a realizar por el sistema desde la vista del actor.
 #### Relaciones
-![](https://lh4.googleusercontent.com/ecof1Dvekj5MP_jeLb0c6vJtR4Y0o4a_2lPKq-BXEbPquu8IZYmX4wMLTib1FNb62PkSVIC7DvOcIb6bxVbuOM7JldVYD5-wxJkjh9ymfPk26c46HIHriPOkmKuGkbQMQwOdqH4PzjIRIiIfiMwI5V4)
+![[Pasted image 20230218174304.png]]
 #### Documento
-![](https://lh5.googleusercontent.com/CxRVygT7ml4Odi7JiaGytI4y_nzVvQcbKOjIeGgnsM2ofogQk6tcMYRPsupxBECYR3hb8N5yjZHE0DC7y3xLcIaI5g71RjYJhFOWcJpUhhE49UqQ3A0OohPXyaYXR9sl2eNn1aVxPd6V0yO_UkOSFM4)
-![](https://lh4.googleusercontent.com/vkeWGU0ojQ-CHc4gTgQ9n_bXeknGSW6Q-pGJZIFw6Rpvw0WKverfhc0F7sow3DGuBb2XFTeH7SPUY7yqpMTsZhzSaFex7ICuAAhsbhmOtAci4ipM2vS3_6Wtf_fisy_XpceQqg6GDZei6oxsWKIPxLk)
+![[Pasted image 20230218174330.png]]![[Pasted image 20230218174346.png]]
 #### Proceso
 - Identificar actores
 - Identificar casos de uso de los mismos

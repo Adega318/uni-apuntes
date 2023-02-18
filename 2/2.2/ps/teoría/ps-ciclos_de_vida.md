@@ -27,6 +27,7 @@ Aplicable en proyectos de alto riesgo. El procedimiento son iteraciones consecut
 - Desarrollo iterativo e incremental
 - Eliminación de fronteras entre fases
 - Incorporan bibliotecas de clases y otros componentes reutilizables
+![[Pasted image 20230218174434.png]]
 # Tags
 #2- 
 #2-2 
