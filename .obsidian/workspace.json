@@ -18,19 +18,31 @@
             }
           },
           {
-            "id": "294a1c7053c2a06b",
+            "id": "0671824f73ec2834",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2/2.2/2-2-index.md",
+                "file": "2/2.2/red/teoría/red-redes_e_internet.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dd79cd80504a9536",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2/2.2/red/teoría/red-tcp_ip.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -96,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2/2.2/2-2-index.md",
+                "file": "2/2.2/red/teoría/red-tcp_ip.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2/2.2/2-2-index.md",
+                "file": "2/2.2/red/teoría/red-tcp_ip.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2/2.2/2-2-index.md"
+                "file": "2/2.2/red/teoría/red-tcp_ip.md"
               }
             }
           },
@@ -167,17 +179,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "294a1c7053c2a06b",
+  "active": "dd79cd80504a9536",
   "lastOpenFiles": [
+    "2/2.2/red/teoría/red-redes_e_internet.md",
+    "2/2.2/red/red-index.md",
+    "2/2.2/2-2-index.md",
     "recursos/obsidian-utility.md",
     "recursos/templates/index-template.md",
     "2/2.2/ps/teoría/ps-ciclos_de_vida.md",
     "2/2.2/ps/ps-index.md",
     "recursos/imagenes/Pasted image 20230218174346.png",
     "2/2.2/ps/teoría/ps-análisis_de_requisitos.md",
-    "2/2.2/ps/teoría/ps-introdución.md",
-    "2/2.2/2-2-index.md",
-    "2/2.2/si/teoría/si-búsqueda.md",
-    "2/2.2/si/si-index.md"
+    "2/2.2/ps/teoría/ps-introdución.md"
   ]
 }
