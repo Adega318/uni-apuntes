@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "recursos/obsidian-utility.md",
+                "file": "recursos/templates/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "recursos/obsidian-utility.md",
+                "file": "recursos/templates/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "recursos/obsidian-utility.md",
+                "file": "recursos/templates/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "recursos/obsidian-utility.md"
+                "file": "recursos/templates/index.md"
               }
             }
           },
@@ -181,6 +181,7 @@
   },
   "active": "64f0b62637137737",
   "lastOpenFiles": [
+    "recursos/obsidian-utility.md",
     "recursos/templates/index.md",
     "2º/2º/ps/teoría/ps-introdución.md",
     "2º/2º/si/teoría/si-introdución.md",
@@ -189,7 +190,6 @@
     "2º/2º/bd/bd-index.md",
     "2º/2º/cp/cp-index.md",
     "2º/2º/si/si-index.md",
-    "2º/2º/ps/ps-index.md",
-    "2º/2º/si/teoría/si-búsqueda.md"
+    "2º/2º/ps/ps-index.md"
   ]
 }
