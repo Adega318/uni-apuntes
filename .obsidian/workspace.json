@@ -4,33 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "68a8c5df3712f5fa",
+        "id": "fa87a292ff686c53",
         "type": "tabs",
         "children": [
           {
-            "id": "b5a5f773b450fa15",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true
-            }
-          },
-          {
-            "id": "deb2a47878c67caa",
+            "id": "59a9722a77c6be01",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2º/2º/si/teoría/si-búsqueda.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2º/2º/si/teoría/si-búsqueda.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2º/2º/si/teoría/si-búsqueda.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,21 +118,10 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2º/2º/si/teoría/si-búsqueda.md"
-              }
-            }
-          },
-          {
-            "id": "ce64eea7a84e8145",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -167,17 +139,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "deb2a47878c67caa",
+  "active": "59a9722a77c6be01",
   "lastOpenFiles": [
-    "2º/2º/bd/teoríca/bd-diseño_lógico.md",
-    "2º/2º/si/teoría/si-búsqueda.md",
-    "2º/2º/si/teoría/si-introdución.md",
-    "recursos/Pasted image 20230217210324.png",
-    "2º/2º/bd/teoríca/bd-fases_de_diseño.md",
-    "recursos/Pasted image 20230217205842.png",
-    "Pasted image 20230217203555.png.md",
-    "Pasted image 20230217203555.png",
-    "2º/2º/cp/teoría/cp-lectores_escritores.md",
-    "2º/2º/cp/teoría/cp-productores_consumidores.md"
+    "2º/2º/bd/teoríca/bd-t2.md",
+    "2º/2º/bd/teoríca/bd-teoría.md",
+    "2º/2º/bd/bd-info.md",
+    "2º/2º/2º Cuatrimestre.md",
+    "2º/2º/cp/cp-info.md",
+    "2º/2º/cp/teoría/cp-teoría.md",
+    "2º/2º/cp/teoría/cp-t4.md",
+    "2º/2º/cp/teoría/cp-t5.md"
   ]
 }
