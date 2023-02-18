@@ -32,3 +32,7 @@ Evolución del basado en metas, expandiendo los sistemas de planificación basá
 Los mundos se pueden caracterizar en deterministas o estocástico, en uno determinista una acción tiene un resultado asegurado, pero uno estocástico el resultado no está asegurado.
 ## Observabilidad
 La observabilidad puede ser completa donde se tienen todos los datos requerirles o parcial donde no todos los datos son accesible o no con la precisión requerida.
+# Tags
+#2- 
+#2-2 
+#si

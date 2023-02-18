@@ -18,12 +18,12 @@
             }
           },
           {
-            "id": "169c07c953370cad",
+            "id": "ad5013fc49281cf1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2/2.2/bd/bd-index.md",
+                "file": "2/2.2/ps/ps-index.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2/2.2/bd/bd-index.md",
+                "file": "2/2.2/ps/ps-index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2/2.2/bd/bd-index.md",
+                "file": "2/2.2/ps/ps-index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2/2.2/bd/bd-index.md"
+                "file": "2/2.2/ps/ps-index.md"
               }
             }
           },
@@ -167,17 +167,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "169c07c953370cad",
+  "active": "ad5013fc49281cf1",
   "lastOpenFiles": [
-    "2/2-index.md",
-    "recursos/templates/tags.md",
     "2/2.2/2-2-index.md",
-    "2/2.2/cp/cp-index.md",
-    "2/2.2/cp/teoría/cp-lectores_escritores.md",
-    "2/2.2/cp/teoría/cp-seción_critica.md",
-    "2/2.2/cp/teoría/cp-productores_consumidores.md",
-    "2/2.2/cp/teoría/cp-interbloqueo_inanición.md",
-    "2/2.2/cp/teoría/cp-barbero_durmiente.md",
-    "recursos/templates/index-template.md"
+    "2/2.2/si/teoría/si-búsqueda.md",
+    "2/2.2/si/si-index.md",
+    "2/2.2/si/teoría/si-introdución.md",
+    "2/2-index.md",
+    "2/2.2/bd/bd-index.md",
+    "2/2.2/bd/teoríca/bd-fases_de_diseño.md",
+    "2/2.2/bd/teoríca/bd-diseño_lógico.md",
+    "recursos/templates/tags.md",
+    "2/2.2/cp/cp-index.md"
   ]
 }

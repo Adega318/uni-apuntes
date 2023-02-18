@@ -79,3 +79,7 @@ La frontera será una cola de prioridad atendiendo a h(n).
 ### A*
 La búsqueda A* toma en cuenta el h(n) y el coste para tomar las decisiones.
 La heurística dará la solución adecuada si se cumple que se subestima el coste real.
+# Tags
+#2- 
+#2-2 
+#si

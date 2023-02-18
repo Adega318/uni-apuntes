@@ -72,3 +72,7 @@ Ningún atributo no primo que dependa transitivamente de una candidata.
 Para toda dependencia no trivial, el atributo de la derecha debe de ser clave superclave.
 # Desnormalización
 A causa de la atomización de las tablas en la normalización se harán joins en el uso, esto puede llevar a una falta de rendimiento, por esto en casos puntuales se puede dejar las tablas en un estado inferior.
+# Tags
+#2- 
+#2-2 
+#bd
