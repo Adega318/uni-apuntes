@@ -18,31 +18,31 @@
             }
           },
           {
-            "id": "1aa14f2bcf655584",
+            "id": "f8e3f0b6a87ed201",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "recursos/templates/000-index-template.md",
+                "file": "2º/2º/cp/cp-index.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "64f0b62637137737",
+            "id": "4f2af12865056db7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "recursos/templates/000-index-template.md",
+                "file": "recursos/templates/index-template.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "recursos/templates/000-index-template.md",
+                "file": "2º/2º/cp/cp-index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "recursos/templates/000-index-template.md",
+                "file": "2º/2º/cp/cp-index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "recursos/templates/000-index-template.md"
+                "file": "2º/2º/cp/cp-index.md"
               }
             }
           },
@@ -179,17 +179,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "64f0b62637137737",
+  "active": "f8e3f0b6a87ed201",
   "lastOpenFiles": [
-    "recursos/templates/000-index-template.md",
+    "recursos/templates/index-template.md",
+    "2º/2º/cp/cp-index.md",
+    "2º/2º/cp/teoría/cp-seción_critica.md",
     "recursos/obsidian-utility.md",
     "2º/2º/ps/teoría/ps-introdución.md",
     "2º/2º/si/teoría/si-introdución.md",
     "recursos/imagenes/Pasted image 20230217203700.png",
     "2º/2º/bd/teoríca/bd-diseño_lógico.md",
     "2º/2º/bd/bd-index.md",
-    "2º/2º/cp/cp-index.md",
-    "2º/2º/si/si-index.md",
-    "2º/2º/ps/ps-index.md"
+    "2º/2º/si/si-index.md"
   ]
 }
