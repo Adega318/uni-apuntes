@@ -18,3 +18,7 @@ La manera de prevenir el interbloqueo es asegurar el incumplimiento de alguna de
 - Espera circular, para evitarlo se puede hacer uso de la espera ordenada, requiere el establecimiento de un orden de recursos.
 # Inanición
 Es el proceso de esperar un recurso sin conseguirlo. Esto se produce cuando un recurso no compartible es accedido por muchos procesos.
+# Tags
+#2-
+#2-2
+#cp

@@ -139,3 +139,7 @@ if(seats > 0){
 }
 sem_post(seats)
 ~~~
+# Tags
+#2-
+#2-2
+#cp

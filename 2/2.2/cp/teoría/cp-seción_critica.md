@@ -52,3 +52,7 @@ int sem_timedwait(sem_t *sem, const struct timespec *abs_timeoout);
 //aztualización del valor
 int sem_post(sem_t *sem);
 ```
+# Tags
+#2-
+#2-2
+#cp

@@ -143,3 +143,7 @@ while(1) {
 	sem_post(&used); // used++ o despertar consumidor
 }
 ```
+# Tags
+#2-
+#2-2
+#cp

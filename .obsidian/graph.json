@@ -11,7 +11,7 @@
       "query": "tag:#cp",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 3377638
       }
     }
   ],
@@ -22,9 +22,9 @@
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
   "centerStrength": 0,
-  "repelStrength": 0,
+  "repelStrength": 10.8333333333333,
   "linkStrength": 0.78125,
   "linkDistance": 94,
-  "scale": 0.36288736930121435,
+  "scale": 0.06699744995282511,
   "close": false
 }
