@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "path:2º/2º/bd",
@@ -25,7 +25,14 @@
       "query": "path:2º/2º/si",
       "color": {
         "a": 1,
-        "rgb": 11657298
+        "rgb": 10558176
+      }
+    },
+    {
+      "query": "path:2º/2º/ps",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
       }
     }
   ],
