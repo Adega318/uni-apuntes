@@ -87,7 +87,7 @@ mtx wplock
 int readers = 0, writers = 0
 ```
 ### Escritores
-```
+```c
 lock(wlock)
 if(writers == 0){
 	lock(wplock)
@@ -107,7 +107,7 @@ if(writes == 0){
 unlock(wlock)
 ```
 ### Lectores
-```
+```c
 //parada de prioridad
 //mitigar competencia de lectores con el escritor
 lock(rplock)
@@ -133,13 +133,13 @@ unlock(rlock)
 ```
 ## Sincronización
 La implementación con [[cp-productores_consumidores#Sincronización por condiciones|sincronización]]:
-```
+```c
 mtx lock
 cnd in_use
 int readers = 0, writers = 0, wwait = 0
 ```
 ### Escritores
-```
+```c
 lock(lock)
 while(writers > 0 || readers > 0){
 	wwait++
@@ -157,7 +157,7 @@ broadcast(in_use)
 unlock(lock)
 ```
 ### Lectores
-```
+```c
 lock(lock)
 while(writers > 0 || wwait > 0){
 	wait(in_use, lock)

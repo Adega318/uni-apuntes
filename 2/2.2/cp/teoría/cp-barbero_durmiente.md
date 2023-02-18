@@ -3,7 +3,7 @@ Tenemos un ejecutor que tiene un espacio de espera, cuando el ejecutor (barbero)
 # Barbero simple
 Único barbero que elige clientes aleatorios de la sala de espera.
 ## Barbero
-~~~
+~~~c
 while(1){
 	lock(mut)
 	if(!customers){
@@ -18,7 +18,7 @@ while(1){
 }
 ~~~
 ## Cliente
-~~~
+~~~c
 lock(mut)
 if(customers == Max_customers){
 	unlock(mut)
@@ -37,7 +37,7 @@ if(customers == Max_customers){
 # Múltiples barberos
 Múltiples barberos simples con sala de espera compartida.
 ## Barbero
-~~~
+~~~c
 while(1){
 	lock(mut)
 	if(!customers){
@@ -52,7 +52,7 @@ while(1){
 }
 ~~~
 ## Cliente
-~~~
+~~~c
 lock(mut)
 if(customers == Max_customers){
 	unlock(mut)
@@ -71,7 +71,7 @@ if(customers == Max_customers){
 # Barberos con cola
 Múltiples barberos con cola de espera en su sala de espera.
 ## Barbero
-~~~
+~~~c
 while(1){
 	lock(mut)
 	if(!customers){
@@ -86,7 +86,7 @@ while(1){
 }
 ~~~
 ## Cliente
-~~~
+~~~c
 lock(mut)
 if(customers == Max_customers){
 	unlock(mut)
@@ -104,7 +104,7 @@ if(customers == Max_customers){
 ~~~
 # Solución con semáforos
 Los [[cp-seción_critica#Semáforos|semáforos]] complican el uso de colas y barberos concretos.
-~~~
+~~~c
 sem customers
 sem barber
 sem seats
@@ -116,7 +116,7 @@ sem_init barber
 sem_init seats
 ~~~
 ## Barbero
-~~~
+~~~c
 while(1){
 	sem_wait(customers)
 	sem_wait(seats)
@@ -126,9 +126,8 @@ while(1){
 	cut()
 }
 ~~~
-
 ## Cliente
-~~~
+~~~c
 sem_trywait(seats)
 if(seats > 0){
 	seats--
