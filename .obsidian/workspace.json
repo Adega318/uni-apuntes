@@ -28,9 +28,57 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9fa942895284cdbd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2º/2º/bd/teoríca/bd-diseño_lógico.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8fa180d3e9923d86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2º/2º/cp/cp-index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0c808507a45ab3e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2º/2º/ps/ps-index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c2332fdc803450c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2º/2º/si/si-index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -96,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2º/2º/ps/teoría/ps-introdución.md",
+                "file": "2º/2º/bd/teoríca/bd-diseño_lógico.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2º/2º/ps/teoría/ps-introdución.md",
+                "file": "2º/2º/bd/teoríca/bd-diseño_lógico.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2º/2º/ps/teoría/ps-introdución.md"
+                "file": "2º/2º/bd/teoríca/bd-diseño_lógico.md"
               }
             }
           },
@@ -167,17 +215,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "197ecec0114ec76c",
+  "active": "9fa942895284cdbd",
   "lastOpenFiles": [
-    "2º/2º/si/teoría/si-búsqueda.md",
+    "2º/2º/bd/bd-index.md",
+    "2º/2º/cp/cp-index.md",
+    "2º/2º/si/si-index.md",
+    "2º/2º/ps/ps-index.md",
     "2º/2º/ps/teoría/ps-introdución.md",
+    "2º/2º/si/teoría/si-búsqueda.md",
     "2º/2º/bd/teoríca/bd-diseño_lógico.md",
     "2º/2º/si/teoría/si-introdución.md",
     "recursos/Pasted image 20230217210324.png",
-    "2º/2º/bd/teoríca/bd-fases_de_diseño.md",
-    "recursos/Pasted image 20230217205842.png",
-    "Pasted image 20230217203555.png.md",
-    "Pasted image 20230217203555.png",
-    "2º/2º/cp/teoría/cp-lectores_escritores.md"
+    "2º/2º/bd/teoríca/bd-fases_de_diseño.md"
   ]
 }
