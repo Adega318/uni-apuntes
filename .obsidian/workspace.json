@@ -28,9 +28,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "75c6ec20e6fd98d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2/2.2/ps/teoría/ps-introdución.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -96,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2/2.2/ps/ps-index.md",
+                "file": "2/2.2/ps/teoría/ps-introdución.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2/2.2/ps/ps-index.md",
+                "file": "2/2.2/ps/teoría/ps-introdución.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2/2.2/ps/ps-index.md"
+                "file": "2/2.2/ps/teoría/ps-introdución.md"
               }
             }
           },
@@ -167,8 +179,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ad5013fc49281cf1",
+  "active": "75c6ec20e6fd98d2",
   "lastOpenFiles": [
+    "2/2.2/ps/teoría/ps-introdución.md",
+    "2/2.2/ps/ps-index.md",
     "2/2.2/2-2-index.md",
     "2/2.2/si/teoría/si-búsqueda.md",
     "2/2.2/si/si-index.md",
@@ -176,8 +190,6 @@
     "2/2-index.md",
     "2/2.2/bd/bd-index.md",
     "2/2.2/bd/teoríca/bd-fases_de_diseño.md",
-    "2/2.2/bd/teoríca/bd-diseño_lógico.md",
-    "recursos/templates/tags.md",
-    "2/2.2/cp/cp-index.md"
+    "2/2.2/bd/teoríca/bd-diseño_lógico.md"
   ]
 }
