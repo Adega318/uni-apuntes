@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2º/2º/cp/cp-index.md",
+                "file": "2/2.2/cp/cp-index.md",
                 "mode": "source",
                 "source": false
               }
@@ -41,8 +41,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +107,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2º/2º/cp/cp-index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +123,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2º/2º/cp/cp-index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,9 +144,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2º/2º/cp/cp-index.md"
-              }
+              "state": {}
             }
           },
           {
@@ -179,17 +174,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f8e3f0b6a87ed201",
+  "active": "b5a5f773b450fa15",
   "lastOpenFiles": [
+    "2/2.2/cp/cp-index.md",
     "recursos/templates/index-template.md",
-    "2º/2º/cp/cp-index.md",
-    "2º/2º/cp/teoría/cp-seción_critica.md",
+    "2/2.2/cp/teoría/cp-seción_critica.md",
     "recursos/obsidian-utility.md",
-    "2º/2º/ps/teoría/ps-introdución.md",
-    "2º/2º/si/teoría/si-introdución.md",
+    "2/2.2/ps/teoría/ps-introdución.md",
+    "2/2.2/si/teoría/si-introdución.md",
     "recursos/imagenes/Pasted image 20230217203700.png",
-    "2º/2º/bd/teoríca/bd-diseño_lógico.md",
-    "2º/2º/bd/bd-index.md",
-    "2º/2º/si/si-index.md"
+    "2/2.2/bd/teoríca/bd-diseño_lógico.md",
+    "2/2.2/bd/bd-index.md",
+    "2/2.2/si/si-index.md"
   ]
 }

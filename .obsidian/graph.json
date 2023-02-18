@@ -8,38 +8,10 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:2º/2º/bd",
+      "query": "tag:#cp",
       "color": {
         "a": 1,
         "rgb": 14701138
-      }
-    },
-    {
-      "query": "path:2º/2º/cp",
-      "color": {
-        "a": 1,
-        "rgb": 4291308
-      }
-    },
-    {
-      "query": "path:2º/2º/si",
-      "color": {
-        "a": 1,
-        "rgb": 10558176
-      }
-    },
-    {
-      "query": "path:2º/2º/ps",
-      "color": {
-        "a": 1,
-        "rgb": 5431378
-      }
-    },
-    {
-      "query": "path:recursos",
-      "color": {
-        "a": 1,
-        "rgb": 16777215
       }
     }
   ],
@@ -53,6 +25,6 @@
   "repelStrength": 0,
   "linkStrength": 0.78125,
   "linkDistance": 94,
-  "scale": 0.3628873693012141,
+  "scale": 0.36288736930121435,
   "close": false
 }

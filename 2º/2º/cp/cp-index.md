@@ -1,3 +1,0 @@
-# Teóricas
-
-# Prácticas
