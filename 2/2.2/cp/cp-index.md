@@ -1,3 +1,4 @@
+[[2-2-index]]
 # Teóricas
 1. [[cp-seción_critica]]
 2. [[cp-interbloqueo_inanición]]

@@ -6,7 +6,7 @@ La exclusión mutua es el proceso donde el acceso a la sección crítica es excl
 Las instrucciones atómicas con la cuales permiten el bloqueo y desbloqueo para la gestión de la sección crítica.
 ## Mutex
 Los mutex son variables que permiten el bloqueo y  desbloqueo.
-```
+```c
 enum{
 	mtx_plain,
 	mtx_recursive,
@@ -32,7 +32,7 @@ int mtx_unlock(mtx_t *mutex);
 ```
 ## Semáforos
 Los semáforos son variables de tipo int sobre las que se puede esperar a su llegada a 0 y actualizar valor.
-```
+```c
 sem_t *sem;
 //sem tiene que encontrarse en u espacio de memoria compartida por los procesos
 

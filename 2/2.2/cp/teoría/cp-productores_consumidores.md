@@ -3,7 +3,7 @@ Cuando tenemos productores y consumidores compartiendo un mismo buffer, se debe 
 ## Mutex
 la implementación mediante [[cp-seción_critica#Mutex|mutex]] presenta el problema de la espera activa, donde se está comprobando constantemente si se libera.
 ### Consumidor
-```
+```c
 while(1) {  
 	elemento e; int removed;  
 	removed = 0;  
@@ -19,7 +19,7 @@ while(1) {
 }
 ```
 ### Productor
-```
+```c
 mtx_t buffer_lock;
 while(1) {
 	elemento e = crear_elemento(); int inserted;
@@ -40,7 +40,7 @@ Los wait deben de ser atómicos, si no se cumple el estado del buffer puede camb
 antes de que el thread duerma, lo que causara el problema [lost wakeup](https://docs.oracle.com/cd/E19120-01/open.solaris/816-5137/sync-30/index.html)
 ## Broadcast
 El broadcast se basa en poner a esperar a los threads en un canal y despertarlos simultáneamente al encenderlo. Es una solución simple pero poco eficiente al despertar todos los threads simultáneamente.
-```
+```c
 cnd_t cond;
 
 //declaración
@@ -58,7 +58,7 @@ int cnd_wait(cnd_t *, mtx_t *);
 int cnd_timedwait(cnd_t *, mtx_t *, struct timespec *);
 ```
 ### Consumidor
-```
+```c
 while(1) {
 	elemento e;
 	mtx_lock(buffer_lock);
@@ -74,7 +74,7 @@ while(1) {
 }
 ```
 ### Productor
-```
+```c
 while(1) {  
 	elemento e = crear_elemento();  
 	mtex_lock(buffer_lock);  
@@ -89,7 +89,7 @@ while(1) {
 ```
 ## Signals
 Las señales se basan en poner a esperar a los threads en un canal, cuando se mande una señal un thread despertará. Es un método ampliamente eficiente pero difícil de implementar.
-```
+```c
 cnd_t cond;
 
 //declaración
@@ -111,7 +111,7 @@ Cuando se pone a esperar a un thread, se debe confirmar la condición despertado
 # Semáforos
 La implementación mediante el uso de [[cp-seción_critica#Semáforos|semáforos]]:
 ## Declaración
-```
+```c
 //estado del buffet
 sem_init(&empty, 1, buffer_size());
 sem_init(&used, 1, 0);
@@ -121,7 +121,7 @@ sem_t mutex;
 sem_init(&mutex, 1, 1);
 ```
 ## Consumidor
-```
+```c
 while(1) {
 	elemento e;
 	sem_wait(&used); // used-- o esperar
@@ -133,7 +133,7 @@ while(1) {
 }
 ```
 ## Productor
-```
+```c
 while(1) {
 	elemento e = crear_elemento();
 	sem_wait(&empty); // empty-- o espera

@@ -4,19 +4,19 @@ El problema de los lectores y escritores es uno donde varios lectores intentan o
 Cuando le damos la prioridad a los lectores si hay un lector pasará antes que cualquier escritor.
 ## Mutex
 La implementación con [[cp-seción_critica#Mutex|mutex]]:
-~~~
+~~~c
 mtx lock
 mtx rlock
 int readers = 0
 ~~~
 ### Escritores
-~~~
+~~~c
 lock(lock)
 write()
 unlock(lock)
 ~~~
 ### Lectores
-```
+```c
 lock(rlock)
 if(readers == 0){
 	lock(lock)
@@ -36,13 +36,13 @@ unlock(rlock)
 ```
 ## Sincronización
 La implementación con [[cp-productores_consumidores#Sincronización por condiciones|sincronización]]:
-```
+```c
 int readers = 0, writers = 0
 cnd in_use
 mtx lock
 ```
 ### Escritores
-```
+```c
 lock(lock)
 while(writers > 0 || readers > 0){
 	wait(in_use, lock)
@@ -58,7 +58,7 @@ broadcast(in_use)
 unlock(lock)
 ```
 ### Lectores
-```
+```c
 lock(lock)
 while(writers > 0){
 	wait(in_use, lock)
@@ -78,7 +78,7 @@ unlock(lock)
 Cuando le damos la prioridad a los escritores si hay un escritor pasará antes que cualquier lector.
 ## Mutex
 La implementación con [[cp-seción_critica#Mutex|mutex]]:
-```
+```c
 mtx lock
 mtx rlock
 mtx wlock
