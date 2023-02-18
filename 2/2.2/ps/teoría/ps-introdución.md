@@ -46,19 +46,14 @@ Proporcionar soporte y automatizar algunas tareas.
 Fragmentación del problema original en problemas manejables para solucionarlos. La síntesis es la unión de estas soluciones para dar respuesta al problema original.
 ## Cliente/Usuario
 El cliente es el que adquiere el producto y el usuario quien hace uso del mismo.
-
-## Proucto
+## Producto
 Resultado de cada etapa o activador, denominado a su vez como artefacto. (artefacto: algo tangible)
-
 ## Proyecto
 Actividades relacionadas para lograr un fin específico, con comienzo y fin definidos. Sujeto a restricciones de tiempo, presupuesto y alcance.
-
 ### Proyecto Software
 Creación de un producto software con su documentación basándose en los requerimientos.
-
 ## Proceso
 Conjunto de pasos que transforman un conjunto de entradas en un conjunto de salidas.
-
 ### Proceso software
 Conjunto coherente de políticas, estructuras organizacionales, tecnologías, procedimientos y artefactos que son necesarios para concebir, desarrollar, instalar y mantener un producto software.
 # Tags
