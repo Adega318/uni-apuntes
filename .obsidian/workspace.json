@@ -67,7 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 329.5
   },
   "right": {
     "id": "76350bb42f90fd9e",
@@ -151,15 +151,15 @@
   },
   "active": "fe36f533005d7a82",
   "lastOpenFiles": [
+    "2/2.2/red/red-index.md",
+    "2/2.2/red/teoría/red-tcp_ip.md",
+    "2/2.2/red/teoría/red-redes_e_internet.md",
     "Untitled/2/2.2/red/red-index.md",
     "Untitled/2/2.2/red/teoría/red-aplicaciones-1.md",
     "Untitled/2/2.2/red/teoría/red-tcp_ip.md",
     "Untitled/2/2.2/red/teoría/red-redes_e_internet.md",
     "Untitled/2/2.2/2-2-index.md",
     "recursos/obsidian-utility.md",
-    "recursos/templates/index-template.md",
-    "Untitled/2/2.2/ps/teoría/ps-ciclos_de_vida.md",
-    "Untitled/2/2.2/ps/ps-index.md",
-    "recursos/imagenes/Pasted image 20230218174346.png"
+    "recursos/templates/index-template.md"
   ]
 }
