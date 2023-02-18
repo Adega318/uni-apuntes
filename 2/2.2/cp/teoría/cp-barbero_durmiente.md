@@ -142,6 +142,3 @@ sem_post(seats)
 #2-
 #2-2
 #cp
-
-```note-
-```
