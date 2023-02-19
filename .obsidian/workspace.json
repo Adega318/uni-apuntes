@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fa87a292ff686c53",
+        "id": "8c3bff8c7a973cfe",
         "type": "tabs",
         "children": [
           {
-            "id": "59a9722a77c6be01",
+            "id": "404498d51fcaab33",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -139,7 +139,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "59a9722a77c6be01",
+  "active": "404498d51fcaab33",
   "lastOpenFiles": [
     "2º/2º/bd/teoríca/bd-t2.md",
     "2º/2º/bd/teoríca/bd-teoría.md",
