@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "68a8c5df3712f5fa",
+        "id": "c9d1ede8d04fbb72",
         "type": "tabs",
         "children": [
           {
-            "id": "b5a5f773b450fa15",
+            "id": "fe4fedee7b4f4e00",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "graph",
-              "state": {},
-              "pinned": true
+              "state": {}
             }
           }
         ]
@@ -67,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 329.5,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "76350bb42f90fd9e",
@@ -125,14 +122,15 @@
             }
           },
           {
-            "id": "ce64eea7a84e8145",
+            "id": "ce656c169068e771",
             "type": "leaf",
             "state": {
-              "type": "advanced-tables-toolbar",
+              "type": "git-view",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -150,17 +148,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b5a5f773b450fa15",
+  "active": "fe4fedee7b4f4e00",
   "lastOpenFiles": [
-    "recursos/obsidian-utility.md",
-    "2/2.2/cp/teoría/cp-barbero_durmiente.md",
-    "2/2.2/cp/cp-index.md",
-    "2/2.2/cp/teoría/cp-lectores_escritores.md",
-    "2/2.2/cp/teoría/cp-productores_consumidores.md",
-    "2/2.2/cp/teoría/cp-interbloqueo_inanición.md",
-    "2/2.2/cp/teoría/cp-seción_critica.md",
-    "2/2.2/ps/ps-index.md",
-    "2/2.2/ps/teoría/ps-introdución.md",
-    "2/2.2/2-2-index.md"
+    "conflict-files-obsidian-git.md",
+    "Pasted image 20230217205818.png.md",
+    "2º/2º/bd/teoríca/bd-t2.md",
+    "2º/2º/bd/teoríca/bd-teoría.md",
+    "2º/2º/bd/bd-info.md",
+    "2º/2º/2º Cuatrimestre.md",
+    "2º/2º/cp/cp-info.md",
+    "2º/2º/cp/teoría/cp-teoría.md",
+    "2º/2º/cp/teoría/cp-t4.md",
+    "2º/2º/cp/teoría/cp-t5.md"
   ]
 }
