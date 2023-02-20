@@ -5,27 +5,41 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:2º/2º/bd",
+      "query": "tag:#si",
       "color": {
         "a": 1,
         "rgb": 14701138
       }
     },
     {
-      "query": "path:2º/2º/cp",
+      "query": "tag:#bd",
       "color": {
         "a": 1,
-        "rgb": 4291308
+        "rgb": 14725458
       }
     },
     {
-      "query": "path:2º/2º/si",
+      "query": "tag:#ps",
       "color": {
         "a": 1,
         "rgb": 11657298
+      }
+    },
+    {
+      "query": "tag:#red",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "tag:#cp",
+      "color": {
+        "a": 1,
+        "rgb": 2444260
       }
     }
   ],
@@ -40,5 +54,5 @@
   "linkStrength": 1,
   "linkDistance": 133,
   "scale": 0.3628873693012135,
-  "close": false
+  "close": true
 }
