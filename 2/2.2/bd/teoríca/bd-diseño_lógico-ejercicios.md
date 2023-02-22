@@ -80,6 +80,9 @@ Dept
 Pro
 	CodP -> PresP
 
+Pasos del 4 a :
+NumE -> NomE, NumD+
+
 # Tags
 #2- 
 #2-2 
