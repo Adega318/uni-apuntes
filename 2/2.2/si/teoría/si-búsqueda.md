@@ -65,6 +65,8 @@ Con respecto a la implementación con listas, se utilizará una pila para la fro
 ### Limitada
 Explora en profundidad, rindiéndose cuando el camino supera una profundidad.
 ### Iterativa
+## Local
+La búsqueda local 
 ## Complejidad
 ![[Pasted image 20230217211221.png]]
 # Búsqueda informada
