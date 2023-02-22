@@ -73,7 +73,7 @@ F= {NumE → NomE, NumD
 NumD → NomD, DirD
 NomD → NumD, DirD
 DirD → NumD, NomD
-CodP → PresP }
+CodP → PresP}
 ## 1.
 
 # Tags
