@@ -104,7 +104,19 @@ Pro
 	CodP -> PresP 2FN
 
 R1(NumD, NomD, DIrD)
-F1{NumD -}
+F1{
+	NumD -> NomD, DirD
+	NomD -> NumD, DirD
+	DirD -> NumD, NomD
+}
+CC1 NumD, CC2 NomD, CC3 DirD
+FNBC
+
+R2(NumE, NomE, NumD, CodP, PresP)
+F2{
+	NumE -> NomE, NumD
+	
+}
 # Tags
 #2- 
 #2-2 

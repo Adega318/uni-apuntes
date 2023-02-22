@@ -81,7 +81,8 @@ A causa de la atomización de las tablas en la normalización se harán joins en
 5. Ponemos como claves los que no aparezcan en la derecha.
 6. Hacemos las formas normales.
 	- Primero resolvemos las más altas.
-	- Cojemos las que solo esten en la izquierda.
+	- Cogemos las que solo estén en la izquierda.
+	- Dividimos en relaciones
 # Tags
 #2- 
 #2-2 
