@@ -114,9 +114,16 @@ FNBC
 
 R2(NumE, NomE, NumD, CodP, PresP)
 F2{
-	NumE -> NomE, NumD
-	
+	NumE -> NomE, NumD 
+	CodP -> PresP
 }
+2FN
+
+R3(CodP, PresP)
+F3{
+	CodP -> PresP
+}
+FNBC
 # Tags
 #2- 
 #2-2 
