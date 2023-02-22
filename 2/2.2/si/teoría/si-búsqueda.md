@@ -81,7 +81,8 @@ La heurística dará la solución adecuada si se cumple que se subestima el cost
 ## Local
 ### Escalada
 Elige el mejor de los sucesores basándose en la heurística, siempre que los sucesores sean mejores que el padre.
-- Cresta, la cresta se forma cuando 
+- Cresta, región de estados mejores pero a los que no podemos llegar con movimientos simples.
+- Mesetas, región donde todos los estados tienen el mismo valor en un paso simple.
 # Tags
 #2- 
 #2-2 
