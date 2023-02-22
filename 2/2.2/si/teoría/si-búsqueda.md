@@ -80,7 +80,8 @@ La búsqueda A* toma en cuenta el h(n) y el coste para tomar las decisiones.
 La heurística dará la solución adecuada si se cumple que se subestima el coste real.
 ## Local
 ### Escalada
-Elige el mejor de los sucesores basandose en la heuristica, siempre que los sucesores sean mejores que el padre.
+Elige el mejor de los sucesores basándose en la heurística, siempre que los sucesores sean mejores que el padre.
+- Cresta, la cresta se forma cuando 
 # Tags
 #2- 
 #2-2 
