@@ -80,8 +80,7 @@ La búsqueda A* toma en cuenta el h(n) y el coste para tomar las decisiones.
 La heurística dará la solución adecuada si se cumple que se subestima el coste real.
 ## Local
 ### Escalada
-Hace búsqueda del estado máximo local.
-Esto se traduce en que elige el mejor de los sucesores, siempre que los sucesores sean mejores que el padre.
+Elige el mejor de los sucesores basandose en la heuristica, siempre que los sucesores sean mejores que el padre.
 # Tags
 #2- 
 #2-2 
