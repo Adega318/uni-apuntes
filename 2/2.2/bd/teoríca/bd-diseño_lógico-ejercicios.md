@@ -80,7 +80,7 @@ Dept
 Pro
 	CodP -> PresP
 
-Pasos del 4:
+Paso 4:
 Emp
 	NumE -> NomE, NumD
 Dept
@@ -92,6 +92,19 @@ Pro
 
 Paso 5:
 (NumE, CodP)
+
+Paso 6:
+Emp
+	NumE -> NomE, NumD 2FN
+Dept
+	NumD -> NomD, DirD 3FN
+	NomD -> NumD, DirD 3FN
+	DirD -> NumD, NomD 3FN
+Pro
+	CodP -> PresP 2FN
+
+R1(NumD, NomD, DIrD)
+F1{NumD -}
 # Tags
 #2- 
 #2-2 
