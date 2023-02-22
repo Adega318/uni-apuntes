@@ -69,13 +69,10 @@ FNBC //Toda relación tiene en la izquierda la candidata
 # Ejers clase teórica 22/02/23
 Datos del ejer 2 boletín:
 R(NumE, NomE, NumD, NomD, DirD, CodP, PresP)
-F= {NumE → NomE, NumD
-NumD → NomD, DirD
-NomD → NumD, DirD
-DirD → NumD, NomD
-CodP → PresP}
 ## 1.
-
+Emp
+	NumE -> NomE
+	
 # Tags
 #2- 
 #2-2 

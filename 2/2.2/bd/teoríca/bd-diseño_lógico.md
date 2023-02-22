@@ -73,6 +73,9 @@ Para toda dependencia no trivial, el atributo de la derecha debe de ser clave su
 # Desnormalización
 A causa de la atomización de las tablas en la normalización se harán joins en el uso, esto puede llevar a una falta de rendimiento, por esto en casos puntuales se puede dejar las tablas en un estado inferior.
 # [[bd-diseño_lógico-ejercicios|Ejercicios]]
+## Reglas de resolución
+1. Agrupar por tipos.
+2. Establecer las dependencias provisionales, primero en los tipos y considerando la inversa.
 # Tags
 #2- 
 #2-2 
