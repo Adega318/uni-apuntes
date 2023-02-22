@@ -65,22 +65,23 @@ Con respecto a la implementación con listas, se utilizará una pila para la fro
 ### Limitada
 Explora en profundidad, rindiéndose cuando el camino supera una profundidad.
 ### Iterativa
-## Local
-La búsqueda local 
 ## Complejidad
 ![[Pasted image 20230217211221.png]]
 # Búsqueda informada
 ## Preferente por el mejor
 Para establecer los estados más favorables es determinado por la función heurística h(n).
 Función heurística: convierte un estado en un valor numérico.
-## Tipos de búsqueda
-### Avara
+## Avara
 La búsqueda avara es la que siempre elige el nodo más prometedor en h(n) sin tener en cuenta el coste.
 La frontera será una cola de prioridad atendiendo a h(n).
 ![[Pasted image 20230217211300.png]]
-### A*
+## A*
 La búsqueda A* toma en cuenta el h(n) y el coste para tomar las decisiones.
 La heurística dará la solución adecuada si se cumple que se subestima el coste real.
+## Local
+### Escalada
+Hace búsqueda del estado máximo local.
+Esto se traduce en que elige el mejor de los sucesores, siempre que los sucesores sean mejores que el padre.
 # Tags
 #2- 
 #2-2 
