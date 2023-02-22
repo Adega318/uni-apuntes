@@ -70,9 +70,16 @@ FNBC //Toda relación tiene en la izquierda la candidata
 Datos del ejer 2 boletín:
 R(NumE, NomE, NumD, NomD, DirD, CodP, PresP)
 ## 1.
+Pasos del 1 al 3:
 Emp
 	NumE -> NomE
-	
+Dept
+	NumD -> NomD, DirD
+	NomD -> NumD, DirD
+	DirD -> NumD, NomD
+Pro
+	CodP -> PresP
+
 # Tags
 #2- 
 #2-2 
