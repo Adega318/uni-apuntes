@@ -78,6 +78,7 @@ A causa de la atomización de las tablas en la normalización se harán joins en
 2. Establecer las dependencias provisionales, primero en los tipos y considerando la inversa.
 3. Unir las que tengan el mismo lado izquierdo.
 4. Establecemos dependencias entre los tipos.
+5. Ponemos como claves los que no aparezcan el la derecha.
 # Tags
 #2- 
 #2-2 

@@ -80,9 +80,18 @@ Dept
 Pro
 	CodP -> PresP
 
-Pasos del 4 a :
-NumE -> NomE, NumD+
+Pasos del 4:
+Emp
+	NumE -> NomE, NumD
+Dept
+	NumD -> NomD, DirD
+	NomD -> NumD, DirD
+	DirD -> NumD, NomD
+Pro
+	CodP -> PresP
 
+Paso 5:
+(NumE, CodP)
 # Tags
 #2- 
 #2-2 
