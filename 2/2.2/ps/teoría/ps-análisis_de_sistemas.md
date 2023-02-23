@@ -14,7 +14,9 @@ Aporte de los modelos:
 - reflejan las necesidades del sistema
 - establece la base
 - establece un punto de referencia para la validación del sistema.
-
+## Principios
+- pocos modelos
+- 
 
 # Tags
 #2- 
