@@ -21,3 +21,7 @@ Formato:
 ## Cookies
 Información que se guarda para facilitar la navegación y en casos indeseados seguimiento.
 ## GET condicional
+# SMTP
+Protocolo de correo electrónico, pensado para intercambio de mensajes de correo, teniendo como estándar el puerto 25.
+
+
