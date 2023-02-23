@@ -10,10 +10,10 @@ Formato de petición:
 2. N líneas con cabeceras.
 3. Línea finalización en blanco.
 Formato de respuesta:
-1. línea de respuesta.
+1. Línea de respuesta, HTTP/[versión] código.
 2. N cabeceras.
-3. línea en blanco.
-4. Contenido.
+3. Línea en blanco.
+4. Contenido (en binario).
 ## HEAD
 
 # Tags
