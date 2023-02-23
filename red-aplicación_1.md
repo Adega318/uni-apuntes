@@ -37,3 +37,4 @@ Formato:
 	- Replay-To
 - Cuerpo, información en ASCII
 ## MIME
+Método de codificación en ASCII para el envio de mensajes usando SMTP.
