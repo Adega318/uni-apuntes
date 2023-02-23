@@ -23,5 +23,17 @@ Información que se guarda para facilitar la navegación y en casos indeseados s
 ## GET condicional
 # SMTP
 Protocolo de correo electrónico, pensado para intercambio de mensajes de correo, teniendo como estándar el puerto 25.
-
-
+Funciona mediante una sincronización seguida del envío de un mensaje, el mensaje debe de ser ASCII, estando los mensajes codificados en [[#MIME|MIME]].
+Formato:
+- Cabecera, información del correo
+	- From
+	- To
+	- Cc
+	- Bcc
+	- Subject
+	- Date
+	- Message-Id
+	- Recived
+	- Replay-To
+- Cuerpo, información en ASCII
+## MIME
