@@ -16,8 +16,13 @@ Aporte de los modelos:
 - establece un punto de referencia para la validación del sistema.
 ## Principios
 - pocos modelos
-- 
-
+- centrarse en el modelo más sencillo
+- modelos mutables
+- modelos con propósito
+- modelos útiles, no perfectos
+- centrarse en comunicar, no en ser el maestro de UML
+- si no parece correcto, seguramente no lo sea
+- obtener feedback
 # Tags
 #2- 
 #2-2 
