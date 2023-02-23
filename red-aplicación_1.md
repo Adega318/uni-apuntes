@@ -20,3 +20,4 @@ Formato:
 	- La extensión del archivo no especifica (formalmente) el tipo de objeto.
 ## Cookies
 Información que se guarda para facilitar la navegación y en casos indeseados seguimiento.
+## GET condicional
