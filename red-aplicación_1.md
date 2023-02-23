@@ -18,3 +18,5 @@ Formato:
 - Content-Length: indica el número de bytes del objeto enviado.
 - Content-Type: indica el tipo de objeto incluido en el cuerpo de entidad, con formato tipo/subtipo.
 	- La extensión del archivo no especifica (formalmente) el tipo de objeto.
+## Cookies
+Información que se guarda para facilitar la navegación y en casos indeseador seguimiento.
