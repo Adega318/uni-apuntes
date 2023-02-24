@@ -3,7 +3,7 @@
 Formato:
 - Línea de petición, método + URL + versión
 - Líneas de cabecera
-- Línea en blanco
+- Línea en blanco 
 - Cuerpo de entidad
 ## Respuesta
 Formato:
