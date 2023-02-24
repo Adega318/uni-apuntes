@@ -1,9 +1,9 @@
 # Descripción
-El problema está presentado como unos filósofos sentados en una mesa a comer donde pueden estar comiendo o pensando, existiendo un número de tenedores menores al número de filósofos.
+El problema está presentado como unos filósofos sentados en una mesa a comer donde pueden estar comiendo o pensando, existiendo un número de tenedores menores al número de filósofos [(wiki)](https://es.wikipedia.org/wiki/Problema_de_la_cena_de_los_fil%C3%B3sofos).
 # Mutex
 Cada tenedor es representado por un mutex, y los filósofos reclaman un tenedor y posteriormente reclaman el cubierto de su derecha para comer.
 Es una solución con alta escalabilidad, ya que el filósofo solo se tiene que preocupar de sus dos cubiertos.
-La desventaja son las esperas por los cubiertos con tiempos aleatorios, esto se soluciona en la siguiente implementación con la introducción de estados y la observación de los vecinos. Esto puede llevar a inanición, por lo tanto, implementamos un registro de la última vez que comí, haciendo que se le dé prioridad a los más hambrientos (función can_i_eat).
+La desventaja son las esperas por los cubiertos con tiempos aleatorios, esto se soluciona en la siguiente implementación con la introducción de estados y la observación de los vecinos. Esto puede llevar a inanición, por lo tanto, implementamos un registro de la última vez que comí, haciendo que se le dé prioridad a los más hambrientos (función can_i_eat). Para aumentar la concurrencia se establecerá un mutex por filósofo.
 ## Pickup
 ```c
 
