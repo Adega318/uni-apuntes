@@ -162,10 +162,17 @@ Atributos:
 - cidade_suc: Cidade da sucursal  
 - activos_suc: Activos dispo ̃nibles na sucursal para novos empr ́estitos  
 - nome_cli: Nome do cliente  
-- enderezo cli: Enderezo do cliente  
-- cod empr: C ́odigo do empr ́estito  
-- importe empr: Importe do empr ́estito
-R(nombre)
+- enderezo_cli: Enderezo do cliente  
+- cod_empr: C ́odigo do empr ́estito  
+- importe_empr: Importe do empr ́estito
+
+R(nombre_suc, cidade_suc, activos_suc, nome_cil, enderezo_cil, cod_empr, importe_empr)
+F{
+	nombre_suc -> cidade_suc, activos_suc
+	nombre_cil -> enderezo_cil
+	cod_empr -> importe_empr, nome_suc
+}
+
 # Tags
 #2- 
 #2-2 
