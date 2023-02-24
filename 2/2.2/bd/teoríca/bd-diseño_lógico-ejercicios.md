@@ -133,13 +133,26 @@ FNBC
 
 R4(NumE, CodP)
 
-La solución sería: 
+**La solución sería**: 
 R1(NumE, NomE, NumD)
 F1{
 	NumE -> NomE, NumD
 }CC: NumE
 
-R2()
+R2(CodP, PresP)
+F2{
+	CodP -> PresP
+}CC: CodP
+
+R3(NumD, NomD, DIrD)
+F3{
+	NumD -> NomD, DirD
+	NomD -> NumD, DirD
+	DirD -> NumD, NomD
+}CC: NumD
+
+R4(NumE, CodP)
+F4{ null }CC: NumE
 
 # Tags
 #2- 
