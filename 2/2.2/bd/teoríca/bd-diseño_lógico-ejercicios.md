@@ -173,6 +173,13 @@ F{
 	cod_empr -> importe_empr, nome_suc
 }
 
+R1(nombre_suc, cidade_suc, activos_suc)
+F1{
+	nombre_suc -> cidade_suc, activos_suc
+}CC: nombre_suc
+
+R2(nom)
+
 # Tags
 #2- 
 #2-2 
