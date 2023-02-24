@@ -3,6 +3,7 @@ El problema está presentado como unos filósofos sentados en una mesa a comer d
 # Mutex
 Cada tenedor es representado por un mutex, y los filósofos reclaman un tenedor y posteriormente reclaman el cubierto de su derecha para comer.
 Es una solución con alta escalabilidad, ya que el filósofo solo se tiene que preocupar de sus dos cubiertos.
+La desventaja son las esperas por los cubiertos con tiempos aleatorios, esto se soluciona en la siguiente implementación con la introducción de estados y la observación de los vecinos.
 ## Pickup
 ```c
 int left = 
