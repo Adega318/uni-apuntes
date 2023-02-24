@@ -18,7 +18,6 @@ La desventaja son las esperas por los cubiertos con tiempos aleatorios, esto se 
 ```
 ## Comparación de implementaciones
 Las implementaciones subóptimas se encuentran en los apuntes.
-# 
 # Tags
 #2-
 #2-2
