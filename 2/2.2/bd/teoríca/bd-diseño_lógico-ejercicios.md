@@ -160,7 +160,7 @@ FNBC
 Atributos:
 - nome_suc: Nome da sucursal  
 - cidade_suc: Cidade da sucursal  
-- activos_suc: Activos dispo ̃nibles na sucursal para novos empr ́estitos  
+- activos_suc: Activos dispoñibles na sucursal para novos empr ́estitos  
 - nome_cli: Nome do cliente  
 - enderezo_cli: Enderezo do cliente  
 - cod_empr: C ́odigo do empr ́estito  
