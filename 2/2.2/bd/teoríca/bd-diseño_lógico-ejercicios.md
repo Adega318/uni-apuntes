@@ -173,12 +173,24 @@ F{
 	cod_empr -> importe_empr, nome_suc
 }
 
+**Solución:**
 R1(nombre_suc, cidade_suc, activos_suc)
 F1{
 	nombre_suc -> cidade_suc, activos_suc
 }CC: nombre_suc
 
-R2(nom)
+R2(nombre_cil, enderezo_cil)
+F2{
+	nombre_cil -> enderezo_cil
+}CC: nombre_cil
+
+R3(cod_empr, importe_empr, nome_suc)
+F3{
+	cod_empr -> importe_empr, nome_suc
+}CC: cod_empr
+
+R4(nombre_cil, cod_empr)
+F4{null} CC: nombre_cil
 
 # Tags
 #2- 
