@@ -6,7 +6,7 @@ Es una solución con alta escalabilidad, ya que el filósofo solo se tiene que p
 La desventaja son las esperas por los cubiertos con tiempos aleatorios, esto se soluciona en la siguiente implementación con la introducción de estados y la observación de los vecinos. Esto puede llevar a inanición, por lo tanto, implementamos un registro de la última vez que comí, haciendo que se le dé prioridad a los más hambrientos (función can_i_eat).
 ## Pickup
 ```c
-int left = 
+
 ```
 ## Put down
 ```c
@@ -17,7 +17,8 @@ int left =
 
 ```
 ## Comparación de implementaciones
-Las implementaciones subobtimas se encuentran en 
+Las implementaciones subóptimas se encuentran en los apuntes.
+# 
 # Tags
 #2-
 #2-2

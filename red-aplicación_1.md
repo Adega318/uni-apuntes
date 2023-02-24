@@ -38,3 +38,7 @@ Formato:
 - Cuerpo, información en ASCII
 ## MIME
 Método de codificación en ASCII para el envio de mensajes usando SMTP.
+# Tags
+#2- 
+#2-2 
+#red
