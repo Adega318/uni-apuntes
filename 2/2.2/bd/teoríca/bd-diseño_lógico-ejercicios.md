@@ -154,6 +154,18 @@ F3{
 R4(NumE, CodP)
 F4{ null }CC: NumE
 
+FNBC
+
+# 3.
+Atributos:
+- nome_suc: Nome da sucursal  
+- cidade_suc: Cidade da sucursal  
+- activos_suc: Activos dispo ̃nibles na sucursal para novos empr ́estitos  
+- nome_cli: Nome do cliente  
+- enderezo cli: Enderezo do cliente  
+- cod empr: C ́odigo do empr ́estito  
+- importe empr: Importe do empr ́estito
+R(nombre)
 # Tags
 #2- 
 #2-2 
