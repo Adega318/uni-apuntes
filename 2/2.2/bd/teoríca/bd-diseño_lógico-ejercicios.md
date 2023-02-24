@@ -125,6 +125,14 @@ F3{
 }
 FNBC
 
+R2'(NumE, NomE, NumD)
+F2'{
+	NumE -> NomE, NumD
+}
+FNBC
+
+R4(NumE, CodP)
+
 # Tags
 #2- 
 #2-2 
