@@ -133,6 +133,14 @@ FNBC
 
 R4(NumE, CodP)
 
+La solución sería: 
+R1(NumE, NomE, NumD)
+F1{
+	NumE -> NomE, NumD
+}CC: NumE
+
+R2()
+
 # Tags
 #2- 
 #2-2 
