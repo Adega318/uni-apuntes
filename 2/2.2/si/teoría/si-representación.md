@@ -33,7 +33,12 @@ Los modelos son los posibles estados del entorno, donde se pueden evaluar senten
 ## Inferencia lógica
 Es el proceso de evaluar sobre los modelos posibles por las percepciones, una sentencia.
 # Lógica proposicional
-Permite definir cualquier cosa para 
+Permite definir cualquier cosa para la que existe un procedimiento completo y sólido.
+## Sintaxis
+- Las proposiciones son binarias.
+- Sentencias atómicas o complejas
+## Semántica
+- Relaciones entre las proposiciones y sentencias.
 # Tags
 #2- 
 #2-2 
