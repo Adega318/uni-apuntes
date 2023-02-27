@@ -40,6 +40,6 @@ Permite definir cualquier cosa para la que existe un procedimiento completo y s√
 ## Sem√°ntica
 - Relaciones entre las proposiciones y sentencias.
 # Tags
-#2- 
+#2-
 #2-2 
 #si
