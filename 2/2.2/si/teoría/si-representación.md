@@ -30,6 +30,10 @@ Problema de agentes inteligentes con formato de juego.
 - Implicaciones, relaciones lógicas entre sentencias.
 ## Modelos
 Los modelos son los posibles estados del entorno, donde se pueden evaluar sentencias.
+## Inferencia lógica
+Es el proceso de evaluar sobre los modelos posibles por las percepciones, una sentencia.
+# Lógica proposicional
+Permite definir cualquier cosa para 
 # Tags
 #2- 
 #2-2 
