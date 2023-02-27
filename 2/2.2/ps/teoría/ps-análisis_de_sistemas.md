@@ -23,6 +23,8 @@ Aporte de los modelos:
 - centrarse en comunicar, no en ser el maestro de UML
 - si no parece correcto, seguramente no lo sea
 - obtener feedback
+# Análisis estructurado
+
 # Tags
 #2- 
 #2-2 
