@@ -23,3 +23,14 @@ Problema de agentes inteligentes con formato de juego.
 - Salir por (1,1)
 - Coger/Soltar oro de su casilla
 - Moverse
+# Lógica
+## Generalidades
+- Sintaxis, define sentencias en el lenguaje.
+- Semántica, define el significado de las sentencias.
+- Implicaciones, relaciones lógicas entre sentencias.
+## Modelos
+Los modelos son los posibles estados del entorno, donde se pueden evaluar sentencias.
+# Tags
+#2- 
+#2-2 
+#si
