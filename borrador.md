@@ -7,3 +7,5 @@
 
 
 sum_file -> crea el hash de l fichero en md5 y lo introduce en md5 con su tamaño.
+sum -> combierte los archivos de un directorio en un fichero con el formato:
+dir/file: hash\n
