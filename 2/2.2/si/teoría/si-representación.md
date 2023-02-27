@@ -1,3 +1,5 @@
+# Agentes basados
+Son agentes que constan de una base de conocimiento. Esto hace que su base de conocimiento sea vital para la toma de decisiones.
 # Mundo wumpus
 Problema de agentes inteligentes con formato de juego.
 ## Medida de rendimiento
@@ -11,8 +13,8 @@ Problema de agentes inteligentes con formato de juego.
 - Posiciones de los elementos aleatoria
 - Probabilidad de cuadrado con fosa 0.2
 ## Sensores
-- Wumpus adyacente (sabe la casilla)
-- Fosa adyacente (sabe la casilla)
+- Wumpus adyacente (no sabe la casilla)
+- Fosa adyacente (no sabe la casilla)
 - Oro en su casilla
 - Choque al caminar a la pared
 - Muerte de un Wumpus
