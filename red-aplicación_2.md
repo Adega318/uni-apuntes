@@ -11,6 +11,8 @@ El cliente es el que se comunica con los servidores dns en nuestro nombre.
 ccTLDs: dominios de país.
 gTLDs: genéricos, con tres tipos: genéricos, restringidos y sponsored.
 IDN ccTLDs: internacionales.
+## Servidores de nombres
+Son servidores con muchas duplicidades que dirigen el tráfico a servidores más concretos. Estas duplicid
 # Tags
 #2-
 #2-2 
