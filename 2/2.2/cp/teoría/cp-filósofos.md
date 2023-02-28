@@ -21,24 +21,20 @@ while(true){
 ```
 ## Pickup
 ```c
-Pick_Up(int I){
+void Pick_Up(int I){
 	mtx_lock(fork[MIN(RF(I), LF(I))]);
 	mtx_lock(fork[MAX(RF(I), LF(I))]);
 }
 ```
 ## Put down
 ```c
-Put_Down(int I){
+void Put_Down(int I){
 	mtx_unlock(fork[RF(I)]);
 	mtx_unlock(fork[LF(I)]);
 }
 ```
-## Can_i_eat
-```c
-
-```
-# Variables
-En variables usaremos solo un mutex para representar el estado de la mesa y señales.
+# Signals & Variables
+En variables usaremos solo un mutex para representar el estado de la mesa y señales. Esto llevará a una alta contención de mutex.
 ## General
 ```c
 mtx_t table;
@@ -46,24 +42,19 @@ cnd_t not_fork[N];
 int ph[N];
 #DEFINE EATING 0
 #DEFINE THINKING 1
+#DEFINE SLEEPING 2
 //I: numero filososfo
 #DEFINE RF(I) (I==0?N-1:I-1)
 #DEFINE LF(I) ((I+1)%N)
 #DEFINE MIN(x,y) ((x)<(y)?(x):(Y))
 #DEFINE MAX(x,y) ((x)>=(y)?(x):(Y))
-
-while(true){
-	mtx_lock(fork[RF(I)]);
-	if(mtx_trylock(fork[LF(I)])==0) break;
-	mtx_unlock(fork[RF(I)]);
-	sleep(rand()%10);
-}
 ```
 ## Pickup
 ```c
-Pick_Up(int I){
+void Pick_Up(int I){
 	mtx_lock(table);
 	while(ph[RP(I)]==EATING || ph[LF(I)]==EATING){
+		ph[I]=SLEEPING;
 		cnd_wait(not_fork[I], table);
 	}
 	ph[I]=EATING;
@@ -72,19 +63,15 @@ Pick_Up(int I){
 ```
 ## Put down
 ```c
-Put_Down(int I){
+void Put_Down(int I){
 	mtx_lock(table);
 	ph[I]=THINKING;
-	cnd_signal(not_fork[RF(I)]);
-	cnd_signal(not_fork[LF(I)]);
-	mtx_unlock()
+	if(ph[RF(I)]==SLEEPING) cnd_signal(not_fork[RF(I)]);
+	if(ph[LF(I)]==SLEEPING) cnd_signal(not_fork[LF(I)]);
+	mtx_unlock(table);
 }
 ```
-## Can_i_eat
-```c
-
-```
-# Mutex
+# Mutex puto profe
 Cada tenedor es representado por un mutex, y los filósofos reclaman un tenedor y posteriormente reclaman el cubierto de su derecha para comer.
 Es una solución con alta escalabilidad, ya que el filósofo solo se tiene que preocupar de sus dos cubiertos.
 La desventaja son las esperas por los cubiertos con tiempos aleatorios, esto se soluciona en la siguiente implementación con la introducción de estados y la observación de los vecinos. Esto puede llevar a inanición, por lo tanto, implementamos un registro de la última vez que comí, haciendo que se le dé prioridad a los más hambrientos (función can_i_eat).
