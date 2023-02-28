@@ -76,14 +76,3 @@ A causa de la atomización de las tablas en la normalización se harán joins en
 #2- 
 #2-2 
 #bd
-
-
-```smiles
-CC(O)=O
-```
-
-```
-CC(O)=0
-```
-
-$$ \ce{H2O}$$
