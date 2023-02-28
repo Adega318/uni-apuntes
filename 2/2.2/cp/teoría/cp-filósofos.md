@@ -11,6 +11,13 @@ mtx_t fork[N];
 #DEFINE LF(I) ((I+1)%N)
 #DEFINE MIN(x,y) ((x)<(y)?(x):(Y))
 #DEFINE MAX(x,y) ((x)>=(y)?(x):(Y))
+
+while(true){
+	mtx_lock(fork[RF(I)]);
+	if(mtx_trylock(fork[LF(I)])==0) break;
+	mtx_unlock(fork[RF(I)]);
+	
+}
 ```
 ## Pickup
 ```c
