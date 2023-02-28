@@ -16,7 +16,45 @@ while(true){
 	mtx_lock(fork[RF(I)]);
 	if(mtx_trylock(fork[LF(I)])==0) break;
 	mtx_unlock(fork[RF(I)]);
-	
+	sleep(rand()%10);
+}
+```
+## Pickup
+```c
+Pick_Up(int I){
+	mtx_lock(fork[MIN(RF(I), LF(I))]);
+	mtx_lock(fork[MAX(RF(I), LF(I))]);
+}
+```
+## Put down
+```c
+Put_Down(int I){
+	mtx_unlock(fork[RF(I)]);
+	mtx_unlock(fork[LF(I)]);
+}
+```
+## Can_i_eat
+```c
+
+```
+# Variables
+En variables usaremos solo un mutex para representar el estado de la mesa.
+## General
+```c
+mtx_t table;
+int ph[N];
+#DEFINE 
+//I: numero filososfo
+#DEFINE RF(I) (I==0?N-1:I-1)
+#DEFINE LF(I) ((I+1)%N)
+#DEFINE MIN(x,y) ((x)<(y)?(x):(Y))
+#DEFINE MAX(x,y) ((x)>=(y)?(x):(Y))
+
+while(true){
+	mtx_lock(fork[RF(I)]);
+	if(mtx_trylock(fork[LF(I)])==0) break;
+	mtx_unlock(fork[RF(I)]);
+	sleep(rand()%10);
 }
 ```
 ## Pickup
