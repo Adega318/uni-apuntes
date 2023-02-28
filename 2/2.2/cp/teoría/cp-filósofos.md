@@ -38,12 +38,14 @@ Put_Down(int I){
 
 ```
 # Variables
-En variables usaremos solo un mutex para representar el estado de la mesa.
+En variables usaremos solo un mutex para representar el estado de la mesa y señales.
 ## General
 ```c
 mtx_t table;
+cnd_t not_fork[N];
 int ph[N];
-#DEFINE 
+#DEFINE EATING 0
+#DEFINE THINKING 1
 //I: numero filososfo
 #DEFINE RF(I) (I==0?N-1:I-1)
 #DEFINE LF(I) ((I+1)%N)
@@ -60,15 +62,22 @@ while(true){
 ## Pickup
 ```c
 Pick_Up(int I){
-	mtx_lock(fork[MIN(RF(I), LF(I))]);
-	mtx_lock(fork[MAX(RF(I), LF(I))]);
+	mtx_lock(table);
+	while(ph[RP(I)]==EATING || ph[LF(I)]==EATING){
+		cnd_wait(not_fork[I], table);
+	}
+	ph[I]=EATING;
+	mtx_unlock(table);
 }
 ```
 ## Put down
 ```c
 Put_Down(int I){
-	mtx_unlock(fork[RF(I)]);
-	mtx_unlock(fork[LF(I)]);
+	mtx_lock(table);
+	ph[I]=THINKING;
+	cnd_signal(not_fork[RF(I)]);
+	cnd_signal(not_fork[LF(I)]);
+	mtx_unlock()
 }
 ```
 ## Can_i_eat
