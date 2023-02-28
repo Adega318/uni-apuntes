@@ -9,17 +9,22 @@ mtx_t fork[N];
 //I: numero filososfo
 #DEFINE RF(I) (I)
 #DEFINE LF(I) ((I+1)%N)
+#DEFINE MIN(x,y) ((x)<(y)?(x):(Y))
+#DEFINE MAX(x,y) ((x)>=(y)?(x):(Y))
 ```
 ## Pickup
 ```c
 Pick_Up(int I){
-	mtx_lock(fork[RF(I)]);
-	mtx_lock(fork[LF(I)]);
+	mtx_lock(fork[MIN(RF(I), LF(I))]);
+	mtx_lock(fork[MAX(RF(I), LF(I))]);
 }
 ```
 ## Put down
 ```c
-
+Put_Down(int I){
+	mtx_unlock(fork[RF(I)]);
+	mtx_unlock(fork[LF(I)]);
+}
 ```
 ## Can_i_eat
 ```c
