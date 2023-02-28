@@ -5,7 +5,7 @@ Antes del empleo del dns se hizo uso del **fichero de host**, fichero donde se g
 ## Cliente
 El cliente es el que se comunica con los servidores dns en nuestro nombre.
 ## Servidor
-Cada red tiene un dns, ningundns tiene todas las respuestas si no que redirigen las preguntas a otros dns que la pueden tener.
+Cada red tiene un dns, ningún dns tiene todas las respuestas si no que redirigen las preguntas a otros dns que la pueden tener.
 ## Espacio de nombres
 ![[Pasted image 20230228135520.png]]
 ### TLDs
