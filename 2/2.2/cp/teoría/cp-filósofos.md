@@ -2,8 +2,29 @@
 El problema está presentado como unos filósofos sentados en una mesa a comer donde pueden estar comiendo o pensando, cada filósofo comparte su tenedor derecho con el filósofo de la derecha y el izquierdo con el de la izquierda, para comer requiere de ambos.
 [(wiki)](https://es.wikipedia.org/wiki/Problema_de_la_cena_de_los_fil%C3%B3sofos)
 # Mutex
-Teniendo N filósofos, tenemos N tenedores y un mutex para cada uno, asignaremos a cada tenedor el número del fílosofo que lo tiene a su derecha.
+Teniendo N filósofos, tenemos N tenedores y un mutex para cada uno, asignaremos a cada tenedor el número del filósofo que lo tiene a su derecha.
+## General
+```c
+mtx_t fork[N];
+//I: numero filososfo
+#DEFINE RF(I) (I)
+#DEFINE LF(I) ((I+1)%N)
+```
+## Pickup
+```c
+Pick_Up(int I){
+	mtx_lock(fork[RF(I)]);
+	mtx_lock(fork[LF(I)]);
+}
+```
+## Put down
+```c
 
+```
+## Can_i_eat
+```c
+
+```
 # Mutex
 Cada tenedor es representado por un mutex, y los filósofos reclaman un tenedor y posteriormente reclaman el cubierto de su derecha para comer.
 Es una solución con alta escalabilidad, ya que el filósofo solo se tiene que preocupar de sus dos cubiertos.
