@@ -71,14 +71,18 @@ Explora en profundidad, rindiéndose cuando el camino supera una profundidad.
 ## Preferente por el mejor
 Para establecer los estados más favorables es determinado por la función heurística h(n).
 Función heurística: convierte un estado en un valor numérico.
-## Tipos de búsqueda
-### Avara
+## Avara
 La búsqueda avara es la que siempre elige el nodo más prometedor en h(n) sin tener en cuenta el coste.
 La frontera será una cola de prioridad atendiendo a h(n).
 ![[Pasted image 20230217211300.png]]
-### A*
+## A*
 La búsqueda A* toma en cuenta el h(n) y el coste para tomar las decisiones.
 La heurística dará la solución adecuada si se cumple que se subestima el coste real.
+## Local
+### Escalada
+Elige el mejor de los sucesores basándose en la heurística, siempre que los sucesores sean mejores que el padre.
+- Cresta, región de estados mejores pero a los que no podemos llegar con movimientos simples.
+- Mesetas, región donde todos los estados tienen el mismo valor en un paso simple.
 # Tags
 #2- 
 #2-2 

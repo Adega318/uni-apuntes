@@ -1,7 +1,9 @@
 [[2-2-index]]
 # Teóricas
-1. [[bd-diseño_lógico]]
-2. [[bd-fases_de_diseño]]
+1. [[bd-fases_de_diseño]]
+2. [[bd-diseño_lógico]]
+	1. [[bd-diseño_lógico-ejercicios]]
+3. [[bd-modelado_conceptual]]
 # Prácticas
 # Tags
 #2- 
