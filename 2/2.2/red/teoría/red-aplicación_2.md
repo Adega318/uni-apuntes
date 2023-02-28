@@ -17,7 +17,7 @@ IDN ccTLDs: internacionales.
 - TLD, conocen a los sub-dominios y raíz.
 - Inferiores, conocen ips y raíz, si no tienen la ip asociada preguntan al raíz.
 ## Caché
-
+Cada servidor dns guarda consultas previas, esto hará que las preguntas frecuentes tengan respuesta ya calculada. Estas respuestas no son autoritarias, ya que estas caches no tienen autoridad sobre el dominio.
 # Tags
 #2-
 #2-2 
