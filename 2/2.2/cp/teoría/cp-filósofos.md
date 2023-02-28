@@ -46,8 +46,6 @@ int ph[N];
 //I: numero filososfo
 #DEFINE RF(I) (I==0?N-1:I-1)
 #DEFINE LF(I) ((I+1)%N)
-#DEFINE MIN(x,y) ((x)<(y)?(x):(Y))
-#DEFINE MAX(x,y) ((x)>=(y)?(x):(Y))
 ```
 ## Pickup
 ```c
