@@ -12,9 +12,9 @@ ccTLDs: dominios de país.
 gTLDs: genéricos, con tres tipos: genéricos, restringidos y sponsored.
 IDN ccTLDs: internacionales.
 ## Servidores de nombres
-- Raíz, son servidores con muchas duplicidades que dirigen el tráfico a servidores más concretos. Estas duplicidades comparten la misma ip y al que llegamos es decidido por los routers intermedios.
-- TLD, 
-- Inferiores,
+- Raíz, son servidores con muchas duplicidades que dirigen el tráfico a servidores más concretos. Estas duplicidades comparten la misma ip y al que llegamos es decidido por los routers intermedios. Conocen a todos los TLDs
+- TLD, conocen a los sub-dominios y raíz.
+- Inferiores, conocen ips y raíz, si no tienen la ip asociada preguntan al raíz.
 # Tags
 #2-
 #2-2 
