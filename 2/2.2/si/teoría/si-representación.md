@@ -39,6 +39,7 @@ Permite definir cualquier cosa para la que existe un procedimiento completo y s�
 - Sentencias atómicas o complejas
 ## Semántica
 - Relaciones entre las proposiciones y sentencias.
+# Inferencia
 # Tags
 #2-
 #2-2 
