@@ -192,6 +192,9 @@ F3{
 R4(nombre_cil, cod_empr)
 F4{null} CC: nombre_cil
 
+# Ejer custom
+R(nhc, nomcp, ap1p, ap2p, telef, nss, nombrem, ap1m, ap2m, )
+
 # Tags
 #2- 
 #2-2 
