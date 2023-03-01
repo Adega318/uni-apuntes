@@ -198,8 +198,16 @@ CITA, LUGAR, MEDICAMENTO, DOSE, DURACION)
 
 Paciente:
 - NHC -> NOMEP, AP1P, AP2P, TLF
-Medico:
+Médico:
 - NSS -> NOMEM, AP1M, AP2M
+Centro:
+- LUGAR
+Medicamento:
+- MEDICAMENTO
+Citas:
+- DATA CITA, HORA CITA
+
+
 
 # Tags
 #2- 
