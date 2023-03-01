@@ -208,6 +208,8 @@ Citas:
 Prescripción:
 - DOSE, DURACION
 
+r1()
+
 
 # Tags
 #2- 
