@@ -193,8 +193,7 @@ R4(nombre_cil, cod_empr)
 F4{null} CC: nombre_cil
 
 # Ejer 7
-R=(NHC, NOMEP, AP1P, AP2P, TLF, NSS, NOMEM, AP1M, AP2M, DATA CITA, HORA  
-CITA, LUGAR, MEDICAMENTO, DOSE, DURACION)
+R=(NHC, NOMEP, AP1P, AP2P, TLF, NSS, NOMEM, AP1M, AP2M, DATA, HORA , LUGAR, MEDICAMENTO, DOSE, DURACION)
 
 Paciente:
 - NHC -> NOMEP, AP1P, AP2P, TLF
@@ -205,8 +204,9 @@ Centro:
 Medicamento:
 - MEDICAMENTO
 Citas:
-- DATA CITA, HORA CITA
-
+- DATA, HORA
+Prescripción:
+- DOSE, DURACION
 
 
 # Tags
