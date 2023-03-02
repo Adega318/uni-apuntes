@@ -24,6 +24,11 @@ Aporte de los modelos:
 - si no parece correcto, seguramente no lo sea
 - obtener feedback
 # Análisis estructurado
+## Aplicación
+**Niveles de aplicación**:
+![[Pasted image 20230302104141.png]]
+### Diagrama de contexto
+El diagrama consta de una unuca busrbuja indicando las estradas y salidas del sistema.
 
 # Tags
 #2- 
