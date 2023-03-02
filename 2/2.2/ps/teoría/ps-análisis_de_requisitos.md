@@ -35,6 +35,8 @@ Búsqueda de ideas y opciones para el proyecto.
 El modelo se basa en un diagrama, donde aparece las iteraciones con el programa.
 Actores: representación de los usuarios que dan las entradas. Siendo los principales los que hacen empleo del sistema y los secundarios los creados para el mismo.
 El nombre de un caso de utilización debe representar la tarea a realizar por el sistema desde la vista del actor.
+#### Actores
+Entidad externa que interactúa con el sistema.
 #### Relaciones
 ![[Pasted image 20230218174304.png]]
 #### Documento
