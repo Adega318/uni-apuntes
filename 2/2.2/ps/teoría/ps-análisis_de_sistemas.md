@@ -24,7 +24,7 @@ Aporte de los modelos:
 - si no parece correcto, seguramente no lo sea
 - obtener feedback
 # Análisis estructurado
-## Aplicación (DFD)
+## Diagrama de flujo de datos (DFD)
 **Niveles de aplicación**:
 ![[Pasted image 20230302104141.png]]
 Entre los niveles se debe de cumplir una consistencia de entradas y salidas (Conservación del flujo).
@@ -43,7 +43,12 @@ Los niveles posteriores son usados para concretar las burbujas concretas del niv
 - Inclusión de todos los flujos, siendo los mínimos y necesarios.
 - Subsistemas de un solo uso en arranque, eso es parte de otro sistema (migraciones).
 - Los DFD no dan temporalidad explícitamente.
-- 
+- Principio "KIS".
+- Todo proceso tiene una salida y entrada.
+- Evitar flujos o procesos no etiquetados.
+- Evitar almacenes de solo escritura o lectura.
+## Diccionario de datos (DD)
+Proporciona definición para todos los datos del resto de mo
 # Tags
 #2- 
 #2-2 
