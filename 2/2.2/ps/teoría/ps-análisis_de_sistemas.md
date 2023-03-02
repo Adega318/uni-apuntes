@@ -56,7 +56,7 @@ Lista organizada que proporciona definición para todos los datos del resto de m
 ![[Pasted image 20230302111112.png]]
 ### Metodología
 Debemos dar el significado del dato dentro del contexto, composición en caso de tener partes y sus posibles valores en caso de ser un dato elemental.
-## Especificac
+## Especificación de procesos (EP)
 # Tags
 #2- 
 #2-2 
