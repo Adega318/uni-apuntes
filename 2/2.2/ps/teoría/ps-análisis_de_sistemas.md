@@ -27,9 +27,16 @@ Aporte de los modelos:
 ## Aplicación
 **Niveles de aplicación**:
 ![[Pasted image 20230302104141.png]]
+Entre los niveles se debe de cumplir una consitencia de entradas y salidas
 ### Diagrama de contexto
-El diagrama consta de una unuca busrbuja indicando las estradas y salidas del sistema.
-
+El diagrama consta de una única burbuja indicando las estradas y salidas del sistema.
+![[Pasted image 20230302104354.png]]
+### Diagrama de sistema
+En el segundo nivel se determinan los componentes básicos del sistema como burbujas y sus interacciones.
+![[Pasted image 20230302104521.png]]
+### Niveles posteriores
+Los niveles posteriores son usados para concretar las burbujas concretas del nivel anterior.
+![[Pasted image 20230302104704.png]]
 # Tags
 #2- 
 #2-2 
