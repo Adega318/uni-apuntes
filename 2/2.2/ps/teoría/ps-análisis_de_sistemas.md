@@ -40,7 +40,9 @@ Los niveles posteriores son usados para concretar las burbujas concretas del niv
 ### Características
 - Consistencia entre niveles.
 - Inclusión de todos los procesos.
-- Inclusión de todos los flujos, siendo l.
+- Inclusión de todos los flujos, siendo los mínimos y necesarios.
+- Subsistemas de un solo uso en arranque, eso es parte de otro sistema (migraciones).
+- Los DFD no dan temporalidad explícitamente.
 - 
 # Tags
 #2- 
