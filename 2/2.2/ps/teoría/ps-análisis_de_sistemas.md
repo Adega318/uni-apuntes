@@ -24,10 +24,10 @@ Aporte de los modelos:
 - si no parece correcto, seguramente no lo sea
 - obtener feedback
 # Análisis estructurado
-## Aplicación
+## Aplicación (DFD)
 **Niveles de aplicación**:
 ![[Pasted image 20230302104141.png]]
-Entre los niveles se debe de cumplir una consitencia de entradas y salidas
+Entre los niveles se debe de cumplir una consistencia de entradas y salidas (Conservación del flujo).
 ### Diagrama de contexto
 El diagrama consta de una única burbuja indicando las estradas y salidas del sistema.
 ![[Pasted image 20230302104354.png]]
@@ -37,6 +37,11 @@ En el segundo nivel se determinan los componentes básicos del sistema como burb
 ### Niveles posteriores
 Los niveles posteriores son usados para concretar las burbujas concretas del nivel anterior.
 ![[Pasted image 20230302104704.png]]
+### Características
+- Consistencia entre niveles.
+- Inclusión de todos los procesos.
+- Inclusión de todos los flujos, siendo l.
+- 
 # Tags
 #2- 
 #2-2 
