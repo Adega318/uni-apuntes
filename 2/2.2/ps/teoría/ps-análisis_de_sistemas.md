@@ -48,7 +48,10 @@ Los niveles posteriores son usados para concretar las burbujas concretas del niv
 - Evitar flujos o procesos no etiquetados.
 - Evitar almacenes de solo escritura o lectura.
 ## Diccionario de datos (DD)
-Proporciona definición para todos los datos del resto de mo
+Lista organizada que proporciona definición para todos los datos del resto de modelos, evitando la ambigüedad de los mismos. En caso de ser datos elementales se debe definir su composición.
+**Datos a definir:**
+- Flujos y almacenes (DFD)
+- 
 # Tags
 #2- 
 #2-2 
