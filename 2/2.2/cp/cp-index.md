@@ -1,4 +1,4 @@
-[[2-2-index]]
+´[[2-2-index]]
 # Teóricas
 1. [[cp-seción_critica]]
 2. [[cp-interbloqueo_inanición]]
@@ -7,6 +7,7 @@
 5. [[cp-barbero_durmiente]]
 	1. [[cp-ejer1]]
 6. [[cp-filósofos]]
+7. [[cp-comparticion_nula]]
 # Prácticas
 # Tags
 #2-

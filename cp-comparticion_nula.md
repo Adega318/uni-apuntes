@@ -1,0 +1,1 @@
+La compartición nula se basa en el paso de mensajes.
