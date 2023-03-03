@@ -9,6 +9,7 @@ Los atributos se pueden separar en:
 - Monovaluados, atributos con solo un valor
 - Multivaluados, atributos con valores dependiente de una condición o dato externo.
 - Almacenados y derivados, los almacenados son guardados en la BD y los derivados calculados con los anteriores.
+# Relaciones
 
 # Tags
 #2- 
