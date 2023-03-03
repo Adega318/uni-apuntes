@@ -14,7 +14,10 @@ Una relación es la interacción entre dos entidades. En las relaciones no se pu
 ## Recursivas
 Son relaciones donde en los dos extremos son el mismo tipo de entidad.
 ## Cardinalidad
-La cardinalidad es la indicación de 
+La cardinalidad es la indicación de los números en la relación.
+- 1:1, uno a uno.
+- 1:N, uno a muchos.
+- N:M, muchos a muchos.
 # Tags
 #2- 
 #2-2 
