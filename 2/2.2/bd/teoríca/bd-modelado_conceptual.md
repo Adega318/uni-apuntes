@@ -10,7 +10,11 @@ Los atributos se pueden separar en:
 - Multivaluados, atributos con valores dependiente de una condición o dato externo.
 - Almacenados y derivados, los almacenados son guardados en la BD y los derivados calculados con los anteriores.
 # Relaciones
-Una relación es la interacción entre dos entidades.
+Una relación es la interacción entre dos entidades. En las relaciones no se pueden dar repeticiones ni vacíos.
+## Recursivas
+Son relaciones donde en los dos extremos son el mismo tipo de entidad.
+## Cardinalidad
+La cardinalidad es la indicación de 
 # Tags
 #2- 
 #2-2 
