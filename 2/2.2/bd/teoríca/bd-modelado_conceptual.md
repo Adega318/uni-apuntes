@@ -11,13 +11,19 @@ Los atributos se pueden separar en:
 - Almacenados y derivados, los almacenados son guardados en la BD y los derivados calculados con los anteriores.
 # Relaciones
 Una relación es la interacción entre dos entidades. En las relaciones no se pueden dar repeticiones ni vacíos.
+Se representan por un rombo conectado a las entidades.
 ## Recursivas
 Son relaciones donde en los dos extremos son el mismo tipo de entidad.
+Se representa con una de ida y una de vuelta.
 ## Cardinalidad
 La cardinalidad es la indicación de los números en la relación.
 - 1:1, uno a uno.
 - 1:N, uno a muchos.
 - N:M, muchos a muchos.
+Se representa por los números en los lados.
+## Participación
+La participación de las entidades puede ser parcial o total, dependiendo si todos son involucrados.
+Se representa como línea doble en el lado total y simple en el parcial.
 # Tags
 #2- 
 #2-2 
