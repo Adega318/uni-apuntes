@@ -74,7 +74,14 @@ Comprobaciones de coherencia entre modelos:
 	3. refinar
 	4. recoger requisitos
 2. Modelos de análisis
-	1. 
+	1. modelos DFD y E/R
+	2. balancear
+3. EP
+	1. modelos EP
+	2. balancear
+
+![[Pasted image 20230306135051.png]]
+
 # Tags
 #2- 
 #2-2 
