@@ -44,7 +44,12 @@ Permite definir cualquier cosa para la que existe un procedimiento completo y s�
 ### Redes semánticas
 Redes de relaciones entre conceptos.
 #### Frames
-Son relaciones con niveles excalonados, un buen ejemplo es el indice de un libro.
+Son relaciones con niveles escalonados, un buen ejemplo es el índice de un libro.
+##### Demons
+Los demons son sistemas de actualización y ejecución para los frames.
+##### Tipos
+- Descriptivos, frame centrado en la muestra de datos.
+- Control, frame centrado en la especificación de los formatos de datos.
 # Tags
 #2-
 #2-2 
