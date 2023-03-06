@@ -43,13 +43,18 @@ Permite definir cualquier cosa para la que existe un procedimiento completo y s�
 ## Métodos estructurados
 ### Redes semánticas
 Redes de relaciones entre conceptos.
-#### Frames
+### Frames
 Son relaciones con niveles escalonados, un buen ejemplo es el índice de un libro.
-##### Demons
+#### Demons
 Los demons son sistemas de actualización y ejecución para los frames.
-##### Tipos
+#### Tipos
 - Descriptivos, frame centrado en la muestra de datos.
 - Control, frame centrado en la especificación de los formatos de datos.
+### Reglas de producción
+Tenemos tres tipos de reglas:
+- if, condición o premisa.
+- then, conclusión.
+- else, alternativa.
 # Tags
 #2-
 #2-2 
