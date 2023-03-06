@@ -57,6 +57,7 @@ Lista organizada que proporciona definición para todos los datos del resto de m
 ### Metodología
 Debemos dar el significado del dato dentro del contexto, composición en caso de tener partes y sus posibles valores en caso de ser un dato elemental.
 ## Especificación de procesos (EP)
+Especificación del proceso de transformación de las entradas en las salidas de una burbuja.
 # Tags
 #2- 
 #2-2 
