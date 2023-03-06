@@ -2,14 +2,32 @@
 <gaphor xmlns="http://gaphor.sourceforge.net/model" version="3.0" gaphor-version="2.17.0">
 <StyleSheet id="58d6989a-66f8-11ec-b4c8-0456e5e540ed">
 <styleSheet>
-<val>diagram {
- /* line-style: sloppy 0.3; */
+<val>/* The background you see in exported diagrams: */
+diagram {
+  background-color: transparent;
+  color: #0a0a0a;
+  text-color: #0a0a0a;
 }
 
-controlflow {
-  dash-style: 0;
+/* Use a slightly grey background in the editor: */
+@media light-mode {
+  diagram {
+    background-color: #000;
+    color: #0a0a0a;
+    text-color: #0a0a0a;
+  }
 }
-</val>
+
+/* And anthracite a slightly grey background in the editor: */
+@media dark-mode {
+  diagram {
+    background-color: #FFF;
+  }
+  *{
+    color: #000;
+    text-color: black;
+  }
+}</val>
 </styleSheet>
 </StyleSheet>
 <Package id="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed">
