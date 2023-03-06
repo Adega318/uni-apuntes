@@ -42,7 +42,9 @@ Permite definir cualquier cosa para la que existe un procedimiento completo y s�
 # Inferencia
 ## Métodos estructurados
 ### Redes semánticas
-Resdes de relaciones entre conceptos.
+Redes de relaciones entre conceptos.
+#### Frames
+Son relaciones con niveles excalonados, un buen ejemplo es el indice de un libro.
 # Tags
 #2-
 #2-2 
