@@ -60,8 +60,21 @@ Debemos dar el significado del dato dentro del contexto, composición en caso de
 Descripción de entradas, salidas y proceso de transformación de las entradas en las salidas de una burbuja.
 ## Balanceo entre modelos
 Comprobaciones de coherencia entre modelos:
-- Los flujos y alamacenes del DFD aparecen en el DD
+- Los flujos y almacenes del DFD aparecen en el DD.
 - Datos del DD aparecen en el DFD.
+- Cada burbuja tiene un DFD inferior o EP.
+- Los flujos deben coincidir entre EP y DFD.
+- Los E/R tienen que ser consistentes con el DFD.
+- Las E/R tiene que tener reflejo en DFD.
+- Los EP deben crear y eliminar E/R.
+## Proceso recomendado
+1. Obtener conocimiento
+	1. descripción inicial
+	2. entrevistar usuarios
+	3. refinar
+	4. recoger requisitos
+2. Modelos de análisis
+	1. 
 # Tags
 #2- 
 #2-2 
