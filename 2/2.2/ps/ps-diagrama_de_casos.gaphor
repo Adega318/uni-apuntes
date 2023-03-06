@@ -2921,7 +2921,7 @@ existing classes or even new classes with specific responsibilities.</val>
 </UseCaseItem>
 <UseCase id="5d671269-b8d7-11ed-9ebf-977364ab4bd7">
 <name>
-<val>Targeta</val>
+<val>Tarjeta</val>
 </name>
 <presentation>
 <reflist>
