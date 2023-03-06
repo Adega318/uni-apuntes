@@ -3,7 +3,7 @@
 <StyleSheet id="58d6989a-66f8-11ec-b4c8-0456e5e540ed"/>
 <Package id="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed">
 <name>
-<val>New model</val>
+<val>ps-bodega</val>
 </name>
 <ownedDiagram>
 <reflist>
@@ -33,7 +33,7 @@
 <ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
 </element>
 <name>
-<val>New diagram</val>
+<val>ps-bodega</val>
 </name>
 <ownedPresentation>
 <reflist>

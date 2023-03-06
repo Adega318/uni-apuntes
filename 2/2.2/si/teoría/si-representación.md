@@ -40,6 +40,9 @@ Permite definir cualquier cosa para la que existe un procedimiento completo y s�
 ## Semántica
 - Relaciones entre las proposiciones y sentencias.
 # Inferencia
+## Métodos estructurados
+### Redes semánticas
+Resdes de relaciones entre conceptos.
 # Tags
 #2-
 #2-2 
