@@ -55,6 +55,10 @@ Tenemos tres tipos de reglas:
 - if, condición o premisa.
 - then, conclusión.
 - else, alternativa.
+#### Tipos
+- ifall, todas las cláusulas cumplen.
+- ifany, alguna cláusula cumple.
+- ifsome, se comprueban todas y luego se hace ifany.
 # Tags
 #2-
 #2-2 
