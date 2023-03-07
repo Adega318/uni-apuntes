@@ -11,18 +11,18 @@ Tendremos dos primitivas, envió y recibir. Podemos tener dos tipos de comportam
 Erlang maneja los procesos usando la compartición mula, mandando mensajes entre ellos.
 ```erl
 % create a new process
-[Pid] = spawn([Module], [Fun], [Args])
+PID = spawn(MODULE, FUN, ARGS)
 % el tipado de los argumentos es dinamico
 ```
 ## Mensajes
 ```erl
 % envio de mensajes
-[Pid]! [Mensaje]
+PID! MENSAJE
 
 % función de recivida
 receive
 	% patern maching
-	[Mensaje] -> ...
+	MENSAJE -> ...
 end
 % revisara mensajes hata que encuentre un mach, no para
 ```
@@ -154,4 +154,20 @@ find(_, []) -> {hash_error, not_found};
 find(K, [{K,V} | _]) -> {hash_ok, V};  
 
 find(K, [_|T]) -> find(K, T).
+```
+### Registro
+```erl
+% definimos NOMBRE como el valor PID
+register(NOMBRE, PID),
+...
+
+...
+NOMBRE!MENSAJE
+```
+## Timeout
+```erl
+receive
+	...
+after
+	TIME ->
 ```
