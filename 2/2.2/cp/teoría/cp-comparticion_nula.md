@@ -105,6 +105,7 @@ loop() ->
 -export([init/0]). % For spawn. Separate from  
 % the api for clarity
 
+
 %%% API %%%%  
 start() ->  
 	spawn(?MODULE, init, []).  
@@ -122,7 +123,35 @@ get(Hash, Key) ->
 	end.
 
 del(Hash, Key) ->  
-	Hash ! {del, Key}.  
+	Hash ! {del, Key}. 
+	
 stop(Hash) ->  
 	Hash ! stop.
+
+
+%%% Internal functions %%%%%  
+init() ->  
+	loop([]). 
+	 
+loop(D) ->  
+	receive  
+		{store, NK, NV} ->  
+			loop([{NK,NV} | del_key(NK,D)]);  
+		{get, K, From} ->  
+			From ! find(K, D),  
+			loop(D);  
+		{del, KD} ->  
+			loop(del_key(KD, D));  
+		stop ->  
+			ok  
+	end.
+
+del_key(K, D) ->  
+	[{Key, Val} || {Key,Val} <- D, Key/=K].
+
+find(_, []) -> {hash_error, not_found};  
+
+find(K, [{K,V} | _]) -> {hash_ok, V};  
+
+find(K, [_|T]) -> find(K, T).
 ```
