@@ -32,7 +32,7 @@ Para contestar el mensaje debe llevar el Pid del remitente, para ello tenemos:
 [Pid] = self()
 ```
 ## Server process
-Server api:
+### Api
 ```erl
 -module(server).
 -export([async_req1/...,sync_req2/...]).
@@ -51,6 +51,7 @@ sync_req2(Serv, ...) ->
 		...
 	end.
 ```
+### Server process
 Server (en un proceso), donde haremos empleo de un loop (recursivo) que tiene que ser terminal.
 ```erl
 init(...) ->
@@ -71,4 +72,57 @@ loop(...) ->
 			From ! {req2_reply, ...},
 			loop(...)
 	end. 
+```
+### Echo server
+```erl
+-module(echo).  
+-export([start/0, init/0, echo/2]).
+
+start() ->  
+	spawn(echo, init, []).  
+echo(Echo_Srv, Msg) ->  
+	Echo_Srv ! {echo, Msg, self()},  
+	receive  
+		{echo_reply, Reply} ->  
+			Reply  
+	end.  
+init() ->  
+	loop().
+
+loop() ->  
+	receive  
+		stop ->  
+			ok;  
+		{echo, Msg, From} ->  
+			From ! {echo_reply, Msg},  
+			loop()  
+	end.
+```
+### Hash
+```erl
+-module(hash).  
+-export([start/0, store/3, get/2, del/2, stop/1]). % Api  
+-export([init/0]). % For spawn. Separate from  
+% the api for clarity
+
+%%% API %%%%  
+start() ->  
+	spawn(?MODULE, init, []).  
+	
+store(Hash, Key, Value) ->  
+	Hash ! {store, Key, Value}.  
+	
+get(Hash, Key) ->  
+	Hash ! {get, Key, self()},  
+	receive  
+		{hash_ok, V} ->  
+			{ok, V};  
+		{hash_error, Reason} ->  
+			{error, Reason}  
+	end.
+
+del(Hash, Key) ->  
+	Hash ! {del, Key}.  
+stop(Hash) ->  
+	Hash ! stop.
 ```
