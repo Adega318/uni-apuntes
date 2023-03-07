@@ -11,7 +11,7 @@ Tendremos dos primitivas, envió y recibir. Podemos tener dos tipos de comportam
 Erlang maneja los procesos usando la compartición mula, mandando mensajes entre ellos.
 ```erl
 % create a new process
-[Pid] = spawn([Module], [Fun], [Args]).
+[Pid] = spawn([Module], [Fun], [Args])
 % el tipado de los argumentos es dinamico
 ```
 ## Mensajes
@@ -32,3 +32,40 @@ Para contestar el mensaje debe llevar el Pid del remitente, para ello tenemos:
 [Pid] = self()
 ```
 ## Server process
+Server api:
+```erl
+-module(server).
+-export([async_req1/...,sync_req2/...]).
+
+start() -> spawn(Module, init, [...]).
+
+% API that abstracts the communication with
+% the server to the clients
+async_req1(Serv, ...) ->
+	Serv ! {req1, ...}.
+	
+sync_req2(Serv, ...) ->
+	Serv ! {req2, ... , self()},
+	receive
+		{req2_reply, ...} ->
+		...
+	end.
+```
+Server (in a diferent process)
+```erl
+init(...) ->
+<initialization>,
+loop(...).
+loop(...) ->
+receive
+stop -> true; % no recursive call => exit
+{req1, ...} ->
+<serve req1>
+loop(...);
+...
+{req2, ..., From} ->
+<serve req2>
+From ! {req2_reply, ...},
+loop(...)
+end. 
+```
