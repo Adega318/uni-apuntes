@@ -8,6 +8,14 @@ Tendremos dos primitivas, envió y recibir. Podemos tener dos tipos de comportam
 - Síncrono, bloquea el proceso de envío.
 - Asíncrono, no se espera a la lectura.
 # Erlang
-```er
-
+Erlang maneja los procesos usando la compartición mula, mandando mensajes entre ellos.
+```erl
+% create a new process
+Pid = spawn(Module, Fun, Args).
+% el tipado de los argumentos es dinamico
+```
+## Mensajes
+```
+% envio de mensajes
+Pid! Mensaje
 ```
