@@ -26,3 +26,9 @@ receive
 end
 % revisara mensajes hata que encuentre un mach, no para
 ```
+### Replying
+Para contestar el mensaje debe llevar el Pid del remitente, para ello tenemos:
+```erl
+[Pid] = self()
+```
+## Server process
