@@ -29,7 +29,16 @@ end
 ### Replying
 Para contestar el mensaje debe llevar el Pid del remitente, para ello tenemos:
 ```erl
-[Pid] = self()
+PID = self()
+```
+### Timeout
+```erl
+receive
+	...
+after
+	TIME ->
+		true
+end
 ```
 ## Server process
 ### Api
@@ -164,10 +173,20 @@ register(NOMBRE, PID),
 ...
 NOMBRE!MENSAJE
 ```
-## Timeout
+## Errors
+### Links
+### Signals
+#### Exit
 ```erl
-receive
-	...
-after
-	TIME ->
+% tremina con REASON
+exit(REASON)
+
+% termina el proceso PID con REASON
+exit(PID, REASON)
+```
+#### Trap_exit
+```erl
+process_flag(MENSAJE, true)
+
+%el forma
 ```
