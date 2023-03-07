@@ -8,3 +8,6 @@ Tendremos dos primitivas, envió y recibir. Podemos tener dos tipos de comportam
 - Síncrono, bloquea el proceso de envío.
 - Asíncrono, no se espera a la lectura.
 # Erlang
+```er
+
+```
