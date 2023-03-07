@@ -175,6 +175,11 @@ NOMBRE!MENSAJE
 ```
 ## Errors
 ### Links
+```erl
+link(PID)
+spawn_link(MODULE, FUN, ARGS)
+unlink(PID)
+```
 ### Signals
 #### Exit
 ```erl
@@ -185,8 +190,8 @@ exit(REASON)
 exit(PID, REASON)
 ```
 #### Trap_exit
+Permite atrapar la finalización de procesos.
 ```erl
 process_flag(MENSAJE, true)
-
-%el forma
+% el formato del MENSAJE es {'EXIT', PID, REASON}
 ```
