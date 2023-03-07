@@ -51,21 +51,24 @@ sync_req2(Serv, ...) ->
 		...
 	end.
 ```
-Server (in a diferent process)
+Server (en un proceso), donde haremos empleo de un loop (recursivo) que tiene que ser terminal.
 ```erl
 init(...) ->
-<initialization>,
-loop(...).
+	<initialization>,
+	loop(...).
+
+% el estado del loop se pasa en los parametros de la recursividad
 loop(...) ->
-receive
-stop -> true; % no recursive call => exit
-{req1, ...} ->
-<serve req1>
-loop(...);
-...
-{req2, ..., From} ->
-<serve req2>
-From ! {req2_reply, ...},
-loop(...)
-end. 
+	receive
+		stop -> true; 
+			% no recursive call => exit
+		{req1, ...} ->
+			<serve req1>
+			loop(...);
+		...
+		{req2, ..., From} ->
+			<serve req2>
+			From ! {req2_reply, ...},
+			loop(...)
+	end. 
 ```
