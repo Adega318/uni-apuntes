@@ -24,6 +24,8 @@ Se representa por los números en los lados.
 ## Participación
 La participación de las entidades puede ser parcial o total, dependiendo si todos son involucrados.
 Se representa como línea doble en el lado total y simple en el parcial.
+# Tipos entidad débil
+Entidades sin los suficientes atributos para formar un identificador.
 # Tags
 #2- 
 #2-2 
