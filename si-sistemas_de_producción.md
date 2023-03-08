@@ -11,7 +11,7 @@ Se exploran solo caminos que veamos que llevan a una meta u objetivos.
 ## Memoria cativa (MA)
 Conocimineto de situaciones detectadas, datos iniciales.
 ## Motor inferente (MI)
-Examina la MA y determina las reglas a ejecutar 
+Examina la MA y determina las reglas a ejecutar.
 # Tags
 #2- 
 #2-2 
