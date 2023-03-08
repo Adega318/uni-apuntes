@@ -25,7 +25,7 @@ Se representa por los números en los lados.
 La participación de las entidades puede ser parcial o total, dependiendo si todos son involucrados.
 Se representa como línea doble en el lado total y simple en el parcial.
 # Tipos entidad débil
-Entidades sin los suficientes atributos para formar un identificador. Esto hace que se deba establecer una dependencia de una entidad más fuerte. Las cardinalidades N:M no 
+Entidades sin los suficientes atributos para formar un identificador. Esto hace que se deba establecer una dependencia de una entidad más fuerte. Las cardinalidades N:M no pueden tener entidad débil, siempre serán 1:N con la baja en la N también tendrá dependencia de existencia (doble ralla).
 # Tags
 #2- 
 #2-2 
