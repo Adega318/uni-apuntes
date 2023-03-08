@@ -152,7 +152,7 @@
 </ActorItem>
 <UseCase id="f6818045-bc10-11ed-84d5-edec5d1d9261">
 <name>
-<val>Iniciar seción</val>
+<val>Autenticarse</val>
 </name>
 <package>
 <ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
@@ -165,7 +165,7 @@
 </UseCase>
 <UseCaseItem id="f681f51f-bc10-11ed-b1ae-edec5d1d9261">
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 277.16325809928605, -125.0001525878906)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 277.16325809928605, -123.18385001830416)</val>
 </matrix>
 <top-left>
 <val>(0.0, 0.0)</val>
@@ -236,7 +236,7 @@
 <val>(1.0, 0.0, 0.0, 1.0, 380.25653867529786, -96.49989318847656)</val>
 </matrix>
 <points>
-<val>[(-173.52396527697397, 10.407952920535422), (-103.09328057601181, -8.500289916992159)]</val>
+<val>[(-173.52396527697397, 10.407952920535422), (-103.09328057601181, -6.6839873474057185)]</val>
 </points>
 <head-connection>
 <ref refid="7cadb3ad-bc53-11ed-bf61-e0d55e8779c3"/>
@@ -1413,7 +1413,7 @@
 </reflist>
 </generalization>
 <name>
-<val>No Identificado</val>
+<val>No autenticado</val>
 </name>
 <package>
 <ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
@@ -1720,7 +1720,7 @@
 </Property>
 <UseCase id="3909f04f-bccd-11ed-96d5-674ac6d8c612">
 <name>
-<val>Cerrar sesión</val>
+<val>Desautenticarse</val>
 </name>
 <package>
 <ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
@@ -1733,16 +1733,16 @@
 </UseCase>
 <UseCaseItem id="390a6ce9-bccd-11ed-bac0-674ac6d8c612">
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 137.73257339832384, 28.73334724045816)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 129.77003488247163, 28.73334724045816)</val>
 </matrix>
 <top-left>
-<val>(0.0, 0.0)</val>
+<val>(0.0, -1.4080902496369845)</val>
 </top-left>
 <width>
-<val>100.0</val>
+<val>115.92507703170452</val>
 </width>
 <height>
-<val>36.0</val>
+<val>37.408090249636984</val>
 </height>
 <diagram>
 <ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
@@ -1758,7 +1758,7 @@
 </reflist>
 </generalization>
 <name>
-<val>Identificado</val>
+<val>Autenticado</val>
 </name>
 <package>
 <ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
@@ -1828,7 +1828,7 @@
 <val>(1.0, 0.0, 0.0, 1.0, 67.28157269021739, 48.73337775803628)</val>
 </matrix>
 <points>
-<val>[(6.32588701357713, 0.0), (70.45100070810645, 0.0)]</val>
+<val>[(6.32588701357713, 0.0), (62.48846219225425, -0.6258166950746542)]</val>
 </points>
 <head-connection>
 <ref refid="ece1fcae-bcce-11ed-aa79-674ac6d8c612"/>
