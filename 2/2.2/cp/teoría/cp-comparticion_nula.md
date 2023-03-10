@@ -204,13 +204,28 @@ $ erl -name NOMBRE
 ```
 #### Comunicación
 ```erl
-PID=spawn('NOMBRE@MAQUINA', )
+% no registrados
+PID=spawn('NOMBRE@MAQUINA', demo, init, [1]).
+PID ! MENSAJE
+% registrados
+{db_server, 'NOMBRE@MAQUINA'} ! MENSAJE.
 ```
 #### Monitorizar
 ```erl
-monitor_node(NOMBRE, BOOL)
-
+monitor_node(NOMBRE, BOOL),
+%el recive recivira los cambios de estado
 ```
+#### Autentificación
+Pasword compartido entre los nodos que permite la comunicación.
+```erl
+$erl -setcookie CONTRASEÑA
+```
+#### BIFs
+Funciones Útiles para distribución:  
+- spawn(Nodo, M, F, A), spawn_link(Nodo, M, F,  A)
+- node(), nodes(). Obtiene el nodo actual, y todos los  nodos que conoce el sistema.  
+node(Pid). Indica el nodo en que está corriendo el  proceso Pid.  
+set_cookie(Nodo, Cookie), get_cookie()
 # Tags
 #2- 
 #2-2 
