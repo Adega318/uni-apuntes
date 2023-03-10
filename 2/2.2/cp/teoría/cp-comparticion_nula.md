@@ -224,8 +224,10 @@ $erl -setcookie CONTRASEÑA
 Funciones Útiles para distribución:  
 - spawn(Nodo, M, F, A), spawn_link(Nodo, M, F,  A)
 - node(), nodes(). Obtiene el nodo actual, y todos los  nodos que conoce el sistema.  
-node(Pid). Indica el nodo en que está corriendo el  proceso Pid.  
-set_cookie(Nodo, Cookie), get_cookie()
+- node(Pid). Indica el nodo en que está corriendo el  proceso Pid.  
+- set_cookie(Nodo, Cookie), get_cookie()
+#### Ejercicios
+
 # Tags
 #2- 
 #2-2 
