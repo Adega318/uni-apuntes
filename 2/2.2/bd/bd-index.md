@@ -4,6 +4,7 @@
 2. [[bd-diseño_lógico]]
 	1. [[bd-diseño_lógico-ejercicios]]
 3. [[bd-modelado_conceptual]]
+	1. [[bd-modelo-ejerc]]
 # Prácticas
 # Tags
 #2- 
