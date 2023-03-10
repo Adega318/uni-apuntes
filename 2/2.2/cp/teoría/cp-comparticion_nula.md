@@ -196,6 +196,21 @@ Permite atrapar la finalización de procesos.
 process_flag(MENSAJE, true)
 % el formato del MENSAJE es {'EXIT', PID, REASON}
 ```
+## Distribución
+### Nodos
+```erl
+% iniciar
+$ erl -name NOMBRE
+```
+#### Comunicación
+```erl
+PID=spawn('NOMBRE@MAQUINA', )
+```
+#### Monitorizar
+```erl
+monitor_node(NOMBRE, BOOL)
+
+```
 # Tags
 #2- 
 #2-2 
