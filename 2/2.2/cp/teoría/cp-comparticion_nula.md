@@ -175,6 +175,7 @@ NOMBRE!MENSAJE
 ```
 ## Errors
 ### Links
+Enlace bidireccional entre procesos, llevándose al resto si uno muere y no se captura la señal de muerte.
 ```erl
 link(PID)
 spawn_link(MODULE, FUN, ARGS)
@@ -195,3 +196,7 @@ Permite atrapar la finalización de procesos.
 process_flag(MENSAJE, true)
 % el formato del MENSAJE es {'EXIT', PID, REASON}
 ```
+# Tags
+#2- 
+#2-2 
+#cp 
