@@ -24,9 +24,18 @@ Complementa al diagrama de estructuras clarificando los flags y datos.
 Se parte de los DFD de último nivel sobre los que se aplican estrategias:
 ## Transformación
 Se aplica sobre los DFD con uno o varios caminos de entradas que son transformadas a un formato que en el núcleo es transformado en el resultado que pasa a uno o varios caminos de salida donde se pasa al formato externo.
-## Transanción
-
-
+![[Pasted image 20230313135959.png]]
+El analisiss es:
+1. Revisar el modelo
+2. Determinar las caracteristicas
+3. Aislar el centro de transformación
+4. Realizar un primer nivel de factorización
+5. Realizar un segundo nivel de factorización
+6. Refinar arquitectura
+7. revisar
+## Transacción
+Se aplica en DFD con un camino de entrada y camino de acción inicial que se divide en varios caminos de aciones independientes que llevan a su propio resultado.
+![[Pasted image 20230313140026.png]]
 # Tags
 #2- 
 #2-2 
