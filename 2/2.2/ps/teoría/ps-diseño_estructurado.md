@@ -29,8 +29,11 @@ El análisis tiene los siguientes pasos:
 1. Revisar el modelo
 2. Determinar las características
 3. Aislar el centro de transformación
+	- burbujas que hacen la función central del DFD
 4. Realizar un primer nivel de factorización
+	- El primer nivel de factorización es la invención de módulos para coordinar las distintas zonas (entrada, centro y salida).
 5. Realizar un segundo nivel de factorización
+	- Expandimos sobre los módulos coordinadores para representar los procesos
 6. Refinar arquitectura
 7. Revisar
 ## Transacción
