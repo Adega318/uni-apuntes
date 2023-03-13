@@ -33,8 +33,9 @@ El análisis tiene los siguientes pasos:
 4. Realizar un primer nivel de factorización
 	- El primer nivel de factorización es la invención de módulos para coordinar las distintas zonas (entrada, centro y salida).
 5. Realizar un segundo nivel de factorización
-	- Expandimos sobre los módulos coordinadores para representar los procesos
+	- Expandimos sobre los módulos coordinadores para representar los procesos.
 6. Refinar arquitectura
+	- Se refinará la arquitectura comprobando si los módulos de la primera factorización son necesarios.
 7. Revisar
 ## Transacción
 Se aplica en DFD con un camino de entrada y camino de acción inicial que se divide en varios caminos de aciones independientes que llevan a su propio resultado.
