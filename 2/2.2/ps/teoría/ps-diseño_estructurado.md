@@ -36,7 +36,10 @@ El análisis tiene los siguientes pasos:
 	- Expandimos sobre los módulos coordinadores para representar los procesos.
 6. Refinar arquitectura
 	- Se refinará la arquitectura comprobando si los módulos de la primera factorización son necesarios.
+	- Cambios en los módulos con uniones o divisiones.
+	- Añadir los flujos de datos.
 7. Revisar
+	- Se revisa en busca de errores.
 ## Transacción
 Se aplica en DFD con un camino de entrada y camino de acción inicial que se divide en varios caminos de aciones independientes que llevan a su propio resultado.
 ![[Pasted image 20230313140026.png]]
