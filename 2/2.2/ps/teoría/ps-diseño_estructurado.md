@@ -22,7 +22,10 @@ Complementa al diagrama de estructuras clarificando los flags y datos.
 ![[Pasted image 20230313135223.png]]
 # Estrategias de diseño
 Se parte de los DFD de último nivel sobre los que se aplican estrategias:
-## 
+## Transformación
+Se aplica sobre los DFD con uno o varios caminos de entradas que son transformadas a un formato que en el núcleo es transformado en el resultado que pasa a uno o varios caminos de salida donde se pasa al formato externo.
+## Transanción
+
 
 # Tags
 #2- 
