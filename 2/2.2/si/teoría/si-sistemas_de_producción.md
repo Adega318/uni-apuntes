@@ -12,6 +12,9 @@ Se exploran solo caminos que veamos que llevan a una meta u objetivos.
 Conocimiento de situaciones detectadas, datos iniciales.
 ## Motor inferente (MI)
 Examina la MA y determina las reglas a ejecutar.
+## Fase de decisión
+### Tareas
+
 # Tags
 #2- 
 #2-2 
