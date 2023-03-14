@@ -8,6 +8,13 @@
 6. Otro thread ve todos los cambios o ninguno
 Se suele implementar un retray para cancelar e intentar de nuevo.
 Este método permite la composición de funciones, al no hacer empleo de mutex.
+# RCU
+Hace una copia, trabaja y mira si la copia difiere de lo guardado.
+- Alternativa a lock lectores/escritores 
+- Lecturas tienen muy poco overhead  
+- Escrituras pueden ser caras  
+- Mantiene copia de datos antiguos  
+- Que se reclama cuando todos los lectores antiguos han terminado
 # Tags
 #2- 
 #2-2 
