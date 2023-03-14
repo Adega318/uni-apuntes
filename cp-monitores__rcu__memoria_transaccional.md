@@ -9,7 +9,7 @@
 Se suele implementar un retray para cancelar e intentar de nuevo.
 Este método permite la composición de funciones, al no hacer empleo de mutex.
 # RCU
-Hace una copia, trabaja y mira si la copia difiere de lo guardado.
+Hace una copia, trabaja y mira si la copia difiere de lo guardado. Tiene gran eficiencia en lectura habitual y escritura esporádica.
 - Alternativa a lock lectores/escritores 
 - Lecturas tienen muy poco overhead  
 - Escrituras pueden ser caras  
