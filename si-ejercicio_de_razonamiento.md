@@ -38,11 +38,11 @@ Calculo del complejo de manifestaciones:
 | i(2) | 0   | 1   | 0   | 1   |
 
 ## 1.
-
-| r1  | i(1) -> m(1) & m(3)                  |
+|     |                                      |
 | --- | ------------------------------------ |
-| r2  | !i()                                     |
-| r3  | m(1) or m(2) or m(3) -> i(1) or i(2) | 
+| r1  | i(1) -> m(1) & m(3)                  |
+| r2  | !i(1) & i(2) -> m(2)                 |
+| r3  | m(1) or m(2) or m(3) -> i(1) or i(2) |
 
 Base lógica expandida:
 
