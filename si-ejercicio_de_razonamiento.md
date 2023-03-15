@@ -54,7 +54,10 @@ BLR = {m1 l1, m3 l2, m4 l2, m7 l2, m8 l2, m6 l3, m8 l3, m6 l4, m8 l4}
 
 Pacientes:
 P1 = !l(1) & l(2) -> gastro y no gripe
-P2 = m6 l3 + m6 l4 -> l(1) & 
+P2 = m6 l3 + m6 l4 -> l(1) & !l(2) + l(1) & l(2) -> tiene gripe, gastro?
+	Correción de  bayes:
+	P(l3|m6) = (P(m6 | l3) x P(l3)) / (P(m6 | l1) x P(l1) +P(m6 | l2) x P(i2) + P(m6 | i3) x P(i3) + P(m6 | i4 ) x P(i4))
+	P( l)
 ## 2.
 
 # Tags
