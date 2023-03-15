@@ -7,7 +7,7 @@ is:
 - gripe -> i1
 - gastro -> i2
 
-Estadisticas:
+Estadísticas:
 - P(m1 | i1) = 1
 - P(m3 | i2) = 0.4
 - P(m4 | i2) = 0.3
@@ -16,7 +16,14 @@ Estadisticas:
 - P(m6 | i3) = 0.3
 - P(m8 | i3) = 0.7
 - P(m8 | i4) = 0.9
-## 1.
+- P(m6 | i4) = 0.1
+
+Implicaciones:
+- !i(1) & !i(2) -> 0.45
+- !i(1) & i(2) -> 0.3
+- i(1) & !i(2) -> 0.2
+- i(1)  & i(2) -> 0.05
+
 Calculo del complejo de manifestaciones:
 |      | m1  | m2  | m3  | m4  | m5  | m6  | m7  | m8  |
 | ---- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -24,12 +31,13 @@ Calculo del complejo de manifestaciones:
 | m(2) | 0   | 0   | 1   | 1   | 0   | 0   | 1   | 1   |
 | m(3) | 0   | 1   | 0   | 1   | 0   | 1   | 0   | 1   |
 
-|      | l1  | l2  | l3  | l4  |
+|      | i1  | i2  | i3  | i4  |
 | ---- | --- | --- | --- | --- |
-| l(1) | 0   | 0   | 1   | 1   |
-| l(2) | 0   | 1   | 0   | 1    |
+| i(1) | 0   | 0   | 1   | 1   |
+| i(2) | 0   | 1   | 0   | 1   |
 
-Base lógica expandida
+## 1.
+Base lógica expandida:
 |      | m1  | m2  | m3  | m4  | m5  | m6  | m7  | m8  |
 | ---- | --- | --- | --- | --- | --- | --- | --- | --- |
 | m(1) | 0   | 0   | 0   | 0   | 1   | 1   | 1   | 1   |
