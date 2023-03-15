@@ -38,6 +38,8 @@ Calculo del complejo de manifestaciones:
 | i(2) | 0   | 1   | 0   | 1   |
 
 ## 1.
+Formalización: 
+Se convierte lo expresado en el enunciado en relaciones.
 |     |                                      |
 | --- | ------------------------------------ |
 | r1  | i(1) -> m(1) & m(3)                  |
