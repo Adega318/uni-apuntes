@@ -43,6 +43,8 @@ Se produce al no haber camino entre entidades relacionadas. Aparece cuando uno o
 ![[Pasted image 20230315120046.png]]
 Solución:
 ![[Pasted image 20230315120309.png]]
+# Relaciones de grado mayor a 2
+
 # Tags
 #2- 
 #2-2 
