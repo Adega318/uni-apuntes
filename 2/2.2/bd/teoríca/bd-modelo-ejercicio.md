@@ -1,11 +1,6 @@
-- DNI
-- NIE
-- Nombre
-- Nacimineto
-- Estudios
+# Ejer 15/03/23
 
-- Catastro
-- enderezo
-- valor
-
-- persona empadronada
+# Tags
+#2- 
+#2-2 
+#bd 

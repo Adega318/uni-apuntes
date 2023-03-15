@@ -27,6 +27,13 @@ Se representa como línea doble en el lado total y simple en el parcial.
 # Tipos entidad débil
 Entidades sin los suficientes atributos para formar un identificador. Esto hace que se deba establecer una dependencia de una entidad más fuerte. Las cardinalidades N:M no pueden tener entidad débil, siempre serán 1:N con la baja en la N también tendrá dependencia de existencia (doble ralla).
 ![[Pasted image 20230315114323.png]]
+**DI -> DE
+DE !-> DI**
+# Trampas de conexión
+Problemas causados por las conexiones, divididas en dos tipos:
+- Abanico, producido por caminos ambiguos entre relaciones o teneiendo mas de dos tipos de relación con cantidad N.
+![[Pasted image 20230315114854.png]]
+- Sumidero
 # Tags
 #2- 
 #2-2 
