@@ -5,6 +5,7 @@
 3. [[si-representación]]
 4. [[si-sistemas_de_producción]]
 5. [[si-modelos_de_razonamiento]]
+	1. [[si-ejercicio_de_razonamiento]]
 # Prácticas
 1. [[si-p1]]
 # Tags
