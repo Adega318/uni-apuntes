@@ -1,5 +1,21 @@
 # Ejercicio 1
+ms:
+- tos -> m3
+- diarrea -> m2
+- fiebre -> m1
+is:
+- gripe -> i1
+- gastro -> i2
 
+Estadisticas:
+- P(m1 | i1) = 1
+- P(m3 | i2) = 0.4
+- P(m4 | i2) = 0.3
+- P(m7 | i2) = 0.2
+- P(m8 | i2) = 0.1
+- P(m6 | i3) = 0.3
+- P(m8 | i3) = 0.7
+- P(m8 | i4) = 0.9
 ## 1.
 Calculo del complejo de manifestaciones:
 |      | m1  | m2  | m3  | m4  | m5  | m6  | m7  | m8  |
