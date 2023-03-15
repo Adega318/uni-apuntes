@@ -30,11 +30,12 @@ Entidades sin los suficientes atributos para formar un identificador. Esto hace 
 **DI -> DE
 DE !-> DI**
 # Trampas de conexión
-Problemas causados por las conexiones, divididas en dos tipos:
+Problemas causados por el orden de las conexiones, hay dos tipos:
 ## Abanico
 Producido por caminos ambiguos entre relaciones o teniendo más de dos tipos de relación con cantidad N.
 ![[Pasted image 20230315114854.png]]
 ## Sumidero
+
 # Tags
 #2- 
 #2-2 
