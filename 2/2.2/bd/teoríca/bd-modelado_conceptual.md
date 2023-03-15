@@ -33,9 +33,16 @@ DE !-> DI**
 Problemas causados por el orden de las conexiones, hay dos tipos:
 ## Abanico
 Producido por caminos ambiguos entre relaciones o teniendo más de dos tipos de relación con cantidad N.
+![[Pasted image 20230315120128.png]]
 ![[Pasted image 20230315114854.png]]
+Solución:
+![[Pasted image 20230315120334.png]]
 ## Sumidero
-
+Se produce al no haber camino entre entidades relacionadas. Aparece cuando uno o más tipos de relaciones tienen participación parcial.
+![[Pasted image 20230315120111.png]]
+![[Pasted image 20230315120046.png]]
+Solución:
+![[Pasted image 20230315120309.png]]
 # Tags
 #2- 
 #2-2 
