@@ -5,4 +5,5 @@
 2. Prototipo no funcional.
 	1. Dinámica de pantallas, para iterar con el cliente.
 	2. Modelo de prototipado.
-	3. 
+	3. Alto detalle
+	4. 
