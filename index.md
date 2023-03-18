@@ -1,3 +1,4 @@
+[[borrador]]
 # Años
 1. [[2-index]]
 # Recursos
