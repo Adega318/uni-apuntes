@@ -1,4 +1,4 @@
-La metodologia dota de contenido a los ciclos de vida.
+La metodología dota de contenido a los ciclos de vida.
 # 
 # Tags
 #2- 
