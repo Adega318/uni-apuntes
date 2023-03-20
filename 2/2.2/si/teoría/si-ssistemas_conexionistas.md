@@ -1,8 +1,6 @@
 # La neurona artificial
 Las neuronas artificiales suman las entradas multiplicadas por su peso y el **bias** con su peso, el valor de salida se pasa por el **neta** a la función de salida. 
-$$Y_{i}=f(\sum_{j=1}^{m} w_{ij}x_{j}+b_{i})$$
-
-![[Pasted image 20230320084934.png]]
+$$Y_{i}=f(\sum_{j=1}^{m} w_{ij}x_{j}+b_{i})$$![[Pasted image 20230320084934.png]]
 Las conexiones las podemos clasificar en función de su peso como:
 - excitadoras $w_{ij}>0$
 - inhibitorias $w_{ij}<0$
@@ -23,24 +21,21 @@ Para minimizar el error se derivará con respecto a w, obteniendo información p
 Modificación del peso j, para un patrón k, en t:
 $$w_{j}(t+1)=w_{t}+\mu(d_{k}-Y_{k})x_{jk}$$
 $\mu:$ tasa de aprendizaje
-## Descenso del gradiente
-Se basa en la selección aleatoria de un valor para obtener la ecuación del error del gradiente, esta función se derivara para obtener la pendiente y, por lo tanto, se modificaran los pesos en función a la pendiente, llevando al mínimo error.
-Dependiendo de la configuración del método de cálculo variará la resistencia a los errores de mínimo relativo. 
-$$x_{n+1}=x_{n}-a\nabla f(x_{n})$$
 # Perceptrón
 Es el adaline, pero implementando una función de trasferencia para normalizar la salida.
 Un perceptrón implementa un sistema de separación de conjuntos lineal.
-## Regla de modificación de pesos
+## Estructura y aprendizaje
 Algoritmo original:
 1. Si está bien no lo toques.
 2. Si la salida es incorrecta negativa, le sumo la entrada.
 3. Si la salida es incorrecta positiva, le resto la entrada.
 Luego se pasó a usar la regla delta:
-$$w_{i}(t+1)=w_{i}(t)+\mu(d(t)-y(t))x_{i}$$
-## Estructura y aprendizaje
+$$w_{i}(t+1)=w_{i}(t)+\mu(d(t)-y(t))x_{i}(t)$$
+### Multicapa
+Al añadir múltiples perceptrones se pasó de hacer separaciones lineales a poder hacer separaciones polinómicas.
+![[Pasted image 20230320174935.png]]
 ## Funciones de transferencia
-## Entrenamiento y 
-# Aplicaciones
+## Entrenamiento y Aplicaciones
 # Tags
 #2- 
 #2-2 
