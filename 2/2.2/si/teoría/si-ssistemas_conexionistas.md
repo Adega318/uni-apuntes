@@ -1,6 +1,6 @@
 # La neurona artificial
 Las neuronas artificiales suman las entradas multiplicadas por su peso y el **bias** con su peso, el valor de salida se pasa por el **neta** a la función de salida. 
-$$y=f(\sum_{i=1}^{n} w_{i}x_{i}+b)$$
+$$Y_{i}=f(\sum_{j=1}^{m} w_{ij}x_{j}+b_{i})$$
 
 ![[Pasted image 20230320084934.png]]
 ## Punto de activación
