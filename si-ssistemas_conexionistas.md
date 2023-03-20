@@ -1,5 +1,7 @@
 # La neurona artificial
-La neurona artificial es un nodo que basándose en unas entradas numericas se 
+Las neuronas artificiales suman las entradas multiplicadas por su peso y el **bias** con su peso, el valor de salida se pasa por el **neta** a la función de salida.
+$$ $$
+
 # Adaline
 # Perceptrón
 ## Estructura y aprendizaje
