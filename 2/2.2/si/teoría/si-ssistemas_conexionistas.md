@@ -20,7 +20,9 @@ Error cuadrático medio:
 $$E=\sum_{k=1}^{L}E_{k}=\frac{1}{2}\sum_{k=1}^{L}(d_{k}-Y_{k})^2$$
 Para minimizar el error se derivará con respecto a w, obteniendo información para la minimización de la pendiente del gradiente.
 ### Modificación de pesos
-Sea $W(t)$ el vector de pesos en t, en $t+1->W(t+1)=W(t)+\DeltaW(t)$
+Modificación del peso j, para un patrón k, en t:
+$$w_{j}(t+1)=w_{t}+\mu(d_{k}-Y_{k})x_{jk}$$
+$\mu:$ tasa de aprendizaje
 ## Descenso del gradiente
 Se basa en la selección aleatoria de un valor para obtener la ecuación del error del gradiente, esta función se derivara para obtener la pendiente y, por lo tanto, se modificaran los pesos en función a la pendiente, llevando al mínimo error.
 Dependiendo de la configuración del método de cálculo variará la resistencia a los errores de mínimo relativo. 
