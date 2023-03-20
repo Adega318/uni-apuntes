@@ -12,7 +12,8 @@ Uno de los primeros modelos, siendo un modelo supervisado.
 El método de corrección se basa en un algoritmo de optimización, descenso del gradiente. Esto se aplicará a un espacio de dimensiones igual a las variables.
 ## Descenso del gradiente
 Se basa en la selección aleatoria de un valor para obtener la ecuación del error del gradiente, esta función se derivara para obtener la pendiente y, por lo tanto, se modificaran los pesos en función a la pendiente, llevando al mínimo error.
-Dependiendo de la configuración del metodo de calculo variara la resistencia a los errores de minimo relativo.
+Dependiendo de la configuración del método de cálculo variará la resistencia a los errores de mínimo relativo.
+<font size="6"> $$x_{n+1}=x_{n}-a\nabla f(x_{n})$$ </font>
 # Perceptrón
 ## Estructura y aprendizaje
 ## Funciones de transferencia
