@@ -5,6 +5,7 @@
 3. [[ps-análisis_de_requisitos]]
 4. [[ps-análisis_de_sistemas]]
 5. [[ps-diseño_estructurado]]
+6. [[ps-metodologias_de_desarrollo]]
 # Prácticas
 # Tags
 #2- 
