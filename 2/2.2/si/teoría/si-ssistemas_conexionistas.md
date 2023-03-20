@@ -3,13 +3,13 @@ Las neuronas artificiales suman las entradas multiplicadas por su peso y el **bi
 $$Y_{i}=f(\sum_{j=1}^{m} w_{ij}x_{j}+b_{i})$$
 
 ![[Pasted image 20230320084934.png]]
-## Punto de activación
-Recta imaginaria que divide los niveles de activación de las neuronas en abierto y cerrado.
-## Entrenamiento
-El entrenamiento básico se basa en series de datos pre procesados.
+Las conexiones las podemos clasificar en función de su peso como:
+- excitadoras $w_{ij}>0$
+- inhibitorias $w_{ij}<0$
+- inexistentes $w_{ij}=0$
+Por otro lado, él bisas determina la sensibilidad de una neurona para la activación.
 # Adaline
-Uno de los primeros modelos, siendo un modelo supervisado.
-El método de corrección se basa en un algoritmo de optimización, descenso del gradiente. Esto se aplicará a un espacio de dimensiones igual a las variables.
+El modelo Adaline es un modelo supervisado con correción 
 ## Descenso del gradiente
 Se basa en la selección aleatoria de un valor para obtener la ecuación del error del gradiente, esta función se derivara para obtener la pendiente y, por lo tanto, se modificaran los pesos en función a la pendiente, llevando al mínimo error.
 Dependiendo de la configuración del método de cálculo variará la resistencia a los errores de mínimo relativo. 
