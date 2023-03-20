@@ -13,7 +13,8 @@ El modelo Adaline es un modelo supervisado con corrección de errores, corrige m
 ## Regala delta (LMS)
 La regla delta o también conocida como el descenso del gradiente, basando se en la derivación del error y minimización de la pendiente de la derivada.
 Para cada patrón k:
-$$Y_$$
+$Y_{k}=\sum_{j=0}^{m}w_{kj}x_{j}\\E$
+
 ## Descenso del gradiente
 Se basa en la selección aleatoria de un valor para obtener la ecuación del error del gradiente, esta función se derivara para obtener la pendiente y, por lo tanto, se modificaran los pesos en función a la pendiente, llevando al mínimo error.
 Dependiendo de la configuración del método de cálculo variará la resistencia a los errores de mínimo relativo. 
