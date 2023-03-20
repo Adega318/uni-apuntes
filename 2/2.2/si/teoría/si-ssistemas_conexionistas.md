@@ -14,12 +14,13 @@ El modelo Adaline es un modelo supervisado con corrección de errores, corrige m
 La regla delta o también conocida como el descenso del gradiente, basando sé en la derivación del error y minimización de la pendiente de la derivada.
 Para cada patrón k:
 $$Y_{k}=\sum_{j=0}^{m}w_{kj}x_{j}$$
-Error de K:
-$$E_{k}=d_{k}-Y_{k}$$
+Error cuadrático:
+$$E_{k}=\frac{1}{2}(d_{k}-Y_{k})^2$$
 Error cuadrático medio:
 $$E=\sum_{k=1}^{L}E_{k}=\frac{1}{2}\sum_{k=1}^{L}(d_{k}-Y_{k})^2$$
 Para minimizar el error se derivará con respecto a w, obteniendo información para la minimización de la pendiente del gradiente.
-
+### Modificación de pesos
+Sea $W(t)$ el vector de pesos en t, en $t+1->W(t+1)=W(t)+\DeltaW(t)$
 ## Descenso del gradiente
 Se basa en la selección aleatoria de un valor para obtener la ecuación del error del gradiente, esta función se derivara para obtener la pendiente y, por lo tanto, se modificaran los pesos en función a la pendiente, llevando al mínimo error.
 Dependiendo de la configuración del método de cálculo variará la resistencia a los errores de mínimo relativo. 
