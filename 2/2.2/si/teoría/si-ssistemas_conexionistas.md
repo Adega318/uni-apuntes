@@ -17,7 +17,12 @@ Dependiendo de la configuración del método de cálculo variará la resistencia
 # Perceptrón
 Es el adaline, pero implementando una función de trasferencia para normalizar la salida.
 Un perceptrón implementa un sistema de separación de conjuntos lineal.
-
+## Regla de modificación de pesos
+1. Si está bien no lo toques.
+2. Si la salida es incorrecta negativa, le sumo la entrada.
+3. Si la salida es incorrecta positiva, le resto la entrada.
+luego se paso a usr la regla delta:
+$$w_{i}(t+1)=w_{i}(t)+\mu(d(t)-y(t))x_{i}$$
 ## Estructura y aprendizaje
 ## Funciones de transferencia
 ## Entrenamiento y 
