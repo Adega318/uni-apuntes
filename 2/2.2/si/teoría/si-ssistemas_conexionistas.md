@@ -9,7 +9,11 @@ Las conexiones las podemos clasificar en función de su peso como:
 - inexistentes $w_{ij}=0$
 Por otro lado, él bisas determina la sensibilidad de una neurona para la activación.
 # Adaline
-El modelo Adaline es un modelo supervisado con correción 
+El modelo Adaline es un modelo supervisado con corrección de errores, corrige mediante la reducción del error cuadrático medio (ECM).
+## Regala delta (LMS)
+La regla delta o también conocida como el descenso del gradiente, basando se en la derivación del error y minimización de la pendiente de la derivada.
+Para cada patrón k:
+$$Y_$$
 ## Descenso del gradiente
 Se basa en la selección aleatoria de un valor para obtener la ecuación del error del gradiente, esta función se derivara para obtener la pendiente y, por lo tanto, se modificaran los pesos en función a la pendiente, llevando al mínimo error.
 Dependiendo de la configuración del método de cálculo variará la resistencia a los errores de mínimo relativo. 
