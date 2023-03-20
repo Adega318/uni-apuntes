@@ -15,6 +15,9 @@ Se basa en la selección aleatoria de un valor para obtener la ecuación del err
 Dependiendo de la configuración del método de cálculo variará la resistencia a los errores de mínimo relativo.
 <font size="6"> $$x_{n+1}=x_{n}-a\nabla f(x_{n})$$ </font>
 # Perceptrón
+Es el adaline, pero implementando una función de trasferencia para normalizar la salida.
+Un perceptrón implementa un sistema de separación de conjuntos lineal.
+
 ## Estructura y aprendizaje
 ## Funciones de transferencia
 ## Entrenamiento y 
