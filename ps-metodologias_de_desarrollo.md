@@ -1,7 +1,7 @@
 La metodología dota de contenido a los ciclos de vida.
 # Tipos
 Las metodologías se pueden clasificar.
-Filosofía:
+Filosofía:ç
 - Tradicional
 - Ágil
 Paradigma:
