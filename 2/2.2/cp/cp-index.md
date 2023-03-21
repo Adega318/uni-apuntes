@@ -11,7 +11,7 @@
 7. [[cp-comparticion_nula]]
 8. [[cp-monitores__rcu__memoria_transaccional]]
 ## Paralelismo
-1. [[]]
+1. [[cp-principios_de_paralelismo]]
 # Prácticas
 # Tags
 #2-
