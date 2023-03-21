@@ -21,7 +21,7 @@ Tamaño de paquete 60 bytes.
 	- NoOp
 - Datos
 # Subredes
-
+Sirven para dividir una rez en partes más pequeñas.
 # Tags
 #2- 
 #2-2 
