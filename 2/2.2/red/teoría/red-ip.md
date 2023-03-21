@@ -21,7 +21,7 @@ Tamaño de paquete 60 bytes.
 	- NoOp
 - Datos
 # Subredes
-Sirven para dividir una rez en partes más pequeñas.
+Sirven para dividir una red en partes más pequeñas. Para ello se usan los bits de host, 
 # Tags
 #2- 
 #2-2 
