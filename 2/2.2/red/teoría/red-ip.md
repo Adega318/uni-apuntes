@@ -1,4 +1,5 @@
 # Cabecera IP
+Tamaño de paquete 60 bytes.
 ![[Pasted image 20230321133951.png]]
 - TCP/IP
 - Versión
@@ -13,6 +14,11 @@
 - IP origen
 - IP destino
 - Opciones
+	- enrutamiento
+	- timestamp
+	- lista estricta
+	- lista difusa
+	- NoOp
 - Datos
 # Subredes
 
