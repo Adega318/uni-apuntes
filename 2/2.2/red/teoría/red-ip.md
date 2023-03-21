@@ -24,7 +24,7 @@ Tamaño de paquete 60 bytes.
 Sirven para dividir una red en partes más pequeñas. Para ello se usan los bits de host, para ello se establecen un número de bits de host suficiente para el número de subredes, siendo mínimo 2.
 - Identificador de subred, con los dos primeros bits del identificador de host sabemos la subred.
 ## Máscara de subred
-La máscara de subred informa del número de bits de host. El número de bits a uno índica el número de bits de host.
+La máscara de subred informa del número de bits de host. El número de bits a uno índica el número de bits de subred.
 # Tags
 #2- 
 #2-2 
