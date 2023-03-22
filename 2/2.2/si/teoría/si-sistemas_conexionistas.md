@@ -69,8 +69,12 @@ Se entrena utilizando Backpropagation, que es el método de entreno de multicapa
 - $i_{pj}^{h}$: salida PE j en la capa oculta h para el patrón p  
 - $o_{pj}$ : salida PE j en la capa de salida para el patrón p
 #### Error y pesos
-$$i_{pj}^{h}=f_{j}^{h}(neta_{pj}^{h})$$
-$$neta_{pj}^{h}=\sum_{i=0}^{n}$$
+Error de la capa oculta h:
+$$\delta_{pj}^{h}=f_{j}^{h\prime}(neta_{pj}^{h})\sum\delta_{pk}^{o}w_{kj}^{o}$$
+Error de la capa de salida o:
+$$\delta_{pj}^{h}=f_{j}^{h\prime}(neta_{pj}^{h})\sum\delta_{pk}^{o}w_{kj}^{o}$$
+Correción del peso:
+$$$$
 #### Proceso
 1. Pesos iniciales aleatorios
 2. Entrenamiento con un conjunto reresentativo.
