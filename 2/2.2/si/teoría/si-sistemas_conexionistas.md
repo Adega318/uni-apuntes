@@ -57,7 +57,7 @@ Las redes neuronales son aproximaciones universales, siendo garantizado su valid
 - Clasificación
 - Regresión
 ### Entrenamiento
-Se entrena utilizando Backpropagation, que es el método de entreno de multicapas que generaliza la regla delta.
+Se entrena utilizando Backpropagation, que es el método de entreno de multicapas que generaliza la regla delta mediante el uso de la retro propagación del error.
 #### Notación
 - $n$ : número de entradas de cada patrón  
 - $h$ : capa oculta; 
@@ -68,9 +68,12 @@ Se entrena utilizando Backpropagation, que es el método de entreno de multicapa
 - $w_{pj}^{h}$ : conexión PE i (capa h-1) con PE j (capa h)  
 - $i_{pj}^{h}$: salida PE j en la capa oculta h para el patrón p  
 - $o_{pj}$ : salida PE j en la capa de salida para el patrón p
-#### Funcionamiento
+#### Error y pesos
 $$i_{pj}^{h}=f_{j}^{h}(neta_{pj}^{h})$$
 $$neta_{pj}^{h}=\sum_{i=0}^{n}$$
+#### Proceso
+1. Pesos iniciales aleatorios
+2. 
 # Tags
 #2- 
 #2-2 
