@@ -32,7 +32,7 @@ Algoritmo original:
 Luego se pasó a usar la regla delta:
 $$w_{i}(t+1)=w_{i}(t)+\mu(d(t)-y(t))x_{i}(t)$$
 ### Multicapa
-Al añadir múltiples perceptrones se pasó de hacer separaciones lineales a poder hacer separaciones polinómicas. Tambien produce el efecto de caja negra sobre el funcionamiento interno de la red.
+Al añadir múltiples perceptrones se pasó de hacer separaciones lineales a poder hacer separaciones polinómicas. También produce el efecto de caja negra sobre el funcionamiento interno de la red.
 ![[Pasted image 20230320174935.png]]
 Arquitectura multicapa:
 - Capa de entrada, neuronas que retransmiten las entradas a las capas ocultas.
