@@ -75,8 +75,8 @@ Correción de la capa de oculta:
 $$w_{ji}^{h}(t+1)=w_{ji}^{h}(t)+\mu \delta_{pj}^{h} i_{i}^{h-1}$$
 Error de la capa de salida o:
 $$\delta_{pj}^{o}=\delta_{pk}f_{j}^{o\prime}(neta_{pj}^{o})$$
-Correción de la capa de oculta:
-$$w_{ji}^{h}(t+1)=w_{ji}^{h}(t)+\mu \delta_{pj}^{h} i_{i}^{h-1}$$
+Correción de la capa de salida:
+$$w_{kj}^{o}(t+1)=w_{kj}^{o}(t)+\mu \delta_{pk}^{o} i_{pj}^{o-1}$$
 #### Proceso
 1. Pesos iniciales aleatorios
 2. Entrenamiento con un conjunto reresentativo.
