@@ -39,8 +39,15 @@ Arquitectura multicapa:
 - Capas ocultas, procesan la información y mandan a las de salida.
 - Capa de salida, reciben los datos de salida.
 ## Funciones de transferencia
-## Escalón 
+### Escalón
+![[Pasted image 20230322104454.png]]
+### Lineal y lineal mixta
+![[Pasted image 20230322104439.png]]
+### Sigmoidal
+$$f(n)=\frac{2}{1+e^{-2n}}-1$$
+### Hiperbólica
 ## Entrenamiento y Aplicaciones
+Las redes neuronales son aproximaciones universales, siendo garantizado su validez para cualquier problema asegurado por el teorema de la aproximación universal.
 # Tags
 #2- 
 #2-2 
