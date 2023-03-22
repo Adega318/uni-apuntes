@@ -42,12 +42,23 @@ Arquitectura multicapa:
 ### Escalón
 ![[Pasted image 20230322104454.png]]
 ### Lineal y lineal mixta
+Sirve para separar el espacio en dos regiones, estas no pueden ser usados en capas internas.
 ![[Pasted image 20230322104439.png]]
 ### Sigmoidal
-$$f(n)=\frac{2}{1+e^{-2n}}-1$$
+![[Pasted image 20230322104852.png]]
+$$f(n)=\frac{1}{1+e^{-n}}$$
 ### Hiperbólica
+![[Pasted image 20230322104903.png]]
+$$f(n)=\frac{2}{1+e^{-2n}}-1$$
 ## Entrenamiento y Aplicaciones
 Las redes neuronales son aproximaciones universales, siendo garantizado su validez para cualquier problema asegurado por el teorema de la aproximación universal.
+### Aplicaciones
+- Ajuste de funciones y curvas
+- Clasificación
+- Regresión
+### Entrenamiento
+Backpropagation es el método de entreno de multicapas que generaliza la regla delta.
+$$i_{pj}^{h}=f_{j}^{h}$$
 # Tags
 #2- 
 #2-2 
