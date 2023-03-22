@@ -47,7 +47,7 @@ Solución:
 Relación ternaria de N:N:N.
 ![[Pasted image 20230322120314.png]]
 ## Diferencia entre ternaria y múltiples binarias
-En las múltiples binarias no se representa la conexión todos con todos producida por la ternaria, perdiendo información. Esta perdida de datos se puede reparar con el enrequecimiento del modelo.
+En las múltiples binarias no se representa la conexión todos con todos producida por la ternaria, perdiendo información. Esta perdida de datos se puede reparar con el enriquecimiento del modelo.
 # Tags
 #2- 
 #2-2 
