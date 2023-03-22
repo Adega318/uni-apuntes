@@ -76,7 +76,13 @@ $$neta_{pj}^{h}=\sum_{i=0}^{n}$$
 2. Entrenamiento con un conjunto reresentativo.
 3. Corrección de los pesos.
 #### Entradas
-La facilitación del entrenamiento se puede hacer separando las entradas, normalizar los datos
+La facilitación del entrenamiento se puede hacer separando las entradas, normalizar los datos, pudiendo ser normalizados por:
+- máximo y mínimo, $X=\frac{x-min}{max-min}$
+- desviación típica, $X=\frac{x-\mu}{\sigma}$
+#### Salidas
+Para facilitar las salidas en necesaria su normalización y separación.
+#### Control de convergencia
+Se ajusta la tasa de aprendizaje de manera que por el mismo salto en el mismo lado del mínimo se aumenta la tasa de aprendizaje, cuando se cambie de lado del mínimo se reduce.
 # Tags
 #2- 
 #2-2 
