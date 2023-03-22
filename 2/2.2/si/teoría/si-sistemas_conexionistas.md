@@ -73,7 +73,10 @@ $$i_{pj}^{h}=f_{j}^{h}(neta_{pj}^{h})$$
 $$neta_{pj}^{h}=\sum_{i=0}^{n}$$
 #### Proceso
 1. Pesos iniciales aleatorios
-2. 
+2. Entrenamiento con un conjunto reresentativo.
+3. Corrección de los pesos.
+#### Entradas
+La facilitación del entrenamiento se puede hacer separando las entradas, normalizar los datos
 # Tags
 #2- 
 #2-2 
