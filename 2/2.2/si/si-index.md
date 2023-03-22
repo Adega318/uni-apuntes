@@ -6,7 +6,7 @@
 4. [[si-sistemas_de_producción]]
 5. [[si-modelos_de_razonamiento]]
 	1. [[si-ejercicio_de_razonamiento]]
-6. [[si-ssistemas_conexionistas]]
+6. [[si-sistemas_conexionistas]]
 # Prácticas
 1. [[si-p1]]
 # Tags
