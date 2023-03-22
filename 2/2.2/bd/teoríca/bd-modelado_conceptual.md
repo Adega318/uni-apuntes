@@ -44,7 +44,9 @@ Se produce al no haber camino entre entidades relacionadas. Aparece cuando uno o
 Solución:
 ![[Pasted image 20230315120309.png]]
 # Relaciones de grado mayor a 2
-
+Relación ternaria de N:N:N.
+![[Pasted image 20230322120314.png]]
+##Dif
 # Tags
 #2- 
 #2-2 
