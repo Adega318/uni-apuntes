@@ -18,7 +18,9 @@ Metodología enfocada en entornos volátiles y orientada a los ciclos de vida m�
 3. Es más valioso el producto que la documentación.
 4. Importancia de la flexibilidad sobre el seguimiento de un plan.
 # Métrica versión 3
-Metodología tradicional
+Metodología tradicional basada en la fragmentación en procesos divididos en actividades y tareas a las que se le asignan encargados.
+![[Pasted image 20230323124738.png]]
+
 # Tags
 #2- 
 #2-2 
