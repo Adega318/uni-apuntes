@@ -28,6 +28,10 @@ Metodología tradicional basada en la fragmentación en procesos divididos en ac
 - Consultor
 - Analista
 - Programador
+## Documento de especificación de requisitos
+![[Pasted image 20230323130319.png]]
+# Scrum
+Metodología ágil 
 # Tags
 #2- 
 #2-2 
