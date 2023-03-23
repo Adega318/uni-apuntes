@@ -31,7 +31,10 @@ Metodología tradicional basada en la fragmentación en procesos divididos en ac
 ## Documento de especificación de requisitos
 ![[Pasted image 20230323130319.png]]
 # Scrum
-Metodología ágil 
+Metodología ágil basada en reuniones para la coordinación de los incrementos.
+- sprint, iteración con núcleo funcional.
+## Roles
+- Propietario
 # Tags
 #2- 
 #2-2 
