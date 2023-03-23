@@ -17,6 +17,8 @@ Metodología enfocada en entornos volátiles y orientada a los ciclos de vida m�
 2. El cliente colabora en todo momento.
 3. Es más valioso el producto que la documentación.
 4. Importancia de la flexibilidad sobre el seguimiento de un plan.
+# Métrica versión 3
+Metodología tradicional
 # Tags
 #2- 
 #2-2 
