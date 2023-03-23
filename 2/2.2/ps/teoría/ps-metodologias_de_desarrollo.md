@@ -20,8 +20,14 @@ Metodología enfocada en entornos volátiles y orientada a los ciclos de vida m�
 # Métrica versión 3
 Metodología tradicional basada en la fragmentación en procesos divididos en actividades y tareas a las que se le asignan encargados.
 ![[Pasted image 20230323124738.png]]
-- técnica, conjunto de heurística o procedimiento para notación.
-- practica, medio para 
+- Técnica, conjunto de heurística o procedimiento para notación.
+- Práctica, medio para completar objetivos de manera rápida.
+## Perfiles de integrantes
+- Directivo
+- Jefe de proyecto
+- Consultor
+- Analista
+- Programador
 # Tags
 #2- 
 #2-2 
