@@ -2,7 +2,7 @@
 Comunicación entre procesos basado en el intercambio de mensajes. La manera de pasarlos es mediante el modelo MPI, estándar de comunicación de procesos en paralelo.
 El MPI funciona mediante una red de comunicación con tipos de estructuras:
 - MPMD (Multiple Program Multiple Data), cada proceso tiene una copia de toda la información.
-- SPMD (Single Program Multiple Data), todos los procesos comparten un mismo bamco de datos.
+- SPMD (Single Program Multiple Data), todos los procesos comparten un mismo banco de datos.
 ![[Pasted image 20230324104208.png]]
 ## Caracteristicas MPI
 
@@ -16,13 +16,30 @@ MPI_Comm_rank //rank
 ```
 ## Mensajes MPI
 ### Punto a punto
-Por cada envió por parte de un proceso de haber una recepción.
+Por cada envío por parte de un proceso de haber una recepción.
 ```C
 //envio de mensajes
 int MPI_Send([void *] buff, [int] elements, [MPI_Datatype], [int] dest, [int] tag, [MPI_Comm]);
 
 //recepción
-int MPI_Send ([void *] buff, [int] count, [MPI_Datatype], [int] dest , [int] tag, [MPI_Comm]) ;
+int MPI_Send ([void *] buff, [int] count, [MPI_Datatype], [int] dest, [int] tag, [MPI_Comm]);
+
+
+//ejemplo de comunicación
+assert ( numprocs % 2 == 0);
+
+if ( my_id % 2 == 0) partner = my_id +1;  
+else partner = my_id -1;  
+
+if ( my_id % 2 == 0) {  
+	/* procesos pares */  
+	MPI_Send (... , partner , ...) ;  
+	MPI_Recv (... , partner , ...) ;  
+}else{  
+	/* procesos impares */  
+	MPI_Recv (... , partner , ...) ;  
+	MPI_Send (... , partner , ...) ;  
+}
 ```
 # Tags
 #2- 
