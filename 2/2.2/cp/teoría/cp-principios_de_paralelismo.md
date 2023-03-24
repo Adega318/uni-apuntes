@@ -41,6 +41,7 @@ if ( my_id % 2 == 0) {
 	MPI_Send (... , partner , ...) ;  
 }
 ```
+
 # Tags
 #2- 
 #2-2 
