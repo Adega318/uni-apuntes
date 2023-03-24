@@ -35,6 +35,9 @@ Metodología ágil basada en reuniones para la coordinación de los incrementos.
 - sprint, iteración con núcleo funcional.
 ## Roles
 - Propietario
+- Equipo de trabajo
+- Scrum master
+- Interesados
 # Tags
 #2- 
 #2-2 
