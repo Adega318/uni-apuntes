@@ -17,7 +17,13 @@ MPI_Comm_rank //rank
 ## Mensajes MPI
 ### Punto a punto
 Por cada envió por parte de un proceso de haber una recepción.
+```C
+//envio de mensajes
+int MPI_Send([void *] buff, [int] elements, [MPI_Datatype], [int] dest, [int] tag, [MPI_Comm]);
 
+//recepción
+int MPI_Send ([void *] buff, [int] count, [MPI_Datatype], [int] dest , [int] tag, [MPI_Comm]) ;
+```
 # Tags
 #2- 
 #2-2 
