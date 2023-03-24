@@ -7,9 +7,12 @@ El MPI funciona mediante una red de comunicación con tipos de estructuras:
 ## Caracteristicas MPI
 
 ```C
-int MPI_xxx([PARAMETROS]); //declaración de mpi
+int MPI_[NOMBRE]([PARAMETROS]); //declaración de mpi
 
+MPI_Init
+MPI_Finalize
 ```
+
 # Tags
 #2- 
 #2-2 
