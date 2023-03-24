@@ -9,9 +9,13 @@ El MPI funciona mediante una red de comunicación con tipos de estructuras:
 ```C
 int MPI_[NOMBRE]([PARAMETROS]); //declaración de mpi
 
-MPI_Init
-MPI_Finalize
+MPI_Init //crear
+MPI_Finalize //destruir
+MPI_Comm_size //id
+MPI_Comm_rank //rank
 ```
+## Mensajes MPI
+### Punto a punto
 
 # Tags
 #2- 
