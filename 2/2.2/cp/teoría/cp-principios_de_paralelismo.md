@@ -16,6 +16,7 @@ MPI_Comm_rank //rank
 ```
 ## Mensajes MPI
 ### Punto a punto
+Por cada envió por parte de un proceso de haber una recepción.
 
 # Tags
 #2- 
