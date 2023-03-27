@@ -57,7 +57,7 @@ Las redes neuronales son aproximaciones universales, siendo garantizado su valid
 - Clasificación
 - Regresión
 ### Entrenamiento
-Se entrena utilizando Backpropagation, que es el método de entreno de multicapas que generaliza la regla delta mediante el uso de la retro propagación del error.
+Se entrena utilizando Backpropagation, que es el método de entreno de multicapas que generaliza la regla delta mediante el uso de la propagación del error.
 #### Notación
 - $n$ : número de entradas de cada patrón  
 - $h$ : capa oculta; 
@@ -71,18 +71,18 @@ Se entrena utilizando Backpropagation, que es el método de entreno de multicapa
 #### Error y pesos
 Error de la capa oculta h:
 $$\delta_{pj}^{h}=f_{j}^{h\prime}(neta_{pj}^{h})\sum\delta_{pk}^{o}w_{kj}^{o}$$
-Correción de la capa de oculta:
+Corrección de la capa de oculta:
 $$w_{ji}^{h}(t+1)=w_{ji}^{h}(t)+\mu \delta_{pj}^{h} i_{i}^{h-1}$$
 Error de la capa de salida o:
 $$\delta_{pj}^{o}=\delta_{pk}f_{j}^{o\prime}(neta_{pj}^{o})$$
-Correción de la capa de salida:
+Corrección de la capa de salida:
 $$w_{kj}^{o}(t+1)=w_{kj}^{o}(t)+\mu \delta_{pk}^{o} i_{pj}^{o-1}$$
 #### Proceso
 1. Pesos iniciales aleatorios
-2. Entrenamiento con un conjunto reresentativo.
+2. Entrenamiento con un conjunto representativo.
 3. Corrección de los pesos.
 #### Entradas
-La facilitación del entrenamiento se puede hacer separando las entradas, normalizar los datos, pudiendo ser normalizados por:
+La habilitación del entrenamiento se puede hacer separando las entradas, normalizar los datos, pudiendo ser normalizados por:
 - máximo y mínimo, $X=\frac{x-min}{max-min}$
 - desviación típica, $X=\frac{x-\mu}{\sigma}$
 #### Salidas
