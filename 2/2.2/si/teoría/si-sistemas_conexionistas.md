@@ -91,7 +91,13 @@ Para facilitar las salidas en necesaria su normalización y separación.
 Se ajusta la tasa de aprendizaje de manera que por el mismo salto en el mismo lado del mínimo se aumenta la tasa de aprendizaje, cuando se cambie de lado del mínimo se reduce.
 #### Sobre entrenamiento
 El sobre entrenamiento es el resultado de el excesivo entrenamiento de un modelo con un conjunto de datos, reduciendo la capacidad de generalización de la red. Es cuando el modelo interpreta el ruido como una característica del conjunto.
-
+Para reducir los efectos del mismos:
+- L1, usar los pesos en la función de coste
+- L2, añadir f coste a la suma de cuadrado de valores de peso
+- Parada temprana
+Pasos en el entrenamiento para el sobre entrenamiento:
+1. se entrena
+2. se valida el error con un conjunto de validación, que no aprende, cuando su capitidisminuya se empieza a desajustar,
 # Tags
 #2- 
 #2-2 
