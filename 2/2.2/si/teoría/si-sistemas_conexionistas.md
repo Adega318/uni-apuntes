@@ -90,6 +90,7 @@ Para facilitar las salidas en necesaria su normalización y separación.
 #### Control de convergencia
 Se ajusta la tasa de aprendizaje de manera que por el mismo salto en el mismo lado del mínimo se aumenta la tasa de aprendizaje, cuando se cambie de lado del mínimo se reduce.
 #### Sobre entrenamiento
+El sobre entrenamiento es el resultado de el excesivo entrenamiento de un modelo con un conjunto de datos, reduciendo la capacidad de generalización de la red. Es cuando el modelo interpreta el ruido como una característica del conjunto.
 
 # Tags
 #2- 
