@@ -89,6 +89,8 @@ La facilitación del entrenamiento se puede hacer separando las entradas, normal
 Para facilitar las salidas en necesaria su normalización y separación.
 #### Control de convergencia
 Se ajusta la tasa de aprendizaje de manera que por el mismo salto en el mismo lado del mínimo se aumenta la tasa de aprendizaje, cuando se cambie de lado del mínimo se reduce.
+#### Sobre entrenamiento
+
 # Tags
 #2- 
 #2-2 
