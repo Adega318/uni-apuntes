@@ -55,9 +55,17 @@ int MPI_Bcast([void] *buf, [int] count, [MPI_Datatype] datatype, [int] root, [MP
 #### Scatter
 Distribuye el elemento en trozos iguales de tamaño *sendcnt*, la versión variable es scatterv.
 ```C
-MPI_Scatter([void] *buff, [int] sendcnt, [MPI_Datatype] sendtype,  
-[void] *recvbuff, [int] recvcnt, [MPI_Datatype] recvtype, [int] root,  
-[MPI_Comm] comm);
+MPI_Scatter([void] *buff, [int] sendcnt, [MPI_Datatype] sendtype, [void] *recvbuff, [int] recvcnt, [MPI_Datatype] recvtype, [int] root, [MPI_Comm] comm);
+```
+#### Gather
+Recibe en *root* los elementos de todos los procesos.
+```C
+MPI_Gather([void] *buff, [int] sendcnt, [MPI_Datatype] sendtype, [void] *recvbuff, [int] recvcnt, [MPI_Datatype] recvtype, [int] root, [MPI_Comm] comm);
+```
+#### Reduce
+Recibe de todos y hace la operación.
+```C
+int MPI_Reduce([void] *buff, [void] *recvbuff, [int] count, [MPI_Datatype] datatype, [MPI_Op] op, [int] root, [MPI_Comm] comm);
 ```
 # Tags
 #2- 
