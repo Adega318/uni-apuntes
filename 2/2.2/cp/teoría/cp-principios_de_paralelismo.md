@@ -42,18 +42,19 @@ if ( my_id % 2 == 0) {
 }
 ```
 ### Colectivas
+Funciones que deben ejecutar todos los procesos (temario del examen de practicas).
 #### Barrier
 Hace esperar a los procesos hasta que todos hayan llegado.
 ```C
 int MPI_Barrier([MPI_Comm] comm);
 ```
 #### Bcast
-Obliga a todos a recibir un mensaje, mediante la llamada Bcast.
+Obliga a todos a recibir un mensaje, mediante la llamada *Bcast*.
 ```C
 int MPI_Bcast([void] *buf, [int] count, [MPI_Datatype] datatype, [int] root, [MPI_Comm] comm);
 ```
 #### Scatter
-Distribuye el elemento en trozos iguales de tamaño *sendcnt*, la versión variable es scatterv.
+Distribuye el elemento en trozos iguales de tamaño *sendcnt*, la versión variable es *scatterv*.
 ```C
 MPI_Scatter([void] *buff, [int] sendcnt, [MPI_Datatype] sendtype, [void] *recvbuff, [int] recvcnt, [MPI_Datatype] recvtype, [int] root, [MPI_Comm] comm);
 ```
@@ -63,7 +64,7 @@ Recibe en *root* los elementos de todos los procesos.
 MPI_Gather([void] *buff, [int] sendcnt, [MPI_Datatype] sendtype, [void] *recvbuff, [int] recvcnt, [MPI_Datatype] recvtype, [int] root, [MPI_Comm] comm);
 ```
 #### Reduce
-Recibe de todos y hace la operación.
+Recibe de todos y hace la operación, tiene una versión *all* donde manda el resultado a todos.
 ```C
 int MPI_Reduce([void] *buff, [void] *recvbuff, [int] count, [MPI_Datatype] datatype, [MPI_Op] op, [int] root, [MPI_Comm] comm);
 ```
