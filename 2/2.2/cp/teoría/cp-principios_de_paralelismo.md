@@ -53,7 +53,7 @@ Obliga a todos a recibir un mensaje, mediante la llamada Bcast.
 int MPI_Bcast([void] *buf, [int] count, [MPI_Datatype] datatype, [int] root, [MPI_Comm] comm);
 ```
 #### Scatter
-Distribuye el elemento 
+Distribuye el elemento en trozos iguales de tamaño *sendcnt*, la versión variable es scatterv.
 ```C
 MPI_Scatter([void] *buff, [int] sendcnt, [MPI_Datatype] sendtype,  
 [void] *recvbuff, [int] recvcnt, [MPI_Datatype] recvtype, [int] root,  
