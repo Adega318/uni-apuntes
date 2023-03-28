@@ -48,8 +48,16 @@ Hace esperar a los procesos hasta que todos hayan llegado.
 int MPI_Barrier([MPI_Comm] comm);
 ```
 #### Bcast
+Obliga a todos a recibir un mensaje, mediante la llamada Bcast.
 ```C
-int MPI_Bcast([void] *buf, [int] count, )
+int MPI_Bcast([void] *buf, [int] count, [MPI_Datatype] datatype, [int] root, [MPI_Comm] comm);
+```
+#### Scatter
+Distribuye el elemento 
+```C
+MPI_Scatter([void] *buff, [int] sendcnt, [MPI_Datatype] sendtype,  
+[void] *recvbuff, [int] recvcnt, [MPI_Datatype] recvtype, [int] root,  
+[MPI_Comm] comm);
 ```
 # Tags
 #2- 
