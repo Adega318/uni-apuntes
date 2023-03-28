@@ -14,7 +14,7 @@ MPI_Finalize //destruir
 MPI_Comm_size //id
 MPI_Comm_rank //rank
 ```
-## Mensajes MPI
+## Operaciones MPI
 ### Punto a punto
 Por cada envío por parte de un proceso de haber una recepción.
 ```C
@@ -41,7 +41,16 @@ if ( my_id % 2 == 0) {
 	MPI_Send (... , partner , ...) ;  
 }
 ```
-
+### Colectivas
+#### Barrier
+Hace esperar a los procesos hasta que todos hayan llegado.
+```C
+int MPI_Barrier([MPI_Comm] comm);
+```
+#### Bcast
+```C
+int MPI_Bcast([void] *buf, [int] count, )
+```
 # Tags
 #2- 
 #2-2 
