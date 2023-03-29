@@ -102,7 +102,16 @@ Pasos en el entrenamiento para el sobre entrenamiento:
 ### Aplicaciones
 #### Clasificación
 Dependiendo de el numero de clases en los que clasificar se usara una salida binaria o una neurona por clase. Estas salidas son normalizadas usando la función softmax:
-$$ŷ_{i}=\frac{e^{y_{i}}}{\sum_{j}^}$$
+$$ŷ_{i}=\frac{e^{y_{i}}}{\sum_{j=1}^{c}e^{y_{j}}}$$
+Una ultima opción es usar una única salida continua con segmentos de salida asociados a distintas clases.
+#### Predicción
+Aplicación de  perdición del progreso de datos en el tiempo.
+#### Clustering
+Agrupación de valores bajo un criterio sin la existencia de clases.
+#### Aproximación de curvas
+#### Regresión
+Aplicaciones de transformación de una entrada a una salida (filtros, chats, ...).
+
 # Tags
 #2- 
 #2-2 
