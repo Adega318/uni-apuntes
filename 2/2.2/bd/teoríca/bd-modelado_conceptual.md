@@ -54,8 +54,10 @@ Tenemos tres principales alternativas en  la representación de temporalidad:
 Para almacenar la temporalidad de atributos asíncronos, creamos varias lineas temporales para los varios atributos (registrar el historial de salarios y proyectos).
 ![[Pasted image 20230329135956.png]]
 ## Histórico único
-Uso de una unica linea temporal para el almacenamiento de atrivutos asincronos, almacenando una nueva entrada para el cambio de cualquiera
+Uso de una única linea temporal para el almacenamiento de atributos asíncronos, almacenando una nueva entrada para el cambio de cualquiera.
+![[Pasted image 20230329140744.png]]
 ## Imagen especular
+
 # Tags
 #2- 
 #2-2 
