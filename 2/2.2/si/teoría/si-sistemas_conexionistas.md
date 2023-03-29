@@ -100,7 +100,9 @@ Pasos en el entrenamiento para el sobre entrenamiento:
 2. se valida el error con un conjunto de validación, que no aprende, cuando su capitidisminuya se empieza a desajustar,
 3. Si se realizan más de un número de ciclos sin mejoras de error damos error.
 ### Aplicaciones
-
+#### Clasificación
+Dependiendo de el numero de clases en los que clasificar se usara una salida binaria o una neurona por clase. Estas salidas son normalizadas usando la función softmax:
+$$ŷ_{i}=\frac{e^{y_{i}}}{\sum_{j}^}$$
 # Tags
 #2- 
 #2-2 
