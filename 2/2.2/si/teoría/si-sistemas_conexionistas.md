@@ -111,7 +111,8 @@ Agrupación de valores bajo un criterio sin la existencia de clases.
 #### Aproximación de curvas
 #### Regresión
 Aplicaciones de transformación de una entrada a una salida (filtros, chats, ...).
-
+#### Control
+Control de sistemas en base a datos.
 # Tags
 #2- 
 #2-2 
