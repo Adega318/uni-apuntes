@@ -51,8 +51,9 @@ En las múltiples binarias no se representa la conexión todos con todos produci
 # Modelización temporal
 Tenemos tres principales alternativas en  la representación de temporalidad:
 ## Histórico por atributo
+
 ## Histórico único
-##
+## Imagen especular
 # Tags
 #2- 
 #2-2 
