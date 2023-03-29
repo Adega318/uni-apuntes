@@ -49,7 +49,7 @@ Relación ternaria de N:N:N.
 ## Diferencia entre ternaria y múltiples binarias
 En las múltiples binarias no se representa la conexión todos con todos producida por la ternaria, perdiendo información. Esta perdida de datos se puede reparar con el enriquecimiento del modelo.
 # Modelización temporal
-Tenemos tres principales alternativas en  la representación de temporalidad:
+Tenemos tres principales alternativas en  la representación de temporalidad que pueden ser combinadas:
 ## Histórico por atributo
 Para almacenar la temporalidad de atributos asíncronos, creamos varias lineas temporales para los varios atributos (registrar el historial de salarios y proyectos).
 ![[Pasted image 20230329135956.png]]
@@ -57,7 +57,8 @@ Para almacenar la temporalidad de atributos asíncronos, creamos varias lineas t
 Uso de una única linea temporal para el almacenamiento de atributos asíncronos, almacenando una nueva entrada para el cambio de cualquiera.
 ![[Pasted image 20230329140744.png]]
 ## Imagen especular
-
+La imagen especular basase en el almacenamiento de la información actual y por separado las versiones históricas.
+![[Pasted image 20230329142047.png]]
 # Tags
 #2- 
 #2-2 
