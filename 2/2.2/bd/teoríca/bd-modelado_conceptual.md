@@ -49,7 +49,10 @@ Relación ternaria de N:N:N.
 ## Diferencia entre ternaria y múltiples binarias
 En las múltiples binarias no se representa la conexión todos con todos producida por la ternaria, perdiendo información. Esta perdida de datos se puede reparar con el enriquecimiento del modelo.
 # Modelización temporal
-
+Tenemos tres principales alternativas en  la representación de temporalidad:
+##
+##
+##
 # Tags
 #2- 
 #2-2 
