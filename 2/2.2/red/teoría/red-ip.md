@@ -28,6 +28,10 @@ La máscara de subred informa del número de bits de host. El número de bits a 
 ## Direcciones reservadas
 Las direcciones reservadas son la de subred y la de broadcast. La primera en el rango es la de subred y la ultima es la de broadcast.
 # DHCP
+Asignado de ip en función de mac del pc, pudiendo ser:
+- dinámica
+- automática
+Se diferencian en el tiempo que se guarda la asociación mac-ip en el sistema.
 
 # Tags
 #2- 
