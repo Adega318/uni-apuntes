@@ -6,4 +6,6 @@
 - Gestión
 - Plan
 # Enfoques
-## Proceso/Producto
+## ISO/IEC 9126
+![[Pasted image 20230330105419.png]]
+
