@@ -32,6 +32,14 @@ Asignado de ip en función de mac del pc, pudiendo ser:
 - dinámica
 - automática
 Se diferencian en el tiempo que se guarda la asociación mac-ip en el sistema.
+## Funcionamiento
+Hay tres pasos en el asignado de una ip:
+- Discobery, se manda un mensaje para descubrir el DHCP.
+- Offer, mensaje del servidor ofreciendo una ip.
+- Request, respuesta pidiendo una de las ofertas.
+- Acknowledgement, confirmación del establecimiento de la ip.
+### Link-local
+# NAT
 
 # Tags
 #2- 
