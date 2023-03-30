@@ -32,7 +32,7 @@ Metodología tradicional basada en la fragmentación en procesos divididos en ac
 ![[Pasted image 20230323130319.png]]
 # Scrum
 Metodología ágil basada en reuniones para la coordinación de los incrementos.
-- sprint, iteración con núcleo funcional.
+- sprint, interacción con núcleo funcional.
 ## Roles
 - Propietario
 - Equipo de trabajo
