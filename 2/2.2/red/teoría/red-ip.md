@@ -27,6 +27,8 @@ Sirven para dividir una red en partes más pequeñas. Para ello se usan los bits
 La máscara de subred informa del número de bits de host. El número de bits a uno índica el número de bits de subred.
 ## Direcciones reservadas
 Las direcciones reservadas son la de subred y la de broadcast. La primera en el rango es la de subred y la ultima es la de broadcast.
+# DHCP
+
 # Tags
 #2- 
 #2-2 
