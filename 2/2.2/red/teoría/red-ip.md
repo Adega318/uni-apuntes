@@ -40,6 +40,7 @@ Hay tres pasos en el asignado de una ip:
 - Acknowledgement, confirmación del establecimiento de la ip.
 ### Link-local
 # NAT
+# PAT
 
 # Tags
 #2- 
