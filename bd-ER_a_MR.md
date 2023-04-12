@@ -15,7 +15,6 @@ Por cada 1:N se establece una relación.
 Para la muchos a muchos se debe de crear relación para su unión.
 ![[Pasted image 20230412100154.png]]
 # 6º Multivaluados
-
 ![[Pasted image 20230412101405.png]]
 # 7º Grado mayor de 2
 # Tags
