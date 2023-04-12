@@ -12,7 +12,7 @@ Establecer y unir las claves foráneas.
 Por cada 1:N se establece una relación.
 ![[Pasted image 20230412095725.png]]
 # 5º N:M
-Para la muchos a muchos se de ve de 
+Para la muchos a muchos se debe de crear relación para su unión.
 ![[Pasted image 20230412100154.png]]
 # Tags
 #2- 
