@@ -17,6 +17,7 @@ Para la muchos a muchos se debe de crear relación para su unión.
 # 6º Multivaluados
 ![[Pasted image 20230412101405.png]]
 # 7º Grado mayor de 2
+![[Pasted image 20230412102530.png]]
 # Tags
 #2- 
 #2-2 
