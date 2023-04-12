@@ -8,6 +8,8 @@ Cada entidad débil se convierte en una relación, incluyendo todos los atributo
 # 3º binarios 1:1
 Establecer y unir las claves foraneas.
 ![[Pasted image 20230412094755.png]]
+# 4º binarios 1:N
+
 # Tags
 #2- 
 #2-2 
