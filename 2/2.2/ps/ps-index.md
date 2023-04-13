@@ -7,6 +7,7 @@
 5. [[ps-diseño_estructurado]]
 6. [[ps-metodologias_de_desarrollo]]
 7. [[ps-calidad]]
+8. [[ps-planificación]]
 # Prácticas
 # Tags
 #2- 
