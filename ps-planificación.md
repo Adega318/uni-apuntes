@@ -15,7 +15,7 @@
 - Camino crítico, partes del proyecto donde los retrasos causarían retrasos consecuentes.
 	- Holgura
 	- Tarea crítica
-	- camino crítico
+	- camino críticosas
 # Diagrama de Gantt
 Representación de las actividades en el tiempo con su duración y relaciones. También muestra los recursos.
 # Tags
