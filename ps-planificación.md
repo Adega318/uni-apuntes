@@ -12,6 +12,7 @@
 - **Duración**, tiempo de las actividades y proyecto en función de los recursos asignados.
 - **Costos**, suma de los costos materiales y de recursos.
 - **Nivelación**, reparto de la carga de trabajo entre recursos.
+- Camino crítico, partes del proyecto donde los retrasos cusarian retrasos 
 # Diagrama de Gantt
 Representación de las actividades en el tiempo con su duración y relaciones. También muestra los recursos.
 # Tags
