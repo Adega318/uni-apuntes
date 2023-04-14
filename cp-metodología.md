@@ -10,9 +10,12 @@ Descompones las tareas de calculo del algoritmo en distintos procesos, esta desc
 ## Recursiva
 División del problema en procesos de manera recursiva con un criterio de parada para ejecución.
 ## Especulativa
-La especulativa se da cuando puedee
+La especulativa se da cuando puedes tomar un atajo que no funciona siempre y se prueba a hacerlo.
 ## Tareas
-
+Se descompone el programa en tareas de árbol, cada tarea es independiente internamente, teniendo su propio estilo de descomposición.
+Se pueden establecer las tareas de dos maneras:
+- Estática, si tenemos un problema estable con iteraciones determinado podemos definir las tareas de manera permanente.
+- Dinámica, se crean tareas en el código en función del progreso del programa.
 # Tags
 #2- 
 #2-2 
