@@ -12,6 +12,7 @@
 8. [[cp-monitores__rcu__memoria_transaccional]]
 ## Paralelismo
 1. [[cp-principios_de_paralelismo]]
+2. [[cp-metodología]]
 # Prácticas
 # Tags
 #2-
