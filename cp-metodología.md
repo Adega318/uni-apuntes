@@ -9,6 +9,8 @@ Los procesos dependientes de un conjuntos de datos es responsabilidad del propie
 Descompones las tareas de calculo del algoritmo en distintos procesos, esta descomposición dará a procesos con dependencias entre si.
 ## Recursiva
 División del problema en procesos de manera recursiva con un criterio de parada para ejecución.
+## Especulativa
+
 # Tags
 #2- 
 #2-2 
