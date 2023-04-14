@@ -7,6 +7,8 @@ Técnica usada sobre grandes estructuras, consiste de dos pasos:
 Los procesos dependientes de un conjuntos de datos es responsabilidad del propietario de esos datos, en caso de necesitar más datos no poseídos puede incumplirse.
 ## Funcional
 Descompones las tareas de calculo del algoritmo en distintos procesos, esta descomposición dará a procesos con dependencias entre si.
+## Recursiva
+División del problema en procesos de manera recursiva con un criterio de parada para ejecución.
 # Tags
 #2- 
 #2-2 
