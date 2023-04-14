@@ -10,6 +10,8 @@ Descompones las tareas de calculo del algoritmo en distintos procesos, esta desc
 ## Recursiva
 División del problema en procesos de manera recursiva con un criterio de parada para ejecución.
 ## Especulativa
+La especulativa se da cuando puedee
+## Tareas
 
 # Tags
 #2- 
