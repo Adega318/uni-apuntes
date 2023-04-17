@@ -19,10 +19,12 @@ Características:
 ### Redes
 - Datagrama, envío en función de la dirección de envío, sin mantener información sobre los routers.
 - Circuito virtual, envío basándonos en el número de circuito virtual, Los conmutadores mantienen información del estado de las comunicaciones entrantes: interfaz de entrada - etiqueta de entrada – interfaz de salida.
-### Tipos de reparto
-- Procesamiento
-- Cola
-- 
+### Tipos de retardo
+![[Pasted image 20230417183117.png]]
+- Procesamiento, tempo de examinado de la cabecera para conocer el siguiente destino.
+- Cola, tiempo de espera para la trasmi
+- Trasmisión
+- Propagación
 # Tags
 #2- 
 #2-2 
