@@ -1,8 +1,10 @@
 # Conceptos
-## Redes
-- Broadcast, canal compartido con multiples destinatarios.
-- Puntoa punto, canales de comunicación directos.
-## Redes
+- Broadcast, canal compartido con múltiples destinatarios.
+- Punto a punto, canales de comunicación directos.
+- Protocolo
+	- conjunto de mensajes válidos.
+	- 
+# Redes
 ## Circuitos
 Cuando dos nodos se comunican se establece una conexión terminal a terminal.
 - Recursos por reserva.
