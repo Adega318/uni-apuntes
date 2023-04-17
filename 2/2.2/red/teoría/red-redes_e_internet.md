@@ -4,6 +4,7 @@
 - Puntoa punto, canales de comunicación directos.
 ## Tecnologías
 ## Circuitos
+Cuando dos nodos se comunican 
 ## Paquetes
 # Tags
 #2- 
