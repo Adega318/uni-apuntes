@@ -1,9 +1,8 @@
 # Conceptos
 - Broadcast, canal compartido con múltiples destinatarios.
 - Punto a punto, canales de comunicación directos.
-- Protocolo
-	- conjunto de mensajes válidos.
-	- 
+- Protocolo, conjunto de mensajes válidos.
+- Arquitectura, conjunto de protocolos.
 # Redes
 ## Circuitos
 Cuando dos nodos se comunican se establece una conexión terminal a terminal.
@@ -29,7 +28,7 @@ Características:
 - Propagación, tiempo de movimiento por el router.
 ## Acceso y medio físico
 # Arquitectura
-
+La arquitectura es la manera e
 # Tags
 #2- 
 #2-2 
