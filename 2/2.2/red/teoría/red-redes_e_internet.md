@@ -12,10 +12,16 @@ Cuando dos nodos se comunican se establece una conexión terminal a terminal.
 ### División en el tiempo (TDM)
 ![[Pasted image 20230417182222.png]]
 ## Paquetes
-Cracteristicas:
+Características:
 - Sin reserva.
 - Los recursos bajo demanda, con posible espera por ellos.
-- mensajes divididos en paquetes.
+- Mensajes divididos en paquetes.
+### Redes
+- Datagrama, envío en función de la dirección de envío, sin mantener información sobre los routers.
+- Circuito virtual, envío basándonos en el número de circuito virtual, Los conmutadores mantienen información del estado de las comunicaciones entrantes: interfaz de entrada - etiqueta de entrada – interfaz de salida.
+### Tipos de reparto
+- Procesamiento
+- Cola
 - 
 # Tags
 #2- 
