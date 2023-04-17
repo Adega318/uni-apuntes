@@ -34,6 +34,10 @@ $$w_{i}(t+1)=w_{i}(t)+\mu(d(t)-y(t))x_{i}(t)$$
 ### Multicapa
 Al añadir múltiples perceptrones se pasó de hacer separaciones lineales a poder hacer separaciones polinómicas.
 ![[Pasted image 20230320174935.png]]
+Tenemos tres capas destacables:
+- Entrada
+- Ocultas
+- Salida
 ## Funciones de transferencia
 ## Entrenamiento y Aplicaciones
 # Tags
