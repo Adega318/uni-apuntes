@@ -1,5 +1,6 @@
 ´[[2-2-index]]
 # Teóricas
+## Concurrencia
 1. [[cp-seción_critica]]
 2. [[cp-interbloqueo_inanición]]
 3. [[cp-productores_consumidores]]
@@ -9,7 +10,9 @@
 6. [[cp-filósofos]]
 7. [[cp-comparticion_nula]]
 8. [[cp-monitores__rcu__memoria_transaccional]]
-9. 
+## Paralelismo
+1. [[cp-principios_de_paralelismo]]
+2. [[cp-metodología]]
 # Prácticas
 # Tags
 #2-

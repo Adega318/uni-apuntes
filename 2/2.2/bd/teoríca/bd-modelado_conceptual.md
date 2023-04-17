@@ -44,7 +44,21 @@ Se produce al no haber camino entre entidades relacionadas. Aparece cuando uno o
 Solución:
 ![[Pasted image 20230315120309.png]]
 # Relaciones de grado mayor a 2
-
+Relación ternaria de N:N:N.
+![[Pasted image 20230322120314.png]]
+## Diferencia entre ternaria y múltiples binarias
+En las múltiples binarias no se representa la conexión todos con todos producida por la ternaria, perdiendo información. Esta perdida de datos se puede reparar con el enriquecimiento del modelo.
+# Modelización temporal
+Tenemos tres principales alternativas en  la representación de temporalidad que pueden ser combinadas:
+## Histórico por atributo
+Para almacenar la temporalidad de atributos asíncronos, creamos varias lineas temporales para los varios atributos (registrar el historial de salarios y proyectos).
+![[Pasted image 20230329135956.png]]
+## Histórico único
+Uso de una única linea temporal para el almacenamiento de atributos asíncronos, almacenando una nueva entrada para el cambio de cualquiera.
+![[Pasted image 20230329140744.png]]
+## Imagen especular
+La imagen especular basase en el almacenamiento de la información actual y por separado las imágenes históricas de la información.
+![[Pasted image 20230329142047.png]]
 # Tags
 #2- 
 #2-2 
