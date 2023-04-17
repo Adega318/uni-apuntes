@@ -2,7 +2,7 @@
 ## Redes
 - Broadcast, canal compartido con multiples destinatarios.
 - Puntoa punto, canales de comunicación directos.
-## Tecnologías
+## Redes
 ## Circuitos
 Cuando dos nodos se comunican se establece una conexión terminal a terminal.
 - Recursos por reserva.
@@ -24,7 +24,10 @@ Características:
 - Procesamiento, tempo de examinado de la cabecera para conocer el siguiente destino.
 - Cola, tiempo de espera para la trasmisión.
 - Trasmisión, tiempo de trasmisión del mensaje.
-- Propagación, 
+- Propagación, tiempo de movimiento por el router.
+## Acceso y medio físico
+# Arquitectura
+
 # Tags
 #2- 
 #2-2 
