@@ -28,7 +28,18 @@ Características:
 - Propagación, tiempo de movimiento por el router.
 ## Acceso y medio físico
 # Arquitectura
-La arquitectura es la manera e
+La arquitectura es la manera en la que estructuramos las comunicaciones, se utiliza el modelo OSI.
+![[Pasted image 20230417190502.png]]
+## Niveles
+### Físico
+Trasmisión de bits.
+### Enlace
+![[Pasted image 20230417190750.png]]
+- Tramas, conjuntos de bits.
+- Direcciones de enlace.
+### Red
+- Conjunto de enlaces que forma un extremo a extremo.
+- 
 # Tags
 #2- 
 #2-2 
