@@ -22,9 +22,9 @@ Características:
 ### Tipos de retardo
 ![[Pasted image 20230417183117.png]]
 - Procesamiento, tempo de examinado de la cabecera para conocer el siguiente destino.
-- Cola, tiempo de espera para la trasmi
-- Trasmisión
-- Propagación
+- Cola, tiempo de espera para la trasmisión.
+- Trasmisión, tiempo de trasmisión del mensaje.
+- Propagación, 
 # Tags
 #2- 
 #2-2 
