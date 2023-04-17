@@ -39,7 +39,19 @@ Trasmisión de bits.
 - Direcciones de enlace.
 ### Red
 - Conjunto de enlaces que forma un extremo a extremo.
-- 
+- Comunicación entre sistemas con cálculo de rutas.
+- Direcciones de red.
+- Enrutamiento, planificación del orden de trasmisión de los paquetes.
+### Transporte
+* Servicios de extremo a extremo
+	* TCP
+	* UDP
+### Sesión y presentación
+- No comunes.
+- Sesión, envió de datos urgentes y sincronización.
+- Presentación, oculta las diferencias de formato entre aplicaciones.
+### Aplicación
+- Aplicaciones de red (www, email, ...)
 # Tags
 #2- 
 #2-2 
