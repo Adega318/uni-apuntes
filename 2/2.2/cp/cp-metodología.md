@@ -19,9 +19,13 @@ Se pueden establecer las tareas de dos maneras:
 ## Asignación de tareas
 
 # Asignación estática
-## Descomposición 
-## Bloques
-Esta asignación se basa en procesos que aceden a la matriz por filas o columnas, por lo tanto dividiremos las tareas en bloques de filas o columnas.
+## Descomposición de dominio
+### Bloque
+Se basa en dividir el espacio de datos en bloques que permitan a las tareas que consumen de los vecinos no tener que comunicar.
+Principalmente dividiendo por:
+- Vector, tareas que consumen sus vecinos en un vector se dividirá el vector en bloques unidimensionales, de tamaño $m_{b}=$.
+- Filas
+- Columnas
 # Tags
 #2- 
 #2-2 
