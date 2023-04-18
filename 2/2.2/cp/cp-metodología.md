@@ -18,8 +18,10 @@ Se pueden establecer las tareas de dos maneras:
 - Dinámica, se crean tareas en el código en función del progreso del programa.
 ## Asignación de tareas
 
-# Esquema de asignación estática
-
+# Asignación estática
+## Descomposición 
+## Bloques
+Esta asignación se basa en procesos que aceden a la matriz por filas o columnas, por lo tanto dividiremos las tareas en bloques de filas o columnas.
 # Tags
 #2- 
 #2-2 
