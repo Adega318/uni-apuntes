@@ -23,9 +23,10 @@ Se pueden establecer las tareas de dos maneras:
 ### Bloque
 Se basa en dividir el espacio de datos en bloques que permitan a las tareas que consumen de los vecinos no tener que comunicar.
 Principalmente dividiendo por:
-- Vector, tareas que consumen sus vecinos en un vector se dividirá el vector en bloques unidimensionales, de tamaño $m_{b}=$.
-- Filas
-- Columnas
+- Vector, tareas que consumen sus vecinos en un vector se dividirá el vector en bloques unidimensionales.
+- Filas, sobre matrices que consumen los vecinos de la fila son divididos en bloques de filas.
+- Columnas, sobre matrices que consumen los vecinos de la columna son divididos en bloques de columnas.
+El tamaño se calculara con:$$m_{b}=\frac{n}{p}$$
 # Tags
 #2- 
 #2-2 
