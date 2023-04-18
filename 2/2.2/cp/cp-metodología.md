@@ -16,6 +16,8 @@ Se descompone el programa en tareas de árbol, cada tarea es independiente inter
 Se pueden establecer las tareas de dos maneras:
 - Estática, si tenemos un problema estable con iteraciones determinado podemos definir las tareas de manera permanente.
 - Dinámica, se crean tareas en el código en función del progreso del programa.
+## Asignación de tareas
+
 # Tags
 #2- 
 #2-2 
