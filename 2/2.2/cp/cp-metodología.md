@@ -18,6 +18,8 @@ Se pueden establecer las tareas de dos maneras:
 - Dinámica, se crean tareas en el código en función del progreso del programa.
 ## Asignación de tareas
 
+# Esquema de asignación estática
+
 # Tags
 #2- 
 #2-2 
