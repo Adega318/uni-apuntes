@@ -6,3 +6,8 @@ $\tau_{j}=$ salida de la neurona j
 $e_{i}=$entrada i
 $\mu_{ij}=$peso de $e_{i}$ de la neurona j
 $$\tau_{j}=\sqrt{\sum_{i=1}^{n}(e_{i}-\mu_{ij})^{2}}$$
+### Aprendizaje
+$\alpha=$ 
+$e_{i}=$ entrada i
+$\mu_{ij}=$ peso de $e_{i}$ de la neurona j
+$$\Delta\mu_{ij}=\frac{\alpha}{d(c_{i},c_{j})}(e_{i}-\mu_{ij})$$
