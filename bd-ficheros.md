@@ -16,6 +16,7 @@ La gestión de borrados:
 # Medio físico
 ## Formato de archivo
 ## Tamaño de bloque
+El tamaño de bloque debe de ajustarse para beneficiar a la operaciones más recurrentes.
 # Organización de registros en archivos
 # Tags
 #2- 
