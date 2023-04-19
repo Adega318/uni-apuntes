@@ -17,3 +17,7 @@ $c_{i}=$ célula ganadora
 $c_{j}=$ célula vecina
 $$\Delta\mu_{ij}=\frac{\alpha}{d(c_{i},c_{j})}(e_{i}-\mu_{ij})$$
 ### Operación
+# Crecimiento de redes
+## Inserción de neuronas
+
+## Borrado de neuronas
