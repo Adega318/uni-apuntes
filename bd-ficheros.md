@@ -10,6 +10,8 @@ Podemos tener:
 	- Formato, cuando el formato varia se produce variaciones de tamaño.
 	- Campos, los campos tienen una longitud indefinida.
 	- Repetitivos, ciertos campos pueden repetirse cambiando el tamaño.
+La gestión de borrados:
+- fija, la manera de gestionar en la fija se establece el primer espacio como 
 # Medio físico
 
 # Organización de registros en archivos
