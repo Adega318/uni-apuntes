@@ -11,7 +11,8 @@ Podemos tener:
 	- Campos, los campos tienen una longitud indefinida.
 	- Repetitivos, ciertos campos pueden repetirse cambiando el tamaño.
 La gestión de borrados:
-- fija, la manera de gestionar en la fija se establece el primer espacio como 
+- Fija, la manera de gestionar en la fija se establece el primer espacio como un puntero al primer libe y en los libres tener la dirección del siguiente, cuando se intenta insertar se coge el primer libre y se cambia el puntero.
+- Variable, se organiza internamente los bloque con el número de registros seguidos de sus tamaños seguido del espacio libre y después los registros, de esta manera todo el espacio libre queda junto.
 # Medio físico
 
 # Organización de registros en archivos
