@@ -1,6 +1,7 @@
 # Conceptos
 
-# Características
+# Medio físico
+
 # Organización de registros en archivos
 # Tags
 #2- 
