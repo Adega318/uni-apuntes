@@ -7,7 +7,13 @@ $e_{i}=$entrada i
 $\mu_{ij}=$peso de $e_{i}$ de la neurona j
 $$\tau_{j}=\sqrt{\sum_{i=1}^{n}(e_{i}-\mu_{ij})^{2}}$$
 ### Aprendizaje
+Proceso de aprendizaje y entrenamiento de la red.
+Función de entrenamiento:
 $\alpha=$ 
 $e_{i}=$ entrada i
 $\mu_{ij}=$ peso de $e_{i}$ de la neurona j
+$d()=$ función de vecindad
+$c_{i}=$ célula ganadora
+$c_{j}=$ célula vecina
 $$\Delta\mu_{ij}=\frac{\alpha}{d(c_{i},c_{j})}(e_{i}-\mu_{ij})$$
+### Operación
