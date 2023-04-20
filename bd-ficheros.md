@@ -15,7 +15,8 @@ La gestión de borrados:
 - Variable, se organiza internamente los bloque con el número de registros seguidos de sus tamaños seguido del espacio libre y después los registros, de esta manera todo el espacio libre queda junto.
 # Medio físico
 ## Formato de archivo
-## Tamaño de bloque
+## Bloques
+- Factor de bloqueo, número de registros que entran en el bloque (limite superior e inferior en variable).
 El tamaño de bloque debe de ajustarse para beneficiar a la operaciones más recurrentes.
 # Organización de registros en archivos
 # Tags
