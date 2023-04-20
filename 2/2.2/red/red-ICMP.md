@@ -15,6 +15,14 @@ Da la ruta de los paquetes hacia un destino.
 El funcionamiento se basa en el uso del TTL  y UCP. Se manda un datagrama UCP al destino con TTL uno, cuando llegue al primer router morirá y se enviara de regreso un ICMP de error de TTL, esto continuara aumentando el TTL hasta llegar al destino, cuando llegue el mensaje de error de ICMP será en lugar de TTL un error de puerto.
 # Fragmentación IP
 Partición de los datagramas a causa del tamaño de trama, fragmentandolos con la misma cabecera y modificando el offset de fragmentación para cada fragmento.
+![[Pasted image 20230420120149.png]]
+Tenemos los siguentes campos:
+- Identificación, valor único de cada datagrama.
+- Flags
+	- DF, indica la no fragmentación.
+	- MF, indica si es el ultimo fragmento.
+- Offset, indica el bite donde empieza el fragmento.
+- Longitud, longitud total del paquete sin fragmentar.
 # Tags
 #2- 
 #2-2 
