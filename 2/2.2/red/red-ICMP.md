@@ -16,13 +16,15 @@ El funcionamiento se basa en el uso del TTL  y UCP. Se manda un datagrama UCP al
 # Fragmentación IP
 Partición de los datagramas a causa del tamaño de trama, fragmentandolos con la misma cabecera y modificando el offset de fragmentación para cada fragmento.
 ![[Pasted image 20230420120149.png]]
-Tenemos los siguentes campos:
+Tenemos los siguientes campos:
 - Identificación, valor único de cada datagrama.
 - Flags
 	- DF, indica la no fragmentación.
 	- MF, indica si es el ultimo fragmento.
 - Offset, indica el bite donde empieza el fragmento.
 - Longitud, longitud total del paquete sin fragmentar.
+## MTU Discovery
+
 # Tags
 #2- 
 #2-2 
