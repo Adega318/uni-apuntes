@@ -26,11 +26,15 @@ Pruebas rápidas basadas en probar las partes claves, enfocándose en:
 ## Opciones de estratégicas
 ### Orientado a objetos
 ### Aplicaciones web
-## Pruebas de validación
+## Validación
 Pruebas de comprobación del correcto funcionamiento, con los siguiente criterios:
 - se satisfacen las funcionalidades.
 - contenido preciso y adecuado.
-### 
+Fases de las pruebas con clientes:
+- Alfa, pruebas con un grupo reservado de usuarios.
+- Beta, pruebas con el publico general.
+## Sistema
+
 # Tags
 #2- 
 #2-2 
