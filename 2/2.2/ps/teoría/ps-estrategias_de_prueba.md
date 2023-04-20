@@ -12,7 +12,10 @@ Hay que tener en consideración:
 ## Integración
 Tomando los módulos ya probados se crea una estructura de programa.
 ![[Pasted image 20230420104000.png]]
-- 
+- Descendente, se comienzan con los niveles superiores y se desciende.
+- Ascendente, se comienza por los módulos atómicos y se asciende en complejidad.
+### Prueba de regresión
+Con la adición de modulos es posible dañar la funcionalidad de los antiguos, 
 # Tags
 #2- 
 #2-2 
