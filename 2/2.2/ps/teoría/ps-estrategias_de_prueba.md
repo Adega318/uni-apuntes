@@ -22,7 +22,10 @@ Con la adición de módulos es posible dañar la funcionalidad de los antiguos, 
 ### Pruebas de humo
 Pruebas rápidas basadas en probar las partes claves, enfocándose en:
 - Componentes
-- 
+- Errores paralizantes
+## Opciones de estratégicas
+### Orientado a objetos
+
 # Tags
 #2- 
 #2-2 
