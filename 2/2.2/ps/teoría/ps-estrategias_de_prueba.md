@@ -25,6 +25,7 @@ Pruebas rápidas basadas en probar las partes claves, enfocándose en:
 - Errores paralizantes
 ## Opciones de estratégicas
 ### Orientado a objetos
+### Aplicaciones web
 
 # Tags
 #2- 
