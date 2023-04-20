@@ -1,5 +1,5 @@
 # Organización
-# Estrategia
+# Pruebas de desarrollo
 ## Unidad
 Se establece el componente más pequeño posible y se prueban sus funcionalidades.
 ![[Pasted image 20230417101612.png]]
@@ -26,7 +26,11 @@ Pruebas rápidas basadas en probar las partes claves, enfocándose en:
 ## Opciones de estratégicas
 ### Orientado a objetos
 ### Aplicaciones web
-
+## Pruebas de validación
+Pruebas de comprobación del correcto funcionamiento, con los siguiente criterios:
+- se satisfacen las funcionalidades.
+- contenido preciso y adecuado.
+### 
 # Tags
 #2- 
 #2-2 
