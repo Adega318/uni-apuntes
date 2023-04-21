@@ -19,7 +19,12 @@ Puntos del día (*Comunidad*, *Día/hora*, *Orden*, Nombre)
 Es propietario (*Catrasto*, *Desde*, Hasta)
 Pagos (*Catrasto*, *Desde*, Cuenta, Hasta)
 Solicitud (*Comunidad*, *Denominador*, *Fecha*, Estado, Documento, Puntuación total)
-Fases (*Denominador*, *N*)
+Fases (*Denominador*, *Número*, Descripción, Puntuación minima)
+
+```mermaid
+graph TD
+b-->c
+```
 # Tags
 #2- 
 #2-2 
