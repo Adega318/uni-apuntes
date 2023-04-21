@@ -8,7 +8,13 @@ Propietarios (*DNI*, Nombre, Dirección, Email, Teléfono)
 Subenciones (*Denominador*, Documento)
 Categorias (*Nombre*)
 ## Paso 2
+Comunidades (_Codigo de comunidad_, Nombre, Dirección, Gestionada)
+Pisos (*Catrasto*, Superficie, Cuota)
+Propietarios (*DNI*, Nombre, Dirección, Email, Teléfono)
+Subenciones (*Denominador*, Documento)
+Categorias (*Nombre*)
 
+Reunion ([*Comunidad*][], *Día/hora*, Lugar, Acta)
 # Tags
 #2- 
 #2-2 
