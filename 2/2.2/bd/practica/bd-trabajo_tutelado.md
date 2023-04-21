@@ -14,7 +14,7 @@ Propietarios (*DNI*, Nombre, Dirección, Email, Teléfono)
 Subenciones (*Denominador*, Documento)
 Categorias (*Nombre*)
 
-Reunion ([*Comunidad*][], *Día/hora*, Lugar, Acta)
+Reunion ([[]], *Día/hora*, Lugar, Acta)
 # Tags
 #2- 
 #2-2 
