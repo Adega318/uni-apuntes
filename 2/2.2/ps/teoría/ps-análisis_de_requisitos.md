@@ -15,13 +15,17 @@ A análisis del problema
 Los requisitos evolucionarán a causa de las distintas fuentes y las cuestiones. Otra causa puede ser el cambio en la empresa.
 ## Proceso
 ![[Pasted image 20230218174203.png]]
-## Tipos
+## Requisitos
 ### Negocio
 ### Usuario
 Los requisitos de cliente o usuario, deben describir los requisitos del producto de tal forma que sean comprensibles por los propios usuarios del sistema sin conocimiento técnico previo.
 Estos requisitos únicamente deben especificar el comportamiento externo del sistema y deben evitar, en la medida de lo posible, las características del diseño del sistema.
 ### Sistema/software
 Utilizados por los ingenieros de software como punto de partida para el diseño del producto. Este tipo de requisitos, agregan detalle y explican cómo el producto debe proporcionar los requisitos del usuario. Pueden ser usados como parte del contrato para la implementación del producto y, por tanto, deben ser una especificación completa y consistente del producto entero.
+#### Funcionales
+Descripción de lo que debe de hacer el sistema, describiendo sus interaciones e incluyendo los sistemas externos.
+#### No funcionales
+Referencia a los requisitos que no tengan relación con la funcionalidad siendo caracteristicas del sistema.
 ## Características
 Los requisitos deben de ser completos, correctos, realizable, necesario, priorizadle, no ambiguo, verificable, completa, consistente, modificable y trazable.
 ## Técnicas de recogida de requisitos
