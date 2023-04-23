@@ -15,7 +15,7 @@ Podemos dividir los prototipos en dos familias, desechables, con la intención d
 # Modelos evolutivos
 Modelos basados en la creación de pasos intermedios funcionales.
 ## Incremental
-El modelo incremental se basa en la ampliación y mejora de las funcionalidades del producto en consecuentes versiones, cada versión es un producto funcional.
+El modelo incremental se basa en la ampliación y mejora de las funcionalidades del producto en consecuentes versiones, cada versión es un producto funcional, pudiendo usar otros modelos para el desarrollos de las versiones.
 Este modelo permite una gestión de recursos flexible, alta comercialización y experimentación tecnológica.
 ## Espiral
 Aplicable en proyectos de alto riesgo. El procedimiento son iteraciones consecutivas de un modelo inicial, dividiendo el desarrollo en cuatro sectores distintivos:
