@@ -2,6 +2,8 @@
 Especificar:
 - funciones
 - información manejada
+- interfaces
+- restriciones
 # Resultados
 El resultado es plasmar los requisitos en modelos dependientes del enfoque seguido cambian.
 # Modelos
@@ -24,6 +26,12 @@ Aporte de los modelos:
 - si no parece correcto, seguramente no lo sea
 - obtener feedback
 # Análisis estructurado
+## Objetivos
+- establecer limites del sistema
+- modelo logico de procesos
+- reflejar las trasformaciones
+- simplificar el sistema
+- facilitar mantenimien
 ## Diagrama de flujo de datos (DFD)
 **Niveles de aplicación**:
 ![[Pasted image 20230302104141.png]]
