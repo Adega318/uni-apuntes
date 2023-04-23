@@ -31,7 +31,19 @@ Aporte de los modelos:
 - modelo logico de procesos
 - reflejar las trasformaciones
 - simplificar el sistema
-- facilitar mantenimien
+- facilitar mantenimiento
+## Conceptos
+- Entidad externa
+	- interfaz entre el exterior y el sistema
+	- entes ajenos al sistema
+	- son entradas o salidas de información
+- Proceso
+	- trasforma o manipula datos
+- Almacén de datos
+	- deposito de información del sistema
+- Flujo de datos
+	- conecta componentes del sistema
+	- crea flujos de datos
 ## Diagrama de flujo de datos (DFD)
 **Niveles de aplicación**:
 ![[Pasted image 20230302104141.png]]
