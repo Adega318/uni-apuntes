@@ -50,14 +50,15 @@ $$E=\frac{1}{N}\sum_{i=1}^{N}||ei-w_{bmu}||^{2}$$
 ### Aplicaciones
 ## SOM
 Ventajas:
-- Transpariencia
+- Transparencia
 - Localidad de los datos
-- Visualización graafica
-- Integración en otras teccnicas
+- Visualización gratifica
+- Integración en otras técnicas
 Desventaja:
-- Necesisdad de arquitectura definida e invariable duante el entrenamiento.
+- Necesidad de arquitectura definida e invariable durante el entrenamiento.
 - Neuronas superfluas
-- No determinación 
+- No determinación de la calidad de la neurona vencedora.
+- Intensivamente computación
 # Crecimiento de redes
 La redes de crecimiento se basan en la ampliación de las neuronas en zonas de alto peso y eliminación de las neuronas con pesos despreciables. Tras un numero constante de modificaciones de los pesos se hace el re-calculo de las neuronas con las modificaciones necesarias.
 ## Inserción de neuronas
