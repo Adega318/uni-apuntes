@@ -34,7 +34,8 @@ Fases de las pruebas con clientes:
 - Alfa, pruebas con un grupo reservado de usuarios.
 - Beta, pruebas con el publico general.
 ## Sistema
-
+## Recuperación
+Pruevas orientadas a comprovar la recuperación del s
 # Tags
 #2- 
 #2-2 

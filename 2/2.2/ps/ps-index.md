@@ -8,7 +8,7 @@
 6. [[ps-metodologias_de_desarrollo]]
 7. [[ps-calidad]]
 8. [[ps-planificación]]
-9. [[ps-estrategias_de_prueba]]
+9. [[ps-estrategias_decuantización_prueba]]
 # Prácticas
 # Tags
 #2- 
