@@ -21,15 +21,18 @@ Proceso de aprendizaje y entrenamiento de la red.
 - Pesos inicializados aleatoria mente.
 - Se introducen patrones calculando las salidas de la capa de competencia.
 - La neurona con menor distancia con ese vector de entrada obtendrá salida 1 y el resto 0.
-- 
+- El pedos de la ganadora se modifica junto de sus vecinas en función de la vecindad.
+	- la vecindad es la distancia entre neuronas, se modifica con el tiempo, estabilizando a lo largo del aprendizaje.
+
 Función de entrenamiento:
-$\alpha=$ 
+$\alpha=$ tasa de aprendizaje
 $e_{i}=$ entrada i
 $\mu_{ij}=$ peso de $e_{i}$ de la neurona j
 $d()=$ función de vecindad
 $c_{i}=$ célula ganadora
 $c_{j}=$ célula vecina
 $$\Delta\mu_{ij}=\frac{\alpha}{d(c_{i},c_{j})}(e_{i}-\mu_{ij})$$
+- Vecindad 
 ### Operación
 # Crecimiento de redes
 Tras un numero constante de modificaciones de los pesos se hace el re-calculo de las neuronas con las modificaciones necesarias.
