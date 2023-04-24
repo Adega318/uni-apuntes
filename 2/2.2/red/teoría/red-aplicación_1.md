@@ -29,10 +29,16 @@ Tenemos dos modelos de conexión persistente:
 
 ## Http 2
 - multiplexación local
-- 
+- formato binario
+- compresión de cadenas
+- server push
 ## Cookies
+
+![[Pasted image 20230424174738.png]]
+
 Información que se guarda para facilitar la navegación y en casos indeseados seguimiento.
 ## GET condicional
+Get donde se mada el ultimo get sobre el documento, si no se ha modificado no se manda la información.
 # SMTP
 Protocolo de correo electrónico, pensado para intercambio de mensajes de correo, teniendo como estándar el puerto 25.
 Funciona mediante una sincronización seguida del envío de un mensaje, el mensaje debe de ser ASCII, estando los mensajes codificados en [[#MIME|MIME]].
