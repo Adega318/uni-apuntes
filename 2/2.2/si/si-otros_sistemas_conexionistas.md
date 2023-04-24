@@ -42,7 +42,7 @@ Repetición del proceso de entrenamiento n veces con configuraciones iniciales d
 $N=$ numero de vectores de entrada.
 $$E=\frac{1}{N}\sum_{i=1}^{N}||ei-w_{bmu}||^{2}$$
 ### Operación
-
+- I
 # Crecimiento de redes
 Tras un numero constante de modificaciones de los pesos se hace el re-calculo de las neuronas con las modificaciones necesarias.
 ## Inserción de neuronas
