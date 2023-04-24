@@ -51,10 +51,11 @@ $$E=\frac{1}{N}\sum_{i=1}^{N}||ei-w_{bmu}||^{2}$$
 ## SOM
 
 # Crecimiento de redes
-La redes de crecimiento se 
-Tras un numero constante de modificaciones de los pesos se hace el re-calculo de las neuronas con las modificaciones necesarias.
+La redes de crecimiento se basan en la ampliación de las neuronas en zonas de alto peso y eliminación de las neuronas con pesos despreciables. Tras un numero constante de modificaciones de los pesos se hace el re-calculo de las neuronas con las modificaciones necesarias.
 ## Inserción de neuronas
-La adición se produce en los clusters, los pesos de las neuronas generadas se calculan en base a las vecinas.
+Para la inserción de neuronas se considera el:
+- Valor resource, valor variante que indica la distancia a la estructura ideal, calculado en la creación de neuronas.
+Las nuevas neuronas tendrán sus pesos calculados en base a su vecinos.
 ## Borrado de neuronas
 Neuronas con pesos despreciable se eliminan al no tener efecto sobre la red.
 ## Estructuras crecientes (GCS)
