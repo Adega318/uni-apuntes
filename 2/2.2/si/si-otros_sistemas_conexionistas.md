@@ -2,7 +2,9 @@
 Es la modificación repetida de los pesos de las conexiones en respuesta a nodos de activación siguiendo reglas preestablecidas.
 ## Mapas autoorganizativos
 Se mapea la red para establecer zonas que de excitación en función del tipo de entradas, viendo las funciones de las parte de la red y creando categorías de patrones.
-Las neuronas experiencia aprendizaje competitivo donde la neurona gna
+### Kohonen
+Kohonen se basa en el aprendizaje no supervisado donde las neuronas experiencia aprendizaje competitivo donde la neurona ganadora es la actualizada, creando clusters.
+- vecindad, preserva las relaciones topologicas, neuronas cercanas responden de manera similar.
 $\tau_{j}=$ salida de la neurona j
 $e_{i}=$entrada i
 $\mu_{ij}=$peso de $e_{i}$ de la neurona j
