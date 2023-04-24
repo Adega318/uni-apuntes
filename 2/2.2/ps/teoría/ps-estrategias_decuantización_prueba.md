@@ -78,14 +78,11 @@ Se debe considerar ante un error su causa del error y donde se puede repetir, po
 - Operatividad
 - Observabilidad
 - Controlabilidad
-	- Descomponibilidad
+- Descomponibilidad
 - Simplicidad
 - Estabilidad
 - Comprensibilidad
-Hay dos principios básicos:
-- Comprobabilidad
-	
-- Caracteristicas
+## Caracteristicas
 # Tags
 #2- 
 #2-2 
