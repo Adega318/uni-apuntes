@@ -35,7 +35,13 @@ Fases de las pruebas con clientes:
 - Beta, pruebas con el publico general.
 ## Sistema
 ## Recuperación
-Pruevas orientadas a comprovar la recuperación del s
+Pruebas orientadas a comprobar la recuperación del sistema ante fallos, siendo:
+- Automática
+	- Evaluación
+	- Validación
+	- Recuperación de datos
+	- Reanudación
+- Intervenida
 # Tags
 #2- 
 #2-2 
