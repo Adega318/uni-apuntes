@@ -66,6 +66,13 @@ Tras las pruebas comienza la depuración.
 5. Síntomas por temporización.
 6. Condiciones de entrada difíciles de reproducir.
 7. Síntomas concluyentes de múltiples errores o procesadores.
+## Estrategias
+Hay tres acercamientos:
+- Fuerza bruta
+- Vuelta atrás
+- Eliminación de causas
+## Corrección
+Se debe considerar ante un error su causa del error y donde se puede repetir, posibilidad de la creaciones de errores con la corrección y métodos de prevención de este error.
 # Tags
 #2- 
 #2-2 
