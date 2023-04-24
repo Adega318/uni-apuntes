@@ -73,6 +73,19 @@ Hay tres acercamientos:
 - Eliminación de causas
 ## Corrección
 Se debe considerar ante un error su causa del error y donde se puede repetir, posibilidad de la creaciones de errores con la corrección y métodos de prevención de este error.
+# Pruebas software
+## Comprobabilidad
+- Operatividad
+- Observabilidad
+- Controlabilidad
+	- Descomponibilidad
+- Simplicidad
+- Estabilidad
+- Comprensibilidad
+Hay dos principios básicos:
+- Comprobabilidad
+	
+- Caracteristicas
 # Tags
 #2- 
 #2-2 
