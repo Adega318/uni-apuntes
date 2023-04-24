@@ -32,7 +32,14 @@ $d()=$ función de vecindad
 $c_{i}=$ célula ganadora
 $c_{j}=$ célula vecina
 $$\Delta\mu_{ij}=\frac{\alpha}{d(c_{i},c_{j})}(e_{i}-\mu_{ij})$$
-- Vecindad 
+- Vecindad,
+	- Radio, distancia de las neuronas consideradas vecinas.
+	- Topologia, neuronas consideradas vecinas.
+	- Función, cuantifica lo vecina que es una neurona.
+### Validación
+Repetición del proceso de entrenamiento n vezes con configuraciones iniciales diferentes para validad la calidad del SOM y ayudar en el calculo del error de cuantización medio.
+- Error de cuantización medio, evalúa el grado de adaptación del mapa SOM a los datos de  entrada, siendo mejor el que menor error obtenga entre las conexiones de las BMU y los  vectores (patrones de entrada) a los que representa.
+$$E=\frac{1}{N}\sum_{i=1}^{N}||ei-w_{bmu}||$$
 ### Operación
 # Crecimiento de redes
 Tras un numero constante de modificaciones de los pesos se hace el re-calculo de las neuronas con las modificaciones necesarias.
