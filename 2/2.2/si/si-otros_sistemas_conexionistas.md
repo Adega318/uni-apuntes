@@ -59,7 +59,11 @@ Las nuevas neuronas tendrán sus pesos calculados en base a su vecinos.
 ## Borrado de neuronas
 Neuronas con pesos despreciable se eliminan al no tener efecto sobre la red.
 ## Estructuras crecientes (GCS)
-
+Las estructuras GCS se basa en el mantenimiento de las neuronas de entrada y salida con la modificación de las capas ocultas.
+Se establecen estructuras para una cantidad K de nodos:
+![[Pasted image 20230424131752.png]]
+### Capa de salida
+La capa de slida es identica a la de Kohonen
 # Tags
 #2- 
 #2-2 
