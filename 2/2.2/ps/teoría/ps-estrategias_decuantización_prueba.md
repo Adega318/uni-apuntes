@@ -43,7 +43,10 @@ Pruebas orientadas a comprobar la recuperación del sistema ante fallos, siendo:
 	- Reanudación
 - Intervenida
 ## Seguridad
-
+Pruebas orientadas a la vulneración del sistema.
+## Esfuerzo
+Pruebas de capacidad máxima del sistema para tener consciencia de las limitaciones presentes, teniendo un margen de 20-30% de margen entre máximo y habitual como recomendación.
+- 
 # Tags
 #2- 
 #2-2 
