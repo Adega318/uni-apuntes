@@ -54,7 +54,11 @@ Métodos comunes de prueba:
 4. casos de trashing.
 5. casos de búsqueda excesiva de datos.
 
-Una de 
+Una de las variaciones es la prueba de sensibilidad, pruebas para ver los datos que pueden causar picos de procesamiento.
+## Despliegue
+Prueba de ejecución en  diferentes entornos para asegurar el correcto funcionamiento en los múltiples entornos.
+# Depuración
+
 # Tags
 #2- 
 #2-2 
