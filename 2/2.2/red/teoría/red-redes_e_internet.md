@@ -30,7 +30,7 @@ Características:
 Tres clases de acceso:
 - residencial, usa un proveedor con banda ancha, cable, modem o satelite.
 - empresa, conexión directa a la web usando LANs.
-- inalámbrico, co
+- inalámbrico, conexión mediante redes de datos (2G, 3G, ...)
 # Arquitectura
 La arquitectura es la manera en la que estructuramos las comunicaciones, se utiliza el modelo OSI.
 ![[Pasted image 20230417190502.png]]
