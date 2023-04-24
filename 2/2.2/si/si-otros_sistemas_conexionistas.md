@@ -11,13 +11,17 @@ La capa de entrada recibe señales de entrada de la red.
 - Con m neuronas en la capa de competición, los pesos de conexión se definen en una matriz (n,m).
 - El vector de pesos de cada neurona de la capa de competición tendrá el mismo nº de componentes que el vector de entrada.
 	- Por tener la misma dimensión se pueden comparar entre si con una función de distancia.
-- 
+- La distancia utilizada suele ser la euclídea, con la salida de la competición siendo calculada por esa distancia.
 $\tau_{j}=$ salida de la neurona j
 $e_{i}=$entrada i
 $\mu_{ij}=$peso de $e_{i}$ de la neurona j
 $$\tau_{j}=\sqrt{\sum_{i=1}^{n}(e_{i}-\mu_{ij})^{2}}$$
 ### Aprendizaje
 Proceso de aprendizaje y entrenamiento de la red.
+- Pesos inicializados aleatoria mente.
+- Se introducen patrones calculando las salidas de la capa de competencia.
+- La neurona con menor distancia con ese vector de entrada obtendrá salida 1 y el resto 0.
+- 
 Función de entrenamiento:
 $\alpha=$ 
 $e_{i}=$ entrada i
