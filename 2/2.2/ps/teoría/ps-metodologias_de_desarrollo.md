@@ -1,7 +1,7 @@
 La metodología dota de contenido a los ciclos de vida.
 # Tipos
 Las metodologías se pueden clasificar.
-Filosofía:ç
+Filosofía:
 - Tradicional
 - Ágil
 Paradigma:
@@ -19,6 +19,7 @@ Metodología enfocada en entornos volátiles y orientada a los ciclos de vida m�
 4. Importancia de la flexibilidad sobre el seguimiento de un plan.
 # Métrica versión 3
 Metodología tradicional basada en la fragmentación en procesos divididos en actividades y tareas a las que se le asignan encargados.
+
 ![[Pasted image 20230323124738.png]]
 - Técnica, conjunto de heurística o procedimiento para notación.
 - Práctica, medio para completar objetivos de manera rápida.
