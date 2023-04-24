@@ -46,7 +46,12 @@ $$E=\frac{1}{N}\sum_{i=1}^{N}||ei-w_{bmu}||^{2}$$
 - Patrón inicial para conocer el prototipo
 - Calculo de similitud de las neuronas
 - Vencedor con mayor similitud
+### Representación geométrica
+### Aplicaciones
+## SOM
+
 # Crecimiento de redes
+La redes de crecimiento se 
 Tras un numero constante de modificaciones de los pesos se hace el re-calculo de las neuronas con las modificaciones necesarias.
 ## Inserción de neuronas
 La adición se produce en los clusters, los pesos de las neuronas generadas se calculan en base a las vecinas.
