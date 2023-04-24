@@ -42,6 +42,8 @@ Pruebas orientadas a comprobar la recuperación del sistema ante fallos, siendo:
 	- Recuperación de datos
 	- Reanudación
 - Intervenida
+## Seguridad
+
 # Tags
 #2- 
 #2-2 
