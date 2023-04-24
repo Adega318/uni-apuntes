@@ -27,6 +27,10 @@ Características:
 - Trasmisión, tiempo de trasmisión del mensaje.
 - Propagación, tiempo de movimiento por el router.
 ## Acceso y medio físico
+Tres clases de acceso:
+- residencial, usa un proveedor con banda ancha, cable, modem o satelite.
+- empresa, conexión directa a la web usando LANs.
+- inalámbrico, co
 # Arquitectura
 La arquitectura es la manera en la que estructuramos las comunicaciones, se utiliza el modelo OSI.
 ![[Pasted image 20230417190502.png]]
