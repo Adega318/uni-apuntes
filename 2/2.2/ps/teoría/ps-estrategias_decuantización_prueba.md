@@ -46,7 +46,15 @@ Pruebas orientadas a comprobar la recuperación del sistema ante fallos, siendo:
 Pruebas orientadas a la vulneración del sistema.
 ## Esfuerzo
 Pruebas de capacidad máxima del sistema para tener consciencia de las limitaciones presentes, teniendo un margen de 20-30% de margen entre máximo y habitual como recomendación.
-- 
+
+Métodos comunes de prueba:
+1. pruebas de interrupciones.
+2. aumento de la tasa de datos en un orden de magnitud.
+3. casos de consumo máximo.
+4. casos de trashing.
+5. casos de búsqueda excesiva de datos.
+
+Una de 
 # Tags
 #2- 
 #2-2 
