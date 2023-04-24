@@ -23,6 +23,18 @@ Metodología tradicional basada en la fragmentación en procesos divididos en ac
 ![[Pasted image 20230323124738.png]]
 - Técnica, conjunto de heurística o procedimiento para notación.
 - Práctica, medio para completar objetivos de manera rápida.
+## Procesos
+
+![[Pasted image 20230424165405.png]]
+
+- Planificación de Sistemas de Información (PSI), proporcionar un marco estratégico de referencia para los SI de un determinado ámbito de la Organización.
+- Desarrollo de Sistemas de Información, contiene todas las actividades y tareas que se deben llevar a cabo para desarrollar un sistema, cubriendo desde el análisis de requisitos hasta la instalación del software.
+- Mantenimiento de Sistemas de Información (MSI), obtener una nueva versión de un SI a partir de las peticiones de mantenimiento.
+- Estudio de Viabilidad del Sistema (EVS), analizar un conjunto concreto de necesidades, con la idea de proponer una solución a corto plazo.
+- Análisis del Sistema de Información (ASI), especificación detallada del SI, a través de un catálogo de requisitos y una serie de modelos.
+- Diseño del Sistema de Información (DSI), obtener la definición de la arquitectura del sistema y del entorno tecnológico que le va a dar soporte, junto con la especificación detallada de los componentes del SI.
+- Construcción del Sistema de Información (CSI), construcción y prueba de los distintos componentes del SI.
+- Implantación y Aceptación del Sistema de Información (IAS), entrega y aceptación del sistema, incluyendo actividades para el paso a producción del sistema.
 ## Perfiles de integrantes
 - Directivo
 - Jefe de proyecto
