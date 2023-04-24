@@ -49,7 +49,15 @@ $$E=\frac{1}{N}\sum_{i=1}^{N}||ei-w_{bmu}||^{2}$$
 ### Representación geométrica
 ### Aplicaciones
 ## SOM
-
+Ventajas:
+- Transpariencia
+- Localidad de los datos
+- Visualización graafica
+- Integración en otras teccnicas
+Desventaja:
+- Necesisdad de arquitectura definida e invariable duante el entrenamiento.
+- Neuronas superfluas
+- No determinación 
 # Crecimiento de redes
 La redes de crecimiento se basan en la ampliación de las neuronas en zonas de alto peso y eliminación de las neuronas con pesos despreciables. Tras un numero constante de modificaciones de los pesos se hace el re-calculo de las neuronas con las modificaciones necesarias.
 ## Inserción de neuronas
@@ -63,7 +71,8 @@ Las estructuras GCS se basa en el mantenimiento de las neuronas de entrada y sal
 Se establecen estructuras para una cantidad K de nodos:
 ![[Pasted image 20230424131752.png]]
 ### Capa de salida
-La capa de slida es identica a la de Kohonen
+La capa de salida es idéntica a la de Kohonen.
+- Error de cuantización, error almacenado de cada neurona con la distancia euclídea en su momento ganador.
 # Tags
 #2- 
 #2-2 
