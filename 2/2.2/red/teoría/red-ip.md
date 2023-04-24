@@ -1,3 +1,7 @@
+# Niveles y protocolos
+- Conectador, repite las entradas en todas las salidas.
+- Conmutador, repite las entradas en la sealida correspondiente.
+- Puente, conexión punto a punto que es capaz de conbertir 
 # Cabecera IP
 Tamaño de paquete 60 bytes.
 ![[Pasted image 20230321133951.png]]
