@@ -18,8 +18,12 @@ La dirección 127.0.0.1 se reserba para el localhost, siendo una interfaz para e
 ## IPV4
 Tres tipos de direciones de envio:
 - unicast, unica maquina.
-- brodcast, todas las maquinas.
+- brodcast, todas las maquinas (ultima ip de la red donde se trasmita).
 - multicast, un grupo de maquinas.
+(brodcast y multicast solo funcionan con UDP)
+## DNS
+Servicio que combierte dominios a direciones IP.
+
 # Cabecera IP
 Tamaño de paquete 60 bytes.
 ![[Pasted image 20230321133951.png]]

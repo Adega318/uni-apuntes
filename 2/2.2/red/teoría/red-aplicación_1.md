@@ -1,3 +1,4 @@
+![[Pasted image 20230424172951.png]]
 # HTTP
 ## Petición
 Formato:
