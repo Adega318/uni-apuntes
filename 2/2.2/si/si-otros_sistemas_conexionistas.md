@@ -24,6 +24,7 @@ La adición se produce en los clusters, los pesos de las neuronas generadas se c
 ## Borrado de neuronas
 Neuronas con pesos despreciable se eliminan al no tener efecto sobre la red.
 ## Estructuras crecientes (GCS)
+
 # Tags
 #2- 
 #2-2 
