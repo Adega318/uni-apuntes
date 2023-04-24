@@ -18,9 +18,11 @@ $c_{j}=$ célula vecina
 $$\Delta\mu_{ij}=\frac{\alpha}{d(c_{i},c_{j})}(e_{i}-\mu_{ij})$$
 ### Operación
 # Crecimiento de redes
+Tras un numero constante de modificaciones de los pesos se hace el re-calculo de las neuronas con las modificaciones necesarias.
 ## Inserción de neuronas
-
+La adición se produce en los clusters, los pesos de las neuronas generadas se calculan en base a las vecinas.
 ## Borrado de neuronas
+Neuronas con pesos despreciable se eliminan al no tener efecto sobre la red.
 ## Estructuras crecientes (GCS)
 # Tags
 #2- 
