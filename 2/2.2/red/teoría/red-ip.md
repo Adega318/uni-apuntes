@@ -10,6 +10,16 @@ Cadena de 32 bits que identifica al dispositivo en la red, con dos partes el id 
 Tenemos cinco clases:
 ![[Pasted image 20230424171945.png]]
 
+Tenemos dos categorias:
+- Públicas, identifican un dispositivo en internet.
+- Privadas, usadas para funcionamiento interno, sindo de tipo A B o C y requiriendo de un NAT para haceder a internet.
+## Loopback
+La dirección 127.0.0.1 se reserba para el localhost, siendo una interfaz para el envio de paquetes a la propia maquina.
+## IPV4
+Tres tipos de direciones de envio:
+- unicast, unica maquina.
+- brodcast, todas las maquinas.
+- multicast, un grupo de maquinas.
 # Cabecera IP
 Tamaño de paquete 60 bytes.
 ![[Pasted image 20230321133951.png]]
