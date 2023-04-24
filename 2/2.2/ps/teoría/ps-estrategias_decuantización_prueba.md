@@ -58,7 +58,14 @@ Una de las variaciones es la prueba de sensibilidad, pruebas para ver los datos 
 ## Despliegue
 Prueba de ejecución en  diferentes entornos para asegurar el correcto funcionamiento en los múltiples entornos.
 # Depuración
-
+Tras las pruebas comienza la depuración.
+1. Síntomas remotos, errores en una parte pueden reflejarse en otra.
+2. Síntomas temporales, síntomas que desaparecen temporalmente a causa de la corrección de otro error.
+3. Síntomas no causados por errores.
+4. Síntomas por error humano.
+5. Síntomas por temporización.
+6. Condiciones de entrada difíciles de reproducir.
+7. Síntomas concluyentes de múltiples errores o procesadores.
 # Tags
 #2- 
 #2-2 
