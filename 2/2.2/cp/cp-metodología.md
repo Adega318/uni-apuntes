@@ -57,7 +57,14 @@ Esta estrategia de hipercubo nos lleva a un costo de $log(k)$ pasos.
 Los esquemas dinámicos se aplican sobre sistemas donde el coste de tarea o el número de tareas están indeterminados, lo que lleva a trabajo extra en el proceso de asignación.
 El acercamiento a este problema se basa en colecciones de tareas pendientes con dos opciones:
 ### Centralizado
-Tenemos un proceso maestro con una colección de tareas que son asignada a los procesos esclavo, que al terminar devuelven los resultados al maestro.
+Tenemos un proceso maestro con una colección de tareas que son asignada a los procesos esclavo, que devolverán resultados o subtareas al maestro.
+
+![[Pasted image 20230425090529.png]]
+
+Este acercamiento no es escalable y tiene gran requerimientos de comunicación.
+Se pueden optimizar estos procesos con:
+- Planificación por bloques, establecimiento de bloques de tareas asignables en lugar de tareas individuales.
+- Subproblemas locales, los esclavos que generan subtareas man
 # Tags
 #2- 
 #2-2 
