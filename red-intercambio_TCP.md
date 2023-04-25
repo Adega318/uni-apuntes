@@ -39,7 +39,13 @@ $$Ventana Utilizable = win-(sig.byte-últimoACK)$$
 ACKs acumulativos:
 - ACK con un número que es el numero enviado en el mensaje al que se responde +1.
 ### Temp. de persistencia
+Tras un tiempo sin tener una ventana ofrecida se lanza un window prober.
+- Window probers, segmento de un byte utilizado para comprobar el estado de la ventana.
+## Control de congestión
 
+![[Pasted image 20230425210534.png]]
+
+Algoritmo de umbral de
 # Tags
 #2- 
 #2-2 
