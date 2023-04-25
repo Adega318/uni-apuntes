@@ -29,8 +29,17 @@ Protocolo de comunicación centrado en proporcionar un servicio de envió de dat
 - controlar errores
 - control de congestión
 La fiabilidad de TCP se implementa a trabes de :
-- control de longitud de segmentos
-- 
+- control de longitud de segmentos (información enviada)
+- temporizador para el ACK de los segmentos
+- comprobación de errores
+- ordenación de los segmentos en el receptor
+- control de flujo
+## Cabecera TCP
+
+![[Pasted image 20230425133832.png]]
+
+Las cabeceras TCP son de **20 bytes** (parte obligatoria, 40 con opcional) con los siguientes campos:
+
 # Tags
 #2- 
 #2-2 
