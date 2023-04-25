@@ -22,7 +22,7 @@ Formato:
 	- La extensión del archivo no especifica (formalmente) el tipo de objeto.
 ## Conexión persistente
 Tenemos dos modelos de conexión persistente:
-- sin pipeline, el cliente hace una petición tras recivir una respuesta.
+- sin pipeline, el cliente hace una petición tras recibir una respuesta.
 - pipeline, el cliente hace una petición al encontrar una referencia al objeto.
 
 ![[Pasted image 20230424173312.png]]
@@ -38,7 +38,7 @@ Tenemos dos modelos de conexión persistente:
 
 Información que se guarda para facilitar la navegación y en casos indeseados seguimiento.
 ## GET condicional
-Get donde se mada el ultimo get sobre el documento, si no se ha modificado no se manda la información.
+Get donde se manda el último get sobre el documento, si no se ha modificado no se manda la información.
 # SMTP
 Protocolo de correo electrónico, pensado para intercambio de mensajes de correo, teniendo como estándar el puerto 25.
 Funciona mediante una sincronización seguida del envío de un mensaje, el mensaje debe de ser ASCII, estando los mensajes codificados en [[#MIME|MIME]].
@@ -55,7 +55,7 @@ Formato:
 	- Replay-To
 - Cuerpo, información en ASCII
 ## MIME
-Método de codificación en ASCII para el envio de mensajes usando SMTP.
+Método de codificación en ASCII para el envió de mensajes usando SMTP.
 # Tags
 #2- 
 #2-2 

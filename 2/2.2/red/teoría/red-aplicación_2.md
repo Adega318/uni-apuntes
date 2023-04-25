@@ -6,7 +6,7 @@ Antes del empleo del DNS se hace uso del **fichero de host**, fichero donde se g
 El cliente es el que se comunica con los servidores DNS en nuestro nombre, enviando una consulta al server DNS y reportando la respuesta al solicitante.
 ## Servidor
 Cada red tiene un DNS, un DNS recibe peticiones que debe resolver de dos maneras posibles (base de datos distribuida):
-- Resolución, si se tiene la respuesta se envía directamente.
+- Resolución, si se tiene la respuesta, se envía directamente.
 - Redirección, si no se tiene se redirige la pregunta a un DNS superior.
 ## Espacio de nombres
 
@@ -22,7 +22,7 @@ Cada red tiene un DNS, un DNS recibe peticiones que debe resolver de dos maneras
 ## Servidores de nombres
 Los niveles de dominio tiene DNS para cada nivel de la jerarquía, con los siguientes tipos de servidores:
 - Raíz, son servidores con muchas duplicidades que dirigen el tráfico a servidores más concretos. Estas duplicidades comparten la misma IP y al que llegamos es decidido por los routers intermedios. Conocen a todos los TLDs.
-- TLD, conocen a los sub-dominios y raíz.
+- TLD, conocen a los subdominios y raíz.
 - Inferiores, conocen ips y raíz, si no tienen la IP asociada preguntan al raíz.
 ## Funcionamiento DNS
 
@@ -35,7 +35,7 @@ Consultas:
 	- No obligatorio.
 	- Mi DNS suele ser recursiva.
 - Iterativas
-	- Si no se tiene la respuesta se devuelve información pero no se hace mas trabajo.
+	- Si no se tiene la respuesta se devuelve información, pero no se hace más trabajo.
 	- Servers Raíz y TLD son interactivos.
 ## Caché
 Cada servidor DNS guarda consultas previas, esto hará que las preguntas frecuentes tengan respuesta ya calculada. Estas respuestas no son autoritativas, ya que estas caches no tienen autoridad sobre el dominio.
@@ -45,14 +45,14 @@ Servidores no responsables de ninguna información, solamente destinados a la re
 ## Consultas
 Tenemos cuatro tipos de consultas:
 - A (estándar), Nombre -> IP.
-- CNAME, búsqueda en base a un alias.
+- CNAME, búsqueda basándose en un alias.
 - PTR, consulta inversa IP -> Nombre.
 - MX, consultas DNS para correo.
 ## Comandos
 - nslookup | dig, peticiones al DNS por defecto.
 - bind, peticiones al DNS "Berkeley Internet Name Domain".
 # P2P
-Este modelo se basa parejas que hacen las funciones de cliente y servidor simultáneamente, creando una red con los equipos de usuarios dando una expansión de la base de usuarios como mejora al servicio y gran tolerancia a fallos pero baja seguridad y caro en ancho de banda.
+Este modelo se basa parejas que hacen las funciones de cliente y servidor simultáneamente, creando una red con los equipos de usuarios, dando una expansión de la base de usuarios como mejora al servicio y gran tolerancia a fallos, pero baja seguridad y caro en ancho de banda.
 Teniendo dos tipos:
 - Estructurado, los nodos se organizan de manera concreta.
 - Des-estructurado, se conectan de manera aleatoria.
