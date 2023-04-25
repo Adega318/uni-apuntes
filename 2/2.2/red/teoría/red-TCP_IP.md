@@ -2,6 +2,11 @@
 
 ![[Pasted image 20230425212011.png]]
 
+- Conectador, repite las entradas en todas las salidas.
+- Conmutador, repite las entradas en la sealida correspondiente.
+- Puente, conexión punto a punto que es capaz de conbertir protocolos.
+
+![[Pasted image 20230424171605.png]]
 
 # Direción IP
 Cadena de 32 bits que identifica al dispositivo en la red, con dos partes el id de rez y de host.

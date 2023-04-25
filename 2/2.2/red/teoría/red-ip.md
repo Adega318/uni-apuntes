@@ -1,14 +1,11 @@
 
 ![[Pasted image 20230425211540.png]]
 
-
-
-
 # Cabecera IP
-Tamaño de paquete 60 bytes.
+Tamaño de paquete 20 bytes.
 ![[Pasted image 20230321133951.png]]
 - TCP/IP
-- Versión
+- Versión, versión de IP
 - Longitud de la cabecera
 - Tipo de servicio
 - Longitud total
