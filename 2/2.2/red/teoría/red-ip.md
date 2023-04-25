@@ -69,7 +69,9 @@ Hay tres pasos en el asignado de una IP:
 ## Link-local
 En caso de no haver un DHCP se puede usar un proceso link-local llamado APIPA permitiendo a un host auto-asignarse una IP para poder operar una LAN, se escoje una IP aleatoria y se comprueba su libertad con ARP.
 # NAT
-
+Protocolo que permite conbersión de IPs privadas a publicas al pasar por un router o firewall, existiendo dos tipos:
+- PAT, multiples maquinas comparten la misma IP publica.
+- Basic NAT, 
 # PAT
 
 # Tags
