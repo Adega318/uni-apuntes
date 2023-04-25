@@ -51,7 +51,8 @@ El reparto es correspondiente al tamaño requerido por la subred, calculandose c
 1. Ordenar las subredes de mayor a menor.
 2. Elegir la mas alta
 3. Buscar la x que cumpla $Nºequipos <=2^{x}-2$
-4. 
+4. Calcular la mascara toamdo un número de bits igual a la x para la subred del host.
+5. 
 # DHCP
 Asignado de ip en función de mac del pc, pudiendo ser:
 - dinámica
