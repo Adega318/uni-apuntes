@@ -9,6 +9,12 @@ Trasmisión de paquetes, pudiendo llegar a N paquetes en espera de confirmación
 Es el retroceder N con ACK individuales.
 # Intercambio TCP
 
+![[Pasted image 20230425183751.png]]
+
+Existen dos tipos de trafico de datos en TCP:
+- Interactivo, gran numero de segmentos de pequeño tamaño.
+- No interactivo, segmentos de grantamaño siendo normalmente el máximo de la red.
+
 # Tags
 #2- 
 #2-2 
