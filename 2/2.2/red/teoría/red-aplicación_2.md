@@ -20,9 +20,21 @@ Cada red tiene un DNS, un DNS recibe peticiones que debe resolver de dos maneras
 	- sponsored
 - IDN ccTLDs: internacionales.
 ## Servidores de nombres
-- Raíz, son servidores con muchas duplicidades que dirigen el tráfico a servidores más concretos. Estas duplicidades comparten la misma IP y al que llegamos es decidido por los routers intermedios. Conocen a todos los TLDs
+Los niveles de dominio tiene DNS para cada nivel de la jerarquía, con los siguientes tipos de servidores:
+- Raíz, son servidores con muchas duplicidades que dirigen el tráfico a servidores más concretos. Estas duplicidades comparten la misma IP y al que llegamos es decidido por los routers intermedios. Conocen a todos los TLDs.
 - TLD, conocen a los sub-dominios y raíz.
 - Inferiores, conocen ips y raíz, si no tienen la IP asociada preguntan al raíz.
+## Funcionamiento DNS
+
+![[Pasted image 20230425125725.png]]
+
+Consultas:
+- Recursivas
+	- DNS hace todo el trabajo para devolver la respuesta.
+	- Puede tener múltiples transacciones.
+	- No obligatorio.
+- Iterativas
+	- Si no se tiene la respuesta se devuelve indormación pero n
 ## Caché
 Cada servidor DNS guarda consultas previas, esto hará que las preguntas frecuentes tengan respuesta ya calculada. Estas respuestas no son autoritarias, ya que estas caches no tienen autoridad sobre el dominio.
 # Tags
