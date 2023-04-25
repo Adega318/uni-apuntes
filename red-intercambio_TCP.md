@@ -23,6 +23,8 @@ El intercambio TCP implemento ARQ retroceso N con matices como:
 ![[Pasted image 20230425184341.png]]
 
 ACKs retardados:
+- No se envia el ACK inmediatamente al recivir el dato, en su lugar se espera para enviarlos con datos.
+## No interactivo
 
 # Tags
 #2- 
