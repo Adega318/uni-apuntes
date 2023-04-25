@@ -45,11 +45,19 @@ Las cabeceras TCP son de **20 bytes** (parte obligatoria, 40 con opciones) con l
 - Número de ACK, siguiente número de secuencia que el emisor del ACK espera recivir.
 - Longitud cabecera, tamaño de la cabecera con las opciones.
 - Flags
-	- CWR
-	- ECE
-	- URG
-	- ACK
-	- 
+	- CWR, redución de la velocidad de trasmisión.
+	- ECE, confirmación de la recepción de un ECN.
+	- URG, puntero de urgencia válido.
+	- ACK, número de ACK válido.
+	- PSH, pasar los datos a la aplicación.
+	- RST, reiniciar conexión.
+	- SYN, sincronizar.
+	- FIN, finalizar el envio de datos.
+- Tamaño de ventana, 
+- Checksum, comprobación de errores.
+- Puntero de urgencia, trasmisión de datos urgentes.
+- Opciones
+- Data
 # Tags
 #2- 
 #2-2 
