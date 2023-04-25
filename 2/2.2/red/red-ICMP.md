@@ -22,7 +22,7 @@ Tenemos los siguientes campos:
 	- DF, indica la no fragmentación.
 	- MF, indica si es el ultimo fragmento.
 - Offset, indica el bite donde empieza el fragmento.
-- Longitud, longitud total del fragmento.
+- Longitud, longitud total del fragmento data+cabecera+ip.
 ## MTU Discovery
 
 # Tags
