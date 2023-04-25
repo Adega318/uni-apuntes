@@ -12,7 +12,17 @@ Es utilizado en los siguientes casos:
 - Aplicación en tiempo real
 - Mensajes regulares, no importa perder alguno.
 - Si es multicast o broadcas
+## Cadena UDP
+
+![[Pasted image 20230425132549.png]]
+
+Las cadenas UDP tienen una longitud de **8 bytes** con los siguientes campos:
+- Origen, puerto desde el que se envía.
+- Destino, puerto de destino.
+- Longitud, Cadena UDP + Data.
+- Checksum, control de errores sobre la cabeza y data de UDP.
 # TCP
+
 # Tags
 #2- 
 #2-2 
