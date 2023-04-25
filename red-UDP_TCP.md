@@ -58,6 +58,9 @@ Las cabeceras TCP son de **20 bytes** (parte obligatoria, 40 con opciones) con l
 - Puntero de urgencia, trasmisión de datos urgentes.
 - Opciones
 - Data
+## Conexión
+### Establecimiento
+El protocolo de establecimiento comienza con el envio de un mensaje SYM por el cliente con su nº de secuencia inicial, reciviendo un SYM del servidor con su numero de secuencia inicial y un ACK para el SYM del cliente
 # Tags
 #2- 
 #2-2 
