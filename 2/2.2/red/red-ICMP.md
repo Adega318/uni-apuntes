@@ -25,8 +25,20 @@ Tenemos los siguientes campos:
 - Offset, indica el bite donde empieza el fragmento.
 - Longitud, longitud total del fragmento, debiendo ser múltiplo de 8: Data + Transporte + IP(20)
 ## Error ICMP
-Error producido cunado la fragmentación es requerida pero el paquete tiene DF a uno, incluyendo el MTU de la red y la ca
+Error producido cunado la fragmentación es requerida pero el paquete tiene DF a uno, incluyendo el MTU de la red y la cabecera del mensaje descartado.
 
+![[Pasted image 20230425100446.png]]
+
+## MTU discovery
+Método de descubrir el mínimo MTU  de una comunicación, funciona mediante:
+1. DF = 1
+2. Tamaño que produce fragmentación.
+3. Se recibe el ICMP
+4. Se prueba con un tamaño menor.
+## Proceso
+### NFS (UDP)
+Para una red con un MTU concreto se toma el t
+### HTTP (TCP)
 # Tags
 #2- 
 #2-2 
