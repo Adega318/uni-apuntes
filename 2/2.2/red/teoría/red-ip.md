@@ -26,10 +26,18 @@ La cabecera IP tiene un tamaño de 20 bytes con un campo opcional que comparte e
 	- lista difusa
 	- NoOp
 # Subredes
+
+![[Pasted image 20230425213628.png]]
+
 Sirven para dividir una red en partes más pequeñas. Para ello se usan los bits de host, para ello se establecen un número de bits de host suficiente para el número de subredes, siendo mínimo 2.
 - Identificador de subred, con los dos primeros bits del identificador de host sabemos la subred.
 ## Máscara de subred
-La máscara de subred informa del número de bits de host. El número de bits a uno índica el número de bits de subred.
+
+![[Pasted image 20230425213843.png]]
+
+Indica los bits de red, subred y identificador de host, siendo los tres primeros bytes de red y el resto que esten a uno de subred y los ceros de host.
+## Direción de subred
+
 ## Direcciones reservadas
 Las direcciones reservadas son la de subred y la de broadcast. La primera en el rango es la de subred y la ultima es la de broadcast.
 # DHCP
