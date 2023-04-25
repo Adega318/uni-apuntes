@@ -36,11 +36,22 @@ Sirven para dividir una red en partes más pequeñas. Para ello se utilizan los 
 ![[Pasted image 20230425213843.png]]
 
 Indica los bits de red, subred y identificador de host, siendo los tres primeros bytes de red y el resto que estén a uno de subred y los ceros de host.
-## Dirección de subred
-### Direcciones reservadas
+## Direcciones reservadas
 Las direcciones reservadas son la de subred y la de broadcast, siendo la primera y última en rango respectivamente.
 - Subred, dirección que identifica una red
 - Broadcast, ip que representa todas las ips de la red.
+## Tipos de repartos de subredes
+
+![[Pasted image 20230425215334.png]]
+
+### FLSM
+El reparto de las subredes es del mismo tamaño para todas.
+### VLSM
+El reparto es correspondiente al tamaño requerido por la subred, calculandose con los siguientes pasos:
+1. Ordenar las subredes de mayor a menor.
+2. Elegir la mas alta
+3. Buscar la x que cumpla $Nºequipos <=2^{x}-2$
+4. 
 # DHCP
 Asignado de ip en función de mac del pc, pudiendo ser:
 - dinámica
