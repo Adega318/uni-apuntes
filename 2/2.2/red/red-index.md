@@ -9,6 +9,7 @@
 7. [[red-ip]]
 8. [[red-enrutamiento]]
 9. [[red-ICMP]]
+10. [[red-ipv6]]
 # Prácticas
 1. [[red-p1]]
 # Tags
