@@ -1,3 +1,6 @@
+
+![[Pasted image 20230425211540.png]]
+
 # Niveles y protocolos
 - Conectador, repite las entradas en todas las salidas.
 - Conmutador, repite las entradas en la sealida correspondiente.

@@ -49,7 +49,7 @@ Algoritmo de umbral de inicio lento:
 - Debajo del umbral, se aplica una velocidad de envio equivalente a la de recepción.
 - Encima del umbral, se aplica un crecimiento suabizado.
 ## Temporizador Keepalive
-Para cuando el extremo del cliente deja de hacer peticiones se mantiene la conexión por un tiempo bajando los recursos y 
+Para cuando el extremo del cliente deja de hacer peticiones se mantiene la conexión por un tiempo bajando los recursos y enviando tras un tiempo un mensaje de confirmación.
 # Tags
 #2- 
 #2-2 
