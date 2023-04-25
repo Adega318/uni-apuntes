@@ -47,19 +47,19 @@ Las direcciones reservadas son la de subred y la de broadcast, siendo la primera
 ### FLSM
 El reparto de las subredes es del mismo tamaño para todas.
 ### VLSM
-El reparto es correspondiente al tamaño requerido por la subred, calculandose con los siguientes pasos:
-1. Ordenar las subredes de mayor a menor.
-2. Elegir la mas alta
+El reparto es correspondiente al tamaño requerido por la subred, calculándose con los siguientes pasos:
+1. Ordenar las subredes de mayor a menor por número de equipos.
+2. Elegir la más alta
 3. Buscar la x que cumpla $Nºequipos <=2^{x}-2$
-4. Calcular la mascara toamdo un número de bits igual a la x para la subred del host.
-5. Los bits de subred tomaran valores a partir del brodcast de la anterior subred, la primera comienza en el id de red.
-6. El rango comenza en todos los bits despues de la mascara a 0 y termina con todos ellos a 1.
-7. Eslige el siguiente valor y vuelve al paso 3.
+4. Calcular la máscara tomado un número de bits igual a la x para la subred del host.
+5. Los bits de subred tomarán valores a partir del brodcast de la anterior subred, la primera comienza en el ID de red.
+6. El rango comienza en todos los bits después de la máscara a 0 y termina con todos ellos a 1 (la primera y última reservadas).
+7. Elige el siguiente valor y vuelve al paso 3.
 # DHCP
-Asignado de ip en función de mac del pc, pudiendo ser:
-- dinámica
-- automática
-Se diferencian en el tiempo que se guarda la asociación mac-ip en el sistema.
+Asignado de IP en función de mac del equipo, pudiendo ser:
+- Estática, IP asignada en base a la mac de manera permanente.
+- Dinámica, IP asignada bajo solicitud por parte del equipo.
+- Automática, dinamica pero para un mismo equipo siempre se asigna la misma IP.
 ## Funcionamiento
 Hay tres pasos en el asignado de una ip:
 - Discobery, se manda un mensaje para descubrir el DHCP.
