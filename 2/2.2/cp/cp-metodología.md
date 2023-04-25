@@ -64,7 +64,17 @@ Tenemos un proceso maestro con una colección de tareas que son asignada a los p
 Este acercamiento no es escalable y tiene gran requerimientos de comunicación.
 Se pueden optimizar estos procesos con:
 - Planificación por bloques, establecimiento de bloques de tareas asignables en lugar de tareas individuales.
-- Subproblemas locales, los esclavos que generan subtareas man
+- Subproblemas locales, los esclavos que generan subtareas mantienen subtareas para su propia ejecución y manda un conjunto de ellas al maestro.
+- Captación anticipada, petición de trabajos por adelantado para solapar los tiempos de comunicación.
+## Descentralizados
+El modelo descentralizado se basa en que todos los procesos pueden asignar tareas, teniendo tes métodos de asignación de tareas:
+- Receptor, el proceso que requiere trabajo solicita al resto.
+- Emisor, el que tiene trabajos los ofrece.
+- Mixto, dependiendo del estado del sistema se hace una combinación de los anteriores.
+
+![[Pasted image 20230425091356.png]]
+
+A la hor
 # Tags
 #2- 
 #2-2 
