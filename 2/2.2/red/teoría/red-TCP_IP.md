@@ -3,29 +3,29 @@
 ![[Pasted image 20230425212011.png]]
 
 - Conectador, repite las entradas en todas las salidas.
-- Conmutador, repite las entradas en la sealida correspondiente.
-- Puente, conexión punto a punto que es capaz de conbertir protocolos.
+- Conmutador, repite las entradas en la salida correspondiente.
+- Puente, conexión punto a punto que es capaz de convertir protocolos.
 
 ![[Pasted image 20230424171605.png]]
 
-# Direción IP
-Cadena de 32 bits que identifica al dispositivo en la red, con dos partes el id de rez y de host.
+# Dirección IP
+Cadena de 32 bits que identifica al dispositivo en la red, con dos partes, el id de red y de host.
 Tenemos cinco clases:
 ![[Pasted image 20230424171945.png]]
 
-Tenemos dos categorias:
+Tenemos dos categorías:
 - Públicas, identifican un dispositivo en internet.
-- Privadas, usadas para funcionamiento interno, sindo de tipo A B o C y requiriendo de un NAT para haceder a internet.
+- Privadas, usadas para funcionamiento interno, siendo de tipo A B o C y requiriendo de un NAT para aceder a internet.
 ## Loopback
-La dirección 127.0.0.1 se reserba para el localhost, siendo una interfaz para el envio de paquetes a la propia maquina.
+La dirección 127.0.0.1 se reserva para el localhost, siendo una interfaz para el envío de paquetes a la propia máquina.
 ## IPV4
-Tres tipos de direciones de envio:
-- unicast, unica maquina.
-- brodcast, todas las maquinas (ultima ip de la red donde se trasmita).
-- multicast, un grupo de maquinas.
+Tres tipos de direcciones de envío:
+- unicast, única máquina.
+- brodcast, todas las maquinas (última IP de la red donde se trasmita).
+- multicast, un grupo de máquinas.
 (brodcast y multicast solo funcionan con UDP)
 ## DNS
-Servicio que combierte dominios a direciones IP.
+Servicio que convierte dominios a direcciones IP.
 # Tags
 #2- 
 #2-2 

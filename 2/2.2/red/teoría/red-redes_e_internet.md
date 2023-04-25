@@ -21,24 +21,30 @@ Características:
 - Datagrama, envío en función de la dirección de envío, sin mantener información sobre los routers.
 - Circuito virtual, envío basándonos en el número de circuito virtual, Los conmutadores mantienen información del estado de las comunicaciones entrantes: interfaz de entrada - etiqueta de entrada – interfaz de salida.
 ### Tipos de retardo
+
 ![[Pasted image 20230417183117.png]]
+
 - Procesamiento, tempo de examinado de la cabecera para conocer el siguiente destino.
 - Cola, tiempo de espera para la trasmisión.
 - Trasmisión, tiempo de trasmisión del mensaje.
 - Propagación, tiempo de movimiento por el router.
 ## Acceso y medio físico
 Tres clases de acceso:
-- residencial, usa un proveedor con banda ancha, cable, modem o satelite.
-- empresa, conexión directa a la web usando LANs.
-- inalámbrico, conexión mediante redes de datos (2G, 3G, ...)
+- Residencial, usa un proveedor con banda ancha, cable, modem o satélite.
+- Empresa, conexión directa a la web utilizando LANs.
+- Inalámbrico, conexión mediante redes de datos (2G, 3G, ...)
 # Arquitectura
 La arquitectura es la manera en la que estructuramos las comunicaciones, se utiliza el modelo OSI.
+
 ![[Pasted image 20230417190502.png]]
+
 ## Niveles
 ### Físico
 Trasmisión de bits.
 ### Enlace
+
 ![[Pasted image 20230417190750.png]]
+
 - Tramas, conjuntos de bits.
 - Direcciones de enlace.
 ### Red

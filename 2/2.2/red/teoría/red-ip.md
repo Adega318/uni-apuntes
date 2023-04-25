@@ -35,11 +35,12 @@ Sirven para dividir una red en partes más pequeñas. Para ello se usan los bits
 
 ![[Pasted image 20230425213843.png]]
 
-Indica los bits de red, subred y identificador de host, siendo los tres primeros bytes de red y el resto que esten a uno de subred y los ceros de host.
-## Direción de subred
-
-## Direcciones reservadas
-Las direcciones reservadas son la de subred y la de broadcast. La primera en el rango es la de subred y la ultima es la de broadcast.
+Indica los bits de red, subred y identificador de host, siendo los tres primeros bytes de red y el resto que estén a uno de subred y los ceros de host.
+## Dirección de subred
+### Direcciones reservadas
+Las direcciones reservadas son la de subred y la de broadcast, siendo la primera y última en rango respectivamente.
+- Subred, dirección que identifica una red
+- Broadcast
 # DHCP
 Asignado de ip en función de mac del pc, pudiendo ser:
 - dinámica
