@@ -41,7 +41,7 @@ Para agrupar estos tipos de arboles en procesos se usa árbol binario de orden k
 ![[Pasted image 20230425084522.png]]
 
 Este método permiten hacer la reducción de k datos en $log(k)$ pasos.
-## Reducción con replicación
+### Reducción con replicación
 En caso de querer reducir y dar a todos los procesos una copia del resultado.
 Esto se puede conseguir con un proceso de combinación y posteriormente difusión con coste de $2log(k)$ pasos.
 De manera más eficientemente se puede hacer con comunicación bidirecional, haciendo que todos los procesos hagan la reducción de su posición relativa.
@@ -53,10 +53,10 @@ Ejemplo de k = 8:
 ![[Pasted image 20230425085654.png]]
 
 Esta estrategia de hipercubo nos lleva a un costo de $log(k)$ pasos.
-## Esquemas dinámicos
+# Esquemas dinámicos
 Los esquemas dinámicos se aplican sobre sistemas donde el coste de tarea o el número de tareas están indeterminados, lo que lleva a trabajo extra en el proceso de asignación.
 El acercamiento a este problema se basa en colecciones de tareas pendientes con dos opciones:
-### Centralizado
+## Centralizado
 Tenemos un proceso maestro con una colección de tareas que son asignada a los procesos esclavo, que devolverán resultados o subtareas al maestro.
 
 ![[Pasted image 20230425090529.png]]
@@ -74,7 +74,10 @@ El modelo descentralizado se basa en que todos los procesos pueden asignar tarea
 
 ![[Pasted image 20230425091356.png]]
 
-A la hor
+A la hora de seleccionar el proceso de con el que comunicarse se pueden tener dos acercamientos:
+- Aleatorio
+- Sondeo cíclico, cada proceso tiene su contador que indica el objetivo de la ultima comunicación que se actualizará cuando se de una denegación.
+La terminación en este tipo de esquemas es complicada de determinar, necesitando 
 # Tags
 #2- 
 #2-2 
