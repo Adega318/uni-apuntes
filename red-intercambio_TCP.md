@@ -26,6 +26,14 @@ ACKs retardados:
 - No se envia el ACK inmediatamente al recivir el dato, en su lugar se espera para enviarlos con datos.
 ## No interactivo
 
+![[Pasted image 20230425185148.png]]
+![[Pasted image 20230425185245.png]]
+
+Basado en pocos segmentos de gran tamaño, con uso de ventana deslizante para el control de flujo. La centana deslizante tiene un funcionamiento basado en:
+- Ventana ofrecida, número de bytes que el receptor puede soportar (win).
+- Ventana utilizable, número de bytes dispuestos para ser enviados.
+
+
 # Tags
 #2- 
 #2-2 
