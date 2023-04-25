@@ -80,7 +80,9 @@ A la hora de seleccionar el proceso de con el que comunicarse se pueden tener do
 La terminación en este tipo de esquemas es complicada de determinar, necesitando comunicación de finalización:
 - Cíclica, comunicar los procesos en anillo llevando un mensaje de fiscalización entre los procesos, pasándolo en una dirección.
 ### Dijkstra
-Algoritmo de terminación cíclico, establecemos un color para los procesos, cuando se manda 
+Algoritmo de terminación cíclico, establecemos un color para los procesos, cuando se manda un trabajo a un proceso de indice mayor. Cuando el token de terminación llega a un proceso de color negro cambia su propio cor a negro, pasando a ser un token no fiable, si el token llega blanco es que esta fiable y se puede terminar.
+
+![[Pasted image 20230425092853.png]]
 # Tags
 #2- 
 #2-2 
