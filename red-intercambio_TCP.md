@@ -32,6 +32,7 @@ ACKs retardados:
 Basado en pocos segmentos de gran tamaño, con uso de ventana deslizante para el control de flujo. La centana deslizante tiene un funcionamiento basado en:
 - Ventana ofrecida, número de bytes que el receptor puede soportar (win).
 - Ventana utilizable, número de bytes dispuestos para ser enviados.
+$$Ventana Utilizable = win-(sig.byte-últimoACK)$$
 
 
 # Tags
