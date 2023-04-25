@@ -52,7 +52,9 @@ El reparto es correspondiente al tamaño requerido por la subred, calculandose c
 2. Elegir la mas alta
 3. Buscar la x que cumpla $Nºequipos <=2^{x}-2$
 4. Calcular la mascara toamdo un número de bits igual a la x para la subred del host.
-5. 
+5. Los bits de subred tomaran valores a partir del brodcast de la anterior subred, la primera comienza en el id de red.
+6. El rango comenza en todos los bits despues de la mascara a 0 y termina con todos ellos a 1.
+7. Eslige el siguiente valor y vuelve al paso 3.
 # DHCP
 Asignado de ip en función de mac del pc, pudiendo ser:
 - dinámica
