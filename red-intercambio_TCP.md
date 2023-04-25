@@ -14,6 +14,15 @@ Es el retroceder N con ACK individuales.
 Existen dos tipos de trafico de datos en TCP:
 - Interactivo, gran numero de segmentos de pequeño tamaño.
 - No interactivo, segmentos de grantamaño siendo normalmente el máximo de la red.
+El intercambio TCP implemento ARQ retroceso N con matices como:
+- paquete fuera de orden son almacenados.
+- ignoro de ACK repetidos.
+- temporizador de cada grupo de paquetes se mantiene.
+## Interactivo
+
+![[Pasted image 20230425184341.png]]
+
+ACKs retardados:
 
 # Tags
 #2- 
