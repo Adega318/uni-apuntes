@@ -56,9 +56,9 @@ Este modelo se basa parejas que hacen las funciones de cliente y servidor simult
 Teniendo dos tipos:
 - Estructurado, los nodos se organizan de manera concreta.
 - Des-estructurado, se conectan de manera aleatoria.
-	- Puro
-	- Centralizado
-	- Híbr
+	- Puro, todos los nodos son iguales.
+	- Centralizado, nodos centrales que sirven como servidor de directorio.
+	- Híbrido, supernodos que realizan ciertas tareas de server directorio.
 # Tags
 #2-
 #2-2 
