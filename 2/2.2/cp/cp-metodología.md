@@ -44,7 +44,15 @@ Este método permiten hacer la reducción de k datos en $log(k)$ pasos.
 ## Reducción con replicación
 En caso de querer reducir y dar a todos los procesos una copia del resultado.
 Esto se puede conseguir con un proceso de combinación y posteriormente difusión con coste de $2log(k)$ pasos.
-De manera más eficientemente se puede hacer con comunicación bidirecional, 
+De manera más eficientemente se puede hacer con comunicación bidirecional, haciendo que todos los procesos hagan la reducción de su posición relativa.
+
+![[Pasted image 20230425085506.png]]
+
+Ejemplo de k = 8:
+
+![[Pasted image 20230425085654.png]]
+
+Esta testrategia de hipercubo nos lleva a un costo de $log(k)$
 # Tags
 #2- 
 #2-2 
