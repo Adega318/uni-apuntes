@@ -27,6 +27,9 @@ Principalmente dividiendo por:
 - Filas, sobre matrices que consumen los vecinos de la fila son divididos en bloques de filas.
 - Columnas, sobre matrices que consumen los vecinos de la columna son divididos en bloques de columnas.
 El tamaño se calculara con:$$m_{b}=\frac{n}{p}$$
+# Distribuciónes
+## Cíclica por bloques
+En la decisión de los tamaños de bloque se hace una
 # Tags
 #2- 
 #2-2 
