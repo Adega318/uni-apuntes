@@ -39,7 +39,17 @@ La fiabilidad de TCP se implementa a trabes de :
 ![[Pasted image 20230425133832.png]]
 
 Las cabeceras TCP son de **20 bytes** (parte obligatoria, 40 con opciones) con los siguientes campos:
-
+- Origen, puerto de origen.
+- Destino, puerto de destino.
+- Número de secuencia, número de byte en el fujo de mensajes TCP.
+- Número de ACK, siguiente número de secuencia que el emisor del ACK espera recivir.
+- Longitud cabecera, tamaño de la cabecera con las opciones.
+- Flags
+	- CWR
+	- ECE
+	- URG
+	- ACK
+	- 
 # Tags
 #2- 
 #2-2 
