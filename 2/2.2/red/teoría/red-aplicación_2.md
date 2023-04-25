@@ -43,6 +43,15 @@ Cada servidor DNS guarda consultas previas, esto hará que las preguntas frecuen
 ## Forwarding
 Servidores no responsables de ninguna información, solamente destinados a la redirección mediante consultas recursivas y respuestas rápidas mediante caché.
 ## Consultas
+Tenemos cuatro tipos de consultas:
+- A (estándar), Nombre -> IP.
+- CNAME, búsqueda en base a un alias.
+- PTR, consulta inversa IP -> Nombre.
+- MX, consultas DNS para correo.
+## Comandos
+- nslookup | dig, peticiones al DNS por defecto.
+- bind, peticiones al DNS "Berkeley Internet Name Domain".
+## P2P
 
 # Tags
 #2-
