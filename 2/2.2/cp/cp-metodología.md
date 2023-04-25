@@ -36,7 +36,13 @@ En la decisión de los tamaños de bloque se hace un compromiso con mayor tamañ
 
 ![[Pasted image 20230425084319.png]]
 
-Para agrupar estos tipos de arboles en procesos se usa 
+Para agrupar estos tipos de arboles en procesos se usa árbol binario de orden k.
+
+![[Pasted image 20230425084522.png]]
+
+Este método permiten hacer la reducción de k datos en $log(k)$ pasos.
+## Reducción con repetición
+
 # Tags
 #2- 
 #2-2 
