@@ -22,7 +22,15 @@ Las cadenas UDP tienen una longitud de **8 bytes** con los siguientes campos:
 - Longitud, Cadena UDP + Data.
 - Checksum, control de errores sobre la cabeza y data de UDP.
 # TCP
-
+Protocolo de comunicación centrado en proporcionar un servicio de envió de datagramas fiable y orientado a la comunicación. La conexión es bidireccional y simultánea con las siguientes funciones:
+- establecer y terminar conexiones
+- gestionar buffers y control de flujo
+- multiplexar el nivel de aplicación
+- controlar errores
+- control de congestión
+La fiabilidad de TCP se implementa a trabes de :
+- control de longitud de segmentos
+- 
 # Tags
 #2- 
 #2-2 
