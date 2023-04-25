@@ -46,7 +46,7 @@ Tras un tiempo sin tener una ventana ofrecida se lanza un window prober.
 ![[Pasted image 20230425210534.png]]
 
 Algoritmo de umbral de inicio lento:
-- Debajo del umbral, se aplica una velocidad de envió equivalente a la de recepción.
+- Debajo del umbral, se aplica una velocidad de envío equivalente a la de recepción.
 - Encima del umbral, se aplica un crecimiento suavizado.
 ## Temporizador Keepalive
 Para cuando el extremo del cliente deja de hacer peticiones, se mantiene la conexión por un tiempo bajando los recursos y enviando tras un tiempo un mensaje de confirmación.
