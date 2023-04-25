@@ -5,13 +5,20 @@ Antes del empleo del DNS se hace uso del **fichero de host**, fichero donde se g
 ## Cliente
 El cliente es el que se comunica con los servidores DNS en nuestro nombre, enviando una consulta al server DNS y reportando la respuesta al solicitante.
 ## Servidor
-Cada red tiene un DNS, ningún DNS tiene todas las respuestas si no que redirigen las preguntas a otros DNS que la pueden tener.
+Cada red tiene un DNS, un DNS recibe peticiones que debe resolver de dos maneras posibles (base de datos distribuida):
+- Resolución, si se tiene la respuesta se envía directamente.
+- Redirección, si no se tiene se redirige la pregunta a un DNS superior.
 ## Espacio de nombres
+
 ![[Pasted image 20230228135520.png]]
-### TLDs
-ccTLDs: dominios de país.
-gTLDs: genéricos, con tres tipos: genéricos, restringidos y sponsored.
-IDN ccTLDs: internacionales.
+
+### Top-Level Domains (TLDs)
+- ccTLDs: dominios de país.
+- gTLDs: genéricos
+	- genéricos
+	- genéricos-restringidos
+	- sponsored
+- IDN ccTLDs: internacionales.
 ## Servidores de nombres
 - Raíz, son servidores con muchas duplicidades que dirigen el tráfico a servidores más concretos. Estas duplicidades comparten la misma IP y al que llegamos es decidido por los routers intermedios. Conocen a todos los TLDs
 - TLD, conocen a los sub-dominios y raíz.
