@@ -53,7 +53,7 @@ Al datagrama final se le daría el resto del datagrama:
 - Offset: Final del anterior/8
 - Long. total: Cab. IP + Cab UDP + Fragmento
 ### HTTP (TCP)
-
+Para un MTU se calcula el MSS (MTU - 20 -20), tamaño del HTTP. Se dividen en datragamas independientes.
 # Tags
 #2- 
 #2-2 
