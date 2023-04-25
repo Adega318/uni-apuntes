@@ -4,7 +4,11 @@
 
 Protocolo de parada y espera donde el emisor no emite hasta confirmar la recepción. Esto causa que la velocidad de conexión sea baja, para evitar el problema se mandan paquetes en cadena en lugar de manera individual, necesitando un buffer adecuado para el tamaño de cadena.
 ## Retroceder N
-Trasmisión de paquetes, pudiendo llegar a N paquetes en espera de confirmación. 
+Trasmisión de paquetes, pudiendo llegar a N paquetes en espera de confirmación, en caso de no recivir ACK reenvia los paquetes en espera. El receptor no requiere de buffer y se establece un número finito de paquete circular.
+## Repetición selectiva
+Es el retroceder N con ACK individuales.
+# Intercambio TCP
+
 # Tags
 #2- 
 #2-2 
