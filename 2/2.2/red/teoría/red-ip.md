@@ -61,13 +61,15 @@ Asignado de IP en función de mac del equipo, pudiendo ser:
 - Dinámica, IP asignada bajo solicitud por parte del equipo.
 - Automática, dinamica pero para un mismo equipo siempre se asigna la misma IP.
 ## Funcionamiento
-Hay tres pasos en el asignado de una ip:
+Hay tres pasos en el asignado de una IP:
 - Discobery, se manda un mensaje para descubrir el DHCP.
-- Offer, mensaje del servidor ofreciendo una ip.
+- Offer, mensaje del servidor ofreciendo una IP.
 - Request, respuesta pidiendo una de las ofertas.
-- Acknowledgement, confirmación del establecimiento de la ip.
-### Link-local
+- Acknowledgement, confirmación del establecimiento de la IP.
+## Link-local
+En caso de no haver un DHCP se puede usar un proceso link-local llamado APIPA permitiendo a un host auto-asignarse una IP para poder operar una LAN, se escoje una IP aleatoria y se comprueba su libertad con ARP.
 # NAT
+
 # PAT
 
 # Tags
