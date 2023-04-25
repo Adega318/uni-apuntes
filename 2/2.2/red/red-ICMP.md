@@ -37,7 +37,11 @@ Método de descubrir el mínimo MTU  de una comunicación, funciona mediante:
 4. Se prueba con un tamaño menor.
 ## Proceso
 ### NFS (UDP)
-Para una red con un MTU concreto se toma el t
+Para una red con un MTU concreto se toma el tamaño de los datos NFS más la **cabecera UDP (8 bytes)**, Si el tamaño supera a MTU - 20.
+$$UDP(8)+NFS>MTU-20$$
+Si esto se cumple se fragmenta, se toma el MTU - 20 para darle el tamaño al NFS del primer datagrama, dándole:
+identificador: original
+
 ### HTTP (TCP)
 # Tags
 #2- 
