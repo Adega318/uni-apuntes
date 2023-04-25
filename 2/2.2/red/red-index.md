@@ -5,7 +5,7 @@
 3. [[red-aplicación_1]]
 4. [[red-aplicación_2]]
 5. [[red-UDP_TCP]]
-6. [[]]
+6. [[red-intercambio_TCP]]
 7. [[red-ip]]
 8. [[red-enrutamiento]]
 9. [[red-ICMP]]

@@ -73,7 +73,13 @@ A causa de las limitaciónes de los tamaños de trasmisión tenemos dos parametr
 	- es enviado en el SYN de una conexión por ambas partes.
 ### Estados
 - TIME_WAIT,  espera de 2 veces el tiempo de vida de un paquete por el ACK.
-- FIN_WAIT, 
+- FIN_WAIT, espera a la respuesta de un FIN.
+- CLOSE_WAIT, espera a la confirmación del FIN de respuesta.
+## Segmentos de reset
+El segmento de reset se produce cuando el flag RST se activa, pudiendo ser de estos dos modos:
+
+![[Pasted image 20230425180322.png]]
+
 # Tags
 #2- 
 #2-2 
