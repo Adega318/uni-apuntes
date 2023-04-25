@@ -2,8 +2,10 @@
 ![[Pasted image 20230425211540.png]]
 
 # Cabecera IP
-Tamaño de paquete 20 bytes.
+
 ![[Pasted image 20230321133951.png]]
+
+La cabecera IP tiene un tamaño de 20 bytes con un campo opcional que comparte espacio con los datos, teniendo los siguientes campos:
 - TCP/IP.
 - Versión, versión de IP.
 - Longitud de la cabecera, número de palabras de 32 bits de la cabezera.
@@ -12,12 +14,11 @@ Tamaño de paquete 20 bytes.
 	- ECN, indicador de congestión.
 - Longitud total, longitud del datagrama en bytes.
 - Identificación, identifica el datagrama.
-- Flag y offset.
-- TTL (time to live), límite del número de routers por los que puede pasar un paquete.
-- Protocolo.
-- Checksum de cabecera
-- IP origen.
-- IP destino.
+- Flag y offset, campos de fragmentación.
+- TTL (time to live), límite del número de routers por los que puede pasar un paquete antes de ser descartado.
+- Protocolo, protocolo usado en la capa de transporte.
+- Checksum de cabecera, correción de errores en la cabecera.
+- Origen y destino, IP con 32 bits cada una.
 - Opciones.
 	- enrutamiento
 	- timestamp
