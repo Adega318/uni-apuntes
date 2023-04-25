@@ -29,7 +29,14 @@ Principalmente dividiendo por:
 El tamaño se calculara con:$$m_{b}=\frac{n}{p}$$
 # Distribuciónes
 ## Cíclica por bloques
-En la decisión de los tamaños de bloque se hace una
+En la decisión de los tamaños de bloque se hace un compromiso con mayor tamaño de bloque disminuido la comunicación y menor tamaño distribuyendo mejor la carga.
+# Asignación
+## Grafos de dependencia estática
+### Reducciones
+
+![[Pasted image 20230425084319.png]]
+
+Para agrupar estos tipos de arboles en procesos se usa 
 # Tags
 #2- 
 #2-2 
