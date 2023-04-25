@@ -51,8 +51,14 @@ Tenemos cuatro tipos de consultas:
 ## Comandos
 - nslookup | dig, peticiones al DNS por defecto.
 - bind, peticiones al DNS "Berkeley Internet Name Domain".
-## P2P
-
+# P2P
+Este modelo se basa parejas que hacen las funciones de cliente y servidor simultáneamente, creando una red con los equipos de usuarios dando una expansión de la base de usuarios como mejora al servicio y gran tolerancia a fallos pero baja seguridad y caro en ancho de banda.
+Teniendo dos tipos:
+- Estructurado, los nodos se organizan de manera concreta.
+- Des-estructurado, se conectan de manera aleatoria.
+	- Puro
+	- Centralizado
+	- Híbr
 # Tags
 #2-
 #2-2 
