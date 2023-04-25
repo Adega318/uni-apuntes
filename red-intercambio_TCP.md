@@ -37,7 +37,9 @@ La ventana deslizante tiene un funcionamiento basado en:
 - Ventana utilizable, número de bytes dispuestos para ser enviados.
 $$Ventana Utilizable = win-(sig.byte-últimoACK)$$
 ACKs acumulativos:
-- ACK con un número que es el numero enviado 
+- ACK con un número que es el numero enviado en el mensaje al que se responde +1.
+### Temp. de persistencia
+
 # Tags
 #2- 
 #2-2 
