@@ -59,8 +59,13 @@ Las cabeceras TCP son de **20 bytes** (parte obligatoria, 40 con opciones) con l
 - Opciones
 - Data
 ## Conexión
+
+![[Pasted image 20230425174642.png]]
+
 ### Establecimiento
-El protocolo de establecimiento comienza con el envio de un mensaje SYM por el cliente con su nº de secuencia inicial, reciviendo un SYM del servidor con su numero de secuencia inicial y un ACK para el SYM del cliente
+El protocolo de establecimiento comienza con el envio de un mensaje SYM por el cliente con su nº de secuencia inicial (ISM), reciviendo un SYM del servidor con su ISM y un ACK para el SYM del cliente con su número de ISN + 1. El cliente confirmael SYM del servidor con ACK de numero igual al ISN del servidor + 1.
+### Finalización
+El protocolo de cierre comienza con una de las partes mandando un FIN 
 # Tags
 #2- 
 #2-2 
