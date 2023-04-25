@@ -38,7 +38,7 @@ La fiabilidad de TCP se implementa a trabes de :
 
 ![[Pasted image 20230425133832.png]]
 
-Las cabeceras TCP son de **20 bytes** (parte obligatoria, 40 con opcional) con los siguientes campos:
+Las cabeceras TCP son de **20 bytes** (parte obligatoria, 40 con opciones) con los siguientes campos:
 
 # Tags
 #2- 
