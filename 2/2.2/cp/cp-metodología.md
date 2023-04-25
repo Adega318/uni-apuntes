@@ -77,7 +77,10 @@ El modelo descentralizado se basa en que todos los procesos pueden asignar tarea
 A la hora de seleccionar el proceso de con el que comunicarse se pueden tener dos acercamientos:
 - Aleatorio
 - Sondeo cíclico, cada proceso tiene su contador que indica el objetivo de la ultima comunicación que se actualizará cuando se de una denegación.
-La terminación en este tipo de esquemas es complicada de determinar, necesitando 
+La terminación en este tipo de esquemas es complicada de determinar, necesitando comunicación de finalización:
+- Cíclica, comunicar los procesos en anillo llevando un mensaje de fiscalización entre los procesos, pasándolo en una dirección.
+### Dijkstra
+Algoritmo de terminación cíclico, establecemos un color para los procesos, cuando se manda 
 # Tags
 #2- 
 #2-2 
