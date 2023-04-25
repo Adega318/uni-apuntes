@@ -36,7 +36,6 @@ Basado en pocos segmentos de gran tamaño, con uso de ventana deslizante para el
 $$Ventana Utilizable = win-(sig.byte-últimoACK)$$
 ## Control de flujo
 
-
 # Tags
 #2- 
 #2-2 
