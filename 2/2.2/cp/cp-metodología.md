@@ -41,8 +41,10 @@ Para agrupar estos tipos de arboles en procesos se usa árbol binario de orden k
 ![[Pasted image 20230425084522.png]]
 
 Este método permiten hacer la reducción de k datos en $log(k)$ pasos.
-## Reducción con repetición
-
+## Reducción con replicación
+En caso de querer reducir y dar a todos los procesos una copia del resultado.
+Esto se puede conseguir con un proceso de combinación y posteriormente difusión con coste de $2log(k)$ pasos.
+De manera más eficientemente se puede hacer con comunicación bidirecional, 
 # Tags
 #2- 
 #2-2 
