@@ -33,10 +33,17 @@ Consultas:
 	- DNS hace todo el trabajo para devolver la respuesta.
 	- Puede tener múltiples transacciones.
 	- No obligatorio.
+	- Mi DNS suele ser recursiva.
 - Iterativas
-	- Si no se tiene la respuesta se devuelve indormación pero n
+	- Si no se tiene la respuesta se devuelve información pero no se hace mas trabajo.
+	- Servers Raíz y TLD son interactivos.
 ## Caché
-Cada servidor DNS guarda consultas previas, esto hará que las preguntas frecuentes tengan respuesta ya calculada. Estas respuestas no son autoritarias, ya que estas caches no tienen autoridad sobre el dominio.
+Cada servidor DNS guarda consultas previas, esto hará que las preguntas frecuentes tengan respuesta ya calculada. Estas respuestas no son autoritativas, ya que estas caches no tienen autoridad sobre el dominio.
+- Respuestas autoritativa, respuesta hecha por el DNS que conoce directamente la información del servidor buscado.
+## Forwarding
+Servidores no responsables de ninguna información, solamente destinados a la redirección mediante consultas recursivas y respuestas rápidas mediante caché.
+## Consultas
+
 # Tags
 #2-
 #2-2 
