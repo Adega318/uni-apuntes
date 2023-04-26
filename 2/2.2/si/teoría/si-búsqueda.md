@@ -135,7 +135,7 @@ La búsqueda A* toma en cuenta la perspectiva de la acción y el coste del camin
 - f(n)=g(n)+h(n), coste estimado de la mejor solución.
 
 ![[Pasted image 20230426184441.png]]
-
+![[Pasted image 20230426184537.png]]
 
 ## Local
 ### Escalada
