@@ -12,25 +12,25 @@ Descompones las tareas de calculo del algoritmo en distintos procesos, esta desc
 ## Recursiva
 División del problema en procesos de manera recursiva con un criterio de parada para ejecución, se divide hasta que sea de tamaño manejable y al terminar se reporta al superior.
 ## Especulativa
-Se basan en dos 
+Se basan en partes de código excluyentes dependientes de otra tarea lo que se puede resolver con la ejecución simultanea de las partes excluyentes y elección de la correcta (desperdicio de recursos a cambio de tiempo).
 ## Tareas
 Se descompone el programa en tareas de árbol, cada tarea es independiente internamente, teniendo su propio estilo de descomposición.
 Se pueden establecer las tareas de dos maneras:
 - Estática, si tenemos un problema estable con iteraciones determinado podemos definir las tareas de manera permanente.
 - Dinámica, se crean tareas en el código en función del progreso del programa.
-## Asignación de tareas
-
-# Asignación estática
-## Descomposición de dominio
-### Bloque
+Es importante el balanceo de carga entre los distintos procesadores.
+# Asignación de tareas
+## Asignación estática
+### Descomposición de dominio
+#### Bloque
 Se basa en dividir el espacio de datos en bloques que permitan a las tareas que consumen de los vecinos no tener que comunicar.
 Principalmente dividiendo por:
 - Vector, tareas que consumen sus vecinos en un vector se dividirá el vector en bloques unidimensionales.
 - Filas, sobre matrices que consumen los vecinos de la fila son divididos en bloques de filas.
 - Columnas, sobre matrices que consumen los vecinos de la columna son divididos en bloques de columnas.
 El tamaño se calculara con:$$m_{b}=\frac{n}{p}$$
-# Distribuciónes
-## Cíclica por bloques
+## Distribuciones
+### Cíclica por bloques
 En la decisión de los tamaños de bloque se hace un compromiso con mayor tamaño de bloque disminuido la comunicación y menor tamaño distribuyendo mejor la carga.
 # Asignación
 ## Grafos de dependencia estática
@@ -46,7 +46,7 @@ Este método permiten hacer la reducción de k datos en $log(k)$ pasos.
 ### Reducción con replicación
 En caso de querer reducir y dar a todos los procesos una copia del resultado.
 Esto se puede conseguir con un proceso de combinación y posteriormente difusión con coste de $2log(k)$ pasos.
-De manera más eficientemente se puede hacer con comunicación bidirecional, haciendo que todos los procesos hagan la reducción de su posición relativa.
+De manera más eficientemente se puede hacer con comunicación bidireccional, haciendo que todos los procesos hagan la reducción de su posición relativa.
 
 ![[Pasted image 20230425085506.png]]
 
