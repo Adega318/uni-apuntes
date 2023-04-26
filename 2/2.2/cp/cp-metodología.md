@@ -4,15 +4,15 @@ Técnica usada sobre grandes estructuras, consiste de dos pasos:
 - Troceado de datos
 - Asociación de la computación
 ### Regla del propietario
-La tarea asociada a 
-### Regla del propietario
 Los procesos dependientes de un conjuntos de datos es responsabilidad del propietario de esos datos, en caso de necesitar más datos no poseídos puede incumplirse.
 ## Funcional
 Descompones las tareas de calculo del algoritmo en distintos procesos, esta descomposición dará a procesos con dependencias entre si.
+1. Establecer dependencias.
+2. Asignar las partes sin incumplir las dependencias
 ## Recursiva
-División del problema en procesos de manera recursiva con un criterio de parada para ejecución.
+División del problema en procesos de manera recursiva con un criterio de parada para ejecución, se divide hasta que sea de tamaño manejable y al terminar se reporta al superior.
 ## Especulativa
-La especulativa se da cuando puedes tomar un atajo que no funciona siempre y se prueba a hacerlo.
+Se basan en dos 
 ## Tareas
 Se descompone el programa en tareas de árbol, cada tarea es independiente internamente, teniendo su propio estilo de descomposición.
 Se pueden establecer las tareas de dos maneras:
