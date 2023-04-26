@@ -29,7 +29,10 @@ Sobre algoritmos con dependencia de entradas contiguas en una matriz (localidad 
 ![[Pasted image 20230426215759.png]]
 
 Para p procesos y n elementos se asignarán bloques de tamaño $m_p=\frac{n}{p}$
-El proceso 
+El proceso $p-1$ recibirá $final=(n-m_b(p-1))$
+#### Bidimensional
+##### Filas
+
 ## Distribuciones
 ### Cíclica por bloques
 En la decisión de los tamaños de bloque se hace un compromiso con mayor tamaño de bloque disminuido la comunicación y menor tamaño distribuyendo mejor la carga.
