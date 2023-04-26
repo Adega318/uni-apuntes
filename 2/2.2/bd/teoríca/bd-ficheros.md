@@ -70,13 +70,14 @@ Fichero donde se inserten los sinónimos, pudiendo tener su propia organización
 4. Se carga el bloque y se hace la operación.
 #### Expansión y contracción
 ##### D
-La expansión de la d se produce cuando se intenta insertar en un bloque lleno de d' igual a d, se aumenta en uno la d y funden los bloques.
+La expansión de la d se produce cuando se intenta insertar en un bloque lleno de d' igual a d, se aumenta en uno la d y funden los bloques. Por lo contrario, cuando la mayor d' es menor que d se produce contracción haciendo d igual a la mayor d'.
 ##### D'
-La expansión de la d' se produce cuando se inteta insertar en un bloque lleno, se divide el bloque aumentando el hash del bloque y repartiendo los datos en el mismo entre dos bloques.
+La expansión de la d' se produce cuando se intenta insertar en un bloque lleno, se divide el bloque aumentando el hash del bloque y repartiendo los datos en el mismo entre dos bloques. La contracción, por lo contrario, se produce por el borrado mediante la fusión.
 #### Refundido
-Cuando dos bloques comparten en hash correspondiente a su mayor d' - 1 y sus contenidos caben en un unico bloque, se fusionan en uno deduciendo l
+Cuando dos bloques comparten en hash correspondiente a su mayor d' - 1 y sus contenidos caben en un único bloque, se fusionan en uno deduciendo la d'.
 #### Borrado
-# Indices
+Se extrae del bloque pertinente haciendo fusión y contracción en caso de ser necesario.
+# Índices
 ## Clasificación
 Accesos rápidos a datos de la base de datos, teniendo dos categorías:
 - Primario, indexa la clave de ordenación del fichero de datos.
