@@ -1,3 +1,6 @@
+# Niveles de paralelismo
+- Har
+
 # Modelo de paso de mensajes
 Comunicación entre procesos basado en el intercambio de mensajes. La manera de pasarlos es mediante el modelo MPI, estándar de comunicación de procesos en paralelo.
 El MPI funciona mediante una red de comunicación con tipos de estructuras:
