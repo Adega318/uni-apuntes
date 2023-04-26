@@ -124,6 +124,8 @@ Agrupación de valores bajo un criterio sin la existencia de clases.
 Aplicaciones de transformación de una entrada a una salida (filtros, chats, ...).
 #### Control
 Control de sistemas basándose en datos.
+# Funcionamiento de una red
+En una red las neuronas de la s capas ocultas determinan las divisiones del espacio, siendo las de salida quienes unen esas divisiones creando regiones.
 # Tags
 #2- 
 #2-2 
