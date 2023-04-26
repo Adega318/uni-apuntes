@@ -47,7 +47,7 @@ La columna j se encuentra en el proceso $\frac{j}{m_b}$, ocupando la posición $
 
 ![[Pasted image 20230426221535.png]]
 
-
+Para una malla de procesos $p=p_xp_y$ con una matriz $n\times m$ cada proceso tendrá una matriz de $m_{b_x}=\frac{n}{p_x}$ filas y $m_{b_y}=\frac{m}{p_y}$ (redondeado hacia arriba), excepto e
 ## Distribuciones
 ### Cíclica por bloques
 En la decisión de los tamaños de bloque se hace un compromiso con mayor tamaño de bloque disminuido la comunicación y menor tamaño distribuyendo mejor la carga.
