@@ -37,11 +37,19 @@ Tenemos dos acercamientos a la dirección de la búsqueda de los estados inicial
 #### Topología
 Por la construcción de estados a partir de estados iniciales formando un árbol de búsqueda, creando árboles en el caso de que no haya convergencia o grafos, en el caso de los grafos se producen caminos redundantes. Esto lleva a que la exploración de árbol sea computacionalmente eficiente y ineficiente en memoria y la de grafo lo contrario.
 #### Selección de acciones
-
+Se busca en las acciones cuales son las posibles, en caso de que varias sean posibles se toman los siguientes criterios:
+1. Evitar reutilizar acciones.
+2. Priorizar nuevos estados.
+3. Primero las de condiciones más restrictivas.
 #### Heurística
+Función que nos permite estimar la calidad de una acción que nos permite optimizar la búsqueda.
 ### Implementación
 #### Reconstrucción de la solución
+
+![[Pasted image 20230426182001.png]]
+
 La reconstrucción es el retroceso desde un final de camino hacia un estado anterior con caminos potencialmente válidos. Esto se puede aplicar únicamente a algoritmos con memoria de los caminos recorridos.
+#### Función suce
 #### Estructuras de datos
 ##### Nodos
 Para este tipo de algoritmos podemos de una estructura de datos basada en estados almacenados en nodos interconectados.
