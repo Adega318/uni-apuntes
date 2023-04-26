@@ -63,7 +63,10 @@ Fichero donde se inserten los sinónimos, pudiendo tener su propia organización
 
 ![[Pasted image 20230426135756.png]]
 
-#### Secuencia completa
+#### Proceso
+1. Se aplica el hash sobre la hey.
+2. Se toman los d primeros digitos del hash.
+3. Se busca el puntero al bloque correspondiente
 #### Expansión y contracción
 ##### D
 ##### D'
