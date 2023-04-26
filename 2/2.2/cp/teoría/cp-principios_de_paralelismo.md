@@ -1,7 +1,10 @@
 # Niveles de paralelismo
 - Hardware, replicación de recursos del hardware.
 - Software
-	- Básico, gestión del 
+	- Básico, gestión del nivel de hardware.
+	- Intermedio, herramientas para la implementación de aplicaciones paralelas.
+	- Alto, núcleos computacionales con ejecución paralela.
+- Aplicación, 
 
 # Modelo de paso de mensajes
 Comunicación entre procesos basado en el intercambio de mensajes. La manera de pasarlos es mediante el modelo MPI, estándar de comunicación de procesos en paralelo.
