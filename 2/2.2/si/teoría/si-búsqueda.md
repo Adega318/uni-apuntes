@@ -129,8 +129,14 @@ La búsqueda avara es la que siempre elige el nodo más prometedor en h(n) sin t
 ![[Pasted image 20230217211300.png]]
 
 ### A*
-La búsqueda A* toma en cuenta el h(n) y el coste para tomar las decisiones.
-La heurística dará la solución adecuada si se cumple que se subestima el coste real.
+La búsqueda A* toma en cuenta la perspectiva de la acción y el coste del camino.
+- g(n), coste del mejor camino para alcanzar n.
+- h(n), coste estimado de n a la meta.
+- f(n)=g(n)+h(n), coste estimado de la mejor solución.
+
+![[Pasted image 20230426184441.png]]
+
+
 ## Local
 ### Escalada
 Elige el mejor de los sucesores basándose en la heurística, siempre que los sucesores sean mejores que el padre.
