@@ -19,6 +19,8 @@ La gestión de borrados:
 - Factor de bloqueo, número de registros que entran en el bloque (limite superior e inferior en variable).
 El tamaño de bloque debe de ajustarse para beneficiar a la operaciones más recurrentes.
 # Organización de registros en archivos
+# Indices
+
 # Tags
 #2- 
 #2-2 
