@@ -1,23 +1,27 @@
 # Registros
-
-![[Pasted image 20230426125955.png]]
-
 Los archivos se organizan lógicamente como secuencias de registros, siendo conjuntos de valores referentes a los campos.
 ## Clave
 Campo o conjunto de campos que identifican u ordenan registros, pudiendo ser:
 - Externa, clave derivada del medio físico.
 - Primaria, diferencian los registros.
 ## Longitud
-Podemos tener:
-- Fija, se establece un tamaño fijo con facilidad de acceso pero falta de eficiencia.
-- Variable, la longitud es dinámica y se ajusta al contenido con mayor eficiencia pero peor acceso, teniendo dos tipos:
+### Fija
+Se establece un tamaño fijo con facilidad de acceso pero falta de eficiencia. Con respecto a la gestión de borrados la manera de gestionar en la fija se establece el primer espacio como un puntero al primer libe y en los libres tener la dirección del siguiente, cuando se intenta insertar se coge el primer libre y se cambia el puntero.
+### Variable
+
+![[Pasted image 20230426125955.png]]
+
+La longitud es dinámica y se ajusta al contenido con mayor eficiencia pero peor acceso, teniendo dos tipos:
 	- Formato, cuando el formato varia se produce variaciones de tamaño.
 	- Campos, los campos tienen una longitud indefinida.
 	- Repetitivos, ciertos campos pueden repetirse cambiando el tamaño.
-La gestión de borrados:
-- Fija, la manera de gestionar en la fija se establece el primer espacio como un puntero al primer libe y en los libres tener la dirección del siguiente, cuando se intenta insertar se coge el primer libre y se cambia el puntero.
-- Variable, se organiza internamente los bloque con el número de registros seguidos de sus tamaños seguido del espacio libre y después los registros, de esta manera todo el espacio libre queda junto.
+Para la gestión de borrados se organiza internamente los bloque con el número de registros seguidos de sus tamaños seguido del espacio libre y después los registros, de esta manera todo el espacio libre queda junto.
 # Medio físico
+## Bloques
+
+![[Pasted image 20230426130350.png]]
+
+Unidad de trasferencia de disco a memoria, conteniendo un número de registros. El tamaño de bloque se denomina factor de bloqueo 
 ## Formato de archivo
 ## Bloques
 - Factor de bloqueo, número de registros que entran en el bloque (limite superior e inferior en variable).
