@@ -20,7 +20,8 @@ La gestión de borrados:
 El tamaño de bloque debe de ajustarse para beneficiar a la operaciones más recurrentes.
 # Organización de registros en archivos
 # Indices
-Accesos rápidos a 
+Accesos rápidos a datos de la base de datos.
+
 # Tags
 #2- 
 #2-2 
