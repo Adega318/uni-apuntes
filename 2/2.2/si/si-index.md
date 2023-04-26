@@ -6,10 +6,10 @@
 4. [[si-sistemas_de_producción]]
 5. [[si-modelos_de_razonamiento]]
 	1. [[si-ejercicio_de_razonamiento]]
-6. [[si-sistemas_conexionistas]]
-7. [[si-sistemas_conexionistas_contexto]]
-8. [[si-sistemas_conexionistas_arquitectura_aprendizaje_alimentación]]
-9. [[si-otros_sistemas_conexionistas]]
+6. [[si-sc_alimentación_hacia_delante]]
+7. [[si-sc_origen_contexto]]
+8. [[si-sc_arquitectura_aprendizaje_alimentación]]
+9. [[si-sc_otros]]
 # Prácticas
 1. [[si-p1]]
 # Tags
