@@ -33,8 +33,12 @@ Para una clave N tenemos tres casos de funcionamiento:
 - Varios registros, lectura completa del fichero.
 - No registro, lectura completa y no se encuentra.
 ### Lectura ordenada
+
+![[Pasted image 20230426131509.png]]![[Pasted image 20230426131548.png]]![[Pasted image 20230426131609.png]]
+
 Leer ordenadamente los datos del fichero, se realiza mediante un merge sort dividiendo el ficheros en partes que entren en memoria, ordenándolas y uniéndolas para leerlas de manera ordenada.
 ## Ordenado
+
 ## Hash
 # Indices
 ## Clasificación
