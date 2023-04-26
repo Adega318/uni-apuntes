@@ -58,7 +58,7 @@ Lleva a cabo la expansión de un nodo, aplicando acciones y comprobando la meta.
 Se almacenan los nodos en dos listas:
 - Abiertos, nodos a explorar.
 - Cerrados, nodos ya explorados.
-#### Estructuras de datos
+### Estructuras de datos
 ##### Nodos
 Para este tipo de algoritmos podemos de una estructura de datos basada en estados almacenados en nodos interconectados.
 
@@ -73,25 +73,27 @@ FIFO, LIFO, PR
 
 ![[Pasted image 20230217211014.png]]
 
-### Evaluación
-#### Completitud
+## Evaluación
+### Completitud
 Esta métrica determina la solución proporcionada y si es siempre proporcionada.
-#### Complejidad
+### Complejidad
 La complejidad tanto computacional como la del propio código.
-#### Optimización
+### Optimización
 Los requisitos de memoria de la solución.
 ### Coste
 El coste es el coste de búsqueda y coste de camino.
-## Búsquedas no informadas
-### Amplitud
+# Búsquedas no informadas
+## Amplitud
 Se exploran al mismo tiempo todos los caminos, siempre se encuentra la solución más óptima, sus requerimientos de memoria y tiempo con altos.
+
 ![[Pasted image 20230217211105.png]]
+
 Con respecto a la implementación con listas, se usará una cola para la frontera, lo que permitirá que los elementos menos recientemente añadidos sean los primeros en ser explorados (los menos profundos).
-#### Prioridad
+### Prioridad
 Se detiene el proceso de búsqueda si se encuentra una solución en vez de considerar todas las opciones.
-#### Coste uniforme
+### Coste uniforme
 Se hace la búsqueda, pero no se devuelve la primera encontrada, se establece un orden de exploración basándonos en el coste (se exploran caminos potencialmente más eficientes), devolviendo la óptima.
-### Profundidad
+## Profundidad
 Alta velocidad, pero puede llevar a opciones ineficientes.
 
 ![[Pasted image 20230217211144.png]]
