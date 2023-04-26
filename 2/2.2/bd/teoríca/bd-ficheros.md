@@ -20,7 +20,7 @@ La gestión de borrados:
 El tamaño de bloque debe de ajustarse para beneficiar a la operaciones más recurrentes.
 # Organización de registros en archivos
 # Indices
-## Conceptos
+## Clasificación
 Accesos rápidos a datos de la base de datos, teniendo dos categorías:
 - Primario, indexa la clave de ordenación del fichero de datos.
 - Sin agrupación, indexa sobre cualquier campo, no necesariamente su clave.
@@ -28,6 +28,8 @@ También se caracterizan entre:
 - Denso, una entrada por valor existente del campo o campos indexados.
 - Escaso, sin una entrada por cada valor existente del campo o campos.
 ## Métricas de evaluación
+## Árboles
+
 # Tags
 #2- 
 #2-2 
