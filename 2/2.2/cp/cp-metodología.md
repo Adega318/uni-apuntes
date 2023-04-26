@@ -22,15 +22,14 @@ Es importante el balanceo de carga entre los distintos procesadores.
 # Asignación de tareas
 ## Asignación estática
 Toma de decisiones de asignación previa a la ejecución sin producir sobrecarga en ejecución.
-### Descomposición de dominio
+### Descomposición de dominio por bloques
 Sobre algoritmos con dependencia de entradas contiguas en una matriz (localidad espacial), se pueden asignar bloques para dividir los datos con mínimas comunicaciones.
-#### Bloque
-Se basa en dividir el espacio de datos en bloques que permitan a las tareas que consumen de los vecinos no tener que comunicar.
-Principalmente dividiendo por:
-- Vector, tareas que consumen sus vecinos en un vector se dividirá el vector en bloques unidimensionales.
-- Filas, sobre matrices que consumen los vecinos de la fila son divididos en bloques de filas.
-- Columnas, sobre matrices que consumen los vecinos de la columna son divididos en bloques de columnas.
-El tamaño se calculara con:$$m_{b}=\frac{n}{p}$$
+#### Unidimensional
+
+![[Pasted image 20230426215759.png]]
+
+Para p procesos y n elementos se asignarán bloques de tamaño $m_p=\frac{n}{p}$
+El proceso 
 ## Distribuciones
 ### Cíclica por bloques
 En la decisión de los tamaños de bloque se hace un compromiso con mayor tamaño de bloque disminuido la comunicación y menor tamaño distribuyendo mejor la carga.
