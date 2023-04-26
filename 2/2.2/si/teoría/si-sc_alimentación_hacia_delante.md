@@ -33,41 +33,34 @@ Algoritmo original:
 Luego se pasó a usar la regla delta:
 $$w_{i}(t+1)=w_{i}(t)+\mu(d(t)-y(t))x_{i}(t)$$
 ### Multicapa
-Al añadir múltiples perceptrones se pasó de hacer separaciones lineales a poder hacer separaciones polinómicas.
-
-![[Pasted image 20230320174935.png]]
-
-Tenemos tres capas destacables:
-- Entrada
-- Ocultas
-- Salida
-## Funciones de transferencia
-## Entrenamiento y Aplicaciones
-=======
 Al añadir múltiples perceptrones se pasó de hacer separaciones lineales a poder hacer separaciones polinómicas. También produce el efecto de caja negra sobre el funcionamiento interno de la red.
+
 ![[Pasted image 20230320174935.png]]
+
 Arquitectura multicapa:
 - Capa de entrada, neuronas que retransmiten las entradas a las capas ocultas.
 - Capas ocultas, procesan la información y mandan a las de salida.
 - Capa de salida, reciben los datos de salida.
 ## Funciones de transferencia
 ### Escalón
+
 ![[Pasted image 20230322104454.png]]
+
 ### Lineal y lineal mixta
 Sirve para separar el espacio en dos regiones, estas no pueden ser usados en capas internas.
+
 ![[Pasted image 20230322104439.png]]
+
 ### Sigmoidal
+
 ![[Pasted image 20230322104852.png]]
 $$f(n)=\frac{1}{1+e^{-n}}$$
 ### Hiperbólica
+
 ![[Pasted image 20230322104903.png]]
 $$f(n)=\frac{2}{1+e^{-2n}}-1$$
 ## Entrenamiento y Aplicaciones
 Las redes neuronales son aproximaciones universales, siendo garantizado su validez para cualquier problema asegurado por el teorema de la aproximación universal.
-### Aplicaciones
-- Ajuste de funciones y curvas
-- Clasificación
-- Regresión
 ### Entrenamiento
 Se entrena utilizando Backpropagation, que es el método de entreno de multicapas que generaliza la regla delta mediante el uso de la propagación del error.
 #### Notación
@@ -125,7 +118,6 @@ Agrupación de valores bajo un criterio sin la existencia de clases.
 Aplicaciones de transformación de una entrada a una salida (filtros, chats, ...).
 #### Control
 Control de sistemas basándose en datos.
->>>>>>> origin/main
 # Tags
 #2- 
 #2-2 
