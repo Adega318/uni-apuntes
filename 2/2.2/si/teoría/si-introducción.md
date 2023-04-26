@@ -17,16 +17,24 @@ La arquitectura es la combinación de estructura de programa, módulos del agent
 ## Tipos de agente
 ### Reactivo simple
 Agente sencillo que selecciona acciones basándose en su percepción, siendo únicamente reactivo, lo que lleva a una gran dependencia en la percepción.
+
 ![[Pasted image 20230217205804.png]]
+
 ### Basado en modelos
 Agente que hace uso de estados internos, esto le permite interpretar la evolución del mundo y los efectos de sus acciones.
+
 ![[Pasted image 20230217205818.png]]
+
 ### Basado en metas
 Evolución del basado en modelos que expanden sobre la arquitectura, añadiendo metas, lo que le permite planificar las acciones para completar las metas.
+
 ![[Pasted image 20230217205832.png]]
+
 ### Basado en utilidad
 Evolución del basado en metas, expandiendo los sistemas de planificación basándose en el estado actual, añadiendo utilidad a cada estado en función a la meta.
+
 ![[Pasted image 20230217205842.png]]
+
 # Tipos de problemas
 ## Determinismo
 Los mundos se pueden caracterizar en deterministas o estocástico, en uno determinista una acción tiene un resultado asegurado, pero uno estocástico el resultado no está asegurado.

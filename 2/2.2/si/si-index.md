@@ -1,6 +1,6 @@
  [[2-2-index]]
 # Teóricas
-1. [[si-introdución]]
+1. [[si-introducción]]
 2. [[si-búsqueda]]
 3. [[si-representación]]
 4. [[si-sistemas_de_producción]]
