@@ -35,17 +35,10 @@ Las estrategias pueden ser diferentes y variadas
 #### Dirección
 Tenemos dos acercamientos a la dirección de la búsqueda de los estados iniciales a la meta o de la meta al estado inicial.
 #### Topología
-Por la construción de 
-### Generales
-Aplicables a todos los problemas con menor eficiencia.
-### Especifico
-Requieren de conocimiento del problema otorgando mayor eficiencia.
-### Características
-#### Dirección
-Se consideran dos direcciones, de los estados iniciales a los estados meta (proceso progresivo) o de los estados meta a los estados iniciales (proceso regresivo).
-#### Topología
-#### Criterios de selección
-#### Optimización de la búsqueda
+Por la construcción de estados a partir de estados iniciales formando un árbol de búsqueda, creando árboles en el caso de que no haya convergencia o grafos, en el caso de los grafos se producen caminos redundantes. Esto lleva a que la exploración de árbol sea computacionalmente eficiente y ineficiente en memoria y la de grafo lo contrario.
+#### Selección de acciones
+
+#### Heurística
 ### Implementación
 #### Reconstrucción de la solución
 La reconstrucción es el retroceso desde un final de camino hacia un estado anterior con caminos potencialmente válidos. Esto se puede aplicar únicamente a algoritmos con memoria de los caminos recorridos.
