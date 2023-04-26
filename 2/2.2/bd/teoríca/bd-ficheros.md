@@ -65,6 +65,8 @@ Fichero donde se inserten los sinónimos, pudiendo tener su propia organización
 
 #### Secuencia completa
 #### Expansión y contracción
+##### D
+##### D'
 #### Refundido
 #### Borrado
 # Indices
