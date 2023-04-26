@@ -23,7 +23,7 @@ Es importante el balanceo de carga entre los distintos procesadores.
 ## Asignación estática
 Toma de decisiones de asignación previa a la ejecución sin producir sobrecarga en ejecución.
 ### Descomposición de dominio
-Sobre algoritmos 
+Sobre algoritmos con dependencia de entradas contiguas en una matriz (localidad espacial), se pueden asignar bloques para dividir los datos con mínimas comunicaciones.
 #### Bloque
 Se basa en dividir el espacio de datos en bloques que permitan a las tareas que consumen de los vecinos no tener que comunicar.
 Principalmente dividiendo por:
