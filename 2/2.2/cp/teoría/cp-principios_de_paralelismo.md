@@ -94,7 +94,9 @@ int MPI_Reduce([void *] buff, [void *] recvbuff, [int] count, [MPI_Datatype] dat
 # Análisis de algoritmos
 ## Conceptos
 - Tiempo de ejecución paralelo, tiempo desde el comienzo del primer procesador al final del ultimo.
-- 
+### Ley de Amdahl
+Medición del límite de ganancia de velocidad obtenida en la implementación paralela.
+$F_{s} = $
 # Tags
 #2- 
 #2-2 
