@@ -12,9 +12,11 @@ Algoritmo dedicado a seleccionar la entrada de la tabla correspondiente a la IP 
 1. Se aplica la máscara en la IP de destino y se comprueba con la columna de destinos, si se encuentra y las flags son correctas se envía, si hay varias mascaras se selecciona la más larga.
 2. Se manda por el default si existe.
 3. Se genera error al no poder enviar.
-## Enrutamiento estático
+## Tipos de enrutamiento
+### Estática
 Enrutamiento basado en tablas configuradas a mano, siendo valido para redes reducidas.
-
+### CIDR
+Protocolo basado en el enrutamineto de subredes a superedes, 
 # Tags
 #2- 
 #2-2 
