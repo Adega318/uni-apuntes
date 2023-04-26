@@ -66,11 +66,15 @@ Fichero donde se inserten los sinónimos, pudiendo tener su propia organización
 #### Proceso
 1. Se aplica el hash sobre la hey.
 2. Se toman los d primeros digitos del hash.
-3. Se busca el puntero al bloque correspondiente
+3. Se busca el puntero al bloque correspondiente al hash.
+4. Se carga el bloque y se hace la operación.
 #### Expansión y contracción
 ##### D
+La expansión de la d se produce cuando se intenta insertar en un bloque lleno de d' igual a d, se aumenta en uno la d y funden los bloques.
 ##### D'
+La expansión de la d' se produce cuando se inteta insertar en un bloque lleno, se divide el bloque aumentando el hash del bloque y repartiendo los datos en el mismo entre dos bloques.
 #### Refundido
+Cuando dos bloques comparten en hash correspondiente a su mayor d' - 1 y sus contenidos caben en un unico bloque, se fusionan en uno deduciendo l
 #### Borrado
 # Indices
 ## Clasificación
