@@ -29,6 +29,10 @@ También se caracterizan entre:
 - Escaso, sin una entrada por cada valor existente del campo o campos.
 ## Métricas de evaluación
 ## Árboles
+Mejora sobre la búsqueda binaria, permitiendo descartar la mitad de nodos por cada nivel de profundidad.
+### Heterogéneos
+
+### Homogéneos
 
 # Tags
 #2- 

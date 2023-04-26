@@ -26,33 +26,47 @@ La participación de las entidades puede ser parcial o total, dependiendo si tod
 Se representa como línea doble en el lado total y simple en el parcial.
 # Tipos entidad débil
 Entidades sin los suficientes atributos para formar un identificador. Esto hace que se deba establecer una dependencia de una entidad más fuerte. Las cardinalidades N:M no pueden tener entidad débil, siempre serán 1:N con la baja en la N también tendrá dependencia de existencia (doble ralla).
+
 ![[Pasted image 20230315114323.png]]
+
 **DI -> DE
 DE !-> DI**
 # Trampas de conexión
 Problemas causados por el orden de las conexiones, hay dos tipos:
 ## Abanico
 Producido por caminos ambiguos entre relaciones o teniendo más de dos tipos de relación con cantidad N.
+
 ![[Pasted image 20230315120128.png]]
 ![[Pasted image 20230315114854.png]]
+
 Solución:
+
 ![[Pasted image 20230315120334.png]]
+
 ## Sumidero
 Se produce al no haber camino entre entidades relacionadas. Aparece cuando uno o más tipos de relaciones tienen participación parcial.
+
 ![[Pasted image 20230315120111.png]]
 ![[Pasted image 20230315120046.png]]
+
 Solución:
+
 ![[Pasted image 20230315120309.png]]
+
 # Relaciones de grado mayor a 2
 Relación ternaria de N:N:N.
+
 ![[Pasted image 20230322120314.png]]
+
 ## Diferencia entre ternaria y múltiples binarias
 En las múltiples binarias no se representa la conexión todos con todos producida por la ternaria, perdiendo información. Esta perdida de datos se puede reparar con el enriquecimiento del modelo.
 # Modelización temporal
 Tenemos tres principales alternativas en  la representación de temporalidad que pueden ser combinadas:
 ## Histórico por atributo
 Para almacenar la temporalidad de atributos asíncronos, creamos varias lineas temporales para los varios atributos (registrar el historial de salarios y proyectos).
+
 ![[Pasted image 20230329135956.png]]
+
 ## Histórico único
 Uso de una única linea temporal para el almacenamiento de atributos asíncronos, almacenando una nueva entrada para el cambio de cualquiera.
 ![[Pasted image 20230329140744.png]]
