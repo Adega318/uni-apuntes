@@ -20,25 +20,24 @@ El MPI funciona mediante una red de comunicación con tipos de estructuras:
 
 ![[Pasted image 20230324104208.png]]
 
-## Características MPI
-
+## Conceptos Básicos
 ```C
 int MPI_[NOMBRE]([PARAMETROS]); //declaración de mpi
 
 MPI_Init //crear
 MPI_Finalize //destruir
-MPI_Comm_size //id
+MPI_Comm_size //númerode procesos
 MPI_Comm_rank //rank
 ```
-## Operaciones MPI
+## Mensajes MPI
 ### Punto a punto
 Por cada envío por parte de un proceso de haber una recepción.
 ```C
 //envio de mensajes
-int MPI_Send([void *] buff, [int] elements, [MPI_Datatype], [int] dest, [int] tag, [MPI_Comm]);
+int MPI_Send([void *] buff, [int] elements, [MPI_Datatype] datatype, [int] dest, [int] tag, [MPI_Comm] comm);
 
 //recepción
-int MPI_Send ([void *] buff, [int] count, [MPI_Datatype], [int] dest, [int] tag, [MPI_Comm]);
+int MPI_Recv ([void *] buff, [int] count, [MPI_Datatype] datatype, [int] source, [int] tag, [MPI_Comm] comm, [MPI_Status*] status);
 
 
 //ejemplo de comunicación
