@@ -21,12 +21,14 @@ Para la gestión de borrados se organiza internamente los bloque con el número 
 
 ![[Pasted image 20230426130350.png]]
 
-Unidad de trasferencia de disco a memoria, conteniendo un número de registros. El tamaño de bloque se denomina factor de bloqueo 
-## Formato de archivo
-## Bloques
-- Factor de bloqueo, número de registros que entran en el bloque (limite superior e inferior en variable).
-El tamaño de bloque debe de ajustarse para beneficiar a la operaciones más recurrentes.
+Unidad de trasferencia de disco a memoria, conteniendo un número de registros. El tamaño de bloque se denomina factor de bloqueo y es un tamaño no perfecto, únicamente sabemos los imites para asignarlo:
+- Inferior, impuesto para evitar la trasferencia excesiva de bloques.
+- Superior, definido por el tiempo de trasmisión y tamaño del buffer.
 # Organización de registros en archivos
+## Montículo
+Los ficheros son ordenados en función del orden de inserción, siendo favorecido por un alto factor de bloqueo 
+## Ordenado
+## Hash
 # Indices
 ## Clasificación
 Accesos rápidos a datos de la base de datos, teniendo dos categorías:
