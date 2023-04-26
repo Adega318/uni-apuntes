@@ -33,9 +33,10 @@ Algoritmo original:
 Luego se pasó a usar la regla delta:
 $$w_{i}(t+1)=w_{i}(t)+\mu(d(t)-y(t))x_{i}(t)$$
 ### Multicapa
-<<<<<<< HEAD
 Al añadir múltiples perceptrones se pasó de hacer separaciones lineales a poder hacer separaciones polinómicas.
+
 ![[Pasted image 20230320174935.png]]
+
 Tenemos tres capas destacables:
 - Entrada
 - Ocultas
