@@ -82,11 +82,14 @@ Recibe en *root* los elementos de todos los procesos.
 ```C
 MPI_Gather([void *] buff, [int] sendcnt, [MPI_Datatype] sendtype, [void *]recvbuff, [int] recvcnt, [MPI_Datatype] recvtype, [int] root, [MPI_Comm] comm);
 ```
-Con la terminación v se puede recivir cantidades distintas p
+Con la terminación v se puede recibir cantidades distintas por cada uno, sendcount (número enviado), recvcounts (número recibido por cada uno), displs (desplazamiento de cada uno para la deconstrucción).
+```C
+int MPI_Gatherv([const void *] sendbuf, [int] sendcount, [MPI_Datatype] sendtype, [void *] recvbuf, [const int *] recvcounts, [const int *] displs, [MPI_Datatype] recvtype, [int] root, [MPI_Comm] comm)
+```
 #### Reduce
 Recibe de todos y hace la operación, tiene una versión *all* donde manda el resultado a todos.
 ```C
-int MPI_Reduce([void] *buff, [void] *recvbuff, [int] count, [MPI_Datatype] datatype, [MPI_Op] op, [int] root, [MPI_Comm] comm);
+int MPI_Reduce([void *] buff, [void] *] recvbuff, [int] count, [MPI_Datatype] datatype, [MPI_Op] op, [int] root, [MPI_Comm] comm);
 ```
 # Tags
 #2- 
