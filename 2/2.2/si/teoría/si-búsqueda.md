@@ -4,6 +4,13 @@
 - Formular el problema, representar de manera abstracta el problema basado en estados y acciones posibles.
 - Búsqueda, encontrar las soluciones óptimas basándose en la formulación.
 - Ejecución, efectúa las acciones determinadas en la solución obtenida en la búsqueda.
+## Problemas de búsqueda
+Compuestos por:
+1. Estado inicial, representación de los posibles estados.
+2. Conjunto de acciones, para los estados las acciones posibles.
+3. Modelo de transición, asociación de las posibles acciones con otros estados.
+4. Prueba de meta, establecimiento de la comprobación de meta.
+5. Función de coste del camino, función de calculo del coste del camino a partir de las acciones tomadas.
 # Proceso de Búsqueda
 ## Estrategia de exploración
 Las estrategias pueden ser diferentes y variadas
