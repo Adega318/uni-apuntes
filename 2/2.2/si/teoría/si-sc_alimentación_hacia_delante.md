@@ -74,6 +74,9 @@ Se entrena utilizando Backpropagation, que es el método de entreno de multicapa
 - $i_{pj}^{h}$: salida PE j en la capa oculta h para el patrón p  
 - $o_{pj}$ : salida PE j en la capa de salida para el patrón p
 #### Error y pesos
+
+![[Pasted image 20230426192152.png]]
+
 Error de la capa oculta h:
 $$\delta_{pj}^{h}=f_{j}^{h\prime}(neta_{pj}^{h})\sum\delta_{pk}^{o}w_{kj}^{o}$$
 Corrección de la capa de oculta:
@@ -93,6 +96,9 @@ La habilitación del entrenamiento se puede hacer separando las entradas, normal
 #### Salidas
 Para facilitar las salidas en necesaria su normalización y separación.
 #### Control de convergencia
+
+![[Pasted image 20230426192320.png]]
+
 Se ajusta la tasa de aprendizaje de manera que por el mismo salto en el mismo lado del mínimo se aumenta la tasa de aprendizaje, cuando se cambie de lado del mínimo se reduce.
 #### Sobre entrenamiento
 El sobre entrenamiento es el resultado de el excesivo entrenamiento de un modelo con un conjunto de datos, reduciendo la capacidad de generalización de la red. Es cuando el modelo interpreta el ruido como una característica del conjunto.
@@ -102,7 +108,7 @@ Para reducir los efectos del mismos:
 - Parada temprana
 Pasos en el entrenamiento para el sobre entrenamiento:
 1. se entrena
-2. se valida el error con un conjunto de validación, que no aprende, cuando su capitidisminuya se empieza a desajustar,
+2. se valida el error con un conjunto de validación, que no aprende.
 3. Si se realizan más de un número de ciclos sin mejoras de error damos error.
 ### Aplicaciones
 #### Clasificación
