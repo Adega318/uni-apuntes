@@ -28,8 +28,8 @@ Sobre algoritmos con dependencia de entradas contiguas en una matriz (localidad 
 
 ![[Pasted image 20230426215759.png]]
 
-Para p procesos y n elementos se asignarán bloques de tamaño $m_p=\frac{n}{p}$
-El proceso $p-1$ recibirá $final=(n-m_b(p-1))$
+Para p procesos y n elementos se asignarán bloques de tamaño $m_p=\frac{n}{p}$ (redondeado hacia arriba), excepto el proceso $p-1$ que recibirá $m_b'=(n-m_b(p-1))$.
+El elemento i se encuentra en el proceso $\frac{i}{m_b}$, ocupando la posición $i\$
 #### Bidimensional
 ##### Filas
 
