@@ -26,7 +26,14 @@ Unidad de trasferencia de disco a memoria, conteniendo un número de registros. 
 - Superior, definido por el tiempo de trasmisión y tamaño del buffer.
 # Organización de registros en archivos
 ## Montículo
-Los ficheros son ordenados en función del orden de inserción, siendo favorecido por un alto factor de bloqueo 
+Los ficheros son ordenados en función del orden de inserción, siendo favorecido por un alto factor de bloqueo.
+### Lectura por clave
+Para una clave N tenemos tres casos de funcionamiento:
+- Único registro, lectura secuencial hasta encontrarlo.
+- Varios registros, lectura completa del fichero.
+- No registro, lectura completa y no se encuentra.
+### Lectura ordenada
+Leer ordenadamente los datos del fichero, se realiza mediante un merge sort dividiendo el ficheros en partes que entren en memoria, ordenándolas y uniéndolas para leerlas de manera ordenada.
 ## Ordenado
 ## Hash
 # Indices
