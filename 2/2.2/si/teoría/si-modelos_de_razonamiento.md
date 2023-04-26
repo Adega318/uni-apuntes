@@ -1,6 +1,6 @@
 # Modelos y dominios
 - Modelos categóricos
-- Modelos probabilísticos, soluciones no un equívoco
+- Modelos probabilísticos, soluciones no un equívoco.
 - Modelos de razonamiento bajo incertidumbre
 - Modelos de razonamiento en conjuntos difusos
 ## Modelo categórico
