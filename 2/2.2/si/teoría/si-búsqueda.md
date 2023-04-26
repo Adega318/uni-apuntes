@@ -31,6 +31,11 @@ Las estrategias pueden ser diferentes y variadas
 ![[Pasted image 20230217210503.png]]
 
 ## Estrategias de búsqueda
+### Característica
+#### Dirección
+Tenemos dos acercamientos a la dirección de la búsqueda de los estados iniciales a la meta o de la meta al estado inicial.
+#### Topología
+Por la construción de 
 ### Generales
 Aplicables a todos los problemas con menor eficiencia.
 ### Especifico
