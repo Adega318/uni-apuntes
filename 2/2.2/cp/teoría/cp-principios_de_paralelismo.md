@@ -73,15 +73,16 @@ Distribuye el elemento en trozos iguales de tamaño *sendcnt*, la versión varia
 ```C
 MPI_Scatter([void *] buff, [int] sendcnt, [MPI_Datatype] sendtype, [void *] recvbuff, [int] recvcnt, [MPI_Datatype] recvtype, [int] root, [MPI_Comm] comm);
 ```
-Con la terminación v se puede asignar tamaños concretos para cada proceso.
+Con la terminación v se puede asignar tamaños concretos para cada proceso, definido en sendcounts (cuanto para cada uno), displs (desplazamiento cuando empieza cada uno) y recvcount (cantidad recivida).
 ```C
-
+int MPI_Scatterv([const void *] sendbuf, [const int *] sendcounts, [const int *] displs, [MPI_Datatype] sendtype, [void *] recvbuf, [int] recvcount, [MPI_Datatype] recvtype, [int] root, [MPI_Comm] comm);
 ```
 #### Gather
 Recibe en *root* los elementos de todos los procesos.
 ```C
-MPI_Gather([void] *buff, [int] sendcnt, [MPI_Datatype] sendtype, [void] *recvbuff, [int] recvcnt, [MPI_Datatype] recvtype, [int] root, [MPI_Comm] comm);
+MPI_Gather([void *] buff, [int] sendcnt, [MPI_Datatype] sendtype, [void *]recvbuff, [int] recvcnt, [MPI_Datatype] recvtype, [int] root, [MPI_Comm] comm);
 ```
+Con la terminación v se puede recivir cantidades distintas p
 #### Reduce
 Recibe de todos y hace la operación, tiene una versión *all* donde manda el resultado a todos.
 ```C
