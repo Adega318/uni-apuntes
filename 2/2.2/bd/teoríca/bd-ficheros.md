@@ -46,7 +46,13 @@ Teniendo las siguiente operaciones:
 - Leer clave, se puede establecer búsqueda binaria.
 - Leer claves en orden, se sigue el puntero de primera a última.
 ## Hash
-Acceso directo mediante un número de registro como clave externa, haciéndolo similar a un array unidimensional
+Acceso directo mediante un número de registro como clave externa, haciéndolo similar a un array unidimensional.
+### Función hash
+La función hash convierte el registro en un número de registro, teniendo tres características:
+- uniforme y distribuido
+- sensible
+- evitar colisiones
+Con respecto a las colisiones tenemos que tener en cuenta el factor de carga, calculado cómo $nºregistros/Slots$ causando problemas cuando mas nos acerquemos a la ocupación total
 # Indices
 ## Clasificación
 Accesos rápidos a datos de la base de datos, teniendo dos categorías:
