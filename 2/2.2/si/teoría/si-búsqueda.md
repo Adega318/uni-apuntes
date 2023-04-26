@@ -108,28 +108,31 @@ Alta velocidad, pero puede llevar a opciones ineficientes.
 ![[Pasted image 20230217211144.png]]
 
 Con respecto a la implementación con listas, se utilizará una pila para la frontera, lo que permitirá que los elementos menos recientemente añadidos sean los primeros en ser explorados (los menos profundos).
-#### Limitada
+### Limitada
 Explora en profundidad, rindiéndose cuando el camino supera una profundidad.
-#### Iterativa
-### Complejidad
+### Iterativa
+Es una exploración limitada pero en ved de rendirse agota todas las opciones en esa profundidad y luego prospera a la siguiente.
+## Complejidad
 
 ![[Pasted image 20230217211221.png]]
 
-## Búsqueda informada
-### Preferente por el mejor
+# Búsqueda informada
+## Preferente por el mejor
 Para establecer los estados más favorables es determinado por la función heurística h(n).
 Función heurística: convierte un estado en un valor numérico.
 ### Avara
-La búsqueda avara es la que siempre elige el nodo más prometedor en h(n) sin tener en cuenta el coste.
-La frontera será una cola de prioridad atendiendo a h(n).
+
+![[Pasted image 20230426184001.png]]
+
+La búsqueda avara es la que siempre elige el nodo más prometedor en h(n) sin tener en cuenta el coste, siendo la frontera una cola de prioridad atendiendo a h(n).
 
 ![[Pasted image 20230217211300.png]]
 
 ### A*
 La búsqueda A* toma en cuenta el h(n) y el coste para tomar las decisiones.
 La heurística dará la solución adecuada si se cumple que se subestima el coste real.
-### Local
-#### Escalada
+## Local
+### Escalada
 Elige el mejor de los sucesores basándose en la heurística, siempre que los sucesores sean mejores que el padre.
 - Cresta, región de estados mejores pero a los que no podemos llegar con movimientos simples.
 - Mesetas, región donde todos los estados tienen el mismo valor en un paso simple.
