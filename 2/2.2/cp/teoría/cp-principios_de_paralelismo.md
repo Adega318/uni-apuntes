@@ -1,12 +1,17 @@
-# Niveles de paralelismo
+# Conceptos
+## Niveles de paralelismo
 Sucesivos niveles de complejidad de paralelismo construidos sobre los anteriores.
 - Hardware, replicación de recursos del hardware.
 - Software
 	- Básico, gestión del nivel de hardware.
 	- Intermedio, herramientas para la implementación de aplicaciones paralelas.
 	- Alto, núcleos computacionales con ejecución paralela.
-- Aplicación, 
-
+- Aplicación, aplicaciones implementadas sobre los anteriores niveles.
+## Dependencias de datos
+Las tareas deben de carecer de dependencias para poder funcionar en paralelo, existiendo las siguientes:
+- RAW, A tiene dependencia de B si requiere una de las salidas de B para operar.
+- WAR, A anti depende B si 
+- WAW
 # Modelo de paso de mensajes
 Comunicación entre procesos basado en el intercambio de mensajes. La manera de pasarlos es mediante el modelo MPI, estándar de comunicación de procesos en paralelo.
 El MPI funciona mediante una red de comunicación con tipos de estructuras:
