@@ -29,9 +29,24 @@ Sobre algoritmos con dependencia de entradas contiguas en una matriz (localidad 
 ![[Pasted image 20230426215759.png]]
 
 Para p procesos y n elementos se asignarán bloques de tamaño $m_p=\frac{n}{p}$ (redondeado hacia arriba), excepto el proceso $p-1$ que recibirá $m_b'=(n-m_b(p-1))$.
-El elemento i se encuentra en el proceso $\frac{i}{m_b}$, ocupando la posición $i\$
+El elemento i se encuentra en el proceso $\frac{i}{m_b}$, ocupando la posición $i\mod{m_b}$ en el vector local.
 #### Bidimensional
 ##### Filas
+
+![[Pasted image 20230426221145.png]]
+
+Para p procesos y n filas se asignarán $m_p=\frac{n}{p}$ (redondeado hacia arriba) filas, excepto el proceso $p-1$ que recibirá $m_b'=(n-m_b(p-1))$.
+La fila i se encuentra en el proceso $\frac{i}{m_b}$, ocupando la posición $i\mod{m_b}$ en la matriz local.
+##### Columnas
+
+![[Pasted image 20230426221359.png]]
+
+Para p procesos y n columnas se asignarán $m_p=\frac{n}{p}$ (redondeado hacia arriba) columnas, excepto el proceso $p-1$ que recibirá $m_b'=(n-m_b(p-1))$.
+La columna j se encuentra en el proceso $\frac{j}{m_b}$, ocupando la posición $j\mod{m_b}$ en la matriz local.
+##### Matriz
+
+![[Pasted image 20230426221535.png]]
+
 
 ## Distribuciones
 ### Cíclica por bloques
