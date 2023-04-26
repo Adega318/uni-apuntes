@@ -1,4 +1,5 @@
 # Niveles de paralelismo
+Sucesivos niveles de complejidad de paralelismo construidos sobre los anteriores.
 - Hardware, replicación de recursos del hardware.
 - Software
 	- Básico, gestión del nivel de hardware.
