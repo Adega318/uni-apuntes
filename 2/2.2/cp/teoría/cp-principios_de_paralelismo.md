@@ -102,8 +102,9 @@ También calcula la aceleración máxima teórica:$$A_{max}=\lim_{p\to\infty}\fr
 Esta métrica es puramente teriaca sin base de ejecución.
 ## Medidas de prestaciones
 ### Speedup
-Métrica con valores entre 0 y p pudiendo superarlo, es la mejora sobre la versión original en función del numero de procesadores.$$Speedup(p)=\frac{T_{secuencial}}{T_{paralelo}(p)}$$
-##
+Métrica con valores entre 0 y p pudiendo superarlo (mejora de los fallos de caché), es la mejora sobre la versión original en función del numero de procesadores.$$Speedup(p)=\frac{T_{secuencial}}{T_{paralelo}(p)}$$
+### Eficiencia
+Metrica de mejora por procesador, con valores entre 0 e 1 pudiendo $$Eficiencia(p)=\frac{Speedup(p)}{p}=\frac{T_{secuencial}}{p\times T_{paralelo}(p)}$$
 # Tags
 #2- 
 #2-2 
