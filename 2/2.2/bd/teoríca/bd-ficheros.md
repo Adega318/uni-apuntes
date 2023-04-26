@@ -43,9 +43,10 @@ Leer ordenadamente los datos del fichero, se realiza mediante un merge sort divi
 
 Sistema con recuperación rápida mediante un puntero en los registros al siguiente registro por orden de clave y con intento de localidad de bloque para claves cercanas. Este acercamiento ahorra el orden físico facilitando las operaciones de inserción  y borrado, únicamente necesitando reorganizar periódicamente para mantener la localidad.
 Teniendo las siguiente operaciones:
-
-
+- Leer clave, se puede establecer búsqueda binaria.
+- Leer claves en orden, se sigue el puntero de primera a última.
 ## Hash
+Acceso directo mediante un número de registro como clave externa, haciéndolo similar a un array unidimensional
 # Indices
 ## Clasificación
 Accesos rápidos a datos de la base de datos, teniendo dos categorías:
