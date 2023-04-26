@@ -5,10 +5,14 @@ Protocolo de mensajes de error, con mensajes de tipo:
 - Redirect
 - Fragmentación IP
 - Tiempo excedido
+
 ![[Pasted image 20230420114014.png]]
+
 # Ping
 Mensaje de comprobación de conexión con un destino.
+
 ![[Pasted image 20230420114318.png]]
+
 Se envía un mensaje eco request y se espera por el eco reply, obteniendo información por el numero de paquetes que regresan.
 # Traceroute
 Da la ruta de los paquetes hacia un destino.
@@ -16,7 +20,9 @@ El funcionamiento se basa en el uso del TTL  y UCP. Se manda un datagrama UCP al
 # Fragmentación IP
 - MTU, tamaño máximo de unidad que se permite pasar por una conexión.
 Partición de los datagramas a causa del tamaño de trama, fragmentandolos con la misma cabecera y modificando el offset de fragmentación para cada fragmento.
+
 ![[Pasted image 20230420120149.png]]
+
 Tenemos los siguientes campos:
 - Identificación, valor único de cada datagrama.
 - Flags

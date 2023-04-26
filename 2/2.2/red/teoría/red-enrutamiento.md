@@ -16,7 +16,7 @@ Algoritmo dedicado a seleccionar la entrada de la tabla correspondiente a la IP 
 ### Estática
 Enrutamiento basado en tablas configuradas a mano, siendo valido para redes reducidas.
 ### CIDR
-Protocolo basado en el enrutamineto de subredes a superedes, 
+Protocolo basado en el enrutamineto de subredes a superedes, consiguiendo enrutar varias direcciones de subred a trabes una o más direcciones de superred.
 # Tags
 #2- 
 #2-2 
