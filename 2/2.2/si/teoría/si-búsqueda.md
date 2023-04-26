@@ -90,10 +90,19 @@ Se exploran al mismo tiempo todos los caminos, siempre se encuentra la solución
 
 Con respecto a la implementación con listas, se usará una cola para la frontera, lo que permitirá que los elementos menos recientemente añadidos sean los primeros en ser explorados (los menos profundos).
 ### Prioridad
+
+![[Pasted image 20230426183059.png]]
+
 Se detiene el proceso de búsqueda si se encuentra una solución en vez de considerar todas las opciones.
 ### Coste uniforme
+
+![[Pasted image 20230426183323.png]]
+
 Se hace la búsqueda, pero no se devuelve la primera encontrada, se establece un orden de exploración basándonos en el coste (se exploran caminos potencialmente más eficientes), devolviendo la óptima.
 ## Profundidad
+
+![[Pasted image 20230426183438.png]]
+
 Alta velocidad, pero puede llevar a opciones ineficientes.
 
 ![[Pasted image 20230217211144.png]]
