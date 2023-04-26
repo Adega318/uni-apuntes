@@ -1,5 +1,7 @@
 # Niveles de paralelismo
-- Har
+- Hardware, replicación de recursos del hardware.
+- Software
+	- Básico, gestión del 
 
 # Modelo de paso de mensajes
 Comunicación entre procesos basado en el intercambio de mensajes. La manera de pasarlos es mediante el modelo MPI, estándar de comunicación de procesos en paralelo.
