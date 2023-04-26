@@ -89,8 +89,12 @@ int MPI_Gatherv([const void *] sendbuf, [int] sendcount, [MPI_Datatype] sendtype
 #### Reduce
 Recibe de todos y hace la operación, tiene una versión *all* donde manda el resultado a todos.
 ```C
-int MPI_Reduce([void *] buff, [void] *] recvbuff, [int] count, [MPI_Datatype] datatype, [MPI_Op] op, [int] root, [MPI_Comm] comm);
+int MPI_Reduce([void *] buff, [void *] recvbuff, [int] count, [MPI_Datatype] datatype, [MPI_Op] op, [int] root, [MPI_Comm] comm);
 ```
+# Análisis de algoritmos
+## Conceptos
+- Tiempo de ejecución paralelo, tiempo desde el comienzo del primer procesador al final del ultimo.
+- 
 # Tags
 #2- 
 #2-2 
