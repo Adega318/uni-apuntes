@@ -69,10 +69,14 @@ Para almacenar la temporalidad de atributos asíncronos, creamos varias lineas t
 
 ## Histórico único
 Uso de una única linea temporal para el almacenamiento de atributos asíncronos, almacenando una nueva entrada para el cambio de cualquiera.
+
 ![[Pasted image 20230329140744.png]]
+
 ## Imagen especular
 La imagen especular basase en el almacenamiento de la información actual y por separado las imágenes históricas de la información.
+
 ![[Pasted image 20230329142047.png]]
+
 # Tags
 #2- 
 #2-2 

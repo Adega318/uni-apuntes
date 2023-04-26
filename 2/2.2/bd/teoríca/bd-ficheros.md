@@ -1,4 +1,8 @@
-# Conceptos
+# Registros
+
+![[Pasted image 20230426125955.png]]
+
+Los archivos se organizan lógicamente como secuencias de registros, siendo conjuntos de valores referentes a los campos.
 ## Clave
 Campo o conjunto de campos que identifican u ordenan registros, pudiendo ser:
 - Externa, clave derivada del medio físico.
