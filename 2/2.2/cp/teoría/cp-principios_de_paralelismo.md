@@ -104,7 +104,12 @@ Esta métrica es puramente teriaca sin base de ejecución.
 ### Speedup
 Métrica con valores entre 0 y p pudiendo superarlo (mejora de los fallos de caché), es la mejora sobre la versión original en función del numero de procesadores.$$Speedup(p)=\frac{T_{secuencial}}{T_{paralelo}(p)}$$
 ### Eficiencia
-Metrica de mejora por procesador, con valores entre 0 e 1 pudiendo $$Eficiencia(p)=\frac{Speedup(p)}{p}=\frac{T_{secuencial}}{p\times T_{paralelo}(p)}$$
+Métrica de mejora por procesador, con valores entre 0 e 1 pudiendo superar a causa del Speedup.$$Eficiencia(p)=\frac{Speedup(p)}{p}=\frac{T_{secuencial}}{p\times T_{paralelo}(p)}$$
+### Coste/Overhead
+Tiempo dedicado por el sistema para paralelizar la operación.$$Coste=p\times T_{paralelo}(p)$$
+Deberá de ser equivalente al secuencial pero suele ser mayor.$$Overhead=Coste-T_{secuencial}$$
+### Estabilidad
+Es la medida de el efecto del aumento de recursos.
 # Tags
 #2- 
 #2-2 
