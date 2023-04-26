@@ -109,7 +109,9 @@ Métrica de mejora por procesador, con valores entre 0 e 1 pudiendo superar a ca
 Tiempo dedicado por el sistema para paralelizar la operación.$$Coste=p\times T_{paralelo}(p)$$
 Deberá de ser equivalente al secuencial pero suele ser mayor.$$Overhead=Coste-T_{secuencial}$$
 ### Estabilidad
-Es la medida de el efecto del aumento de recursos.
+Es la medida de el efecto del aumento de recursos, pudiendo caer en dos categorías:
+- Fuerte, el aumento de recursos no afecta a la eficiencia del algoritmo.
+- Débil, el aumento de recursos afecta a la eficiencia.
 # Tags
 #2- 
 #2-2 
