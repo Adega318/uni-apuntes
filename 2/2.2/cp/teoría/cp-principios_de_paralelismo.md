@@ -100,10 +100,10 @@ $F_{s} =$ implementación secuencial.
 $F_{p}=$ implementación paralela.$$A_{p}= \frac{T_{secuencial}}{T_{paralelo}(p)}=\frac{F_s+F_p}{F_s+\frac{F_p}{p}}$$
 También calcula la aceleración máxima teórica:$$A_{max}=\lim_{p\to\infty}\frac{T_{secuencial}}{T_{paralelo}(p)}=\lim_{p\to\infty}\frac{F_s+F_p}{F_s+\frac{F_p}{p}}=\frac{F_s+F_p}{F_s}$$
 Esta métrica es puramente teriaca sin base de ejecución.
-### Necesidad de medidas
-- Eficiencia
-- Eficacia, redución del tiempo de ejecución.
-- Necesidad
+## Medidas de prestaciones
+### Speedup
+Métrica con valores entre 0 y p pudiendo superarlo, es la mejora sobre la versión original en función del numero de procesadores.$$Speedup(p)=\frac{T_{secuencial}}{T_{paralelo}(p)}$$
+##
 # Tags
 #2- 
 #2-2 
