@@ -38,6 +38,7 @@ Para una clave N tenemos tres casos de funcionamiento:
 
 Leer ordenadamente los datos del fichero, se realiza mediante un merge sort dividiendo el ficheros en partes que entren en memoria, ordenándolas y uniéndolas para leerlas de manera ordenada.
 ## Ordenado
+Sistema con recuperación rápida mediante un puntero en los registros al siguiente registro por orden de clave y con intento de localidad de bloque para claves cercanas, con esto se ao.
 
 ## Hash
 # Indices
