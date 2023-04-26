@@ -52,7 +52,10 @@ La función hash convierte el registro en un número de registro, teniendo tres 
 - uniforme y distribuido
 - sensible
 - evitar colisiones
-Con respecto a las colisiones tenemos que tener en cuenta el factor de carga, calculado cómo $nºregistros/Slots$ causando problemas cuando mas nos acerquemos a la ocupación total
+Con respecto a las colisiones tenemos que tener en cuenta el factor de carga, calculado cómo $nºregistros/Slots$ causando problemas cuando mas nos acerquemos a la ocupación total.
+### Manejo de sinónimos
+#### Overflow
+Fichero donde se inserten los sinonimos, pudiendo tener su propia organización
 # Indices
 ## Clasificación
 Accesos rápidos a datos de la base de datos, teniendo dos categorías:
