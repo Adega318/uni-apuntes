@@ -57,7 +57,8 @@ Con respecto a las colisiones tenemos que tener en cuenta el factor de carga, ca
 #### Overflow
 Fichero donde se inserten los sinónimos, pudiendo tener su propia organización.
 #### Direccionamiento abierto
-
+- Prueba lineal, se hacen saltos de un cuanto para buscar un slot vació donde almacenar el sinónimo, el problema es el proceso de búsqueda y reducción en la velocidad de lectura para sinónimos.
+- Rehashing, se hace el hash con una segunda función para encontrar un slot alternativo, pudiendo repetir este rehash las veces necesarias $(H(K)+xD)mod$
 # Indices
 ## Clasificación
 Accesos rápidos a datos de la base de datos, teniendo dos categorías:
