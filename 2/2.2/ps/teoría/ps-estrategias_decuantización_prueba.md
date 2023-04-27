@@ -82,7 +82,8 @@ Se debe considerar ante un error su causa del error y donde se puede repetir, po
 - Simplicidad
 - Estabilidad
 - Comprensibilidad
-## Caracteristicas
+## Características
+
 # Tags
 #2- 
 #2-2 
