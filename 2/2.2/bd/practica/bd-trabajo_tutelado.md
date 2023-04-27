@@ -1,10 +1,7 @@
-# Memoria
+# 1. Memoria
 ## Dominio
 
-# Entidad relación
-
+# 2. Entidad relación
 ![[ER.png]]
-
-# Modelo relacional
-
+# 3. Modelo relacional
 ![[MR.png]]
