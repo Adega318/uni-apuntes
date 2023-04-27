@@ -83,6 +83,16 @@ Se debe considerar ante un error su causa del error y donde se puede repetir, po
 - Estabilidad
 - Comprensibilidad
 ## Características
+- Alta probabilidad de encontrar errores.
+- No redundantes.
+- La mejor para la función.
+- No hacer pruebas demasiado complejas.
+## Caja blanca
+1. Revisar todas las rutas.
+2. Tomar todas las salidas de las decisiones lógicas.
+3. Todos los bucles.
+4. Revisar estructuras de datos.
+### Ruta básica
 
 # Tags
 #2- 
