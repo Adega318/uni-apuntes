@@ -1,4 +1,8 @@
+# Memoria
+## Dominio
 # Entidad relación
 
+
+
 # Modelo relacional
-![[modelo relacional.png]]
+
