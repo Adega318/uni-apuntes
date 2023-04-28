@@ -51,6 +51,7 @@ Para una malla de procesos $p=p_xp_y$ con una matriz $n\times m$ cada proceso te
 El elemento $(i,j)$ estará en el proceso $(\frac{i}{m_{b_x}},\frac{j}{m_{b_y}})$ con posición $(i\mod{m_{b_x}}, j\mod{m_{b_y}})$
 #### Generalización multidimensional
 Para una matriz s dimensional puede distribuirse por bloques de p procesos troceados hasta k dimensiones, con $k\leq s$, y organizamos como una malla k-dimensional.
+$$m_{b_d}=\left{\frac{n_d}{p_d}si\space d<k}{}\right$$
 #### Diferencias finitas
 #### Cíclica
 En la decisión de los tamaños de bloque se hace un compromiso con mayor tamaño de bloque disminuido la comunicación y menor tamaño distribuyendo mejor la carga.
