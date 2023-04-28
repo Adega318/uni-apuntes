@@ -21,9 +21,22 @@ $A\times (B\times v)\to 2N^2+2N^2$ operaciones
 ### b)
 Con las restricciones de MPI crea un:
 ```C
-myAllGather(const double *input, double *output, int elemensPerProc)
+myAllGather(const double *input, double *output, int elemsPerProc)
 ```
-Para ser llamada por los procesos de 1 a 16 haciendo 
+Para ser llamada por los procesos de 1 a 16 haciendo:
+- enviar elemsPerProc a todos los procesos en myAllGather.
+- guardar los recividos en output.
+
+Solución:
+```C
+void myAllGather
+	int i, rank;
+	MPI_Status status;
+	MPI_Comm_rank(MPI_COMM_WORLD, &rank);
+	for(i=1; i<rank; i++){
+		MPI_Recv()	
+	}
+```
 # Tags
 #2- 
 #2-2 
