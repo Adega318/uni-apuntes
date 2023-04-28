@@ -11,6 +11,7 @@ Objetivo:
 ### a)
 Tiempo en calcular $r=(A\times B) \times v$ y $r=A\times (B \times v)$ con solo un procesador de cálculos.
 
+Solución:
 ```ad-summary
 title: nota
 Multiplicación de matrices $2N^3$ operaciones y multiplicación de matrices con vectores $2N^2$ operaciones.
@@ -25,7 +26,7 @@ myAllGather(const double *input, double *output, int elemsPerProc)
 ```
 Para ser llamada por los procesos de 1 a 16 haciendo:
 - enviar elemsPerProc a todos los procesos en myAllGather.
-- guardar los recividos en output.
+- guardar los recibidos en output.
 
 Solución:
 ```C
@@ -34,8 +35,14 @@ void myAllGather
 	MPI_Status status;
 	MPI_Comm_rank(MPI_COMM_WORLD, &rank);
 	for(i=1; i<rank; i++){
-		MPI_Recv()	
+		MPI_Recv(output+(i-1)*elemsPerProc, elemsPerProc, i);
+		MPI_Send(input, elemsPerProci);	
 	}
+	for(i=rank+1; i<=16; i++){
+		MPI_Send(input, elemsPerProc, i)
+		MPI_Recv(output+(i-1)*elemsPerProc, i)
+	}
+	memcpy(output+(rank-1)*elemsPerProc, input, elemsPerProc*sizeof(double))
 ```
 # Tags
 #2- 
