@@ -11,10 +11,19 @@ Objetivo:
 ### a)
 Tiempo en calcular $r=(A\times B) \times v$ y $r=A\times (B \times v)$ con solo un procesador de cálculos.
 
-Multiplicación de matrices $2N^3$ operaciones.
-Multiplicación de matrices v
+```ad-summary
+title: nota
+Multiplicación de matrices $2N^3$ operaciones y multiplicación de matrices con vectores $2N^2$ operaciones.
+```
 $(A\times B)\times v\to 2N^3+2N^2$ operaciones
 $A\times (B\times v)\to 2N^2+2N^2$ operaciones
+
+### b)
+Con las restricciones de MPI crea un:
+```C
+myAllGather(const double *input, double *output, int elemensPerProc)
+```
+Para ser llamada por los procesos de 1 a 16 haciendo 
 # Tags
 #2- 
 #2-2 
