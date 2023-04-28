@@ -89,11 +89,17 @@ También se caracterizan entre:
 ## Árboles
 Mejora sobre la búsqueda binaria, permitiendo descartar la mitad de nodos por cada nivel de profundidad.
 ### Heterogéneos
+
+![[Pasted image 20230428101906.png]]
+
 Los nodos se clasifican en hoja e intermedios, siendo:
 - Hoja, apuntan a los registros del fichero.
 - Intermedio, apuntan a otros nodos.
 ### Homogéneos
 
+![[Pasted image 20230428101951.png]]
+
+Único tipo de nodo que guarda un dato y siguientes nodos.
 # Tags
 #2- 
 #2-2 
