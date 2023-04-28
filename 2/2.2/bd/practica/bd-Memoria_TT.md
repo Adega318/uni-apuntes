@@ -5,6 +5,9 @@ El dominio elegido es el segundo, la gestoría. Sobre este tendremos consideraci
 - Solicitud, en la consideración de solicitud la fecha no tiene en consideración hora.
 
 # 2. Entidad relación
+
 ![[ER.png]]
+
 # 3. Modelo relacional
+
 ![[MR.png]]
