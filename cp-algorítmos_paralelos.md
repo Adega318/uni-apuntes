@@ -44,6 +44,15 @@ for( i = 0; i < rows; ++i ) {
 		}  
 	}  
 }
+
+// (Sobre)reserva para el vector x en el proceso 0  
+if( my id == 0 ) {  
+	x = (double*)malloc(  
+	sizeof(double)*n*numprocs*rows );  
+}  
+// Gather de todos los datos  
+MPI_Gather( xlocal, n*rows, MPI_DOUBLE, x, n*rows,  
+	MPI_DOUBLE, 0, MPI_COMM_WORLD );
 ```
 # Tags
 #2- 
