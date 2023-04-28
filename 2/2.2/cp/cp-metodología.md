@@ -52,7 +52,7 @@ El elemento $(i,j)$ estará en el proceso $(\frac{i}{m_{b_x}},\frac{j}{m_{b_y}})
 #### Generalización multidimensional
 Para una matriz s dimensional puede distribuirse por bloques de p procesos troceados hasta k dimensiones, con $k\leq s$, y organizamos como una malla k-dimensional.
 $$m_{b_d}=\left\{ \begin{array}{lr} \frac{n_d}{p_d}\ \ si\ d <k\\n_d\ \ en\ otro\ caso\end{array} \right.$$$$m_{b_d}'=\left\{ \begin{array}{lr} n_d-m_{b_d}(p_d-1)\ \ si\ d <k\\n_d\ \ en\ otro\ caso\end{array} \right.$$
-Para localizar un elemento:$$Índice\ global\ \ (i_0,...,i_{s-1})$$$$Proceso\ asignado\ \ (\frac{i_0}{m_{b_0}},...,\frac{i_{k-1}}{m_{b_{k-1}}})$$$$Índice\ local\ \ (i_0\mod m_{b_0},...,i_{k-1}\mod m_{b_{k-1}, i})$$
+Para localizar un elemento:$$Índice\ global\ \ (i_0,...,i_{s-1})$$$$Proceso\ asignado\ \ (\frac{i_0}{m_{b_0}},...,\frac{i_{k-1}}{m_{b_{k-1}}})$$$$Índice\ local\ \ (i_0\mod m_{b_0},...,i_{k-1}\mod m_{b_{k-1}, i_k,...,i_{s-1}})$$
 #### Diferencias finitas
 #### Cíclica
 En la decisión de los tamaños de bloque se hace un compromiso con mayor tamaño de bloque disminuido la comunicación y menor tamaño distribuyendo mejor la carga.
