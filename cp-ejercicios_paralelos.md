@@ -11,7 +11,10 @@ Objetivo:
 ### a)
 Tiempo en calcular $r=(A\times B) \times v$ y $r=A\times (B \times v)$ con solo un procesador de cálculos.
 
-
+Multiplicación de matrices $2N^3$ operaciones.
+Multiplicación de matrices v
+$(A\times B)\times v\to 2N^3+2N^2$ operaciones
+$A\times (B\times v)\to 2N^2+2N^2$ operaciones
 # Tags
 #2- 
 #2-2 
