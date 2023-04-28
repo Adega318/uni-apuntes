@@ -10,10 +10,11 @@
 6. [[cp-filósofos]]
 7. [[cp-comparticion_nula]]
 8. [[cp-monitores__rcu__memoria_transaccional]]
-9. [[cp-algorítmos_paralelos]]
 ## Paralelismo
 1. [[cp-principios_de_paralelismo]]
 2. [[cp-metodología]]
+3. [[cp-algorítmos_paralelos]]
+	1. [[cp-ejercicios_paralelos]]
 # Prácticas
 # Tags
 #2-
