@@ -26,6 +26,9 @@ Desventajas:
 - No hay productos intermedios.
 
 ## En V
+
+![[Pasted image 20230429194926.png]]
+
 Es un modelo basado en que las fases producen salidas para más de una de las siguientes fases, usualmente planes para las posteriores, siendo una variante del modelo de cascada.
 Esto formará dos ramas, una descendente con el diseño y una ascendente con el desarrollo con movimientos laterales de la de diseño a desarrollo.
 ## Prototipado
