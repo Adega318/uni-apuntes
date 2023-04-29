@@ -46,17 +46,25 @@ Aporte de los modelos:
 	- crea flujos de datos
 ## Diagrama de flujo de datos (DFD)
 **Niveles de aplicación**:
+
 ![[Pasted image 20230302104141.png]]
+
 Entre los niveles se debe de cumplir una consistencia de entradas y salidas (Conservación del flujo).
 ### Diagrama de contexto
 El diagrama consta de una única burbuja indicando las estradas y salidas del sistema.
+
 ![[Pasted image 20230302104354.png]]
+
 ### Diagrama de sistema
 En el segundo nivel se determinan los componentes básicos del sistema como burbujas y sus interacciones.
+
 ![[Pasted image 20230302104521.png]]
+
 ### Niveles posteriores
 Los niveles posteriores son usados para concretar las burbujas concretas del nivel anterior.
+
 ![[Pasted image 20230302104704.png]]
+
 ### Características
 - Consistencia entre niveles.
 - Inclusión de todos los procesos.
@@ -73,14 +81,18 @@ Lista organizada que proporciona definición para todos los datos del resto de m
 - Flujos, entidades externas y almacenes (DFD)
 - Relaciones, entidades y atributos (E/R)
 ### Notación
+
 ![[Pasted image 20230302111112.png]]
+
 ### Metodología
 Debemos dar el significado del dato dentro del contexto, composición en caso de tener partes y sus posibles valores en caso de ser un dato elemental.
 ## Especificación de procesos (EP)
 Descripción de entradas, salidas y proceso de transformación de las entradas en las salidas de una burbuja.
 
 Ejemplo:
+
 ![[Pasted image 20230423184911.png]]
+
 ## Balanceo entre modelos
 Comprobaciones de coherencia entre modelos:
 - Los flujos y almacenes del DFD aparecen en el DD.
