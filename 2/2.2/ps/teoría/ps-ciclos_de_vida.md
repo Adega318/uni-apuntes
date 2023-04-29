@@ -42,6 +42,13 @@ Desventajas:
 ## Prototipado
 Es un modelo basado en la recolección de información, prototipado basándose en la información con feedback del cliente para la modificación del mismo, esto es usado en casos de clientes sin requerimientos claros.
 Podemos dividir los prototipos en dos familias, desechables, con la intención de ser un vehículo para la obtención de información, y evolutivos, pensados para ser mejorados en el producto final.
+Ventajas:
+- Gran flexibilidad.
+- Producción de productos intermedio.
+
+Desventajas:
+- Posibles confusiones con los clientes con el estado del producto.
+- Necesidad de toma de decisiones de desarrollo tempranas con posible necesidad de cambio.
 # Modelos evolutivos
 Modelos basados en la creación de pasos intermedios funcionales.
 ## Incremental
