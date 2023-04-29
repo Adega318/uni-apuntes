@@ -21,6 +21,7 @@ Metodología enfocada en entornos volátiles y orientada a los ciclos de vida m�
 Metodología tradicional basada en la fragmentación en procesos divididos en actividades y tareas a las que se le asignan encargados.
 
 ![[Pasted image 20230323124738.png]]
+
 - Técnica, conjunto de heurística o procedimiento para notación.
 - Práctica, medio para completar objetivos de manera rápida.
 ## Procesos
@@ -42,7 +43,9 @@ Metodología tradicional basada en la fragmentación en procesos divididos en ac
 - Analista
 - Programador
 ## Documento de especificación de requisitos
+
 ![[Pasted image 20230323130319.png]]
+
 # Scrum
 Metodología ágil basada en reuniones para la coordinación de los incrementos.
 - sprint, interacción con núcleo funcional.
