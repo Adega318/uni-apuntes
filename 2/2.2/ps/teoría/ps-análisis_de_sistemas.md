@@ -34,7 +34,8 @@ Los principales de los modelos de análisis son:
 - Ender y representar el dominio de información y funciones.
 - Representar el comportamiento del software.
 - Modelos jerárquicos.
-- de lo general al detalle.
+- De lo general al detalle.
+
 # Análisis estructurado
 ## Objetivos
 - establecer limites del sistema
@@ -42,6 +43,7 @@ Los principales de los modelos de análisis son:
 - reflejar las trasformaciones
 - simplificar el sistema
 - facilitar mantenimiento
+
 ## Conceptos
 - Entidad externa
 	- interfaz entre el exterior y el sistema
@@ -54,6 +56,7 @@ Los principales de los modelos de análisis son:
 - Flujo de datos
 	- conecta componentes del sistema
 	- crea flujos de datos
+
 ## Diagrama de flujo de datos (DFD)
 **Niveles de aplicación**:
 
