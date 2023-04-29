@@ -16,7 +16,12 @@ Modelo basado en la realización secuencial de las siguientes fases:
 
 Este acercamiento tiene las siguientes ventajas:
 - Se establece un marco de referencia para el desarrollo.
-- Facil desarrollo 
+- Fácil coordinación de recursos.
+- Fácil establecimiento de hitos, control del progreso de desarrollo y detección de desviaciones.
+
+Desventajas:
+- Necesidad de establecer todos los requisitos en las fases iniciales.
+- 
 ## En V
 Es un modelo basado en que las fases producen salidas para más de una de las siguientes fases, usualmente planes para las posteriores, siendo una variante del modelo de cascada.
 Esto formará dos ramas, una descendente con el diseño y una ascendente con el desarrollo con movimientos laterales de la de diseño a desarrollo.
