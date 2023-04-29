@@ -6,6 +6,9 @@ Especificar:
 - restriciones
 # Resultados
 El resultado es plasmar los requisitos en modelos dependientes del enfoque seguido cambian.
+
+![[Pasted image 20230429205034.png]]
+
 # Modelos
 Razones para el uso de modelos:
 - centrarnos en las propiedades importantes

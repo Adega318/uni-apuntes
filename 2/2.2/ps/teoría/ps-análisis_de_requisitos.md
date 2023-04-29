@@ -62,7 +62,9 @@ Entidad externa que interactúa con el sistema.
 - Definir prioridades Y casos del primer incremento
 - Escribir casos de trazo fino y prototipos de interfaces
 ### Prototipos
+Interacciones del programa para facilitar la comunicación.
 ### Escenarios
+
 # Tags
 #2- 
 #2-2 
