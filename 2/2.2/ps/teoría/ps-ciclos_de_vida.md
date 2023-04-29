@@ -36,7 +36,9 @@ Ventajas:
 - Favorece la consideración de las pruebas.
 
 Desventajas:
-- Comparte la desventaja del cascada de 
+- Comparte la desventaja del cascada de establecer todos los requisitos al comienzo.
+- Gran rigidez, aunque más que cascada.
+- No hay parciales.
 ## Prototipado
 Es un modelo basado en la recolección de información, prototipado basándose en la información con feedback del cliente para la modificación del mismo, esto es usado en casos de clientes sin requerimientos claros.
 Podemos dividir los prototipos en dos familias, desechables, con la intención de ser un vehículo para la obtención de información, y evolutivos, pensados para ser mejorados en el producto final.
