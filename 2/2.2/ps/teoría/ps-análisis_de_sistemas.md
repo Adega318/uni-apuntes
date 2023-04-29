@@ -88,17 +88,19 @@ Los niveles posteriores son usados para concretar las burbujas concretas del niv
 - Todo proceso tiene una salida y entrada.
 - Evitar flujos o procesos no etiquetados.
 - Evitar almacenes de solo escritura o lectura.
+
 ## Diccionario de datos (DD)
 Lista organizada que proporciona definición para todos los datos del resto de modelos, evitando la ambigüedad de los mismos. En caso de ser datos elementales se debe definir su composición.
 **Datos a definir:**
 - Flujos, entidades externas y almacenes (DFD)
 - Relaciones, entidades y atributos (E/R)
+
 ### Notación
 
 ![[Pasted image 20230302111112.png]]
 
-### Metodología
-Debemos dar el significado del dato dentro del contexto, composición en caso de tener partes y sus posibles valores en caso de ser un dato elemental.
+### De
+### Ejemplos
 ## Especificación de procesos (EP)
 Descripción de entradas, salidas y proceso de transformación de las entradas en las salidas de una burbuja.
 
