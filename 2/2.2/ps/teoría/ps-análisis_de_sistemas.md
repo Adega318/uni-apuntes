@@ -32,7 +32,9 @@ Los principales principios de los modelos son:
 
 Los principales de los modelos de análisis son:
 - Ender y representar el dominio de información y funciones.
-- 
+- Representar el comportamiento del software.
+- Modelos jerárquicos.
+- de lo general al detalle.
 # Análisis estructurado
 ## Objetivos
 - establecer limites del sistema
