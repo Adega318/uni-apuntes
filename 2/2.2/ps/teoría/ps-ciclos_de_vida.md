@@ -30,7 +30,10 @@ Desventajas:
 ![[Pasted image 20230429194926.png]]
 
 Es un modelo basado en que las fases producen salidas para más de una de las siguientes fases, usualmente planes para las posteriores, siendo una variante del modelo de cascada.
-Esto formará dos ramas, una descendente con el diseño y una ascendente con el desarrollo con movimientos laterales de la de diseño a desarrollo.
+Esto formará dos ramas, una descendente con el diseño y una ascendente con el desarrollo con movimientos laterales de la de diseño a desarrollo (planes de pruebas).
+Ventajas:
+
+Desventajas:
 ## Prototipado
 Es un modelo basado en la recolección de información, prototipado basándose en la información con feedback del cliente para la modificación del mismo, esto es usado en casos de clientes sin requerimientos claros.
 Podemos dividir los prototipos en dos familias, desechables, con la intención de ser un vehículo para la obtención de información, y evolutivos, pensados para ser mejorados en el producto final.
