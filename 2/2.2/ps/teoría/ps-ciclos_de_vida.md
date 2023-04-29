@@ -5,7 +5,18 @@ Ciclo de vida y ciclo de vida de desarrollo: Estos dos términos son parecidos, 
 ## Directa
 Es el proceso de creación de código y corrección de errores simultáneamente, es un modelo artesanal y válido únicamente para pequeños proyectos.
 ## Cascada
-Modelo basado en la realización secuencial de 
+Modelo basado en la realización secuencial de las siguientes fases:
+- Requisitos
+- Análisis
+- Diseño
+- Programación
+- Pruebas
+- Implantación
+- Mantenimiento
+
+Este acercamiento tiene las siguientes ventajas:
+- Se establece un marco de referencia para el desarrollo.
+- Facil desarrollo 
 ## En V
 Es un modelo basado en que las fases producen salidas para más de una de las siguientes fases, usualmente planes para las posteriores, siendo una variante del modelo de cascada.
 Esto formará dos ramas, una descendente con el diseño y una ascendente con el desarrollo con movimientos laterales de la de diseño a desarrollo.
