@@ -63,14 +63,28 @@ El modelo incremental se basa en la ampliación y mejora de las funcionalidades 
 Ventajas:
 - Mantiene el desarrollo cercano a la necesidad del cliente.
 - Mayor flexibilidad.
-- Progreso de calidad 
+- Progreso de calidad y estabilidad con interacciones.
+
 Desventajas:
+- Complejidad de la definición del núcleo del programa.
+- Complejidad de la priorización de funcionalidades.
+- Validez temporal de las funcionalidades.
 ## Espiral
+
+![[Pasted image 20230429202922.png]]
+
 Aplicable en proyectos de alto riesgo. El procedimiento son iteraciones consecutivas de un modelo inicial, dividiendo el desarrollo en cuatro sectores distintivos:
 1. Determinación, primer paso, donde se establecen requisitos y planificación del proyecto.
 2. Evaluación, se evalúan planes alternativos e intentan solventar los riesgos.
 3. Desarrollo
 4. Revisión, se revisa y evalúa el proyecto preparando el siguiente ciclo de espiral.
+
+Ventajas:
+- Permite adaptarse a entornos cambiantes.
+- Gestión de riesgos.
+
+Desventajas:
+- Requerimientos de personal con alta competencia 
 ## Características
 - Desarrollo iterativo e incremental
 - Eliminación de fronteras entre fases
