@@ -10,24 +10,30 @@ Descripción textual y o gráficas de los requisitos relacionándolos con otros 
 ## Problemas
 Los principales problemas es la multiplicidad de fuentes y baja obviedad de los mismos, la multitud de fuentes puede llevar a discrepancias. También es importante el tener en cuenta el posible cambio de los requisitos en el periodo de desarrollo.
 ## Actividades
-A análisis del problema
+- Obtención
+- Análisis
+- Especificación
+- Validación
 ## Evolución
 Los requisitos evolucionarán a causa de las distintas fuentes y las cuestiones. Otra causa puede ser el cambio en la empresa.
 ## Proceso
+
 ![[Pasted image 20230218174203.png]]
+
 ## Requisitos
 ### Negocio
+Requisito establecidos por el cliente.
 ### Usuario
 Los requisitos de cliente o usuario, deben describir los requisitos del producto de tal forma que sean comprensibles por los propios usuarios del sistema sin conocimiento técnico previo.
 Estos requisitos únicamente deben especificar el comportamiento externo del sistema y deben evitar, en la medida de lo posible, las características del diseño del sistema.
 ### Sistema/software
 Utilizados por los ingenieros de software como punto de partida para el diseño del producto. Este tipo de requisitos, agregan detalle y explican cómo el producto debe proporcionar los requisitos del usuario. Pueden ser usados como parte del contrato para la implementación del producto y, por tanto, deben ser una especificación completa y consistente del producto entero.
 #### Funcionales
-Descripción de lo que debe de hacer el sistema, describiendo sus interaciones e incluyendo los sistemas externos.
+Descripción de lo que debe de hacer el sistema, describiendo sus interacciones e incluyendo los sistemas externos.
 #### No funcionales
-Referencia a los requisitos que no tengan relación con la funcionalidad siendo caracteristicas del sistema.
+Referencia a los requisitos que no tengan relación con la funcionalidad siendo características del sistema.
 ## Características
-Los requisitos deben de ser completos, correctos, realizable, necesario, priorizadle, no ambiguo, verificable, completa, consistente, modificable y trazable.
+La descripción de los requisitos debe ser completa, correcta, realizable, necesaria, priorizadle, no ambiguo y verificable. La especificación debe de ser completa, consistente, modificable y trazable.
 ## Técnicas de recogida de requisitos
 ### Reuniones
 Reuniones con los clientes o parte de los clientes para recabar información.
@@ -42,9 +48,13 @@ El nombre de un caso de utilización debe representar la tarea a realizar por el
 #### Actores
 Entidad externa que interactúa con el sistema.
 #### Relaciones
+
 ![[Pasted image 20230218174304.png]]
+
 #### Documento
+
 ![[Pasted image 20230218174330.png]]![[Pasted image 20230218174346.png]]
+
 #### Proceso
 - Identificar actores
 - Identificar casos de uso de los mismos
