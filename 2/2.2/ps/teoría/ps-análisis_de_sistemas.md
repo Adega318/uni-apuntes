@@ -20,6 +20,7 @@ Aporte de los modelos:
 - establece la base
 - establece un punto de referencia para la validación del sistema.
 ## Principios
+Los principales principios de los modelos son:
 - pocos modelos
 - centrarse en el modelo más sencillo
 - modelos mutables
@@ -28,6 +29,10 @@ Aporte de los modelos:
 - centrarse en comunicar, no en ser el maestro de UML
 - si no parece correcto, seguramente no lo sea
 - obtener feedback
+
+Los principales de los modelos de análisis son:
+- Ender y representar el dominio de información y funciones.
+- 
 # Análisis estructurado
 ## Objetivos
 - establecer limites del sistema
