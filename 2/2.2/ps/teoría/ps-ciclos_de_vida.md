@@ -51,9 +51,20 @@ Desventajas:
 - Necesidad de toma de decisiones de desarrollo tempranas con posible necesidad de cambio.
 # Modelos evolutivos
 Modelos basados en la creación de pasos intermedios funcionales.
+## Incremento
+
+![[Pasted image 20230429202250.png]]
+
 ## Incremental
+
+![[Pasted image 20230429202315.png]]
+
 El modelo incremental se basa en la ampliación y mejora de las funcionalidades del producto en consecuentes versiones, cada versión es un producto funcional, pudiendo usar otros modelos para el desarrollos de las versiones.
-Este modelo permite una gestión de recursos flexible, alta comercialización y experimentación tecnológica.
+Ventajas:
+- Mantiene el desarrollo cercano a la necesidad del cliente.
+- Mayor flexibilidad.
+- Progreso de calidad 
+Desventajas:
 ## Espiral
 Aplicable en proyectos de alto riesgo. El procedimiento son iteraciones consecutivas de un modelo inicial, dividiendo el desarrollo en cuatro sectores distintivos:
 1. Determinación, primer paso, donde se establecen requisitos y planificación del proyecto.
