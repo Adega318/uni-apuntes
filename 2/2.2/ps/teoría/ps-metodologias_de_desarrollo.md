@@ -4,6 +4,7 @@ Las metodologías se pueden clasificar.
 Filosofía:
 - Tradicional
 - Ágil
+
 Paradigma:
 - Lineal
 - Objetos
