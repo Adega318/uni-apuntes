@@ -84,12 +84,14 @@ Ventajas:
 - Gestión de riesgos.
 
 Desventajas:
-- Requerimientos de personal con alta competencia 
+- Requerimientos de personal con alta competencia en consideración de riesgos.
 ## Características
 - Desarrollo iterativo e incremental
 - Eliminación de fronteras entre fases
 - Incorporan bibliotecas de clases y otros componentes reutilizables
+
 ![[Pasted image 20230218174434.png]]
+
 # Tags
 #2- 
 #2-2 
