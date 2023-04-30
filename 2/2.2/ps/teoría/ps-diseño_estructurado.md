@@ -14,7 +14,7 @@ Un módulo es aquella parte del código que se puede llamar.
 ### Comunicación y conexión
 Indica la relación con otros módulos del sistema, habiendo dos señales de comunicación:
 - Datos, datos crudos.
-- Flags, señales de 
+- Flags, señales de comunicación (bool).
 ## Nomenclatura
 ### Notación
 
