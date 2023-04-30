@@ -56,11 +56,16 @@ El análisis tiene los siguientes pasos:
 	- Añadir los flujos de datos.
 7. Revisar
 	- Se revisa en busca de errores.
+
+![[Pasted image 20230430112232.png]]
+
 ## Transacción
-Se aplica en DFD con un camino de entrada y camino de acción inicial que se divide en varios caminos de aciones independientes que llevan a su propio resultado.
+Se aplica en DFD con un camino de entrada y camino de acción inicial que se divide en varios caminos de acciones independientes que llevan a su propio resultado.
 
 ![[Pasted image 20230313140026.png]]
 
+Tiene los siguientes pasos de análisis, las dos primeras partes y dos ultimas son idénticas:
+3. Centro de transacción
 # Tags
 #2- 
 #2-2 
