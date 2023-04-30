@@ -1,4 +1,10 @@
+# Verificación y validación 
+La prueba software:
+- Verificación, conjunto de tareas que garantizan que el software implementa correctamente una función específica.
+- Validación, asegura el cumplimiento de los requerimientos del cliente.
+
 # Organización
+
 # Pruebas de desarrollo
 ## Unidad
 Se establece el componente más pequeño posible y se prueban sus funcionalidades.
