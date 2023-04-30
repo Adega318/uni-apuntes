@@ -18,7 +18,7 @@ Hay que tener en consideración:
 - el procesamiento excepción-condición es incorrecto.
 - la descripción del error no proporciona suficiente información para  auxiliar en la localización de la causa del error.
 
-El procedimiento de estas pruebas es 
+El procedimiento de estas pruebas es la revisión de la información del diseño proporcionando casos de prueba para detección de errores.
 ## Integración
 Tomando los módulos ya probados se crea una estructura de programa.
 
