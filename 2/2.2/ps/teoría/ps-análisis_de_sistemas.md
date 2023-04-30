@@ -99,8 +99,12 @@ Lista organizada que proporciona definición para todos los datos del resto de m
 
 ![[Pasted image 20230302111112.png]]
 
-### De
+### Definición de un dato
+Para definirlo se debe dar el significado , composición y alores del mismo.
 ### Ejemplos
+
+![[Pasted image 20230429211712.png]]
+
 ## Especificación de procesos (EP)
 Descripción de entradas, salidas y proceso de transformación de las entradas en las salidas de una burbuja.
 
@@ -117,6 +121,7 @@ Comprobaciones de coherencia entre modelos:
 - Los E/R tienen que ser consistentes con el DFD.
 - Las E/R tiene que tener reflejo en DFD.
 - Los EP deben crear y eliminar E/R.
+
 ## Proceso recomendado
 1. Obtener conocimiento
 	1. descripción inicial
