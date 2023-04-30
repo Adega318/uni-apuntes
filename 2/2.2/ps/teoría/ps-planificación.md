@@ -13,7 +13,7 @@ El plan de proyecto es un calendario que debe de responder a:
 - Duración del proyecto.
 - Coste.
 
-# Conceptos
+## Conceptos
 - **Actividad**, unidad básica de planificación indicando las tareas a realizar.
 - **Hito**, partes del proyecto que suponen el inicio de una nueva fase del proyecto sin consumir tiempo ni recurso.
 - **Hamaca**, agrupación de actividades e hitos relacionados.
@@ -27,13 +27,16 @@ El plan de proyecto es un calendario que debe de responder a:
 - **Duración**, tiempo de las actividades y proyecto en función de los recursos asignados.
 - **Costos**, suma de los costos materiales y de recursos.
 - **Nivelación**, reparto de la carga de trabajo entre recursos.
-- Camino crítico, partes del proyecto donde los retrasos causarían retrasos consecuentes.
+- **Camino crítico**, partes del proyecto donde los retrasos causarían retrasos consecuentes.
 	- Holgura
 	- Tarea crítica
 	- camino críticas
+- **Línea de base**, imagen con propósito de comparación y validación.
 
-## Diagrama de Gantt
+### Diagrama de Gantt
 Representación de las actividades en el tiempo con su duración y relaciones. También muestra los recursos.
+# Seguimiento
+Con el avance del proyecto es necesario controlar el proceso y resultados, tomando aciones correcti
 # Tags
 #2- 
 #2-2 
