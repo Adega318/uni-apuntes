@@ -1,3 +1,12 @@
+# Planificación
+El proceso de planificación se basa en:
+1. Valoración de la restricciones que afectan el proyecto.
+2. Preparación de un calendario.
+3. Comienzo del proyecto.
+4. Revisa y actualiza el plan.
+
+## Plan de proyecto
+
 # Conceptos
 - **Actividad**, unidad básica de planificación indicando las tareas a realizar.
 - **Hito**, partes del proyecto que suponen el inicio de una nueva fase del proyecto sin consumir tiempo ni recurso.
@@ -16,6 +25,7 @@
 	- Holgura
 	- Tarea crítica
 	- camino críticas
+
 # Diagrama de Gantt
 Representación de las actividades en el tiempo con su duración y relaciones. También muestra los recursos.
 # Tags
