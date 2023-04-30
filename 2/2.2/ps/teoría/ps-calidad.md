@@ -16,17 +16,26 @@ Costes:
 ![[Pasted image 20230330104025.png]]
 
 ## Configuración de calidad
-- Política, directivas y o
-- Sistema
-- Gestión
-- Plan
+- Política, directivas y objetivos generales.
+- Sistema, conjunto de elementos que se establecen.
+- Gestión, conjunto de actividades.
+- Plan, especifica el procedimiento y recursos.
 
 ## Enfoques
+
+![[Pasted image 20230430114544.png]]
+
 ### ISO/IEC 9126
 
 ![[Pasted image 20230330105419.png]]
 
 ### Proceso
+- mejora en la entrega de productos.
+- coordinación eficaz.
+- productos y servicios con reconocimiento de calidad.
+- implementación de una perspectiva integrada.
+- mejora del desarrollo de sistemas y software.
+
 # Tags
 #2- 
 #2-2 
