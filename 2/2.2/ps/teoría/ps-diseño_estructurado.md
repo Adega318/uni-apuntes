@@ -12,11 +12,17 @@ Un módulo es aquella parte del código que se puede llamar.
 - interna, visión de bajo nivel centrada en la forma
 
 ### Comunicación y conexión
-Indica la relación con otros módulos del sistema.
+Indica la relación con otros módulos del sistema, habiendo dos señales de comunicación:
+- Datos, datos crudos.
+- Flags, señales de 
 ## Nomenclatura
 ### Notación
 
 ![[Pasted image 20230313134059.png]]
+
+### Ejemplo
+
+![[Pasted image 20230430111031.png]]
 
 # Tabla de interfaz
 Complementa al diagrama de estructuras clarificando los flags y datos.
