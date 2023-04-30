@@ -4,7 +4,7 @@ La prueba software:
 - Validación, asegura el cumplimiento de los requerimientos del cliente.
 
 # Organización
-
+La
 # Pruebas de desarrollo
 ## Unidad
 Se establece el componente más pequeño posible y se prueban sus funcionalidades.
