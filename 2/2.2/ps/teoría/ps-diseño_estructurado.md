@@ -65,7 +65,15 @@ Se aplica en DFD con un camino de entrada y camino de acción inicial que se div
 ![[Pasted image 20230313140026.png]]
 
 Tiene los siguientes pasos de análisis, las dos primeras partes y dos ultimas son idénticas:
-3. Centro de transacción
+3. Identificar el centro de transacción
+	- identificar el centro de la transacción, lugar donde se hace la separación.
+4. 1º nivel de factorización
+
+![[Pasted image 20230430112728.png]]
+
+5. 2º nivel de factorización
+	- en este segundo nivel se establece los flujos de datos.
+
 # Tags
 #2- 
 #2-2 
