@@ -1,3 +1,10 @@
+# Definición de calidad
+# Datos
+# Coste de la calidad
+Costes:
+- Prevención
+- Evaluación
+- 
 # Perspectiva histórica
 
 ![[Pasted image 20230330104025.png]]
@@ -7,6 +14,7 @@
 - Sistema
 - Gestión
 - Plan
+
 # Enfoques
 ## ISO/IEC 9126
 
