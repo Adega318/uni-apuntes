@@ -20,10 +20,14 @@ Hay que tener en consideración:
 
 El procedimiento de estas pruebas es la revisión de la información del diseño proporcionando casos de prueba para detección de errores.
 ## Integración
-Tomando los módulos ya probados se crea una estructura de programa.
+Tomando los módulos ya probados se crea una estructura de programa, con los siguientes componentes:
+1. Modulo de control, controla a los componentes subordinados.
+2. Los subordinados son sustituidos en el orden indicado por el enfoque por módulos reales.
+3. Pruebas conforme se integran componentes.
 
 ![[Pasted image 20230420104000.png]]
 
+Tenemos dos enfoques:
 - Descendente, se comienzan con los niveles superiores y se desciende.
 - Ascendente, se comienza por los módulos atómicos y se asciende en complejidad.
 
