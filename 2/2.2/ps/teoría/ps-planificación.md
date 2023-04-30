@@ -6,6 +6,12 @@ El proceso de planificación se basa en:
 4. Revisa y actualiza el plan.
 
 ## Plan de proyecto
+El plan de proyecto es un calendario que debe de responder a:
+- Actividades a realizar y plazos.
+- Recursos necesarios para el proyecto.
+- Asignación de trabajo para los miembros y plazos.
+- Duración del proyecto.
+- Coste.
 
 # Conceptos
 - **Actividad**, unidad básica de planificación indicando las tareas a realizar.
@@ -26,7 +32,7 @@ El proceso de planificación se basa en:
 	- Tarea crítica
 	- camino críticas
 
-# Diagrama de Gantt
+## Diagrama de Gantt
 Representación de las actividades en el tiempo con su duración y relaciones. También muestra los recursos.
 # Tags
 #2- 
