@@ -36,7 +36,7 @@ El plan de proyecto es un calendario que debe de responder a:
 ### Diagrama de Gantt
 Representación de las actividades en el tiempo con su duración y relaciones. También muestra los recursos.
 # Seguimiento
-Con el avance del proyecto es necesario controlar el proceso y resultados, tomando aciones correcti
+Con el avance del proyecto es necesario controlar el proceso y resultados, tomando acciones correctivas para adherirse al plan o redefinir partes del plan.
 # Tags
 #2- 
 #2-2 
