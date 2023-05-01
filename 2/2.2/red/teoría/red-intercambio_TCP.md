@@ -14,6 +14,7 @@ Es el retroceder N con ACK individuales.
 Existen dos tipos de tráfico de datos en TCP:
 - Interactivo, gran número de segmentos de pequeño tamaño.
 - No interactivo, segmentos de gran tamaño siendo normalmente el máximo de la red.
+
 El intercambio TCP implemento ARQ retroceso N con matices como:
 - paquete fuera de orden son almacenados.
 - ignoro de ACK repetidos.
@@ -26,6 +27,7 @@ El intercambio TCP implemento ARQ retroceso N con matices como:
 
 ACKs retardados:
 - No se envía el ACK inmediatamente al recibir el dato, en su lugar se espera para enviarlos con datos.
+
 ### No interactivo
 
 ![[Pasted image 20230425185148.png]]
@@ -39,9 +41,11 @@ La ventana deslizante tiene un funcionamiento basado en:
 $$Ventana Utilizable = win-(sig.byte-últimoACK)$$
 ACKs acumulativos:
 - ACK con un número que es el número enviado en el mensaje al que se responde +1.
+
 ### Temp. de persistencia
 Tras un tiempo sin tener una ventana ofrecida se lanza un window prober.
 - Window probers, segmento de un byte utilizado para comprobar el estado de la ventana.
+
 ## Control de congestión
 
 ![[Pasted image 20230425210534.png]]
@@ -49,6 +53,7 @@ Tras un tiempo sin tener una ventana ofrecida se lanza un window prober.
 Algoritmo de umbral de inicio lento:
 - Debajo del umbral, se aplica una velocidad de envío equivalente a la de recepción.
 - Encima del umbral, se aplica un crecimiento suavizado.
+
 ## Temporizador Keepalive
 Para cuando el extremo del cliente deja de hacer peticiones, se mantiene la conexión por un tiempo bajando los recursos y enviando tras un tiempo un mensaje de confirmación.
 # Tags
