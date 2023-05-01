@@ -30,6 +30,7 @@ Tenemos los siguientes campos:
 	- MF, indica si es el ultimo fragmento.
 - Offset, indica el bite donde empieza el fragmento.
 - Longitud, longitud total del fragmento, debiendo ser múltiplo de 8: Data + Transporte (UDP 8 o TCP 20) + IP (20)
+
 ## Error ICMP
 Error producido cunado la fragmentación es requerida pero el paquete tiene DF a uno, incluyendo el MTU de la red y la cabecera del mensaje descartado.
 
@@ -41,6 +42,7 @@ Método de descubrir el mínimo MTU  de una comunicación, funciona mediante:
 2. Tamaño que produce fragmentación.
 3. Se recibe el ICMP
 4. Se prueba con un tamaño menor.
+
 ## Proceso
 ### NFS (UDP)
 Para una red con un MTU concreto se toma el tamaño de los datos NFS más la **cabecera UDP (8 bytes)**, Si el tamaño supera a MTU - 20.
@@ -60,6 +62,7 @@ Final:
 - MF: 0
 - Offset: Final del anterior/8
 - Long. total: Cab. IP (20) + Cab UDP (8) + Fragmento
+
 ### HTTP (TCP)
 Para un MTU se calcula el MSS (MTU - 20 -20), tamaño del HTTP. Se dividen en datagramas independientes.
 
@@ -76,6 +79,7 @@ Final:
 - MF: 0
 - Offset: 0
 - Long. total: Cab. IP (20) + Cab TCP (20) + Fragmento
+
 # Tags
 #2- 
 #2-2 
