@@ -18,6 +18,7 @@ El intercambio TCP implemento ARQ retroceso N con matices como:
 - paquete fuera de orden son almacenados.
 - ignoro de ACK repetidos.
 - temporizador de cada grupo de paquetes se mantiene.
+
 ## Tráfico
 ### Interactivo
 
