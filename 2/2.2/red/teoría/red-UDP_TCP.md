@@ -7,11 +7,13 @@ Protocolo de nivel de transporte basado en datagramas, sin garantizar llegada y 
 - control de congestión
 - retransmisión de datos perdidos
 - conexión/desconexión
+
 Es utilizado en los siguientes casos:
 - Medios de trasmisión fiables
 - Aplicación en tiempo real
 - Mensajes regulares, no importa perder alguno.
 - Si es multicast o broadcas
+
 ## Cadena UDP
 
 ![[Pasted image 20230425132549.png]]
@@ -21,6 +23,7 @@ Las cadenas UDP tienen una longitud de **8 bytes** con los siguientes campos:
 - Destino, puerto de destino.
 - Longitud, Cadena UDP + Data.
 - Checksum, control de errores sobre la cabeza y data de UDP.
+
 # TCP
 Protocolo de comunicación centrado en proporcionar un servicio de envió de datagramas fiable y orientado a la comunicación. La conexión es bidireccional y simultánea con las siguientes funciones:
 - establecer y terminar conexiones
@@ -28,12 +31,14 @@ Protocolo de comunicación centrado en proporcionar un servicio de envió de dat
 - multiplexar el nivel de aplicación
 - controlar errores
 - control de congestión
+
 La fiabilidad de TCP se implementa a trabes de :
 - control de longitud de segmentos (información enviada)
 - temporizador para el ACK de los segmentos
 - comprobación de errores
 - ordenación de los segmentos en el receptor
 - control de flujo
+
 ## Cabecera TCP
 
 ![[Pasted image 20230425133832.png]]
@@ -58,6 +63,7 @@ Las cabeceras TCP son de **20 bytes** (parte obligatoria, 40 con opciones) con l
 - Puntero de urgencia, trasmisión de datos urgentes.
 - Opciones
 - Data
+
 ## Conexión
 
 ![[Pasted image 20230425175742.png]]
@@ -71,10 +77,12 @@ A causa de las limitaciónes de los tamaños de trasmisión tenemos dos parametr
 - **MTU**, número máximo de bytes que se puden enviar por el nivel de enlace.
 - **MSS**, número maximo de bytes de datos permitidos antes de la fragmentación.
 	- es enviado en el SYN de una conexión por ambas partes.
+
 ### Estados
 - TIME_WAIT,  espera de 2 veces el tiempo de vida de un paquete por el ACK.
 - FIN_WAIT, espera a la respuesta de un FIN.
 - CLOSE_WAIT, espera a la confirmación del FIN de respuesta.
+
 ## Segmentos de reset
 El segmento de reset se produce cuando el flag RST se activa, pudiendo ser de estos dos modos:
 
