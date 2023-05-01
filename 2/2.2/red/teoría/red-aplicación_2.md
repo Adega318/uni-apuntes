@@ -19,11 +19,13 @@ Cada red tiene un DNS, un DNS recibe peticiones que debe resolver de dos maneras
 	- genéricos-restringidos
 	- sponsored
 - IDN ccTLDs: internacionales.
+
 ## Servidores de nombres
 Los niveles de dominio tiene DNS para cada nivel de la jerarquía, con los siguientes tipos de servidores:
 - Raíz, son servidores con muchas duplicidades que dirigen el tráfico a servidores más concretos. Estas duplicidades comparten la misma IP y al que llegamos es decidido por los routers intermedios. Conocen a todos los TLDs.
 - TLD, conocen a los subdominios y raíz.
 - Inferiores, conocen ips y raíz, si no tienen la IP asociada preguntan al raíz.
+
 ## Funcionamiento DNS
 
 ![[Pasted image 20230425125725.png]]
@@ -37,6 +39,7 @@ Consultas:
 - Iterativas
 	- Si no se tiene la respuesta se devuelve información, pero no se hace más trabajo.
 	- Servers Raíz y TLD son interactivos.
+
 ## Caché
 Cada servidor DNS guarda consultas previas, esto hará que las preguntas frecuentes tengan respuesta ya calculada. Estas respuestas no son autoritativas, ya que estas caches no tienen autoridad sobre el dominio.
 - Respuestas autoritativa, respuesta hecha por el DNS que conoce directamente la información del servidor buscado.
@@ -48,9 +51,11 @@ Tenemos cuatro tipos de consultas:
 - CNAME, búsqueda basándose en un alias.
 - PTR, consulta inversa IP -> Nombre.
 - MX, consultas DNS para correo.
+
 ## Comandos
 - nslookup | dig, peticiones al DNS por defecto.
 - bind, peticiones al DNS "Berkeley Internet Name Domain".
+
 # P2P
 Este modelo se basa parejas que hacen las funciones de cliente y servidor simultáneamente, creando una red con los equipos de usuarios, dando una expansión de la base de usuarios como mejora al servicio y gran tolerancia a fallos, pero baja seguridad y caro en ancho de banda.
 Teniendo dos tipos:
@@ -59,6 +64,7 @@ Teniendo dos tipos:
 	- Puro, todos los nodos son iguales.
 	- Centralizado, nodos centrales que sirven como servidor de directorio.
 	- Híbrido, supernodos que realizan ciertas tareas de server directorio.
+
 # Tags
 #2-
 #2-2 
