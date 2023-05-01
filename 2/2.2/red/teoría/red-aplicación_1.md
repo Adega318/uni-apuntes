@@ -1,4 +1,6 @@
+
 ![[Pasted image 20230424172951.png]]
+
 # HTTP
 ## Formato
 ### Petición
@@ -7,12 +9,14 @@ Formato:
 - Líneas de cabecera
 - Línea en blanco 
 - Cuerpo de entidad
+
 ### Respuesta
 Formato:
 - Línea de estado, versión + [código de estado](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
 - Líneas de cabecera
 - Línea en blanco
 - Cuerpo de entidad
+
 ### Cabeceras
 - Date: fecha y hora en la que se creó y envió la respuesta HTTP.  
 - Server: especifica el tipo de servidor Web que ha atendido a la petición.  
@@ -20,6 +24,7 @@ Formato:
 - Content-Length: indica el número de bytes del objeto enviado.
 - Content-Type: indica el tipo de objeto incluido en el cuerpo de entidad, con formato tipo/subtipo.
 	- La extensión del archivo no especifica (formalmente) el tipo de objeto.
+
 ## Conexión persistente
 Tenemos dos modelos de conexión persistente:
 - sin pipeline, el cliente hace una petición tras recibir una respuesta.
@@ -32,6 +37,7 @@ Tenemos dos modelos de conexión persistente:
 - formato binario
 - compresión de cadenas
 - server push
+
 ## Cookies
 
 ![[Pasted image 20230424174738.png]]
@@ -54,6 +60,7 @@ Formato:
 	- Recived
 	- Replay-To
 - Cuerpo, información en ASCII
+
 ## MIME
 Método de codificación en ASCII para el envió de mensajes usando SMTP.
 # Tags
