@@ -42,7 +42,11 @@ Representada mediante 8 bloques de 16 bits en hexadecimal separados por ':', se 
 Crudo: FE80:0000:0000:0000:0202:B3FF:FE1E:8329
 Elimina 0s: FE80:0:0:0:202:B3FF:FE1E:8329
 Campos vacíos: FE80::202:B3FF:FE1E:8329
-## Tipos 
+## Tipos
+Los tipos de IPv6 son especificados en el RFC 2373, habiendo tres tipos de direcciones:
+- Unicast, identifica una interfaz de un nodo v6.
+- Multicast, identifica un grupo de interfaces de un nodo (sustituto del broadcast) con prefij FFxx/8.
+- Anycast, identifica múltiples interfaces en múltiples nodos, enviando a solo una de ellas, tipicamente la más cercana.
 # DNS e ICMPv6
 # Transición V4 a V6
 # Tags
