@@ -67,11 +67,17 @@ Una híbrida entre:
 	- Matriz, se reparte por dominio.
 	- Bucle, se reparte por dominio
 #### b) 
-```
-p0 lee A y v
-broadcast de N
-se reserva espacio
-```
+1. p0 lee A y v
+2. broadcast N
+3. se reserva espacio para v
+4. brodcast v
+5. se calcula la cantidad de gupos para cada proceso N/P
+6. scatter de N/P partes de A
+7. calculo de r=v*A
+8. calculo 
+9. reduce de los procesos
+10. gather en v
+11. 
 # Tags
 #2- 
 #2-2 
