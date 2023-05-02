@@ -48,7 +48,13 @@ void myAllGather
 ## Julio 17
 ### Ejer 1
 #### a)
-Dado que es una matriz $500\times 500$ y procesos
+Dado que es una matriz $500\times 500$ y una malla de 48 procesos $6 \times 8$.
+Igualamos las mallas $\frac{500}{6}= 83$ por fila y 
+#### b)
+Proceso con el $(200, 200)$.
+Cae en el procesos $(2,3)$
+#### c)
+
 # Tags
 #2- 
 #2-2 
