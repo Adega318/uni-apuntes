@@ -25,7 +25,12 @@ Las características de IPv6 son:
 
 ![[Pasted image 20230502181036.png]]
 
-La cabecera son siempre 40 bytes con los siguient
+La cabecera son siempre 40 bytes con los siguientes campos:
+1. Versión (4 b), versión del protocolo.
+2. Clase de tráfico (1 B), identifica la prioridad del paquete.
+3. Etiqueta de flujo (20 b), permite agrupar paquetes bajo una misma etiqueta.
+	- beneficioso para trafico multimedia.
+4. Longitud de carga (2 B), longitud del paquete despues de la cabecera.
 # Direcciones V6
 # DNS e ICMPv6
 # Transición V4 a V6
