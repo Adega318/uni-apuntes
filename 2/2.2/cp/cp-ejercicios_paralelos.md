@@ -44,6 +44,10 @@ void myAllGather
 	}
 	memcpy(output+(rank-1)*elemsPerProc, input, elemsPerProc*sizeof(double))
 ```
+# 02/05/23
+## Julio 17
+### Ejer 1
+
 # Tags
 #2- 
 #2-2 
