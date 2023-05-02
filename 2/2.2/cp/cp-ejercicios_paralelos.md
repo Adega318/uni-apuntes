@@ -47,7 +47,8 @@ void myAllGather
 # 02/05/23
 ## Julio 17
 ### Ejer 1
-
+#### a)
+Dado que es una matriz $500\times 500$ y procesos
 # Tags
 #2- 
 #2-2 
