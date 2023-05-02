@@ -49,12 +49,13 @@ void myAllGather
 ### Ejer 1
 #### a)
 Dado que es una matriz $500\times 500$ y una malla de 48 procesos $6 \times 8$.
-Igualamos las mallas $\frac{500}{6}= 84$ por fila y 
+Igualamos las mallas $\frac{500}{6}= 84$ por fila y $\frac{500}{8}= 63$  
 #### b)
 Proceso con el $(200, 200)$.
 Cae en el procesos $(2,3)$, matriz de 
 #### c)
-Como no hay sobrecarga el speedup es $S_p=\frac{T_{seq}}{T_{par}}$
+Como no hay sobrecarga ($T_{par}= T_{calc}=84\times63\times1s= 5212$) el speedup es $$S_p=\frac{T_{seq}}{T_{par}}=\frac{500\times500\times1s}{5212}=47.24$$
+
 # Tags
 #2- 
 #2-2 
