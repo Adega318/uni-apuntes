@@ -74,7 +74,7 @@ Una híbrida entre:
 5. se calcula la cantidad de gupos para cada proceso N/P
 6. scatter de N/P partes de A
 7. calculo de r=v*A
-8. calculo 
+8. calculo
 9. reduce de los procesos
 10. gather en v
 11. 
