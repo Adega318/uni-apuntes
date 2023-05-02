@@ -37,7 +37,8 @@ La cabecera son siempre 40 bytes con los siguientes campos:
 8. Dirección destino (16 B), puede no ser el destino si esta la cabecera de enrutamiento.
 
 # Direcciones V6
-## Notacióo
+## Notación
+## Tipos 
 # DNS e ICMPv6
 # Transición V4 a V6
 # Tags
