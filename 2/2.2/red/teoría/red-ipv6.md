@@ -47,13 +47,18 @@ Los tipos de IPv6 son especificados en el RFC 2373, habiendo tres tipos de direc
 - Unicast, identifica una interfaz de un nodo v6.
 	- Global, (2000::/3)
 	- Link-local, (FE80::/10) utilizadas en el enlace local y limitadas a solo uno.
-	- Local única, (FC00::/7-FDFF::/7) direcionamiento dentro de un 
+	- Local única, (FC00::/7-FDFF::/7) direccionamiento dentro de un sitio.
 - Multicast, identifica un grupo de interfaces de un nodo (sustituto del broadcast) con prefij FFxx/8.
 - Anycast, identifica múltiples interfaces en múltiples nodos, enviando a solo una de ellas, tipicamente la más cercana.
-- Loopback, 
+- Loopback, (::1/128) y dirección sin especificar (::/128).
 
 Las direcciones IPv6 se asignan a interfaces de al menos una unicast.
 # DNS e ICMPv6
+La DNS requiere modificaciones especificadas en RFC 1886.
+La ICMPv6 se define en RFC 4443 con nuevas funciones para IGMP adición de NDP y mejora de ARP.
+La autoconfiguración tiene dos mecanismos:
+- SLAAC
+- DHCPv6
 # Transición V4 a V6
 # Tags
 #2- 
