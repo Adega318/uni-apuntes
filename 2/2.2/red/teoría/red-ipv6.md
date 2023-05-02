@@ -6,7 +6,12 @@ Las IPv4 tiene marcadas limitaciones:
 - Falta de mecanismos de seguridad en capa de red.
 # Características V6
 Las características de IPv6 son:
-
+- Direcciones ampliadas y autoconfiguración.
+	- 128 bits de direciones.
+	- autoconfiguración.
+	- mejora de multicast y añadido de anycast.
+- Simplificado de la cabecera
+	- tamaño fijo de 40 bytes, 
 # Cabecera V6
 # Direcciones V6
 # DNS e ICMPv6
