@@ -68,7 +68,9 @@ Una híbrida entre:
 	- Bucle, se reparte por dominio
 #### b) 
 ```
-
+p0 lee A y v
+broadcast de N
+se reserva espacio
 ```
 # Tags
 #2- 
