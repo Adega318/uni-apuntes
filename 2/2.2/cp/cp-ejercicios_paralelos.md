@@ -61,8 +61,15 @@ Por lo tanto el speedup pasa a ser:$$S_p=\frac{T_{seq}}{T_{par}}=\frac{500\times
 #### e)
 El cero distribuye la primera fila con su columna correspondiente a cada proceso que lo reparte a toda su columna.
 ### Ejer 2
-#### a)
+#### a) (se pregunta a menudo)
+Una híbrida entre:
+- Funcional
+	- Matriz, se reparte por dominio.
+	- Bucle, se reparte por dominio
+#### b) 
+```
 
+```
 # Tags
 #2- 
 #2-2 
