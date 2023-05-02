@@ -38,6 +38,10 @@ La cabecera son siempre 40 bytes con los siguientes campos:
 
 # Direcciones V6
 ## Notación
+Representada mediante 8 bloques de 16 bits en hexadecimal separados por ':', se eliminan los 0 a la izquierda y campos de 0 se representan con "::".
+Crudo: FE80:0000:0000:0000:0202:B3FF:FE1E:8329
+Elimina 0s: FE80:0:0:0:202:B3FF:FE1E:8329
+Campos vacíos: FE80::202:B3FF:FE1E:8329
 ## Tipos 
 # DNS e ICMPv6
 # Transición V4 a V6
