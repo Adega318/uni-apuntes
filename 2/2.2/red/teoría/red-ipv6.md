@@ -59,7 +59,13 @@ La ICMPv6 se define en RFC 4443 con nuevas funciones para IGMP adición de NDP y
 La autoconfiguración tiene dos mecanismos:
 - SLAAC
 - DHCPv6
+
 # Transición V4 a V6
+Se han definido tes principales técnicas de transición en RFC 2893:
+- Pila dual, soporte dual de ambas versiones.
+- Tunneling, trafico V6 sobre infraestructura V4.
+- NAT, traducción de V4 a V6 y viceversa.
+
 # Tags
 #2- 
 #2-2 
