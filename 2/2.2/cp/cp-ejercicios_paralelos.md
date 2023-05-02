@@ -59,6 +59,9 @@ Como no hay sobrecarga ($T_{par}= T_{calc}+T_{com}+T_{sys}=84\times63\times1s+0+
 Como ahora hay comunicación:$$T_{par}= T_{calc}+T_{com}+T_{sys}=84\times63\times1s+(48\times100+500\times500)\times0.001+0= 5796.21$$
 Por lo tanto el speedup pasa a ser:$$S_p=\frac{T_{seq}}{T_{par}}=\frac{500\times500\times1s}{5796.21}=43.13$$
 #### e)
+El cero distribuye la primera fila con su columna correspondiente a cada proceso que lo reparte a toda su columna.
+### Ejer 2
+#### a)
 
 # Tags
 #2- 
