@@ -1,6 +1,6 @@
 # Limitaciones V4
 Las IPv4 tiene marcadas limitaciones:
-- Pocas disponibles bajo el tamaño actual del internet.
+- Pocas disponibles bajo el tamaño actual del Internet.
 - Saturación del espacio de direcciones.
 - Soporte limitado para las restricciones de calidad de servicio.
 - Falta de mecanismos de seguridad en capa de red.
@@ -11,7 +11,7 @@ Las IPv4 tiene marcadas limitaciones:
 
 Las características de IPv6 son:
 - Direcciones ampliadas y autoconfiguración.
-	- 128 bits de direciones.
+	- 128 bits de direcciones.
 	- autoconfiguración.
 	- mejora de multicast y añadido de anycast.
 - Simplificado de la cabecera
