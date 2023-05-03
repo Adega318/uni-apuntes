@@ -111,6 +111,9 @@ Los nodos se clasifican en hoja e intermedios, siendo:
 ![[Pasted image 20230428101951.png]]
 
 Único tipo de nodo que guarda un dato y siguientes nodos.
+
+### Árbol B
+Árbol de número mínimo de valores en cada nodo de **d** con máximo de **2d** y $2d+1$ punteros a datos.
 # Tags
 #2- 
 #2-2 
