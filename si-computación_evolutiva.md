@@ -24,6 +24,10 @@ Generación de valores para los genes, clasificándose en:
 
 La mutación la diversidad.
 
+# Sustitución
+## Steady-state
+### Cruce
+Selecion
 # Tags
 #2- 
 #2-2 
