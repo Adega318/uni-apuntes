@@ -1,4 +1,4 @@
-[[2-2-index]]
+luminaria de san juan[[2-2-index]]
 # Teóricas
 1. [[red-redes_e_internet]]
 2. [[red-TCP_IP]]
