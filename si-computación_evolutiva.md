@@ -12,6 +12,7 @@ Mezcla de los seleccionados de la generación, con varios tipos:
 - Uniforme, se elige aleatoria mente por cada gen de que seleccionado tomar herencia.
 	- Mascara, genes a elegir de cada uno pre fijados.
 
+El cruce aumenta la homogeneidad.
 ## Mutación
 Generación de valores para los genes, clasificándose en:
 - Bit, un bit aleatorio cambia.
@@ -21,6 +22,7 @@ Generación de valores para los genes, clasificándose en:
 - Intercambio, intercambio de los valores de dos genes.
 	- Barajado, re organización de varios genes.
 
+La mutación la diversidad.
 
 # Tags
 #2- 
