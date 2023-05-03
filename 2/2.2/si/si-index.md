@@ -10,6 +10,7 @@
 7. [[si-sc_origen_contexto]]
 8. [[si-sc_arquitectura_aprendizaje_alimentación]]
 9. [[si-sc_otros]]
+10. [[si-computación_evolutiva]]
 # Prácticas
 1. [[si-p1]]
 # Tags
