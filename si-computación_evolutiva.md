@@ -13,7 +13,15 @@ Mezcla de los seleccionados de la generación, con varios tipos:
 	- Mascara, genes a elegir de cada uno pre fijados.
 
 ## Mutación
-Generación de valores para los genes.
+Generación de valores para los genes, clasificándose en:
+- Bit, un bit aleatorio cambia.
+	- Multibit, varios bits cambian.
+- Gen, mutación del valor del gen (valor con muchos posibles valores).
+	- Multigen, varios genes cambian.
+- Intercambio, intercambio de los valores de dos genes.
+	- Barajado, re organización de varios genes.
+
+
 # Tags
 #2- 
 #2-2 
