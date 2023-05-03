@@ -124,6 +124,9 @@ Al borrar en nodos no hoja se elimina el elemento y se sube el valor de una hoja
 ![[Pasted image 20230503135538.png]]
 
 Se guardan duplicados en las hojas para facilitar la lectura ordenada.
+# Selección de indices
+La creación de un indice es un caso de costo entre la lectura del fichero y el uso de un indice.
+
 # Tags
 #2- 
 #2-2 
