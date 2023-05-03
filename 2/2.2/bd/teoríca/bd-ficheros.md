@@ -118,7 +118,7 @@ Los nodos se clasifican en hoja e intermedios, siendo:
 Se dará prioridad a las reorganizaciones antes que inserciones de nodos para mantener el tamaño del indice a mínimos.
 #### Borrado
 Al borrar en nodos hoja se eliminara la entrada en la hoja, si queda vacía se elimina el nodo.
-Al borrar en nodos no hoja se 
+Al borrar en nodos no hoja se elimina el elemento y se sube el valor de una hoja del mismo.
 # Tags
 #2- 
 #2-2 
