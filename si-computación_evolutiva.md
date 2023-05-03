@@ -25,9 +25,22 @@ Generación de valores para los genes, clasificándose en:
 La mutación la diversidad.
 
 # Sustitución
+Para mantener el numero fijo de población se deben sustituir los individuos de la población, con tres tipos de sustitución en base a su evaluación:
+- Peores, se eliminan los peores de la población.
+- Padres, se eliminan los padres.
+- Parecidos, se eliminan los similares.
+
 ## Steady-state
 ### Cruce
-Selecion
+
+![[Pasted image 20230503132427.png]]
+
+Selecciono de 2 individuos, se cruzan evalúan y ordenan, eliminando los dos peores para hacer hueco.
+### Mutación
+
+![[Pasted image 20230503132532.png]]
+
+Se selecciona uno, se muta, evalúa y ordena.
 # Tags
 #2- 
 #2-2 
