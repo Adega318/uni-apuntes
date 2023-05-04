@@ -8,6 +8,7 @@ El cliente es el que se comunica con los servidores DNS en nuestro nombre, envia
 Cada red tiene un DNS, un DNS recibe peticiones que debe resolver de dos maneras posibles (base de datos distribuida):
 - Resolución, si se tiene la respuesta, se envía directamente.
 - Redirección, si no se tiene se redirige la pregunta a un DNS superior.
+
 ## Espacio de nombres
 
 ![[Pasted image 20230228135520.png]]
@@ -43,6 +44,7 @@ Consultas:
 ## Caché
 Cada servidor DNS guarda consultas previas, esto hará que las preguntas frecuentes tengan respuesta ya calculada. Estas respuestas no son autoritativas, ya que estas caches no tienen autoridad sobre el dominio.
 - Respuestas autoritativa, respuesta hecha por el DNS que conoce directamente la información del servidor buscado.
+
 ## Forwarding
 Servidores no responsables de ninguna información, solamente destinados a la redirección mediante consultas recursivas y respuestas rápidas mediante caché.
 ## Consultas
