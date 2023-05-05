@@ -1,4 +1,4 @@
-´[[2-2-index]]
+[[2-2-index]]
 # Teóricas
 ## Concurrencia
 1. [[cp-seción_critica]]

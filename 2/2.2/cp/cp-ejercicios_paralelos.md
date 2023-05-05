@@ -77,7 +77,11 @@ Una híbrida entre:
 8. calculo
 9. reduce de los procesos
 10. gather en v
-11. 
+
+# 05/05/23
+## Mayo 2018
+### Ejer 2
+
 # Tags
 #2- 
 #2-2 
