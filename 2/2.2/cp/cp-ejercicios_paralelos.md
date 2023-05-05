@@ -132,13 +132,12 @@ if (! root ){
 	for ( proc = 0; proc < n_procs ; proc ++){  
 		// recibimos cada bloque excepto el nuestro propio  
 		if ( proc > 0)  
-			MPI_Recv ( res_local , N * block_size , MPI_DOUBLE , proc ,  
-		MPI_ANY_TAG, MPI_COMM_WORLD , MPI_STATUS_IGNORE );  
+			MPI_Recv ( res_local, N * block_size, MPI_DOUBLE, proc, MPI_ANY_TAG, 
+				MPI_COMM_WORLD, MPI_STATUS_IGNORE );  
 		// y lo ordenamos en la matriz resultado  
 		for ( i =0; i < block_size ; i ++){  
-			memcpy ( res [ proc + i * n_procs ] ,  
-			res_local [ i ] ,  
-			N * sizeof ( double ));  
+			memcpy ( res [ proc + i * n_procs ], res_local [ i ],
+				N * sizeof( double ));  
 		}  
 	}  
 	escribe ( res );  
