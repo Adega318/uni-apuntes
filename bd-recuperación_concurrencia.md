@@ -14,10 +14,12 @@ Lo que lleva a las siguientes acciones:
 
 # Recuperación
 ## Fallos
-Cuando se produce un fallo se pueden perder acciones realizadas, esto se debe a que
-
-
-Esto se puede evitar con  la comprobación de la llegada al estado esperado tras la operación y restauración a un estado consistente.
+Cuando se produce un fallo se pueden perder acciones realizadas, esto se debe a que en el proceso de realizar la acción se pasa por un estado inconsistente.
+Estos fallos se pueden paliar con  la comprobación de la llegada al estado esperado tras la operación y restauración a un estado consistente.
+## Transacción
+Una transacción es una acción que pasa por un estado incoherente, las transacciones deben de cumplir las propiedades ACID:
+- Atomicidad, si una operación se refleja en la base de datos se reflejan todas.
+- Consistencia, una transacción 
 # Tags
 #2- 
 #2-2 
