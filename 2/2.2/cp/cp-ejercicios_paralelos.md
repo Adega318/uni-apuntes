@@ -107,7 +107,43 @@ Realizando $N(N-1)/2$ comparaciones.
 #### a)
 Descomposición de domino, asignando tareas de manera cíclica para aumentar el balanceo.
 #### b)
+```C
+int block_size = N / n_procs ;  
+double res_local [ block_size ][ N ];
 
+if ( root )  
+	lee ( gatos );
+
+MPI_Bcast ( gatos, N, MPI_GATO, 0, MPI_COMM_WORLD );  
+/* el reparto del bucle principal es similar al utilizado  
+* en la primera pr ́actica de la asignatura para el c ́alculo  
+* de pi */  
+int i_local = 0;  
+for ( i = rank ; i < N ; i += n_procs ){  
+	for ( j =0 ; j < i ; ++ j )  
+		res_local [ i_local ][ j ] = f ( gatos [ i ] , gatos [ j ]);  
+	++ i_local ;  
+}
+
+if (! root ){  
+	// enviamos el bloque calculado al proceso root  
+	MPI_Send ( res_local, N * block_size, MPI_DOUBLE, 0, 1, MPI_COMM_WORLD );  
+}else{  
+	for ( proc = 0; proc < n_procs ; proc ++){  
+		// recibimos cada bloque excepto el nuestro propio  
+		if ( proc > 0)  
+			MPI_Recv ( res_local , N * block_size , MPI_DOUBLE , proc ,  
+		MPI_ANY_TAG, MPI_COMM_WORLD , MPI_STATUS_IGNORE );  
+		// y lo ordenamos en la matriz resultado  
+		for ( i =0; i < block_size ; i ++){  
+			memcpy ( res [ proc + i * n_procs ] ,  
+			res_local [ i ] ,  
+			N * sizeof ( double ));  
+		}  
+	}  
+	escribe ( res );  
+}
+```
 # Tags
 #2- 
 #2-2 
