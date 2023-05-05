@@ -8,8 +8,12 @@ Cada proceso tiene su área de memoria.
 
 ![[Pasted image 20230505114221.png]]
 
-Lo que lleva a las siguientes aciones:
-- Leer, lectura del dato deseado y traslado de la misma al área del programa s
+Lo que lleva a las siguientes acciones:
+- Leer, lectura del dato deseado y traslado de la misma al área del programa solicitante.
+- Escritura, traslado del dato a memoria intermedia, con el Output realizado por el sistema de paginación en un tiempo indeterminado.
+# Recuperación
+## Fallos
+Cuando se produce un fallo se pueden perder acciones realizadas.
 # Tags
 #2- 
 #2-2 
