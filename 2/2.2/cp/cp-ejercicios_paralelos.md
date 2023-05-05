@@ -175,8 +175,8 @@ $$S_p= \frac{T_{seq}}{T_{para}}=\frac{12\times11/2}{26}=2.54$$
 $$Eff=\frac{2.54}{3}=0.85$$
 ### Ejer 1
 #### a)
-$$T_{par}= T_{clac}+T_{comm}=(256\times256\times256\times8)+(6\times T_{mensj})=134217728+(6\times (2^{18}+4\times256^2))=$$
-$$S_p= \frac{T_{seq}}{T_{para}}=\frac{1024\times1024\times1024\times8}{26}=2.54$$
+$$T_{par}= T_{clac}+T_{comm}=(256\times256\times256\times8)+(6\times T_{mensj})=$$ $$134217728+(6\times (2^{18}+4\times256^2))=137363456$$
+$$S_p= \frac{T_{seq}}{T_{para}}=\frac{1024\times1024\times1024\times8}{137363456}=2.54$$
 # Tags
 #2- 
 #2-2 
