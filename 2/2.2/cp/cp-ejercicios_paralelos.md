@@ -105,7 +105,9 @@ Realizando $N(N-1)/2$ comparaciones.
 - P0 I/O
 
 #### a)
-Descomposición de domino, asignando tareas de manera cíclica.
+Descomposición de domino, asignando tareas de manera cíclica para aumentar el balanceo.
+#### b)
+
 # Tags
 #2- 
 #2-2 
