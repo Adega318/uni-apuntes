@@ -81,7 +81,7 @@ Una híbrida entre:
 # 05/05/23
 ## Mayo 2018
 ### Ejer 2
-Comparar pares de un conjunto de 100000 elementos con una función simétrica con un coste de comparación fijo. Tenemos el siguiente algoritmo:
+Comparar pares de un conjunto de 100000 elementos con 1500 datos de cada uno y una función simétrica con un coste de comparación fijo. Tenemos el siguiente algoritmo:
 ```C
 gato_t gatos [ N ];
 double res [ N ][ N ];
@@ -98,13 +98,14 @@ Dándonos como resultado:
 
 ![[Pasted image 20230505104107.png]]
 
+Realizando $N(N-1)/2$ comparaciones.
 #### Consideraciones
 - Número de gatos y comparaciones múltiplos del numero de procesos.
 - Comunicación despreciable
 - P0 I/O
 
 #### a)
-
+Descomposición de domino, asignando tareas de manera cíclica.
 # Tags
 #2- 
 #2-2 
