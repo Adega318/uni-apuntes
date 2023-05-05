@@ -11,9 +11,13 @@ Cada proceso tiene su área de memoria.
 Lo que lleva a las siguientes acciones:
 - Leer, lectura del dato deseado y traslado de la misma al área del programa solicitante.
 - Escritura, traslado del dato a memoria intermedia, con el Output realizado por el sistema de paginación en un tiempo indeterminado.
+
 # Recuperación
 ## Fallos
-Cuando se produce un fallo se pueden perder acciones realizadas.
+Cuando se produce un fallo se pueden perder acciones realizadas, esto se debe a que
+
+
+Esto se puede evitar con  la comprobación de la llegada al estado esperado tras la operación y restauración a un estado consistente.
 # Tags
 #2- 
 #2-2 
