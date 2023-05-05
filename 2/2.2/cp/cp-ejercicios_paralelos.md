@@ -125,6 +125,7 @@ for ( i = rank ; i < N ; i += n_procs ){
 	++ i_local ;  
 }
 
+//sustituible por gather y comentario de que se deve de ordenar la matriz.
 if (! root ){  
 	// enviamos el bloque calculado al proceso root  
 	MPI_Send ( res_local, N * block_size, MPI_DOUBLE, 0, 1, MPI_COMM_WORLD );  
@@ -133,7 +134,8 @@ if (! root ){
 		// recibimos cada bloque excepto el nuestro propio  
 		if ( proc > 0)  
 			MPI_Recv ( res_local, N * block_size, MPI_DOUBLE, proc, MPI_ANY_TAG, 
-				MPI_COMM_WORLD, MPI_STATUS_IGNORE );  
+				MPI_COMM_WORLD, MPI_STATUS_IGNORE );
+				
 		// y lo ordenamos en la matriz resultado  
 		for ( i =0; i < block_size ; i ++){  
 			memcpy ( res [ proc + i * n_procs ], res_local [ i ],
@@ -143,6 +145,10 @@ if (! root ){
 	escribe ( res );  
 }
 ```
+#### c)
+| P0  | P1  | P2  |
+| --- | --- | --- |
+|     |     |     |
 # Tags
 #2- 
 #2-2 
