@@ -13,13 +13,22 @@ Lo que lleva a las siguientes acciones:
 - Escritura, traslado del dato a memoria intermedia, con el Output realizado por el sistema de paginación en un tiempo indeterminado.
 
 # Recuperación
-## Fallos
-Cuando se produce un fallo se pueden perder acciones realizadas, esto se debe a que en el proceso de realizar la acción se pasa por un estado inconsistente.
-Estos fallos se pueden paliar con  la comprobación de la llegada al estado esperado tras la operación y restauración a un estado consistente.
 ## Transacción
 Una transacción es una acción que pasa por un estado incoherente, las transacciones deben de cumplir las propiedades ACID:
 - Atomicidad, si una operación se refleja en la base de datos se reflejan todas.
-- Consistencia, una transacción 
+- Consistencia, una transacción mantiene la coherencia de la base de datos.
+- Aislamiento, las transacciones deben realizarse de manera concurrente pero no interferir entre ellas.
+- Durabilidad, las transacciones exitosas permanecen en la base de datos.
+
+### Commit
+Señaliza la exitosa fiscalización de una transacción.
+### Rollback
+Señaliza una transacción no exitosa y que sus cambios deben deshacerse.
+
+### Estados
+
+![[Pasted image 20230505120746.png]]
+
 # Tags
 #2- 
 #2-2 
