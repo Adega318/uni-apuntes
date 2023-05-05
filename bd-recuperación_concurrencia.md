@@ -20,6 +20,10 @@ Una transacción es una acción que pasa por un estado incoherente, las transacc
 - Aislamiento, las transacciones deben realizarse de manera concurrente pero no interferir entre ellas.
 - Durabilidad, las transacciones exitosas permanecen en la base de datos.
 
+#### Concurrencia
+En la concurrencia de dos transacciones sobre el mismo dato podemos observar varios problemas:
+- P
+
 ### Commit
 Señaliza la exitosa fiscalización de una transacción.
 ### Rollback
@@ -29,6 +33,14 @@ Señaliza una transacción no exitosa y que sus cambios deben deshacerse.
 
 ![[Pasted image 20230505120746.png]]
 
+## Tipos de fallos
+Tenemos varios tipos de fallos en el sistema de almacenamiento:
+- Duros, fallos que daña el medio de almacenamiento.
+- Suaves, perdida de datos en los almacenamientos volátiles.
+- Software, fallos que alteran la consistencia de la base de datos.
+
+## Recuperación Log
+Mediante un registro lógico LOG mantiene constancia de la actividades de la base de datos, requiriendo su almacenamiento estable.
 # Tags
 #2- 
 #2-2 
