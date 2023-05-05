@@ -23,7 +23,9 @@ Una transacción es una acción que pasa por un estado incoherente, las transacc
 #### Concurrencia
 En la concurrencia de dos transacciones sobre el mismo dato podemos observar varios problemas:
 - Pérdida de actualización, en este caso la consecuente actualización del dato produce la perdida de la primera actualización.
-- Lectura sucia, se realiza una leztura de un dato que 
+- Lectura sucia, se realiza una lectura de un dato modificado que es posteriormente hecho rollback.
+- Lectura no repetible, necesidad de la doble lectura de un dato que es modificado por otra transacción en el proceso.
+- Lectura fantasma, 
 
 ### Commit
 Señaliza la exitosa fiscalización de una transacción.
