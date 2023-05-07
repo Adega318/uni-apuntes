@@ -5,8 +5,9 @@ Protocolo de acceso aleatorio para canales de difusión, teniendo a través de l
 - Conmutadores, mayor velocidad.
 
 ## CSMA
-
+Es un método de trasmisión basado en la escucha y espera parara trasmitir, esto lleva a mínimas colisiones, produciéndose únicamente cuando se produce una trasmisión simultanea, requiriendo confirmación.
 ## CSMA/CD
+Esta es una mejora sobre la CSMA, mantiene la escucha durante la trasmisión 
 ## Trama
 # Wifi
 ## Asociación
