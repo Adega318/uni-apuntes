@@ -28,6 +28,7 @@ El intercambio TCP implementa ARQ retroceso N con matices como:
 ACKs retardados:
 - No se envía el ACK inmediatamente al recibir el dato, en su lugar se espera para enviarlos con datos.
 
+Algoritmo de Nagle, algoritmo para resolver el problema de numerosos pequeños 
 ### No interactivo
 
 ![[Pasted image 20230425185148.png]]
