@@ -7,8 +7,19 @@ Protocolo de acceso aleatorio para canales de difusión, teniendo a través de l
 ## CSMA
 Es un método de trasmisión basado en la escucha y espera parara trasmitir, esto lleva a mínimas colisiones, produciéndose únicamente cuando se produce una trasmisión simultanea, requiriendo confirmación.
 ## CSMA/CD
-Esta es una mejora sobre la CSMA, mantiene la escucha durante la trasmisión 
+Esta es una mejora sobre la CSMA, mantiene la escucha durante la trasmisión para detectar colisiones. Cuando una colisión se produce se espera un tiempo aleatorio para reintentar la trasmisión, aumentando el tiempo cada vez que se falla.
 ## Trama
+
+![[Pasted image 20230507185300.png]]
+
+Las tramas de ethernet tiene los siguientes campos:
+- Preámbulo, patrón de sincronización.
+- Destino
+- Origen
+- Tipo, tipo de protocolo utilizado para los datos.
+- Datos, max 1500 bytes.
+- Relleno, relleno para asegurar el funcionamiento de la detección de colisiones.
+- FCS, 
 # Wifi
 ## Asociación
 ## CSMA/CA
