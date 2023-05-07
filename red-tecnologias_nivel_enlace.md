@@ -36,9 +36,23 @@ Redes con gran movilidad y flexibilidad con la desventajas del ancho de banda, t
 El BSS es un grupo de estaciones que se comunican entre sí, teniendo dos tipos:
 - Independientes, tiene una comunicación directa en un grupo reducido de carácter temporal.
 - Infraestructura, varios puntos de acceso conectados por infraestructura, estos puntos envían señales baliza para permitir conocer la mas cercana y potente.
+
 Por otra parte tenemos la ESS, siendo una combinación de BSSs.
 ## Asociación
+
+![[Pasted image 20230507194627.png]]
+
+En el nivel de aplicación tenemos varios sistemas.
+SSID, identificador de la red asociada a un punto de acceso.
+Los equipos en una red deben asociarse a un punto de acceso, teniendo dos métodos:
+- Pasivo, espera a una baliza de un punto de acceso.
+- Activa, solicitud de identificación al punto de acceso.
+
 ## CSMA/CA
+
+![[Pasted image 20230507194935.png]]
+
+Este protocolo de comunicación es una modificación del CSMA/CD para acomodoar a la naturaleza de la 
 ## Seguridad
 # Tags
 #2- 
