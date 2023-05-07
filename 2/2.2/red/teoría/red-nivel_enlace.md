@@ -8,7 +8,7 @@ Las tramas trasmitidas tienen una MAC de destino asignada, siendo FF:FF:FF:FF:FF
 
 ![[Pasted image 20230507182459.png]]
 
-ARP es la correspondencia entre IP 32 bits y MAC de 48 bits.
+ARP es la conversión de IP 32 bits a MAC de 48 bits y viceversa.
 ## Formato
 
 ![[Pasted image 20230507182947.png]]
@@ -27,7 +27,7 @@ El formato de un paquete ARP tiene los siguientes campos:
 	- IP destino
 
 ## Caché
-
+Para evitar el uso excesivo del broadcast se mantiene en memoria las conversiones IP | MAC ya hechas, con un tiempo de vida.
 # Tags
 #2- 
 #2-2 
