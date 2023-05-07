@@ -15,7 +15,7 @@ Existen dos tipos de tráfico de datos en TCP:
 - Interactivo, gran número de segmentos de pequeño tamaño.
 - No interactivo, segmentos de gran tamaño siendo normalmente el máximo de la red.
 
-El intercambio TCP implemento ARQ retroceso N con matices como:
+El intercambio TCP implementa ARQ retroceso N con matices como:
 - paquete fuera de orden son almacenados.
 - ignoro de ACK repetidos.
 - temporizador de cada grupo de paquetes se mantiene.
