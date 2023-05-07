@@ -31,6 +31,9 @@ Redes con gran movilidad y flexibilidad con la desventajas del ancho de banda, t
 - Medio inalámbrico, radio frecuencia.
 - Equipo inalámbrico, dispositivos con interfaz para conectarse a la red.
 
+![[Pasted image 20230507194012.png]]
+
+
 ## Asociación
 ## CSMA/CA
 ## Seguridad
