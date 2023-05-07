@@ -14,7 +14,20 @@ ARP es la correspondencia entre IP 32 bits y MAC de 48 bits.
 ![[Pasted image 20230507182947.png]]
 
 El formato de un paquete ARP tiene los siguientes campos:
-- 
+- Tipo de trama, ARP
+- Tipo de HW, Ethernet
+- Tipo de protocolo, IP
+- Tamaño de dirección HW, 6 bytes
+- Tamaño de dirección protocolo, 4 bytes
+- Opciones, indica el tipo de operación (1 request, 2 reply)
+- Direcciones
+	- Ethernet origen
+	- IP origen
+	- Ethernet destino
+	- IP destino
+
+## Caché
+
 # Tags
 #2- 
 #2-2 
