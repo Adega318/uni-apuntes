@@ -23,6 +23,13 @@ Las tramas de ethernet tiene los siguientes campos:
 
 # Wifi
 
+![[Pasted image 20230507192943.png]]
+
+Redes con gran movilidad y flexibilidad con la desventajas del ancho de banda, teniendo distintos tipos componentes:
+- Infraestructura, red física que da acceso a internet a la red inalámbrica.
+- Punto de acceso, punto donde se pasa de la inalambrica a la fisica
+- Medio inalámbrico.
+- Equipo inalámbrico.
 ## Asociación
 ## CSMA/CA
 ## Seguridad
