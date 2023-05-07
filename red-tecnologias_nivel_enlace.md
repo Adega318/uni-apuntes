@@ -52,8 +52,10 @@ Los equipos en una red deben asociarse a un punto de acceso, teniendo dos métod
 
 ![[Pasted image 20230507194935.png]]
 
-Este protocolo de comunicación es una modificación del CSMA/CD para acomodoar a la naturaleza de la 
+Este protocolo de comunicación es una modificación del CSMA/CD para acomodar a la naturaleza del medio de comunicación.
+Cuando se quiere trasmitir se manda una petición de envió RTS indicado el tiempo de trasmisión, el punto de acceso responde con un permiso de envío CTS con el tiempo disponible para enviar. Las colisiones se resuelven con trasmisión de mensajes completos y confirmación ACK.
 ## Seguridad
+
 # Tags
 #2- 
 #2-2 
