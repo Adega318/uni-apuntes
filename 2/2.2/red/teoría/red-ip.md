@@ -6,7 +6,6 @@
 ![[Pasted image 20230321133951.png]]
 
 La cabecera IP tiene un tamaño de 20 bytes con un campo opcional que comparte espacio con los datos, teniendo los siguientes campos:
-- TCP/IP.
 - Versión, versión de IP.
 - Longitud de la cabecera, número de palabras de 32 bits de la cabecera.
 - Tipo de servicio.
