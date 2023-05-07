@@ -33,7 +33,10 @@ Redes con gran movilidad y flexibilidad con la desventajas del ancho de banda, t
 
 ![[Pasted image 20230507194012.png]]
 
-
+El BSS es un grupo de estaciones que se comunican entre sí, teniendo dos tipos:
+- Independientes, tiene una comunicación directa en un grupo reducido de carácter temporal.
+- Infraestructura, varios puntos de acceso conectados por infraestructura, estos puntos envían señales baliza para permitir conocer la mas cercana y potente.
+Por otra parte tenemos la ESS, siendo una combinación de BSSs.
 ## Asociación
 ## CSMA/CA
 ## Seguridad
