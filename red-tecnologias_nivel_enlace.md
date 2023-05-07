@@ -17,10 +17,12 @@ Las tramas de ethernet tiene los siguientes campos:
 - Destino
 - Origen
 - Tipo, tipo de protocolo utilizado para los datos.
-- Datos, max 1500 bytes.
+- Datos, máx 1500 bytes.
 - Relleno, relleno para asegurar el funcionamiento de la detección de colisiones.
-- FCS, 
+- FCS, código CRC de detección de errores.
+
 # Wifi
+
 ## Asociación
 ## CSMA/CA
 ## Seguridad
