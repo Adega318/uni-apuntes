@@ -55,6 +55,11 @@ Los equipos en una red deben asociarse a un punto de acceso, teniendo dos métod
 Este protocolo de comunicación es una modificación del CSMA/CD para acomodar a la naturaleza del medio de comunicación.
 Cuando se quiere trasmitir se manda una petición de envió RTS indicado el tiempo de trasmisión, el punto de acceso responde con un permiso de envío CTS con el tiempo disponible para enviar. Las colisiones se resuelven con trasmisión de mensajes completos y confirmación ACK.
 ## Seguridad
+Las redes de radiofrecuencia tiene muchos compromisos de seguridad por su naturaleza y la facilidad de escucha, se establecen varias soluciones:
+- WEP, clave estática de cifrado.
+- WPA, clave temporal de cifrado.
+- WPA2, más seguro por el método de cifrado, clave de 128 bits.
+- WPA3,  clave de 192 bits y derivación de claves independiente de la contraseña inicial.
 
 # Tags
 #2- 
