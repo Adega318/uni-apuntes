@@ -1,5 +1,8 @@
 # Sistemas de producción
+Sistemas inteligentes basados en reglas frente a una base de hechos.
 ## Clasificación
+### Dirigidos por datos
+- Inferencia obtenida cuando los antecedentes de alguna de sus reglas de producción se emparejan 
 # Arquitectura
 
 ![[Pasted image 20230308125411.png]]
