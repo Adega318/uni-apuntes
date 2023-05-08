@@ -28,13 +28,13 @@ El intercambio TCP implementa ARQ retroceso N con matices como:
 ACKs retardados:
 - No se envía el ACK inmediatamente al recibir el dato, en su lugar se espera para enviarlos con datos.
 
-Algoritmo de Nagle, algoritmo para resolver el problema de numerosos pequeños 
+Algoritmo de Nagle, algoritmo para resolver el problema de numerosos pequeños paquetes convirtiendo TCP en un protocolo de parada y espera.
 ### No interactivo
 
 ![[Pasted image 20230425185148.png]]
 ![[Pasted image 20230425185245.png]]
 
-Basado en pocos segmentos de gran tamaño, con uso de ventana deslizante para el control de flujo.
+Basado en pocos segmentos de gran tamaño, con uso de ventana deslizante para el control de flujo, esto permite confirmar varios paquetes simultáneamente.
 ## Control de flujo
 La ventana deslizante tiene un funcionamiento basado en:
 - Ventana ofrecida, número de bytes que el receptor puede soportar (win).
