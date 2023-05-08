@@ -37,6 +37,9 @@ Evolución del basado en metas, expandiendo los sistemas de planificación basá
 ![[Pasted image 20230217205842.png]]
 
 # Tipos de problemas
+
+![[Pasted image 20230508162257.png]]
+
 ## Determinismo
 Los mundos se pueden caracterizar en deterministas o estocástico, en uno determinista una acción tiene un resultado asegurado, pero uno estocástico el resultado no está asegurado.
 ## Observabilidad
