@@ -41,6 +41,10 @@ Selecciono de 2 individuos, se cruzan evalúan y ordenan, eliminando los dos peo
 ![[Pasted image 20230503132532.png]]
 
 Se selecciona uno, se muta, evalúa y ordena.
+# Función de evaluación
+
+# Criterios de paro
+## Criterios sobre parámetros
 # Tags
 #2- 
 #2-2 
