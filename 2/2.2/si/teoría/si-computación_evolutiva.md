@@ -3,8 +3,9 @@
 ![[Pasted image 20230508133850.png]]
 
 ## Técnicas
-### Algoritmos genécticos
-
+### Algoritmos genéticos
+Los algoritmos genéticos son algoritmos de busqueda inpirados en la naturaleza, mezclando los más aptos e introduciendo mutaciones a la población.
+Los algo
 
 
 
