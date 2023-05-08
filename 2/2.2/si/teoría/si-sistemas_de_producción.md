@@ -30,9 +30,15 @@ Estructura que contiene la información estática del problema:
 
 Almacena los cambio de estado del sistema, representando nuestro estado actual.
 Encargado de aceptar la información externa.
-
+Foco de atracción de las reglas del sistema.
 ## Motor inferente (MI)
-Examina la MA y determina las reglas a ejecutar.
+Las funciones del modelo inferente son:
+- Examinar la memoria activa y determinar las reglas a ejecutarse, encontrando las conexiones entre inicial y meta.
+	- desde la premisa de las conclusiones
+	- desde las soluciones a los datos iniciales
+	- desde ambos simultáneamente
+- Control y organización del proceso de ejecución
+- Actual
 ## Fase de decisión
 ### Tareas
 - Restricción
