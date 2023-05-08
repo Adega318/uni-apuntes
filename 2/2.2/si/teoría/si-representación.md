@@ -1,4 +1,4 @@
-# Agentes basados
+# Agentes basados en conocimiento
 Son agentes que constan de una base de conocimiento. Esto hace que su base de conocimiento sea vital para la toma de decisiones.
 # Mundo wumpus
 Problema de agentes inteligentes con formato de juego.

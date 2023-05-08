@@ -18,7 +18,8 @@ Secuencia de acciones que lleva a un estado meta, siendo la solución optima la 
 Para hallar una solución se debe explorar el espacio de estados con:
 - criterio de selección y aplicación
 - capacidad de decisión
-- busqueda simetrica
+- búsqueda simétrica
+
 # Proceso de Búsqueda
 ## Estrategia de exploración
 Las estrategias pueden ser diferentes y variadas
@@ -39,7 +40,7 @@ Las estrategias pueden ser diferentes y variadas
 ![[Pasted image 20230217210503.png]]
 
 # Estrategias de búsqueda
-## Característica
+## Características
 ### Dirección
 Tenemos dos acercamientos a la dirección de la búsqueda de los estados iniciales a la meta o de la meta al estado inicial.
 ### Topología
