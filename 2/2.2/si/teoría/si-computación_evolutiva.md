@@ -51,6 +51,8 @@ Tamaño de población, aspecto de gran importancia en el costo comunicacional y 
 - población de tamaño constante o variable.
 
 Porcentaje de cruce y mutación
+- cruce de 0.9 y mutación de 0.05-0.1
+- valores variables durante el algoritmo, comienzan muy cruzado y aumenta la mutación con el tiempo.
 # Tags
 #2- 
 #2-2 
