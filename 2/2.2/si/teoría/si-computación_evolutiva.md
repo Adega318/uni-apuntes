@@ -44,7 +44,13 @@ Se selecciona uno, se muta, evalúa y ordena.
 # Función de evaluación
 
 # Criterios de paro
+Criterios para la parada del entrenamiento, 
 ## Criterios sobre parámetros
+Tamaño de población, aspecto de gran importancia en el costo comunicacional y vital para evitar la homogeneizacion.
+- balance entre pequeña y grande.
+- población de tamaño constante o variable.
+
+Porcentaje de cruce y mutación
 # Tags
 #2- 
 #2-2 
