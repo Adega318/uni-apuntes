@@ -38,7 +38,9 @@ Las funciones del modelo inferente son:
 	- desde las soluciones a los datos iniciales
 	- desde ambos simultáneamente
 - Control y organización del proceso de ejecución
-- Actual
+- Actualizar memoria activa
+- Asegurar autoconocimiento
+
 ## Fase de decisión
 ### Tareas
 - Restricción
