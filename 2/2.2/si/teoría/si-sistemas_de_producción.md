@@ -22,7 +22,15 @@ Sistemas inteligentes basados en reglas frente a una base de hechos.
 
 ![[Pasted image 20230508172143.png]]
 
-Conocimiento de situaciones detectadas, datos iniciales.
+Estructura que contiene la información estática del problema:
+- datos iniciales
+- datos incorporados
+- hechos establecidos
+- hipótesis de trabajo
+
+Almacena los cambio de estado del sistema, representando nuestro estado actual.
+Encargado de aceptar la información externa.
+
 ## Motor inferente (MI)
 Examina la MA y determina las reglas a ejecutar.
 ## Fase de decisión
