@@ -13,6 +13,12 @@ Compuestos por:
 4. Prueba de meta, establecimiento de la comprobación de meta.
 5. Función de coste del camino, función de calculo del coste del camino a partir de las acciones tomadas.
 
+## Solución de problema de búsqueda
+Secuencia de acciones que lleva a un estado meta, siendo la solución optima la que dentro del espacio de soluciones tiene el menor costo.
+Para hallar una solución se debe explorar el espacio de estados con:
+- criterio de selección y aplicación
+- capacidad de decisión
+- busqueda simetrica
 # Proceso de Búsqueda
 ## Estrategia de exploración
 Las estrategias pueden ser diferentes y variadas
