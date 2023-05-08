@@ -36,7 +36,7 @@ Problema de agentes inteligentes con formato de juego.
 ## Modelos
 Los modelos son los posibles estados del entorno, donde se pueden evaluar sentencias.
 ## Inferencia lógica
-Es el proceso de evaluar sobre los modelos posibles por las percepciones, una sentencia.
+Es el proceso de evaluar sobre los modelos posibles por las percepciones, una sentencia (ver los modelos que salen de una acción).
 # Lógica proposicional
 Permite definir cualquier cosa para la que existe un procedimiento completo y sólido.
 ## Sintaxis

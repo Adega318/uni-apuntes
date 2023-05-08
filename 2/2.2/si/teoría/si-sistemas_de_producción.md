@@ -1,8 +1,5 @@
-# Clasificación
-## Datos
-
-## Objetivos
-Se exploran solo caminos que veamos que llevan a una meta u objetivos.
+# Sistemas de producción
+## Clasificación
 # Arquitectura
 
 ![[Pasted image 20230308125411.png]]
