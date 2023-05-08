@@ -15,10 +15,9 @@ Los algoritmos genéticos tiene los siguientes componente:
 4. Operadores genéticos.
 5. Valores de parámetros.
 
-# Ciclos de generacione
-# Selección
-## Ciclos de generaciones
-Se hace la selección de los mejores individuos y algunos peores, esto se puede hacer por:
+# Ciclos de generaciones
+## Criterio de selección
+Selección  de los individuos a cruzar para la siguiente generación, habiendo varios tipos de selecciones:
 - Ruleta, se sortean N huecos entre los individuos con probabilidades proporcionales a su desempeño.
 - Torneo, se seleccionan N al azar y  se escoge el mas apto.
 
@@ -42,7 +41,7 @@ Generación de valores para los genes, clasificándose en:
 
 La mutación la diversidad.
 
-# Sustitución
+## Sustitución
 Para mantener el numero fijo de población se deben sustituir los individuos de la población, con tres tipos de sustitución en base a su evaluación:
 - Peores, se eliminan los peores de la población.
 - Padres, se eliminan los padres.
