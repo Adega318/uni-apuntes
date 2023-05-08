@@ -4,11 +4,18 @@
 
 ## Técnicas
 ### Algoritmos genéticos
-Los algoritmos genéticos son algoritmos de busqueda inpirados en la naturaleza, mezclando los más aptos e introduciendo mutaciones a la población.
-Los algo
 
+![[Pasted image 20230508135107.png]]
 
+Los algoritmos genéticos son algoritmos de búsqueda inspirados en la naturaleza, mezclando los más aptos e introduciendo mutaciones a la población.
+Los algoritmos genéticos tiene los siguientes componente:
+1. Representación vectorial de las soluciones.
+2. Método de creación de poblaciones iniciales.
+3. Función de evaluación.
+4. Operadores genéticos.
+5. Valores de parámetros.
 
+# Ciclos de generacione
 # Selección
 ## Ciclos de generaciones
 Se hace la selección de los mejores individuos y algunos peores, esto se puede hacer por:
