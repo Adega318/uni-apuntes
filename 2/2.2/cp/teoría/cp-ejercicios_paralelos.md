@@ -177,6 +177,14 @@ $$Eff=\frac{2.54}{3}=0.85$$
 #### a)
 $$T_{par}= T_{clac}+T_{comm}=(256^3\times8)+(6\times T_{mensj})= 134217728+(6\times (2^{18}+4\times256^2))=137363456$$
 $$S_p= \frac{T_{seq}}{T_{para}}=\frac{1024^3\times8}{137363456}=62.53$$
+# 09/05/23
+## Mayo 2022
+### Ejer1
+Datos:
+- 300000 interacciones
+- 1mn por interacción
+- 3000 fragmentos de interacciones, fragmentación de 4h
+- 4h recopilación y 
 # Tags
 #2- 
 #2-2 
