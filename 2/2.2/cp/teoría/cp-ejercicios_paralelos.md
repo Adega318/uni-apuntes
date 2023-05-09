@@ -186,15 +186,16 @@ Datos:
 - 3000 fragmentos de interacciones, fragmentación de 4h (p0)
 - 4h recopilación y procesado (p0)
 - (p0) no llama, solo reparte y recopila al final.
+- Se debe hacer todo el reparto de manera inicial.
 
 #### a) 
 Ley de Andal:
 $$Max_{sp}=\frac{T_{total}}{T_{seq}}=\frac{300000+240\times2}{240\times2}=625$$
 $$T_{seq}=T_{InSeq}+T_{paralelizable}$$
-625 es la velocidad maxima.
+625 es la velocidad máxima.
 #### b)
 La descomposición es de domino, un número de fragmentos con un número de tareas.
-
+La asignación es estática a causa de que todos los datos deben de ser repartidos inicialmente, con un modelo cíclico para fomentar el reparto uniforme de zonas de alta y baja población.
 # Tags
 #2- 
 #2-2 
