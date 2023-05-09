@@ -17,6 +17,10 @@ Tenemos cinco clases:
 Tenemos dos categorías:
 - Públicas, identifican un dispositivo en internet.
 - Privadas, usadas para funcionamiento interno, siendo de tipo A B o C y requiriendo de un NAT para acceder a internet.
+|         | A                         | B                           | C                             |
+| ------- | ------------------------- | --------------------------- | ----------------------------- |
+| Publica | 1.0.0.0 - 126.255.255.255 | 128.0.0.0 - 191.255.255.255 | 192.0.                              |
+| Privada | 10.0.0.0 - 10.255.255.255 | 172.16.0.0 - 172.31.255.255 | 192.168.0.0 - 192.168.255.255 |
 
 ## Loopback
 La dirección 127.0.0.1 se reserva para el localhost, siendo una interfaz para el envío de paquetes a la propia máquina.
