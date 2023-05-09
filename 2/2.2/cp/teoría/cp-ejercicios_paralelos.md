@@ -185,11 +185,16 @@ Datos:
 - 1mn por interacción
 - 3000 fragmentos de interacciones, fragmentación de 4h (p0)
 - 4h recopilación y procesado (p0)
+- (p0) no llama, solo reparte y recopila al final.
 
 #### a) 
-Ley de andal:
-$$Max_{sup}=\frac{T_{total}}{T_{seq}}=\frac{240\times2}{240\times2+300000}=$$
-$$T_{par}=T_{com}+$$
+Ley de Andal:
+$$Max_{sp}=\frac{T_{total}}{T_{seq}}=\frac{300000+240\times2}{240\times2}=625$$
+$$T_{seq}=T_{InSeq}+T_{paralelizable}$$
+625 es la velocidad maxima.
+#### b)
+La descomposición es de domino, un número de fragmentos con un número de tareas.
+
 # Tags
 #2- 
 #2-2 
