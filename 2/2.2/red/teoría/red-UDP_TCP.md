@@ -2,7 +2,7 @@
 
 ![[Pasted image 20230425131934.png]]
 
-Protocolo de nivel de transporte basado en datagramas, sin garantizar llegada y multiplexando los datos y efectuando comprobación de errores sin:
+Protocolo de nivel de transporte basado en datagramas (65.535 bytes máximo de datos), sin garantizar llegada y multiplexando los datos y efectuando comprobación de errores sin:
 - control de flujo
 - control de congestión
 - retransmisión de datos perdidos
