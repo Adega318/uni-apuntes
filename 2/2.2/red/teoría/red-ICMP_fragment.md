@@ -1,6 +1,6 @@
 # ICMP
 ## Introducción
-Protocolo de mensajes de error, con mensajes de tipo:
+Protocolo de mensajes de error de cabecera de 8 bytes, con mensajes de tipo:
 - Ping
 - Destino inalcanzable
 - Redirect
