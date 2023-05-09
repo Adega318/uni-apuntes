@@ -219,7 +219,54 @@ Datos:
 	![[Pasted image 20230509111921.png]]
 
 #### a)
+#### d)
+Realizaríamos por bloques de filas de A pasando X e Y al completo.
+```C
+double *A, *X, *Y, *I;  
+int rank, C, P, M, N, i, j, k;  
+MPI_Init(&argc, &argv);  
+MPI_Comm_rank(MPI_COMM_WORLD, &rank);  
 
+if(!rank) {  
+	read(&A,&X,&Y,&C,&P,&M,&N);  
+}  
+
+MPI_Bcast(&C, 1, MPI_INT, 0, MPI_COMM_WORLD);  
+MPI_Bcast(&P, 1, MPI_INT, 0, MPI_COMM_WORLD);  
+MPI_Bcast(&M, 1, MPI_INT, 0, MPI_COMM_WORLD);  
+MPI_Bcast(&N, 1, MPI_INT, 0, MPI_COMM_WORLD);  
+
+if(rank) {  
+	A = (double *)malloc(sizeof(double) * C/10 * P);  
+	X = (double *)malloc(sizeof(double) * P * M);  
+	Y = (double *)malloc(sizeof(double) * P * N);  
+}  
+
+I = (double *)malloc(sizeof(double) * C);  
+MPI_Scatter(A, C/10 * P, MPI_DOUBLE,  
+rank ? A : MPI_IN_PLACE, C/10 * P, MPI_DOUBLE, 0, MPI_COMM_WORLD);  
+
+MPI_Bcast(X, P * M, MPI_DOUBLE, 0, MPI_COMM_WORLD);  
+MPI_Bcast(Y, P * N, MPI_DOUBLE, 0, MPI_COMM_WORLD);  
+
+for(i = 0; i < C/10; i++) {  
+	I[i]=0;  
+	for(j = 0; j < P; j++) {  
+		for(k=0; k < M; k++)  
+			I[i] += A[i * P + j] * X[j * M + k];  
+		for(k=0; k < N; k++)  
+			I[i] -= A[i * P + j] * Y[j * N + k];  
+	}  
+}  
+
+MPI_Gather(rank ? I : MPI_IN_PLACE, C/10, MPI_DOUBLE,  
+I, C/10, MPI_DOUBLE, 0, MPI_COMM_WORLD);  
+
+if(!rank)  
+	print(I, C);  
+MPI_Finalize();
+```
+#### c) 
 # Tags
 #2- 
 #2-2 
