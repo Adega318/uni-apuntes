@@ -199,13 +199,13 @@ La asignación es estática a causa de que todos los datos deben de ser repartid
 #### C)
 Datos:
 - tes procesos a partir del p0
-- balanceo perfecto
+- balanceo perfecto (100000 por proceso)
 - 15mn por proceso parara entrega de datos por parte del p0
 - recolección instantánea
 
 Solución:
-Tiempo paralelo:
-
+- Tiempo paralelo$$T_{para}=T_{seq}+T_{comp}+T_{com}=(240\times2)+100000+(15\times3)=100525mn$$
+- Speedup$$$$
 # Tags
 #2- 
 #2-2 
