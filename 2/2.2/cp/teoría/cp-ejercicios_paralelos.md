@@ -182,9 +182,9 @@ $$S_p= \frac{T_{seq}}{T_{para}}=\frac{1024^3\times8}{137363456}=62.53$$
 ### Ejer1
 Datos:
 - 300000 interacciones
-- 1mn por interacción
+- 1min por interacción
 - 3000 fragmentos de interacciones, fragmentación de 4h (p0)
-- 4h recopilación y procesado (p0)
+- 4 h recopilación y procesado (p0)
 - (p0) no llama, solo reparte y recopila al final.
 - Se debe hacer todo el reparto de manera inicial.
 
@@ -192,7 +192,7 @@ Datos:
 Ley de Andal:
 $$Max_{sp}=\frac{T_{total}}{T_{seq}}=\frac{300000+240\times2}{240\times2}=625$$
 $$T_{seq}=T_{InSeq}+T_{paralelizable}$$
-625mn es la velocidad máxima.
+625 min es la velocidad máxima.
 #### b)
 La descomposición es de domino, un número de fragmentos con un número de tareas.
 La asignación es estática a causa de que todos los datos deben de ser repartidos inicialmente, con un modelo cíclico para fomentar el reparto uniforme de zonas de alta y baja población.
@@ -200,15 +200,21 @@ La asignación es estática a causa de que todos los datos deben de ser repartid
 Datos:
 - tes procesos a partir del p0
 - balanceo perfecto (100000 por proceso)
-- 15mn por proceso parara entrega de datos por parte del p0
+- 15 min por proceso parara entrega de datos por parte del p0
 - recolección instantánea
 
 Solución:
-- Tiempo paralelo$$T_{para}=T_{seq}+T_{comp}+T_{com}=(240\times2)+100000+(15\times3)=100525mn$$
+- Tiempo paralelo$$T_{para}=T_{seq}+T_{comp}+T_{com}=(240\times2)+100000+(15\times3)=100525\ min$$
 - Speedup$$Speedup= \frac{T_{seq}}{T_{para}}=\frac{30000+240\times2}{100525}=2.99$$
 - Eficiencia$$Eficiencia = \frac{Speedup}{Nproces}=\frac{2.99}{4}=0.75$$
 - Coste$$Coste= T_{para}\times Nproces=100525\times4=402100$$
-- Sobrecarga$$Sobrecarga=Coste-T_{seq}=402$$
+- Sobrecarga$$Sobrecarga=Coste-T_{seq}=402100-300480=101620\ min$$
+#### d)
+Se podría comenzar el procesamiento de los datos a medida que los procesos completen fragmentos de su tarea.
+### Ejer 2
+Datos:
+- Matriz A de $C\times P$ mide corrupción por persona
+- Matrizes X e Y 
 # Tags
 #2- 
 #2-2 
