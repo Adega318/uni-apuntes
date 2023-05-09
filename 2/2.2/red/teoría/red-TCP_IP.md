@@ -17,9 +17,11 @@ Tenemos cinco clases:
 Tenemos dos categorías:
 - Públicas, identifican un dispositivo en internet.
 - Privadas, usadas para funcionamiento interno, siendo de tipo A B o C y requiriendo de un NAT para acceder a internet.
+
+Rangos de publicas y privadas:
 |         | A                         | B                           | C                             |
 | ------- | ------------------------- | --------------------------- | ----------------------------- |
-| Publica | 1.0.0.0 - 126.255.255.255 | 128.0.0.0 - 191.255.255.255 | 192.0.                              |
+| Publica | 1.0.0.0 - 126.255.255.255 | 128.0.0.0 - 191.255.255.255 | 192.0.0.0 - 223.255.255.255   | 
 | Privada | 10.0.0.0 - 10.255.255.255 | 172.16.0.0 - 172.31.255.255 | 192.168.0.0 - 192.168.255.255 |
 
 ## Loopback
