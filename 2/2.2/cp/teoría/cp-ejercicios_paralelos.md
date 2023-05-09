@@ -214,7 +214,12 @@ Se podría comenzar el procesamiento de los datos a medida que los procesos comp
 ### Ejer 2
 Datos:
 - Matriz A de $C\times P$ mide corrupción por persona
-- Matrizes X e Y 
+- Matrizes X e Y de tamaños $P\times M \ \ P\times N$ respectivamente que miden las personas a ignorar
+- Algoritmo de calculo:
+	![[Pasted image 20230509111921.png]]
+
+#### a)
+
 # Tags
 #2- 
 #2-2 
