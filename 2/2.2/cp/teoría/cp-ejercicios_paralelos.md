@@ -244,8 +244,7 @@ if(rank) {
 
 I = (double *)malloc(sizeof(double) * C);  
 MPI_Scatter(A, C/10 * P, MPI_DOUBLE,  
-rank ? A : MPI_IN_PLACE, C/10 * P, MPI_DOUBLE, 0, MPI_COMM_WORLD);  
-
+	rank ? A : MPI_IN_PLACE, C/10 * P, MPI_DOUBLE, 0, MPI_COMM_WORLD);  
 MPI_Bcast(X, P * M, MPI_DOUBLE, 0, MPI_COMM_WORLD);  
 MPI_Bcast(Y, P * N, MPI_DOUBLE, 0, MPI_COMM_WORLD);  
 
@@ -260,13 +259,12 @@ for(i = 0; i < C/10; i++) {
 }  
 
 MPI_Gather(rank ? I : MPI_IN_PLACE, C/10, MPI_DOUBLE,  
-I, C/10, MPI_DOUBLE, 0, MPI_COMM_WORLD);  
+	I, C/10, MPI_DOUBLE, 0, MPI_COMM_WORLD);  
 
-if(!rank)  
-	print(I, C);  
+if(!rank) print(I, C);  
+
 MPI_Finalize();
 ```
-#### c) 
 # Tags
 #2- 
 #2-2 
