@@ -8,7 +8,7 @@
 6. [[red-intercambio_TCP]]
 7. [[red-IP]]
 8. [[red-enrutamiento]]
-9. [[red-ICMP]]
+9. [[red-ICMP_fragment]]
 10. [[red-ipv6]]
 11. [[red-nivel_enlace]]
 12. [[red-tecnologias_nivel_enlace]]
