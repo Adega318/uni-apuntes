@@ -1,6 +1,6 @@
 [[2-2-index]]
 # Teóricas
-1. [[red-redes_e_internet]]
+1. [[red-redes_e_internet]]´
 2. [[red-TCP_IP]]
 3. [[red-aplicación_1]]
 4. [[red-aplicación_2]]
