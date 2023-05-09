@@ -205,7 +205,10 @@ Datos:
 
 Solución:
 - Tiempo paralelo$$T_{para}=T_{seq}+T_{comp}+T_{com}=(240\times2)+100000+(15\times3)=100525mn$$
-- Speedup$$$$
+- Speedup$$Speedup= \frac{T_{seq}}{T_{para}}=\frac{30000+240\times2}{100525}=2.99$$
+- Eficiencia$$Eficiencia = \frac{Speedup}{Nproces}=\frac{2.99}{4}=0.75$$
+- Coste$$Coste= T_{para}\times Nproces=100525\times4=402100$$
+- Sobrecarga$$Sobrecarga=Coste-T_{seq}=402$$
 # Tags
 #2- 
 #2-2 
