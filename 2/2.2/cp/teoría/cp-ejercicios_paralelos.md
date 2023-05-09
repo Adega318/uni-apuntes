@@ -192,10 +192,20 @@ Datos:
 Ley de Andal:
 $$Max_{sp}=\frac{T_{total}}{T_{seq}}=\frac{300000+240\times2}{240\times2}=625$$
 $$T_{seq}=T_{InSeq}+T_{paralelizable}$$
-625 es la velocidad máxima.
+625mn es la velocidad máxima.
 #### b)
 La descomposición es de domino, un número de fragmentos con un número de tareas.
 La asignación es estática a causa de que todos los datos deben de ser repartidos inicialmente, con un modelo cíclico para fomentar el reparto uniforme de zonas de alta y baja población.
+#### C)
+Datos:
+- tes procesos a partir del p0
+- balanceo perfecto
+- 15mn por proceso parara entrega de datos por parte del p0
+- recolección instantánea
+
+Solución:
+Tiempo paralelo:
+
 # Tags
 #2- 
 #2-2 
