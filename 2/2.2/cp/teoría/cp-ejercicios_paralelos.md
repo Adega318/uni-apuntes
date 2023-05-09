@@ -183,8 +183,13 @@ $$S_p= \frac{T_{seq}}{T_{para}}=\frac{1024^3\times8}{137363456}=62.53$$
 Datos:
 - 300000 interacciones
 - 1mn por interacción
-- 3000 fragmentos de interacciones, fragmentación de 4h
-- 4h recopilación y 
+- 3000 fragmentos de interacciones, fragmentación de 4h (p0)
+- 4h recopilación y procesado (p0)
+
+#### a) 
+Ley de andal:
+$$Max_{sup}=\frac{T_{total}}{T_{seq}}=\frac{240\times2}{240\times2+300000}=$$
+$$T_{par}=T_{com}+$$
 # Tags
 #2- 
 #2-2 
