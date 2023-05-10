@@ -19,13 +19,15 @@ Tenemos dos categorías:
 - Privadas, usadas para funcionamiento interno, siendo de tipo A B o C y requiriendo de un NAT para acceder a internet.
 
 Rangos de publicas y privadas:
+
 |         | A                         | B                           | C                             |
 | ------- | ------------------------- | --------------------------- | ----------------------------- |
-| Publica | 1.0.0.0 - 126.255.255.255 | 128.0.0.0 - 191.255.255.255 | 192.0.0.0 - 223.255.255.255   | 
-| Privada | 10.0.0.0 - 10.255.255.255 | 172.16.0.0 - 172.31.255.255 | 192.168.0.0 - 192.168.255.255 |
+| Publica | 1.0.0.0 - 126.255.255.255 | 128.0.0.0 - 191.255.255.255 | 192.0.0.0 - 223.255.255.255   |
+| Privada | 10.0.0.0 - 10.255.255.255 | 172.16.0.0 - 172.31.255.255 | 192.168.0.0 - 192.168.255.255 | 
+
 
 ## Loopback
-La dirección 127.0.0.1 se reserva para el localhost, siendo una interfaz para el envío de paquetes a la propia máquina.
+Las direcciones 127.0.0.1 - 127.255.255.254 se reservan para el localhost, siendo una interfaz para el envío de paquetes a la propia máquina.
 ## IPV4
 Tres tipos de direcciones de envío:
 - unicast, única máquina.
