@@ -58,7 +58,7 @@ Las cabeceras TCP son de **20 bytes** (parte obligatoria, 40 con opciones) con l
 	- RST, reiniciar conexión.
 	- SYN, sincronizar.
 	- FIN, finalizar el envio de datos.
-- Tamaño de ventana, 
+- Tamaño de ventana, bits ofrecidos.
 - Checksum, comprobación de errores.
 - Puntero de urgencia, trasmisión de datos urgentes.
 - Opciones
