@@ -324,7 +324,7 @@ if(rank == 0) escribeResultado(numIgual);
 Datos:
 - topo logia de anillo, conexión con dos vecinos
 
-
+Se necesitaran $\frac{numP}{2}$ truncado. 
 # Tags
 #2- 
 #2-2 
