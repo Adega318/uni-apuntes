@@ -265,6 +265,11 @@ if(!rank) print(I, C);
 
 MPI_Finalize();
 ```
+# 12/05/23
+## Julio 2022
+### Ejer 1
+#### a)
+
 # Tags
 #2- 
 #2-2 
