@@ -275,7 +275,9 @@ Ley de Andal:$$Max_{sp}=\frac{T_{total}}{T_{seq}}=\frac{0.05\times t+0.95\times 
 ![[Pasted image 20230512104200.png]]
 
 Grados de concurrencia:
-- Máximo, número máximo de tareas simultaneas durante la ejecución, en este caso 
+- Máximo, número máximo de tareas simultaneas durante la ejecución, en este caso 7 (1,4,5,7,8,9,10)
+- Medio:$$GMC=\frac{\sum_p}{Peso\ camino\ critico}=\frac{200}{10+20\times2+30\times2}=1.82$$
+
 # Tags
 #2- 
 #2-2 
