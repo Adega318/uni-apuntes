@@ -314,13 +314,17 @@ MPI_Scatter(seq2, L/numP, MPI_CHAR,
 	rank ? seq2 : MPI_IN_PLACE, L/numP, MPI_CHAR, 0, MPI_COMM_WORLD);  
 	
 for(int i = 0; i < L/numP; i++)  
-	if(seq1[i] == seq2[i])  
-		resParcial++;  
+	if(seq1[i] == seq2[i]) resParcial++;  
 		
 MPI_Reduce(&resParcial, &numIgual, 1, MPI_INT, MPI_SUM, 0, MPI_COMM_WORLD);  
 
 if(rank == 0) escribeResultado(numIgual);
 ```
+#### c)
+Datos:
+- topo logia de anillo, conexión con dos vecinos
+
+
 # Tags
 #2- 
 #2-2 
