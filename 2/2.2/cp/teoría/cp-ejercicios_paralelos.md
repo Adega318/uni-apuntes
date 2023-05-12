@@ -325,6 +325,28 @@ Datos:
 - topo logia de anillo, conexión con dos vecinos
 
 Se necesitaran $\frac{numP}{2}$ truncado. 
+#### d)
+```C
+int soyFinal = 0;  
+if((rank == numP/2) || (rank == numP/2+1)) soyFinal = 1;
+
+int caminoAscendente = 0;  
+if(rank <= numP/2) caminoAscendente = 1;
+
+if(rank == 0) {  
+	MPI_Send(A, L, MPI_CHAR, 1, 0, MPI_COMM_WORLD);  
+	MPI_Send(A, L, MPI_CHAR, numP-1, 0, MPI_COMM_WORLD);  
+} else {  
+	MPI_Recv(A, L, MPI_CHAR, MPI_ANY_SOURCE, 0, MPI_COMM_WORLD, null);  
+	if(soyFinal == 0){  
+		if(caminoAscendente == 1){  
+			MPI_Send(A, L, MPI_CHAR, rank+1, 0, MPI_COMM_WORLD);  
+		} else {  
+			MPI_Send(A, L, MPI_CHAR, rank-1, 0, MPI_COMM_WORLD);  
+		}  
+	}  
+}
+```
 # Tags
 #2- 
 #2-2 
