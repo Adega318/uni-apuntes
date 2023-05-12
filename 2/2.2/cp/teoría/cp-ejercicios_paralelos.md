@@ -269,7 +269,13 @@ MPI_Finalize();
 ## Julio 2022
 ### Ejer 1
 #### a)
+Ley de Andal:$$Max_{sp}=\frac{T_{total}}{T_{seq}}=\frac{0.05\times t+0.95\times t}{0.05\times t}=20$$
+#### b)
 
+![[Pasted image 20230512104200.png]]
+
+Grados de concurrencia:
+- Máximo, número máximo de tareas simultaneas durante la ejecución, en este caso 
 # Tags
 #2- 
 #2-2 
