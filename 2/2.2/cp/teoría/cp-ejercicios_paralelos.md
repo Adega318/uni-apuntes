@@ -278,6 +278,16 @@ Grados de concurrencia:
 - Máximo, número máximo de tareas simultaneas durante la ejecución, en este caso 7 (1,4,5,7,8,9,10)
 - Medio:$$GMC=\frac{\sum_p}{Peso\ camino\ critico}=\frac{200}{10+20\times2+30\times2}=1.82$$
 
+#### c)
+
+| p0  | t0  | t2  | t2  | t2  | t3  | t3  | t6  | t6  | t6  | t8  | t8  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| p1  |     | t1  | t1  |     | t4  |     | t5  | t5  |     | t9  |     |
+| p2  |     |     |     |     |     |     | t7  | t7  |     | t10 |     |
+
+#### d)
+#### e)
+Tres proceso es el número minimo y necesario para la completa paralezación de las partes paralelizables.
 # Tags
 #2- 
 #2-2 
