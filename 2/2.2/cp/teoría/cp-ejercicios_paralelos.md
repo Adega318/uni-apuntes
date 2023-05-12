@@ -286,8 +286,41 @@ Grados de concurrencia:
 | p2  |     |     |     |     |     |     | t7  | t7  |     | t10 |     |
 
 #### d)
+Speedup:
+Eficiencia:
 #### e)
-Tres proceso es el número minimo y necesario para la completa paralezación de las partes paralelizables.
+Tres proceso es el número mínimo y necesario para la completa paralización de las partes paralelizables.
+### Ejer 2
+#### a)
+#### b) 
+```C
+char *seq1, *seq2;  
+int numIgual, resParcial;  
+
+if(rank == 0){  
+	seq1 = (char *)malloc(sizeof(char) * L);  
+	seq2 = (char *)malloc(sizeof(char) * L);  
+	leeDeDisco(seq1, seq2, L);  
+} else {  
+	seq1 = (char *)malloc(sizeof(char) * L/numP);  
+	seq2 = (char *)malloc(sizeof(char) * L/numP);  
+}  
+
+resParcial = 0;  
+
+MPI_Scatter(seq1, L/numP, MPI_CHAR,  
+	rank ? seq1 : MPI_IN_PLACE, L/numP, MPI_CHAR, 0, MPI_COMM_WORLD);  
+MPI_Scatter(seq2, L/numP, MPI_CHAR,  
+	rank ? seq2 : MPI_IN_PLACE, L/numP, MPI_CHAR, 0, MPI_COMM_WORLD);  
+	
+for(int i = 0; i < L/numP; i++)  
+	if(seq1[i] == seq2[i])  
+		resParcial++;  
+		
+MPI_Reduce(&resParcial, &numIgual, 1, MPI_INT, MPI_SUM, 0, MPI_COMM_WORLD);  
+
+if(rank == 0) escribeResultado(numIgual);
+```
 # Tags
 #2- 
 #2-2 
