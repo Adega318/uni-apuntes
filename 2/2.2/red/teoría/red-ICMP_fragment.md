@@ -71,7 +71,7 @@ Final:
 
 ![[Pasted image 20230507180812.png]]
 
-Para un MTU se calcula el MSS (MTU - 20 -20), tamaño del HTTP. Se dividen en datagramas independientes, los fragmentos deben de tener un tamaño múltiplo de 8.
+Para un MTU se calcula el MSS (MTU - 20 -20), tamaño del HTTP. Se dividen en datagramas independientes.
 
 Primero:
 - identificador: original
