@@ -61,7 +61,7 @@ Primero:
 - Long. total: Cab. IP + Cab UDP + Fragmento
 
 Final:
-- identificador: nuevo
+- identificador: original
 - DF: 0
 - MF: 0
 - Offset: Final del anterior (1480) /8
