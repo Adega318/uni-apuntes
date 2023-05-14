@@ -28,7 +28,7 @@ Tenemos los siguientes campos:
 - Identificación, valor único de cada datagrama.
 - Flags
 	- DF, indica la no fragmentación.
-	- MF, indica si es el ultimo fragmento.
+	- MF, indica si no es el ultimo fragmento.
 - Offset, indica el bite donde empieza el fragmento.
 - Longitud, longitud total del fragmento, debiendo ser múltiplo de 8: Data + Transporte (UDP 8 o TCP 20) + IP (20)
 
@@ -64,7 +64,7 @@ Final:
 - identificador: nuevo
 - DF: 0
 - MF: 0
-- Offset: Final del anterior/8
+- Offset: Final del anterior (1480) /8
 - Long. total: Cab. IP (20) + Cab UDP (8) + Fragmento
 
 ### HTTP (TCP)
