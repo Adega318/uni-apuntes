@@ -26,18 +26,22 @@ Las estrategias pueden ser diferentes y variadas
 - Básica 1, sistemática sin nuevos estados.
 
 ![[Pasted image 20230217210324.png]]
+![[Pasted image 20230516181426.png]]
 
 - Básica 2, sistemática con eliminación.
 
 ![[Pasted image 20230217210427.png]]
+![[Pasted image 20230516181451.png]]
 
 - Básica 3, sistemática con eliminación de acciones y estados.
 
 ![[Pasted image 20230217210450.png]]
+![[Pasted image 20230516181507.png]]
 
 - Básica 4, sistemática con exploración (garantiza solución).
 
 ![[Pasted image 20230217210503.png]]
+![[Pasted image 20230516181536.png]]
 
 # Estrategias de búsqueda
 ## Características
