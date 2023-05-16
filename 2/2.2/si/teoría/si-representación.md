@@ -33,6 +33,8 @@ Problema de agentes inteligentes con formato de juego.
 - Semántica, define el significado de las sentencias.
 - Implicaciones, relaciones lógicas entre sentencias.
 
+## Implicación
+$\alpha\models\beta$, significando que la sentencia $\alpha$ es ciaerta siempre que 
 ## Modelos
 Los modelos son los posibles estados del entorno, donde se pueden evaluar sentencias. Para una base de conocimiento KB (reglas del mundo + observaciones) los modelos posibles se denotarían como $M(KB)$ y se podrían representar bajo el ejemplo del wumpus como:
 
