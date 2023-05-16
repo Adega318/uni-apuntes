@@ -39,7 +39,7 @@ Los modelos son los posibles estados del entorno, donde se pueden evaluar senten
 ![[Pasted image 20230516184433.png]]
 
 ## Inferencia lógica
-Es el proceso de evaluar sobre los modelos posibles por las percepciones, una sentencia (ver los modelos que salen de una acción).
+Es el proceso de evaluar sobre los modelos posibles por las percepciones, una sentencia (ver los modelos que salen de una acción). La notación sería:$$Para\ \ M(KB)\subseteq M (\alpha)$$$$Se\ inferir\ \ $$
 # Lógica proposicional
 Permite definir cualquier cosa para la que existe un procedimiento completo y sólido.
 ## Sintaxis
