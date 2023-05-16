@@ -106,6 +106,7 @@ Se le podrán aplicar los algoritmos de búsqueda (tema 2).
 ### Monotonicidad
 La sentencias inferidas sólo pueden aumentar al añadir información, pudiendo aplicar las inferencias siempre que se tengan las premisas adecuadas.
 ### Pruebas por resolución
+
 ### Factorización
 
 ### Forma normal conjuntiva
