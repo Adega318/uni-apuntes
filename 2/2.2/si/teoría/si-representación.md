@@ -34,7 +34,10 @@ Problema de agentes inteligentes con formato de juego.
 - Implicaciones, relaciones lógicas entre sentencias.
 
 ## Modelos
-Los modelos son los posibles estados del entorno, donde se pueden evaluar sentencias. Para $$M(KB)$$
+Los modelos son los posibles estados del entorno, donde se pueden evaluar sentencias. Para una base de conocimiento KB (reglas del mundo + observaciones) los modelos posibles se denotarían como $M(KB)$ y se podrían representar bajo el ejemplo del wumpus como:
+
+![[Pasted image 20230516184433.png]]
+
 ## Inferencia lógica
 Es el proceso de evaluar sobre los modelos posibles por las percepciones, una sentencia (ver los modelos que salen de una acción).
 # Lógica proposicional
