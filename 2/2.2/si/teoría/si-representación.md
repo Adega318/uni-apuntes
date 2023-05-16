@@ -134,9 +134,20 @@ Clausulas de disyunción de literales, máximo de 1 positivo.
 	- Premisa, conjunción de literales positivos.
 	- Conclusión, único literal positivo.
 	- Hecho, sentencia con único literal positivo (sin premisa)
-2. inferencia de las clausulas
-	- algoritmo progresivo
-	- algoritmo regresivo
+2. inferencia de las clausulas.
+	- algoritmo progresivo.
+	- algoritmo regresivo.
+3. Implicación en tiempo lineal al tamaño de KB.
+
+### Encadenamiento progresivo
+
+![[Pasted image 20230516214637.png]]
+![[Pasted image 20230516214652.png]]
+
+### Entrenamiento regresivo
+
+![[Pasted image 20230516214725.png]]
+
 # Métodos estructurados
 ## Redes semánticas
 Redes de relaciones entre conceptos.
