@@ -50,9 +50,7 @@ Podemos llamar a un algoritmo completo si se puede derivar cualquier sentencia i
 # Lógica proposicional
 Permite definir cualquier cosa para la que existe un procedimiento completo y sólido.
 ## Sintaxis
-- Las proposiciones son binarias.
-- Sentencias atómicas o complejas
-
+- 
 ## Semántica
 - Relaciones entre las proposiciones y sentencias.
 
