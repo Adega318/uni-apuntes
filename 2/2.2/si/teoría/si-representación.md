@@ -121,6 +121,12 @@ Toda sentencia se puede expresar como una conjunción de capsulas (forma normal 
 4. Des anidar los operadores "$\land$" y "$\lor$"
 
 ### Algoritmo de resolución
+- Prueba por refutación, $KB\land\neg\alpha$ es insatisfacible
+
+![[Pasted image 20230516211716.png]]
+
+### Completitud
+- Cierre de resolución, serie de capsulas S 
 # Inferencia
 ## Métodos estructurados
 ### Redes semánticas
