@@ -82,8 +82,16 @@ Con complejidad $O(2^n)$ para n símbolos.
 - Satisfacibilidad, una sentencia es satisfacible si es cierta en uno o más modelos.
 
 ### Pruebas
-- Aplicación de reglas, proceso de generación de sentencias a partir de antiguas.
-- Co
+- Aplicación de reglas
+	- Generación de sentencias a partir de antiguas.
+	- Traducción de sentencias en forma normal.
+- Comprobación de modelos
+	- Enumeración en una tabla de verdad.
+	- Mejorar backtracking.
+	- Búsqueda heurística en el espacio de modelos.
+
+#### Reglas
+- $\alpha\Longrightarrow\beta , \ \ alpha$
 # Inferencia
 ## Métodos estructurados
 ### Redes semánticas
