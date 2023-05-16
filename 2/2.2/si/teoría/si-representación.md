@@ -95,6 +95,15 @@ Con complejidad $O(2^n)$ para n símbolos.
 - $\alpha\land\beta ,\ \alpha \ and\ \beta$
 - $(\alpha\iff\beta)\Longrightarrow(\alpha\Longrightarrow\beta)\land(\beta\Longrightarrow\alpha)$
 
+##### Búsqueda
+La búsqueda de las inferencias se formaliza como:
+
+![[Pasted image 20230516202927.png]]
+
+Se le podrán aplicar los algoritmos de búsqueda (tema 2).
+### Monotonicidad
+La sentencias inferidas sólo pueden aumentar al añadir información.
+
 # Inferencia
 ## Métodos estructurados
 ### Redes semánticas
