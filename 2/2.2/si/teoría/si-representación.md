@@ -42,8 +42,11 @@ Los modelos son los posibles estados del entorno, donde se pueden evaluar senten
 Es el proceso de evaluar sobre los modelos posibles por las percepciones, una sentencia (ver los modelos que salen de una acción). La notación sería:$$Para\ \ M(KB)\subseteq M (\alpha)$$$$Se\ puede\ inferir\ \ KB\vdash_i\alpha$$
 Podemos llamar a un algoritmo completo si se puede derivar cualquier sentencia implicada.
 ### Solidez y completitud
-Solided: i es solido si
-cuando $|KB\vdash_i\alpha |$ es tambien cierto
+- Solided: i es solido si cuando $KB\vdash_i\alpha$ es también cierto que $KB\vDash\alpha$
+- Completitud: i es completo si cuando $KB\vDash\alpha$ es también cierto que $KB\vdash_i\alpha$
+
+![[Pasted image 20230516190108.png]]
+
 # Lógica proposicional
 Permite definir cualquier cosa para la que existe un procedimiento completo y sólido.
 ## Sintaxis
