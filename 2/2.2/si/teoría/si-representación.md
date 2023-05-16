@@ -126,7 +126,9 @@ Toda sentencia se puede expresar como una conjunción de capsulas (forma normal 
 ![[Pasted image 20230516211716.png]]
 
 ### Completitud
-
+Si un conjunto de cláusulas es insatisfacible, entonces el cierre de resolución de esas cláusulas contiene la cláusula vacía, comprobado por contraposición.
+### Claúsula de Horn
+Disyunción de literales, máximo de 1 positivo.
 # Métodos estructurados
 ## Redes semánticas
 Redes de relaciones entre conceptos.
