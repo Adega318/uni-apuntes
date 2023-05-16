@@ -39,7 +39,11 @@ Los modelos son los posibles estados del entorno, donde se pueden evaluar senten
 ![[Pasted image 20230516184433.png]]
 
 ## Inferencia lógica
-Es el proceso de evaluar sobre los modelos posibles por las percepciones, una sentencia (ver los modelos que salen de una acción). La notación sería:$$Para\ \ M(KB)\subseteq M (\alpha)$$$$Se\ inferir\ \ $$
+Es el proceso de evaluar sobre los modelos posibles por las percepciones, una sentencia (ver los modelos que salen de una acción). La notación sería:$$Para\ \ M(KB)\subseteq M (\alpha)$$$$Se\ puede\ inferir\ \ KB\vdash_i\alpha$$
+Podemos llamar a un algoritmo completo si se puede derivar cualquier sentencia implicada.
+### Solidez y completitud
+Solided: i es solido si
+cuando $|KB\vdash_i\alpha |$ es tambien cierto
 # Lógica proposicional
 Permite definir cualquier cosa para la que existe un procedimiento completo y sólido.
 ## Sintaxis
