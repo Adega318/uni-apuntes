@@ -70,16 +70,20 @@ Permite definir cualquier cosa para la que existe un procedimiento completo y s�
 ![[Pasted image 20230516192608.png]]
 
 ## Inferencia
-### Teoremas
-- Equivalencia lógica, $\alpha \ y\ \beta$ son equivalentes si son ciertas en el mismo conjunto de modelos.$$\alpha\equiv\beta\iff\alpha\vDash\beta\ \land\ \beta\vDash\alpha$$
-- Validez, una sentencia es valida cuando se cumple para todos los modelos.
-- Satisfacibilidad, 
 ### Enumeración
-Emulación de todos los modelos en es solida y completa.
+La inferencia por enumeración es el proceso de emulación de todos los modelos en solida y completa.
 
 ![[Pasted image 20230516195000.png]]
 
 Con complejidad $O(2^n)$ para n símbolos.
+### Teoremas
+- Equivalencia lógica, $\alpha \ y\ \beta$ son equivalentes si son ciertas en el mismo conjunto de modelos.$$\alpha\equiv\beta\iff\alpha\vDash\beta\ \land\ \beta\vDash\alpha$$
+- Validez, una sentencia es valida cuando se cumple para todos los modelos.
+- Satisfacibilidad, una sentencia es satisfacible si es cierta en uno o más modelos.
+
+### Pruebas
+- Aplicación de reglas, proceso de generación de sentencias a partir de antiguas.
+- Co
 # Inferencia
 ## Métodos estructurados
 ### Redes semánticas
