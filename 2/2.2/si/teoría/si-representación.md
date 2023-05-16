@@ -73,6 +73,7 @@ Permite definir cualquier cosa para la que existe un procedimiento completo y s�
 ### Teoremas
 - Equivalencia lógica, $\alpha \ y\ \beta$ son equivalentes si son ciertas en el mismo conjunto de modelos.$$\alpha\equiv\beta\iff\alpha\vDash\beta\ \land\ \beta\vDash\alpha$$
 - Validez, una sentencia es valida cuando se cumple para todos los modelos.
+- Satisfacibilidad, 
 ### Enumeración
 Emulación de todos los modelos en es solida y completa.
 
