@@ -127,8 +127,16 @@ Toda sentencia se puede expresar como una conjunción de capsulas (forma normal 
 
 ### Completitud
 Si un conjunto de cláusulas es insatisfacible, entonces el cierre de resolución de esas cláusulas contiene la cláusula vacía, comprobado por contraposición.
-### Claúsula de Horn
-Disyunción de literales, máximo de 1 positivo.
+### Clausula de Definida
+Clausulas de disyunción de literales, máximo de 1 positivo.
+### KB con cláusulas definidas
+1. Las clausulas definidas se pueden escribir como implicación.
+	- Premisa, conjunción de literales positivos.
+	- Conclusión, único literal positivo.
+	- Hecho, sentencia con único literal positivo (sin premisa)
+2. inferencia de las clausulas
+	- algoritmo progresivo
+	- algoritmo regresivo
 # Métodos estructurados
 ## Redes semánticas
 Redes de relaciones entre conceptos.
