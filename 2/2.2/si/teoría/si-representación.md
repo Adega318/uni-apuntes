@@ -52,10 +52,22 @@ Permite definir cualquier cosa para la que existe un procedimiento completo y s�
 ## Sintaxis
 - sentencias atómicas de único símbolo de proposición.
 - sentencias complejas construidas por las simples y conectivas lógicas.
+
 ### Conectivas lógicas
 
+![[Pasted image 20230516192326.png]]
+
+### Formas
+
+![[Pasted image 20230516192413.png]]
+
 ## Semántica
-- Relaciones entre las proposiciones y sentencias.
+
+![[Pasted image 20230516192523.png]]
+
+### Tablas de verdad para colectivas
+
+![[Pasted image 20230516192608.png]]
 
 # Inferencia
 ## Métodos estructurados
