@@ -69,6 +69,8 @@ Permite definir cualquier cosa para la que existe un procedimiento completo y s�
 
 ![[Pasted image 20230516192608.png]]
 
+## Inferencia
+
 # Inferencia
 ## Métodos estructurados
 ### Redes semánticas
