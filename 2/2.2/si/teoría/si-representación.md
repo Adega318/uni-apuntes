@@ -91,7 +91,10 @@ Con complejidad $O(2^n)$ para n símbolos.
 	- Búsqueda heurística en el espacio de modelos.
 
 #### Reglas
-- $\alpha\Longrightarrow\beta , \ \ alpha$
+- $\alpha\Longrightarrow\beta , \ \alpha \ entonces\ \beta$
+- $\alpha\land\beta ,\ \alpha \ and\ \beta$
+- $(\alpha\iff\beta)\Longrightarrow(\alpha\Longrightarrow\beta)\land(\beta\Longrightarrow\alpha)$
+
 # Inferencia
 ## Métodos estructurados
 ### Redes semánticas
