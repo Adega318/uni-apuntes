@@ -44,8 +44,8 @@ Los modelos son los posibles estados del entorno, donde se pueden evaluar senten
 Es el proceso de evaluar sobre los modelos posibles por las percepciones, una sentencia (ver los modelos que salen de una acción). La notación sería:$$Para\ \ M(KB)\subseteq M (\alpha)$$$$Se\ puede\ inferir\ \ KB\vdash_i\alpha$$
 Podemos llamar a un algoritmo completo si se puede derivar cualquier sentencia implicada.
 ### Solidez y completitud
-- Solided: i es solido si cuando $KB\vdash_i\alpha$ es también cierto que $KB\vDash\alpha$
-- Completitud: i es completo si cuando $KB\vDash\alpha$ es también cierto que $KB\vdash_i\alpha$
+- Solided: i es solido si cuando $KB\vdash_i\alpha$ es también cierto que $KB\models\alpha$
+- Completitud: i es completo si cuando $KB\models\alpha$ es también cierto que $KB\vdash_i\alpha$
 
 ![[Pasted image 20230516190108.png]]
 
@@ -79,7 +79,7 @@ La inferencia por enumeración es el proceso de emulación de todos los modelos 
 
 Con complejidad $O(2^n)$ para n símbolos.
 ### Teoremas
-- Equivalencia lógica, $\alpha \ y\ \beta$ son equivalentes si son ciertas en el mismo conjunto de modelos.$$\alpha\equiv\beta\iff\alpha\vDash\beta\ \land\ \beta\vDash\alpha$$
+- Equivalencia lógica, $\alpha \ y\ \beta$ son equivalentes si son ciertas en el mismo conjunto de modelos.$$\alpha\equiv\beta\iff\alpha\models\beta\ \land\ \beta\models\alpha$$
 - Validez, una sentencia es valida cuando se cumple para todos los modelos.
 - Satisfacibilidad, una sentencia es satisfacible si es cierta en uno o más modelos.
 
@@ -93,9 +93,9 @@ Con complejidad $O(2^n)$ para n símbolos.
 	- Búsqueda heurística en el espacio de modelos.
 
 #### Reglas
-- $\alpha\Longrightarrow\beta , \ \alpha \ entonces\ \beta$
+- $\alpha\rightarrow\beta , \ \alpha \ entonces\ \beta$
 - $\alpha\land\beta ,\ \alpha \ and\ \beta$
-- $(\alpha\iff\beta)\Longrightarrow(\alpha\Longrightarrow\beta)\land(\beta\Longrightarrow\alpha)$
+- $(\alpha\iff\beta)\rightarrow(\alpha\rightarrow\beta)\land(\beta\rightarrow\alpha)$
 
 ##### Búsqueda
 La búsqueda de las inferencias se formaliza como:
@@ -113,7 +113,8 @@ Toda sentencia se puede expresar como una conjunción de capsulas (forma normal 
 ![[Pasted image 20230516205744.png]]
 
 #### Convertir a CNF
-1. Combertir las instancias de 
+1. Remplazar "$\alpha\iff\beta$ " con "$(\alpha\rightarrow\beta)\land(\beta\rightarrow\alpha)$"
+2. Remplazar
 # Inferencia
 ## Métodos estructurados
 ### Redes semánticas
