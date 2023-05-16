@@ -70,7 +70,14 @@ Permite definir cualquier cosa para la que existe un procedimiento completo y s�
 ![[Pasted image 20230516192608.png]]
 
 ## Inferencia
+### Teoremas
+- Equivalencia lógica, $\alpha \ y\ \beta$ son equivalentes si son ciertas en el mismo conjunto de modelos.$$\alpha\equiv\beta$$
+### Enumeración
+Emulación de todos los modelos en es solida y completa.
 
+![[Pasted image 20230516195000.png]]
+
+Con complejidad $O(2^n)$ para n símbolos.
 # Inferencia
 ## Métodos estructurados
 ### Redes semánticas
