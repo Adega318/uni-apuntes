@@ -126,26 +126,25 @@ Toda sentencia se puede expresar como una conjunción de capsulas (forma normal 
 ![[Pasted image 20230516211716.png]]
 
 ### Completitud
-- Cierre de resolución, serie de capsulas S 
-# Inferencia
-## Métodos estructurados
-### Redes semánticas
+
+# Métodos estructurados
+## Redes semánticas
 Redes de relaciones entre conceptos.
-### Frames
+## Frames
 Son relaciones con niveles escalonados, un buen ejemplo es el índice de un libro.
-#### Demons
+### Demons
 Los demons son sistemas de actualización y ejecución para los frames.
-#### Tipos
+### Tipos
 - Descriptivos, frame centrado en la muestra de datos.
 - Control, frame centrado en la especificación de los formatos de datos.
 
-### Reglas de producción
+## Reglas de producción
 Tenemos tres tipos de reglas:
 - if, condición o premisa.
 - then, conclusión.
 - else, alternativa.
 
-#### Tipos
+### Tipos
 - ifall, todas las cláusulas cumplen.
 - ifany, alguna cláusula cumple.
 - ifsome, se comprueban todas y luego se hace ifany.
