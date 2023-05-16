@@ -107,6 +107,7 @@ Se le podrán aplicar los algoritmos de búsqueda (tema 2).
 La sentencias inferidas sólo pueden aumentar al añadir información, pudiendo aplicar las inferencias siempre que se tengan las premisas adecuadas.
 ### Pruebas por resolución
 ### Factorización
+
 ### Forma normal conjuntiva
 Toda sentencia se puede expresar como una conjunción de capsulas (forma normal conjuntiva).
 
@@ -114,7 +115,11 @@ Toda sentencia se puede expresar como una conjunción de capsulas (forma normal 
 
 #### Convertir a CNF
 1. Remplazar "$\alpha\iff\beta$ " con "$(\alpha\rightarrow\beta)\land(\beta\rightarrow\alpha)$"
-2. Remplazar
+2. Remplazar "$\alpha\rightarrow\beta$ " con "$\neg\alpha\lor\beta$ "
+3. Mover hacia dentro la negación con De Morgan y doble negación
+4. Des anidar los operadores "$\land$" y "$\lor$"
+
+### Algoritmo de resolución
 # Inferencia
 ## Métodos estructurados
 ### Redes semánticas
