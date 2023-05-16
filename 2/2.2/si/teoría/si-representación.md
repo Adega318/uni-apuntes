@@ -34,7 +34,7 @@ Problema de agentes inteligentes con formato de juego.
 - Implicaciones, relaciones lógicas entre sentencias.
 
 ## Implicación
-$\alpha\models\beta$, significando que la sentencia $\alpha$ es ciaerta siempre que 
+$\alpha\models\beta$, significando que la sentencia $\alpha$ es cierta siempre que $\beta$ es cierta y viceversa.
 ## Modelos
 Los modelos son los posibles estados del entorno, donde se pueden evaluar sentencias. Para una base de conocimiento KB (reglas del mundo + observaciones) los modelos posibles se denotarían como $M(KB)$ y se podrían representar bajo el ejemplo del wumpus como:
 
@@ -107,7 +107,13 @@ Se le podrán aplicar los algoritmos de búsqueda (tema 2).
 La sentencias inferidas sólo pueden aumentar al añadir información, pudiendo aplicar las inferencias siempre que se tengan las premisas adecuadas.
 ### Pruebas por resolución
 ### Factorización
+### Forma normal conjuntiva
+Toda sentencia se puede expresar como una conjunción de capsulas (forma normal conjuntiva).
 
+![[Pasted image 20230516205744.png]]
+
+#### Convertir a CNF
+1. Combertir las instancias de 
 # Inferencia
 ## Métodos estructurados
 ### Redes semánticas
