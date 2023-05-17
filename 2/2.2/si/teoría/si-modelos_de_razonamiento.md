@@ -47,7 +47,7 @@ Aplicamos R4
 
 BLR = {m1i1, m3i2, m2i3, m4i3, m3i4, m4i4}
 ## Modelo bayesiano
-
+El modelo bayesiano se basa en dadas dos posibles acciones (A y B) 
 # Tags
 #2- 
 #2-2 
