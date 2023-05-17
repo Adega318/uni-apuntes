@@ -1,4 +1,3 @@
-# Sistemas de producción
 Sistemas inteligentes basados en reglas frente a una base de hechos.
 ## Clasificación
 ### Dirigidos por datos
