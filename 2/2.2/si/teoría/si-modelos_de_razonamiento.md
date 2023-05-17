@@ -1,8 +1,8 @@
 # Modelos y dominios
-- Modelos categóricos
-- Modelos probabilísticos, soluciones no un equívoco.
-- Modelos de razonamiento bajo incertidumbre
-- Modelos de razonamiento en conjuntos difusos
+- Modelos categóricos, modelos que establecen soluciones totalmente verdaderas.
+- Modelos probabilísticos, modelo que produce soluciones ciertas con una cierta probabilidad.
+- Modelos de razonamiento bajo incertidumbre, modelos con incertidumbre sobre el dominio.
+- Modelos de razonamiento en conjuntos difusos, modelos donde los elementos son influidos por matices.
 ## Modelo categórico
 Los problemas los formalizamos con un conjunto X de manifestaciones e Y de interpretaciones.
 Problemas lógicos de dada una manifestación caracterizada por una función.
