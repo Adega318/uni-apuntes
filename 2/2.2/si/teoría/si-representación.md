@@ -171,10 +171,14 @@ Las relaciones pueden generar nuevos conocimientos haciendo uso de:
 - Herencia de propiedades, se siguen las relaciones entre dos objetos y se establece una nueva relación que los conecte, aunque suceder que la inferencia realizada no sea válida.
 - Razonamiento, puede realizarse de dos maneras.
 	- Por rastreo, se siguen las relaciones entre dos objetos y se establece una nueva relación que los conecte, aunque puede suceder que la inferencia realizada no sea válida.
-	- Emparejamiento
+	- Emparejamiento, se crean nuevos fragmentos de la red semántica y se agregan a la red principal estableciendo nuevas relaciones. El problema es buscar qué relaciones son las correctas al unir las redes.
 
 ![[Pasted image 20230517184159.png]]
 
+### Marcos
+Hay que resaltar que, cuando abordamos un nuevo problema, nadie comienza por analizarlo a fondo para ir construyendo estructuras que representen el conocimiento necesario para resolverlo, sino que el primer paso es recordar experiencias anteriores y ver si son semejantes al problema planteado. Los frames hacen justamente eso: intentar representar el problema mediante un razonamiento por semejanzas, y para ello describen clases de objetos, que son representaciones estructuradas del conocimiento sobre una entidad (como si fuera el índice de un libro con más detalles). La ventaja de los frames es que permiten definir procedimientos para inferir rápidamente conocimiento aún a pesar de tener información incompleta o que no está representada explícitamente. Un frame consta de:
+- Cabeza, le da nombre al frame y representa la clase de objetos que se describe.
+- Slot, elementos que representan a un objeto o  una propiedad del frame. Pueden anidarse, de modo que la profundidad de un slot re
 ## Métodos declarativos
 Los métodos declarativos representan cada tipo de conocimiento con un procedimiento  
 concreto para cada uno, lo cual hace que sea un método bastante dinámico. En otras palabras,  
@@ -186,6 +190,8 @@ técnicas de razonamiento (por ello son dinámicos) para generar nuevo conocimie
 siempre basado en un punto de vista de la probabilidad matemática. Aquí se incluyen métodos  
 como las **reglas de producción**, que permiten generar conocimiento cuando se cumplen unas  
 determinadas condiciones (básicamente es usar IF-THEN-ELSE).
+
+
 # Tags
 #2-
 #2-2 
