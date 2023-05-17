@@ -166,14 +166,19 @@ Los esquemas no formales de representación del conocimiento verifican las sigui
 ## Representación del conocimiento
 ### Métodos declarativos
 El conocimiento se representa como una colección estática de hechos, para cuya manipulación se define un conjunto genérico y restringido de procedimientos.
+Este método tiene las siguientes ventajas:
+1. Las verdades del dominio se almacenan una sola vez.
+2. Es fácil incrementar e incorporar nuevo conocimiento sin modificar el existente.
+
+#### Redes semánticas
+Permite describir simultáneamente acontecimientos y objetos, representando el conocimiento como un conjunto de nodos conectados entre sí por medio de arcos etiquetados. Los arcos representan relaciones lingüísticas entre nodos 
 
 - Métodos declarativos, 
 - Métodos procedimentales, la mayor parte del conocimiento se representa como procedimientos, lo cual le confiere al esquema de representación un carácter dinámico.
 
 Los distintos métodos de representación tiene ventajas:
 - Ventajas de las declarativos, 
-	1. Las verdades del dominio se almacenan una sola vez.
-	2. Es fácil incrementar e incorporar nuevo conocimiento sin modificar el existente.
+	
 - Ventajas de los procedimentales,
 	1. Mayor énfasis en las capacidades inferenciales del sistema.
 	2. Permiten explorar distintos modelos y técnicas de razonamiento.
