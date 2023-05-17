@@ -157,6 +157,10 @@ Clausulas de disyunción de literales, máximo de 1 positivo.
 ![[Pasted image 20230516215047.png]]
 
 # Métodos estructurados
+Los esquemas no formales de representación del conocimiento verifican las siguientes propiedades:
+- 
+
+
 
 ## Redes semánticas
 Redes de relaciones entre conceptos.
