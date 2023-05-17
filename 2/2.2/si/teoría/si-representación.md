@@ -150,7 +150,15 @@ distintos puntos de vista a objetos muy complejos.
 Consisten en representar el conocimiento mediante conceptos (elementos) y las relaciones que  
 existen entre ellos mediante un grafo y se emplean para hacer mapas conceptuales (esquemas). Los nodos representan a un concepto y las aristas representan la relación entre ambos conceptos, las cuales son unidireccionales de modo que para establecer una doble relación hay que trazar dos aristas distintas. Puede decirse que un enlace es una relación binaria entre nodos y por ello puede haber varias relaciones:
 - Ocurrencia (pertenece, $\in$ ), se relaciona un elemento con una categoría (grupo de elementos).
-- Generalización (ES_UN), relaciona una entidad concreta con otra entidad más 
+- Generalización (ES_UN), relaciona una entidad concreta con otra entidad más genérica.
+- Agregación (ES_PARTE_DE), relaciona componentes de un objeto con el propio objeto.
+- Acción, vincula una entidad con otra mediante una acción (un verbo, una responsabilidad, etc).
+- Propiedades, relaciona objetos con características de esos objetos (propiedad, descripción, etc).
+
+![[Pasted image 20230517182602.png]]
+
+
+
 ## Métodos declarativos
 Los métodos declarativos representan cada tipo de conocimiento con un procedimiento  
 concreto para cada uno, lo cual hace que sea un método bastante dinámico. En otras palabras,  
