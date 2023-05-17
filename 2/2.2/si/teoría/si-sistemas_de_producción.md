@@ -46,6 +46,8 @@ Las funciones del modelo inferente son:
 ### Fase de decisión
 ### Tareas
 - Restricción
+	- simplifica el proceso de equiparación
+	- eliminar reglas superfluas para el estado actual
 	- 
 - Equiparación
 - Resolución de conflictos
