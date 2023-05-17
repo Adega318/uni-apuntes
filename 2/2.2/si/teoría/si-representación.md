@@ -163,6 +163,10 @@ Objeto, el **nodo destino** sea el Valor y la **arista** que los uno sea el Atri
 
 ![[Pasted image 20230517182941.png]]
 
+Comparación de lógica formal con red semántica:
+
+
+
 ## Métodos declarativos
 Los métodos declarativos representan cada tipo de conocimiento con un procedimiento  
 concreto para cada uno, lo cual hace que sea un método bastante dinámico. En otras palabras,  
