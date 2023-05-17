@@ -148,6 +148,14 @@ Clausulas de disyunción de literales, máximo de 1 positivo.
 
 ![[Pasted image 20230516214725.png]]
 
+### Backtracking
+
+![[Pasted image 20230516215011.png]]
+
+### Algoritmo de búsqueda local
+
+![[Pasted image 20230516215047.png]]
+
 # Métodos estructurados
 ## Redes semánticas
 Redes de relaciones entre conceptos.
