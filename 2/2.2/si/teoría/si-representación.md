@@ -171,7 +171,7 @@ Este método tiene las siguientes ventajas:
 2. Es fácil incrementar e incorporar nuevo conocimiento sin modificar el existente.
 
 #### Redes semánticas
-Permite describir simultáneamente acontecimientos y objetos, representando el conocimiento como un conjunto de nodos conectados entre sí por medio de arcos etiquetados. Los arcos representan relaciones lingüísticas entre nodos 
+Permite describir simultáneamente acontecimientos y objetos, representando el conocimiento como un conjunto de nodos conectados entre sí por medio de arcos etiquetados. Los arcos representan relaciones lingüísticas entre nodos, siendo los 
 
 - Métodos declarativos, 
 - Métodos procedimentales, la mayor parte del conocimiento se representa como procedimientos, lo cual le confiere al esquema de representación un carácter dinámico.
