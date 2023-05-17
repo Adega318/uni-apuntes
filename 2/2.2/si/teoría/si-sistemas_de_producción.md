@@ -50,7 +50,7 @@ Las funciones del modelo inferente son:
 	- eliminar reglas superfluas para el estado actual
 - Equiparación, identificar y obtener las reglas relevantes para el contexto
 - Resolución de conflictos, decisión de las reglas a aplicar con las distintas técnicas:
-	- Metarreglas, 
+	- Metarreglas, reglas de categoría superior.
 	- Prioridad de reglas, asignar prioridad a reglas de mayor relevancia.
 	- Uso de las reglas especificas, tomar las reglas que requieren más información.
 	- Regla sobre lo más reciente, aplicar la reglas que usan los datos más recientes.
