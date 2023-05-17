@@ -157,7 +157,11 @@ existen entre ellos mediante un grafo y se emplean para hacer mapas conceptuales
 
 ![[Pasted image 20230517182602.png]]
 
+A nivel computacional, una red semántica se implementa con una tabla de n-tuplas que  
+almacenan la información Objeto-Atributo-Valor, de modo que: el **nodo origen** sea el  
+Objeto, el **nodo destino** sea el Valor y la **arista** que los uno sea el Atributo.
 
+![[Pasted image 20230517182941.png]]
 
 ## Métodos declarativos
 Los métodos declarativos representan cada tipo de conocimiento con un procedimiento  
