@@ -1,11 +1,11 @@
 Sistemas inteligentes basados en reglas frente a una base de hechos.
-## Clasificación
-### Dirigidos por datos
+# Clasificación
+## Dirigidos por datos
 - Inferencia obtenida cuando los antecedentes de alguna de sus reglas de producción se emparejan al menos una parte de los hechos que describen el estado actual.
 - Al ocurrir esto la regla se activa.
 - Menos específicos al ejecutar todas las disponibles.
 
-### Dirigidos por los objetos
+## Dirigidos por los objetos
 - Tanto antecedentes como consecuentes de las reglas deben ser considerados como aserciones sobre los datos. En este caso, la activación de las reglas tiene lugar por medio de un encadenamiento regresivo, y el emparejamiento se efectúa a través de las conclusiones de las reglas.
 - Para alcanzar una determinada meta hay que configurar un proceso evocativo en el que, de forma recursiva, se van estableciendo los antecedentes de las metas como submetas de orden inferior.
 - Son más específicos, porque la ejecución lleva implícito un proceso de búsqueda.
@@ -15,6 +15,7 @@ Sistemas inteligentes basados en reglas frente a una base de hechos.
 ![[Pasted image 20230308125411.png]]
 
 ## Base de conocimiento
+Descripción del dominio en cual el sistema, constituida por bases de hechos y resg
 - Base de hechos, esqueleto declarativo del sistema de producción.
 - Base de reglas, esqueleto procedimental, permite la contrición de circuitos.
 ## Memoria activa (MA)
