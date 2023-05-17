@@ -48,7 +48,12 @@ Aplicamos R4
 BLR = {m1i1, m3i2, m2i3, m4i3, m3i4, m4i4}
 ## Modelo probabilístico
 El modelo probabilístico (bayesiano) se basa en dadas dos posibles acciones (A y B) cual es la probabilidad que ante un resultado E se haya usado A:$$P(A/E)=\frac{P(E/A)P(A)}{P(E)}$$
-Tomando las sigientes consideraciones para ejemplificar
+Tomando las siguientes consideraciones para ejemplificar:
+
+![[Pasted image 20230517222812.png]]
+
+En base a la probabilidad condicional se deduce:$$P(A)P(E/A)=P(E)P(A/E)$$
+
 # Tags
 #2- 
 #2-2 
