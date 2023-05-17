@@ -146,10 +146,11 @@ resulta más sencillo aumentar el conocimiento sin modificar el ya existente. Aq
 métodos como las **redes semánticas**, que permiten describir objetos y acontecimientos (hechos)  
 al mismo tiempo, o los **marcos (frames)**, que son estructuras que permiten representar desde  
 distintos puntos de vista a objetos muy complejos.
-
 ### Redes semánticas
-Permite describir simultáneamente acontecimientos y objetos, representando el conocimiento como un conjunto de nodos conectados entre sí por medio de arcos etiquetados. Los arcos representan relaciones lingüísticas entre nodos, siendo los 
-
+Consisten en representar el conocimiento mediante conceptos (elementos) y las relaciones que  
+existen entre ellos mediante un grafo y se emplean para hacer mapas conceptuales (esquemas). Los nodos representan a un concepto y las aristas representan la relación entre ambos conceptos, las cuales son unidireccionales de modo que para establecer una doble relación hay que trazar dos aristas distintas. Puede decirse que un enlace es una relación binaria entre nodos y por ello puede haber varias relaciones:
+- Ocurrencia (pertenece, $\in$ ), se relaciona un elemento con una categoría (grupo de elementos).
+- Generalización (ES_UN), relaciona una entidad concreta con otra entidad más 
 ## Métodos declarativos
 Los métodos declarativos representan cada tipo de conocimiento con un procedimiento  
 concreto para cada uno, lo cual hace que sea un método bastante dinámico. En otras palabras,  
