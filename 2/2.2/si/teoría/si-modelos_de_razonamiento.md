@@ -46,8 +46,9 @@ Aplicamos R4
 ![[Pasted image 20230517221023.png]]
 
 BLR = {m1i1, m3i2, m2i3, m4i3, m3i4, m4i4}
-## Modelo bayesiano
-El modelo bayesiano se basa en dadas dos posibles acciones (A y B) 
+## Modelo probabilístico
+El modelo probabilístico (bayesiano) se basa en dadas dos posibles acciones (A y B) cual es la probabilidad que ante un resultado E se haya usado A:$$P(A/E)=\frac{P(E/A)P(A)}{P(E)}$$
+Tomando las sigientes consideraciones para ejemplificar
 # Tags
 #2- 
 #2-2 
