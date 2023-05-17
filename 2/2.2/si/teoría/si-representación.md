@@ -158,7 +158,9 @@ Clausulas de disyunción de literales, máximo de 1 positivo.
 
 # Métodos estructurados
 Los esquemas no formales de representación del conocimiento verifican las siguientes propiedades:
-- 
+- Adecuación representacional, el esquema debe de ser capaz de representar las distintas clases de conocimiento del dominio.
+- Adecuación inferencial, el esquema elegido debe permitir manipular conocimiento para obtener conocimiento nuevo.
+- Eficiencia 
 
 
 
