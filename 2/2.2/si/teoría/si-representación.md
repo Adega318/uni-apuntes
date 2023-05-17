@@ -136,8 +136,7 @@ Los esquemas no formales de representación del conocimiento verifican las sigui
 - Eficiencia inferencial, el esquema elegido debe de ser versátil, utilizando información que permita optimizar el proceso inferencial.
 - Eficiencia adquisicional, el esquema elegido debe suministrar vías que permitan la incorporación de información y conocimientos nuevos.
 
-## Representación del conocimiento
-### Métodos declarativos
+## Métodos declarativos
 Lo métodos declarativos representan el conocimiento como una colección estática de hechos, que  
 solo se pueden manipular con un conjunto genérico y restringido de procedimientos. En otras  
 palabras, se dice qué hacer con los datos una única vez, sean del tipo que sean los datos.
@@ -148,48 +147,20 @@ métodos como las **redes semánticas**, que permiten describir objetos y aconte
 al mismo tiempo, o los **marcos (frames)**, que son estructuras que permiten representar desde  
 distintos puntos de vista a objetos muy complejos.
 
-#### Redes semánticas
+### Redes semánticas
 Permite describir simultáneamente acontecimientos y objetos, representando el conocimiento como un conjunto de nodos conectados entre sí por medio de arcos etiquetados. Los arcos representan relaciones lingüísticas entre nodos, siendo los 
 
-## Metodos declar
+## Métodos declarativos
+Los métodos declarativos representan cada tipo de conocimiento con un procedimiento  
+concreto para cada uno, lo cual hace que sea un método bastante dinámico. En otras palabras,  
+para cada conocimiento concreto hay que decir qué se hará con él.
 
-
-
-- Métodos declarativos, 
-- Métodos procedimentales, la mayor parte del conocimiento se representa como procedimientos, lo cual le confiere al esquema de representación un carácter dinámico.
-
-Los distintos métodos de representación tiene ventajas:
-- Ventajas de las declarativos, 
-	
-- Ventajas de los procedimentales,
-	1. Mayor énfasis en las capacidades inferenciales del sistema.
-	2. Permiten explorar distintos modelos y técnicas de razonamiento.
-	3. Permiten trabajar con información de carácter probabilístico.
-	4. Incorporan de forma natural conocimiento heurístico.
-
-
-
-## Redes semánticas
-Redes de relaciones entre conceptos.
-## Frames
-Son relaciones con niveles escalonados, un buen ejemplo es el índice de un libro.
-### Demons
-Los demons son sistemas de actualización y ejecución para los frames.
-### Tipos
-- Descriptivos, frame centrado en la muestra de datos.
-- Control, frame centrado en la especificación de los formatos de datos.
-
-## Reglas de producción
-Tenemos tres tipos de reglas:
-- if, condición o premisa.
-- then, conclusión.
-- else, alternativa.
-
-### Tipos
-- ifall, todas las cláusulas cumplen.
-- ifany, alguna cláusula cumple.
-- ifsome, se comprueban todas y luego se hace ifany.
-
+Las ventajas son que ponen un mayor énfasis en la capacidad del sistema para inferir nuevo  
+conocimiento. Para ello incorporan conocimiento heurístico y manipulan distintos modelos y  
+técnicas de razonamiento (por ello son dinámicos) para generar nuevo conocimiento, pero  
+siempre basado en un punto de vista de la probabilidad matemática. Aquí se incluyen métodos  
+como las **reglas de producción**, que permiten generar conocimiento cuando se cumplen unas  
+determinadas condiciones (básicamente es usar IF-THEN-ELSE).
 # Tags
 #2-
 #2-2 
