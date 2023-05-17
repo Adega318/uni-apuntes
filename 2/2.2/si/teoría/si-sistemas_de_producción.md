@@ -48,8 +48,9 @@ Las funciones del modelo inferente son:
 - Restricción
 	- simplifica el proceso de equiparación
 	- eliminar reglas superfluas para el estado actual
-	- 
 - Equiparación
+	- identificar reglas relevantes para el contesto
+	- 
 - Resolución de conflictos
 # Tags
 #2- 
