@@ -8,9 +8,9 @@
 Los problemas los formalizamos con un conjunto X de manifestaciones e Y de interpretaciones.
 Problemas lógicos de dada una manifestación caracterizada por una función.
 ### Proceso sistemático
-1. Identificar M
-2. Identificar I
-3. Construir E
+1. Identificar las manifestaciones
+2. Identificar las interpretaciones
+3. Construir E (base lógica reducida)
 4. Construir manifestaciones
 5. Construir interpretaciones
 6. Construir manifestaciones-interpretación
