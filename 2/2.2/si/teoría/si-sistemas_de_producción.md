@@ -17,7 +17,9 @@ Sistemas inteligentes basados en reglas frente a una base de hechos.
 ## Base de conocimiento
 Descripción del dominio en cual el sistema, constituida por:
 - Base de hechos, esqueleto declarativo del sistema de producción con la misión de articular los hechos relevantes del dominio.
-- Base de reglas, reglas que permiten la creación 
+- Base de reglas, reglas que permiten la creación de los circuitos inferenciales y obtener conclusiones válidas.
+
+![[Pasted image 20230517201432.png]]
 
 ## Memoria activa (MA)
 
@@ -29,9 +31,7 @@ Estructura que contiene la información estática del problema:
 - hechos establecidos
 - hipótesis de trabajo
 
-Almacena los cambio de estado del sistema, representando nuestro estado actual.
-Encargado de aceptar la información externa.
-Foco de atracción de las reglas del sistema.
+Almacena los cambio de estado del sistema, representando nuestro estado actual y aceptar la información externa, siendo el foco de atracción de las reglas del sistema.
 ## Motor inferente (MI)
 Las funciones del modelo inferente son:
 - Examinar la memoria activa y determinar las reglas a ejecutarse, encontrando las conexiones entre inicial y meta.
