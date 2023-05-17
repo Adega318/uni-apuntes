@@ -9,11 +9,17 @@ Los problemas los formalizamos con un conjunto X de manifestaciones e Y de inter
 Problemas lógicos de dada una manifestación caracterizada por una función.
 ### Proceso sistemático
 1. Identificar las manifestaciones
+
+![[Pasted image 20230517214206.png]]
+
 2. Identificar las interpretaciones
+
+![[Pasted image 20230517214226.png]]
+
 3. Construir E (base lógica reducida)
-4. Construir manifestaciones
-5. Construir interpretaciones
-6. Construir manifestaciones-interpretación
+2. Construir manifestaciones
+3. Construir interpretaciones
+4. Construir manifestaciones-interpretación
 
 ## Modelo bayesiano
 # Tags
