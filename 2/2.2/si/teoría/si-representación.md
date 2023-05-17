@@ -165,7 +165,15 @@ Objeto, el **nodo destino** sea el Valor y la **arista** que los uno sea el Atri
 
 Comparación de lógica formal con red semántica:
 
+![[Pasted image 20230517183801.png]]
 
+Las relaciones pueden generar nuevos conocimientos haciendo uso de:
+- Herencia de propiedades, se siguen las relaciones entre dos objetos y se establece una nueva relación que los conecte, aunque suceder 
+- Razonamiento
+	- Por rastreo
+	- Emparejamiento
+
+![[Pasted image 20230517184159.png]]
 
 ## Métodos declarativos
 Los métodos declarativos representan cada tipo de conocimiento con un procedimiento  
