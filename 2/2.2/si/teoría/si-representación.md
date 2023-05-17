@@ -1,32 +1,5 @@
 # Agentes basados en conocimiento
 Son agentes que constan de una base de conocimiento. Esto hace que su base de conocimiento sea vital para la toma de decisiones.
-# Mundo wumpus
-Problema de agentes inteligentes con formato de juego.
-## Medida de rendimiento
-- 1000 salir con oro
-- -1000 morir
-- -1 por ación
-- -10 por flecha
-
-## Entorno
-- Tablero de 4x4
-- Agente en (1,1)
-- Posiciones de los elementos aleatoria
-- Probabilidad de cuadrado con fosa 0.2
-
-## Sensores
-- Wumpus adyacente (no sabe la casilla)
-- Fosa adyacente (no sabe la casilla)
-- Oro en su casilla
-- Choque al caminar a la pared
-- Muerte de un Wumpus
-
-## Actuadores
-- Disparar
-- Salir por (1,1)
-- Coger/Soltar oro de su casilla
-- Moverse
-
 # Lógica
 ## Generalidades
 - Sintaxis, define sentencias en el lenguaje.
@@ -165,13 +138,22 @@ Los esquemas no formales de representación del conocimiento verifican las sigui
 
 ## Representación del conocimiento
 ### Métodos declarativos
-El conocimiento se representa como una colección estática de hechos, para cuya manipulación se define un conjunto genérico y restringido de procedimientos.
-Este método tiene las siguientes ventajas:
-1. Las verdades del dominio se almacenan una sola vez.
-2. Es fácil incrementar e incorporar nuevo conocimiento sin modificar el existente.
+Lo métodos declarativos representan el conocimiento como una colección estática de hechos, que  
+solo se pueden manipular con un conjunto genérico y restringido de procedimientos. En otras  
+palabras, se dice qué hacer con los datos una única vez, sean del tipo que sean los datos.
+
+Sus ventajas son que aquellos hechos verídicos del dominio se almacenan una sola vez y  
+resulta más sencillo aumentar el conocimiento sin modificar el ya existente. Aquí se incluyen  
+métodos como las **redes semánticas**, que permiten describir objetos y acontecimientos (hechos)  
+al mismo tiempo, o los **marcos (frames)**, que son estructuras que permiten representar desde  
+distintos puntos de vista a objetos muy complejos.
 
 #### Redes semánticas
 Permite describir simultáneamente acontecimientos y objetos, representando el conocimiento como un conjunto de nodos conectados entre sí por medio de arcos etiquetados. Los arcos representan relaciones lingüísticas entre nodos, siendo los 
+
+## Metodos declar
+
+
 
 - Métodos declarativos, 
 - Métodos procedimentales, la mayor parte del conocimiento se representa como procedimientos, lo cual le confiere al esquema de representación un carácter dinámico.
