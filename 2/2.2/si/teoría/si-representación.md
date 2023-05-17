@@ -164,10 +164,12 @@ Los esquemas no formales de representación del conocimiento verifican las sigui
 - Eficiencia adquisicional, el esquema elegido debe suministrar vías que permitan la incorporación de información y conocimientos nuevos.
 
 ## Representación del conocimiento
-- Métodos declarativos, 
+- Métodos declarativos, el conocimiento se representa como una colección estática de hechos, para cuya manipulación se define un conjunto genérico y restringido de procedimientos.
+- Métodos procedimentales, la mayor parte del conocimiento se representa como procedimientos, lo cual le confiere al esquema de representación un carácter dinámico.
 
-
-- Métodos procedimentales,
+Los distintos métodos de representación tiene ventajas:
+- Ventajas de las declarativos
+- Ventajas de los procidimentales
 
 ## Redes semánticas
 Redes de relaciones entre conceptos.
