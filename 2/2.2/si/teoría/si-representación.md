@@ -129,6 +129,8 @@ Clausulas de disyunción de literales, máximo de 1 positivo.
 
 ![[Pasted image 20230516215047.png]]
 
+
+# Representación del conocimiento
 # Métodos estructurados
 Los esquemas no formales de representación del conocimiento verifican las siguientes propiedades:
 - Adecuación representacional, el esquema debe de ser capaz de representar las distintas clases de conocimiento del dominio.
@@ -178,9 +180,22 @@ Las relaciones pueden generar nuevos conocimientos haciendo uso de:
 ### Marcos
 Hay que resaltar que, cuando abordamos un nuevo problema, nadie comienza por analizarlo a fondo para ir construyendo estructuras que representen el conocimiento necesario para resolverlo, sino que el primer paso es recordar experiencias anteriores y ver si son semejantes al problema planteado. Los frames hacen justamente eso: intentar representar el problema mediante un razonamiento por semejanzas, y para ello describen clases de objetos, que son representaciones estructuradas del conocimiento sobre una entidad (como si fuera el índice de un libro con más detalles). La ventaja de los frames es que permiten definir procedimientos para inferir rápidamente conocimiento aún a pesar de tener información incompleta o que no está representada explícitamente. Un frame consta de:
 - Cabeza, le da nombre al frame y representa la clase de objetos que se describe.
-- Slot, elementos que representan a un objeto o  una propiedad del frame. Pueden anidarse, de modo que la profundidad de un slot re
-## Métodos declarativos
-Los métodos declarativos representan cada tipo de conocimiento con un procedimiento  
+- Slot, elementos que representan a un objeto o  una propiedad del frame. Pueden anidarse, de modo que la profundidad de un slot representa al nivel de conocimiento que tiene y su conocimiento se especializa a medida que profundiza en los niveles.
+
+Para obtener nuevos conocimientos mediante semejanza se hace uso de la relación de herencia  
+(ES_UN). Pongamos el ejemplo de la representación de un objeto Pájaro y como representar un  
+Gorrión mediante la generación de nuevo conocimiento:
+
+![[Pasted image 20230517185917.png]]
+
+#### Procedimientos
+Existe un conjunto de procedimientos para generar nuevos conocimientos que están inactivos la mayoría del tiempo, pero que se activan cuando se cumplan determinadas condiciones para  
+ejecutar acciones concretas. Por ejemplo: IF_NEEDED, IF_ADDED, IF_REMOVED, IF_STORED, IF_RETRIEVED. Cuando un demon se activa por un valor en una entrada del frame (dentro del nivel que le corresponda) se desencadenará una acción con el nombre de D_”nombreAcción” y luego el demon vuelve a ponerse inactivo.
+
+![[Pasted image 20230517190027.png]]
+
+## Métodos procedimentales
+Los métodos procedimentales representan cada tipo de conocimiento con un procedimiento  
 concreto para cada uno, lo cual hace que sea un método bastante dinámico. En otras palabras,  
 para cada conocimiento concreto hay que decir qué se hará con él.
 
@@ -190,7 +205,7 @@ técnicas de razonamiento (por ello son dinámicos) para generar nuevo conocimie
 siempre basado en un punto de vista de la probabilidad matemática. Aquí se incluyen métodos  
 como las **reglas de producción**, que permiten generar conocimiento cuando se cumplen unas  
 determinadas condiciones (básicamente es usar IF-THEN-ELSE).
-
+# Reglas de producción
 
 # Tags
 #2-
