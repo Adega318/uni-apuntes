@@ -25,6 +25,7 @@ Relaciones:
 ![[Pasted image 20230517214643.png]]
 
 BLE:
+Posibles combinaciones de M e I
 
 ![[Pasted image 20230517214303.png]]
 
