@@ -131,14 +131,14 @@ Clausulas de disyunción de literales, máximo de 1 positivo.
 
 
 # Representación del conocimiento
-# Métodos estructurados
+## Métodos estructurados
 Los esquemas no formales de representación del conocimiento verifican las siguientes propiedades:
 - Adecuación representacional, el esquema debe de ser capaz de representar las distintas clases de conocimiento del dominio.
 - Adecuación inferencial, el esquema elegido debe permitir manipular conocimiento para obtener conocimiento nuevo.
 - Eficiencia inferencial, el esquema elegido debe de ser versátil, utilizando información que permita optimizar el proceso inferencial.
 - Eficiencia adquisicional, el esquema elegido debe suministrar vías que permitan la incorporación de información y conocimientos nuevos.
 
-## Métodos declarativos
+### Métodos declarativos
 Lo métodos declarativos representan el conocimiento como una colección estática de hechos, que  
 solo se pueden manipular con un conjunto genérico y restringido de procedimientos. En otras  
 palabras, se dice qué hacer con los datos una única vez, sean del tipo que sean los datos.
@@ -148,7 +148,7 @@ resulta más sencillo aumentar el conocimiento sin modificar el ya existente. Aq
 métodos como las **redes semánticas**, que permiten describir objetos y acontecimientos (hechos)  
 al mismo tiempo, o los **marcos (frames)**, que son estructuras que permiten representar desde  
 distintos puntos de vista a objetos muy complejos.
-### Redes semánticas
+#### Redes semánticas
 Consisten en representar el conocimiento mediante conceptos (elementos) y las relaciones que  
 existen entre ellos mediante un grafo y se emplean para hacer mapas conceptuales (esquemas). Los nodos representan a un concepto y las aristas representan la relación entre ambos conceptos, las cuales son unidireccionales de modo que para establecer una doble relación hay que trazar dos aristas distintas. Puede decirse que un enlace es una relación binaria entre nodos y por ello puede haber varias relaciones:
 - Ocurrencia (pertenece, $\in$ ), se relaciona un elemento con una categoría (grupo de elementos).
@@ -177,7 +177,7 @@ Las relaciones pueden generar nuevos conocimientos haciendo uso de:
 
 ![[Pasted image 20230517184159.png]]
 
-### Marcos
+#### Marcos
 Hay que resaltar que, cuando abordamos un nuevo problema, nadie comienza por analizarlo a fondo para ir construyendo estructuras que representen el conocimiento necesario para resolverlo, sino que el primer paso es recordar experiencias anteriores y ver si son semejantes al problema planteado. Los frames hacen justamente eso: intentar representar el problema mediante un razonamiento por semejanzas, y para ello describen clases de objetos, que son representaciones estructuradas del conocimiento sobre una entidad (como si fuera el índice de un libro con más detalles). La ventaja de los frames es que permiten definir procedimientos para inferir rápidamente conocimiento aún a pesar de tener información incompleta o que no está representada explícitamente. Un frame consta de:
 - Cabeza, le da nombre al frame y representa la clase de objetos que se describe.
 - Slot, elementos que representan a un objeto o  una propiedad del frame. Pueden anidarse, de modo que la profundidad de un slot representa al nivel de conocimiento que tiene y su conocimiento se especializa a medida que profundiza en los niveles.
@@ -188,13 +188,13 @@ Gorrión mediante la generación de nuevo conocimiento:
 
 ![[Pasted image 20230517185917.png]]
 
-#### Procedimientos
+##### Procedimientos
 Existe un conjunto de procedimientos para generar nuevos conocimientos que están inactivos la mayoría del tiempo, pero que se activan cuando se cumplan determinadas condiciones para  
 ejecutar acciones concretas. Por ejemplo: IF_NEEDED, IF_ADDED, IF_REMOVED, IF_STORED, IF_RETRIEVED. Cuando un demon se activa por un valor en una entrada del frame (dentro del nivel que le corresponda) se desencadenará una acción con el nombre de D_”nombreAcción” y luego el demon vuelve a ponerse inactivo.
 
 ![[Pasted image 20230517190027.png]]
 
-## Métodos procedimentales
+### Métodos procedimentales
 Los métodos procedimentales representan cada tipo de conocimiento con un procedimiento  
 concreto para cada uno, lo cual hace que sea un método bastante dinámico. En otras palabras,  
 para cada conocimiento concreto hay que decir qué se hará con él.
@@ -205,8 +205,18 @@ técnicas de razonamiento (por ello son dinámicos) para generar nuevo conocimie
 siempre basado en un punto de vista de la probabilidad matemática. Aquí se incluyen métodos  
 como las **reglas de producción**, que permiten generar conocimiento cuando se cumplen unas  
 determinadas condiciones (básicamente es usar IF-THEN-ELSE).
-# Reglas de producción
+## Reglas de producción
+Son esquemas empleados para representar el conocimiento procedimental que están basados en premisas o condiciones (IF), que en caso de ser verdaderas pasan a ejecutar una acción o generan una conclusión (THEN), y que en caso de ser falsas ejecutarán otra acción u otra conclusión (ELSE). La premisa debe estar construida con la lógica formal y los operadores AND (^), OR (∨) o NOT (¬) y pueden anidarse varias premisas.
 
+La principal ventaja de las reglas de producción es que las condiciones y las acciones/conclusiones involucradas son explícitas, por lo tanto sabemos cuales podrían ser los posibles resultados en función del valor lógico que tomen las condiciones. Por lo general buscamos que las reglas de producción conformen una unidad completa de razonamiento, es decir, que una única regla englobe todas las acciones o conclusiones que estén relacionadas con las premisas que se evalúen en el IF.
+Podemos realizar tanto un razonamiento usando lenguaje natural como con lenguaje numérico o matemático; veamos un ejemplo de un diagnóstico médico empleando ambos:
+
+![[Pasted image 20230517190522.png]]
+
+### Tipos de reglas
+- IF_ALL, todas las sentencias de la premisa han de ser ciertas para que se ejecute la acción o se genere una conclusión en la parte del THEN. Es equivalente a una regla en la que todas las sentencias de la parte condicional están anidadas con operadores AND (^).
+- IF_ANY, todas las sentencias de la premisa están conectadas con operadores OR (∨), de modo que basta con que tan solo una de ellas sea verdadera para ejecutar la acción o generar la conclusión en el THEN.
+- IF_SOME, equivale a la regla IF_ANY, pero se evalúan todas las sentencias de la premisa, aún a pesar de que exista al menos una de ellas que sea verdadera. Permite realizar una búsqueda exhaustiva de todos los valores que toma la premisa.
 # Tags
 #2-
 #2-2 
