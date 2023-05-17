@@ -53,7 +53,14 @@ Tomando las siguientes consideraciones para ejemplificar:
 ![[Pasted image 20230517222812.png]]
 
 En base a la probabilidad condicional se deduce:$$P(A)P(E/A)=P(E)P(A/E)$$
+Para generalizar:
 
+![[Pasted image 20230517224341.png]]
+![[Pasted image 20230517224355.png]]
+
+### Posteriori
+Para calcular la probabilidad a posteriori:$$P(A/E)=\frac{P(E/A)P(A)}{P(E/A)P(A)+P(E/\neg A)P(\neg A)}$$
+Esta ecuación se puede generalizar para todos los $A_i$ como:$$P(A_0/E)=\frac{P(E/A_0)P(A_0)}{\sum_iP(E/A_i)P(A_i)}$$
 # Tags
 #2- 
 #2-2 
