@@ -168,9 +168,9 @@ Comparación de lógica formal con red semántica:
 ![[Pasted image 20230517183801.png]]
 
 Las relaciones pueden generar nuevos conocimientos haciendo uso de:
-- Herencia de propiedades, se siguen las relaciones entre dos objetos y se establece una nueva relación que los conecte, aunque suceder 
-- Razonamiento
-	- Por rastreo
+- Herencia de propiedades, se siguen las relaciones entre dos objetos y se establece una nueva relación que los conecte, aunque suceder que la inferencia realizada no sea válida.
+- Razonamiento, puede realizarse de dos maneras.
+	- Por rastreo, se siguen las relaciones entre dos objetos y se establece una nueva relación que los conecte, aunque puede suceder que la inferencia realizada no sea válida.
 	- Emparejamiento
 
 ![[Pasted image 20230517184159.png]]
