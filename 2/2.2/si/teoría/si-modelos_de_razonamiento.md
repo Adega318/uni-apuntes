@@ -30,12 +30,28 @@ Posibles combinaciones de M e I
 ![[Pasted image 20230517214303.png]]
 
 BLR:
+Para obtener la BLR se aplican las relaciones eliminando los casos superfluos.
+Aplicamos R1
 
+![[Pasted image 20230517220913.png]]
 
+Aplicamos R2
 
-1. Construir manifestaciones
-2. Construir interpretaciones
-3. Construir manifestaciones-interpretación
+![[Pasted image 20230517220939.png]]
+
+Aplicamos R3
+
+![[Pasted image 20230517221000.png]]
+
+Aplicamos R4
+
+![[Pasted image 20230517221023.png]]
+
+BLR = {m1i1, m3i2, m2i3, m4i3, m3i4, m4i4}
+4. Construir manifestaciones
+
+1. Construir interpretaciones
+2. Construir manifestaciones-interpretación
 
 ## Modelo bayesiano
 # Tags
