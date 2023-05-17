@@ -16,7 +16,7 @@ Sistemas inteligentes basados en reglas frente a una base de hechos.
 
 ## Base de conocimiento
 Descripción del dominio en cual el sistema, constituida por:
-- Base de hechos, esqueleto declarativo del sistema de producción con la misión de .
+- Base de hechos, esqueleto declarativo del sistema de producción con la misión de articular los hechos relevantes del dominio.
 - Base de reglas, esqueleto procedimental, permite la contrición de circuitos.
 
 ## Memoria activa (MA)
