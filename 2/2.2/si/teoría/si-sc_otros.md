@@ -9,10 +9,35 @@ Este proceso de entrenamiento automático produce patrones.
 Los mapas autoorganizativos son redes donde cada nodo contiene sus pesos y una posición en el mapa, permitiendo la representación de localidad de las neuronas. Estas redes no son supervisadas y aprenden mediante aprendizaje competitivo, los nodos compiten por modificar sus pesos, ganado solo uno.
 ## Kohonen
 Los mapas de kohonen agrupan los datos de entrada similares, especializando las neuronas creando clusters.
-### Funcionamiento
-La capa de entrada recibe las entradas.
-- Las neuronas de entrada reciben 
 
+La capa de entrada recibe los datos.
+- Las neuronas de entrada reciben los datos y los distribuyen entre todas las competitivas (no tiene comunicación entre si).
+- El vector de pesos de cada neurona de la capa de competición tendrá el mismo nº de componentes que el vector de entrada.
+	- Por tener la misma dimensión se pueden comparar entre si con una función de distancia.
+- La distancia utilizada suele ser la euclídea, con la salida de la competición siendo calculada por esa distancia.
+$\tau_{j}=$ salida de la neurona j
+$e_{i}=$entrada i
+$\mu_{ij}=$peso de $e_{i}$ de la neurona j$$\tau_{j}=\sqrt{\sum_{i=1}^{n}(e_{i}-\mu_{ij})^{2}}$$
+### Funcionamiento
+#### Aprendizaje
+Proceso de aprendizaje y entrenamiento de la red.
+- Pesos inicializados aleatoria mente.
+- Se introducen patrones calculando las salidas de la capa de competencia.
+- La neurona con menor distancia con ese vector de entrada obtendrá salida 1 y el resto 0.
+- El pedos de la ganadora se modifica junto de sus vecinas en función de la vecindad.
+	- la vecindad es la distancia entre neuronas, se modifica con el tiempo, estabilizando a lo largo del aprendizaje.
+
+Función de entrenamiento:
+$\alpha=$ tasa de aprendizaje
+$e_{i}=$ entrada i
+$\mu_{ij}=$ peso de $e_{i}$ de la neurona j
+$d()=$ función de vecindad
+$c_{i}=$ célula ganadora
+$c_{j}=$ célula vecina$$\Delta\mu_{ij}=\frac{\alpha}{d(c_{i},c_{j})}(e_{i}-\mu_{ij})$$
+- Vecindad,
+	- Radio, distancia de las neuronas consideradas vecinas.
+	- Topologia, neuronas consideradas vecinas.
+	- Función, cuantifica lo vecina que es una neurona.
 
 # Autoorganizativas
 Es la modificación repetida de los pesos de las conexiones en respuesta a nodos de activación siguiendo reglas preestablecidas.
