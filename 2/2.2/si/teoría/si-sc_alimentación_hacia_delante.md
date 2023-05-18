@@ -41,15 +41,15 @@ La principal utilidad de Adaline es el procesado de señales, pudiendo ser cualq
 
 ![[Pasted image 20230518160341.png]]
 
-Es el Adaline, pero implementando una función de trasferencia para normalizar la salida.
-Un perceptrón implementa un sistema de separación de conjuntos lineal.
+El Perceptrón es un sistema de separación lineal similar a Adaline, diferenciándose en la inclusión de una función de trasferencia y cambios en el entrenamiento.
 ## Estructura y aprendizaje
 Algoritmo original:
 1. Si está bien no lo toques.
-2. Si la salida es incorrecta negativa, le sumo la entrada.
-3. Si la salida es incorrecta positiva, le resto la entrada.
-Luego se pasó a usar la regla delta:
-$$w_{i}(t+1)=w_{i}(t)+\mu(d(t)-y(t))x_{i}(t)$$
+2. Si la salida es incorrecta negativa, se le sumo la entrada.
+3. Si la salida es incorrecta positiva, se le resto la entrada.
+
+Versión con regla delta:$$w_{i}(t+1)=w_{i}(t)+\mu(d(t)-y(t))x_{i}(t)$$
+Con este algoritmo para cualquier problema de separación lineal es solucionable.
 ### Multicapa
 Al añadir múltiples perceptrones se pasó de hacer separaciones lineales a poder hacer separaciones polinómicas. También produce el efecto de caja negra sobre el funcionamiento interno de la red.
 
