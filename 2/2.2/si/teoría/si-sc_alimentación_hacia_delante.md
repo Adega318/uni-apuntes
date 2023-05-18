@@ -117,7 +117,8 @@ Se entrena utilizando Backpropagation, que es el método de entreno de multicapa
 - $o_{pj}$ : salida PE j en la capa de salida para el patrón p
 
 #### Calculo del error
-El algoritmo de backpropagation
+El algoritmo de backpropagation permite el calculo de la responsabilidad del error final sobre cada capa y neurona, denotado por "$\delta_{pk}^o$" para la capa de salida y por "$\delta_{pj}^h$" para las capas ocultas.
+El calculo del error de la capa de salida es cal
 #### Error y pesos
 
 ![[Pasted image 20230426192152.png]]
