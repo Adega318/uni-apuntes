@@ -26,6 +26,10 @@ Proceso de aprendizaje y entrenamiento de la red.
 - La neurona con menor distancia con ese vector de entrada obtendrá salida 1 y el resto 0.
 - El pedos de la ganadora se modifica junto de sus vecinas en función de la vecindad.
 	- la vecindad es la distancia entre neuronas, se modifica con el tiempo, estabilizando a lo largo del aprendizaje.
+-  Vecindad, indica las células que aprenden por proximidad a la vencedora de la competición.
+	- Radio, distancia de las neuronas consideradas vecinas.
+	- Topologia, neuronas consideradas vecinas.
+	- Función, cuantifica lo vecina que es una neurona.
 
 Función de entrenamiento:
 $\alpha=$ tasa de aprendizaje
@@ -34,10 +38,12 @@ $\mu_{ij}=$ peso de $e_{i}$ de la neurona j
 $d()=$ función de vecindad
 $c_{i}=$ célula ganadora
 $c_{j}=$ célula vecina$$\Delta\mu_{ij}=\frac{\alpha}{d(c_{i},c_{j})}(e_{i}-\mu_{ij})$$
-- Vecindad,
-	- Radio, distancia de las neuronas consideradas vecinas.
-	- Topologia, neuronas consideradas vecinas.
-	- Función, cuantifica lo vecina que es una neurona.
+La vecindad puede ser modificar con el tiempo del entrenamiento permitiendo controlar la velocidad de aprendizaje y estabilidad del mismo.
+
+El algoritmo de aprendizaje sera el siguiente:
+1. Inicializar pesos
+2. Presentar entradas
+Propagar el patrón de entrada hasta 
 
 # Autoorganizativas
 Es la modificación repetida de los pesos de las conexiones en respuesta a nodos de activación siguiendo reglas preestablecidas.
