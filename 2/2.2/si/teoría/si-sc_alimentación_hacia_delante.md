@@ -39,9 +39,9 @@ La tasa de aprendizaje "$\mu$" determina el tamaño de salto en el descenso, pud
 ![[Pasted image 20230518154232.png]]
 
 ### Aplicaciones
-La principal utilidad de adaline es el procesado de señales, pudiendo ser cualquier pr
+La principal utilidad de Adaline es el procesado de señales, pudiendo ser cualquier problema de separación de único plano.
 # Perceptrón
-Es el adaline, pero implementando una función de trasferencia para normalizar la salida.
+Es el Adaline, pero implementando una función de trasferencia para normalizar la salida.
 Un perceptrón implementa un sistema de separación de conjuntos lineal.
 ## Estructura y aprendizaje
 Algoritmo original:
