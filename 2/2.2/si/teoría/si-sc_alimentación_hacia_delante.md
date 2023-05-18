@@ -107,7 +107,7 @@ Control de sistemas basándose en datos.
 Se entrena utilizando Backpropagation, que es el método de entreno de multicapas que generaliza la regla delta mediante el uso de la propagación del error.
 #### Notación
 - $n$ : número de entradas de cada patrón  
-- $h$ : capa oculta
+- $h$ : número de capa oculta
 - $o$ : capa de salida  
 - $p$ : patrón  
 - $j$ : PE j en la capa oculta h  
@@ -116,9 +116,11 @@ Se entrena utilizando Backpropagation, que es el método de entreno de multicapa
 - $i_{pj}^{h}$: salida PE j en la capa oculta h para el patrón p  
 - $o_{pj}$ : salida PE j en la capa de salida para el patrón p
 
-#### Calculo del error
+#### Calculo de la responsabilidad del error
 El algoritmo de backpropagation permite el calculo de la responsabilidad del error final sobre cada capa y neurona, denotado por "$\delta_{pk}^o$" para la capa de salida y por "$\delta_{pj}^h$" para las capas ocultas.
-El calculo de la responsabilidad del error de la capa de salida es:$$\delta_{pk}^o=\delta_{pk}f_k^{o\ \prime}(neta)$$
+El calculo de la responsabilidad del error de la capa de salida es:$$\delta_{pk}^o=\delta_{pk}f_k^{o\ \prime}(neta_{pk}^o)$$
+En base a ese cálculo y al calculo de cada capa posterior se propaga la responsabilidad hacia atrás con la siguiente formula:$$\delta_{pj}^h=f_j^{h\ \prime}(neta_{pj}^h)\sum_{k}\delta_{pk}^o\ w_{kj}^o$$
+
 #### Error y pesos
 
 ![[Pasted image 20230426192152.png]]
