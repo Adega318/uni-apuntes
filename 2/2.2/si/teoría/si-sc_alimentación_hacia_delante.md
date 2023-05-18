@@ -107,7 +107,7 @@ Control de sistemas basándose en datos.
 Se entrena utilizando Backpropagation, que es el método de entreno de multicapas que generaliza la regla delta mediante el uso de la propagación del error.
 #### Notación
 - $n$ : número de entradas de cada patrón  
-- $h$ : capa oculta; 
+- $h$ : capa oculta
 - $o$ : capa de salida  
 - $p$ : patrón  
 - $j$ : PE j en la capa oculta h  
@@ -116,8 +116,8 @@ Se entrena utilizando Backpropagation, que es el método de entreno de multicapa
 - $i_{pj}^{h}$: salida PE j en la capa oculta h para el patrón p  
 - $o_{pj}$ : salida PE j en la capa de salida para el patrón p
 
-#### Algoritmo
-1. Minimizar la suma de cuadrados de los errores de todas las unidades de salida
+#### Calculo del error
+El algoritmo de backpropagation
 #### Error y pesos
 
 ![[Pasted image 20230426192152.png]]
