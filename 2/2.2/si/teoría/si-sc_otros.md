@@ -1,13 +1,14 @@
-# Autoorganizativas
 Las redes autoorganizativas son basadas en nodos y un modelo de aprendizaje no supervisado, basándose en reglas para la puntuación de los resultados.
 Este proceso de entrenamiento automático produce patrones.
 - Patrón, entidad representada por un conjunto de propiedades y relaciones entre ellas.
 
-## Mapas autoorganizativos
+# Mapas autoorganizativos
 
 ![[Pasted image 20230518200704.png]]
 
-Los mapas autoorganizativos son redes donde cada nodo contiene sus pesos y una posición en el mapa, permitiendo la representación de localidad de las neuronas. Estas redes no son supervisadas y aprenden mediante aprendizaje competitivo, unicamente un nodo consige modificar sus pe
+Los mapas autoorganizativos son redes donde cada nodo contiene sus pesos y una posición en el mapa, permitiendo la representación de localidad de las neuronas. Estas redes no son supervisadas y aprenden mediante aprendizaje competitivo, los nodos compiten por modificar sus pesos, ganado solo uno.
+## Kohonen
+Los mapas de kohonen agrupan los datos de entrada similares 
 
 
 # Autoorganizativas
