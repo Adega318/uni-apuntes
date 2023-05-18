@@ -134,11 +134,6 @@ Se repetiría el proceso con cada capa oculta anterior hasta obtener todas las r
 En base a las responsabilidades de cada neurona y el error total se modifican los pesos usando el descenso del gradiente.
 La capa de salida modifica los pesos mediante:$$w_{kj}^{o}(t+1)=w_{kj}^{o}(t)+\mu \delta_{pk}^{o}\ i_{pj}^{o-1}$$
 Las capas ocultan se modificaran por:$$w_{ji}^{h}(t+1)=w_{ji}^{h}(t)+\mu \delta_{pj}^{h}\ i_{i}^{h-1}$$
-#### Proceso
-1. Pesos iniciales aleatorios
-2. Entrenamiento con un conjunto representativo.
-3. Corrección de los pesos.
-
 #### Entradas
 La habilitación del entrenamiento se puede hacer separando las entradas, normalizar los datos, pudiendo ser normalizados por:
 - máximo y mínimo, $X=\frac{x-min}{max-min}$
