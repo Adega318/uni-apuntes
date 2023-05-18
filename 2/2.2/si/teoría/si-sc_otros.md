@@ -70,6 +70,14 @@ El paradigma de crecimiento de redes se centra en la creación de redes con arqu
 Para la inserción de neuronas se determina la localización y conexiones con el **valor resourze**, valor asignado a cada neurona para medir su distancia con la estructura ideal. Tras una cantidad de ciclos se consideraran los valores resource para hacer la inserción y posición de inserción.
 ## Borrado de neuronas
 Neuronas con pesos despreciable se eliminan al no tener efecto sobre la red.
+## Estructuras crecientes (GCS)
+Las estructuras GCS se basa en el mantenimiento de las neuronas de entrada y salida con la modificación de las capas ocultas.
+Se establecen estructuras para una cantidad K de nodos:
+
+![[Pasted image 20230424131752.png]]
+
+El entrenamiento de estas redes en competitivo con vecindad y un contador de su error de cuantización
+
 
 
 # Autoorganizativas
