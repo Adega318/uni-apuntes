@@ -20,15 +20,17 @@ Error cuadrático:$$E_{k}=\frac{1}{2}(d_{k}-Y_{k})^2$$
 Error cuadrático medio:$$E=\frac{1}{2}\sum_{k=1}^{L}(d_{k}-Y_{k})^2$$
 Para minimizar el error se derivará con respecto a w, obteniendo información para la minimización de la pendiente del gradiente.
 ### Proceso regla delta
+1. Inicialización aleatoria de los pesos.
 
-![[Pasted image 20230518153154.png]]
-![[Pasted image 20230518153206.png]]
-![[Pasted image 20230518153219.png]]
-![[Pasted image 20230518153235.png]]
-![[Pasted image 20230518153250.png]]
-![[Pasted image 20230518153302.png]]
-![[Pasted image 20230518153312.png]]
+![[Pasted image 20230518153743.png]]
 
+2. Se determina la dirección de la pendiente más pronunciada (uso de la derivada del error).
+
+![[Pasted image 20230518153802.png]]
+
+3. Se modifican los pesos para moverse ene dirección al fondo.
+
+![[Pasted image 20230518153817.png]]
 
 ### Modificación de pesos
 Modificación del peso j, para un patrón k, en t:
