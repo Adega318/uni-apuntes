@@ -81,12 +81,14 @@ Sirve para separar el espacio en dos regiones, estas no pueden ser usados en cap
 
 ### Sigmoidal
 
-![[Pasted image 20230322104852.png]]
-$$f(n)=\frac{1}{1+e^{-n}}$$
+![[Pasted image 20230322104852.png]]$$f(n)=\frac{1}{1+e^{-n}}$$
 ### Hiperbólica
 
-![[Pasted image 20230322104903.png]]
-$$f(n)=\frac{2}{1+e^{-2n}}-1$$
+![[Pasted image 20230322104903.png]]$$f(n)=\frac{2}{1+e^{-2n}}-1$$
+### Tabla de funciones
+
+![[Pasted image 20230518164959.png]]
+
 ## Entrenamiento y Aplicaciones
 Las redes neuronales son aproximaciones universales, siendo garantizado su validez para cualquier problema asegurado por el teorema de la aproximación universal.
 ### Entrenamiento
