@@ -54,6 +54,7 @@ Las funciones del modelo inferente son:
 	- Prioridad de reglas, asignar prioridad a reglas de mayor relevancia.
 	- Uso de las reglas especificas, tomar las reglas que requieren más información.
 	- Regla sobre lo más reciente, aplicar la reglas que usan los datos más recientes.
+
 # Tags
 #2- 
 #2-2 

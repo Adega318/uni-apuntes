@@ -64,7 +64,9 @@ Arquitectura multicapa:
 - Capa de salida, reciben los datos de salida, pudiendo normalizarlos.
 
 ## Funciones de transferencia
+Las funciones de trasferencia cumplen la función de 
 ### Escalón
+Usada en problemas de clasificación.
 
 ![[Pasted image 20230322104454.png]]
 
