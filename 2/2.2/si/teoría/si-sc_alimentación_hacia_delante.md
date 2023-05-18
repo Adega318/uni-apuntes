@@ -125,10 +125,12 @@ El proceso de la propagación del error comenzaría por la capa de salida, calcu
 ![[Pasted image 20230518181109.png]]
 ![[Pasted image 20230518181121.png]]
 
-Con las responsabilidades del error y los pesos que relacionan cada neurona con las de su capa anterior se calculan las respon
+Con las responsabilidades del error y los pesos que relacionan cada neurona con las de su capa anterior se calculan las responsabilidades de la ultima capa oculta:
+
 ![[Pasted image 20230518181134.png]]
 ![[Pasted image 20230518181146.png]]
 
+Se repetiría el proceso con cada capa oculta anterior hasta obtener todas las responsabilidades.
 #### Variación de pesos
 En base a las responsabilidades de cada neurona y el error total se modifican los pesos usando el descenso del gradiente.
 La capa de salida modifica los pesos mediante:$$w_{kj}^{o}(t+1)=w_{kj}^{o}(t)+\mu \delta_{pk}^{o}\ i_{pj}^{o-1}$$
