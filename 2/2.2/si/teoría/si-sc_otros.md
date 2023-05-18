@@ -65,7 +65,12 @@ Las principales aplicaciones son:
 - Agrupación de las entradas
 - Análisis de componentes principales
 # Crecimiento de redes
-El paradigma de crecimiento de redes se centra en la creación de redes con arquitecturas ajustables en base a los datos, permitiendo la creación de .
+El paradigma de crecimiento de redes se centra en la creación de redes con arquitecturas ajustables en base a los datos, permitiendo la creación de modelos simplificados con preservación de la topología.
+## Inserción de neuronas
+Para la inserción de neuronas se determina la localización y conexiones con el **valor resourze**, valor asignado a cada neurona para medir su distancia con la estructura ideal. Tras una cantidad de ciclos se consideraran los valores resource para hacer la inserción y posición de inserción.
+## Borrado de neuronas
+Neuronas con pesos despreciable se eliminan al no tener efecto sobre la red.
+
 
 # Autoorganizativas
 Es la modificación repetida de los pesos de las conexiones en respuesta a nodos de activación siguiendo reglas preestablecidas.
