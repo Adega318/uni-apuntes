@@ -52,11 +52,15 @@ El algoritmo de aprendizaje será el siguiente:
 Repetición del proceso de entrenamiento n veces con configuraciones iniciales diferentes para validad la calidad del SOM y ayudar en el calculo del error de cuantización medio.
 - Error de cuantización medio, evalúa el grado de adaptación del mapa SOM a los datos de  entrada, siendo mejor el que menor error obtenga entre las conexiones de las BMU y los  vectores (patrones de entrada) a los que representa.
 $N=$ numero de vectores de entrada.$$E=\frac{1}{N}\sum_{i=1}^{N}||ei-w_{bmu}||^{2}$$
-- Medidas de prevención de la topología, medidas para suplir la falta de
-### Operación
+- Medidas de prevención de la topología, medidas para evaluar la calidad de la distribución de las neuronas, buscando la cercanía de neuronas con activación sobre entradas similares.
+#### Operación
 - Patrón inicial para conocer el prototipo
 - Calculo de similitud de las neuronas
 - Vencedor con mayor similitud
+
+#### Representación geométrica
+La representación de los mapas se basa en el establecimiento de coordenadas usando los pesos de las neuronas.
+#### Aplicaciones
 
 
 # Autoorganizativas
