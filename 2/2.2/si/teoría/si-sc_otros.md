@@ -1,6 +1,6 @@
 # Autoorganizativas
-Las redes autoorganizativas son basadas en nodos y un modelo de aprendizaje no supervisado, basandose en reglas para la puntuación de los resultados
-
+Las redes autoorganizativas son basadas en nodos y un modelo de aprendizaje no supervisado, basándose en reglas para la puntuación de los resultados.
+Este proceso de entrenamiento auto
 
 
 # Autoorganizativas
