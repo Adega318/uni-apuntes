@@ -113,8 +113,7 @@ Se entrena utilizando Backpropagation, que es el método de entreno de multicapa
 - $j$ : PE j en la capa oculta h  
 - $k$ : PE k en la capa de salida  
 - $w_{ji}^{h}$ : conexión PE i (capa h-1) con PE j (capa h)  
-- $i_{pj}^{h}$: salida PE j en la capa oculta h para el patrón p  
-- $o_{pj}$ : salida PE j en la capa de salida para el patrón p
+- $i_{pj}^{h}$: salida PE j en la capa oculta h para el patrón p
 
 #### Calculo de la responsabilidad del error
 El algoritmo de backpropagation permite el calculo de la responsabilidad del error final sobre cada capa y neurona, denotado por "$\delta_{pk}^o$" para la capa de salida y por "$\delta_{pj}^h$" para las capas ocultas.
@@ -135,15 +134,6 @@ Se repetiría el proceso con cada capa oculta anterior hasta obtener todas las r
 En base a las responsabilidades de cada neurona y el error total se modifican los pesos usando el descenso del gradiente.
 La capa de salida modifica los pesos mediante:$$w_{kj}^{o}(t+1)=w_{kj}^{o}(t)+\mu \delta_{pk}^{o}\ i_{pj}^{o-1}$$
 Las capas ocultan se modificaran por:$$w_{ji}^{h}(t+1)=w_{ji}^{h}(t)+\mu \delta_{pj}^{h}\ i_{i}^{h-1}$$
-
-#### Error y pesos
-
-![[Pasted image 20230426192152.png]]
-
-Error de la capa oculta h:$$\delta_{pj}^{h}=f_{j}^{h\prime}(neta_{pj}^{h})\sum\delta_{pk}^{o}w_{kj}^{o}$$
-Corrección de la capa de oculta:$$w_{ji}^{h}(t+1)=w_{ji}^{h}(t)+\mu \delta_{pj}^{h} i_{i}^{h-1}$$
-Error de la capa de salida o:$$\delta_{pj}^{o}=\delta_{pk}f_{j}^{o\prime}(neta_{pj}^{o})$$
-Corrección de la capa de salida:$$w_{kj}^{o}(t+1)=w_{kj}^{o}(t)+\mu \delta_{pk}^{o} i_{pj}^{o-1}$$
 #### Proceso
 1. Pesos iniciales aleatorios
 2. Entrenamiento con un conjunto representativo.
