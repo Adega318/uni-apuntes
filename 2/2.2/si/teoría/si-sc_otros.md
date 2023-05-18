@@ -40,10 +40,16 @@ $c_{i}=$ célula ganadora
 $c_{j}=$ célula vecina$$\Delta\mu_{ij}=\frac{\alpha}{d(c_{i},c_{j})}(e_{i}-\mu_{ij})$$
 La vecindad puede ser modificar con el tiempo del entrenamiento permitiendo controlar la velocidad de aprendizaje y estabilidad del mismo.
 
-El algoritmo de aprendizaje sera el siguiente:
+El algoritmo de aprendizaje será el siguiente:
 1. Inicializar pesos
-2. Presentar entradas
-Propagar el patrón de entrada hasta 
+2. Presentar una entrada
+3. Propagar el patrón de entrada hasta la capa de competición
+4. Selección de la neurona ganadora
+5. Actualizar las conexiones de ganador y vecinos
+6. Comprobar criterios de parada y regresar al 2
+
+#### Validación
+
 
 # Autoorganizativas
 Es la modificación repetida de los pesos de las conexiones en respuesta a nodos de activación siguiendo reglas preestablecidas.
