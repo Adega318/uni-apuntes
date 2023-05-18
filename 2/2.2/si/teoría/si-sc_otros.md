@@ -1,4 +1,9 @@
 # Autoorganizativas
+Las redes autoorganizatic
+
+
+
+# Autoorganizativas
 Es la modificación repetida de los pesos de las conexiones en respuesta a nodos de activación siguiendo reglas preestablecidas.
 ## Mapas autoorganizativos
 Se mapea la red para establecer zonas que de excitación en función del tipo de entradas, viendo las funciones de las parte de la red y creando categorías de patrones.
