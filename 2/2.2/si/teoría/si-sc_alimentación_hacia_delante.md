@@ -89,23 +89,23 @@ Sirve para separar el espacio en dos regiones, estas no pueden ser usados en cap
 
 ![[Pasted image 20230518164959.png]]
 
-### Aplicaciones
-#### Clasificación
+## Aplicaciones
+### Clasificación
 Dependiendo de el numero de clases en los que clasificar se usara una salida binaria o una neurona por clase. Estas salidas son normalizadas usando la función softmax:
 $$ŷ_{i}=\frac{e^{y_{i}}}{\sum_{j=1}^{c}e^{y_{j}}}$$
 Una ultima opción es usar una única salida continua con segmentos de salida asociados a distintas clases.
-#### Predicción
+### Predicción
 Aplicación de  perdición del progreso de datos en el tiempo.
-#### Clustering
+### Clustering
 Agrupación de valores bajo un criterio sin la existencia de clases.
-#### Aproximación de curvas
-#### Regresión
+### Aproximación de curvas
+### Regresión
 Aplicaciones de transformación de una entrada a una salida (filtros, chats, ...).
-#### Control
+### Control
 Control de sistemas basándose en datos.
-### Entrenamiento
+## Entrenamiento
 Se entrena utilizando Backpropagation, que es el método de entreno de multicapas que generaliza la regla delta mediante el uso de la propagación del error.
-#### Notación
+### Notación
 - $n$ : número de entradas de cada patrón  
 - $h$ : número de capa oculta
 - $o$ : capa de salida  
@@ -115,7 +115,7 @@ Se entrena utilizando Backpropagation, que es el método de entreno de multicapa
 - $w_{ji}^{h}$ : conexión PE i (capa h-1) con PE j (capa h)  
 - $i_{pj}^{h}$: salida PE j en la capa oculta h para el patrón p
 
-#### Calculo de la responsabilidad del error
+### Calculo de la responsabilidad del error
 El algoritmo de backpropagation permite el calculo de la responsabilidad del error final sobre cada capa y neurona, denotado por "$\delta_{pk}^o$" para la capa de salida y por "$\delta_{pj}^h$" para las capas ocultas.
 El calculo de la responsabilidad del error de la capa de salida es:$$\delta_{pk}^o=\delta_{pk}f_k^{o\ \prime}(neta_{pk}^o)$$
 En base a ese cálculo y al calculo de cada capa posterior se propaga la responsabilidad hacia atrás con la siguiente formula:$$\delta_{pj}^h=f_j^{h\ \prime}(neta_{pj}^h)\sum_{k}\delta_{pk}^o\ w_{kj}^o$$
@@ -130,23 +130,26 @@ Con las responsabilidades del error y los pesos que relacionan cada neurona con 
 ![[Pasted image 20230518181146.png]]
 
 Se repetiría el proceso con cada capa oculta anterior hasta obtener todas las responsabilidades.
-#### Variación de pesos
+### Variación de pesos
 En base a las responsabilidades de cada neurona y el error total se modifican los pesos usando el descenso del gradiente.
 La capa de salida modifica los pesos mediante:$$w_{kj}^{o}(t+1)=w_{kj}^{o}(t)+\mu \delta_{pk}^{o}\ i_{pj}^{o-1}$$
 Las capas ocultan se modificaran por:$$w_{ji}^{h}(t+1)=w_{ji}^{h}(t)+\mu \delta_{pj}^{h}\ i_{i}^{h-1}$$
-#### Entradas
+### Entradas
 La habilitación del entrenamiento se puede hacer separando las entradas, normalizar los datos, pudiendo ser normalizados por:
 - máximo y mínimo, $X=\frac{x-min}{max-min}$
 - desviación típica, $X=\frac{x-\mu}{\sigma}$
 
-#### Salidas
+### Salidas
 Para facilitar las salidas en necesaria su normalización y separación.
-#### Control de convergencia
+### Control de convergencia
 
 ![[Pasted image 20230426192320.png]]
 
 Se ajusta la tasa de aprendizaje de manera que por el mismo salto en el mismo lado del mínimo se aumenta la tasa de aprendizaje, cuando se cambie de lado del mínimo se reduce.
-#### Sobre entrenamiento
+
+![[Pasted image 20230518185648.png]]
+
+## Sobre entrenamiento
 El sobre entrenamiento es el resultado de el excesivo entrenamiento de un modelo con un conjunto de datos, reduciendo la capacidad de generalización de la red. Es cuando el modelo interpreta el ruido como una característica del conjunto.
 Para reducir los efectos del mismos:
 - L1, usar los pesos en la función de coste
