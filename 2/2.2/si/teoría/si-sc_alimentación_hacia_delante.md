@@ -33,9 +33,13 @@ Para minimizar el error se derivará con respecto a w, obteniendo información p
 ![[Pasted image 20230518153817.png]]
 
 ### Modificación de pesos
-Modificación del peso j, para un patrón k, en t:
-$$w_{j}(t+1)=w_{t}+\mu(d_{k}-Y_{k})x_{jk}$$
-$\mu:$ tasa de aprendizaje
+Modificación del peso j, para un patrón k, en t (descenso del gradiente):$$w_{j}(t+1)=w_{j}(t)+\mu\cdot(d_{k}-Y_{k})\cdot x_{jk}$$
+La tasa de aprendizaje "$\mu$" determina el tamaño de salto en el descenso, pudiendo causar problemas en su erróneo ajuste.
+
+![[Pasted image 20230518154232.png]]
+
+### Aplicaciones
+La principal utilidad de adaline es el procesado de señales, pudiendo ser cualquier pr
 # Perceptrón
 Es el adaline, pero implementando una función de trasferencia para normalizar la salida.
 Un perceptrón implementa un sistema de separación de conjuntos lineal.
