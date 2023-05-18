@@ -89,8 +89,20 @@ Sirve para separar el espacio en dos regiones, estas no pueden ser usados en cap
 
 ![[Pasted image 20230518164959.png]]
 
-## Entrenamiento y Aplicaciones
-Las redes neuronales son aproximaciones universales, siendo garantizado su validez para cualquier problema asegurado por el teorema de la aproximación universal.
+### Aplicaciones
+#### Clasificación
+Dependiendo de el numero de clases en los que clasificar se usara una salida binaria o una neurona por clase. Estas salidas son normalizadas usando la función softmax:
+$$ŷ_{i}=\frac{e^{y_{i}}}{\sum_{j=1}^{c}e^{y_{j}}}$$
+Una ultima opción es usar una única salida continua con segmentos de salida asociados a distintas clases.
+#### Predicción
+Aplicación de  perdición del progreso de datos en el tiempo.
+#### Clustering
+Agrupación de valores bajo un criterio sin la existencia de clases.
+#### Aproximación de curvas
+#### Regresión
+Aplicaciones de transformación de una entrada a una salida (filtros, chats, ...).
+#### Control
+Control de sistemas basándose en datos.
 ### Entrenamiento
 Se entrena utilizando Backpropagation, que es el método de entreno de multicapas que generaliza la regla delta mediante el uso de la propagación del error.
 #### Notación
@@ -100,9 +112,12 @@ Se entrena utilizando Backpropagation, que es el método de entreno de multicapa
 - $p$ : patrón  
 - $j$ : PE j en la capa oculta h  
 - $k$ : PE k en la capa de salida  
-- $w_{pj}^{h}$ : conexión PE i (capa h-1) con PE j (capa h)  
+- $w_{ji}^{h}$ : conexión PE i (capa h-1) con PE j (capa h)  
 - $i_{pj}^{h}$: salida PE j en la capa oculta h para el patrón p  
 - $o_{pj}$ : salida PE j en la capa de salida para el patrón p
+
+#### Algoritmo
+
 #### Error y pesos
 
 ![[Pasted image 20230426192152.png]]
@@ -119,10 +134,12 @@ $$w_{kj}^{o}(t+1)=w_{kj}^{o}(t)+\mu \delta_{pk}^{o} i_{pj}^{o-1}$$
 1. Pesos iniciales aleatorios
 2. Entrenamiento con un conjunto representativo.
 3. Corrección de los pesos.
+
 #### Entradas
 La habilitación del entrenamiento se puede hacer separando las entradas, normalizar los datos, pudiendo ser normalizados por:
 - máximo y mínimo, $X=\frac{x-min}{max-min}$
 - desviación típica, $X=\frac{x-\mu}{\sigma}$
+
 #### Salidas
 Para facilitar las salidas en necesaria su normalización y separación.
 #### Control de convergencia
@@ -136,10 +153,12 @@ Para reducir los efectos del mismos:
 - L1, usar los pesos en la función de coste
 - L2, añadir f coste a la suma de cuadrado de valores de peso
 - Parada temprana
+
 Pasos en el entrenamiento para el sobre entrenamiento:
 1. se entrena
 2. se valida el error con un conjunto de validación, que no aprende.
 3. Si se realizan más de un número de ciclos sin mejoras de error damos error.
+
 ### Aplicaciones
 #### Clasificación
 Dependiendo de el numero de clases en los que clasificar se usara una salida binaria o una neurona por clase. Estas salidas son normalizadas usando la función softmax:
