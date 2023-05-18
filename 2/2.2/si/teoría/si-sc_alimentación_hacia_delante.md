@@ -159,29 +159,18 @@ Para la prevención del sobre entrenamiento tenemos varias técnicas disponibles
 
 Para evaluar el sobre entrenamiento y detectarlo el conjunto de datos se divide en tres categorías:
 - Entrenamiento, conjunto de datos usado en el entrenamiento del sistema.
-- Validación, conjunto usado para evaluar la calidad de la red (no produce cambios sobre la misma)
-- Test
+- Validación, conjunto usado para evaluar la calidad de la red (no produce cambios sobre la misma).
+- Test, conjunto reservado para la evaluación final del sistema.
+
+Para la evaluación del error se hace uso de el error de las pruebas del conjunto de validación, el aumento de este error indica el sobre entrenamiento.
+
+![[Pasted image 20230518190606.png]]
+
 Pasos en el entrenamiento para el sobre entrenamiento:
 1. se entrena
 2. se valida el error con un conjunto de validación, que no aprende.
 3. Si se realizan más de un número de ciclos sin mejoras de error damos error.
 
-### Aplicaciones
-#### Clasificación
-Dependiendo de el numero de clases en los que clasificar se usara una salida binaria o una neurona por clase. Estas salidas son normalizadas usando la función softmax:
-$$ŷ_{i}=\frac{e^{y_{i}}}{\sum_{j=1}^{c}e^{y_{j}}}$$
-Una ultima opción es usar una única salida continua con segmentos de salida asociados a distintas clases.
-#### Predicción
-Aplicación de  perdición del progreso de datos en el tiempo.
-#### Clustering
-Agrupación de valores bajo un criterio sin la existencia de clases.
-#### Aproximación de curvas
-#### Regresión
-Aplicaciones de transformación de una entrada a una salida (filtros, chats, ...).
-#### Control
-Control de sistemas basándose en datos.
-# Funcionamiento de una red
-En una red las neuronas de la s capas ocultas determinan las divisiones del espacio, siendo las de salida quienes unen esas divisiones creando regiones.
 # Tags
 #2- 
 #2-2 
