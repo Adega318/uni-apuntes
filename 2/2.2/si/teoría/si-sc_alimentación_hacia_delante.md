@@ -120,6 +120,10 @@ Se entrena utilizando Backpropagation, que es el método de entreno de multicapa
 El algoritmo de backpropagation permite el calculo de la responsabilidad del error final sobre cada capa y neurona, denotado por "$\delta_{pk}^o$" para la capa de salida y por "$\delta_{pj}^h$" para las capas ocultas.
 El calculo de la responsabilidad del error de la capa de salida es:$$\delta_{pk}^o=\delta_{pk}f_k^{o\ \prime}(neta_{pk}^o)$$
 En base a ese cálculo y al calculo de cada capa posterior se propaga la responsabilidad hacia atrás con la siguiente formula:$$\delta_{pj}^h=f_j^{h\ \prime}(neta_{pj}^h)\sum_{k}\delta_{pk}^o\ w_{kj}^o$$
+#### Variación de pesos
+En base a las responsabilidades de cada neurona y el error total se modifican los pesos usando el descenso del gradiente.
+La capa de salida modifica los pesos mediante:$$w_{kj}^{o}(t+1)=w_{kj}^{o}(t)+\mu \delta_{pk}^{o}\ i_{pj}^{o-1}$$
+Las capas ocultan se modificaran por:$$w_{ji}^{h}(t+1)=w_{ji}^{h}(t)+\mu \delta_{pj}^{h}\ i_{i}^{h-1}$$
 
 #### Error y pesos
 
