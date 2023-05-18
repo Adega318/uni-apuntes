@@ -61,7 +61,11 @@ $N=$ numero de vectores de entrada.$$E=\frac{1}{N}\sum_{i=1}^{N}||ei-w_{bmu}||^{
 #### Representación geométrica
 La representación de los mapas se basa en el establecimiento de coordenadas usando los pesos de las neuronas.
 #### Aplicaciones
-
+Las principales aplicaciones son:
+- Agrupación de las entradas
+- Análisis de componentes principales
+# Crecimiento de redes
+El paradigma de crecimiento de redes se centra en la creación de redes con arquitecturas ajustables en base a los datos, permitiendo la creación de .
 
 # Autoorganizativas
 Es la modificación repetida de los pesos de las conexiones en respuesta a nodos de activación siguiendo reglas preestablecidas.
