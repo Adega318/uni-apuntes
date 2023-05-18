@@ -151,11 +151,16 @@ Se ajusta la tasa de aprendizaje de manera que por el mismo salto en el mismo la
 
 ## Sobre entrenamiento
 El sobre entrenamiento es el resultado de el excesivo entrenamiento de un modelo con un conjunto de datos, reduciendo la capacidad de generalización de la red. Es cuando el modelo interpreta el ruido como una característica del conjunto.
-Para reducir los efectos del mismos:
+### Prevención
+Para la prevención del sobre entrenamiento tenemos varias técnicas disponibles:
 - L1, usar los pesos en la función de coste
 - L2, añadir f coste a la suma de cuadrado de valores de peso
 - Parada temprana
 
+Para evaluar el sobre entrenamiento y detectarlo el conjunto de datos se divide en tres categorías:
+- Entrenamiento, conjunto de datos usado en el entrenamiento del sistema.
+- Validación, conjunto usado para evaluar la calidad de la red (no produce cambios sobre la misma)
+- Test
 Pasos en el entrenamiento para el sobre entrenamiento:
 1. se entrena
 2. se valida el error con un conjunto de validación, que no aprende.
