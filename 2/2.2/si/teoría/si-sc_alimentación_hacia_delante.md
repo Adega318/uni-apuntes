@@ -117,19 +117,15 @@ Se entrena utilizando Backpropagation, que es el método de entreno de multicapa
 - $o_{pj}$ : salida PE j en la capa de salida para el patrón p
 
 #### Algoritmo
-1. Minimizar la suma de cuadrados de los errores de todas las 
+1. Minimizar la suma de cuadrados de los errores de todas las unidades de salida
 #### Error y pesos
 
 ![[Pasted image 20230426192152.png]]
 
-Error de la capa oculta h:
-$$\delta_{pj}^{h}=f_{j}^{h\prime}(neta_{pj}^{h})\sum\delta_{pk}^{o}w_{kj}^{o}$$
-Corrección de la capa de oculta:
-$$w_{ji}^{h}(t+1)=w_{ji}^{h}(t)+\mu \delta_{pj}^{h} i_{i}^{h-1}$$
-Error de la capa de salida o:
-$$\delta_{pj}^{o}=\delta_{pk}f_{j}^{o\prime}(neta_{pj}^{o})$$
-Corrección de la capa de salida:
-$$w_{kj}^{o}(t+1)=w_{kj}^{o}(t)+\mu \delta_{pk}^{o} i_{pj}^{o-1}$$
+Error de la capa oculta h:$$\delta_{pj}^{h}=f_{j}^{h\prime}(neta_{pj}^{h})\sum\delta_{pk}^{o}w_{kj}^{o}$$
+Corrección de la capa de oculta:$$w_{ji}^{h}(t+1)=w_{ji}^{h}(t)+\mu \delta_{pj}^{h} i_{i}^{h-1}$$
+Error de la capa de salida o:$$\delta_{pj}^{o}=\delta_{pk}f_{j}^{o\prime}(neta_{pj}^{o})$$
+Corrección de la capa de salida:$$w_{kj}^{o}(t+1)=w_{kj}^{o}(t)+\mu \delta_{pk}^{o} i_{pj}^{o-1}$$
 #### Proceso
 1. Pesos iniciales aleatorios
 2. Entrenamiento con un conjunto representativo.
