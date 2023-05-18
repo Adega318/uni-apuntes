@@ -9,9 +9,6 @@ Las conexiones las podemos clasificar en función de su peso como:
 
 Por otro lado, él bisas determina la sensibilidad de una neurona para la activación.
 # Adaline
-
-![[Pasted image 20230518152601.png]]
-
 El modelo Adaline es un modelo supervisado con corrección de errores, corrige mediante la reducción del error cuadrático medio (ECM).
 ## Regala delta (LMS)
 La regla delta o también conocida como el descenso del gradiente, basando sé en la derivación del error y minimización de la pendiente de la derivada.
@@ -41,6 +38,9 @@ La tasa de aprendizaje "$\mu$" determina el tamaño de salto en el descenso, pud
 ### Aplicaciones
 La principal utilidad de Adaline es el procesado de señales, pudiendo ser cualquier problema de separación de único plano.
 # Perceptrón
+
+![[Pasted image 20230518160341.png]]
+
 Es el Adaline, pero implementando una función de trasferencia para normalizar la salida.
 Un perceptrón implementa un sistema de separación de conjuntos lineal.
 ## Estructura y aprendizaje
