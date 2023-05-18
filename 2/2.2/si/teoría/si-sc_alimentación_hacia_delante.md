@@ -66,7 +66,9 @@ Arquitectura multicapa:
 ## Funciones de transferencia
 Las funciones de trasferencia cumplen la función de trasferencia cumple dos funciones distintas dependiendo de la capa en la que se empleen:
 - Internas, las funciones de las capas internas deben ser no lineales ya que su función es evitar que la capa colapse en una única función lineal por suma de lineales.
-- Salida, 
+- Salida, las funciones en las capas de salida dependen del problema a tratar siendo para problemas de regresión funciones lineales, clasificación logsig o lineal, ...
+
+Algunos de los tipos de funciones son:
 ### Escalón
 Usada en problemas de clasificación.
 
