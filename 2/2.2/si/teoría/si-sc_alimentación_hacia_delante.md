@@ -117,7 +117,7 @@ Se entrena utilizando Backpropagation, que es el método de entreno de multicapa
 - $o_{pj}$ : salida PE j en la capa de salida para el patrón p
 
 #### Algoritmo
-
+1. Minimizar la suma de cuadrados de los errores de todas las 
 #### Error y pesos
 
 ![[Pasted image 20230426192152.png]]
