@@ -4,7 +4,11 @@ Este proceso de entrenamiento automático produce patrones.
 - Patrón, entidad representada por un conjunto de propiedades y relaciones entre ellas.
 
 ## Mapas autoorganizativos
-Los mapas autoorganizativos son 
+
+![[Pasted image 20230518200704.png]]
+
+Los mapas autoorganizativos son redes donde cada nodo contiene sus pesos y una posición en el mapa, permitiendo la representación de localidad de las neuronas. Estas redes no son supervisadas y aprenden mediante aprendizaje competitivo, unicamente un nodo consige modificar sus pe
+
 
 # Autoorganizativas
 Es la modificación repetida de los pesos de las conexiones en respuesta a nodos de activación siguiendo reglas preestablecidas.
