@@ -1,8 +1,10 @@
 # Autoorganizativas
 Las redes autoorganizativas son basadas en nodos y un modelo de aprendizaje no supervisado, basándose en reglas para la puntuación de los resultados.
 Este proceso de entrenamiento automático produce patrones.
-- Patrón, entidad representada por un conjunto de propiedades y relaciones entre ellas
+- Patrón, entidad representada por un conjunto de propiedades y relaciones entre ellas.
 
+## Mapas autoorganizativos
+Los mapas autoorganizativos son 
 
 # Autoorganizativas
 Es la modificación repetida de los pesos de las conexiones en respuesta a nodos de activación siguiendo reglas preestablecidas.
