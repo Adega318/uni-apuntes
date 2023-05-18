@@ -9,15 +9,15 @@ Las conexiones las podemos clasificar en función de su peso como:
 
 Por otro lado, él bisas determina la sensibilidad de una neurona para la activación.
 # Adaline
+
+![[Pasted image 20230518152601.png]]
+
 El modelo Adaline es un modelo supervisado con corrección de errores, corrige mediante la reducción del error cuadrático medio (ECM).
 ## Regala delta (LMS)
 La regla delta o también conocida como el descenso del gradiente, basando sé en la derivación del error y minimización de la pendiente de la derivada.
-Para cada patrón k:
-$$Y_{k}=\sum_{j=0}^{m}w_{kj}x_{j}$$
-Error cuadrático:
-$$E_{k}=\frac{1}{2}(d_{k}-Y_{k})^2$$
-Error cuadrático medio:
-$$E=\sum_{k=1}^{L}E_{k}=\frac{1}{2}\sum_{k=1}^{L}(d_{k}-Y_{k})^2$$
+Para cada patrón k:$$Y_{k}=\sum_{j=0}^{m}w_{kj}\dot x_{j}$$
+Error cuadrático:$$E_{k}=\frac{1}{2}(d_{k}-Y_{k})^2$$
+Error cuadrático medio:$$E=\sum_{k=1}^{L}E_{k}=\frac{1}{2}\sum_{k=1}^{L}(d_{k}-Y_{k})^2$$
 Para minimizar el error se derivará con respecto a w, obteniendo información para la minimización de la pendiente del gradiente.
 ### Modificación de pesos
 Modificación del peso j, para un patrón k, en t:
