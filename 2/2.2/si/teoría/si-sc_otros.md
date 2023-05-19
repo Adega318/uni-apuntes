@@ -7,7 +7,7 @@ Este proceso de entrenamiento automático produce patrones.
 ![[Pasted image 20230518200704.png]]
 
 Los mapas autoorganizativos son redes donde cada nodo contiene sus pesos y una posición en el mapa, permitiendo la representación de localidad de las neuronas. Estas redes no son supervisadas y aprenden mediante aprendizaje competitivo, los nodos compiten por modificar sus pesos, ganado solo uno.
-## Kohonen
+## Kohonen (SOM)
 Los mapas de kohonen agrupan los datos de entrada similares, especializando las neuronas creando clusters.
 
 La capa de entrada recibe los datos.
