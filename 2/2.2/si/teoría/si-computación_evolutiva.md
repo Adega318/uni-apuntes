@@ -74,7 +74,12 @@ Porcentaje de cruce y mutación
 
 ![[Pasted image 20230519152654.png]]
 
-Conjunto de neuronas que operan las entradas para obtener la
+Conjunto de neuronas que operan las entradas para obtener la salida deseada.
+## Recurrente
+
+![[Pasted image 20230519152840.png]]
+
+La conectividad de los nodos en este tipo de red es total, descartando el concepto de capas. Este tipo de distribuciones tiene gran uso en 
 # Tags
 #2- 
 #2-2 
