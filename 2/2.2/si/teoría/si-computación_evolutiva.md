@@ -89,7 +89,22 @@ La conectividad de los nodos en este tipo de red es total, descartando el concep
 2. Topología, búsqueda del numero de neuronas y conectividad optima.
 3. Construcción, uso del CE para obtener reglas de construcción.
 
-### Entrenamiento, 
+### Entrenamiento
+
+![[Pasted image 20230519155358.png]]
+
+### Conectividad
+
+![[Pasted image 20230519155452.png]]
+
+### Topología
+
+![[Pasted image 20230519155534.png]]
+
+#### Codificación de la topología
+- Directa, correspondencia entre genes y elementos de la RNA.
+- Indirecta, individuo indica la construcción del RNA.
+- Objetivos, 
 # Tags
 #2- 
 #2-2 
