@@ -59,9 +59,9 @@ Selecciono de 2 individuos, se cruzan evalúan y ordenan, eliminando los dos peo
 
 Se selecciona uno, se muta, evalúa y ordena.
 ## Función de evaluación
-La función de evaluación deve de ser capaz de evaluar los individuos penelizando y recompensando 
-## Criterios de paro
-Criterios para la parada del entrenamiento, 
+La función de evaluación debe de ser capaz de evaluar los individuos penalizándolos y recompensándolos.
+## Criterios de parada
+Criterios para la parada del entrenamiento, pudiendo ser un número de ciclos, error mínimo, ...
 ### Criterios sobre parámetros
 Tamaño de población, aspecto de gran importancia en el costo comunicacional y vital para evitar la homogeneizacion.
 - balance entre pequeña y grande.
