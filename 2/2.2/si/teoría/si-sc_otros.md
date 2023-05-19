@@ -24,7 +24,7 @@ Proceso de aprendizaje y entrenamiento de la red.
 - Pesos inicializados aleatoria mente.
 - Se introducen patrones calculando las salidas de la capa de competencia.
 - La neurona con menor distancia con ese vector de entrada obtendrá salida 1 y el resto 0.
-- El pedos de la ganadora se modifica junto de sus vecinas en función de la vecindad.
+- El pedos de la ganadora se modifica junto de sus vecinas en función del radio de vecindad.
 	- la vecindad es la distancia entre neuronas, se modifica con el tiempo, estabilizando a lo largo del aprendizaje.
 -  Vecindad, indica las células que aprenden por proximidad a la vencedora de la competición.
 	- Radio, distancia de las neuronas consideradas vecinas.
@@ -76,7 +76,7 @@ Se establecen estructuras para una cantidad K de nodos:
 
 ![[Pasted image 20230424131752.png]]
 
-El entrenamiento de estas redes en competitivo con vecindad y un contador de su error de cuantización.
+El entrenamiento de estas redes en competitivo con vecindad directa y un contador de su error de cuantización.
 ### Aplicación
 Las aplicaciones de este tipos de redes es la clasificación de los datos.
 ## Gas neuronal creciente (GNS)
