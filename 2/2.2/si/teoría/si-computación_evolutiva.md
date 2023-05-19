@@ -70,6 +70,11 @@ Tamaño de población, aspecto de gran importancia en el costo comunicacional y 
 Porcentaje de cruce y mutación
 - cruce de 0.9 y mutación de 0.05-0.1
 - valores variables durante el algoritmo, comienzan muy cruzado y aumenta la mutación con el tiempo.
+# Red de neuronas artificiales (RNA)
+
+![[Pasted image 20230519152654.png]]
+
+Conjunto de neuronas que operan las entradas para obtener la
 # Tags
 #2- 
 #2-2 
