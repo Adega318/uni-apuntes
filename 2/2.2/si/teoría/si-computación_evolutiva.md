@@ -104,7 +104,12 @@ La conectividad de los nodos en este tipo de red es total, descartando el concep
 #### Codificación de la topología
 - Directa, correspondencia entre genes y elementos de la RNA.
 - Indirecta, individuo indica la construcción del RNA.
-- Objetivos, 
+- Objetivos, competición entre neuronas.
+
+![[Pasted image 20230519155922.png]]
+
+# Programación genética
+
 # Tags
 #2- 
 #2-2 
