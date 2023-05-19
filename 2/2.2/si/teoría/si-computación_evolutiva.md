@@ -80,9 +80,15 @@ Conjunto de neuronas que operan las entradas para obtener la salida deseada.
 ![[Pasted image 20230519152840.png]]
 
 La conectividad de los nodos en este tipo de red es total, descartando el concepto de capas. Este tipo de distribuciones tiene uso en tareas de reconocimiento, predicción y asociación de secuencias. Su aprendizaje es complicado y lento.
-## Entrenamiento
-### Supervisado
+## Entrenamiento supervisado
 El entrenamiento supervisado de estos modelos se vasa en el ajuste de pesos para la reducción del error entre la salida y el resultado esperado.
+## Bloques constructivos
+
+![[Pasted image 20230519153901.png]]
+
+## Diseño RNA
+1. Entrenamiento, búsqueda de los  pesos óptimos.
+2. Topología, 
 # Tags
 #2- 
 #2-2 
