@@ -8,7 +8,7 @@ Las conexiones las podemos clasificar en función de su peso como:
 - inexistentes $w_{ij}=0$
 
 Por otro lado, él bisas determina la sensibilidad de una neurona para la activación.
-# Adaline (RNA)
+# Adaline
 El modelo Adaline es un modelo supervisado con corrección de errores, corrige mediante la reducción del error cuadrático medio (ECM).
 ## Regala delta (LMS)
 La regla delta o también conocida como el descenso del gradiente, basando sé en la derivación del error y minimización de la pendiente de la derivada.
