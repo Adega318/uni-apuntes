@@ -15,7 +15,7 @@ Los algoritmos genéticos tiene los siguientes componente:
 5. Valores de parámetros.
 
 ## Población y evaluación de individuos
-La población inicial es aleatoria, 
+La población inicial es aleatoria, a cada individuo de la población se le evaluará asignando una puntuación para cada uno.
 # Ciclos de generaciones
 ## Criterio de selección
 Selección  de los individuos a cruzar para la siguiente generación, habiendo varios tipos de selecciones:
