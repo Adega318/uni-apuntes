@@ -80,15 +80,11 @@ El entrenamiento de estas redes en competitivo con vecindad y un contador de su 
 ### Aplicación
 Las aplicaciones de este tipos de redes es la clasificación de los datos.
 ## Gas neuronal creciente (GNS)
-Este modelo a diferencia del GCS es un modelo donde no se mantiene ninguna estructura, adaptandose a las diferentes dimensiones
+Este modelo a diferencia del GCS es un modelo donde no se mantiene ninguna estructura, adaptándose a las diferentes dimensiones.
 
+![[Pasted image 20230518212440.png]]
 
-
-
-### Capa de salida
-La capa de salida es idéntica a la de Kohonen.
-- Error de cuantización, error almacenado de cada neurona con la distancia euclídea en su momento ganador.
-
+Esta adaptación llevan a que llene  los espacios con neuronas (como un gas).
 # Tags
 #2- 
 #2-2 
