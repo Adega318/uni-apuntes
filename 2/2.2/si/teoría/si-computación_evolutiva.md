@@ -1,8 +1,7 @@
-# Computación evolutiva
 
 ![[Pasted image 20230508133850.png]]
 
-## Técnicas
+# Técnicas
 ### Algoritmos genéticos
 
 ![[Pasted image 20230508135107.png]]
