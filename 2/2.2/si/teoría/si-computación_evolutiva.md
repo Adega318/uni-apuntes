@@ -125,6 +125,9 @@ while(i<20){
 
 ## Operadores de cruce
 
+![[Pasted image 20230519163455.png]]
+
+Se intercambian segmentos a partir de un punto.
 # Tags
 #2- 
 #2-2 
