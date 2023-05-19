@@ -75,20 +75,21 @@ Porcentaje de cruce y mutación
 ![[Pasted image 20230519152654.png]]
 
 Conjunto de neuronas que operan las entradas para obtener la salida deseada.
-## Recurrente
+## Recurrentes
 
 ![[Pasted image 20230519152840.png]]
 
 La conectividad de los nodos en este tipo de red es total, descartando el concepto de capas. Este tipo de distribuciones tiene uso en tareas de reconocimiento, predicción y asociación de secuencias. Su aprendizaje es complicado y lento.
-## Entrenamiento supervisado
-El entrenamiento supervisado de estos modelos se vasa en el ajuste de pesos para la reducción del error entre la salida y el resultado esperado.
 ## Bloques constructivos
 
 ![[Pasted image 20230519153901.png]]
 
 ## Diseño RNA
 1. Entrenamiento, búsqueda de los  pesos óptimos.
-2. Topología, busqueda del numero de neuronas 
+2. Topología, búsqueda del numero de neuronas y conectividad optima.
+3. Construcción, uso del CE para obtener reglas de construcción.
+
+### Entrenamiento, 
 # Tags
 #2- 
 #2-2 
