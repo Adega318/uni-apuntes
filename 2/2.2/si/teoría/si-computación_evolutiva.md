@@ -16,22 +16,22 @@ Los algoritmos genéticos tiene los siguientes componente:
 
 ## Población y evaluación de individuos
 La población inicial es aleatoria, a cada individuo de la población se le evaluará asignando una puntuación para cada uno.
-# Ciclos de generaciones
-## Criterio de selección
+## Ciclos de generaciones
+### Criterio de selección
 Selección  de los individuos a cruzar para la siguiente generación, habiendo varios tipos de selecciones:
 - Ruleta, se sortean N huecos entre los individuos con probabilidades proporcionales a su desempeño.
 - Torneo, se seleccionan N al azar y  se escoge el mas apto.
 
 ![[Pasted image 20230503124624.png]]
 
-## Cruce
+### Cruce
 Mezcla de los seleccionados de la generación, con varios tipos:
 - Puntos, tomar alternativamente fragmentos de genes de los seleccionados.
 - Uniforme, se elige aleatoria mente por cada gen de que seleccionado tomar herencia.
 	- Mascara, genes a elegir de cada uno pre fijados.
 
 El cruce aumenta la homogeneidad.
-## Mutación
+### Mutación
 Generación de valores para los genes, clasificándose en:
 - Bit, un bit aleatorio cambia.
 	- Multibit, varios bits cambian.
@@ -42,7 +42,7 @@ Generación de valores para los genes, clasificándose en:
 
 La mutación la diversidad.
 
-## Sustitución
+### Sustitución
 Para mantener el numero fijo de población se deben sustituir los individuos de la población, con tres tipos de sustitución en base a su evaluación:
 - Peores, se eliminan los peores de la población.
 - Padres, se eliminan los padres.
