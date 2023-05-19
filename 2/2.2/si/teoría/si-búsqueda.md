@@ -156,7 +156,7 @@ La búsqueda A* toma en cuenta la perspectiva de la acción y el coste del camin
 ### Escalada
 Elige el mejor de los sucesores basándose en la heurística, siempre que los sucesores sean mejores que el padre.
 - Cresta, región de estados mejores pero a los que no podemos llegar con movimientos simples.
-- Mesetas, región donde todos los estados tienen el mismo valor en un paso simple.
+- Mesetas, región donde varios estados tienen el mismo valor en un paso simple.
 
 # Tags
 #2- 
