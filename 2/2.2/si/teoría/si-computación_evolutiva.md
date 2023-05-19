@@ -88,7 +88,7 @@ El entrenamiento supervisado de estos modelos se vasa en el ajuste de pesos para
 
 ## Diseño RNA
 1. Entrenamiento, búsqueda de los  pesos óptimos.
-2. Topología, 
+2. Topología, busqueda del numero de neuronas 
 # Tags
 #2- 
 #2-2 
