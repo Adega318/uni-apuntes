@@ -79,7 +79,10 @@ Conjunto de neuronas que operan las entradas para obtener la salida deseada.
 
 ![[Pasted image 20230519152840.png]]
 
-La conectividad de los nodos en este tipo de red es total, descartando el concepto de capas. Este tipo de distribuciones tiene gran uso en 
+La conectividad de los nodos en este tipo de red es total, descartando el concepto de capas. Este tipo de distribuciones tiene uso en tareas de reconocimiento, predicción y asociación de secuencias. Su aprendizaje es complicado y lento.
+## Entrenamiento
+### Supervisado
+El entrenamiento supervisado de estos modelos se vasa en el ajuste de pesos para la reducción del error entre la salida y el resultado esperado.
 # Tags
 #2- 
 #2-2 
