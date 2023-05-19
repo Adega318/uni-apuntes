@@ -41,29 +41,28 @@ Generación de valores para los genes, clasificándose en:
 	- Barajado, re organización de varios genes.
 
 La mutación la diversidad.
-
 ### Sustitución
 Para mantener el numero fijo de población se deben sustituir los individuos de la población, con tres tipos de sustitución en base a su evaluación:
 - Peores, se eliminan los peores de la población.
 - Padres, se eliminan los padres.
 - Parecidos, se eliminan los similares.
 
-## Steady-state
-### Cruce
+### Steady-state
+#### Cruce
 
 ![[Pasted image 20230503132427.png]]
 
 Selecciono de 2 individuos, se cruzan evalúan y ordenan, eliminando los dos peores para hacer hueco.
-### Mutación
+#### Mutación
 
 ![[Pasted image 20230503132532.png]]
 
 Se selecciona uno, se muta, evalúa y ordena.
-# Función de evaluación
+## Función de evaluación
 
-# Criterios de paro
+## Criterios de paro
 Criterios para la parada del entrenamiento, 
-## Criterios sobre parámetros
+### Criterios sobre parámetros
 Tamaño de población, aspecto de gran importancia en el costo comunicacional y vital para evitar la homogeneizacion.
 - balance entre pequeña y grande.
 - población de tamaño constante o variable.
