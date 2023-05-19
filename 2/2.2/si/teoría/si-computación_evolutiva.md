@@ -59,7 +59,7 @@ Selecciono de 2 individuos, se cruzan evalúan y ordenan, eliminando los dos peo
 
 Se selecciona uno, se muta, evalúa y ordena.
 ## Función de evaluación
-
+La función de evaluación deve de ser capaz de evaluar los individuos penelizando y recompensando 
 ## Criterios de paro
 Criterios para la parada del entrenamiento, 
 ### Criterios sobre parámetros
