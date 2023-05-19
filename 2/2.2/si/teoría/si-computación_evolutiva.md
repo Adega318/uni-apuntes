@@ -110,15 +110,21 @@ La conectividad de los nodos en este tipo de red es total, descartando el concep
 
 # Programación genética
 La programación genética codifica la información en forma de árbol.
-- Expresión Aritmética$$2\cdot \pi+((x+3)-\frac{y}{5+1})$$
-- Expresión Lógica$$(x\land true)\rightarrow((x\lor y)\lor(z\leftrightarrow (x\land y)))$$
+- Expresión Aritmética$$2\cdot \pi+((x+3)-\frac{y}{5+1})$$![[Pasted image 20230519161327.png]]
+
+- Expresión Lógica$$(x\land true)\rightarrow((x\lor y)\lor(z\leftrightarrow (x\land y)))$$![[Pasted image 20230519161342.png]]
+
 - Programa
 ```
 i=1;
 while(i<20){
-	i=i+1
+	i=i+1;
 }
 ```
+![[Pasted image 20230519161426.png]]
+
+## Operadores de cruce
+
 # Tags
 #2- 
 #2-2 
