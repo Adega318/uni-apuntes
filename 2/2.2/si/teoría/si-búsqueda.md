@@ -56,7 +56,7 @@ Se busca en las acciones cuales son las posibles, en caso de que varias sean pos
 3. Primero las de condiciones más restrictivas.
 
 ### Heurística
-Función que nos permite estimar la calidad de una acción que nos permite optimizar la búsqueda, la.
+Función que nos permite estimar la calidad de una acción que nos permite optimizar la búsqueda, la optimación siempre de ve de ser menor al coste real (admisible) y se debe cumplir a su vez $h(n)-h(n^{\prime} <=)$
 ## Implementación
 ### Reconstrucción de la solución
 
