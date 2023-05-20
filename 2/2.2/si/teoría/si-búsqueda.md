@@ -56,7 +56,7 @@ Se busca en las acciones cuales son las posibles, en caso de que varias sean pos
 3. Primero las de condiciones más restrictivas.
 
 ### Heurística
-Función que nos permite estimar la calidad de una acción que nos permite optimizar la búsqueda, la optimación siempre de ve de ser menor al coste real (admisible) y se debe cumplir a su vez $h(n)-h(n^{\prime} <=)$
+Función que nos permite estimar la calidad de una acción que nos permite optimizar la búsqueda. Para el algoritmo de $A^*$ la heurística siempre de ve de ser menor al coste real (admisible) y se debe cumplir a su vez $h(n)-h(n^{\prime}) <=c(n,a,n^{\prime})$ esto se entiende como que la estimación desde n debe de ser menor a la estimación desde $n^{\prime}$ más el coste de pasar de n a $n^{\prime}$ (consistente).
 ## Implementación
 ### Reconstrucción de la solución
 
@@ -152,6 +152,7 @@ La búsqueda A* toma en cuenta la perspectiva de la acción y el coste del camin
 ![[Pasted image 20230426184441.png]]
 ![[Pasted image 20230426184537.png]]
 
+Para el algoritmo de $A^*$ la heurística siempre de ve de ser menor al coste real (admisible) y se debe cumplir a su vez $h(n)-h(n^{\prime} <=c(n,a,n^{\prime})$ esto se entiende como que la estimación desde n debe de ser menor a la estimación desde $n^{\prime}$ más el coste de pasar de n a $n^{\prime}$ (consistente).
 ## Local
 ### Escalada
 Elige el mejor de los sucesores basándose en la heurística, siempre que los sucesores sean mejores que el padre.
