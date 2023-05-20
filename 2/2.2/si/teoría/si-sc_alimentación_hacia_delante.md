@@ -30,7 +30,7 @@ Para minimizar el error se derivará con respecto a w, obteniendo información p
 ![[Pasted image 20230518153817.png]]
 
 ### Modificación de pesos
-Modificación del peso j, para un patrón k, en t (descenso del gradiente):$$w_{j}(t+1)=w_{j}(t)+\mu\cdot(d_{k}-Y_{k})\cdot x_{jk}$$
+Modificación del peso j, para un patrón k, en el instante t (descenso del gradiente):$$w_{j}(t+1)=w_{j}(t)+\mu\cdot(d_{k}-Y_{k})\cdot x_{jk}$$
 La tasa de aprendizaje "$\mu$" determina el tamaño de salto en el descenso, pudiendo causar problemas en su erróneo ajuste.
 
 ![[Pasted image 20230518154232.png]]
