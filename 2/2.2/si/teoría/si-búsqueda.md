@@ -99,9 +99,6 @@ Los requisitos de memoria de la solución.
 El coste es el coste de búsqueda y coste de camino.
 # Búsquedas no informadas
 ## Amplitud
-
-![[Pasted image 20230520125729.png]]
-
 Se exploran al mismo tiempo todos los caminos, siempre se encuentra la solución más óptima, sus requerimientos de memoria y tiempo con altos.
 
 ![[Pasted image 20230217211105.png]]
