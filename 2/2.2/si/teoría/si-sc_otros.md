@@ -79,7 +79,7 @@ Se establecen estructuras para una cantidad K de nodos:
 El entrenamiento de estas redes en competitivo con vecindad directa y un contador de su error de cuantización.
 ### Aplicación
 Las aplicaciones de este tipos de redes es la clasificación de los datos.
-## Gas neuronal creciente (GNS)
+## Gas neuronal creciente (GNG)
 Este modelo a diferencia del GCS es un modelo donde no se mantiene ninguna estructura, adaptándose a las diferentes dimensiones.
 
 ![[Pasted image 20230518212440.png]]
