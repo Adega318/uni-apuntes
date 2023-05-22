@@ -142,7 +142,8 @@ Al borrar en nodos no hoja se elimina el elemento y se sube el valor de una hoja
 Se guardan duplicados en las hojas para facilitar la lectura ordenada.
 # Selección de índices
 La creación de un índice es un caso de costo entre la lectura del fichero y el uso de un índice.
-
+Para la selección de un índice sobre una base de datos se debe de hacer análisis sobre los tipos de consulta habituales.
+## Algunos indices 
 # Tags
 #2- 
 #2-2 
