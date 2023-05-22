@@ -59,6 +59,7 @@ La función hash convierte el registro en un número de registro, teniendo tres 
 - evitar colisiones
 
 Con respecto a las colisiones tenemos que tener en cuenta el factor de carga, calculado cómo $nº\ registros/Slots$ causando problemas cuando mas nos acerquemos a la ocupación total.
+- Factor de carga, $Tamaño/ocupado$
 ### Manejo de sinónimos
 #### Overflow
 Fichero donde se inserten los sinónimos, pudiendo tener su propia organización.
