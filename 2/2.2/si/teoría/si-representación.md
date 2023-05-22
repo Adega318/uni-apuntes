@@ -177,9 +177,7 @@ Hay que resaltar que, cuando abordamos un nuevo problema, nadie comienza por ana
 - Cabeza, le da nombre al frame y representa la clase de objetos que se describe.
 - Slot, elementos que representan a un objeto o  una propiedad del frame. Pueden anidarse, de modo que la profundidad de un slot representa al nivel de conocimiento que tiene y su conocimiento se especializa a medida que profundiza en los niveles.
 
-Para obtener nuevos conocimientos mediante semejanza se hace uso de la relación de herencia  
-(ES_UN). Pongamos el ejemplo de la representación de un objeto Pájaro y como representar un  
-Gorrión mediante la generación de nuevo conocimiento:
+Para obtener nuevos conocimientos mediante semejanza se hace uso de la relación de herencia (ES_UN). Pongamos el ejemplo de la representación de un objeto Pájaro y como representar un Gorrión mediante la generación de nuevo conocimiento:
 
 ![[Pasted image 20230517185917.png]]
 
