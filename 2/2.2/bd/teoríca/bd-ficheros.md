@@ -103,6 +103,12 @@ También se caracterizan entre:
 - Escaso, sin una entrada por cada valor existente del campo o campos.
 
 ## Métricas de evaluación
+Las métricas que se tiene en cuenta con respecto a un índice son:
+- Tipos de accesos eficientes
+- Tiempo de inserción
+- Tiempo de borrado
+- Coste espacial
+
 ## Árboles
 Mejora sobre la búsqueda binaria, permitiendo descartar la mitad de nodos por cada nivel de profundidad.
 ### Heterogéneos
