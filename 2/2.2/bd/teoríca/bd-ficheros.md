@@ -126,7 +126,10 @@ Los nodos se clasifican en hoja e intermedios, siendo:
 Único tipo de nodo que guarda un dato y siguientes nodos, siendo todos los nodos iguales.
 
 ### Árbol B
-Árbol de número mínimo de valores en cada nodo de **d** con máximo de **2d** y $2d+1$ punteros a datos, el nodo raíz puede tener menos de **d** valores.
+
+![[Pasted image 20230522190728.png]]
+
+Árbol de número mínimo de valores en cada nodo de **d** con máximo de **2d** y $2d+1$ punteros a datos, el nodo raíz puede tener menos de **d** valores. Todas las hojas están al mismo nivel.
 #### Inserción
 Se dará prioridad a las reorganizaciones antes que inserciones de nodos para mantener el tamaño del índice a mínimos.
 #### Borrado
@@ -137,8 +140,8 @@ Al borrar en nodos no hoja se elimina el elemento y se sube el valor de una hoja
 ![[Pasted image 20230503135538.png]]
 
 Se guardan duplicados en las hojas para facilitar la lectura ordenada.
-# Selección de indices
-La creación de un indice es un caso de costo entre la lectura del fichero y el uso de un indice.
+# Selección de índices
+La creación de un índice es un caso de costo entre la lectura del fichero y el uso de un índice.
 
 # Tags
 #2- 
