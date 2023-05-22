@@ -143,7 +143,12 @@ Se guardan duplicados en las hojas para facilitar la lectura ordenada.
 # Selección de índices
 La creación de un índice es un caso de costo entre la lectura del fichero y el uso de un índice.
 Para la selección de un índice sobre una base de datos se debe de hacer análisis sobre los tipos de consulta habituales.
-## Algunos indices 
+## Algunos índices útiles
+Algunos de los índices más útiles son los creados sobre los siguientes atributos:
+- Clave primaria y candidata
+- Campo, usar un campo con alto uso de consulta.
+
+## 
 # Tags
 #2- 
 #2-2 
