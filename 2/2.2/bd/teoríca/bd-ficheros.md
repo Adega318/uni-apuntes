@@ -87,6 +87,8 @@ Cuando dos bloques comparten en hash correspondiente a su mayor d' - 1 y sus con
 #### Borrado
 Se extrae del bloque pertinente haciendo fusión y contracción en caso de ser necesario.
 # Índices
+Los índices permiten el acceso rápido en base a un campo de indexación.
+- Campo de indexación, atributo o conjunto de los mismos
 ## Clasificación
 Accesos rápidos a datos de la base de datos, teniendo dos categorías:
 - Primario, indexa la clave de ordenación del fichero de datos.
