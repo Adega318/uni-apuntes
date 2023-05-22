@@ -148,7 +148,8 @@ Algunos de los índices más útiles son los creados sobre los siguientes atribu
 - Clave primaria y candidata
 - Campo, usar un campo con alto uso de consulta.
 
-## 
+## Decidir los índices
+A la hora de crear índices hay que contrastar las ventajas en velocidad para la búsqueda con respecto a la inserción y borrado.
 # Tags
 #2- 
 #2-2 
