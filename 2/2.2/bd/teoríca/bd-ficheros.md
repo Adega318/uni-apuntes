@@ -7,7 +7,7 @@ Campo o conjunto de campos que identifican u ordenan registros, pudiendo ser:
 
 ## Longitud
 ### Fija
-Se establece un tamaño fijo con facilidad de acceso pero falta de eficiencia. Con respecto a la gestión de borrados la manera de gestionar en la fija se establece el primer espacio como un puntero al primer libe y en los libres tener la dirección del siguiente, cuando se intenta insertar se coge el primer libre y se cambia el puntero.
+Se establece un tamaño fijo con facilidad de acceso pero falta de eficiencia. Con respecto a la gestión de borrados la manera de gestionar en la fija se establece el primer espacio como un puntero al primer libe y en los libres tener la dirección del siguiente, cuando se intenta insertar se sigue el camino hasta el ultimo puntero libre y se actualiza el penúltimo, cunado se borra se añade al final de la linea de libres el puntero liberado..
 ### Variable
 
 ![[Pasted image 20230426125955.png]]
