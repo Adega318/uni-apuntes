@@ -139,18 +139,13 @@ Los esquemas no formales de representación del conocimiento verifican las sigui
 - Eficiencia adquisicional, el esquema elegido debe suministrar vías que permitan la incorporación de información y conocimientos nuevos.
 
 ### Métodos declarativos
-Lo métodos declarativos representan el conocimiento como una colección estática de hechos, que  
-solo se pueden manipular con un conjunto genérico y restringido de procedimientos. En otras  
-palabras, se dice qué hacer con los datos una única vez, sean del tipo que sean los datos.
+Lo métodos declarativos representan el conocimiento como una colección estática de hechos, que solo se pueden manipular con un conjunto genérico y restringido de procedimientos. En otras palabras, se dice qué hacer con los datos una única vez, sean del tipo que sean los datos.
 
 Sus ventajas son que aquellos hechos verídicos del dominio se almacenan una sola vez y  
 resulta más sencillo aumentar el conocimiento sin modificar el ya existente. Aquí se incluyen  
-métodos como las **redes semánticas**, que permiten describir objetos y acontecimientos (hechos)  
-al mismo tiempo, o los **marcos (frames)**, que son estructuras que permiten representar desde  
-distintos puntos de vista a objetos muy complejos.
+métodos como las **redes semánticas**, que permiten describir objetos y acontecimientos (hechos) al mismo tiempo, o los **marcos (frames)**, que son estructuras que permiten representar desde distintos puntos de vista a objetos muy complejos.
 #### Redes semánticas
-Consisten en representar el conocimiento mediante conceptos (elementos) y las relaciones que  
-existen entre ellos mediante un grafo y se emplean para hacer mapas conceptuales (esquemas). Los nodos representan a un concepto y las aristas representan la relación entre ambos conceptos, las cuales son unidireccionales de modo que para establecer una doble relación hay que trazar dos aristas distintas. Puede decirse que un enlace es una relación binaria entre nodos y por ello puede haber varias relaciones:
+Consisten en representar el conocimiento mediante conceptos (elementos) y las relaciones que existen entre ellos mediante un grafo y se emplean para hacer mapas conceptuales (esquemas). Los nodos representan a un concepto y las aristas representan la relación entre ambos conceptos, las cuales son unidireccionales de modo que para establecer una doble relación hay que trazar dos aristas distintas. Puede decirse que un enlace es una relación binaria entre nodos y por ello puede haber varias relaciones:
 - Ocurrencia (pertenece, $\in$ ), se relaciona un elemento con una categoría (grupo de elementos).
 - Generalización (ES_UN), relaciona una entidad concreta con otra entidad más genérica.
 - Agregación (ES_PARTE_DE), relaciona componentes de un objeto con el propio objeto.
@@ -189,22 +184,18 @@ Gorrión mediante la generación de nuevo conocimiento:
 ![[Pasted image 20230517185917.png]]
 
 ##### Procedimientos
-Existe un conjunto de procedimientos para generar nuevos conocimientos que están inactivos la mayoría del tiempo, pero que se activan cuando se cumplan determinadas condiciones para  
-ejecutar acciones concretas. Por ejemplo: IF_NEEDED, IF_ADDED, IF_REMOVED, IF_STORED, IF_RETRIEVED. Cuando un demon se activa por un valor en una entrada del frame (dentro del nivel que le corresponda) se desencadenará una acción con el nombre de D_”nombreAcción” y luego el demon vuelve a ponerse inactivo.
+Existe un conjunto de procedimientos para generar nuevos conocimientos que están inactivos la mayoría del tiempo, pero que se activan cuando se cumplan determinadas condiciones para ejecutar acciones concretas. Por ejemplo: IF_NEEDED, IF_ADDED, IF_REMOVED, IF_STORED, IF_RETRIEVED. Cuando un demon se activa por un valor en una entrada del frame (dentro del nivel que le corresponda) se desencadenará una acción con el nombre de D_”nombreAcción” y luego el demon vuelve a ponerse inactivo.
 
 ![[Pasted image 20230517190027.png]]
 
 ### Métodos procedimentales
 Los métodos procedimentales representan cada tipo de conocimiento con un procedimiento  
-concreto para cada uno, lo cual hace que sea un método bastante dinámico. En otras palabras,  
-para cada conocimiento concreto hay que decir qué se hará con él.
+concreto para cada uno, lo cual hace que sea un método bastante dinámico. En otras palabras, para cada conocimiento concreto hay que decir qué se hará con él.
 
 Las ventajas son que ponen un mayor énfasis en la capacidad del sistema para inferir nuevo  
 conocimiento. Para ello incorporan conocimiento heurístico y manipulan distintos modelos y  
 técnicas de razonamiento (por ello son dinámicos) para generar nuevo conocimiento, pero  
-siempre basado en un punto de vista de la probabilidad matemática. Aquí se incluyen métodos  
-como las **reglas de producción**, que permiten generar conocimiento cuando se cumplen unas  
-determinadas condiciones (básicamente es usar IF-THEN-ELSE).
+siempre basado en un punto de vista de la probabilidad matemática. Aquí se incluyen métodos como las **reglas de producción**, que permiten generar conocimiento cuando se cumplen unas determinadas condiciones (básicamente es usar IF-THEN-ELSE).
 ## Reglas de producción
 Son esquemas empleados para representar el conocimiento procedimental que están basados en premisas o condiciones (IF), que en caso de ser verdaderas pasan a ejecutar una acción o generan una conclusión (THEN), y que en caso de ser falsas ejecutarán otra acción u otra conclusión (ELSE). La premisa debe estar construida con la lógica formal y los operadores AND (^), OR (∨) o NOT (¬) y pueden anidarse varias premisas.
 
