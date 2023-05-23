@@ -72,8 +72,7 @@ Para cumplir una forma se debe de cumplir la anterior.
 ## 1º FN
 El dominio de un atributo debe ser valores atómicos e individuales en un dominio.
 ## 2º FN
-Si todo atributo no primo A en R depende funcionalmente de todas las claves candidatas, don dfs completas.
-Es decir, no depende únicamente de una de las candidatas, sino del conjunto de ellas.
+Todos los atributos no cla
 ## 3º FN
 Ningún atributo no primo que dependa transitivamente de una candidata.
 ## FNBC
