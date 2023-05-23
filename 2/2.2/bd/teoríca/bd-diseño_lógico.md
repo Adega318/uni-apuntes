@@ -1,8 +1,12 @@
 # Dependencias funcionales
 Una dependencia funcional es la restricción entre dos conjuntos de atributos, se denota por $\{X\}\rightarrow\{Y\}$, siendo X e Y dos subconjuntos de atributos de R.
 ## Reglas
-En las reglas de inferencia se ignoran las obvias (sobre uno mismo).
-Considerando solo las imprescindibles.
+En las reglas de inferencia se ignoran las obvias (sobre uno mismo), considerando solo las imprescindibles.
+### Reflexiva
+$Si\ X\supseteq Y,\ entonces\ \{X\}\rightarrow\{Y\}$
+### Aumento
+$\{X\}\rightarrow\{Y\}\vDash\{XZ\}\rightarrow\{YZ\}$
+### Transitiva
 ### Reflexiva
 Si tenemos un conjunto contenido en otro, el primero depende del segundo.
 X en Y   $$\{X\}\rightarrow\{Y\}$$
