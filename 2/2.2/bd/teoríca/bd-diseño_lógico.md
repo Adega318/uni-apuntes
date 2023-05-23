@@ -72,7 +72,7 @@ Para cumplir una forma se debe de cumplir la anterior.
 ## 1º FN
 El dominio de un atributo debe ser valores atómicos e individuales en un dominio.
 ## 2º FN
-Todos los atributos no cla
+Todos los atributos no clave deben de depender de todos los atributos de la clave.
 ## 3º FN
 Ningún atributo no primo que dependa transitivamente de una candidata.
 ## FNBC
