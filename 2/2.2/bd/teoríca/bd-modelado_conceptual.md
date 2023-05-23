@@ -29,8 +29,8 @@ Entidades sin los suficientes atributos para formar un identificador. Esto hace 
 
 ![[Pasted image 20230315114323.png]]
 
-**DI -> DE
-DE !-> DI**
+$DI\rightarrow DE$
+$DE!\rightarrow DI$
 # Trampas de conexión
 Problemas causados por el orden de las conexiones, hay dos tipos:
 ## Abanico
