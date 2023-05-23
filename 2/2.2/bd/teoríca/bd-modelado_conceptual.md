@@ -4,11 +4,13 @@ Una entidad es algo en el mundo real, distinguible del resto de algos, cada enti
 Se pueden agrupar las entidades similares en grupos, los tipos de entidad los podemos definir basándose en las entidades con atributos iguales.
 ### Atributos
 Los atributos se pueden separar en:
-- Simples y atómicos, atributos no divisibles.
+- Atómicos, atributos no divisibles.
 - Compuestos, son divisibles en componentes menores.
 - Monovaluados, atributos con solo un valor
 - Multivaluados, atributos con valores dependiente de una condición o dato externo.
-- Almacenados y derivados, los almacenados son guardados en la BD y los derivados calculados con los anteriores.
+- Almacenados, los almacenados son guardados en la BD
+- Derivados, atributos calculados con los almacenados.
+
 # Relaciones
 Una relación es la interacción entre dos entidades. En las relaciones no se pueden dar repeticiones ni vacíos.
 Se representan por un rombo conectado a las entidades.
@@ -20,6 +22,7 @@ La cardinalidad es la indicación de los números en la relación.
 - 1:1, uno a uno.
 - 1:N, uno a muchos.
 - N:M, muchos a muchos.
+
 Se representa por los números en los lados.
 ## Participación
 La participación de las entidades puede ser parcial o total, dependiendo si todos son involucrados.
