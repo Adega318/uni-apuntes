@@ -3,20 +3,14 @@ Una dependencia funcional es la restricción entre dos conjuntos de atributos, s
 ## Reglas
 En las reglas de inferencia se ignoran las obvias (sobre uno mismo), considerando solo las imprescindibles.
 ### Reflexiva
-$Si\ X\supseteq Y,\ entonces\ \{X\}\rightarrow\{Y\}$
-### Aumento
-$\{X\}\rightarrow\{Y\}\vDash\{XZ\}\rightarrow\{YZ\}$
-### Transitiva
-### Reflexiva
 Si tenemos un conjunto contenido en otro, el primero depende del segundo.
-X en Y   $$\{X\}\rightarrow\{Y\}$$
+X en Y.$$\{X\}\rightarrow\{Y\}$$
 ### Aumento
-Si un atributo determina otro, el segundo des dependiente del primero.
-{X}->{Y} |= {XZ}->{YZ}
+Si un atributo determina otro, el segundo des dependiente del primero.$$\{X\}\rightarrow\{Y\}\vDash\{XZ\}\rightarrow\{YZ\}$$
 ### Transitiva
-Si X determina Y e Y determina Z, X determina Z.
+Si X determina Y e Y determina Z, X determina Z.$$\{\{X\}\rightarrow\{Y\},\{Y\}\rightarrow\{Z\}\}\vDash\{X\}\rightarrow\{Z\}$$
 ### Descomposición
-Si X determina YZ, X determina a Y e Z.
+Si X determina YZ, X determina a Y e Z.$$\{X\}\rightarrow\{YZ\}\vDash\{\{X\}\rightarrow\{Y\},\{X\}\rightarrow\{Z\}\}$$
 ### Unión
 Contraria a descomposición. Bueno para el algoritmo, ya que es mejor que no se repitan las cabeceras.
 ### Psudotransitiva
