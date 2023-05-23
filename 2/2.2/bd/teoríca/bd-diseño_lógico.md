@@ -17,8 +17,11 @@ Contraria a descomposición. Bueno para el algoritmo, ya que es mejor que no se 
 Si X determina Y e WY determina Z, WX determina Z.$$\{\{X\}\rightarrow\{Y\},\{WY\}\rightarrow\{Z\}\}\vDash\{WX\}\rightarrow\{Z\}$$
 ## Dependencias funcionales
 La dependencia funcional $\{X\}\rightarrow\{X\}$ es:
-- Trivial si $Y\subseteq X$
-- Elemental si su parte
+- Trivial si $Y\subseteq X$.
+- Elemental si su parte derecha tiene solo un atributo.
+- Completa si para todo subconjunto de X se cumple la dependencia.
+- Parcial si se puede eliminar un atributo de X sin incumplir la dependencia.
+
 ## Cierres
 Para calcular un cierre sé presentan las dependencias, se pone el atributo a cerrar en la derecha e izquierda del cierre. Se buscan los atributos de la izquierda del cierre en la derecha de los conjuntos, si se encuentra se añade lo de la derecha del conjunto al cierre y se vuelve a buscar. Si todos los atributos de la relación se encuentran en la izquierda del cierre, la derecha es superclave.
 ## Equivalencia
