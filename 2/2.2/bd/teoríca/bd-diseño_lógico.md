@@ -27,7 +27,8 @@ Para calcular un cierre sé presentan las dependencias, se pone el atributo a ce
 ## Equivalencia
 Dos conjuntos de dfs E y F son equivalentes si E⁺ = F⁺
 # Descomposición
-La descomposición es el proceso de atomizar una tabla para cumplir las formas normales.
+La descomposición es el proceso de atomizar una tabla para cumplir las formas normales, pudiendo ser de dos tipos:
+- 
 ## Conservación de la dependencia
 La conservación de la dependencia es la principal prioridad en la descomposición, aunque no siempre posible.
 ## Algoritmo
