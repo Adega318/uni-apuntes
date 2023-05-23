@@ -12,9 +12,13 @@ Si X determina Y e Y determina Z, X determina Z.$$\{\{X\}\rightarrow\{Y\},\{Y\}\
 ### Descomposición
 Si X determina YZ, X determina a Y e Z.$$\{X\}\rightarrow\{YZ\}\vDash\{\{X\}\rightarrow\{Y\},\{X\}\rightarrow\{Z\}\}$$
 ### Unión
-Contraria a descomposición. Bueno para el algoritmo, ya que es mejor que no se repitan las cabeceras.
+Contraria a descomposición. Bueno para el algoritmo, ya que es mejor que no se repitan las cabeceras.$$\{\{X\}\rightarrow\{Y\},\{X\}\rightarrow\{Z\}\}\vDash\{X\}\rightarrow\{YZ\}$$
 ### Psudotransitiva
-Si X determina Y e WY determina Z, WX determina Z.
+Si X determina Y e WY determina Z, WX determina Z.$$\{\{X\}\rightarrow\{Y\},\{WY\}\rightarrow\{Z\}\}\vDash\{WX\}\rightarrow\{Z\}$$
+## Dependencias funcionales
+La dependencia funcional $\{X\}\rightarrow\{X\}$ es:
+- Trivial si $Y\subseteq X$
+- Elemental si su parte
 ## Cierres
 Para calcular un cierre sé presentan las dependencias, se pone el atributo a cerrar en la derecha e izquierda del cierre. Se buscan los atributos de la izquierda del cierre en la derecha de los conjuntos, si se encuentra se añade lo de la derecha del conjunto al cierre y se vuelve a buscar. Si todos los atributos de la relación se encuentran en la izquierda del cierre, la derecha es superclave.
 ## Equivalencia
