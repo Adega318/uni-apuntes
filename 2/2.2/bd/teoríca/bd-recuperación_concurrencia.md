@@ -102,6 +102,7 @@ La prevención del interbloqueo se puede basar en:
 ### Detección
 Al detectar interbloqueos se deben hacer rollbacks para corregir el bloqueo.
 ## Esquema multiversión
+
 # Tags
 #2- 
 #2-2 
