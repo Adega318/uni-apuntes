@@ -51,6 +51,10 @@ En la concurrencia de dos transacciones sobre el mismo dato podemos observar var
 - Lectura sucia, se realiza una lectura de un dato modificado que es posteriormente hecho rollback.
 - Lectura no repetible, necesidad de la doble lectura de un dato que es modificado por otra transacción en el proceso.
 - Lectura fantasma, problemas en el acceso a arrays por la inserción y eliminación de elementos por parte de un proceso.
+
+La concurrencia puede ser implementada de dos maneras:
+- Planificación, 
+- Planificación serie, 
 ## Protocolos basado en bloqueos
 Existen dos tipos de bloqueo:
 - Exclusivo (X), se reserva el recurso de manera exclusiva pudiendo leer y escribir.
@@ -74,10 +78,23 @@ El modelo normal garantiza la serialidad con las siguiente fases.
 - las transacciones no pueden conseguir bloqueos.
 
 ### Riguroso
-1 Fase de crecimietto:
-- 
-Fase 2:
+
+![[Pasted image 20230524134634.png]]
+
+1 Fase de crecimiento:
+- transacciones pueden conseguir bloqueos o evolucionarlos de S a X.
+- las transacciones no pueden liberar bloqueos.
+
+2 Fase de decrecimiento en el final de la transacción:
+- las transacciones pueden liberar bloqueos.
+
 ## Interbloqueo
+
+![[Pasted image 20230524134709.png]]
+
+### Prevención
+### Detección
+
 ## Esquema multiversión
 # Tags
 #2- 
