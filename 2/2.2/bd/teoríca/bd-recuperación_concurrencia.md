@@ -53,8 +53,8 @@ En la concurrencia de dos transacciones sobre el mismo dato podemos observar var
 - Lectura fantasma, problemas en el acceso a arrays por la inserción y eliminación de elementos por parte de un proceso.
 ## Protocolos basado en bloqueos
 Existen dos tipos de bloqueo:
-- Exclusivo, se reserva el recurso de manera exclusiva pudiendo leer y escribir.
-- Compartido, se reserva el recurso para solo lectura por cualquiera.
+- Exclusivo (X), se reserva el recurso de manera exclusiva pudiendo leer y escribir.
+- Compartido (S), se reserva el recurso para solo lectura por cualquiera.
 
 Los elementos que se pueden bloquear son:
 - Atributos de una tupla
@@ -64,8 +64,19 @@ Los elementos que se pueden bloquear son:
 
 ## Protocolo de bloqueo de 2 fases
 ### Normal
-Fase 
+El modelo normal garantiza la serialidad con las siguiente fases.
+1 Fase de crecimiento:
+- transacciones pueden conseguir bloqueos o evolucionarlos de S a X.
+- las transacciones no pueden liberar bloqueos.
+
+2 Fase de decrecimiento:
+- transacciones liberan bloqueos o los disminuyen de X a S.
+- las transacciones no pueden conseguir bloqueos.
+
 ### Riguroso
+1 Fase de crecimietto:
+- 
+Fase 2:
 ## Interbloqueo
 ## Esquema multiversión
 # Tags
