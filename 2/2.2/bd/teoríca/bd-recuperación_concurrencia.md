@@ -53,8 +53,10 @@ En la concurrencia de dos transacciones sobre el mismo dato podemos observar var
 - Lectura fantasma, problemas en el acceso a arrays por la inserción y eliminación de elementos por parte de un proceso.
 
 La concurrencia puede ser implementada de dos maneras:
-- Planificación, 
-- Planificación serie, 
+- Planificación, se intercalan las operaciones de ambas transacciones.
+- Planificación serie, se realizan las transacciones una a la vez.
+
+Una transacción es serializadle si se puede hacer uso de ambas planificaciones sin que difieran el resultado y es necesario para que sea correcta la concurrencia.
 ## Protocolos basado en bloqueos
 Existen dos tipos de bloqueo:
 - Exclusivo (X), se reserva el recurso de manera exclusiva pudiendo leer y escribir.
@@ -93,6 +95,8 @@ El modelo normal garantiza la serialidad con las siguiente fases.
 ![[Pasted image 20230524134709.png]]
 
 ### Prevención
+La prevención del interbloqueo se puede basar en:
+- Limite de tiempo, 
 ### Detección
 
 ## Esquema multiversión
