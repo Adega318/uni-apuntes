@@ -55,7 +55,17 @@ En la concurrencia de dos transacciones sobre el mismo dato podemos observar var
 Existen dos tipos de bloqueo:
 - Exclusivo, se reserva el recurso de manera exclusiva pudiendo leer y escribir.
 - Compartido, se reserva el recurso para solo lectura por cualquiera.
+
+Los elementos que se pueden bloquear son:
+- Atributos de una tupla
+- Tuplas
+- Tablas
+- Bloques
+
 ## Protocolo de bloqueo de 2 fases
+### Normal
+Fase 
+### Riguroso
 ## Interbloqueo
 ## Esquema multiversión
 # Tags
