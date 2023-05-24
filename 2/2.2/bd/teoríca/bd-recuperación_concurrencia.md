@@ -12,6 +12,16 @@ Lo que lleva a las siguientes acciones:
 - Leer, lectura del dato deseado y traslado de la misma al área del programa solicitante.
 - Escritura, traslado del dato a memoria intermedia, con el Output realizado por el sistema de paginación en un tiempo indeterminado.
 
+# Transacciones
+## ACID
+Propiedades para preservar la integridad de la base de datos:
+- Atomicidad, todas las transacciones se reflejan correctamente.
+- Consistencia, la ejecución en aislamiento preserva la consistencia.
+- Aislamiento, todas las transacciones deben de ser independiente del resto y no influenciarse.
+- Durabilidad, los datos producidos por una transacción permanecen tras la escritura.
+
+## Commit y Rollback
+- Comit, señala el
 # Recuperación
 ## Transacción
 Una transacción es una acción que pasa por un estado incoherente, las transacciones deben de cumplir las propiedades ACID:
