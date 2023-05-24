@@ -51,7 +51,13 @@ En la concurrencia de dos transacciones sobre el mismo dato podemos observar var
 - Lectura sucia, se realiza una lectura de un dato modificado que es posteriormente hecho rollback.
 - Lectura no repetible, necesidad de la doble lectura de un dato que es modificado por otra transacción en el proceso.
 - Lectura fantasma, problemas en el acceso a arrays por la inserción y eliminación de elementos por parte de un proceso.
-
+## Protocolos basado en bloqueos
+Existen dos tipos de bloqueo:
+- Exclusivo, se reserva el recurso de manera exclusiva pudiendo leer y escribir.
+- Compartido, se reserva el recurso para solo lectura por cualquiera.
+## Protocolo de bloqueo de 2 fases
+## Interbloqueo
+## Esquema multiversión
 # Tags
 #2- 
 #2-2 
