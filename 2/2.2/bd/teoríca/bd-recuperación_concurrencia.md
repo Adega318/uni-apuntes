@@ -96,7 +96,9 @@ El modelo normal garantiza la serialidad con las siguiente fases.
 
 ### Prevención
 La prevención del interbloqueo se puede basar en:
-- Limite de tiempo, 
+- Limite de tiempo, las transacciones tiene un limite de tiempo para realizar la transacción realizando un rollback en caso de time out.
+	- Esperar-morir, cuando una transacción solicita un recurso de una transacción mas vieja hace rollback, si es más joven espera.
+	- Herir-espera, cuando una transacción solicita un recurso de una transacción mas vieja espera, si es más joven la que este ocupando el dato .
 ### Detección
 
 ## Esquema multiversión
