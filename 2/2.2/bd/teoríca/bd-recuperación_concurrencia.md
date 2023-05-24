@@ -21,7 +21,20 @@ Propiedades para preservar la integridad de la base de datos:
 - Durabilidad, los datos producidos por una transacción permanecen tras la escritura.
 
 ## Commit y Rollback
-- Comit, señala el
+- Comit, señala el fin de la transacción.
+- Rollback, señala la transacción insatisfactoria y eliminación de los cambios.
+
+## Estados
+
+![[Pasted image 20230505120746.png]]
+
+Los estados de las transacciones son:
+- Activa, estado inicial de la transacción.
+- Parcialmente comprometida, estado después de la escritura y antes de commit o rollback.
+- Fallida, estado a causa de que no se puede realizar ejecución normal.
+- Abortada, estado de revertir los cambios a causa del fallo.
+- Comprometía, finalización con éxito.
+
 # Recuperación
 ## Transacción
 Una transacción es una acción que pasa por un estado incoherente, las transacciones deben de cumplir las propiedades ACID:
