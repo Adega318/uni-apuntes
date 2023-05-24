@@ -36,29 +36,6 @@ Los estados de las transacciones son:
 - Comprometía, finalización con éxito.
 
 # Recuperación
-## Transacción
-Una transacción es una acción que pasa por un estado incoherente, las transacciones deben de cumplir las propiedades ACID:
-- Atomicidad, si una operación se refleja en la base de datos se reflejan todas.
-- Consistencia, una transacción mantiene la coherencia de la base de datos.
-- Aislamiento, las transacciones deben realizarse de manera concurrente pero no interferir entre ellas.
-- Durabilidad, las transacciones exitosas permanecen en la base de datos.
-
-#### Concurrencia
-En la concurrencia de dos transacciones sobre el mismo dato podemos observar varios problemas:
-- Pérdida de actualización, en este caso la consecuente actualización del dato produce la perdida de la primera actualización.
-- Lectura sucia, se realiza una lectura de un dato modificado que es posteriormente hecho rollback.
-- Lectura no repetible, necesidad de la doble lectura de un dato que es modificado por otra transacción en el proceso.
-- Lectura fantasma, problemas en el acceso a arrays por la inserción y eliminación de elementos por parte de un proceso.
-
-### Commit
-Señaliza la exitosa fiscalización de una transacción.
-### Rollback
-Señaliza una transacción no exitosa y que sus cambios deben deshacerse.
-
-### Estados
-
-![[Pasted image 20230505120746.png]]
-
 ## Tipos de fallos
 Tenemos varios tipos de fallos en el sistema de almacenamiento:
 - Duros, fallos que daña el medio de almacenamiento.
@@ -67,6 +44,14 @@ Tenemos varios tipos de fallos en el sistema de almacenamiento:
 
 ## Recuperación Log
 Mediante un registro lógico LOG mantiene constancia de la actividades de la base de datos, requiriendo su almacenamiento estable.
+
+# Concurrencia
+En la concurrencia de dos transacciones sobre el mismo dato podemos observar varios problemas:
+- Pérdida de actualización, en este caso la consecuente actualización del dato produce la perdida de la primera actualización.
+- Lectura sucia, se realiza una lectura de un dato modificado que es posteriormente hecho rollback.
+- Lectura no repetible, necesidad de la doble lectura de un dato que es modificado por otra transacción en el proceso.
+- Lectura fantasma, problemas en el acceso a arrays por la inserción y eliminación de elementos por parte de un proceso.
+
 # Tags
 #2- 
 #2-2 
