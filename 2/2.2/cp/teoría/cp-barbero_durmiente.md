@@ -94,15 +94,14 @@ while(1){
 ~~~
 ## Cliente
 ~~~c
-sem_trywait(seats)
+sem_wait(seats)
 if(seats > 0){
 	seats--
 	sem_post(customers)
 	sem_post(seats)
 	sem_wait(barrber)
 	get_cut()
-}
-sem_post(seats)
+}else sem_post(seats)
 ~~~
 # Tags
 #2-
