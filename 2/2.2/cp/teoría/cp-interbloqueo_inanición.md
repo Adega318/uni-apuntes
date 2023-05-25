@@ -6,6 +6,7 @@ Las siguientes son las condiciones necesarias para que se produzca un interbloqu
 - Hold and wait, se permite esperar con recursos reservados.
 - No apropiación, El sistema operativo no puede forzar la liberación.
 - Espera circular, procesos esperando por recursos que esperan por sus recursos.
+
 ## Soluciones
 ### Tratamiento
 El interbloqueo se puede tratar mediante varias técnicas, algunas aplicadas por el sistema operativo, otras por el propio sistema concurrente. Esto depende principalmente del problema que lo produzca.
@@ -16,6 +17,7 @@ La manera de prevenir el interbloqueo es asegurar el incumplimiento de alguna de
 - Hold and wait, se evita obligando a liberar los recursos reservados antes de esperar por nuevos.
 - No acoplamiento, el uso del roll-back es la manera de resolver este tipo de problemas.
 - Espera circular, para evitarlo se puede hacer uso de la espera ordenada, requiere el establecimiento de un orden de recursos.
+
 # Inanición
 Es el proceso de esperar un recurso sin conseguirlo. Esto se produce cuando un recurso no compartible es accedido por muchos procesos.
 # Tags
