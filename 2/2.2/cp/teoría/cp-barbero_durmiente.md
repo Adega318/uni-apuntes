@@ -41,41 +41,7 @@ Múltiples barberos simples con sala de espera compartida.
 while(1){
 	lock(mut)
 	if(!customers){
-		barber = SLEEPING
-		wait(no_customers, mut)
-	}else{
-		signal(waiting_room)
-		customers--
-	}
-	unlock(mut)
-	cut()
-}
-~~~
-## Cliente
-~~~c
-lock(mut)
-if(customers == Max_customers){
-	unlock(mut)
-}else{
-	if(barbers > 0){
-		signal(no_customers)
-		barbers--
-	}else{
-		customers++
-		wait(waiting_room, mut)
-	}
-	unlock(mut)
-	get_cut()
-}
-~~~
-# Barberos con cola
-Múltiples barberos con cola de espera en su sala de espera.
-## Barbero
-~~~c
-while(1){
-	lock(mut)
-	if(!customers){
-		barbers++
+		barber ++
 		wait(no_customers, mut)
 	}else{
 		signal(waiting_room)
