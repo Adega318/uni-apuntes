@@ -10,22 +10,27 @@ monitor {
 	Condition *bufferAvail, *dataAvail;  
 	int num = 0;  
 	int data[10];  
+	
 	Produce(v) {  
+		monitorLock->Acquire();
 		while (num == 10) {  
-		bufferAvail->Wait();  
-	}  
-	// put v into data array  
-	num++;  
-	dataAvail->Signal();  
-}
-
-Consume(v) {  
-	while (num == 0) {  
-		dataAvail->Wait();  
-	}  
+			bufferAvail->Wait();  
+		}  
+		// put v into data array  
+		num++;  
+		dataAvail->Signal();  
+		monitorLock->Release();
+	}
+	
+	Consume(v) {
+		monitorLock->Acquire();
+		while (num == 0) {  
+			dataAvail->Wait();  
+		}  
 		// put next data array value into v  
 		num--;  
 		bufferAvail->Signal();  
+		monitorLock->Release();
 	}  
 }
 ```
@@ -37,6 +42,17 @@ Consume(v) {
 5. La termina en caso negativo  
 6. Otro thread ve todos los cambios o ninguno
 
+## Sintaxis
+Insertar en una lista doblemente en
+```C
+// Insert a node into a doubly linked list atomically  
+atomic {  
+	newNode->prev = node;  
+	newNode->next = node->next;  
+	node->next->prev = newNode;  
+	node->next = newNode;  
+}
+```
 Se suele implementar un retray para cancelar e intentar de nuevo.
 Este método permite la composición de funciones, al no hacer empleo de mutex.
 # RCU
