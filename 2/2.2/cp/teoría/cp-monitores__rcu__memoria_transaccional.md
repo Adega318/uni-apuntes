@@ -5,7 +5,30 @@
 - Un lock implícito
 
 ## Productores/Consumidores
+```C
+monitor {  
+	Condition *bufferAvail, *dataAvail;  
+	int num = 0;  
+	int data[10];  
+	Produce(v) {  
+		while (num == 10) {  
+		bufferAvail->Wait();  
+	}  
+	// put v into data array  
+	num++;  
+	dataAvail->Signal();  
+}
 
+Consume(v) {  
+	while (num == 0) {  
+		dataAvail->Wait();  
+	}  
+		// put next data array value into v  
+		num--;  
+		bufferAvail->Signal();  
+	}  
+}
+```
 # Memoria transaccional
 1. Marcamos regiones como atómicas  
 2. Se realizan todas las lecturas y escrituras  
