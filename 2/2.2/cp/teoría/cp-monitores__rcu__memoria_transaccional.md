@@ -119,11 +119,96 @@ void synchronize_rcu(void) {
 	(p) = (v); \  
 })  
 #define rcu_dereference_pointer(p) ({ \  
-typeof(p) _value = (p); \  
-smp_rmb(); /* not needed on \  
-all architectures */ \  
-(_value);  
+	typeof(p) _value = (p); \  
+	smp_rmb(); /* not needed on all architectures */ \  
+	(_value);  
 })
+```
+## Comparación Lectores/Escritores
+### Lock
+```C
+struct el {  
+	struct list_head lp;  
+	long key;  
+	spinlock_t mutex;  
+	int data;  
+	/* Other data fields */  
+};  
+
+DEFINE_RWLOCK(listmutex);  
+LIST_HEAD(head);
+
+int search(long key, int *result) {  
+	struct el *p;  
+	read_lock(&listmutex);  
+	list_for_each_entry(p, &head, lp) {  
+		if(p->key == key) {  
+			*result = p->data;  
+			read_unlock(&listmutex);  
+			return 1;  
+		}  
+	}  
+	read_unlock(&listmutex);  
+	return 0;  
+}
+
+int delete(long key) {  
+	struct el *p;  
+	write_lock(&listmutex);  
+	list_for_each_entry(p, &head, lp) {  
+		if (p->key == key) {  
+			list_del(&p->lp);  
+			write_unlock(&listmutex);  
+			kfree(p);  
+			return 1;  
+		}  
+	}  
+	write_unlock(&listmutex);  
+	return 0;  
+}
+```
+### RCU
+```C
+struct el {  
+	struct list_head lp;  
+	long key;  
+	spinlock_t mutex;  
+	int data;  
+	/* Other data fields */  
+};  
+
+DEFINE_SPINLOCK(listmutex);  
+LIST_HEAD(head);
+
+int search(long key, int *result) {  
+	struct el *p;  
+	rcu_read_lock();  
+	list_for_each_entry_rcu(p, &head, lp) {  
+		if(p->key == key) {  
+			*result = p->data;  
+			rcu_read_unlock();  
+			return 1;  
+		}  
+	}  
+	rcu_read_unlock();  
+	return 0;  
+}
+
+int delete(long key) {  
+	struct el *p;  
+	spin_lock(&listmutex);  
+	list_for_each_entry(p, &head, lp) {  
+		if(p->key == key) {  
+			list_del_rcu(&p->lp);  
+			spin_unlock(&listmutex);  
+			synchronize_rcu();  
+			kfree(p);  
+			return 1;  
+		}  
+	}  
+	spin_unlock(&listmutex);  
+	return 0;  
+}
 ```
 # Tags
 #2- 
