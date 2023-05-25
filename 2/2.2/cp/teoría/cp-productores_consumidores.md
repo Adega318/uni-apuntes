@@ -83,7 +83,7 @@ while(1) {
 	}  
 	insert(e);  
 	if(elements() == 1)  
-	cnd_broadcast(buffer_empty);  
+		cnd_broadcast(buffer_empty);  
 	mtx_unlock(buffer_lock);  
 }
 ```
