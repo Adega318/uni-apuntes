@@ -5,9 +5,11 @@ Enunciado:
 - $P_0$ no tiene hardware para punto flotante pero es el único con E/S
 - No se solapan comunicaciones
 - Solo comunicación punto a punto
+
 Objetivo:
 - calculo de $r=A\times B\times v$ siendo A y B matrices $N\times N$  elementos, y v y r vectores de N elementos, siendo N divisible por 16.
 - Datos en punto flotante.
+
 ### a)
 Tiempo en calcular $r=(A\times B) \times v$ y $r=A\times (B \times v)$ con solo un procesador de cálculos.
 
@@ -146,6 +148,7 @@ if (! root ){
 }
 ```
 #### c)
+
 | 0   |     |     |     |     |     |     |     |     |     |     |     |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1   | x   |     |     |     |     |     |     |     |     |     |     |
@@ -157,8 +160,8 @@ if (! root ){
 | 7   | x   | x   | x   | x   | x   | x   | x   |     |     |     |     |
 | 8   | x   | x   | x   | x   | x   | x   | x   | x   |     |     |     |
 | 9   | x   | x   | x   | x   | x   | x   | x   | x   | x   |     |     |
-| 10  | x   | x   | x   | x   | x  | x   | x   | x   | x   | x   |     |
-| 11  | x   | x   | x   | x   | x   | x   | x   | x   | x   | x   | x   | 
+| 10  | x   | x   | x   | x   | x   | x   | x   | x   | x   | x   |     |
+| 11  | x   | x   | x   | x   | x   | x   | x   | x   | x   | x   | x   |
 
 
 | P0  | P1  | P2  |

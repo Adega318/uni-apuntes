@@ -3,12 +3,14 @@
 Técnica usada sobre grandes estructuras, consiste de dos pasos:
 - Troceado de datos
 - Asociación de la computación
+
 ### Regla del propietario
 Los procesos dependientes de un conjuntos de datos es responsabilidad del propietario de esos datos, en caso de necesitar más datos no poseídos puede incumplirse.
 ## Funcional
 Descompones las tareas de calculo del algoritmo en distintos procesos, esta descomposición dará a procesos con dependencias entre si.
 1. Establecer dependencias.
 2. Asignar las partes sin incumplir las dependencias
+
 ## Recursiva
 División del problema en procesos de manera recursiva con un criterio de parada para ejecución, se divide hasta que sea de tamaño manejable y al terminar se reporta al superior.
 ## Especulativa
@@ -18,6 +20,7 @@ Se descompone el programa en tareas de árbol, cada tarea es independiente inter
 Se pueden establecer las tareas de dos maneras:
 - Estática, si tenemos un problema estable con iteraciones determinado podemos definir las tareas de manera permanente.
 - Dinámica, se crean tareas en el código en función del progreso del programa.
+
 Es importante el balanceo de carga entre los distintos procesadores.
 # Asignación de tareas
 ## Asignación estática
@@ -91,6 +94,7 @@ Se pueden optimizar estos procesos con:
 - Planificación por bloques, establecimiento de bloques de tareas asignables en lugar de tareas individuales.
 - Subproblemas locales, los esclavos que generan subtareas mantienen subtareas para su propia ejecución y manda un conjunto de ellas al maestro.
 - Captación anticipada, petición de trabajos por adelantado para solapar los tiempos de comunicación.
+
 ### Descentralizados
 El modelo descentralizado se basa en que todos los procesos pueden asignar tareas, teniendo tes métodos de asignación de tareas:
 - Receptor, el proceso que requiere trabajo solicita al resto.
@@ -102,8 +106,10 @@ El modelo descentralizado se basa en que todos los procesos pueden asignar tarea
 A la hora de seleccionar el proceso de con el que comunicarse se pueden tener dos acercamientos:
 - Aleatorio
 - Sondeo cíclico, cada proceso tiene su contador que indica el objetivo de la ultima comunicación que se actualizará cuando se de una denegación.
+
 La terminación en este tipo de esquemas es complicada de determinar, necesitando comunicación de finalización:
 - Cíclica, comunicar los procesos en anillo llevando un mensaje de fiscalización entre los procesos, pasándolo en una dirección.
+
 #### Dijkstra
 Algoritmo de terminación cíclico, establecemos un color para los procesos, cuando se manda un trabajo a un proceso de indice mayor. Cuando el token de terminación llega a un proceso de color negro cambia su propio cor a negro, pasando a ser un token no fiable, si el token llega blanco es que esta fiable y se puede terminar.
 

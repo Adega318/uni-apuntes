@@ -7,11 +7,13 @@ Sucesivos niveles de complejidad de paralelismo construidos sobre los anteriores
 	- Intermedio, herramientas para la implementación de aplicaciones paralelas.
 	- Alto, núcleos computacionales con ejecución paralela.
 - Aplicación, aplicaciones implementadas sobre los anteriores niveles.
+
 ## Dependencias de datos
 Las tareas deben de carecer de dependencias para poder funcionar en paralelo, existiendo las siguientes:
 - RAW, A tiene dependencia de B si requiere una de las salidas de B para operar.
 - WAR, A anti depende B si A modifica una variable usada por B.
 - WAW, A y B son dependientes si generan el mismo dato.
+
 # Modelo de paso de mensajes
 Comunicación entre procesos basado en el intercambio de mensajes. La manera de pasarlos es mediante el modelo MPI, estándar de comunicación de procesos en paralelo.
 El MPI funciona mediante una red de comunicación con tipos de estructuras:
@@ -94,6 +96,7 @@ int MPI_Reduce([void *] buff, [void *] recvbuff, [int] count, [MPI_Datatype] dat
 # Análisis de algoritmos
 ## Conceptos
 - Tiempo de ejecución paralelo, tiempo desde el comienzo del primer procesador al final del ultimo.
+
 ### Ley de Amdahl
 Medición del límite de ganancia de velocidad obtenida en la implementación paralela.
 $F_{s} =$ implementación secuencial.
@@ -112,6 +115,7 @@ Deberá de ser equivalente al secuencial pero suele ser mayor.$$Overhead=Coste-T
 Es la medida de el efecto del aumento de recursos, pudiendo caer en dos categorías:
 - Fuerte, el aumento de recursos no afecta a la eficiencia del algoritmo.
 - Débil, el aumento de recursos afecta a la eficiencia.
+
 # Tags
 #2- 
 #2-2 
