@@ -7,7 +7,7 @@ Teniendo N filósofos, tenemos N tenedores y un mutex para cada uno, asignaremos
 ```c
 mtx_t fork[N];
 //I: numero filososfo
-#DEFINE RF(I) ((I-1)%N)
+#DEFINE RF(I) (I==0?N-1:I-1)
 #DEFINE LF(I) ((I+1)%N)
 #DEFINE MIN(x,y) ((x)<(y)?(x):(Y))
 #DEFINE MAX(x,y) ((x)>=(y)?(x):(Y))
