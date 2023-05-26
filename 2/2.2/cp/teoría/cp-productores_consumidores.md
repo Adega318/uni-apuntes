@@ -81,7 +81,7 @@ while(1) {
 elemento e;
 while(1) {  
 	e = crear_elemento();  
-	mtex_lock(buffer_lock);  
+	mtx_lock(buffer_lock);  
 	while(elements() == buffer_size()) { // Esperar por sitio  
 		cnd_wait(buffer_full, buffer_lock);  
 	}  
