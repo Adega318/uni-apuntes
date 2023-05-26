@@ -31,27 +31,27 @@ Sobre algoritmos con dependencia de entradas contiguas en una matriz (localidad 
 
 ![[Pasted image 20230426215759.png]]
 
-Para p procesos y n elementos se asignarán bloques de tamaño $m_p=\frac{n}{p}$ (redondeado hacia arriba), excepto el proceso $p-1$ que recibirá $m_p'=(n-m_p(p-1))$.
-El elemento i se encuentra en el proceso $\frac{i}{m_p}$, ocupando la posición $i\mod{m_p}$ en el vector local.
+Para p procesos y n elementos se asignarán bloques de tamaño $m_b=\frac{n}{p}$ (redondeado hacia arriba), excepto el proceso $p-1$ que recibirá $m_b'=(n-m_b(p-1))$.
+El elemento i se encuentra en el proceso $\frac{i}{m_b}$, ocupando la posición $i\mod{m_b}$ en el vector local.
 #### Bidimensional
 ##### Filas
 
 ![[Pasted image 20230426221145.png]]
 
-Para p procesos y n filas se asignarán $m_p=\frac{n}{p}$ (redondeado hacia arriba) filas, excepto el proceso $p-1$ que recibirá $m_p'=(n-m_p(p-1))$.
-La fila i se encuentra en el proceso $\frac{i}{m_p}$, ocupando la posición $i\mod{m_p}$ en la matriz local.
+Para p procesos y n filas se asignarán $m_b=\frac{n}{p}$ (redondeado hacia arriba) filas, excepto el proceso $p-1$ que recibirá $m_b'=(n-m_b(p-1))$.
+La fila i se encuentra en el proceso $\frac{i}{m_b}$, ocupando la posición $i\mod{m_b}$ en la matriz local.
 ##### Columnas
 
 ![[Pasted image 20230426221359.png]]
 
-Para p procesos y n columnas se asignarán $m_p=\frac{n}{p}$ (redondeado hacia arriba) columnas, excepto el proceso $p-1$ que recibirá $m_p'=(n-m_p(p-1))$.
-La columna j se encuentra en el proceso $\frac{j}{m_p}$, ocupando la posición $j\mod{m_p}$ en la matriz local.
+Para p procesos y n columnas se asignarán $m_b=\frac{n}{p}$ (redondeado hacia arriba) columnas, excepto el proceso $p-1$ que recibirá $m_b'=(n-m_b(p-1))$.
+La columna j se encuentra en el proceso $\frac{j}{m_b}$, ocupando la posición $j\mod{m_b}$ en la matriz local.
 ##### Matriz
 
 ![[Pasted image 20230426221535.png]]
 
-Para una malla de procesos $p=p_xp_y$ con una matriz $n\times m$ cada proceso tendrá una matriz de $m_{p_x}=\frac{n}{p_x}$ filas y $m_{p_y}=\frac{m}{p_y}$ (redondeado hacia arriba), excepto el proceso de la fila $p_x-1$ con $m_{p_x}'=(n-m_{p_x}(p_x-1))$ subfilas y el proceso $p_y-1$ con $m_{p_y}'=(m-m_{p_y}(p_y-1))$ sub columnas.
-El elemento $(i,j)$ estará en el proceso $(\frac{i}{m_{p_x}},\frac{j}{m_{p_y}})$ con posición $(i\mod{m_{p_x}}, j\mod{m_{p_y}})$
+Para una malla de procesos $p=p_xp_y$ con una matriz $n\times m$ cada proceso tendrá una matriz de $m_{b_x}=\frac{n}{p_x}$ filas y $m_{b_y}=\frac{m}{p_y}$ (redondeado hacia arriba), excepto el proceso de la fila $p_x-1$ con $m_{b_x}'=(n-m_{b_x}(p_x-1))$ subfilas y el proceso $p_y-1$ con $m_{b_y}'=(m-m_{b_y}(p_y-1))$ sub columnas.
+El elemento $(i,j)$ estará en el proceso $(\frac{i}{m_{b_x}},\frac{j}{m_{b_y}})$ con posición $(i\mod{m_{b_x}}, j\mod{m_{b_y}})$
 #### Generalización multidimensional
 Para una matriz s dimensional puede distribuirse por bloques de p procesos troceados hasta k dimensiones, con $k\leq s$, y organizamos como una malla k-dimensional.
 $$m_{b_d}=\left\{ \begin{array}{lr} \frac{n_d}{p_d}\ \ si\ d <k\\n_d\ \ en\ otro\ caso\end{array} \right.$$$$m_{b_d}'=\left\{ \begin{array}{lr} n_d-m_{b_d}(p_d-1)\ \ si\ d <k\\n_d\ \ en\ otro\ caso\end{array} \right.$$
@@ -109,7 +109,6 @@ A la hora de seleccionar el proceso de con el que comunicarse se pueden tener do
 
 La terminación en este tipo de esquemas es complicada de determinar, necesitando comunicación de finalización:
 - Cíclica, comunicar los procesos en anillo llevando un mensaje de fiscalización entre los procesos, pasándolo en una dirección.
-
 #### Dijkstra
 Algoritmo de terminación cíclico, establecemos un color para los procesos, cuando se manda un trabajo a un proceso de indice mayor. Cuando el token de terminación llega a un proceso de color negro cambia su propio cor a negro, pasando a ser un token no fiable, si el token llega blanco es que esta fiable y se puede terminar.
 
