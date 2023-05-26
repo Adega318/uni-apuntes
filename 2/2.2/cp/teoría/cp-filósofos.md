@@ -15,6 +15,10 @@ mtx_t fork[N];
 while(true){
 	mtx_lock(fork[RF(I)]);
 	if(mtx_trylock(fork[LF(I)])==0) break;
+	else {
+		eat();
+		mtx_unlock(fork)
+	}
 	mtx_unlock(fork[RF(I)]);
 	sleep(rand()%10);
 }
