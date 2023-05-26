@@ -99,8 +99,8 @@ int MPI_Reduce([void *] buff, [void *] recvbuff, [int] count, [MPI_Datatype] dat
 
 ### Ley de Amdahl
 Medición del límite de ganancia de velocidad obtenida en la implementación paralela.
-$F_{s} =$ implementación secuencial.
-$F_{p}=$ implementación paralela.$$A_{p}= \frac{T_{secuencial}}{T_{paralelo}(p)}=\frac{F_s+F_p}{F_s+\frac{F_p}{p}}$$
+$F_{s} =$ porción secuencial.
+$F_{p}=$ porción paralelizable.$$A_{p}= \frac{T_{secuencial}}{T_{paralelo}(p)}=\frac{F_s+F_p}{F_s+\frac{F_p}{p}}$$
 También calcula la aceleración máxima teórica:$$A_{max}=\lim_{p\to\infty}\frac{T_{secuencial}}{T_{paralelo}(p)}=\lim_{p\to\infty}\frac{F_s+F_p}{F_s+\frac{F_p}{p}}=\frac{F_s+F_p}{F_s}$$
 Esta métrica es puramente teriaca sin base de ejecución.
 ## Medidas de prestaciones
