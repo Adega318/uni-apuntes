@@ -6,8 +6,8 @@ la implementación mediante [[cp-seción_critica#Mutex|mutex]] presenta el probl
 ```C
 mtx_t buffer_lock;
 int removed;
+elemento e;
 while(1) {  
-	elemento e;   
 	removed = 0;  
 	do {  
 		mtx_lock(buffer_lock);  
@@ -24,8 +24,9 @@ while(1) {
 ```C
 mtx_t buffer_lock;
 int inserted;
+elemento e;
 while(1) {
-	elemento e = crear_elemento(); 
+	e = crear_elemento(); 
 	inserted = 0;
 	do {
 		mtx_lock(buffer_lock);
@@ -39,8 +40,7 @@ while(1) {
 ```
 # Sincronización por condiciones
 ## Wait atómico
-Los wait deben de ser atómicos, si no se cumple el estado del buffer puede cambiar  
-antes de que el thread duerma, lo que causara el problema [lost wakeup](https://docs.oracle.com/cd/E19120-01/open.solaris/816-5137/sync-30/index.html)
+Los wait deben de ser atómicos, si no se cumple el estado del buffer puede cambiar, antes de que el thread duerma, lo que causara el problema [lost wakeup](https://docs.oracle.com/cd/E19120-01/open.solaris/816-5137/sync-30/index.html)
 ## Broadcast
 El broadcast se basa en poner a esperar a los threads en un canal y despertarlos simultáneamente al encenderlo. Es una solución simple pero poco eficiente al despertar todos los threads simultáneamente.
 ```c
@@ -62,8 +62,8 @@ int cnd_timedwait(cnd_t *, mtx_t *, struct timespec *);
 ```
 ### Consumidor
 ```c
+elemento e;
 while(1) {
-	elemento e;
 	mtx_lock(buffer_lock);
 	while(elements() == 0){
 		cnd_wait(buffer_empty, buffer_lock);
@@ -78,8 +78,9 @@ while(1) {
 ```
 ### Productor
 ```c
+elemento e;
 while(1) {  
-	elemento e = crear_elemento();  
+	e = crear_elemento();  
 	mtex_lock(buffer_lock);  
 	while(elements() == buffer_size()) { // Esperar por sitio  
 		cnd_wait(buffer_full, buffer_lock);  
