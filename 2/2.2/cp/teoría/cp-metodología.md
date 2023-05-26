@@ -51,7 +51,7 @@ La columna j se encuentra en el proceso $\frac{j}{m_b}$, ocupando la posición $
 ![[Pasted image 20230426221535.png]]
 
 Para una malla de procesos $p=p_xp_y$ con una matriz $n\times m$ cada proceso tendrá una matriz de $m_{b_x}=\frac{n}{p_x}$ filas y $m_{b_y}=\frac{m}{p_y}$ (redondeado hacia arriba), excepto el proceso de la fila $p_x-1$ con $m_{b_x}'=(n-m_{b_x}(p_x-1))$ subfilas y el proceso $p_y-1$ con $m_{b_y}'=(m-m_{b_y}(p_y-1))$ sub columnas.
-El elemento $(i,j)$ estará en el proceso $(\frac{i}{m_{b_x}},\frac{j}{m_{b_y}})$ con posición $(i\mod{m_{b_x}}, j\mod{m_{b_y}})$
+El elemento $(i,j)$ estará en el proceso $(\frac{i}{m_{b_x}},\frac{j}{m_{b_y}})$ con posición $(i\mod{m_{b_x}}, j\mod{m_{b_y}})$.
 #### Generalización multidimensional
 Para una matriz s dimensional puede distribuirse por bloques de p procesos troceados hasta k dimensiones, con $k\leq s$, y organizamos como una malla k-dimensional.
 $$m_{b_d}=\left\{ \begin{array}{lr} \frac{n_d}{p_d}\ \ si\ d <k\\n_d\ \ en\ otro\ caso\end{array} \right.$$$$m_{b_d}'=\left\{ \begin{array}{lr} n_d-m_{b_d}(p_d-1)\ \ si\ d <k\\n_d\ \ en\ otro\ caso\end{array} \right.$$
