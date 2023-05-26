@@ -3,9 +3,11 @@ Cuando tenemos productores y consumidores compartiendo un mismo buffer, se debe 
 ## Mutex
 la implementación mediante [[cp-seción_critica#Mutex|mutex]] presenta el problema de la espera activa, donde se está comprobando constantemente si se libera.
 ### Consumidor
-```c
+```C
+mtx_t buffer_lock;
+int removed;
 while(1) {  
-	elemento e; int removed;  
+	elemento e;   
 	removed = 0;  
 	do {  
 		mtx_lock(buffer_lock);  
@@ -19,10 +21,11 @@ while(1) {
 }
 ```
 ### Productor
-```c
+```C
 mtx_t buffer_lock;
+int inserted;
 while(1) {
-	elemento e = crear_elemento(); int inserted;
+	elemento e = crear_elemento(); 
 	inserted = 0;
 	do {
 		mtx_lock(buffer_lock);
