@@ -9,3 +9,4 @@
 3. Actualización del diagrama de casos de uso.
 4. Descripción de casos de uso.
 	1. Sin referencias a la interfaz, a no ser de ser requerida.
+	2. 
