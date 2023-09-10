@@ -1,4 +1,4 @@
-[[2-2-index]]
+[[2.2-index]]
 # Teóricas
 1. [[bd-fases_de_diseño]]
 2. [[bd-diseño_lógico]]

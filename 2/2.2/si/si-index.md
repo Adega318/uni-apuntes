@@ -1,4 +1,4 @@
-[[2-2-index]]
+[[2.2-index]]
 # Teóricas
 1. [[si-introducción]]
 2. [[si-búsqueda]]
