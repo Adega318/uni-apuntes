@@ -14,7 +14,7 @@ Propiedades:
 ## Señales senoidales
 Las señales senoidales pueden ser representadas por el coseno, siendo definida por tres parámetros:
 - Amplitud (positiva)
-- Frecuencia
+- Frecuencia (Hz)
 - Fase
 
 La representación se realizaría con la siguiente ecuación:$$x(t)=A\cos(2\pi f t + \phi)$$
@@ -23,7 +23,10 @@ title: ejer
 $x(t)=-2\cos(4\pi f t + \pi/2)$
 
 Amplitud = 2
-frecuencia
-	Hz = 
-	Rad/s = 
+frecuencia(
+	Hz = 2
+	Rad/s = 4pi)
+Fase(
+	Rad = pi/2
+	Grad = 90º)
 ```
