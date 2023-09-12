@@ -10,4 +10,13 @@ Suma de versiones desplazadas de pulsos con amplitud $A_k$
 $$x(t) = \sum_{K=-N}^N A_K$$
 ## Impulso unidad
 El impulso (delta) es una señal imaginaria que cambia de 0 a 1 en tiempo 0.
-$$\delta()$$
+Propiedades:
+1. $\delta (t)= 0 \ \ cuando \ \ t\neq0$
+
+## Señales senoidales
+Las señales senoidales pueden ser representadas por el coseno, siendo definida por tres parámetros:
+- Amplitud (positiva)
+- Frecuencia
+- Fase
+
+$$x(t)=A\cos(2ªpi)$$
