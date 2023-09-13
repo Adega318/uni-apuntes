@@ -19,12 +19,15 @@ Conceptos:
 - UPS, sistemas de alimentación in interrumpida.
 
 # Conceptos
-
-
-
-
-
-Categorías de ataques:
-- interrupción,
-- intercepción
-- 
+## Seguridad
+## Vulnerabilidades
+## Explotación
+## Ataques
+Un ataque e
+Categorías de ataques según su punto:
+- interrupción, corta la comunicación del servicio.
+	- DOS, ataques que abusan los servicios para inutilizarlo.
+- intercepción, lee la comunicación del servicio.
+	- Snifing, lectura de la comunicación privada.
+- modificación, modifica la comunicación del servicio.
+- generación, genera comunicación para del servicio.
