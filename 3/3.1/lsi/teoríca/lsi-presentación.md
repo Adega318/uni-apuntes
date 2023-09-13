@@ -14,3 +14,5 @@ Conceptos:
 - exploit, programa que explota.
 - amenazas, actividades o herramientas que se pueden usar para explotar una vulnerabilidad.
 - ataque, cuando se hace una explotación.
+	- poisoning, ataques que 
+	- DOS, ataques que abusan los servicios para inutilizarlo.
