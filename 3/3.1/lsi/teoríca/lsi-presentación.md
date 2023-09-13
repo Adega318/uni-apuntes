@@ -4,11 +4,12 @@ Conceptos:
 - seguridad informática, serie de protocolos y metodologías para proteger y trasmitir seguramente la información en sistemas informáticos.
 - vulnerabilidad, debilidad en un sistema.
 	- ***CVE***, lista de todas las vulnerabilidades (no base de datos)).
-	- ***NVD***, base de datos con vulnerabilidades (mas detallada que la CVE).
 	- ***CVSS***, sistema de puntuare de peligro de las vulnerabilidades.
 	- ***CWE***, clasificación por características de las vulnerabilidades.
 	- ***CPE***, definición de las distintas plataformas de trabajo (sistema optativo, ...).
 	- ***OVAL***, lenguaje de programación orientado a la representación de vulnerabilidades.
+	- ***NVD***, base de datos con vulnerabilidades y todo lo anterior.
+	- ***0-day***, vulnerabilidades no conocidas públicamente.
 - explotar, se refiere a el uso de una vulnerabilidad.
 - exploit, programa que explota.
 - amenazas, actividades o herramientas que se pueden usar para explotar una vulnerabilidad.
