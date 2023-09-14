@@ -12,7 +12,7 @@ Las desventajas de las capas son el aumento en la complejidad del software como 
 
 ### Arquitectura de capas
 #### Capa Modelo
-Conjunto de lógica de negocio de los casos de uso, implementa todos los casos de uso de forma independiente del frontend ( normalmente ).
+Conjunto de lógica de negocio ( lógica de trasformación de datos ) de los casos de uso, implementa todos los casos de uso de forma independiente del frontend ( normalmente ).
 Suele dividirse en las siguientes subcapas:
 - Capa de acceso a datos, maneja datos de la base de datos y otras fuentes.
 - Capa lógica de negocio, implementa la lógica necesaria y usa la capa de acceso a datos para la lectura y escritura.
