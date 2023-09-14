@@ -34,3 +34,10 @@ Fase(
 ### Fase
 La fase es el desplazamiento en el tiempo ( señal senoidal desplazada ), representada por $\phi=-2\pi ft_0 -> \phi = \frac{-2\pi}{T}t_0$
 
+## Señal sinc
+$$x(t)=sinc(t)=\frac{sin\ \pi t}{\pi t}$$
+En el punto o existe una indeterminación que lleva a :$$sinc(0)=-\lim_{t->0}\frac{\pi \ cos\ \pi t}{\pi}= 1$$
+# Potencia
+## Potencia instantánea
+
+
