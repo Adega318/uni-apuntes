@@ -41,5 +41,7 @@ En el punto o existe una indeterminación que lleva a :$$sinc(0)=-\lim_{t->0}\fr
 ## Potencia instantánea
 La potencia instantánea es igual a:$$p(t)=x^2(t)$$
 ## Energía disipada en un intervalo
-Considerando un intervalo [A, B] la energía disipada es :$$E^T_x=\int^B_Ax^2(t)dt$$
-Para calcular la disipación total se da un intervalo infinito: $$E_x=\lim_{T-> \}$$
+Considerando un intervalo $[-\frac{T}{2}, \frac{T}{2}]$ la energía disipada es :$$E^T_x=\int^{\frac{T}{2}}_{-\frac{T}{2}}x^2(t)dt$$
+Para calcular la disipación total se da un intervalo infinito: $$E_x=\lim_{T-> \infty}\int^{\frac{T}{2}}_{-\frac{T}{2}}x^2(t)dt=\int^\infty_{-\infty }x^2(t)dt$$
+## Potencia media de una señal 
+$$P_x=\lim_{T->\infty}\frac{E_x^T}{T}=\lim_{T->\infty}\frac{E_x^T}{T} $$
