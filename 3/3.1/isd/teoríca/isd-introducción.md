@@ -7,4 +7,6 @@ Las aplicaciones empresariales deben de cumplir las siguientes características:
 - Seguridad, protección contra ataques y solided de la separación de usuarios.
 
 ## Diseño por capas
-Método de diseño centrado en la separación del software donde las capas inferiores sirven las peticiones de las superiores a través de una interfaz ( patrón de diseño fachada ), esto lleva al efecto caja negra sobre las capas inferiores. Esta metodología de desarrollo hace sencilla la sustitución y modificación de capas, permitiendo mayor mantenimiento y tolerancia a fallos.
+Método de diseño centrado en la separación del software donde las capas inferiores sirven las peticiones de las superiores a través de una interfaz ( patrón de diseño fachada ), esto lleva al efecto caja negra sobre las capas inferiores. Esta metodología de desarrollo hace sencilla la sustitución y modificación de capas, permitiendo mayor mantenimiento y tolerancia a fallos tambien permitiendo el desarrollo simultaneo de capas una vez establecidas las interfaces.
+Las desventajas de las capas son el aumento en la complejidad del software como conjunto pese a la mayor sencillez de las partes y la perdida de eficiencia a causa de la perdida de información entre capas y oportunidades de optimizar.
+### Arquitectura de capas
