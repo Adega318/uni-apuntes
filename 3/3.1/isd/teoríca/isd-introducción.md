@@ -11,7 +11,7 @@ Método de diseño centrado en la separación del software donde las capas infer
 Las desventajas de las capas son el aumento en la complejidad del software como conjunto pese a la mayor sencillez de las partes y la perdida de eficiencia a causa de la perdida de información entre capas y oportunidades de optimizar.
 
 ### Arquitectura de capas
-La arquitectura de capas separa el programa en las siguientes capas de mayor a menor profundidad.
+Las arquitectura divide las capas permite la duplicidad de capas concretas sin afectar a las consumidoras y ejecución de distintas capas en maquinas independientes.
 #### Capa Modelo
 Conjunto de lógica de negocio ( lógica de trasformación de datos ) de los casos de uso, implementa todos los casos de uso de forma independiente del frontend ( normalmente ).
 Suele dividirse en las siguientes subcapas:
@@ -21,4 +21,4 @@ Suele dividirse en las siguientes subcapas:
 #### Capa servicios
 Permite la interacción de otras aplicaciones con la capa modelo, ofreciendo una API que puede ser invocadas por otras aplicaciones.
 #### Capa interfaz gráfica
-Permite la interacción entre los usuarios y la capa modelo, ofreciendo 
+Permite la interacción entre los usuarios y la capa modelo, ofreciendo una UI y funcionalidades de uso.
