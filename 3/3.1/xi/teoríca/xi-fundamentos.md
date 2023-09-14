@@ -46,7 +46,22 @@ Para calcular la disipación total se da un intervalo infinito: $$E_x=\lim_{T-> 
 ## Potencia media de una señal 
 $$P_x=\lim_{T->\infty}\frac{E_x^T}{T}=\lim_{T->\infty}\frac{1}{T}\int^{\frac{T}{2}}_{-\frac{T}{2}}x^2(t)dt $$
 ```ad-summary
-title: ejer
+title: ejer1
 Energia de una cuadrada de rando $[-\frac{T_0}{2}, \frac{T_0}{2}]$ y amplitud A
-$$E_x=\lim_{T-> \infty}\int^{\frac{T}{2}}_{-\frac{T}{2}}x^2(t)dt$$
+
+$$E_x=\lim_{T-> \infty}\int^{\frac{T_0}{2}}_{-\frac{T_0}{2}}x^2(t)dt=A^2T_0$$
+
+$$P_x = \lim_{T->\infty}\frac{E_x^T}{T}=0$$
+```
+
+```ad-summary
+title: ejer2
+Energia de una triangular de rando $[0, T_0]$ y amplitud A
+
+$$x(t)=  \begin{dcases}t \\ b\end{dcases}$$
+
+
+$$E_x=\lim_{T-> \infty}\int^{\frac{T_0}{2}}_{-\frac{T_0}{2}}x^2(t)dt=A^2T_0$$
+
+$$P_x = \lim_{T->\infty}\frac{E_x^T}{T}=0$$
 ```
