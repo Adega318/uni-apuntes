@@ -44,4 +44,9 @@ La potencia instantánea es igual a:$$p(t)=x^2(t)$$
 Considerando un intervalo $[-\frac{T}{2}, \frac{T}{2}]$ la energía disipada es :$$E^T_x=\int^{\frac{T}{2}}_{-\frac{T}{2}}x^2(t)dt$$
 Para calcular la disipación total se da un intervalo infinito: $$E_x=\lim_{T-> \infty}\int^{\frac{T}{2}}_{-\frac{T}{2}}x^2(t)dt=\int^\infty_{-\infty }x^2(t)dt$$
 ## Potencia media de una señal 
-$$P_x=\lim_{T->\infty}\frac{E_x^T}{T}=\lim_{T->\infty}\frac{E_x^T}{T} $$
+$$P_x=\lim_{T->\infty}\frac{E_x^T}{T}=\lim_{T->\infty}\frac{1}{T}\int^{\frac{T}{2}}_{-\frac{T}{2}}x^2(t)dt $$
+```ad-summary
+title: ejer
+Energia de una cuadrada de rando $[-\frac{T_0}{2}, \frac{T_0}{2}]$ y amplitud A
+$$E_x=\lim_{T-> \infty}\int^{\frac{T}{2}}_{-\frac{T}{2}}x^2(t)dt$$
+```
