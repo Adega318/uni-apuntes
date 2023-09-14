@@ -32,3 +32,4 @@ Fase(
 ```
 
 ### Fase
+La fase es el desplazamiento en el tiempo ( señal senoidal desplazada ), representada por $\phi=-2\pi ft_0$
