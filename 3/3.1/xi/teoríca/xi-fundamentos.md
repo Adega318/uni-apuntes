@@ -37,7 +37,9 @@ La fase es el desplazamiento en el tiempo ( señal senoidal desplazada ), repres
 ## Señal sinc
 $$x(t)=sinc(t)=\frac{sin\ \pi t}{\pi t}$$
 En el punto o existe una indeterminación que lleva a :$$sinc(0)=-\lim_{t->0}\frac{\pi \ cos\ \pi t}{\pi}= 1$$
-# Potencia
+# Potencia e energía
 ## Potencia instantánea
-
-
+La potencia instantánea es igual a:$$p(t)=x^2(t)$$
+## Energía disipada en un intervalo
+Considerando un intervalo [A, B] la energía disipada es :$$E^T_x=\int^B_Ax^2(t)dt$$
+Para calcular la disipación total se da un intervalo infinito: $$E_x=\lim_{T-> \}$$
