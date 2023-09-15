@@ -34,3 +34,5 @@ Los grados de cumplimiento de proyectos se deben hacer distinción por caracter�
 	- Errores ocultos: 65%.
 	- Software inmantenible: 60%.
 
+# Métodos de mejora de proyectos
+Uno de los principales métodos de mejora es el aumento en la planificación, ajustando el esfuerzo, tiempo y coste. Las pruebas pueden reducir los defectos, pero so
