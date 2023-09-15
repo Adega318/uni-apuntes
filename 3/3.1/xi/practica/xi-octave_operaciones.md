@@ -14,4 +14,23 @@
 - z ./ z2 -> división elemento a elemento
 - z .^ z2 -> exponente elemento a elemento
 # Matrices
-- z = zeros(20, 40) -> matriz de 0 de tamañ
+- z = zeros('x', 'y') -> matriz de 0 de tamaño x * y
+- z('x', 'y') -> extraer de la posición
+- z('x', 'y') = 'valor' -> asignar valor a la posición
+- z + z2 -> suma
+- z - z2 -> resta
+- z * z2 -> producto 
+- z .* z2 -> producto elemento a elemento
+- z ./ z2 -> división elemento a elemento
+- z .^ z2 -> exponente elemento a elemento
+# Lógica
+- & -> and
+- | -> or
+- ~ -> negación
+- < -> menor
+- > -> mayor
+- == -> igual
+- >= -> mayor igual
+- <= -> menor igual
+- ~= -> distinto
+- 
