@@ -1,10 +1,10 @@
 # Objetivos
-Los principales parámetros dentro de un proyecto son:
+Los principales parámetros dentro de un proyecto desde la perspectiva del desarrollador son:
 - Esfuerzo ( días/hombre )
 - Tiempo
 - Coste
 
-Otro parámetro de gran importancia es la calidad, definida por el cumplimiento de características dependientes del consumidor, las cuales son recopiladas al inicio del proyecto en los parámetros del mismo, estos parámetros deben de ser cuantificables y verificables.
+Otro parámetro de gran importancia para el cliente es la calidad, definida por el cumplimiento de características dependientes del cliente, las cuales son recopiladas al inicio del proyecto en los parámetros del mismo, estos parámetros deben de ser cuantificables y verificables.
 
 ## Grado de cumplimiento
 La fiscalización de un proyecto se clasifica en:
