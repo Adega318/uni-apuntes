@@ -2,6 +2,8 @@
 - % -> comentario
 - help 'comando' -> info sobre el comando
 - x = 'algo' -> variable
+- clear -> limpia las variables
+- close all -> elimina las figuras activas
 
 # Vectores
 - z = 'x':'y' -> vector con los valores de x a y
