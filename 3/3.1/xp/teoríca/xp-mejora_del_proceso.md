@@ -35,4 +35,5 @@ Los grados de cumplimiento de proyectos se deben hacer distinción por caracter�
 	- Software inmantenible: 60%.
 
 # Métodos de mejora de proyectos
-Uno de los principales métodos de mejora es el aumento en la planificación, ajustando el esfuerzo, tiempo y coste. Las pruebas pueden reducir los defectos, pero so
+Uno de los principales métodos de mejora es el aumento en la planificación, ajustando el esfuerzo, tiempo y coste.
+El aseguramiento de la calidad se debe realizar en todas las etapas del software ( no depender de las pruebas de manera exclusiva ).
