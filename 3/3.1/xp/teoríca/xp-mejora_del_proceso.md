@@ -7,7 +7,12 @@ Los principales parámetros dentro de un proyecto son:
 Otro parámetro de gran importancia es la calidad, definida por el cumplimiento de características dependientes del consumidor, las cuales son recopiladas al inicio del proyecto en los parámetros del mismo, estos parámetros deben de ser cuantificables y verificables.
 
 ## Grado de cumplimiento
-Los grados de cumplimiento de proyectos se deben hacer distinción en dos grupos:
+La fiscalización de un proyecto se clasifica en:
+- Exitoso, cumple con todo.
+- Challenged, falla en plazos, costos o función pero sirven.
+- Fallido, no cumplen la función.
+
+Los grados de cumplimiento de proyectos se deben hacer distinción por características del mismo:
 - Proyectos de software de gestión:
 	- Surgir nuevos requisitos: 80%.
 	- Baja calidad: ~70%.
