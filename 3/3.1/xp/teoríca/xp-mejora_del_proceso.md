@@ -22,10 +22,10 @@ Los grados de cumplimiento de proyectos se deben hacer distinción en dos grupos
 	- Baja satisfacción de usuarios: 55%.
 	- Comercialización posterior a lo previsto: 50%.
 - Proyectos software subcontratados:
--  Altos costes de mantenimiento: 60%.
- Problemas entre cliente y subcontrata: 50%.
- Criterios de aceptación imprevistos: 30%.
-- “Proyectos” software de los usuarios (para uso
-particular):
- Errores ocultos: 65%.
- Software inmantenible: 60%.
+	- Altos costes de mantenimiento: 60%.
+	- Problemas entre cliente y subcontrata: 50%.
+	- Criterios de aceptación imprevistos: 30%.
+- “Proyectos” software de los usuarios (para uso particular):
+	- Errores ocultos: 65%.
+	- Software inmantenible: 60%.
+
