@@ -41,3 +41,7 @@
 # Gráficos
 - figure ('num') -> crea una figura con el número dado (número opcional), en caso de ya existir y no estar activa la activa.
 - subplot('num_filas', 'num_columnas', 'posición') -> subdivide una figura, la posición indica la activa.
+- plot('x', 'y') -> dibuja una linea continua definida por los valores de los vectores x e y
+- stem('x', 'y') -> dibuja puntos en las posiciones indicadas por los vectores x e y
+- hold on -> mantiene lo ya dibujado en la figura activa ante nuevos dibujos
+- hold off -> contrarresta hold on
