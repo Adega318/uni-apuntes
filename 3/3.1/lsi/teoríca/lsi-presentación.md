@@ -17,6 +17,7 @@ La explotación es el uso de vulnerabilidades, conociendo el método de explotac
 Un ataque es la acción de explotar una amenaza de un sistema, según de el punto de comunicación de ataque a un servicio se categorizan como:
 - Interrupción, corta la comunicación del servicio.
 	- DOS, ataques que abusan los servicios para inutilizarlo.
+	- DDOS, ataques que sobrecargan los servicios.
 - Intercepción, lee la comunicación del servicio.
 	- Snifing, lectura de la comunicación privada.
 - Modificación, modifica la comunicación del servicio.
