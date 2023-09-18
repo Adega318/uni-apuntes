@@ -37,5 +37,5 @@ Para defender contra ataque en función de cual sea tenemos diferentes opciones:
 	- Trafic shaping, se reduce el aceso a los usuarios para mantener la calidad del mismo.
 		- Proxy, servidor intermediario entre dos redes ( permite establecer un filtro sobre la red ), esto puede hacer que el shaping perjudique clientes.
 
-Ataques de denegación de servicio
-Estos ataque caen bajo la categoría de interrupción que usando gran número de peticiones para sobrecargar el servicio atacado. El método de defensa más comunes con el Trafic shping, se realiza restringiendo el número de conexiones para asegurar la calidad del servicio.
+### Ataques de denegación de servicio
+Estos ataque caen bajo la categoría de interrupción que usando gran número de peticiones para sobrecargar el servicio atacado. El método de defensa más comunes con el Trafic shping, se realiza restringiendo el número de conexiones para asegurar la calidad del servicio. Esta solución pude causar problemas con Proxys por lo que se debe filtrar los usuarios a los que someter al shaping.
