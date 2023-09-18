@@ -9,7 +9,6 @@ Las aplicaciones empresariales deben de cumplir las siguientes características:
 ## Diseño por capas
 Método de diseño centrado en la separación del software donde las capas inferiores sirven las peticiones de las superiores a través de una interfaz ( patrón de diseño fachada ), esto lleva al efecto caja negra sobre las capas inferiores. Esta metodología de desarrollo hace sencilla la sustitución y modificación de capas, permitiendo mayor mantenimiento y tolerancia a fallos también permitiendo el desarrollo simultaneo de capas una vez establecidas las interfaces.
 Las desventajas de las capas son el aumento en la complejidad del software como conjunto pese a la mayor sencillez de las partes y la perdida de eficiencia a causa de la perdida de información entre capas y oportunidades de optimizar.
-
 ### Arquitectura de capas
 Las arquitectura divide las capas permite la duplicidad de capas concretas sin afectar a las consumidoras y ejecución de distintas capas en maquinas independientes.
 #### Capa Modelo
@@ -22,4 +21,4 @@ Suele dividirse en las siguientes subcapas:
 Permite la interacción de otras aplicaciones con la capa modelo, ofreciendo una API que puede ser invocadas por otras aplicaciones.
 #### Capa interfaz gráfica
 Permite la interacción entre los usuarios y la capa modelo, ofreciendo una UI y funcionalidades de uso.
-
+### Distribución de capas
