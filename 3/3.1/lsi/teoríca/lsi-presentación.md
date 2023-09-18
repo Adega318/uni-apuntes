@@ -21,3 +21,8 @@ Un ataque es la acción de explotar una amenaza de un sistema, según de el punt
 	- Snifing, lectura de la comunicación privada.
 - Modificación, modifica la comunicación del servicio.
 - Generación, genera comunicación para del servicio.
+
+## Sistemas de detección
+- IDS, sistemas que analizan el sistema en busca de ataques.
+- IPS, sistema que detecta e intenta prevenir el ataque.
+- Sensores, 
