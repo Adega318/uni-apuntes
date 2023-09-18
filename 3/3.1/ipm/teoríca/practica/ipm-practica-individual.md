@@ -7,4 +7,4 @@
 
 # Diseño
 Crear la documentación del diseño inicial.
-## Parte esttica
+## Parte estática
