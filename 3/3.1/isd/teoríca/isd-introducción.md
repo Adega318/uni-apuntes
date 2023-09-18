@@ -26,7 +26,7 @@ Permite la interacción de otras aplicaciones con la capa modelo, ofreciendo una
 #### Capa interfaz gráfica
 Permite la interacción entre los usuarios y la capa modelo, ofreciendo una UI y funcionalidades de uso.
 ### Distribución de capas
-#### Máquinas Cliente
+#### Servidor de datos
 Existe una maquina que gestiona una base de datos central y el resto de maquinas del sistema tienen una interfaz gráfica y modelo. En esta distribución las modificaciones de la capa modelo llevan a actualización de los clientes y compromisos de seguridad a la necesidad de conexión directa con la base de datos y visibilidad del código a la maquina cliente.
 #### Servidor de aplicación
-Existe un servidor medio con el modelo y los clientes cuentan con la interfaz, tanto el cliente y modelo requieren de una capa de servicio. Este modelo no lleva a la actualización del cliente en caso de modificaciones a la estructura.
+Existe un servidor medio con el modelo y los clientes cuentan con la interfaz, tanto el cliente y modelo requieren de una capa de servicio. Este modelo no lleva a la actualización del cliente en caso de modificaciones a la estructura, la seguridad es alta al tener la base se datos conectada únicamente a una maquina.
