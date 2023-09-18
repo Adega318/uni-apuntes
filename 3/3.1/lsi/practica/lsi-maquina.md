@@ -4,6 +4,7 @@ ip: 10.11.48.143
 netmask: 255.255.254.0  /23
 gateway: 10.11.48.1
 dns: 10.8.12.47 10.8.12.49 10.8.12.50
+bullseye
 ## Configuración red
 en el archivo /etc/network/interfares
 ```

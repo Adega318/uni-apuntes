@@ -29,4 +29,4 @@ Un ataque es la acción de explotar una amenaza de un sistema, según de el punt
 	- SURICATA
 - IPS, sistema que detecta e intenta prevenir el ataque.
 - Sensores,
-- Red, sistemas basados en el analisis de 
+- Red, sistemas basados en el análisis del transito
