@@ -34,3 +34,5 @@ Existe un servidor medio con el modelo y los clientes cuentan con la interfaz, t
 Se hace uso de navegador en el lado de cliente y el servidor de Internet web junto con el modelo, esto permite a la aplicación correr en cualquier dispositivo con navegador sin necesidad de actualización en caso de modificaciones.
 #### Servidor de recepción
 Se basa en el modelo navegador pero separa un servidor para la recepción de peticiones (balanceador de carga) que la distribuye entre múltiples maquinas de procesado.
+#### Mixto
+Combinación de entre la de servidor de recepción para dar soporte a web y servidor aplicación para dar servicio a aplicaciones.
