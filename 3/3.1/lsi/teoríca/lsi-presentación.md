@@ -18,12 +18,13 @@ Un ataque es la acción de explotar una amenaza de un sistema, según de el punt
 - Interrupción, corta la comunicación del servicio.
 	- DOS, ataques que abusan los servicios para inutilizarlo.
 	- DDOS, ataques que sobrecargan los servicios.
+	- Trafic shaping, intenta asegurar la calidad de servicio para reducir efectos de ataques de interrupción.
 - Intercepción, lee la comunicación del servicio.
 	- Snifing, lectura de la comunicación privada.
 - Modificación, modifica la comunicación del servicio.
 - Generación, genera comunicación para del servicio.
 
-## Sistemas de detección
+## Sistemas de detección y seguridad
 
 - IDS, sistemas que analizan el sistema en busca de ataques.
 	- SNORT
