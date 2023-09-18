@@ -38,4 +38,4 @@ Para defender contra ataque en función de cual sea tenemos diferentes opciones:
 		- Proxy, servidor intermediario entre dos redes ( permite establecer un filtro sobre la red ), esto puede hacer que el shaping perjudique clientes.
 
 Ataques de denegación de servicio
-Estos ataque caen bajo la categoría de interrupción que 
+Estos ataque caen bajo la categoría de interrupción que usando gran número de peticiones para sobrecargar el servicio atacado. El método de defensa más comunes con el Trafic shping, se realiza restringiendo el número de conexiones para asegurar la calidad del servicio.
