@@ -35,5 +35,7 @@ Los tipos de sistemas de deteción:
 Para defender contra ataque en función de cual sea tenemos diferentes opciones:
 - Interrupción
 	- Trafic shaping, se reduce el aceso a los usuarios para mantener la calidad del mismo.
-	- Proxy, servidor intermediario entre dos redes ( permite establecer un filtro sobre la red ).
-	- 
+		- Proxy, servidor intermediario entre dos redes ( permite establecer un filtro sobre la red ), esto puede hacer que el shaping perjudique clientes.
+
+Ataques de denegación de servicio
+Estos ataque caen bajo la categoría de interrupción que 
