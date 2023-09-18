@@ -23,6 +23,10 @@ Un ataque es la acción de explotar una amenaza de un sistema, según de el punt
 - Generación, genera comunicación para del servicio.
 
 ## Sistemas de detección
+
 - IDS, sistemas que analizan el sistema en busca de ataques.
+	- SNORT
+	- SURICATA
 - IPS, sistema que detecta e intenta prevenir el ataque.
-- Sensores, 
+- Sensores,
+- Red, sistemas basados en el analisis de 
