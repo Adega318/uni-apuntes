@@ -26,13 +26,12 @@ Un ataque es la acción de explotar una amenaza de un sistema, según de el punt
 ### Ataques de denegación de servicio
 Estos ataque caen bajo la categoría de interrupción que usando gran número de peticiones para sobrecargar el servicio atacado. El método de defensa más comunes con el Trafic shping, se realiza restringiendo el número de conexiones para asegurar la calidad del servicio. Esta solución pude causar problemas con **Proxys** por lo que se debe filtrar los usuarios a los que someter al shaping.
 ## Sistemas de detección
+Los sistemas de detección analizan los puertos y trafico de paquetes para
 Los tipos de sistemas de deteción:
 - IDS, sistemas que analizan el sistema en busca de ataques.
 	- SNORT
 	- SURICATA
 - IPS, sistema que detecta e intenta prevenir el ataque.
-- Sensores,
-- Red, sistemas basados en el análisis del transito
 
 # Infraestructuras criticas
 Infraestructuras de gran importancia
