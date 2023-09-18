@@ -33,6 +33,4 @@ Existe un servidor medio con el modelo y los clientes cuentan con la interfaz, t
 #### Navegador
 Se hace uso de navegador en el lado de cliente y el servidor de Internet web junto con el modelo, esto permite a la aplicación correr en cualquier dispositivo con navegador sin necesidad de actualización en caso de modificaciones.
 #### Servidor de recepción
-Se basa en el modelo navegador pero separa un 
-
-gnome-terminal --window --full-screen
+Se basa en el modelo navegador pero separa un servidor para la recepción de peticiones (balanceador de carga) que la distribuye entre múltiples maquinas de procesado.
