@@ -18,17 +18,22 @@ Un ataque es la acción de explotar una amenaza de un sistema, según de el punt
 - Interrupción, corta la comunicación del servicio.
 	- DOS, ataques que abusan los servicios para inutilizarlo.
 	- DDOS, ataques que sobrecargan los servicios.
-	- Trafic shaping, intenta asegurar la calidad de servicio para reducir efectos de ataques de interrupción.
 - Intercepción, lee la comunicación del servicio.
 	- Snifing, lectura de la comunicación privada.
 - Modificación, modifica la comunicación del servicio.
 - Generación, genera comunicación para del servicio.
 
 ## Sistemas de detección y seguridad
-
+Los tipos de sistemas de deteción:
 - IDS, sistemas que analizan el sistema en busca de ataques.
 	- SNORT
 	- SURICATA
 - IPS, sistema que detecta e intenta prevenir el ataque.
 - Sensores,
 - Red, sistemas basados en el análisis del transito
+
+Para defender contra ataque en función de cual sea tenemos diferentes opciones:
+- Interrupción
+	- Trafic shaping, se reduce el aceso a los usuarios para mantener la calidad del mismo.
+	- Proxy, servidor intermediario entre dos redes ( permite establecer un filtro sobre la red ).
+	- 
