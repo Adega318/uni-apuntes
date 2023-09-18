@@ -34,4 +34,6 @@ Los tipos de sistemas de deteción:
 - Sensores,
 - Red, sistemas basados en el análisis del transito
 
+# Infraestructuras criticas
+Infraestructuras de gran importancia
 ## Redundancia

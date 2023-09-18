@@ -22,3 +22,4 @@ Suele dividirse en las siguientes subcapas:
 Permite la interacción de otras aplicaciones con la capa modelo, ofreciendo una API que puede ser invocadas por otras aplicaciones.
 #### Capa interfaz gráfica
 Permite la interacción entre los usuarios y la capa modelo, ofreciendo una UI y funcionalidades de uso.
+
