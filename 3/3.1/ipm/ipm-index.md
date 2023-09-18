@@ -2,3 +2,4 @@
 # Teóricas
 1. [[ipm-prototipado]]
 # Practicas
+1. [[ipm-practica-individual]]
