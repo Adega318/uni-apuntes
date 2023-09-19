@@ -1,26 +1,20 @@
 # Elección del ciclo
 La elección de u ciclo de desarrollo depende principalmente del tamaño del proyecto, condicionando la gestión del mismo. Para proyectos de bajo tamaño no son recomendables:
-- Cascada, no se tiene nada hasta tener el producto completo
-Solo se piensa en las pruebas al final → No recomendable porque el mejor momento para pensar en las pruebas de una parte del proyecto es al acabar esa parte
+- Cascada
+	- el producto no tiene ningún resultado hasta que esta completo.
+	- las pruebas son un proceso realizado únicamente cuando el producto esta listo.
+- Espiral
+	- requiere de gran experiencia para juzgar la calidad del proceso del proyecto.
+- DRA/RAD (Desarrollo rápido de aplicaciones)
+	- requiere de grandes grupos.
 
-Espiral
-Se necesita mucha experiencia para evaluar cada ciclo de la espiral
-
-DRA/RAD (Desarrollo rápido de aplicaciones)
-No hay suficientes recursos para hacer los grupos de trabajo 
-
-
-
-Recomendados
-V
-Las pruebas se piensan según se van haciendo cada una de las etapas correspondientes
-
-
-Incremental
-
-
-Prototipado
-
+Por otra parte para los pequeños proyectos son recomendables:
+- V
+	- las pruebas son parte de todo el proceso.
+- Incremental
+	- crea versiones funcionales en las distintas fases dfe 
+- Prototipado
+	- permite la creación de 
 
 
 Se pueden combinar varios ciclos de desarrollo, por lo que se podría hacer una combinación de estos 3: Se comprueban los requisitos mediante un prototipo antes de empezar, y luego se hace un ciclo incremental cuyos incrementos son ciclos en v.
