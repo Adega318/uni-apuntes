@@ -8,9 +8,16 @@
 3. fallo arranque
 	1. fallo servicio
 4. interfaz ENS34
-	1. físico
-5. ruta estática
+	1. físico, /etc/network/interface
+	```
+	auto lo ens33 ens34
+	iface lo ...
+	iface ens33 ...
+	iface ens34 inet static
+	```
+	2. lógico
+1. ruta estática, asignar a los de acceso ens34 un ens33
 	1. ens33
 	2. ens34
-6. podado de servicio
-7. script
+2. podado de servicio
+3. script
