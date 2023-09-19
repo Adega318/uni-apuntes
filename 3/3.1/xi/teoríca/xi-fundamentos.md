@@ -67,3 +67,4 @@ $$E_x=\int^{\infty}_{-\infty}\frac{A^2}{T_0^2}t^2dt$$
 $$M=2^b$$
 M : número de señales
 b: número de bits agrupados
+$$S_0(t)=A_0p(t)$$$$S_1(t)=A_1p(t)$$
