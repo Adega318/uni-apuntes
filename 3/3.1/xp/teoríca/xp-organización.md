@@ -19,20 +19,11 @@ Por otra parte para los pequeños proyectos son recomendables:
 Se pueden combinar varios ciclos de desarrollo, por lo que se podría hacer una combinación de estos ( Se comprueban los requisitos mediante un prototipo antes de empezar, y luego se hace un ciclo incremental cuyos incrementos son ciclos en v ).
 ## Determinar el tamaño del proyecto
 Para determinar el tamaño de un proyecto de manera objetiva, entre las maneras de estimar un proyecto se pude comparar el esfuerzo de proyectos ya realizados de características similares. 
-En base a estas aprosimacines podemos dividir los proyectos en:
-- Pequeños, menos de 20 horas hombre
+En base a estas aproximaciones podemos dividir los proyectos en:
+- Pequeños, menos de 20 horas hombre (no requieren de gestión).
+- Grandes, más de 180 horas hombre (divididos y gestionados).
 
-Se necesita un algoritmo de clasificación de proyectos para poder estimar el tamaño de un proyecto antes de empezar. Esto dividiría los proyectos registrados en un histórico de proyectos de la empresa en clases de equivalencia y compararía cada proyecto nuevo con los ya realizados, buscaría proyectos similares, comprobaría el esfuerzo utilizado para ellos y usaría la regresión estadística para estimar el tamaño del proyecto a realizar.
-
-Los proyectos de duración menor a 20 días hombre no necesitan una gestión de proyecto compleja, simplemente establecer ciertas entregas parciales.
-
-Si un proyecto dura más de 180 días hombre (proyectos grandes) se divide en incrementos menores a esa duración (pero de duración mayor a 20 horas)
-
-Antes de decidir todo esto se necesita determinar el tipo tecnológico del proyecto, determinado por las tecnologías usadas por la empresa. Es decir, cada empresa tendría 3 clases de equivalencia (pequeño, mediano y grande) para cada una de las tecnologías que use.
-
-El esfuerzo no es lo único que determina el tamaño de un proyecto, hay una serie de características que también son importantes.
-
-Para tener en cuenta esas características, se usa un parámetro de control determinado por el máximo de complejidad técnica, riesgo del proyecto y dificultad de coordinación. Este parámetro también se divide en pequeño, mediano y grande, y se cruza con el esfuerzo para determinar el tamaño real del proyecto.
+Otros factores afectan al tamaño del proyecto a parte del esfuerzo como son la tecnología, complejidad técnica, riesgos y dificultad de coordinación.
 # Pruebas
 Pruebas de aceptación (Análisis de requisitos)
 Pruebas de sistema (Diseño a alto nivel)
