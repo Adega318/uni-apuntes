@@ -1,1 +1,1 @@
-# Elección del 
+# Elección del ciclo
