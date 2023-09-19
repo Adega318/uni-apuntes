@@ -39,5 +39,5 @@ systemctl set-default multi-user.target
 shutdown -r now
 
 
-journal zt
+journalctl
 ```
