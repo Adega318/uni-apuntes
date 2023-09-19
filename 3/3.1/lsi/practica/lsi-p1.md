@@ -35,4 +35,6 @@ systemctl list-units --type=target
 # Establecer multi-user como default
 
 systemctl set-default multi-user.target
+
+shotdown -r now
 ```
