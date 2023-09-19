@@ -21,4 +21,5 @@
 6. podado de servicio
 	1. seleccionar servicios prescindibles  ( cuidado con las dependencias )
 	2. parar servicios con deshabilitar o enmascarar ( no son lo mismo )
+	3. listar los servicios con arbol de procesos o lista de tiempo
 7. script
