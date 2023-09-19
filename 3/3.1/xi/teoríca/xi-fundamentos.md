@@ -63,3 +63,7 @@ $$x(t)=  \begin{dcases}\frac{A}{T_0}t_0<t<T_0 \\ 0\end{dcases}$$
 $$E_x=\int^{\infty}_{-\infty}\frac{A^2}{T_0^2}t^2dt$$
 ```
 
+##  Pulse amplitude modulation (PAM)
+$$M=2^b$$
+M : número de señales
+b: número de bits agrupados
