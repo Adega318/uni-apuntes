@@ -18,7 +18,9 @@ Por otra parte para los pequeños proyectos son recomendables:
 
 Se pueden combinar varios ciclos de desarrollo, por lo que se podría hacer una combinación de estos ( Se comprueban los requisitos mediante un prototipo antes de empezar, y luego se hace un ciclo incremental cuyos incrementos son ciclos en v ).
 ## Determinar el tamaño del proyecto
-Para determinar el tamaño de un proyecto de manera objetiva
+Para determinar el tamaño de un proyecto de manera objetiva, entre las maneras de estimar un proyecto se pude comparar el esfuerzo de proyectos ya realizados de características similares. 
+En base a estas aprosimacines podemos dividir los proyectos en:
+- Pequeños, menos de 20 horas hombre
 
 Se necesita un algoritmo de clasificación de proyectos para poder estimar el tamaño de un proyecto antes de empezar. Esto dividiría los proyectos registrados en un histórico de proyectos de la empresa en clases de equivalencia y compararía cada proyecto nuevo con los ya realizados, buscaría proyectos similares, comprobaría el esfuerzo utilizado para ellos y usaría la regresión estadística para estimar el tamaño del proyecto a realizar.
 
