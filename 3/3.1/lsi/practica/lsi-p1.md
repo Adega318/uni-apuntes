@@ -16,8 +16,9 @@
 	iface ens34 inet static
 	```
 	2. lógico
-1. ruta estática, asignar a los de acceso ens34 un ens33
-	1. ens33
-	2. ens34
-2. podado de servicio
-3. script
+5. ruta estática, asignar a los de acceso ens34 un ens33
+	1. fichero o comando
+6. podado de servicio
+	1. seleccionar servicios prescindibles  ( cuidado con las dependencias )
+	2. parar servicios con deshabilitar o enmascarar ( no son lo mismo )
+7. script
