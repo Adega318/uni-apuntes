@@ -24,13 +24,13 @@
 	3. listar los servicios con arbol de procesos o lista de tiempo
 7. script
 
-# C
+# C)
 Selección del target multi-user.target
 ```bash
 # desactivar lo que no sea multi-user y sus dependencias
 systemctrl isolate multi-user.target
 
-systemctl list-units --type target
+systemctl list-units --type=target
 
 # Establecer multi-user como default
 
