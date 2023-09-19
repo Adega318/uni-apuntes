@@ -74,3 +74,8 @@ Cada símbolo es un bit, siendo la velocidad igual a la de bit $v_s=v_b$, y a ca
 ```
 AB
 ```
+
+
+## Atenuación
+Perdida de potencia a causa del medio entre el receptor y emisor.
+$$G=\frac{P_y}{P_x}$$
