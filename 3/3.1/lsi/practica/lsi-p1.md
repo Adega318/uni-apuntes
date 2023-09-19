@@ -41,3 +41,6 @@ shutdown -r now
 
 journalctl
 ```
+
+# intento de arreglo
+systemctl disable NetworkManager-wait-online.service 
