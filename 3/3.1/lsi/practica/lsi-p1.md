@@ -23,3 +23,14 @@
 	2. parar servicios con deshabilitar o enmascarar ( no son lo mismo )
 	3. listar los servicios con arbol de procesos o lista de tiempo
 7. script
+
+# C
+Selección del target multi-user.target
+```
+// 
+systemctrl isolate multi-user.target
+
+systemctl list-units --type target
+```
+
+```
