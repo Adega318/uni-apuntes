@@ -36,5 +36,8 @@ systemctl list-units --type=target
 
 systemctl set-default multi-user.target
 
-shotdown -r now
+shutdown -r now
+
+
+journal zt
 ```
