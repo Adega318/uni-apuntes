@@ -78,4 +78,4 @@ AB
 
 ## Atenuación
 Perdida de potencia a causa del medio entre el receptor y emisor.
-$$G=\frac{P_y}{P_x}$$
+$$G=10\log_{10}\frac{P_y}{P_x}$$
