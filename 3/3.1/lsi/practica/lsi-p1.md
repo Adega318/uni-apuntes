@@ -1,4 +1,4 @@
-1. arranque
+c. arranque
 	1. targets
 	2. services
 	3. units
@@ -20,7 +20,7 @@
 	1. fichero o comando
 6. podado de servicio
 	1. seleccionar servicios prescindibles  ( cuidado con las dependencias )
-	2. parar servicios con deshabilitar o enmascarar ( no son lo mismo )
+	2. parar servicios con deshabilitar o enmascarar ( deshabilitar lo desactiva pero puede seguir siendo llamado y enmascarar impide por completo su activación )
 	3. listar los servicios con arbol de procesos o lista de tiempo
 7. script
 
