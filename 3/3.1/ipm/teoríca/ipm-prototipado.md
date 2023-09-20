@@ -3,3 +3,4 @@ Dentro del prototipado al diseño de la interfaz se le llama wireframe y se dife
 - Media,  prototipo mas preciso con los elementos perfectamente definidos.
 - Alta, prototipo medio con el estilo establecido ( igual al producto final ).
 
+# Implementación de interfaces
