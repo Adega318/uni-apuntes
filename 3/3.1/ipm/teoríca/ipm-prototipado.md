@@ -4,4 +4,4 @@ Dentro del prototipado al diseño de la interfaz se le llama wireframe y se dife
 - Alta, prototipo medio con el estilo establecido ( igual al producto final ).
 
 # Implementar interfaces
-La implementación de interfaces comienza con la elección de una librería adecuada, debe tener los corectos bindings para nuestro lenguaje y función en 
+La implementación de interfaces comienza con la elección de una librería adecuada, debe tener los correctos bindings para nuestro lenguaje y función en el sistema deseado (GTK librería nativa de gnome).
