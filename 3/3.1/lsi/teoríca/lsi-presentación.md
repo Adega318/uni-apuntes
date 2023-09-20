@@ -35,3 +35,6 @@ Los sistemas de detección analizan los puertos y trafico de paquetes para detec
 # Infraestructuras criticas
 Infraestructuras de gran importancia
 ## Redundancia
+Practica de establecer varias maquinas con el mismo servicio para evitar la caída total de los servicios en caso de caídas.
+E
+DWDM
