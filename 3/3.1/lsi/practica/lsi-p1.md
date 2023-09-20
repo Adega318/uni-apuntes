@@ -1,4 +1,4 @@
-c. arranque
+1. arranque
 	1. targets
 	2. services
 	3. units
