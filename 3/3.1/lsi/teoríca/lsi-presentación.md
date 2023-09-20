@@ -45,3 +45,7 @@ En redes la redundancia es de suma importancia, con redundancias en:
 - backbone, red formada por los nodos principales de una red.
 - red estructurada, red de una instalación dividida en redes horizontales y verticales (conexiones de la planta y conexión entre plantas).
 
+En redes podemos encontrar estándares de conexión de cable trenzado:
+- T568A
+- T568B
+
