@@ -38,4 +38,4 @@ Infraestructuras de gran importancia
 Practica de establecer varias maquinas con el mismo servicio para evitar la caída total de los servicios en caso de caídas.
 En las lineas tenemos standares para asegurar el funcionamiento:
 - ERTMS, sistema de control de trenes.
-- 
+
