@@ -39,3 +39,5 @@ Practica de establecer varias maquinas con el mismo servicio para evitar la caí
 En las lineas tenemos standares para asegurar el funcionamiento:
 - ERTMS, sistema de control de trenes.
 
+En redes la redundancia es de suma imp
+backbone, red formada por los nodos principales de una red.
