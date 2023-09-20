@@ -32,7 +32,7 @@ Los sistemas de detección analizan los puertos y trafico de paquetes para detec
 	- SURICATA
 - IPS, detecta el trafico perjudicial y lo bloquea de manera proactiva.
 
-Para evitar conexiones no autorizadas a una red existen sis
+Para evitar conexiones no autorizadas a una red existen sistemas como el estandar 802.11x, que establece autentificación para la conexión.
 # Infraestructuras criticas
 Infraestructuras de gran importancia
 ## Redundancia
@@ -40,7 +40,8 @@ Practica de establecer varias maquinas con el mismo servicio para evitar la caí
 En las lineas tenemos standares para asegurar el funcionamiento:
 - ERTMS, sistema de control de trenes.
 
+### Redes
 En redes la redundancia es de suma importancia, con redundancias en:
 - backbone, red formada por los nodos principales de una red.
-- red estructurada, red de una instalación dividida en redes horizontales y verticales (conexiones de la planta y conexión entre plantas)
+- red estructurada, red de una instalación dividida en redes horizontales y verticales (conexiones de la planta y conexión entre plantas).
 - 
