@@ -7,5 +7,3 @@
 ## Demoras
 - Espera, esperar un tiempo después del condicionante (FC+2d)
 - Adelanto, adelanto de la realización del condicionado (FC-2d o FC-25%)
-
-## Hitos
