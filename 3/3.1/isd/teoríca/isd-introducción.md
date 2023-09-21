@@ -39,4 +39,6 @@ Combinación de entre la de servidor de recepción para dar soporte a web y serv
 #### Web SPA
 Servicios en la capa modelo, servidor web para distribuir los datos de aplicación y interfaz corriendo en el navegador mediante javaScript y similares (web3). Es similar al servidor aplicación pero basado en el navegador.
 # Tecnologías estándar Java
+## Capa acceso de datos
+## Capa lógica de negocio
 
