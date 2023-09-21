@@ -9,4 +9,6 @@
 - Adelanto, adelanto de la realización del condicionado (FC-2d o FC-25%)
 
 # Amacas
-Herramienta para la elaboración de presupuestos, agrupa un numero de tareas dando los datos de las mismas.
+Herramienta para la elaboración de presupuestos, agrupa un numero de tareas dando los datos de las mismas, deben de ser eliminables de manera inocua.
+# Supervisión
+Colaboración de expertos en la fase de análisis para asegurar la validez del análisis.
