@@ -83,5 +83,9 @@ $$G=10\log_{10}\frac{P_y}{P_x}$$
 # Salida del sistema
 A través de la comvolución se puede 
 ## Propiedades de la comvolución
-1. Elemento neutro $x(t)*0=0$
-2. Elemento unidad $x(t)*\delta (t)=x(t)$  $x(t)*\delta (t-t_0)=x(t)$
+1. Elemento neutro:  $x(t)*0=0$
+2. Elemento unidad:  $x(t)*\delta (t)=x(t)$  $x(t)*\delta (t-t_0)=x(t-t_0)$
+3. Conmutativa:  $x(t)*h(t)=h(t) * x(t)$
+4. Asociativa:  $(x(t)*h(t))*h_2(t)=x(t)*(h(t)*h_2(t))$
+5. Distributiva:  $x(t)*h(t)+x(t)*h_2(t)=x(t)*(h(t)+h_2(t))$
+
