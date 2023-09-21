@@ -14,5 +14,5 @@ Herramienta para la elaboración de presupuestos, agrupa un numero de tareas dan
 Colaboración de expertos en la fase de análisis para asegurar la validez del análisis, esto se representa como una tarea con tres formas:
 - Puntual, supervisión en momentos significativos del análisis.
 - Periódico, supervisiones planeadas en intervalos.
-- Continua
+- Continua, se tiene que implementar a través de una amaca.
 
