@@ -11,4 +11,8 @@
 # Amacas
 Herramienta para la elaboración de presupuestos, agrupa un numero de tareas dando los datos de las mismas, deben de ser eliminables de manera inocua.
 # Supervisión
-Colaboración de expertos en la fase de análisis para asegurar la validez del análisis.
+Colaboración de expertos en la fase de análisis para asegurar la validez del análisis, esto se representa como una tarea con tres formas:
+- Puntual, supervisión en momentos significativos del análisis.
+- Periódico, supervisiones planeadas en intervalos.
+- Continua
+
