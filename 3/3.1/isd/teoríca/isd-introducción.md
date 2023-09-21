@@ -38,3 +38,4 @@ Se basa en el modelo navegador pero separa un servidor para la recepción de pet
 Combinación de entre la de servidor de recepción para dar soporte a web y servidor aplicación para dar servicio a aplicaciones.
 #### Web SPA
 Servicios en la capa modelo, servidor web para distribuir los datos de aplicación y interfaz corriendo en el navegador mediante javaScript y similares (web3). Es similar al servidor aplicación pero basado en el navegador.
+#
