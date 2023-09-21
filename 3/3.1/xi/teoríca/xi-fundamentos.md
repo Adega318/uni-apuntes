@@ -79,3 +79,7 @@ AB
 ## Atenuación
 Perdida de potencia a causa del medio entre el receptor y emisor.
 $$G=10\log_{10}\frac{P_y}{P_x}$$
+# Respuesta al impulso
+# Salida del sistema
+A través de la comvolución se puede 
+## Propiedades de la com
