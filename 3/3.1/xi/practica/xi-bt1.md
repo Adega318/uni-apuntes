@@ -3,8 +3,9 @@
 Demuestra que la senoidal $x(t)=A\cos (2\pi ft+\phi)$ es periódica $T=\frac{1}{f}$
 
 // periodica con periodo T si $x'(t+-T)=x'(t)$
-$$x(t-T)=A\cos(2\pi f(t-T)+\phi)$$$$=A\cos(2\pi ft-2\pi fT+\phi)=A\cos(2\pi ft-2\pi f\frac{1}{f}+\phi)=A\cos(2\pi ft-2\pi+\phi)=$$
-$$=A\cos(2\pi ft-2\pi+\phi)=A\cos(2\pi ft+\phi)$$
+
+$x(t-T)=A\cos(2\pi f(t-T)+\phi)$$=A\cos(2\pi ft-2\pi fT+\phi)=A\cos(2\pi ft-2\pi f\frac{1}{f}+\phi)=A\cos(2\pi ft-2\pi+\phi)=$
+$=A\cos(2\pi ft-2\pi+\phi)=A\cos(2\pi ft+\phi)$
 
 // $\cos (x+- 2\pi)=\cos(x)$
 
@@ -29,3 +30,14 @@ $\phi^(rad)= \frac{-60\times \pi}{180}=\pi/3 \ rad$
 
 $X(t-t_0)=170\cos(2\pi t -60º)=x(t)$
 // $\phi = -wt_0$
+$t_0 = \frac {\phi^{rad}}{-w}=\frac {-\pi /3}{-120\pi}=1/360 =0.00277\ sec$
+
+### f
+Hacer en octave
+
+## ej 6
+Señales $p(t)$ y $r(t)$ :
+$$p(t)= \begin{dcases}A\ \ \ 0<t<T \\ 0\ \ \ resto\end{dcases}$$
+$$r(t)= \begin{dcases}A\ \ \ 0<t<3T \\ 0\ \ \ resto\end{dcases}$$
+Entre simbo
+### a
