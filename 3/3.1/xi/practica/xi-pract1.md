@@ -1,0 +1,1 @@
+Comenzamos con una secuencia de bits que es enviada al modulador. El modulador la convierte en una señal a trasmitir y la envía al canal. El canal la modifica en función del ancho de banda (h(t)), tras eso se le añade ruido. El resultado 
