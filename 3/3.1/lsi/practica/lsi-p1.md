@@ -56,5 +56,7 @@ bluetoth
 Servicios desabilitados:
 ```
 cups
+cups-browsed
 NetworkManager
+avahi-daemon
 ```

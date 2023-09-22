@@ -6,3 +6,9 @@ Dentro del prototipado al diseño de la interfaz se le llama wireframe y se dife
 # Implementar interfaces
 La implementación de interfaces comienza con la elección de una librería adecuada, debe tener los correctos bindings para nuestro lenguaje y función en el sistema deseado (GTK librería nativa de gnome).
 ## Layout
+La distribución de la interfaz se basa en la creación de contenedores.
+- Window
+	- Box
+		- Label
+		- Button
+
