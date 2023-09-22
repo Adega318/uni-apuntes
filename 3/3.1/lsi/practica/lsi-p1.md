@@ -56,4 +56,5 @@ bluetoth
 Servicios desabilitados:
 ```
 cups
+NetworkManager
 ```
