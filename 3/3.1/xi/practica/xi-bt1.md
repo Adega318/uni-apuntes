@@ -45,4 +45,15 @@ Envia la letra V (...-) con A = 1
 
 Representación de la señal : 1 0 1 0 1 0 1 1 1
 ### b
-$$v(t)=p()$$
+$$v(t)=p(t)+p(t-2T)+p(t-4T)+r(t-6T)$$
+### c
+L(.-..)
+
+101110101
+$$v(t)=p(t)+r(t-2T)+p(t-5T)+p(t-7T)$$
+## ej 8
+
+### a
+...
+### b
+$u(t) = \begin{dcases}0\ \ \ t<0 \\ 1\ \ \ t>0\end{dcases}$
