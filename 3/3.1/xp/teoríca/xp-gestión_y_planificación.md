@@ -3,4 +3,13 @@
 # Metodología
 - Definición del proyecto
 - Modelo genérico de ciclo
-- Metodologías es
+- Metodologías especificas
+
+## Definición
+Conjunto de :
+- Recursos
+- Organización
+- Productos
+- Objetivos
+- Entorno de riesgo
+
