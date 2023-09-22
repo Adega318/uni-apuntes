@@ -39,5 +39,9 @@ Hacer en octave
 Señales $p(t)$ y $r(t)$ :
 $$p(t)= \begin{dcases}A\ \ \ 0<t<T \\ 0\ \ \ resto\end{dcases}$$
 $$r(t)= \begin{dcases}A\ \ \ 0<t<3T \\ 0\ \ \ resto\end{dcases}$$
-Entre simbo
+Entre símbolos se debe de dejar un silencio de T segundos.
 ### a
+Envia la letra V (...-) con A = 1
+
+Representación de la señal : 1 0 1 0 1 0 1 1 1
+### b
