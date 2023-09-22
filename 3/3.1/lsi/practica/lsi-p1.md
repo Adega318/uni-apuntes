@@ -44,6 +44,10 @@ journalctl
 
 
 # D)
+Para tratar servicios se usa:
+```
+sudo systemctl <
+```
 Servicios maskeados:
 ```
 e2scrub_reap.service
