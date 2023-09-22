@@ -6,10 +6,11 @@
 - Metodologías especificas
 
 ## Definición
-Conjunto de :
+Un proyecto se trata de un conjunto de :
 - Recursos
 - Organización
 - Productos
 - Objetivos
 - Entorno de riesgo
 
+Si estos elementos son cotidianos o operaciones estandar de la 
