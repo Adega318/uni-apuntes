@@ -17,10 +17,15 @@ Señal $x(t)=170\cos (120\pi t-60º)$
 ### a
 A= 170
 ### b
-$2\pi f=120\pi -> f=120/2Hz$
-$w=2\pi f=2\pi 60 = 120\pi rad/sec$
+$2\pi f=120\pi -> f=120/2\ Hz$
+$w=2\pi f=2\pi 60 = 120\pi \ rad/sec$
 ### c
-$T= 1/f= 1/60 = 0.01666 sec = 16.6 ms$
+$T= 1/f= 1/60 = 0.01666 sec = 16.6 \ ms$
 ### d
 $\phiº = -60$
-$\phi^(rad)= $
+$\phi^(rad)= \frac{-60\times \pi}{180}=\pi/3 \ rad$
+### e
+// Desplazamiento en el tiempo es igual a la fase que se produce al desplazar en el //tiempo una de fase 0
+
+$X(t-t_0)=170\cos(2\pi t -60º)=x(t)$
+// $\phi = -wt_0$
