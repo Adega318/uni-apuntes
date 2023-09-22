@@ -50,8 +50,10 @@ sudo systemctl <mask | unmask | disable | enable>
 ```
 Servicios maskeados:
 ```
-e2scrub_reap.service
-bluetoth.service
+e2scrub_reap
+bluetoth
 ```
 Servicios desabilitados:
-`````
+```
+cups
+```
