@@ -71,4 +71,8 @@ $$y(t)=\begin{dcases}A\ \ \ -3T<t<3T \\ 0\ \ \ resto\end{dcases}$$
 ### d
 E y P de x(t) y y(t)
 
-$$E_x=\int_{-\infty}^{\infty}x^2(t)dt=\int_{-}$$
+$$E_x=\int_{-\infty}^{\infty}x^2(t)dt=\int_{-T}^{T}x^2(t)dt=2TA^2\ julios $$
+$$P_x=\lim_{T_1->\infty}\frac{E_x}{T_1}=\frac{2TA^2}{\infty}=0$$
+
+$$E_y=\int_{-\infty}^{\infty}x^2(t)dt=\int_{-3T}^{3T}x^2(t)dt=6TA^2\ julios $$
+$$P_y=\lim_{T_1->\infty}\frac{E_y}{T_1}=\frac{6TA^2}{\infty}=0$$
