@@ -58,5 +58,10 @@ $$l(t)=p(t)+r(t-2T)+p(t-6T)+p(t-8T)$$
 ### b
 $u(t) = \begin{dcases}0\ \ \ t<0 \\ 1\ \ \ t>0\end{dcases}$
 $p(t)= \begin{dcases}A\ \ \ -T<t<T \\ 0\ \ \ resto\end{dcases}$
-$$p(t) =A(u(t+T)-u(t-T)$$
+$$p(t) =A\times(\ u(t+T)-u(t-T)\ )$$
 ### c
+$x(t)=p(t)$
+Dibuja:$$y(t)=\sum_{K=-1}^{1}x(t-2kT)$$
+//hacemos el sumatorio de K
+$$y(t)= x(t+2T)+x(t)+x(t-2T)$$
+$x(t+2T)$: 
