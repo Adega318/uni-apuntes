@@ -14,4 +14,9 @@ Para 0100 en octave seria con N = 2:
 {1 1, -1 -1 ,1 1 ,1 1}
 
 
-necesitas un ejexS= 0:(L*N)-1
+necesitas un:
+ejexS= 0:(L*N)-1
+ejeyS= <las alturas>
+
+
+A_k = bits convertidos en 1 y -1
