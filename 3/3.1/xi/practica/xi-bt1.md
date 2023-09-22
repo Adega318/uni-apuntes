@@ -45,3 +45,4 @@ Envia la letra V (...-) con A = 1
 
 Representación de la señal : 1 0 1 0 1 0 1 1 1
 ### b
+$$v(t)=p()$$
