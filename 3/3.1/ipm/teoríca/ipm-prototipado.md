@@ -12,3 +12,4 @@ La distribución de la interfaz se basa en la creación de contenedores.
 		- Label
 		- Button
 
+## Independencia de la interfaz
