@@ -35,7 +35,7 @@ $t_0 = \frac {\phi^{rad}}{-w}=\frac {-\pi /3}{-120\pi}=1/360 =0.00277\ sec$
 ### f
 Hacer en octave
 
-## ej 6
+## ej6
 Señales $p(t)$ y $r(t)$ :
 $$p(t)= \begin{dcases}A\ \ \ 0<t<T \\ 0\ \ \ resto\end{dcases}$$
 $$r(t)= \begin{dcases}A\ \ \ 0<t<3T \\ 0\ \ \ resto\end{dcases}$$
@@ -50,10 +50,13 @@ $$v(t)=p(t)+p(t-2T)+p(t-4T)+r(t-6T)$$
 L(.-..)
 
 101110101
-$$v(t)=p(t)+r(t-2T)+p(t-5T)+p(t-7T)$$
-## ej 8
+$$l(t)=p(t)+r(t-2T)+p(t-6T)+p(t-8T)$$
+## ej8
 
 ### a
 ...
 ### b
 $u(t) = \begin{dcases}0\ \ \ t<0 \\ 1\ \ \ t>0\end{dcases}$
+$p(t)= \begin{dcases}A\ \ \ -T<t<T \\ 0\ \ \ resto\end{dcases}$
+$$p(t) =A(u(t+T)-u(t-T)$$
+### c
