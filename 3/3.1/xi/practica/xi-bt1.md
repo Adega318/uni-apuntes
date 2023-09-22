@@ -64,4 +64,11 @@ $x(t)=p(t)$
 Dibuja:$$y(t)=\sum_{K=-1}^{1}x(t-2kT)$$
 //hacemos el sumatorio de K
 $$y(t)= x(t+2T)+x(t)+x(t-2T)$$
-$x(t+2T)$: 
+$x(t+2T)=\begin{dcases}A\ \ \ -3T<t<-T \\ 0\ \ \ resto\end{dcases}$
+$x(t-2T)=\begin{dcases}A\ \ \ T<t<3T \\ 0\ \ \ resto\end{dcases}$
+
+$$y(t)=\begin{dcases}A\ \ \ -3T<t<3T \\ 0\ \ \ resto\end{dcases}$$
+### d
+E y P de x(t) y y(t)
+
+$$E_x=\int_{-\infty}^{\infty}x^2(t)dt=\int_{-}$$
