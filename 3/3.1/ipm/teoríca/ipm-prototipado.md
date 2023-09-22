@@ -13,3 +13,4 @@ La distribución de la interfaz se basa en la creación de contenedores.
 		- Button
 
 ## Independencia de la interfaz
+Se establece la interfaz y el fondo, en estas practicas lo principal es la sincronización entre ambas
