@@ -8,4 +8,10 @@ La construcción de la señal se basa en aplicar pulsos positivos y negativos.
 
 Para 0 1 0 0 seria 1 -1 1 1
 
-Los pulsos en octave son dos vectores, x e y, donde x es N e y 
+Los pulsos en octave son dos vectores, x e y, donde x es N e y es m y controla positivo y negativo.
+
+Para 0100 en octave seria con N = 2:
+{1 1, -1 -1 ,1 1 ,1 1}
+
+
+necesitas un ejexS= 0:(L*N)-1
