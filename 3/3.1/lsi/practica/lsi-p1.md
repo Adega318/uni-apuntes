@@ -46,7 +46,7 @@ journalctl
 # D)
 Para tratar servicios se usa:
 ```
-sudo systemctl <
+sudo systemctl <mask | unmask | disable | enable>
 ```
 Servicios maskeados:
 ```
