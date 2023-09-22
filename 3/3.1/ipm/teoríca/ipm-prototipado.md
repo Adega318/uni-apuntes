@@ -13,4 +13,9 @@ La distribución de la interfaz se basa en la creación de contenedores.
 		- Button
 
 ## Independencia de la interfaz
-Se establece la interfaz y el fondo, en estas practicas lo principal es la sincronización entre ambas
+Se establece la interfaz y el fondo, en estas practicas lo principal es la sincronización entre ambas. Para sincronizar se hace uso de patrones como: 
+### MVC
+Se establecen tres componentes:
+- Modelo, resulve las peticiones del controlador y responde.
+- Controlador, recibe los eventos de la vista y lo convierte en peticiones al modelo y recibe del modelo respuestas.
+- Vista, basada en eventos que resultan en llamada al controlador.
