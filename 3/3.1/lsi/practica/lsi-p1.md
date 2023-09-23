@@ -58,6 +58,7 @@ plymouth-read-write
 plymouth-quit
 plymouth-quit-wait
 speech-dispatcher
+accounts-daemon
 ```
 Servicios desabilitados:
 ```
@@ -67,4 +68,5 @@ NetworkManager
 avahi-daemon
 man-db
 ModemManager
+polkit
 ```
