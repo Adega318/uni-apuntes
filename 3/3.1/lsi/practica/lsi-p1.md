@@ -53,6 +53,10 @@ Servicios maskeados:
 e2scrub_reap
 bluetoth
 plymouth
+plymouth-start
+plymouth-read-write
+plymouth-quit
+plymouth-quit-wait
 ```
 Servicios desabilitados:
 ```
