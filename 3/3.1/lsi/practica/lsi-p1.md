@@ -60,4 +60,5 @@ cups-browsed
 NetworkManager
 avahi-daemon
 man-db
+ModemManager
 ```
