@@ -59,6 +59,7 @@ plymouth-quit
 plymouth-quit-wait
 speech-dispatcher
 accounts-daemon
+cups
 ```
 Servicios desabilitados:
 ```
