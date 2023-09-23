@@ -52,6 +52,7 @@ Servicios maskeados:
 ```
 e2scrub_reap
 bluetoth
+plymouth
 ```
 Servicios desabilitados:
 ```
