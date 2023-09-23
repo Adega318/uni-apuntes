@@ -51,6 +51,10 @@ sudo systemctl <mask | unmask | disable | enable>
 Servicios maskeados:
 ```
 e2scrub_reap
+cups
+cups-browsed
+ModemManager
+switcheroo-control
 bluetoth
 plymouth
 plymouth-start
@@ -59,7 +63,8 @@ plymouth-quit
 plymouth-quit-wait
 speech-dispatcher
 accounts-daemon
-cups
+
+
 ```
 Servicios desabilitados:
 ```
