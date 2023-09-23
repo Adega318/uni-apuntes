@@ -57,6 +57,7 @@ plymouth-start
 plymouth-read-write
 plymouth-quit
 plymouth-quit-wait
+speech-dispatcher
 ```
 Servicios desabilitados:
 ```
