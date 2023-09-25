@@ -237,6 +237,11 @@ link-local      0.0.0.0         255.255.0.0     U     1000   0        0 ens33
 Añadir ruta:
 ```bash
 ip route add 10.11.52.0/24 via 10.11.48.1
+
+default via 10.11.48.1 dev ens33 onlink
+10.11.48.0/23 dev ens33 proto kernel scope link src 10.11.48.143
+10.11.52.0/24 via 10.11.48.1 dev ens33
+169.254.0.0/16 dev ens33 scope link metric 1000
 ```
 # H
 Los principales servicios que eliminaremos:
