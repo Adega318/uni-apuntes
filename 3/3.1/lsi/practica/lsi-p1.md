@@ -68,6 +68,8 @@ plymouth-quit
 plymouth-quit-wait
 speech-dispatcher
 avahi-daemon
+exim4.service
+udisk2
 ```
 Servicios desabilitados:
 ```
@@ -82,4 +84,6 @@ NetworkManager
 avahi-daemon
 man-db
 fwupd-refresh.service
+exim4.service
+udisk2
 ```
