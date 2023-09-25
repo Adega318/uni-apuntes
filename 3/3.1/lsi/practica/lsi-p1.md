@@ -276,6 +276,10 @@ cups
 cups-browsed
 ModemManager
 switcheroo-control
+avahi-daemon
+accounts-daemon
+dbus-org.bluez
+wpa-supplicant
 
 # Disabled
 NetworkManager
