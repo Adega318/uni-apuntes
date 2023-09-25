@@ -182,7 +182,7 @@ journalctl -b 0 -p 4
 systemd-timesyncd es un servicio de sincronizacción de tiempo con servidores NTP.
 # F
 Inicio de ens34:
-```
+```bash
 ifconfig ens34
 
 ens34: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
@@ -196,7 +196,34 @@ ens34: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         device interrupt 16  base 0x2080  
 ```
 Configuración de ens34:
-``
+```bash
+ifconfig ens34 down
+
+# Set maximun packet size
+ifconfig ens34 mtu 1200
+# Set MAC
+ifconfig ens34 hw ether 00:1e:2e:b5:18:07
+# Set ip and mask
+ifconfig ens34 10.11.50.51 netmask 255.255.254.0
+
+ifconfig ens34 up
+ifconfig ens34
+
+ens34: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1200
+        inet 10.11.50.51  netmask 255.255.254.0  broadcast 10.11.51.255
+        ether 00:1e:2e:b5:18:07  txqueuelen 1000  (Ethernet)
+        RX packets 6867  bytes 1568069 (1.4 MiB)
+        RX errors 0  dropped 2431  overruns 0  frame 0
+        TX packets 19  bytes 1426 (1.3 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device interrupt 16  base 0x2080
+```
+Interfaz lógica:
+```
+ifconfig ens34:1 192.168.1.1 netmask 255.255.255.0
+ifconfig ens34:1 up
+
+```
 # G
 # H
 Los principales servicios que eliminaremos:
