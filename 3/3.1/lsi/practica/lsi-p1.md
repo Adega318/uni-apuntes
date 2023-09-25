@@ -190,8 +190,16 @@ systemctl <mask | unmask | disable | enable>
 
 # Masked
 NetworkManager
+bluetoth
 
 # Deabilitated
 NetworkManager
+bluetoth
+```
+## Bluetoth
+```
+
+nano /etc/bluetooth/main.conf
+
 ```
 # I
