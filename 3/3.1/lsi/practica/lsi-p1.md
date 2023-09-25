@@ -58,6 +58,7 @@ switcheroo-control
 bluetoth
 accounts-daemon
 wpa_supplicant.service
+NetworkManager
 
 
 plymouth
