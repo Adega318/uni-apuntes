@@ -78,4 +78,5 @@ NetworkManager
 avahi-daemon
 man-db
 polkit
+fwupd-refresh.service
 ```
