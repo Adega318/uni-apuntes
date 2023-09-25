@@ -13,5 +13,5 @@ Descubrir características de las maquinas descubiertas.
 Búsqueda sobre google mediante scriping para obtener información.
 
 # Fases de la recopilación
-1. Fuentes publicas
+1. Fuentes publicas (Maltego, redes)
 2. 

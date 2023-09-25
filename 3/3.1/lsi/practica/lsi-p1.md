@@ -89,12 +89,12 @@ udisk2
 ```
 
 ```bash
+Edite sobre:
 /etc/default/grub
 
-//time out = 0
+El time out a 0
 
-
-sudo systemctl disable systemd-timesyncd.service
-sudo apt-get install chronyd
-sudo systemctl enable chrony
+systemctl disable systemd-timesyncd.service
+apt-get install chrony
+systemctl enable chrony
 ```
