@@ -246,10 +246,7 @@ Rutas existentes:
 ```bash
 ip route show
 
-default via 10.11.48.1 dev ens33 onlink 
-10.11.48.0/23 dev ens33 proto kernel scope link src 10.11.48.50 
-10.11.50.0/23 dev ens34 proto kernel scope link src 10.11.50.50 
-169.254.0.0/16 dev ens33 scope link metric 1000
+default via 10.11.48.1 dev ens33 onlink                                   10.11.48.0/23 dev ens33 proto kernel scope link src 10.11.48.143          169.254.0.0/16 dev ens33 scope link metric 1000  
 
 route
 
@@ -257,7 +254,6 @@ Kernel IP routing table
 Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
 default         _gateway        0.0.0.0         UG    0      0        0 ens33
 10.11.48.0      0.0.0.0         255.255.254.0   U     0      0        0 ens33
-10.11.50.0      0.0.0.0         255.255.254.0   U     0      0        0 ens34
 link-local      0.0.0.0         255.255.0.0     U     1000   0        0 ens33
 ```
 Añadir ruta:
