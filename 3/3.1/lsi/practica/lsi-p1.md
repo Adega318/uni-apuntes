@@ -23,26 +23,6 @@
 	2. parar servicios con deshabilitar o enmascarar ( deshabilitar lo desactiva pero puede seguir siendo llamado y enmascarar impide por completo su activación )
 	3. listar los servicios con arbol de procesos o lista de tiempo
 7. script
-
-# C)
-Selección del target multi-user.target
-```bash
-# desactivar lo que no sea multi-user y sus dependencias
-systemctrl isolate multi-user.target
-
-systemctl list-units --type=target
-
-# Establecer multi-user como default
-
-systemctl set-default multi-user.target
-
-shutdown -r now
-
-
-journalctl
-```
-
-
 # D)
 Para tratar servicios se usa:
 ```
@@ -185,15 +165,13 @@ Inicio de ens34:
 ```bash
 ifconfig ens34
 
-ens34: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
-        inet 10.11.50.50  netmask 255.255.254.0  broadcast 10.11.51.255
-        inet6 fe80::250:56ff:fe97:cee4  prefixlen 64  scopeid 0x20<link>
-        ether 00:50:56:97:ce:e4  txqueuelen 1000  (Ethernet)
-        RX packets 6843  bytes 1563475 (1.4 MiB)
-        RX errors 0  dropped 2420  overruns 0  frame 0
-        TX packets 19  bytes 1426 (1.3 KiB)
+ens34: flags=4098<BROADCAST,MULTICAST>  mtu 1500
+        ether 00:50:56:97:d3:53  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 30  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
-        device interrupt 16  base 0x2080  
+        device interrupt 16  base 0x2080
 ```
 Configuración de ens34:
 ```bash
