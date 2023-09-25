@@ -98,3 +98,18 @@ systemctl disable systemd-timesyncd.service
 apt-get install chrony
 systemctl enable chrony
 ```
+
+# A
+
+# B
+Versión debian 10, visible con:
+```bash
+lsb_release -a
+```
+# C
+# D
+# E
+# F
+# G
+# H
+# I
