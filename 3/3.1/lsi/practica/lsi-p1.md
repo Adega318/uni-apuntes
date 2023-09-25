@@ -87,3 +87,12 @@ fwupd-refresh.service
 exim4.service
 udisk2
 ```
+
+```bash
+/etc/default/grub
+
+//time out = 0
+
+systemctl disable systemd-timesyncd.service
+
+```
