@@ -154,7 +154,15 @@ systemctl set-default multi-user.target
 #Rinicio para aplicar cambios
 shutdown -r now
 ```
-Para 
+Para ver los servicios instalados:
+```bash
+systemctl list-unit-files --type=service
+```
+Para ver otro tipo de unidades:
+```bash
+systemctl list-units -t help
+```
+
 # D
 # E
 # F
