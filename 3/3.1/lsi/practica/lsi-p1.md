@@ -162,9 +162,24 @@ Para ver otro tipo de unidades:
 ```bash
 systemctl list-units -t help
 ```
-
 # D
+El tiempo de bootup se ve con:
+```bash
+systemd-analyze
+
+# Para verlo en relación a los servicios
+systemd-analyze blame
+```
 # E
+Para ver los servicios fallados:
+```bash
+systemctl --failed
+```
+Otros fallos se pueden ver a través de:
+```bash
+journalctl -b 0 -p 4
+```
+systemd-timesyncd es un servi
 # F
 # G
 # H
