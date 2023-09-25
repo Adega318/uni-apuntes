@@ -197,9 +197,8 @@ NetworkManager
 bluetoth
 ```
 ## Bluetoth
-```
-
+```bash
+# Autoenable = false
 nano /etc/bluetooth/main.conf
-
 ```
 # I
