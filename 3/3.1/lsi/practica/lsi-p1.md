@@ -139,7 +139,22 @@ Secuencia de arranque:
 ```bash
 systemd-analyze critical-chain
 ```
+El target actual se puede ver con:
+```bash
+systemctl get-default
+```
+Establecer el nuevo target:
+```bash
+# Desactivar lo que no sea multi-user y sus dependencias
+systemctrl isolate multi-user.target
 
+# Establecer multi-user como default
+systemctl set-default multi-user.target
+
+#Rinicio para aplicar cambios
+shutdown -r now
+```
+Para 
 # D
 # E
 # F
