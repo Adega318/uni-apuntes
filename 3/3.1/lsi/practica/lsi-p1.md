@@ -278,7 +278,6 @@ ModemManager
 switcheroo-control
 avahi-daemon
 accounts-daemon
-dbus-org.bluez
 wpa-supplicant
 
 # Disabled
@@ -288,6 +287,9 @@ cups
 cups-browsed
 ModemManager
 switcheroo-control
+avahi-daemon
+accounts-daemon
+wpa-supplicant
 ```
 ## Bluetoth
 ```bash
@@ -297,3 +299,5 @@ nano /etc/bluetooth/main.conf
 ## Grup
 Poner el time_out a cero en **/etc/default/grub**
 # I
+
+
