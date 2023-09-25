@@ -73,10 +73,6 @@ Edite sobre:
 /etc/default/grub
 
 El time out a 0
-
-systemctl disable systemd-timesyncd.service
-apt-get install chrony
-systemctl enable chrony
 ```
 
 # A
@@ -278,5 +274,3 @@ nano /etc/bluetooth/main.conf
 ## Grup
 Poner el time_out a cero en **/etc/default/grub**
 # I
-
-
