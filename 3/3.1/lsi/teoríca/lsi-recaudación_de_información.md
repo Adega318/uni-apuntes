@@ -13,5 +13,11 @@ Descubrir características de las maquinas descubiertas.
 Búsqueda sobre google mediante scriping para obtener información.
 
 # Fases de la recopilación
-1. Fuentes publicas (Maltego, redes)
+1. Fuentes publicas
+	1. Maltego
+	2. OSINT
+	3. Publicas
+		1. NIC
+		2. RIPE, redes europeas
+		3. NCC, entro de coordinación europeo
 2. 
