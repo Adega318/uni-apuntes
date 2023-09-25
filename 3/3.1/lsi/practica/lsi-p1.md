@@ -57,6 +57,8 @@ ModemManager
 switcheroo-control
 bluetoth
 accounts-daemon
+wpa_supplicant.service
+
 
 plymouth
 plymouth-start
