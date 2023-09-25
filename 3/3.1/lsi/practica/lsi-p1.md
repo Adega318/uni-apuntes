@@ -219,12 +219,51 @@ ens34: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1200
         device interrupt 16  base 0x2080
 ```
 Interfaz lógica:
-```
+```bash
+# Secondary ip
 ifconfig ens34:1 192.168.1.1 netmask 255.255.255.0
-ifconfig ens34:1 up
 
+ifconfig ens34:1 up
+ifconfig
+
+ens34: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1200
+        inet 10.11.50.51  netmask 255.255.254.0  broadcast 10.11.51.255
+        ether 00:1e:2e:b5:18:07  txqueuelen 1000  (Ethernet)
+        RX packets 6898  bytes 1574835 (1.5 MiB)
+        RX errors 0  dropped 2444  overruns 0  frame 0
+        TX packets 19  bytes 1426 (1.3 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device interrupt 16  base 0x2080  
+
+ens34:1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1200
+        inet 192.168.1.1  netmask 255.255.255.0  broadcast 192.168.1.255
+        ether 00:1e:2e:b5:18:07  txqueuelen 1000  (Ethernet)
+        device interrupt 16  base 0x2080
 ```
+Si estos cambios se realizan sobre **/etc/network/interfaces** son permanentes en reinicio.
 # G
+Rutas existentes:
+```bash
+ip route show
+
+default via 10.11.48.1 dev ens33 onlink 
+10.11.48.0/23 dev ens33 proto kernel scope link src 10.11.48.50 
+10.11.50.0/23 dev ens34 proto kernel scope link src 10.11.50.50 
+169.254.0.0/16 dev ens33 scope link metric 1000
+
+route
+
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         _gateway        0.0.0.0         UG    0      0        0 ens33
+10.11.48.0      0.0.0.0         255.255.254.0   U     0      0        0 ens33
+10.11.50.0      0.0.0.0         255.255.254.0   U     0      0        0 ens34
+link-local      0.0.0.0         255.255.0.0     U     1000   0        0 ens33
+```
+Añadir ruta:
+```bash
+ip route ad
+```
 # H
 Los principales servicios que eliminaremos:
 ```
