@@ -262,24 +262,34 @@ link-local      0.0.0.0         255.255.0.0     U     1000   0        0 ens33
 ```
 Añadir ruta:
 ```bash
-ip route ad
+ip route add 10.11.52.0/24 via 10.11.48.143
 ```
 # H
 Los principales servicios que eliminaremos:
-```
+```bash
 systemctl <mask | unmask | disable | enable>
 
 # Masked
 NetworkManager
 bluetoth
+cups
+cups-browsed
+ModemManager
+switcheroo-control
 
-# Deabilitated
+# Disabled
 NetworkManager
 bluetoth
+cups
+cups-browsed
+ModemManager
+switcheroo-control
 ```
 ## Bluetoth
 ```bash
 # Autoenable = false
 nano /etc/bluetooth/main.conf
 ```
+## Grup
+Poner el time_out a cero en **/etc/default/grub**
 # I
