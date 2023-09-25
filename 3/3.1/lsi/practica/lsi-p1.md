@@ -236,7 +236,7 @@ link-local      0.0.0.0         255.255.0.0     U     1000   0        0 ens33
 ```
 Añadir ruta:
 ```bash
-ip route add 10.11.52.0/24 via 10.11.48.143
+ip route add 10.11.52.0/24 via 10.11.48.1
 ```
 # H
 Los principales servicios que eliminaremos:
