@@ -107,15 +107,39 @@ Versión inicial debian 10, visible con:
 lsb_release -a
 ```
 Actualizado a debian 12, pasando por 11:
-```
+```bash
 apt update -y
 apt upgrade -y
 apt dist-upgrade
 
-# Change ""
+# Change "buster" to "bullseye"
 nano /etc/apt/sources.list
+
+apt update -y
+apt upgrade -y
+apt dit-upgrade
+apt autoremove
+
+# Comprovar versión
+cat /etc/os-release
+
+# Change "bullseye" to "bookworm"
+nano /etc/apt/sources.list
+
+apt update -y
+apt upgrade -y
+apt dit-upgrade
+apt autoremove
+
+# Comprovar versión
+cat /etc/os-release
 ```
 # C
+Secuencia de arranque:
+```bash
+systemd-analyze critical-chain
+```
+
 # D
 # E
 # F
