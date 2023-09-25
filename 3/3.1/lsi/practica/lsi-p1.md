@@ -67,6 +67,7 @@ plymouth-read-write
 plymouth-quit
 plymouth-quit-wait
 speech-dispatcher
+avahi-daemon
 ```
 Servicios desabilitados:
 ```
