@@ -93,6 +93,8 @@ udisk2
 
 //time out = 0
 
-systemctl disable systemd-timesyncd.service
 
+sudo systemctl disable systemd-timesyncd.service
+sudo apt-get install chronyd
+sudo systemctl enable chrony
 ```
