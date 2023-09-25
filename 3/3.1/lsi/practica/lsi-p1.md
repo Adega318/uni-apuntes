@@ -102,9 +102,18 @@ systemctl enable chrony
 # A
 
 # B
-Versión debian 10, visible con:
+Versión inicial debian 10, visible con:
 ```bash
 lsb_release -a
+```
+Actualizado a debian 12, pasando por 11:
+```
+apt update -y
+apt upgrade -y
+apt dist-upgrade
+
+# Change ""
+nano /etc/apt/sources.list
 ```
 # C
 # D
