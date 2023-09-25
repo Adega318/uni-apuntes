@@ -179,8 +179,19 @@ Otros fallos se pueden ver a través de:
 ```bash
 journalctl -b 0 -p 4
 ```
-systemd-timesyncd es un servi
+systemd-timesyncd es un servicio de sincronizacción de tiempo con servidores NTP.
 # F
+
 # G
 # H
+Los principales servicios que eliminaremos:
+```
+systemctl <mask | unmask | disable | enable>
+
+# Masked
+NetworkManager
+
+# Deabilitated
+NetworkManager
+```
 # I
