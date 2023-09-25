@@ -27,7 +27,8 @@ Un ataque es la acción de explotar una amenaza de un sistema, según de el punt
 Estos ataque caen bajo la categoría de interrupción que usando gran número de peticiones para sobrecargar el servicio atacado. El método de defensa más comunes con el Trafic shping, se realiza restringiendo el número de conexiones para asegurar la calidad del servicio. Esta solución pude causar problemas con **Proxys** por lo que se debe filtrar los usuarios a los que someter al shaping.
 ### Ataques de modificación de servicio
 SPOOFING, suplantación de algo.
-
+Fabricación
+DNS
 ## Sistemas de detección y seguridad
 Los sistemas de detección analizan los puertos y trafico de paquetes para detectar posibles ataques, dividiéndose en dos tipos:
 - IDS, analiza la red y dispositivos para detectar ataques.
