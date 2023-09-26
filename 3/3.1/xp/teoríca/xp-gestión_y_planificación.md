@@ -38,4 +38,5 @@ La planificación se realiza en tres fases:
 
 # Conceptos
 ## Tatea/Actividad
-Unidad elemental del nivel de planificación, identificada por su duración o consumo de recurso o ambas. 
+Unidad elemental del nivel de planificación, identificada por su duración o consumo de recurso o ambas.
+La actividades son independientes y homogéneas.
