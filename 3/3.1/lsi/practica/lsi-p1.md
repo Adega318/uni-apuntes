@@ -289,3 +289,8 @@ nano /etc/bluetooth/main.conf
 ## Grup
 Poner el time_out a cero en **/etc/default/grub**
 # I
+# J
+Para ver las conexiones:
+```bash
+
+```
