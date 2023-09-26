@@ -34,4 +34,8 @@ La planificación se realiza en tres fases:
 ## Recomendaciones
 - Planificación sobre papel y formalización en herramienta.
 - Adecuación con estándares preestablecidos.
-- Planificación ligera
+- Planificación ligera !!!!
+
+# Conceptos
+## Tatea/Actividad
+Unidad elemental del nivel de planificación, identificada por su duración o consumo de recurso o ambas. 
