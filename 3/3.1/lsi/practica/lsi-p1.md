@@ -36,7 +36,7 @@
 	3. logs funcionales
 12. n
 	```
-	6to
+	6to4 en /etc/network/interfaces
 	```
 # D)
 Para tratar servicios se usa:
