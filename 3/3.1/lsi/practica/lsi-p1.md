@@ -7,6 +7,10 @@
 	2. userspace time
 3. fallo arranque
 	1. fallo servicio
+	2. tcp-wrapers, lombrobar
+		1. ssh
+		2. ntp
+		3. Rsyslog
 4. interfaz ENS34
 	1. físico, /etc/network/interface
 	```
@@ -23,6 +27,17 @@
 	2. parar servicios con deshabilitar o enmascarar ( deshabilitar lo desactiva pero puede seguir siendo llamado y enmascarar impide por completo su activación )
 	3. listar los servicios con arbol de procesos o lista de tiempo
 7. script
+8. con
+9. k
+10. l
+11. m-b
+	1. rsyslog
+	2. logs separados
+	3. logs funcionales
+12. n
+	```
+	6to
+	```
 # D)
 Para tratar servicios se usa:
 ```
