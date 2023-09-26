@@ -31,4 +31,7 @@ La planificación se realiza en tres fases:
 	- LB, linea base del proyecto que en caso de una gran desviación sobre la misma indica la necesidad de una replanificación.
 
 ### Cierre
-## Re
+## Recomendaciones
+- Planificación sobre papel y formalización en herramienta.
+- Adecuación con estándares preestablecidos.
+- Planificación ligera
