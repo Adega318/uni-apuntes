@@ -42,3 +42,9 @@ Unidad elemental del nivel de planificación, identificada por su duración o co
 La actividades son independientes y homogéneas.
 ## Hito
 Actividad de duración 0 que indica un momento importante, sirviendo para el seguimiento y control especial. Los hitos se usan también para terceras partes ( subcontratas ).
+### Subcontrata
+Dos hitos, inicio y fin de subcontrata, unidos por comienzo fin con demora de la duración de la subcontrata. Sobre la subcontrata se debe vigilar:
+- Tiempo
+- Coste
+- Calidad, auditorias para control de calidad.
+
