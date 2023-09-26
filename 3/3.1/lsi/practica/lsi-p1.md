@@ -292,5 +292,7 @@ Poner el time_out a cero en **/etc/default/grub**
 # J
 Para ver las conexiones:
 ```bash
-
+netstat -a
 ```
+# K
+Monitoreo
