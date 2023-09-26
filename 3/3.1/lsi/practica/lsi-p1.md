@@ -23,14 +23,13 @@
 	2. parar servicios con deshabilitar o enmascarar ( deshabilitar lo desactiva pero puede seguir siendo llamado y enmascarar impide por completo su activación )
 	3. listar los servicios con arbol de procesos o lista de tiempo
 7. script
-8. con
+8. j
 9. k
 10. l
-11. 
-	2. tcp-wrapers, lombrobar
-		1. ssh
-		2. ntp
-		3. Rsyslog
+	1. tcp-wrapers, lombrobar
+	2. ssh
+	3. ntp
+	4. Rsyslog
 12. m-b
 	1. rsyslog
 	2. logs separados
