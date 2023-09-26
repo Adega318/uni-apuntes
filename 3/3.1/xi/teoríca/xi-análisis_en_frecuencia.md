@@ -5,3 +5,7 @@ Los números complejos se representan con la siguiente forma:
 $$z = \rho e^{j\theta}$$
 #### Valores especiales
 Los números reales tiene fase 0 : $e^{j\theta}$
+### Transformada de Fourier
+Toda señal se puede representar como la superposición de cosenos de una cierta frecuencia.
+#### Rectangular
+$$$$
