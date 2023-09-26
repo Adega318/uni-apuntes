@@ -198,12 +198,12 @@ ifconfig ens34 10.11.50.51 netmask 255.255.254.0
 ifconfig ens34 up
 ifconfig ens34
 
-ens34: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1200
-        inet 10.11.50.51  netmask 255.255.254.0  broadcast 10.11.51.255
-        ether 00:1e:2e:b5:18:07  txqueuelen 1000  (Ethernet)
-        RX packets 6867  bytes 1568069 (1.4 MiB)
-        RX errors 0  dropped 2431  overruns 0  frame 0
-        TX packets 19  bytes 1426 (1.3 KiB)
+ens34: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::250:56ff:fe97:d353  prefixlen 64  scopeid 0x20<link>
+        ether 00:50:56:97:d3:53  txqueuelen 1000  (Ethernet)
+        RX packets 5  bytes 1662 (1.6 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 6  bytes 516 (516.0 B)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
         device interrupt 16  base 0x2080
 ```
@@ -215,18 +215,18 @@ ifconfig ens34:1 192.168.1.1 netmask 255.255.255.0
 ifconfig ens34:1 up
 ifconfig
 
-ens34: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1200
-        inet 10.11.50.51  netmask 255.255.254.0  broadcast 10.11.51.255
-        ether 00:1e:2e:b5:18:07  txqueuelen 1000  (Ethernet)
-        RX packets 6898  bytes 1574835 (1.5 MiB)
-        RX errors 0  dropped 2444  overruns 0  frame 0
-        TX packets 19  bytes 1426 (1.3 KiB)
+ens34: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::250:56ff:fe97:d353  prefixlen 64  scopeid 0x20<link>
+        ether 00:50:56:97:d3:53  txqueuelen 1000  (Ethernet)
+        RX packets 5  bytes 1662 (1.6 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 6  bytes 516 (516.0 B)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
         device interrupt 16  base 0x2080  
 
-ens34:1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1200
+ens34:1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 192.168.1.1  netmask 255.255.255.0  broadcast 192.168.1.255
-        ether 00:1e:2e:b5:18:07  txqueuelen 1000  (Ethernet)
+        ether 00:50:56:97:d3:53  txqueuelen 1000  (Ethernet)
         device interrupt 16  base 0x2080
 ```
 Si estos cambios se realizan sobre **/etc/network/interfaces** son permanentes en reinicio.
