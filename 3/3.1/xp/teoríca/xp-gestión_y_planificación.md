@@ -37,6 +37,8 @@ La planificación se realiza en tres fases:
 - Planificación ligera !!!!
 
 # Conceptos
-## Tatea/Actividad
+## Tarea/Actividad
 Unidad elemental del nivel de planificación, identificada por su duración o consumo de recurso o ambas.
 La actividades son independientes y homogéneas.
+## Hito
+Actividad de duración 0 que indica un momento importante, sirviendo para el seguimiento y control especial. Los hitos se usan también para terceras partes ( subcontratas ).
