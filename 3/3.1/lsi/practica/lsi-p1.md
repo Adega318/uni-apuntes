@@ -295,4 +295,7 @@ Para ver las conexiones:
 netstat -a
 ```
 # K
-Monitoreo
+Monitoreo de recursos del sistema:
+```bash
+top
+```
