@@ -89,3 +89,5 @@ A través de la comvolución se puede
 4. Asociativa:  $(x(t)*h(t))*h_2(t)=x(t)*(h(t)*h_2(t))$
 5. Distributiva:  $x(t)*h(t)+x(t)*h_2(t)=x(t)*(h(t)+h_2(t))$
 
+## Convolución de señales  continuas
+$$$$
