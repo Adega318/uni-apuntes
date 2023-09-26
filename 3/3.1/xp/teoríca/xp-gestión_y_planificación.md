@@ -14,4 +14,8 @@ Un proyecto se trata de un conjunto de :
 - Entorno de riesgo
 
 Si estos elementos son cotidianos o operaciones estándar de la organización, a estos estándar se les considera operaciones normales y no son proyectos.
-
+# Ciclo de vida
+## Estimación
+## Planificación
+- LB, linea base
+## 
