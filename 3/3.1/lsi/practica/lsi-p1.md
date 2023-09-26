@@ -299,6 +299,10 @@ Monitoreo de recursos del sistema:
 ```bash
 top
 ```
+Monitoreo de conexiones:
+```bash
+netstat -netuac
+```
 # L
 Se establecen los aceptados y bloqueados como:
 ```bash
