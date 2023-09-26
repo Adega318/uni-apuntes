@@ -7,10 +7,6 @@
 	2. userspace time
 3. fallo arranque
 	1. fallo servicio
-	2. tcp-wrapers, lombrobar
-		1. ssh
-		2. ntp
-		3. Rsyslog
 4. interfaz ENS34
 	1. físico, /etc/network/interface
 	```
@@ -30,11 +26,16 @@
 8. con
 9. k
 10. l
-11. m-b
+11. 
+	2. tcp-wrapers, lombrobar
+		1. ssh
+		2. ntp
+		3. Rsyslog
+12. m-b
 	1. rsyslog
 	2. logs separados
 	3. logs funcionales
-12. n
+13. n
 	```
 	6to4 en /etc/network/interfaces
 	```
