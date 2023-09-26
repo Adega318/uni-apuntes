@@ -90,4 +90,4 @@ A través de la comvolución se puede
 5. Distributiva:  $x(t)*h(t)+x(t)*h_2(t)=x(t)*(h(t)+h_2(t))$
 
 ## Convolución de señales  continuas
-$$$$
+$$y(t)=\int_{-\infty}^\infty x(\tau)\times h(t-\tau)d\tau$$
