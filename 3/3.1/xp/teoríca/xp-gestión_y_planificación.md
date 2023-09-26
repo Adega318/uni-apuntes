@@ -48,3 +48,7 @@ Dos hitos, inicio y fin de subcontrata, unidos por comienzo fin con demora de la
 - Coste
 - Calidad, auditorias para control de calidad.
 
+## Recurso
+Un recurso se considera así si:
+- Esta sujeto a compartición.
+- Origine conflictos de uso.
