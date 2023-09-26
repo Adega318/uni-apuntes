@@ -91,3 +91,4 @@ A través de la comvolución se puede
 
 ## Convolución de señales  continuas
 $$y(t)=\int_{-\infty}^\infty x(\tau)\times h(t-\tau)d\tau$$
+$$y(t)=\begin{dcases}0\ \ \ \ \ \ \ \ \  t<0 \\ ABt\ \ \ 0<t<1 \\0 \ \ \ 1<t\end{dcases}$$
