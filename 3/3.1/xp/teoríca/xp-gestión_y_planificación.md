@@ -52,3 +52,9 @@ Dos hitos, inicio y fin de subcontrata, unidos por comienzo fin con demora de la
 Un recurso se considera así si:
 - Esta sujeto a compartición.
 - Origine conflictos de uso.
+- Origine coste.
+
+Los recursos podemos clasificaros por:
+- Humanos, individuos o grupos homogéneos.
+- Materiales, consumibles
+- Maquinaria, 
