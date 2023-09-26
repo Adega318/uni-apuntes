@@ -299,3 +299,4 @@ Monitoreo de recursos del sistema:
 ```bash
 top
 ```
+# L
