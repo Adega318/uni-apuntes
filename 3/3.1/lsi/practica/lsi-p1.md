@@ -300,3 +300,12 @@ Monitoreo de recursos del sistema:
 top
 ```
 # L
+Se establecen los aceptados y bloqueados como:
+```bash
+# host.allow
+ALL: 10.11.48.143 10.11.50.142
+
+# host.deny
+ALL: ALL
+```
+
