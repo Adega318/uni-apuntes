@@ -193,7 +193,7 @@ ifconfig ens34 mtu 1200
 # Set MAC
 ifconfig ens34 hw ether 00:1e:2e:b5:18:07
 # Set ip and mask
-ifconfig ens34 10.11.50.51 netmask 255.255.254.0
+ifconfig ens34 10.11.50.143 netmask 255.255.254.0
 
 ifconfig ens34 up
 ifconfig ens34
