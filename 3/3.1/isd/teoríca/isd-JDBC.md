@@ -18,4 +18,6 @@ Las transacciones se basan en los principios ACID:
 - atómico, todas las operaciones se realizan o ninguna.
 - consistente, se mantienen la consistencia de la BD.
 - aislamiento, las transacciones concurrentes se deben ejecutar como si fueran secuenciales.
-- durabilidad, 
+- durabilidad, en caso de fallo durante la transacción se mantengan los cambios.
+
+Dentro de la JDBC se pueden realizar consultas en trasación desactivando el commit automatico y hacie
