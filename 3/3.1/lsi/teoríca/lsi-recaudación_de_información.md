@@ -20,4 +20,5 @@ Búsqueda sobre google mediante scriping para obtener información.
 		1. NIC
 		2. RIPE, redes europeas
 		3. NCC, entro de coordinación europeo
-2. 
+2. Ip de maquinas
+	1. ping, puede ser filtrado por routers 
