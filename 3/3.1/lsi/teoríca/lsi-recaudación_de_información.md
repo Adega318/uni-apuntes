@@ -28,5 +28,5 @@ Búsqueda sobre google mediante scriping para obtener información.
 		1. nslookup
 		2. dig
 		3. ls, trasferencia de zona (usualmente prohibida).
-			1. dnsrecom, se hace la resolución por prueba y error.
-	5. 
+			1. dnsrecom, se hace la resolución por prueba y error (puede no estar permitida la reversa).
+		4. Cache snooping, sirve para ver si una maquina concreta ha sido accedida ya por una maquina bajo la dns.
