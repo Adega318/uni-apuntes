@@ -5,4 +5,6 @@ La base de datos debe de ser independiente de la implementación.
 
 # 3 doritos más tarde...
 
-## Ejecución de sentencias
+## DataSources
+Interfaz usada para manejar la obtención de los datos de acceso a la base de datos, a través de un fichero de configuración.
+
