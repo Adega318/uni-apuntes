@@ -14,5 +14,8 @@ Esto lleva a problemas como:
 Estos problemas se resuelven con la **pool de conexiones**, método que hace uso de una cantidad de conexiones abiertas en arranque, la creación de conexiones es la ocupación del uso de estas conexiones y el cierre su liberación para uso. Esto se realiza con la creación de un objeto que contiene la conexión real e implementa la interfaz conection.
 La pool tiene que implementar comprobaciones del estado de las conexiones reales antes de entregarlas, esto se puede hacer mediante el driver o una consulta ligera (ping qwrg).
 ## Transacciones
-Las transaciones se basan en los principios ACID:
-- atomico, todas las 
+Las transacciones se basan en los principios ACID:
+- atómico, todas las operaciones se realizan o ninguna.
+- consistente, se mantienen la consistencia de la BD.
+- aislamiento, las transacciones concurrentes se deben ejecutar como si fueran secuenciales.
+- durabilidad, 
