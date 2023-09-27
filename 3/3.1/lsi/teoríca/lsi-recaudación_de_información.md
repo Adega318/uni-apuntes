@@ -21,4 +21,7 @@ Búsqueda sobre google mediante scriping para obtener información.
 		2. RIPE, redes europeas
 		3. NCC, entro de coordinación europeo
 2. Ip de maquinas
-	1. ping, puede ser filtrado por routers 
+	1. ping, puede ser filtrado por routers.
+	2. tracerute, da las ips de la ruta entre dos maquinas pero puede sufrir filtrado.
+	3. Bases de datos, información de ips publica.
+	4. DNS, 
