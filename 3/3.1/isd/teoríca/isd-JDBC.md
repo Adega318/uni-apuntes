@@ -11,4 +11,5 @@ Esto lleva a problemas como:
 - sobrecarga de conexiones, reacción a la falta de conexiones.
 - cuello de botella, perdida de rendimiento con la creación y eliminación de conexiones.
 
-Estos problemas se resuelven con la **pool de conexiones**, método que hace uso de una cantidad de conexiones abiertas en arranque, la creaci
+Estos problemas se resuelven con la **pool de conexiones**, método que hace uso de una cantidad de conexiones abiertas en arranque, la creación de conexiones es la ocupación del uso de estas conexiones y el cierre su liberación para uso. Esto se realiza con la creación de un objeto que contiene la conexión real e implementa la interfaz conection.
+
