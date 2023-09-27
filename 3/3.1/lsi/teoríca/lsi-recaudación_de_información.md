@@ -16,7 +16,7 @@ Búsqueda sobre google mediante scriping para obtener información.
 1. Fuentes publicas
 	1. Maltego
 	2. OSINT
-	3. Publicas
+	3. Estatales
 		1. NIC
 		2. RIPE, redes europeas
 		3. NCC, entro de coordinación europeo
