@@ -37,4 +37,13 @@ Búsqueda sobre google mediante scriping para obtener información.
 Si hay un IPS algunos comandos pueden llevar a problemas.
 
 # Búsqueda de vulnerabilidades
-En la busqueda de v
+En la búsqueda de vulnerabilidades se puede hacer uso de herramientas de diagnostico automático como:
+- openvas
+- nessus
+
+Por otra parte existen otras herramientas de manera manual como los CVE y NVD, que dependen del conocimiento sobre la maquina.
+# Explotación
+Para la ex
+metaexploit
+theFATRAT, creación de troyanos.
+Cobal Strike
