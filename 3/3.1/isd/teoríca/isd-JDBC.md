@@ -23,5 +23,8 @@ Las transacciones se basan en los principios ACID:
 Dentro de la JDBC se pueden realizar consultas en transacción desactivando el commit automático y haciéndolo manualmente al terminar las consultas de la transacción.
 ### Aislamiento
 El aislamiento de las transacciones se divide en niveles, controlado por constantes:
-- serializado, elimina la concurrencia.
-- lecturas repetibles, 
+1. serializado, elimina la concurrencia.
+2. lecturas repetibles
+3. lecturas commited
+4. lecturas uncommited
+5. nada
