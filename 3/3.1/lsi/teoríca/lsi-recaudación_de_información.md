@@ -43,7 +43,8 @@ En la búsqueda de vulnerabilidades se puede hacer uso de herramientas de diagno
 
 Por otra parte existen otras herramientas de manera manual como los CVE y NVD, que dependen del conocimiento sobre la maquina.
 # Explotación
-Para la ex
-metaexploit
-theFATRAT, creación de troyanos.
-Cobal Strike
+Para la explotación existen herramientas como :
+- metaexploit
+- theFATRAT, creación de troyanos.
+- Cobal Strike
+- SHODAN, base de datos de exploits y fingerprinting.

@@ -27,3 +27,4 @@ Se establecen tres componentes:
 - Presenter, recibe eventos de la vista y ordena al modelo y comunicando a la vista.
 - Vista, basada en eventos que resultan en llamada al presentador.
 
+
