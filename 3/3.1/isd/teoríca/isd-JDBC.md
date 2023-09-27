@@ -7,4 +7,8 @@ La base de datos debe de ser independiente de la implementación.
 
 ## DataSources
 Interfaz usada para manejar la obtención de los datos de acceso a la base de datos, a través de un fichero de configuración.
+Esto lleva a problemas como:
+- sobrecarga de conexiones, reacción a la falta de conexiones.
+- cuello de botella, perdida de rendimiento con la creación y eliminación de conexiones.
 
+Estos problemas se resuelven con la **pool de conexiones**, método que hace uso de una cantidad de conexiones abiertas en arranque, la creaci
