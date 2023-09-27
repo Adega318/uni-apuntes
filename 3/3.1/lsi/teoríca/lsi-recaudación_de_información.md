@@ -29,4 +29,6 @@ Búsqueda sobre google mediante scriping para obtener información.
 		2. dig
 		3. ls, trasferencia de zona (usualmente prohibida).
 			1. dnsrecom, se hace la resolución por prueba y error (puede no estar permitida la reversa).
-		4. Cache snooping, sirve para ver si una maquina concreta ha sido accedida ya por una maquina bajo la dns.
+		4. Cache snooping, sirve para ver si una maquina concreta ha sido accedida ya por una maquina bajo la dns. Esto se realiza haciendo preguntas sin el modo recursivo activado, que puede estar bloqueado por lo que se puede hacer uso de tiempos de respuesta para estimar si esta cacheado.
+3. Puertos
+	1. 
