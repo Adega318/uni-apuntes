@@ -24,4 +24,9 @@ Búsqueda sobre google mediante scriping para obtener información.
 	1. ping, puede ser filtrado por routers.
 	2. tracerute, da las ips de la ruta entre dos maquinas pero puede sufrir filtrado.
 	3. Bases de datos, información de ips publica.
-	4. DNS, 
+	4. DNS, buscar en el dns las ip-nombre.
+		1. nslookup
+		2. dig
+		3. ls, trasferencia de zona (usualmente prohibida).
+			1. dnsrecom, se hace la resolución por prueba y error.
+	5. 
