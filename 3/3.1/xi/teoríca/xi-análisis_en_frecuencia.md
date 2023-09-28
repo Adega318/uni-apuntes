@@ -13,8 +13,9 @@ Al transformarla:
 $$X(\omega) = \begin{dcases}1\ \ \ \ -W<\omega<W \\ 0\ \ \ \ \ resto\end{dcases}$$
 #### Senoidal
 # Relación de Parseval
-$$x(t) -> E_x=\int_{-\infty}^\infty x^2(t)dt =  \frac{1}{2\pi}\int_{-\infty}^\infty |x(\omega)|^2d\omega$$
+$$x(t) \rightarrow E_x=\int_{-\infty}^\infty x^2(t)dt =  \frac{1}{2\pi}\int_{-\infty}^\infty |x(\omega)|^2d\omega$$
 # Propiedad de linealidad
 Al sumar en el dominio del tiempo un numero de señales sumadas a una constante, en el dominio de la frecuencia se suman también.
 # Propiedad de escalado en el tiempo
-$$x(t)= y(t)= x(\alpha t)$$
+$$x(t)\rightarrow y(t)= x(\alpha t)\alpha = cte$$
+$$x(\alpha t)\leftrightarrow$$
