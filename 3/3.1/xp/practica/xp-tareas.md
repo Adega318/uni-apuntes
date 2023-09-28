@@ -16,6 +16,7 @@ Colaboración de expertos en la fase de análisis para asegurar la validez del a
 - Periódico, supervisiones planeadas en intervalos.
 - Continua, se tiene que implementar a través de una amaca.
 
+# Fase 0
 selección de proveedores
 presupuesto
 7d
