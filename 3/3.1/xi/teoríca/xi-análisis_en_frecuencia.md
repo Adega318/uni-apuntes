@@ -18,4 +18,4 @@ $$x(t) \rightarrow E_x=\int_{-\infty}^\infty x^2(t)dt =  \frac{1}{2\pi}\int_{-\i
 Al sumar en el dominio del tiempo un numero de señales sumadas a una constante, en el dominio de la frecuencia se suman también.
 # Propiedad de escalado en el tiempo
 $$x(t)\rightarrow y(t)= x(\alpha t)\alpha = cte$$
-$$x(\alpha t)\leftrightarrow$$
+$$x(\alpha t)\leftrightarrow X(\omega)$$
