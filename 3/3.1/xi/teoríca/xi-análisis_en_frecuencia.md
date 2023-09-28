@@ -11,3 +11,4 @@ Toda señal se puede representar como la superposición de cosenos de una cierta
 $$x(t) = \begin{dcases}A\ \ \ \frac{-T}{2}<t<\frac{T}{2} \\ 0\ \ \ resto\end{dcases}$$
 Al transformarla:
 $$X(\omega) = \begin{dcases}1\ \ \ \ -W<\omega<W \\ 0\ \ \ \ \ resto\end{dcases}$$
+#### Senoidal
