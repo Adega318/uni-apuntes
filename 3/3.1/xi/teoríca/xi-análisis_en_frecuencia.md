@@ -12,3 +12,5 @@ $$x(t) = \begin{dcases}A\ \ \ \frac{-T}{2}<t<\frac{T}{2} \\ 0\ \ \ resto\end{dca
 Al transformarla:
 $$X(\omega) = \begin{dcases}1\ \ \ \ -W<\omega<W \\ 0\ \ \ \ \ resto\end{dcases}$$
 #### Senoidal
+# Relación de Parseval
+$$x(t) -> E_x=\int_{-\infty}^\infty x^2(t)dt =  \frac{1}{2\pi}\int_{-\infty}^\infty |x(\omega)|^2d\omega$$
