@@ -4,4 +4,6 @@ La capa modelo debe ofrecer una api que permita:
 - oculte detalles de implmentacción
 # Método de desarrollo
 ## Modelado de entidades
-Las entidades en el contesto de isd son tablas. 
+Las entidades en el contesto de isd son tablas, con sus campos correspondientes. 
+## Definición de la API
+1. Agrupación de los casos de uso y definición d
