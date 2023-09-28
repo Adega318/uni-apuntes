@@ -12,3 +12,4 @@ Las entidades en el contesto de isd son tablas, con sus campos correspondientes.
 	- un método por caso de uso.
 	- las interfaces aplican el método de diseño fachada.
 
+## Gestión de la persistencia
