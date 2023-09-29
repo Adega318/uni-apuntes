@@ -17,6 +17,9 @@ $x'(t)+x'(t-1)+x'(t-2)= u(t)-u(t-3)$
 
 # ej8
 $$x(t)=u(t+2)-u(t-3)$$
-$$h(t)=\delta(t-2)+\delta(t-1)$$
-$$y(t)=x(t)\times h(t)= x(t)\times(\delta(t-2)+\delta(t-1)) = x(t-2)+x(t-1)$$
-#
+$$h(t)=\delta(t+2)+\delta(t-1)$$
+$$y(t)=x(t)\times h(t)= x(t)\times(\delta(t+2)+\delta(t-1)) = x(t+2)+x(t-1)$$
+# ej9
+## a)
+$x(t)=u(t)-u(t-1)$  $h(t)=u(t)-u(t-2)$
+
