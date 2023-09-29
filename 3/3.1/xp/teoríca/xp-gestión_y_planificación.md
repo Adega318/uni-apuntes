@@ -66,5 +66,8 @@ Los recursos podemos clasificaros por:
 	- PDM, hace uso de nodos para representar actividades y las aristas para representar sus dependencias.
 	- ADM, los nodos representan inicio y fin de actividades y los vectores el transcurso de la misma.
 - Histograma, diagrama que representa el uso de los recursos a trabes del tiempo.
+
+
 - WBS, método de división del proyecto en árbol de tareas (se usa para estimar coste y esfuerzo).
-- OBS, 
+- OBS, WBS para recursos.
+
