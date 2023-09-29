@@ -67,7 +67,10 @@ Los recursos podemos clasificaros por:
 	- ADM, los nodos representan inicio y fin de actividades y los vectores el transcurso de la misma.
 - Histograma, diagrama que representa el uso de los recursos a trabes del tiempo.
 
-
+## Estructuración
 - WBS, método de división del proyecto en árbol de tareas (se usa para estimar coste y esfuerzo).
 - OBS, WBS para recursos.
 
+## 
+- PERT, estimación de tiempos de actividades de manera probabilista.
+- CPM, en base a una estimación de tiempos estática crea el camino critico.
