@@ -61,5 +61,5 @@ Los recursos podemos clasificaros por:
 
 # Técnicas
 ## Representación
-- Diagrama de gantt, representa la duración en el tiempo de las tareas y su relación entre ellas.
-- 
+- Diagrama de gantt, representa la duración en el tiempo de las tareas y su relación temporal.
+- Red de precedencias, grafo de representación de las dependencias entre tareas del proyecto.
