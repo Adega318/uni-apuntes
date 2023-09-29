@@ -62,4 +62,7 @@ Los recursos podemos clasificaros por:
 # Técnicas
 ## Representación
 - Diagrama de gantt, representa la duración en el tiempo de las tareas y su relación temporal.
-- Red de precedencias, grafo de representación de las dependencias entre tareas del proyecto.
+- Red de precedencias, grafo de representación de las dependencias entre tareas del proyecto (grafo dirigido sin ciclos).
+	- PDM, hace uso de nodos para representar actividades y las aristas para representar sus dependencias.
+	- ADM, los nodos representan inicio y fin de actividades y los vectores el transcurso de la misma.
+- 
