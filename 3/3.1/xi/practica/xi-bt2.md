@@ -11,4 +11,12 @@ $h_1(t)=\delta(t)+\delta(t-1)$    $h_2(t)= \delta(t-2)$
 
 $y(t)=x(t)\times h_1(t)+x(t)\times h_2(t)=$
 $x(t)\times (\delta(t)+\delta(t-1))+x(t)\times (\delta(t-2)) =$
-$u(t)+u(t-1)+u(t-2)= u(t)-u(t-3)$
+$x'(t)+x'(t-1)+x'(t-2)= u(t)-u(t-3)$
+
+// paso a escalones unidad innecesario
+
+# ej8
+$$x(t)=u(t+2)-u(t-3)$$
+$$h(t)=\delta(t-2)+\delta(t-1)$$
+$$y(t)=x(t)\times h(t)= x(t)\times(\delta(t-2)+\delta(t-1)) = x(t-2)+x(t-1)$$
+#
