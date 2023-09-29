@@ -23,3 +23,6 @@ $$y(t)=x(t)\times h(t)= x(t)\times(\delta(t+2)+\delta(t-1)) = x(t+2)+x(t-1)$$
 ## a)
 $x(t)=u(t)-u(t-1)$  $h(t)=u(t)-u(t-2)$
 
+//grafica
+## b)
+.... aaaaaa
