@@ -65,4 +65,4 @@ Los recursos podemos clasificaros por:
 - Red de precedencias, grafo de representación de las dependencias entre tareas del proyecto (grafo dirigido sin ciclos).
 	- PDM, hace uso de nodos para representar actividades y las aristas para representar sus dependencias.
 	- ADM, los nodos representan inicio y fin de actividades y los vectores el transcurso de la misma.
-- 
+- Histograma, diagrama que representa el uso de los recursos a trabes del tiempo.
