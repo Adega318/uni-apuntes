@@ -59,3 +59,7 @@ Los recursos podemos clasificaros por:
 - Materiales, consumibles
 - Maquinaria, 
 
+# Técnicas
+## Representación
+- Diagrama de gantt, representa la duración en el tiempo de las tareas y su relación entre ellas.
+- 
