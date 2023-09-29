@@ -58,3 +58,4 @@ Los recursos podemos clasificaros por:
 - Humanos, individuos o grupos homogéneos.
 - Materiales, consumibles
 - Maquinaria, 
+
