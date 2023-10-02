@@ -48,3 +48,12 @@ Para la explotación existen herramientas como :
 - theFATRAT, creación de troyanos.
 - Cobal Strike
 - SHODAN, base de datos de exploits y fingerprinting.
+
+## Payloads
+- single
+- stagers
+
+SET, herramienta de ingeniería social pensada para la automatización de la misma.
+
+# Capa 7
+Capa de apl
