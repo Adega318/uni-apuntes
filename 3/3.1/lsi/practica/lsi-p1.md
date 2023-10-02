@@ -280,6 +280,8 @@ switcheroo-control
 avahi-daemon
 accounts-daemon
 wpa-supplicant
+keyboard-setup
+apparmor
 ```
 ## Bluetoth
 ```bash
