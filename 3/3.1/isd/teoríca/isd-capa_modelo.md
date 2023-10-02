@@ -5,6 +5,7 @@ La capa modelo debe ofrecer una api que permita:
 # Método de desarrollo
 ## Modelado de entidades
 Las entidades en el contesto de isd son tablas, con sus campos correspondientes. 
+- tiempo, java.math.BigDecimal
 ## Definición de la API
 1. Agrupación de los casos de uso.
 	- las agrupaciones deben de ser lógicas.
