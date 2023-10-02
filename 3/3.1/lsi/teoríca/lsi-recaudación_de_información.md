@@ -56,4 +56,7 @@ Para la explotación existen herramientas como :
 SET, herramienta de ingeniería social pensada para la automatización de la misma.
 
 # Capa 7
-Capa de apl
+Capa de aplicación de redes.
+- WAF, firewal orientado hacia la capa 7 para filtrar el trafico http.
+	- modsecurity
+	- 
