@@ -65,3 +65,5 @@ Intento de evitar la detección de los peyloads por parte de las defensas.
 - msfvenom
 	- msfpayload, creador de payloads.
 	- msfencode, ofuscador de payloads.
+## Idel Scan
+Escaneo de puee
