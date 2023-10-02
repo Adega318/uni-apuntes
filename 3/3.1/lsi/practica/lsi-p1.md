@@ -282,6 +282,7 @@ accounts-daemon
 wpa-supplicant
 keyboard-setup
 apparmor
+update-grub
 ```
 ## Bluetoth
 ```bash
