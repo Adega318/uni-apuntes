@@ -54,9 +54,12 @@ Para la explotación existen herramientas como :
 - stagers
 
 SET, herramienta de ingeniería social pensada para la automatización de la misma.
-
-# Capa 7
+## Capa 7
 Capa de aplicación de redes.
 - WAF, firewal orientado hacia la capa 7 para filtrar el trafico http.
 	- modsecurity
-	- 
+	- Infoguat
+
+## Ofuscación
+Intento de evitar la detección de los peyloads por parte de las defensas.
+- 
