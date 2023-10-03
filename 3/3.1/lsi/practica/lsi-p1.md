@@ -277,6 +277,7 @@ switcheroo-control
 avahi-daemon
 accounts-daemon
 wpa-supplicant
+ifupdown-pre
 
 # Disabled
 NetworkManager
@@ -291,6 +292,7 @@ wpa-supplicant
 keyboard-setup
 apparmor
 update-grub
+ifupdown-pre
 ```
 ## Bluetoth
 ```bash
