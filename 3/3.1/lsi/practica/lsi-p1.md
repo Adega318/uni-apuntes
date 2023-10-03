@@ -40,11 +40,11 @@
 	```
 14. 
 	1. NTPSec, sincronización de relojes
-	2. NTPDate, coje hora exacta del extrato 0
+	2. NTPDate, coje hora exacta del extrato 0 (peligro por burbujas)
 15. ryslog
 16. splunk
-	1. crear ataque desde algun lugar fuer
-17. 
+	1. crear ataque desde algún lugar fuera de España para que lo detecte.
+17. mapa de red
 
 # D)
 Para tratar servicios se usa:
