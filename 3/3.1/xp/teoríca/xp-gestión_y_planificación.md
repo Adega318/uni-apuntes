@@ -81,3 +81,4 @@ Los recursos podemos clasificaros por:
 ### Camino critico
 El camino critico es la serie de tareas que en caso de un retraso se produce el retraso del proyecto al completo.
 ## Pasos en la planificación
+1. 
