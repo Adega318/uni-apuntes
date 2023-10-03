@@ -41,6 +41,10 @@
 14. 
 	1. NTPSec, sincronización de relojes
 	2. NTPDate, coje hora exacta del extrato 0
+15. ryslog
+16. splunk
+	1. crear ataque desde algun lugar fuer
+17. 
 
 # D)
 Para tratar servicios se usa:
