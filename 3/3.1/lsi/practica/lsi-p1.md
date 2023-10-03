@@ -38,6 +38,8 @@
 	```
 	6to4 en /etc/network/interfaces
 	```
+14. 
+	1. NTPSec, sincronización de relojes
 # D)
 Para tratar servicios se usa:
 ```
