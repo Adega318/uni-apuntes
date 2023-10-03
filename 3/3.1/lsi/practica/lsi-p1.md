@@ -40,6 +40,8 @@
 	```
 14. 
 	1. NTPSec, sincronización de relojes
+	2. NTPDate, coje hora exacta del extrato 0
+
 # D)
 Para tratar servicios se usa:
 ```
