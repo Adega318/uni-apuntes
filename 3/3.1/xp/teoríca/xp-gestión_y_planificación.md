@@ -71,6 +71,6 @@ Los recursos podemos clasificaros por:
 - WBS, método de división del proyecto en árbol de tareas (se usa para estimar coste y esfuerzo).
 - OBS, WBS para recursos.
 
-## 
+## Estimación de tiempos
 - PERT, estimación de tiempos de actividades de manera probabilista.
-- CPM, en base a una estimación de tiempos estática crea el camino critico.
+- CPM, en base a una estimación de tiempos estática y crea el camino critico.
