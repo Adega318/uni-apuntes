@@ -45,62 +45,10 @@
 16. splunk
 	1. crear ataque desde algún lugar fuera de España para que lo detecte.
 17. mapa de red
+# Part 1
+## A)
 
-# D)
-Para tratar servicios se usa:
-```
-sudo systemctl <mask | unmask | disable | enable>
-```
-Servicios maskeados:
-```
-e2scrub_reap
-cups
-cups-browsed
-ModemManager
-switcheroo-control
-bluetoth
-accounts-daemon
-wpa_supplicant.service
-NetworkManager
-
-
-plymouth
-plymouth-start
-plymouth-read-write
-plymouth-quit
-plymouth-quit-wait
-speech-dispatcher
-avahi-daemon
-exim4.service
-udisk2
-```
-Servicios desabilitados:
-```
-cups
-cups-browsed
-ModemManager
-switcheroo-control
-bluetoth
-accounts-daemon
-
-NetworkManager
-avahi-daemon
-man-db
-fwupd-refresh.service
-exim4.service
-udisk2
-```
-
-```bash
-Edite sobre:
-/etc/default/grub
-
-El time out a 0
-```
-
-# A
-
-# B
+## B)
 Versión inicial debian 10, visible con:
 ```bash
 lsb_release -a
@@ -133,7 +81,7 @@ apt autoremove
 # Comprovar versión
 cat /etc/os-release
 ```
-# C
+## C)
 Secuencia de arranque:
 ```bash
 systemd-analyze critical-chain
@@ -161,7 +109,7 @@ Para ver otro tipo de unidades:
 ```bash
 systemctl list-units -t help
 ```
-# D
+## D)
 El tiempo de bootup se ve con:
 ```bash
 systemd-analyze
@@ -169,7 +117,7 @@ systemd-analyze
 # Para verlo en relación a los servicios
 systemd-analyze blame
 ```
-# E
+## E)
 Para ver los servicios fallados:
 ```bash
 systemctl --failed
@@ -179,7 +127,7 @@ Otros fallos se pueden ver a través de:
 journalctl -b 0 -p 4
 ```
 systemd-timesyncd es un servicio de sincronizacción de tiempo con servidores NTP.
-# F
+## F)
 Inicio de ens34:
 ```bash
 ifconfig ens34
@@ -238,7 +186,7 @@ ens34:1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         device interrupt 16  base 0x2080
 ```
 Si estos cambios se realizan sobre **/etc/network/interfaces** son permanentes en reinicio.
-# G
+## G)
 Rutas existentes:
 ```bash
 ip route show
@@ -262,7 +210,7 @@ default via 10.11.48.1 dev ens33 onlink
 10.11.52.0/24 via 10.11.48.1 dev ens33
 169.254.0.0/16 dev ens33 scope link metric 1000
 ```
-# H
+## H)
 Los principales servicios que eliminaremos:
 ```bash
 systemctl <mask | unmask | disable | enable>
@@ -294,20 +242,20 @@ apparmor
 update-grub
 ifupdown-pre
 ```
-## Bluetoth
+### Bluetoth
 ```bash
 # Autoenable = false
 nano /etc/bluetooth/main.conf
 ```
-## Grup
+### Grup
 Poner el time_out a cero en **/etc/default/grub**
-# I
-# J
+## I)
+## J)
 Para ver las conexiones:
 ```bash
 netstat -a
 ```
-# K
+## K)
 Monitoreo de recursos del sistema:
 ```bash
 top
@@ -316,7 +264,7 @@ Monitoreo de conexiones:
 ```bash
 netstat -netuac
 ```
-# L
+## L)
 Se establecen los aceptados y bloqueados como:
 ```bash
 # host.allow
@@ -327,8 +275,8 @@ sshd: 10.20.32.0/255.255.248.0
 # host.deny
 ALL: ALL
 ```
-# M
-# N
+## M)
+## N)
 establecer túnel
 ```bash
 iface 6to4 inet6 v4tunnel
@@ -345,9 +293,11 @@ sshd: 10.30.8.0/255.255.248.0
 sshd: 10.20.32.0/255.255.248.0
 sshd: [2002:a0b:308f::1]/48
 ```
-desactivar ipv6
+desactivar ipv6 //produce fallo
 ```
 net.ipv6.conf.all.disable_ipv6 = 1
 net.ipv6.conf.default.disable_ipv6 = 1
 net.ipv6.conf.lo.disable_ipv6 = 1
 ```
+# Part 2
+## A)
