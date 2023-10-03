@@ -267,12 +267,12 @@ netstat -netuac
 ## L)
 Se establecen los aceptados y bloqueados como:
 ```bash
-# host.allow
+# /etc/hosts.allow
 sshd: 127.0.0.1, 10.11.48.143, 10.11.50.142
 sshd: 10.30.8.0/255.255.248.0
 sshd: 10.20.32.0/255.255.248.0
 
-# host.deny
+# /etc/hosts.deny
 ALL: ALL
 ```
 ## M)
