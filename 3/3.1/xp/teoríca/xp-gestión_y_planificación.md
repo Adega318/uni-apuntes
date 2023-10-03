@@ -74,8 +74,8 @@ Los recursos podemos clasificaros por:
 ## Estimación de tiempos
 - PERT, estimación de tiempos de actividades de manera probabilista.
 	- Tp, estimación pesimista del tiempo.
-	- To, estim
-	- Tmp
+	- To, estimación optimista del tiempo.
+	- Tmp, estimación realista del tiempo.
 - CPM, en base a una estimación de tiempos estática y crea el camino critico.
 
 ### Camino critico
