@@ -327,4 +327,25 @@ ALL: ALL
 ```
 # M
 # N
-
+establecer túnel
+```bash
+iface 6to4 inet6 v4tunnel
+        address 2002:a0b:308f::1
+        netmask 16
+        gateway ::10.11.48.1
+        endpoint any
+        local 10.11.48.143
+```
+modificar el allow
+```
+sshd: 127.0.0.1, 10.11.48.143, 10.11.50.142
+sshd: 10.30.8.0/255.255.248.0
+sshd: 10.20.32.0/255.255.248.0
+sshd: [2002:a0b:308f::1]/48
+```
+desactivar ipv6
+```
+net.ipv6.conf.all.disable_ipv6 = 1
+net.ipv6.conf.default.disable_ipv6 = 1
+net.ipv6.conf.lo.disable_ipv6 = 1
+```
