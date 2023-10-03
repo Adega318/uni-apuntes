@@ -276,6 +276,12 @@ sshd: 10.20.32.0/255.255.248.0
 ALL: ALL
 ```
 ## M)
+crear logs:
+```
+logger <texto>
+```
+see all logs:
+
 ## N)
 establecer túnel
 ```bash
