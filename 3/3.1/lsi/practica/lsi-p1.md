@@ -281,7 +281,9 @@ crear logs:
 logger <texto>
 ```
 see all logs:
-
+```
+tail /var/log/syslog
+```
 ## N)
 establecer túnel
 ```bash
