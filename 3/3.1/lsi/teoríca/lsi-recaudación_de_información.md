@@ -79,3 +79,8 @@ Escaneo de puertos de una maquina usando TCP y una maquina zombi como intermedia
 4. Diseños inseguros
 5. Sec misconfiguration
 	1. errores de configuración de seguridad.
+6. haklf
+7. Autentificación
+8. Integridad de soft y data
+9. Monitoreo y logs
+10. Secure side reque
