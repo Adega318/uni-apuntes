@@ -83,4 +83,4 @@ Escaneo de puertos de una maquina usando TCP y una maquina zombi como intermedia
 7. Autentificación
 8. Integridad de soft y data
 9. Monitoreo y logs
-10. Secure side reque
+10. Secure side request forgery
