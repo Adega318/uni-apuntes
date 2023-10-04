@@ -309,6 +309,17 @@ net.ipv6.conf.lo.disable_ipv6 = 1
 ```
 # Part 2
 ## A)
+En /etc/ntpsec/ntp.conf el server será:
 ```
-server 127.127.1.0 minpull
+server 127.127.1.0 minpoll 4
+fudge 127.127.1.0 stratum 10
+
+restrict 10.11.50.142 nomodify nopeer notrap
+```
+y el cliente:
+```
+server 10.11.50.143 minpoll 4
+fudge 127.127.1.0 stratum 1
+
+restrict source notrap nomodify noquery
 ```
