@@ -76,4 +76,6 @@ Escaneo de puertos de una maquina usando TCP y una maquina zombi como intermedia
 	1. sql
 	2. ldap
 	3. os
-4. 
+4. Diseños inseguros
+5. Sec misconfiguration
+	1. errores de configuración de seguridad.
