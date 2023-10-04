@@ -309,3 +309,6 @@ net.ipv6.conf.lo.disable_ipv6 = 1
 ```
 # Part 2
 ## A)
+```
+server 127.127.1.0 minpull
+```
