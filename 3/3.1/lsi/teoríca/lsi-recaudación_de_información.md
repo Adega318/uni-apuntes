@@ -70,4 +70,10 @@ Escaneo de puertos de una maquina usando TCP y una maquina zombi como intermedia
 
 # OWASP
 1. Permisos!!!!
-2. 
+2. Errores de cryptografia
+	1. malas implementaciones
+3. Injection, problemas ocasionados por mala validación.
+	1. sql
+	2. ldap
+	3. os
+4. 
