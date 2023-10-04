@@ -86,5 +86,9 @@ Escaneo de puertos de una maquina usando TCP y una maquina zombi como intermedia
 10. Secure side request forgery
 
 # Fingerprinting y port scanig
-- Nivel de ascci a través de la lectura de cabeceras para identificar el sistema del servidor.
-- Respuesta por nmaping, compatando las
+## Gen 1
+- Lectura de cabeceras para identificar el sistema del servidor.
+- Respuesta por nmaping, comparando las repuestas de la maquina ante un nmap con la esperada por parte del kernel.
+
+## Gen 2
+- 
