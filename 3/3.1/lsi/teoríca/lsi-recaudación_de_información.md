@@ -84,3 +84,7 @@ Escaneo de puertos de una maquina usando TCP y una maquina zombi como intermedia
 8. Integridad de soft y data
 9. Monitoreo y logs
 10. Secure side request forgery
+
+# Fingerprinting y port scanig
+## 1º generación
+Nivel de ascci
