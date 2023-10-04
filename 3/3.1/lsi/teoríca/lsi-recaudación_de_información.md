@@ -67,3 +67,5 @@ Intento de evitar la detección de los peyloads por parte de las defensas.
 	- msfencode, ofuscador de payloads.
 ## Idel Scan
 Escaneo de puertos de una maquina usando TCP y una maquina zombi como intermediario. Esto se puede ser evitado a través de un firewall de control de estado.
+
+# OWASP
