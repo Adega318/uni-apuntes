@@ -16,3 +16,5 @@ Las entidades en el contesto de isd son tablas, con sus campos correspondientes.
 ## Gestión de la persistencia
 - Dao, herramientas de operaciones básicas.
 
+## Implementación
+### Gestión de transacciones
