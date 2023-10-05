@@ -18,3 +18,11 @@ Las entidades en el contesto de isd son tablas, con sus campos correspondientes.
 
 ## Implementación
 ### Gestión de transacciones
+- Casos de uso de solo lectura se establecería auto-commit.
+- El resto:
+	- Validación de entrada
+	- Empezar transacción
+	- Comprobar los permisos de la trasacción
+		- en caso de no posible commit y extepción.
+		- caso corecto commit 
+		- error 
