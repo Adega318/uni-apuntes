@@ -15,4 +15,6 @@ El control de comunicación se basa en la espera de un tiempo sin comunicaciones
 2. PIFS
 3. DIFS
 
-Cuando se hace uso de ACKs se envian l
+Cuando se hace uso de ACKs se envían los mismos usando SIFS para el control de colisiones.
+### RTS/CTS
+Cuando se intenta trasmitir 
