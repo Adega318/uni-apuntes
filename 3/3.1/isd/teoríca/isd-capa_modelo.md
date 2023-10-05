@@ -23,6 +23,7 @@ Las entidades en el contesto de isd son tablas, con sus campos correspondientes.
 	- Validación de entrada
 	- Empezar transacción
 	- Comprobar los permisos de la trasacción
-		- en caso de no posible commit y extepción.
-		- caso corecto commit 
-		- error 
+		- en caso de no posible commit y excepción.
+		- caso correcto commit 
+		- error roolback y excepción
+
