@@ -10,6 +10,7 @@ Este estándar de comunicación integra tres sistemas de comunicación principal
 - CSMA/CA+ACK -> unicast
 - RTS/CTS -> unicast de alto tamaño (opcional)
 
+El control de comunicación se basa en la espera de un tiempo sin comunicaciones para comenzar a trasmitir, si durante el tiempo de espera se escucha comunicación se resetea el temporizador y se le añade un numero aleatorio en un rango variable en función de la congestión llamado **CW**, en caso de 
 Para el control de congestión se establecen tres niveles de prioridad de mensaje:
 - SIFS, 
 - PIFS
