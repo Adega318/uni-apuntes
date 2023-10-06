@@ -338,7 +338,7 @@ restrict source notrap nomodify noquery
 ```
 Para darle grafigo creamos un regex IP ()
 ```
-/opt/splunk/bin/splunk search sourcetype=access IP=* |
- stats count by IP
+/opt/splunk/bin/splunk search sourcetype=access EXTRACT-IP=* |
+ stats count by EXTRACT-IP
 ```
 ### D)
