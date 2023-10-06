@@ -132,11 +132,12 @@ Inicio de ens34:
 ```bash
 ifconfig ens34
 
-ens34: flags=4098<BROADCAST,MULTICAST>  mtu 1500
+ens34: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.11.50.143  netmask 255.255.254.0  broadcast 10.11.51.255
         ether 00:50:56:97:d3:53  txqueuelen 1000  (Ethernet)
-        RX packets 0  bytes 0 (0.0 B)
-        RX errors 0  dropped 30  overruns 0  frame 0
-        TX packets 0  bytes 0 (0.0 B)
+        RX packets 14622  bytes 3087744 (2.9 MiB)
+        RX errors 0  dropped 5178  overruns 0  frame 0
+        TX packets 51  bytes 2958 (2.8 KiB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
         device interrupt 16  base 0x2080
 ```
@@ -155,11 +156,11 @@ ifconfig ens34 up
 ifconfig ens34
 
 ens34: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
-        inet6 fe80::250:56ff:fe97:d353  prefixlen 64  scopeid 0x20<link>
+        inet 10.11.50.143  netmask 255.255.254.0  broadcast 10.11.51.255
         ether 00:50:56:97:d3:53  txqueuelen 1000  (Ethernet)
-        RX packets 5  bytes 1662 (1.6 KiB)
-        RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 6  bytes 516 (516.0 B)
+        RX packets 14622  bytes 3087744 (2.9 MiB)
+        RX errors 0  dropped 5178  overruns 0  frame 0
+        TX packets 51  bytes 2958 (2.8 KiB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
         device interrupt 16  base 0x2080
 ```
