@@ -81,4 +81,13 @@ Los recursos podemos clasificaros por:
 ### Camino critico
 El camino critico es la serie de tareas que en caso de un retraso se produce el retraso del proyecto al completo.
 ## Pasos en la planificación
-1. 
+1. Definir actividades
+2. Definir restricciones lógicas
+	1. CC
+	2. CF
+	3. FC
+	4. FF
+	5. Hamaca
+3. Asignación de 
+4. Camino crítico
+5. 
