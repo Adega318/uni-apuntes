@@ -333,7 +333,12 @@ restrict source notrap nomodify noquery
 ### B)
 /opt/splunk/etc/system/local/inputs.conf
 ### C)
-
-sourcetype=apache_access IP=* 
-
-| stats count by IP
+```
+/opt/splunk/bin/splunk search sourcetype=access 
+```
+Para darle grafigo creamos un regex IP ()
+```
+/opt/splunk/bin/splunk search sourcetype=access IP=* |
+ stats count by IP
+```
+### D)
