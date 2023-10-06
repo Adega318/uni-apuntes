@@ -90,4 +90,5 @@ El camino critico es la serie de tareas que en caso de un retraso se produce el 
 	5. Hamaca
 3. Asignación de esfuerzo
 4. Camino crítico
+	1. Holgura, es la cantidad de tiempo que se puede mover sin retrasar el proyecto. (holgura 0 indica que es parte del camino crítico)
 5. 
