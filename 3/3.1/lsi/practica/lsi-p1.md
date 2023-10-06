@@ -326,3 +326,14 @@ fudge 127.127.1.0 stratum 1
 restrict source notrap nomodify noquery
 ```
 ## B)
+### A)
+```
+/opt/splunk/bin/splunk search 'index=_internal'
+```
+### B)
+/opt/splunk/etc/system/local/inputs.conf
+### C)
+
+sourcetype=apache_access IP=* 
+
+| stats count by IP
