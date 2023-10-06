@@ -303,7 +303,7 @@ sshd: 10.30.8.0/255.255.248.0
 sshd: 10.20.32.0/255.255.248.0
 sshd: [2002:a0b:308f::1]/48
 ```
-desactivar ipv6 //produce fallo
+desactivar ipv6 /etc/sysctl.conf
 ```
 net.ipv6.conf.all.disable_ipv6 = 1
 net.ipv6.conf.default.disable_ipv6 = 1
