@@ -88,6 +88,6 @@ El camino critico es la serie de tareas que en caso de un retraso se produce el 
 	3. FC
 	4. FF
 	5. Hamaca
-3. Asignación de 
+3. Asignación de esfuerzo
 4. Camino crítico
 5. 
