@@ -47,9 +47,9 @@
     1. crear ataque desde algún lugar fuera de España para que lo detecte.
 16. mapa de red
     
-    # Part 1
-    
-    ## A)
+# Part 1
+
+## A)
 
 ## B)
 
