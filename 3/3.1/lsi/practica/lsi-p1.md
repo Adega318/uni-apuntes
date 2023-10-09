@@ -404,8 +404,10 @@ fudge 127.127.1.0 stratum 1
 restrict source notrap nomodify noquery
 ```
 
+## B)
+conf on /etc/rsyslog.conf
+guardado en /var/log/rsyslog/xxx/...
 ## C)
-
 ## A)
 
 ```
