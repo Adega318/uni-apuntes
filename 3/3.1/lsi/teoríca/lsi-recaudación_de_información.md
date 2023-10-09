@@ -130,8 +130,50 @@ Nivel de aplicación
 
 - APLIC, fingerprinting por pruebas de servicio
 
+## Proteción
+
 para la protección se pueden cambiar el comportamiento de la maquina se cambian e /proc/syslmct, a este método se le llama ofuscación, uno de los parámetros mas modificados es el TTL. Los linux suelen tener un TTL de 64 y windows 128.
 
 La ofuscación se puede aplicar también a otros ámbitos como el firewall por las iptables, modificando los MANGLE se puede modificar los paquetes en transito, una de estas modificaciones es el cambio de TTL.
 
 Otro ámbito son las aplicaciones como apache2 donde podemos masquear la naturaleza del mismo a través de la información dada.
+
+- SMTP
+  
+  - VRFY, petición de verificación de la existencia de un usuario a un servidor de correo
+  
+  - RCPT TO,
+  
+  - sea automatiza por stmp
+
+- flags
+  
+  - nmap
+    
+    - -sA, ACK que suele ser respondido por un reset indicando que hay un puerto sin filtro (firewal de control de estado)
+    
+    - -p, puerto
+    
+    - -sP, host discovery sobre un segmento mediante syng, ack y cmp (importante)
+    
+    - -6, pruevas sobre la ipv6 que suele estar vulnerable.
+    
+    - -T 0, intenta evitar la detección como intrusión
+    
+    - -O xxx.xxx.xxx.xxx, fingerprinting de sistema (importante)
+    
+    - -sV, fingerprinting de servicio y puertos (importante)
+
+Las respuestas a un port skaning puede retornar:
+
+- open
+
+- closed
+
+- filtered
+
+- unfiltered
+
+- open filtered
+
+- closed
