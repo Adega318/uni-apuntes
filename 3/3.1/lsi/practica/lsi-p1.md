@@ -71,7 +71,7 @@
     1. crear ataque desde algún lugar fuera de España para que lo detecte.
 
 16. mapa de red
-    
+
 # Part 1
 
 ## A)
@@ -430,9 +430,12 @@ restrict source notrap nomodify noquery
 ```
 
 ## B)
+
 conf on /etc/rsyslog.conf
 guardado en /var/log/rsyslog/xxx/...
+
 ## C)
+
 ## A)
 
 ```
