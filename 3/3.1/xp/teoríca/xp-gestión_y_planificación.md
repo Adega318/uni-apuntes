@@ -151,3 +151,7 @@ Se establecen niveles de calidad de planificación de proyecto:
 #### Métricas de progreso
 
 Medida del progreso del proyecto con respecto a la planificación del proyecto.
+
+#### Métricas de esfuerzo
+
+Medida de las dedicaciones de los recursos a las tareas con respecto a la planificación.
