@@ -1,13 +1,20 @@
 1. arranque
+   
    1. targets
    2. services
    3. units
+
 2. botado
+   
    1. kernel time
    2. userspace time
+
 3. fallo arranque
+   
    1. fallo servicio
+
 4. interfaz ENS34
+   
    1. físico, /etc/network/interface
       
       ```
@@ -16,35 +23,53 @@
       iface ens33 ...
       iface ens34 inet static
       ```
+   
    2. lógico
+
 5. ruta estática, asignar a los de acceso ens34 un ens33
+   
    1. fichero o comando
+
 6. podado de servicio
+   
    1. seleccionar servicios prescindibles  ( cuidado con las dependencias )
    2. parar servicios con deshabilitar o enmascarar ( deshabilitar lo desactiva pero puede seguir siendo llamado y enmascarar impide por completo su activación )
    3. listar los servicios con arbol de procesos o lista de tiempo
+
 7. script
+
 8. j
+
 9. k
+
 10. l
+    
     1. tcp-wrapers, lombrobar
     2. ssh
     3. ntp
     4. Rsyslog
+
 11. m-b
+    
     1. rsyslog
     2. logs separados
     3. logs funcionales
+
 12. n
     
     ```
     6to4 en /etc/network/interfaces
     ```
+
 13. 1. NTPSec, sincronización de relojes
     2. NTPDate, coje hora exacta del extrato 0 (peligro por burbujas)
+
 14. ryslog
+
 15. splunk
+    
     1. crear ataque desde algún lugar fuera de España para que lo detecte.
+
 16. mapa de red
     
     # Part 1
@@ -244,7 +269,7 @@ link-local      0.0.0.0         255.255.0.0     U     1000   0        0 ens33
 Añadir ruta:
 
 ```bash
-ip route add 10.11.52.0/24 via 10.11.48.1
+ip route add 10.11.52.0/24 via 10.11.50.1
 
 default via 10.11.48.1 dev ens33 onlink
 10.11.48.0/23 dev ens33 proto kernel scope link src 10.11.48.143
