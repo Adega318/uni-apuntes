@@ -72,9 +72,9 @@
 
 16. mapa de red
     
-    # Part 1
-    
-    ## A)
+# Part 1
+
+## A)
 
 ## B)
 
@@ -430,8 +430,10 @@ restrict source notrap nomodify noquery
 ```
 
 ## B)
-
-### A)
+conf on /etc/rsyslog.conf
+guardado en /var/log/rsyslog/xxx/...
+## C)
+## A)
 
 ```
 /opt/splunk/bin/splunk search 'index=_internal'
