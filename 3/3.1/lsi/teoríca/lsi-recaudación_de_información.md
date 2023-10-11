@@ -13,6 +13,7 @@ Se intenta descubrir los puertos de la maquina.
 Descubrir características de las maquinas descubiertas.
 
 - activo
+
 - pasivo
   
   ## Footprinting
@@ -84,7 +85,9 @@ Capa de aplicación de redes.
 Intento de evitar la detección de los peyloads por parte de las defensas.
 
 - msfvenom
+  
   - msfpayload, creador de payloads.
+  
   - msfencode, ofuscador de payloads.
     
     ## Idel Scan
@@ -121,8 +124,6 @@ Intento de evitar la detección de los peyloads por parte de las defensas.
 ## Gen3
 
 - cmp
-
-
 
 ## Gen4
 
@@ -177,3 +178,57 @@ Las respuestas a un port skaning puede retornar:
 - open filtered
 
 - closed
+
+
+
+nmap compatible con scripts en lua.
+
+
+
+### traceroute
+
+El traceroute busca la ruta entre dos maquinas, los paquetes de traceroute se pueden ver filtrados a menos que se haga uso de las opciones:
+
+- -T
+
+- -V
+
+#### Firewalls
+
+Los fitewalls controlan el trafico que pasa por ellos filtrandolo, dividiéndose en :
+
+- Modo router, integración de firewall en un router con listas de acceso.
+
+- NAT, mejora sobre el router que implementa direccionamiento.
+
+- Transparentes, son firewalls que trabajan exclusivamente en capa 2 evitando cualquier tipo de conexión desde el exterior (puede crearse usando ebtables).
+
+- Nueva generación, firewalls comerciales que implementan las capas de 2 a 7 (caro de carallo).
+
+#### Spider
+
+Recorre el árbol html de servidores dercargandolo, dando puntos donde se pueden probar vulnerabilidades.
+
+#### Crawler
+
+Análisis sintáctico del spidering.
+
+#### Scrapper
+
+
+
+#### Hardening
+
+Proceso de reconfiguración para el aumento de la seguridad del un sistema, en linux tenemos herramientas de auditoria como "lynis audit system" que proporciona un reporte de seguridad con recomendaciones de seguridad. Algunas recomendaciones podrian ser:
+
+- libpum-tmpdir
+
+- apt-listbugs
+
+- needvestart
+
+- debsecan
+
+- debsums
+
+- fail2bam, detección de pasword guesing e implementación de respuestas
