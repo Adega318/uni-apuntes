@@ -9,6 +9,6 @@ La prueva de componentes de manera unitaria puede necesidad del uso de un DAO, q
 	- test
 		- java
 		- resourds
-- target
+- /target
 # Uso de BD
-Las bases de datos usadas en las pruebas deben de ser una independiente de la usada en el funcionamiento normal del servicio.
+Las bases de datos usadas en las pruebas deben de ser una independiente de la usada en el funcionamiento normal del servicio (base de producción) y desarrollo.
