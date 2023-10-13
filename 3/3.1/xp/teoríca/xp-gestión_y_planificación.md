@@ -161,6 +161,7 @@ Tenemos varias métricas para el coste:
 - Variación de programa, diferencia entre el coste presupuestado del trabajo realizado y el estimado.
 - Coste estimado de finalización, suma del coste del trabajo realizado y estimación de coste restante para la finalización del proyecto
 # Arquitectura
+Proceso de selección de una herramienta case para la planificación de proyecto.
 
 # Entorno organizativo
 Documento que estipula la organización y procedimientos, conteniendo:
