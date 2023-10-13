@@ -159,4 +159,5 @@ Medida de las dedicaciones de los recursos a las tareas con respecto a la planif
 Tenemos varias métricas para el coste:
 - Variación de coste, se calcula como la diferencia entre el coste planificado y real.
 - Variación de programa, diferencia entre el coste presupuestado del trabajo realizado y el estimado.
-- Coste estimado de finalización,
+- Coste estimado de finalización, diferencia entre el coste del 
+# Arquitectura
