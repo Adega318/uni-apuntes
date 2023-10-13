@@ -160,8 +160,18 @@ Tenemos varias métricas para el coste:
 - Variación de coste, se calcula como la diferencia entre el coste planificado y real.
 - Variación de programa, diferencia entre el coste presupuestado del trabajo realizado y el estimado.
 - Coste estimado de finalización, suma del coste del trabajo realizado y estimación de coste restante para la finalización del proyecto
+
 # Arquitectura
 Proceso de selección de una herramienta case para la planificación de proyecto.
+Dentro del aspecto técnico de los case:
+- hardware
+	- servidor
+	- lan
+- software
+	- sistema operativo
+	- gestor de BDs
+	- software gráfico
+	- sistema de procesado de texto
 
 # Entorno organizativo
 Documento que estipula la organización y procedimientos, conteniendo:
@@ -169,6 +179,7 @@ Documento que estipula la organización y procedimientos, conteniendo:
 - Normas y políticas
 - Procedimientos administrativos
 - Técnicas y estándares de planificación
+
 # Comunicación
 ## Interpersonal
 ## Negociación
