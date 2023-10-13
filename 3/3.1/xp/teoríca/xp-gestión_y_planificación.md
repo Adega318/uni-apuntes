@@ -173,6 +173,7 @@ Dentro del aspecto técnico de los case:
 	- software gráfico
 	- sistema de procesado de texto
 
+Posteriormente se evalúan los aspectos de la herramienta, la decisión se toma con la ponderación de estos valores bajo el criterio de los directivos.
 # Entorno organizativo
 Documento que estipula la organización y procedimientos, conteniendo:
 - Órganos y responsabilidades
