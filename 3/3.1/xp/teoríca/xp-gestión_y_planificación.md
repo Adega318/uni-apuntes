@@ -155,3 +155,6 @@ Medida del progreso del proyecto con respecto a la planificación del proyecto.
 #### Métricas de esfuerzo
 
 Medida de las dedicaciones de los recursos a las tareas con respecto a la planificación.
+#### Métricas de coste
+Tenemos varias métricas para el coste:
+- Variación, se calcula como la diferencia entre el coste planificado y real.
