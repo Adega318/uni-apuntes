@@ -159,5 +159,11 @@ Medida de las dedicaciones de los recursos a las tareas con respecto a la planif
 Tenemos varias métricas para el coste:
 - Variación de coste, se calcula como la diferencia entre el coste planificado y real.
 - Variación de programa, diferencia entre el coste presupuestado del trabajo realizado y el estimado.
-- Coste estimado de finalización, diferencia entre el coste del 
+- Coste estimado de finalización, suma del coste del trabajo realizado y estimación de coste restante para la finalización del proyecto
 # Arquitectura
+# Entorno organizativo
+Documento que estipula la organización y procedimientos, conteniendo:
+- Órganos y responsabilidades
+- Normas y políticas
+- Procedimientos administrativos
+- Técnicas y estándares de planificación
