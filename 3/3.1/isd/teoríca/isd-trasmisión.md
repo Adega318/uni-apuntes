@@ -3,10 +3,13 @@
 Lenguaje de etiquetas personales, con la siguiente sintaxis:
 - tags, \<tag>\</tag>
 - atributos, información sobre una tag \<tag atributo= x>
+- comentarios, \<!-- hfak --\>
 
 ### Documento
 Secuencia de caracteres con formato XML
 ### Aplicación
 Conjunto de tags para representar  información, siguiendo las siguientes reglas:
-- Distinción entre mayus
+- Distinción entre mayúsculas.
+- Declaración XML, indica información del lenguaje (versión y diccionario).
+- 
 ## JSON
