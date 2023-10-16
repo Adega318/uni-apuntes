@@ -54,10 +54,3 @@ En redes podemos encontrar estándares de conexión de cable trenzado:
 - T568B
 
 # Control de usuarios
-- PAE
-- DEP
-- /etc/security/limits.conf, limitaciones de tamaño y otras relacionadas con el uso de recursos de memoria y cpu.
-- /etc/pam.d/common-pasword, especifica la función hash usada en las contraseñas y retrasos 'raw' que dificultan el crakeo de contraseñas.
-- change -l 'user', información sobre el cambio de contraseñas.
-- pam_cracklib y pam_password, establecer requisitos de la contraseñas.
-- 
