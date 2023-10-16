@@ -6,8 +6,7 @@
 4. diseñar la interfaz que cubra los casos
 5. incluir elementos de gestión de red
 
-# Diseño
-
-Crear la documentación del diseño inicial.
-
-## Parte estática
+# Tarea 2
+Establecer al concurrencia del sistema.
+- búsqueda de imágenes concurrente
+- interfaz paralela al resto del sistema
