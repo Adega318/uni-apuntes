@@ -57,4 +57,5 @@ En redes podemos encontrar estándares de conexión de cable trenzado:
 - PAE
 - DEP
 - /etc/security/limits.conf, limitaciones de tamaño y otras relacionadas con el uso de recursos de memoria y cpu.
-- /etc/pam.d/common-pasword, especifica la función hash usada en las contraseñas 
+- /etc/pam.d/common-pasword, especifica la función hash usada en las contraseñas y retrasos 'raw' que dificultan el crakeo de contraseñas.
+- change -l 
