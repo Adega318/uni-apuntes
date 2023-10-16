@@ -175,4 +175,12 @@ Proceso de reconfiguración para el aumento de la seguridad del un sistema, en l
 - pam_cracklib y pam_password, establecer requisitos de la contraseñas.
 - UMASK
 - /etc/profile, configuraciones para los distintos perfiles.
-- LVM, control de tamaño de particiones de manera virtual 
+- LVM, control de tamaño de particiones de manera virtual evitando el llenado de particiones.
+- Control de Arp spoofing por moniroreo.
+- firewall
+- tcp for
+
+##### Módulos
+Los módulos son parte del kernel linux que pueden causar vulnerabilidades.
+- /proe/sys/kernerl/module-disabled, evitar la carga de módulos.
+- /etc/module.d/lelicklizt.conf, blacklist de modulos.
