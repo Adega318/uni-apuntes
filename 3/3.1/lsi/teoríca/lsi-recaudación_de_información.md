@@ -175,4 +175,4 @@ Proceso de reconfiguración para el aumento de la seguridad del un sistema, en l
 - pam_cracklib y pam_password, establecer requisitos de la contraseñas.
 - UMASK
 - /etc/profile, configuraciones para los distintos perfiles.
-- 
+- LVM, control de tamaño de particiones de manera virtual 
