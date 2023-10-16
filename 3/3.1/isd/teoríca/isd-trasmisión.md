@@ -11,6 +11,6 @@ Secuencia de caracteres con formato XML
 Conjunto de tags para representar  información, siguiendo las siguientes reglas:
 - Distinción entre mayúsculas.
 - Declaración XML, indica información del lenguaje (versión y diccionario).
-- Para un elemento dado un atributo solo tiene un valor.
+- Tags multivaluados y atributos únicos.
 
 ## JSON
