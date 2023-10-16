@@ -53,3 +53,7 @@ En redes podemos encontrar estándares de conexión de cable trenzado:
 - T568A
 - T568B
 
+# 
+- PAE
+- DEP
+- /etc/security/limits
