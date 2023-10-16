@@ -158,7 +158,7 @@ Recorre el árbol html de servidores dercargandolo, dando puntos donde se pueden
 #### Crawler
 Análisis sintáctico del spidering.
 #### Scrapper
-#### Hardening
+### Hardening
 Proceso de reconfiguración para el aumento de la seguridad del un sistema, en linux tenemos herramientas de auditoria como "lynis audit system" que proporciona un reporte de seguridad con recomendaciones de seguridad. Algunas recomendaciones podrian ser:
 
 - libpum-tmpdir
@@ -178,9 +178,9 @@ Proceso de reconfiguración para el aumento de la seguridad del un sistema, en l
 - LVM, control de tamaño de particiones de manera virtual evitando el llenado de particiones.
 - Control de Arp spoofing por moniroreo.
 - firewall
-- tcp for
+- tcp forwarding, desactivado de ssh en caso de no ser necesario (salta el firewall).
 
-##### Módulos
+#### Módulos
 Los módulos son parte del kernel linux que pueden causar vulnerabilidades.
 - /proe/sys/kernerl/module-disabled, evitar la carga de módulos.
 - /etc/module.d/lelicklizt.conf, blacklist de modulos.
