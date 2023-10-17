@@ -182,5 +182,6 @@ Documento que estipula la organización y procedimientos, conteniendo:
 - Técnicas y estándares de planificación
 
 # Comunicación
+Los cambios en los requisitos y entorno del desarrollo lleva a desviaciones del 
 ## Interpersonal
 ## Negociación
