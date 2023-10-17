@@ -182,6 +182,7 @@ Documento que estipula la organización y procedimientos, conteniendo:
 - Técnicas y estándares de planificación
 
 # Comunicación
-Los cambios en los requisitos y entorno del desarrollo lleva a desviaciones del 
+Los cambios en los requisitos y entorno del desarrollo lleva a desviaciones del plan y problemas de plazos, esto tambien puede ser causado por la planificación optimistas.
+En consecuencia esto produce el aumento de errores y uso de atajos en el software.
 ## Interpersonal
 ## Negociación
