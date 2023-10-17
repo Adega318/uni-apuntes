@@ -191,4 +191,4 @@ Los desarrolladores somos mallos negociando:
 - desconocimiento de los trucos de negociación
 
 ### Negociación conveniente
-Método de negociación 
+Método de negociación en la que se buscan conocer los motivos de la otra parte e intentar crear un resultado beneficioso para ambos. Evitando confirmar la negociación asta que se all
