@@ -30,4 +30,5 @@ Cuando se hace uso de ACKs se envían los mismos usando SIFS para el control de 
 
 Cuando se intenta trasmitir paquetes de alto tamaño se hace uso del protocolo MACA que solicita la red con un paquete RTS que requiere la respuesta por parte del receptor de un CTS tras el cual se comienza a trasmitir, el tiempo trascurrido desde el RTS hasta el fin de la comunicación se conoce como NAN.
 
-# 
+### IEE 802.11e
+Mejoras en la capa MAC mediante la división del trafico y aseguramiento de la calidad del mismo.
