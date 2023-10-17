@@ -189,3 +189,6 @@ Los desarrolladores somos mallos negociando:
 - autismo
 - inexperiencia (en nuestro caso)
 - desconocimiento de los trucos de negociación
+
+### Negociación conveniente
+Método de negociación 
