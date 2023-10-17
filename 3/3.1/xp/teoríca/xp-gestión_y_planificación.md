@@ -185,4 +185,7 @@ Documento que estipula la organización y procedimientos, conteniendo:
 Los cambios en los requisitos y entorno del desarrollo lleva a desviaciones del plan y problemas de plazos, esto tambien puede ser causado por la planificación optimistas.
 En consecuencia esto produce el aumento de errores y uso de atajos en el software.
 ## Negociación
-Los desarr
+Los desarrolladores somos mallos negociando:
+- autismo
+- inexperiencia (en nuestro caso)
+- desconocimiento de los trucos de negociación
