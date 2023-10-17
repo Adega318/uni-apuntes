@@ -1,10 +1,10 @@
 # A)
 Install ettercap
-```
+```bash
 apt install ettercap-text-only
 ```
 Funcionamiento:
-```
+```bash
 ettercap [options][target1][target2]
 
 ejemplo:
@@ -13,6 +13,15 @@ ettercap /10.11.48.56//
 Con ettercap realizaremos ARP spoofing
 # B)
 Captura de trafico, usando ettercap + wireshark para snifear y visualizar data (pdf, gif, ...)
+
+Comando básico para realizar spoofing:
+```bash
+ettercap -T -q -i ens33 -M arp:remote //10.11.48.1 //10.11.48.142
+```
+- -T, text mode
+- -q, filtra lo que se muestra por pantalla.
+- -i, establece la interfaz a usar.
+- -M, 
 # C & E)
 Recopilar mac e ipv6 del segmento
 // todo lo de ipv6 sin fe....
