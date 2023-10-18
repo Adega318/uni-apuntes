@@ -39,5 +39,10 @@ El punto de acceso responde con un GTK con el Cnonce y el hash del PTK gracias a
 ### Crakeo de hashes
 Para el crakeo de hashes se usan herramientas como hashcat, cain&abel, jhon, ...
 Para hacer que los hashes sean únicos se hashean con un numero en base 64 aleatorio (SAL)
+#### Dicionarios
+Los diccionarios priorizan la búsqueda de contraseñas más probables, para esto tenemos herramientas como:
+- cewl, saca términos de webs.
+- 
+- hashcat, herramienta de crakeo de hashes altamente potente.
 ## Flushion
 Enmascara un punto de acceso.
