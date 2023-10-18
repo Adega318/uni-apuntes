@@ -25,4 +25,5 @@ En el crakeo de wifis tenemos comandos como:
 	- airreplay-ng, enviado de paquetes (se puede usar para deautenticar).
 	- aircrak-ng, crakeador de hanshakes orientado a WPA2.
 
-El proceso típico es comenzar con un monitoreo del wifi, capturar el trafico, 
+El proceso típico es comenzar con un monitoreo del wifi, capturar el trafico obteniendo información de los puntos de acceso en la red, en caso de que halla conectadas maquinas
+desautenticaremos a una de las maquinas para que cuando se reconecte, capturando en handshake tras lo cual pasaremos a crakearlo.
