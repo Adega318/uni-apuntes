@@ -18,4 +18,11 @@ Los tipos de proxis son:
 # Conexiones ajenas
 Reduce la posibilidad de correlación con la persona.
 ## Crakeo
-En el crakeo de wifis 
+En el crakeo de wifis tenemos comandos como:
+- ng
+	- airmon-ng, monitora la wifi.
+	- airodump-ng, captura el trafico wifi.
+	- airreplay-ng, enviado de paquetes (se puede usar para deautenticar).
+	- aircrak-ng, crakeador de hanshakes orientado a WPA2.
+
+El proceso típico es comenzar con un monitoreo del wifi, capturar el trafico, 
