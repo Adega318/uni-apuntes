@@ -8,3 +8,5 @@ Método de desarrollo genérica que solo requiere de la compilación final en la
 La ejecución de la aplicación se puede realizar de múltiples maneras, hacemos uso de emuladores.
 ## Concurrencia
 Los threads son llamados Isolates, también tenemos funciones asíncronas (async). Las funciones asíncronas usan un modelo de concurrencia colaborativo en el que la cpu es cedida, lo que debe de ser controlado (buenas para problemas de entrada salida).
+### Async
+Las funciones asíncronas se ejecutan de manera concurrente y devuelven un objeto future y permiten el encadenado de las mismas.
