@@ -8,3 +8,13 @@ Permiten el envió de información a trabes de otros países para evitar la recu
 - FOTWARDED, mantiene la ip original (vunerable).
 
 El proxi tiene control sobre toda la información que pasa (peligro).
+
+```note
+Honeys, sistemas vunerables intencionalmente con deteción de ataques para obtener información del metodo de ataque
+```
+
+Los tipos de proxis son:
+- Transparentes, sirven como tunel manteniendo tú información.
+- Anónimos, no se introduce tu información.
+- Alternicidad, 
+- Ruidosos, introducen ruido en la información personal para anonimato
