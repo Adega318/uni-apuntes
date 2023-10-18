@@ -38,5 +38,6 @@ El proceso de handshake comienza con un ANonce enviado por el punto de acceso, a
 El punto de acceso responde con un GTK con el Cnonce y el hash del PTK gracias a este hash que contiene la contraseña se puede recuperar con la ruptura del hash.
 ### Crakeo de hashes
 Para el crakeo de hashes se usan herramientas como hashcat, cain&abel, jhon, ...
+Para hacer que los hashes sean únicos se hashean con un numero en base 64 aleatorio (SAL)
 ## Flushion
 Enmascara un punto de acceso.
