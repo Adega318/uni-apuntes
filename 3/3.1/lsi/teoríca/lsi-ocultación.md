@@ -42,7 +42,7 @@ Para hacer que los hashes sean únicos se hashean con un numero en base 64 aleat
 #### Dicionarios
 Los diccionarios priorizan la búsqueda de contraseñas más probables, para esto tenemos herramientas como:
 - cewl, saca términos de webs.
-- 
+- mutator/crunch, refinamiento de dicionarios.
 - hashcat, herramienta de crakeo de hashes altamente potente.
 ## Flushion
 Enmascara un punto de acceso.
