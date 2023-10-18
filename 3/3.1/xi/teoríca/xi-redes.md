@@ -38,4 +38,4 @@ Las categorías que se establecen son:
 - Mejor esfuerzo
 - Información de fondo
 
-Las prioridades siguen el orden anteriormente indicado y se aplican mediante la introducción de nuevos tiempos de prioridad, tambien se modifican los minimos y maximos CWs para la priori
+Las prioridades siguen el orden anteriormente indicado y se aplican mediante la introducción de nuevos tiempos de prioridad, tambien se modifican los minimos y maximos CWs para la prioridad.
