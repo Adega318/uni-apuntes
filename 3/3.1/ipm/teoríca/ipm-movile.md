@@ -6,3 +6,5 @@ Para el desarrollo en android se puede realizar mediante un SDK
 Método de desarrollo genérica que solo requiere de la compilación final en la plataforma correspondiente, siendo compatible con IOs, Android, desktop y web.
 ## Ejecución
 La ejecución de la aplicación se puede realizar de múltiples maneras, hacemos uso de emuladores.
+## Concurrencia
+Los threads son llamados Isolates que no se usan, en su lugar hacemos uso de funciones asíncronas (async).
