@@ -35,8 +35,8 @@ El proceso de handshake comienza con un ANonce enviado por el punto de acceso, a
 - MAC PA
 - MAC Cliente
 
-El punto de acceso responde con un GTK con el Cnonce y el hash del PTK
+El punto de acceso responde con un GTK con el Cnonce y el hash del PTK gracias a este hash que contiene la contraseña se puede recuperar con la ruptura del hash.
 ### Crakeo de hashes
-Para el crakeo de hashes se usan herramientas como hashcat, cain&abel
+Para el crakeo de hashes se usan herramientas como hashcat, cain&abel, jhon, ...
 ## Flushion
 Enmascara un punto de acceso.
