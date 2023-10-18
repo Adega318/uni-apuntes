@@ -27,3 +27,10 @@ En el crakeo de wifis tenemos comandos como:
 
 El proceso típico es comenzar con un monitoreo del wifi, capturar el trafico obteniendo información de los puntos de acceso en la red, en caso de que halla conectadas maquinas
 desautenticaremos a una de las maquinas para que cuando se reconecte, capturando en handshake tras lo cual pasaremos a crakearlo.
+El proceso de handshake comienza con un ptk con:
+- PMK, clave codificada
+- Anouns, 
+- Snonlet
+- MAC A
+- MAC B
+La wifi responde con un hash del ptk y el Snonlet.
