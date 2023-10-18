@@ -12,6 +12,10 @@ Honeys, sistemas vunerables intencionalmente con deteción de ataques para obten
 Los tipos de proxis son:
 - Transparentes, sirven como túnel manteniendo tú información.
 - Anónimos, no se introduce tu información.
-- Alta disponibilidad, 
-- Ruidosos, introducen ruido en la información personal para anonimato
+- Alta disponibilidad, proxys de alta capacidad de carga.
+- Ruidosos, introducen ruido en la información personal para anonimato.
 
+# Conexiones ajenas
+Reduce la posibilidad de correlación con la persona.
+## Crakeo
+En el crakeo de wifis 
