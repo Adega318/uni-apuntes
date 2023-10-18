@@ -28,13 +28,15 @@ En el crakeo de wifis tenemos comandos como:
 El proceso típico es comenzar con un monitoreo del wifi, capturar el trafico obteniendo información de los puntos de acceso en la red, en caso de que halla conectadas maquinas
 desautenticaremos a una de las maquinas para que cuando se reconecte, capturando en handshake tras lo cual pasaremos a crakearlo.
 ### Handshake
-El proceso de handshake comienza con un ANonce enviado por el punto de acceso, al cual se resppoonde con un PTK con l
-El proceso de handshake comienza con un ptk con:
+El proceso de handshake comienza con un ANonce enviado por el punto de acceso, al cual se responde con un PTK con los siguientes campos:
 - PMK, clave codificada
-- Anouns, 
-- Snonce,
-- MAC AP
+- Anonce, número aleatorio recibido 
+- Cnonce, número aleatorio de respuesta.
+- MAC PA
 - MAC Cliente
-La wifi responde con un hash del ptk y el Snonce.
 
-Tenemos herramientas de crakeo como wifiter
+El punto de acceso responde con un GTK con el Cnonce y el hash del PTK
+### Crakeo de hashes
+Para el crakeo de hashes se usan herramientas como hashcat, cain&abel
+## Flushion
+Enmascara un punto de acceso.
