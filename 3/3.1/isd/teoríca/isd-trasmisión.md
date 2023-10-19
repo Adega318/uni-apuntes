@@ -13,4 +13,11 @@ Conjunto de tags para representar  información, siguiendo las siguientes reglas
 - Declaración XML, indica información del lenguaje (versión y diccionario).
 - Tags multivaluados y atributos únicos.
 
+### Caracteres sensibles
+| Referencia | Carácter |
+| ---------- | -------- |
+| \&lt        | <        |
+| \&amp       | &        |
+| \&gt        | >        |
+| \&quot      |          |
 ## JSON
