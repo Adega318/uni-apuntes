@@ -16,8 +16,12 @@ Conjunto de tags para representar  información, siguiendo las siguientes reglas
 ### Caracteres sensibles
 | Referencia | Carácter |
 | ---------- | -------- |
-| \&lt        | <        |
-| \&amp       | &        |
-| \&gt        | >        |
-| \&quot      |          |
+| \&lt       | <        |
+| \&amp      | &        |
+| \&gt       | >        |
+| \&quot     | "        |
+| \&apos     | '        | 
+
+### Espacio de nombres
+
 ## JSON
