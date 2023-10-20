@@ -234,8 +234,8 @@ Ante estas situaciones la respuesta adecuada se basa en los tipos de comunicaci√
 - asertiva, aporta pero no combate.
 
 Entre las anteriores debemos intentar mantener la asertiva mediante t√©cnicas como:
-- mensajes yo, 
-- disco rayado
+- mensajes yo, centrarse en uno mismo al expresar comportamiento de otra persona para evitar personalizar y crear conflicto.
+- disco rayado, 
 - banco de niebla
 - aplazamiento asertivo
 - ignorar
