@@ -211,3 +211,8 @@ Comunicación donde se entiende el mensaje que se trata de trasmitir. Dividiendo
 		- no distraerse
 		- no interrumpir
 		- no contradecir elementos subjetivos
+- Evitar generalización
+- Ser breve
+- Elegir el lugar para el mensaje a trasmitir
+
+### Comunicación asertiva
