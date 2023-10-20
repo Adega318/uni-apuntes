@@ -239,4 +239,4 @@ Entre las anteriores debemos intentar mantener la asertiva mediante técnicas co
 - banco de niebla, establecer tu opinión y rechazar la discusión con el interlocutor.
 - aplazamiento asertivo, aplazar la discusión para evitar un escalamiento.
 - ignorar, 
-- pregunta asertiva
+- pregunta asertiva, 
