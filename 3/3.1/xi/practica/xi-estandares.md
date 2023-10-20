@@ -15,5 +15,13 @@ Miramos el SNR, siendo $SNR= 18db$
 ### c
 $802.11ax$, $B = 80MHz$, $S = 3$, $256-QAM$, $R = 5/6$, $T_{GI}= 0.8\mu s$
 Miramos en la tabla y calculamos:
-$$V_b = \frac{980}{12.8+0.8}\cdot3\cdot\frac{5}{6}\cdot2=162Mbps$$
-Miramos el SNR, siendo $SNR= 18db$
+esta vez no podemos mirar eta, la calculamos $M=256=2^n\rightarrow M=8$
+$$V_b = \frac{980}{12.8+0.8}\cdot3\cdot\frac{5}{6}\cdot8=1441Mbps$$
+Miramos el SNR, no disponible.
+## ej2 (pag15)
+### a
+$802.11n$, $B = 40MHz$, $T_{GI}= 0.4\mu s$, $Sol 75\%$
+$$e=\frac{X}{X_{max}}$$
+$$x=\frac$$
+
+
