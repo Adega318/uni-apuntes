@@ -12,3 +12,7 @@ Los threads son llamados Isolates, también tenemos funciones asíncronas (async
 Las funciones asíncronas se ejecutan de manera concurrente y devuelven un objeto future y permiten el encadenado de las mismas.
 ## Widget
 tenemos dos tipos de widget, estáticos que no requieren actualización y dinámicos que cambian.
+## Set up 
+```shell
+flutterdev
+```
