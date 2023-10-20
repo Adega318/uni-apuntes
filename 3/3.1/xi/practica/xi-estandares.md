@@ -19,9 +19,21 @@ esta vez no podemos mirar eta, la calculamos $M=256=2^n\rightarrow M=8$
 $$V_b = \frac{980}{12.8+0.8}\cdot3\cdot\frac{5}{6}\cdot8=1441Mbps$$
 Miramos el SNR, no disponible.
 ## ej2 (pag15)
-### a
-$802.11n$, $B = 40MHz$, $T_{GI}= 0.4\mu s$, $Sol 75\%$
 $$e=\frac{X}{X_{max}}$$
-$$x=\frac$$
-
-
+$$X_{max}= B \frac{simb}{s}$$
+$$x=\frac{C}{T_{DFT}+T_{GI}}$$
+### a
+$802.11n$, $B = 40MHz$, $T_{GI}= 0.4\mu s$
+$$e=\frac{X}{X_{max}}= 0.75$$
+$$X_{max}= B = 40 M\frac{simb}{s}$$
+$$X=\frac{108}{3.2+0.4}$$
+### b
+$802.11ac$, $B = 40MHz$, $T_{GI}= 0.4\mu s$
+$$e=\frac{X}{X_{max}}= 0.75$$
+$$X_{max}= B = 40 M\frac{simb}{s}$$
+$$X=\frac{108}{3.2+0.4}$$
+### c
+$802.11ac$, $B = 160MHz$, $T_{GI}= 0.8\mu s$
+$$e=\frac{X}{X_{max}}= 0.75$$
+$$X_{max}= B = 40 M\frac{simb}{s}$$
+$$X=\frac{468}{3.2+0.4}$$
