@@ -194,3 +194,5 @@ Los desarrolladores somos mallos negociando:
 Método de negociación en la que se buscan conocer los motivos de la otra parte e intentar crear un resultado beneficioso para ambos, evitar comprometerse al acuerdo asta que se aya estudiado la solución.
 #### Criterios objetivos
 En la negociación se pueden cambiar los criterios por otros criterios objetivos.
+## Comunicación eficaz
+Comunicación donde se entiende el mensaje que se trata de trasmitir. Dividiendo la comunicación en multiples
