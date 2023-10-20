@@ -195,4 +195,14 @@ Método de negociación en la que se buscan conocer los motivos de la otra parte
 #### Criterios objetivos
 En la negociación se pueden cambiar los criterios por otros criterios objetivos.
 ## Comunicación eficaz
-Comunicación donde se entiende el mensaje que se trata de trasmitir. Dividiendo la comunicación en multiples
+Comunicación donde se entiende el mensaje que se trata de trasmitir. Dividiendo la comunicación en múltiples canales:
+- Verbal
+- No verbal
+	- contacto visual
+	- gestos faciales
+	- gesticulación
+	- postura y distancia corporal
+
+### Técnicas básicas
+- Escucha activa
+	- 
