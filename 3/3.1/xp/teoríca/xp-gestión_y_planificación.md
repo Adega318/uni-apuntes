@@ -228,4 +228,15 @@ Esta comunicación se ve sometida a momentos críticos como los siguientes:
 	- expectativas no razonables
 	- con opiniones opuestas
 
-Ante estas situaciones la respuesta adecuada se 
+Ante estas situaciones la respuesta adecuada se basa en los tipos de comunicación:
+- sumisa, causa problemas al no mostrar opiniones pero no causa conflictos.
+- agresiva, conducta combativa con gran aporte pero muy conflictiva.
+- asertiva, aporta pero no combate.
+
+Entre las anteriores debemos intentar mantener la asertiva mediante técnicas como:
+- mensajes yo, 
+- disco rayado
+- banco de niebla
+- aplazamiento asertivo
+- ignorar
+- pregunta asertiva
