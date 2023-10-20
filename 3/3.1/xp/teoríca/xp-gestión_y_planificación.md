@@ -205,4 +205,9 @@ Comunicación donde se entiende el mensaje que se trata de trasmitir. Dividiendo
 
 ### Técnicas básicas
 - Escucha activa
-	- 
+	- demostrar atención
+	- evitar
+		- falta de empatía
+		- no distraerse
+		- no interrumpir
+		- no contradecir elementos subjetivos
