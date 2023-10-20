@@ -16,3 +16,4 @@ tenemos dos tipos de widget, estáticos que no requieren actualización y dinám
 ```shell
 flutterdev
 ```
+// hot restart and hot reload
