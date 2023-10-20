@@ -216,3 +216,16 @@ Comunicación donde se entiende el mensaje que se trata de trasmitir. Dividiendo
 - Elegir el lugar para el mensaje a trasmitir
 
 ### Comunicación asertiva
+Comunicación con las siguientes características:
+- Directa
+- Honesta
+- Respetuosa
+
+Esta comunicación se ve sometida a momentos críticos como los siguientes:
+- Compañeros 
+	- injustos 
+	- no cooperativos
+	- expectativas no razonables
+	- con opiniones opuestas
+
+Ante estas situaciones la respuesta adecuada se 
