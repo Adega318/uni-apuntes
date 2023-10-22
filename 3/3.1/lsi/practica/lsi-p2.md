@@ -29,12 +29,17 @@ ettercap -T -q -i ens33 -M arp:remote //10.11.48.142 //10.11.48.1
 
 Guardar los paquetes recibidos:
 ```shell
-tcpdump -i ens33 -s 65535 -w tcp_bisbi.p
+//captura
+tcpdump -i ens33 -s 65535 -w tcp_bisbi.pcap
+//envio
+scp lsi@10.11.48.143:/home/lsi/tcp_bisbi.pcap .
 ```
 
 
-# C & E)
-Recopilar mac e ipv6 del segmento
+
+# C)
+Para obtener la mac del s
+# D)
 // todo lo de ipv6 sin fe....
 # E)
 Capturar todo el trafico de alguna de nuestras interfaces, ettercap y tcpdump
