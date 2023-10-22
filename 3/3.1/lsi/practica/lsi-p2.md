@@ -38,7 +38,14 @@ scp lsi@10.11.48.143:/home/lsi/tcp_bisbi.pcap .
 
 
 # C)
-Para obtener la mac del s
+Para obtener la mac del segmento usamos:
+```
+nmap -sP 10.11.48.0/23
+```
+- -sP, host discovery sobre un segmento mediante syng, ack y cmp 
+
+respuestas con formato:
+
 # D)
 // todo lo de ipv6 sin fe....
 # E)
