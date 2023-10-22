@@ -1,4 +1,4 @@
-# A) v
+# A)
 Install ettercap
 ```bash
 apt install ettercap-text-only
@@ -34,7 +34,7 @@ tcpdump -i ens33 -s 65535 -w tcp_bisbi.pcap
 //envio
 scp lsi@10.11.48.143:/home/lsi/tcp_bisbi.pcap .
 ```
-# C) v
+# C)
 Para obtener la mac del segmento usamos:
 ```
 nmap -sP 10.11.48.0/23
