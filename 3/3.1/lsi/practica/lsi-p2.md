@@ -45,8 +45,16 @@ nmap -sP 10.11.48.0/23
 - -sP, host discovery sobre un segmento mediante syng, ack y cmp 
 
 respuestas con formato:
-
+```
+Nmap scan report for 10.11.49.17
+Host is up (0.00040s latency).
+MAC Address: 00:50:56:97:F6:06 (VMware)
+```
 # D)
+Para obtener las ipv6 usamos:
+```
+ping6 -c2 -I ens33 ff02::1
+```
 // todo lo de ipv6 sin fe....
 # E)
 Capturar todo el trafico de alguna de nuestras interfaces, ettercap y tcpdump
