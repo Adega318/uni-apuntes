@@ -27,6 +27,11 @@ ettercap -T -q -i ens33 -M arp:remote //10.11.48.142 //10.11.48.1
 		- target
 		- gateway
 
+Guardar los paquetes recibidos:
+```shell
+tcpdump -i ens33 -s 65535 -w tcp_bisbi.p
+```
+
 
 # C & E)
 Recopilar mac e ipv6 del segmento
