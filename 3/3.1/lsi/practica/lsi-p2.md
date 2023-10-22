@@ -34,9 +34,6 @@ tcpdump -i ens33 -s 65535 -w tcp_bisbi.pcap
 //envio
 scp lsi@10.11.48.143:/home/lsi/tcp_bisbi.pcap .
 ```
-
-
-
 # C) v
 Para obtener la mac del segmento usamos:
 ```
