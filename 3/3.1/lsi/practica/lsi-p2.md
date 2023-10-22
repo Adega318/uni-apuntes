@@ -51,6 +51,7 @@ MAC Address: 00:50:56:97:F6:06 (VMware)
 Para obtener las ipv6 usamos:
 ```
 ping6 -c2 -I ens33 ff02::1
+ip -6 neigh
 ```
 // todo lo de ipv6 sin fe....
 # E) x
