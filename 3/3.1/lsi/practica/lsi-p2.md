@@ -1,4 +1,4 @@
-# A)
+# A) v
 Install ettercap
 ```bash
 apt install ettercap-text-only
@@ -11,7 +11,7 @@ ejemplo:
 ettercap /10.11.48.56//
 ```
 Con ettercap realizaremos ARP spoofing
-# B)
+# B) x
 Captura de trafico, usando ettercap + wireshark para snifear y visualizar data (pdf, gif, ...)
 ## Solución
 ### Spoofing
@@ -37,7 +37,7 @@ scp lsi@10.11.48.143:/home/lsi/tcp_bisbi.pcap .
 
 
 
-# C)
+# C) v
 Para obtener la mac del segmento usamos:
 ```
 nmap -sP 10.11.48.0/23
@@ -50,18 +50,18 @@ Nmap scan report for 10.11.49.17
 Host is up (0.00040s latency).
 MAC Address: 00:50:56:97:F6:06 (VMware)
 ```
-# D)
+# D) x
 Para obtener las ipv6 usamos:
 ```
 ping6 -c2 -I ens33 ff02::1
 ```
 // todo lo de ipv6 sin fe....
-# E)
+# E) x
 Capturar todo el trafico de alguna de nuestras interfaces, ettercap y tcpdump
-# F)
+# F) x
 Spoofing de web viendo simultáneamente la web (navegador de texto, xdg-open), se debe configurar el navegador en etter.conf.
 //evaluación con la navegación en la victima y actualización en el atacante sin interacción
-# G)
+# G) x
 Generación de peiloads y envió al atacado, la segunda parte es ingeniería social para que parezca natural.
 Para creación:
 - metasploit + msfvenom (neterpreter/shell/bash)
