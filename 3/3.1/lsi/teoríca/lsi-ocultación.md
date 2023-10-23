@@ -73,3 +73,10 @@ Y las herramientas para la defensa son:
 
 ## Flushion
 Enmascara un punto de acceso.
+
+# Proteger Grub
+grub-mkpasswd-pbkdfz
+
+/etc/grubd/40_custom
+set superuser=root
+password-plokdfz root
