@@ -74,9 +74,13 @@ Y las herramientas para la defensa son:
 Enmascara un punto de acceso.
 # Borrado
 Para realizar el borrado casi permanente de la información tenemos herramientas como:
-```
-srm
-```
+- srm
+- dd, borra todo un disco duro.
+- sfill, borra de forma segura el espacio libre del disco duro.
+- sswap, borra de forma segura el swap del dispositivo.
+- smenn, borra de forma segura la ram.
+- erraser (windows)
+
 # Proteger Grub
 grub-mkpasswd-pbkdfz
 
