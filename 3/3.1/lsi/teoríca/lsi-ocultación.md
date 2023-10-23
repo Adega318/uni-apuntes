@@ -54,6 +54,15 @@ Ataques que en función a un diccionario prueba las posibles contraseñas para o
 Para realizar estos ataques tenemos impedimentos como:
 - Catcha
 - filtros de red
-	- 
+	- ip
+	- user
+
+Las principales herramientas para este tipo de ataques son:
+- medusa
+	- -d, muestra todos los módulos.
+	- -M ssh -q, atques en ssh.
+	- -h 10.11.48.142, ataque a compañero.
+- h-craken
+- hydra
 ## Flushion
 Enmascara un punto de acceso.
