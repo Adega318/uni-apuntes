@@ -70,10 +70,8 @@ Y las herramientas para la defensa son:
 - fail2bam, 
 - OSSEC, sistema de prevención de intrusiones en host ( HIPS )
 
-
 ## Flushion
 Enmascara un punto de acceso.
-
 # Proteger Grub
 grub-mkpasswd-pbkdfz
 
