@@ -72,6 +72,11 @@ Y las herramientas para la defensa son:
 
 ## Flushion
 Enmascara un punto de acceso.
+# Borrado
+Para realizar el borrado casi permanente de la información tenemos herramientas como:
+```
+srm
+```
 # Proteger Grub
 grub-mkpasswd-pbkdfz
 
