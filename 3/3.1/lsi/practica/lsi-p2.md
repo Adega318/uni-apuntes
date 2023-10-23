@@ -34,7 +34,7 @@ tcpdump -i ens33 -s 65535 -w tcp_bisbi.pcap
 
 //nuestro compañero busca cosas
 
-//envio
+//en otra maquina
 scp lsi@10.11.48.143:/home/lsi/tcp_bisbi.pcap .
 ```
 Abrimos en wireshark buscamos el png y en File -> Export object lo guardamos y luego abrimos.
