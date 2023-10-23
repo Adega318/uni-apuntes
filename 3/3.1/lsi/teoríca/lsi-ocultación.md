@@ -44,5 +44,16 @@ Los diccionarios priorizan la búsqueda de contraseñas más probables, para est
 - cewl, saca términos de webs.
 - mutator/crunch, refinamiento de dicionarios.
 - hashcat, herramienta de crakeo de hashes altamente potente.
+
+#### Herramientas
+- hash-identifier
+- hash-id
+- findmyhash, busca en una base de datos.
+## Password guessing
+Ataques que en función a un diccionario prueba las posibles contraseñas para obtener la correcta. Los problemas con la necesidad de tener un diccionario de alta calidad, deja restos en los logs y tarda mucho tiempo.
+Para realizar estos ataques tenemos impedimentos como:
+- Catcha
+- filtros de red
+	- 
 ## Flushion
 Enmascara un punto de acceso.
