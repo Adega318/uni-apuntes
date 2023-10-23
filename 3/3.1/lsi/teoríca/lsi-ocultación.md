@@ -64,5 +64,12 @@ Las principales herramientas para este tipo de ataques son:
 	- -h 10.11.48.142, ataque a compañero.
 - h-craken
 - hydra
+
+Y las herramientas para la defensa son:
+- hash-limit, restricciones en los intentos de contraseñas.
+- fail2bam, 
+- OSSEC, sistema de prevención de intrusiones en host ( HIPS )
+
+
 ## Flushion
 Enmascara un punto de acceso.
