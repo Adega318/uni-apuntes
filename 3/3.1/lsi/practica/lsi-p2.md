@@ -89,6 +89,9 @@ Social:
 
 # H)x
 MITM ipv6 ettercap + ndp
+```
+ettercap -T -i 6to4 -Q -M ndp //200
+```
 # I)x
 arpon(defensa) vs ettercap + arp poisoning(ataque)
 - registros del ataque
