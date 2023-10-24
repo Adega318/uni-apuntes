@@ -90,7 +90,7 @@ Social:
 # H)x
 MITM ipv6 ettercap + ndp
 ```
-ettercap -T -i 6to4 -Q -M ndp //200
+ettercap -T -i 6to4 -Q -M ndp //2002:a0b:308e::1/ //::10.11.48.1
 ```
 # I)x
 arpon(defensa) vs ettercap + arp poisoning(ataque)
