@@ -102,9 +102,16 @@ logs in /var/log/arpon.log
 
 Ver el arp:
 ```
-
+arp
 ```
-
+Flush arp:
+```
+ip -s -s neigh flush all
+```
+Activate arpON:
+```
+arpon -d -i ens33 -H
+```
 # J)x
 - host dicovery
 - port scaning
