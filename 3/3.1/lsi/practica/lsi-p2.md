@@ -11,7 +11,7 @@ ejemplo:
 ettercap /10.11.48.56//
 ```
 Con ettercap realizaremos ARP spoofing
-# B) x
+# B)
 Captura de trafico, usando ettercap + wireshark para snifear y visualizar data (pdf, gif, ...)
 ## Solución
 ### Spoofing
@@ -31,9 +31,13 @@ Guardar los paquetes recibidos:
 ```shell
 //captura
 tcpdump -i ens33 -s 65535 -w tcp_bisbi.pcap
-//envio
+
+//nuestro compañero busca cosas
+
+//en otra maquina
 scp lsi@10.11.48.143:/home/lsi/tcp_bisbi.pcap .
 ```
+Abrimos en wireshark buscamos el png y en File -> Export object lo guardamos y luego abrimos.
 # C)
 Para obtener la mac del segmento usamos:
 ```
