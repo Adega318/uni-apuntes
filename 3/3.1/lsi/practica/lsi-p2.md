@@ -97,6 +97,9 @@ arpon(defensa) vs ettercap + arp poisoning(ataque)
 - registros del ataque
 - mostrar que el arp se mantiene
 
+cong in /etc/arpon.conf
+logs in /var/log/arpon.log
+
 # J)x
 - host dicovery
 - port scaning
