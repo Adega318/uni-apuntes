@@ -69,10 +69,12 @@ tcpdump -i ens33 -s 65535 -w my.pcap
 scp lsi@10.11.48.143:/home/lsi/my.pcap .
 ```
 Usamos wireshark para analizar.
-# F) x
-Spoofing de web viendo simultáneamente la web (navegador de texto, xdg-open), se debe configurar el navegador en etter.conf.
-//evaluación con la navegación en la victima y actualización en el atacante sin interacción
-
+# F) 
+Editar en ettercap el valor de remote browser:
+```
+// /etc/etter.conf
+remote_browser = w3m .....
+```
 Lanzamiento del spofing sobre la maquina con el remote.
 ```shell
 ettercap -T -i ens33 -P remote_browser -q -M arp:remote //10.11.48.142/ //10.11.48.1/
