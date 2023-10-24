@@ -87,3 +87,30 @@ arpon vs ettercap + arp poisoning
 
 # K)
 conexiones y ancho de banda consumido
+- iftop
+
+# M)
+
+# N)
+ataque dod web
+- victima -> server apache
+- atacante
+	- sloworis
+	- slowhttprest
+
+# O)
+defender apache
+- modsecurity
+- modevaise -0,25
+
+# P)
+server dns/transferencia de zona
+- gestores de contenido
+- servidor de correo/
+
+# R)
+password guesing
+- medusa
+- hydra
+
+# S)
