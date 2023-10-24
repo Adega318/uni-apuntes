@@ -80,45 +80,45 @@ Social:
 - filto ettercap
 - ingeniería social
 
-# H)
+# H)x
 MITM ipv6 ettercap + ndp
-# I)
+# I)x
 arpon(defensa) vs ettercap + arp poisoning(ataque)
 - registros del ataque
 - mostrar que el arp se mantiene
 
-# J)
+# J)x
 - host dicovery
 - port scaning
 - os fingerprinting
 
-# K)
+# K)x
 conexiones y ancho de banda consumido
 - iftop
 - tcptrack
 - nethogs
 
-# M)
+# M)x
 Diferencia teórica entre DOS directo y reflexivo, como hacerlo con packit (**NIVEL TEÓRICO NO PRACTICO**)
-# N)
+# N)x
 ataque DOS web
 - victima -> server apache
 - atacante
 	- sloworis
 	- slowhttprest
 
-# O)
+# O)x
 defender apache
 - modsecurity (dentro de apache)
 - modevaise -0,25 (NO USAR)
 
-# P)
+# P)x
 Averiguar de la usc
 - server dns/transferencia de zona
 - gestores de contenido
 - servidor de correo/estafetas
 
-# R)
+# R)x
 password guesing
 - medusa
 - hydra
@@ -126,7 +126,7 @@ password guesing
 Se necesita un fichero de users y uno de contraseñas:
 - un usuario lsi.
 - diez contraseñas siendo la ultima la correcta.
-# S)
+# S)x
 OSSEC (IPS)
 -  info 
 - funcionamiento
