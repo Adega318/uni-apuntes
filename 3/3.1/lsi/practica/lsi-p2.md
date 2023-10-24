@@ -85,7 +85,8 @@ MITM ipv6 ettercap + ndp
 # I)
 arpon(defensa) vs ettercap + arp poisoning(ataque)
 - registros del ataque
-- 
+- mostrar que el arp se mantiene
+
 # J)
 - host dicovery
 - port scaning
@@ -94,11 +95,13 @@ arpon(defensa) vs ettercap + arp poisoning(ataque)
 # K)
 conexiones y ancho de banda consumido
 - iftop
+- tcptrack
+- nethogs
 
 # M)
-
+Diferencia teórica entre DOS directo y reflexivo, como hacerlo con packit (**NIVEL TEÓRICO NO PRACTICO**)
 # N)
-ataque dod web
+ataque DOS web
 - victima -> server apache
 - atacante
 	- sloworis
@@ -106,7 +109,7 @@ ataque dod web
 
 # O)
 defender apache
-- modsecurity
+- modsecurity (dentro de apache)
 - modevaise -0,25
 
 # P)
