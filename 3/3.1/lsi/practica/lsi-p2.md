@@ -83,7 +83,9 @@ Social:
 # H)
 MITM ipv6 ettercap + ndp
 # I)
-arpon vs ettercap + arp poisoning
+arpon(defensa) vs ettercap + arp poisoning(ataque)
+- registros del ataque
+- 
 # J)
 - host dicovery
 - port scaning
@@ -118,3 +120,8 @@ password guesing
 - hydra
 
 # S)
+OSSEC (IPS)
+-  info 
+- funcionamiento
+- baneo y debaneo de ips
+- 
