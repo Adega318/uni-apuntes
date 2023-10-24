@@ -17,7 +17,7 @@ Captura de trafico, usando ettercap + wireshark para snifear y visualizar data (
 ### Spoofing
 Comando básico para realizar spoofing:
 ```bash
-ettercap -T -q -i ens33 -M arp:remote //10.11.48.142 //10.11.48.1
+ettercap -T -q -i ens33 -M arp:remote //10.11.48.142/ //10.11.48.1/
 ```
 - -T, text mode
 - -q, filtra lo que se muestra por pantalla.
