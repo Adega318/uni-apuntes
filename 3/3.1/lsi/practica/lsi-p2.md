@@ -75,3 +75,15 @@ Para creación:
 Social:
 - filto ettercap
 - ingeniería social
+
+# H)
+MITM ipv6 ettercap + ndp
+# I)
+arpon vs ettercap + arp poisoning
+# J)
+- host dicovery
+- port scaning
+- os fingerprinting
+
+# K)
+conexiones y ancho de banda consumido
