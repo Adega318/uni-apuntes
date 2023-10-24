@@ -72,6 +72,11 @@ Usamos wireshark para analizar.
 # F) x
 Spoofing de web viendo simultáneamente la web (navegador de texto, xdg-open), se debe configurar el navegador en etter.conf.
 //evaluación con la navegación en la victima y actualización en el atacante sin interacción
+
+Lanzamiento del spofing sobre la maquina con el remote.
+```shell
+ettercap -T -i ens33 -P remote_browser -q -M arp:remote //10.11.48.142/ //10.11.48.1/
+```
 # G) x
 Generación de peiloads y envió al atacado, la segunda parte es ingeniería social para que parezca natural.
 Para creación:
