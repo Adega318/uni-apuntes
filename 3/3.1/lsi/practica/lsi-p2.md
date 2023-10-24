@@ -110,21 +110,24 @@ ataque DOS web
 # O)
 defender apache
 - modsecurity (dentro de apache)
-- modevaise -0,25
+- modevaise -0,25 (NO USAR)
 
 # P)
-server dns/transferencia de zona
+Averiguar de la usc
+- server dns/transferencia de zona
 - gestores de contenido
-- servidor de correo/
+- servidor de correo/estafetas
 
 # R)
 password guesing
 - medusa
 - hydra
 
+Se necesita un fichero de users y uno de contraseñas:
+- un usuario lsi.
+- diez contraseñas siendo la ultima la correcta.
 # S)
 OSSEC (IPS)
 -  info 
 - funcionamiento
-- baneo y debaneo de ips
-- 
+- baneo y debaneo de ips (mediante osec conf)
