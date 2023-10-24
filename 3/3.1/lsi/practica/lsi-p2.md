@@ -100,6 +100,11 @@ arpon(defensa) vs ettercap + arp poisoning(ataque)
 cong in /etc/arpon.conf
 logs in /var/log/arpon.log
 
+Ver el arp:
+```
+
+```
+
 # J)x
 - host dicovery
 - port scaning
