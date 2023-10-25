@@ -96,6 +96,7 @@ Dominio interno para la red tor donde los servicios están representados por una
 ## Deepwebp
 Toda la web no indexable por los navegadores.
 # Port forwarding
+- x11 for
 
 # Proteger Grub
 grub-mkpasswd-pbkdfz
