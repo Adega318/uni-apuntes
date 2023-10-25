@@ -95,6 +95,8 @@ En tor los nodos se clasifican en:
 Dominio interno para la red tor donde los servicios están representados por una cadena hexadecimal .onion, siendo accesibles desde la red tor.
 ## Deepwebp
 Toda la web no indexable por los navegadores.
+# Port forwarding
+
 # Proteger Grub
 grub-mkpasswd-pbkdfz
 
