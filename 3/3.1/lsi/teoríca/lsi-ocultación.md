@@ -96,7 +96,8 @@ Dominio interno para la red tor donde los servicios están representados por una
 ## Deepwebp
 Toda la web no indexable por los navegadores.
 # Port forwarding
-- x11 for
+- x11 forwarding, envió de pantallazos gráficos por ssh.
+- IODINE, encapsulador de paginas para evitar portales contiguos (hoteles), encapsulando peticiones y resoluciones con un servidor mediante resoluciones DNS.
 
 # Proteger Grub
 grub-mkpasswd-pbkdfz
