@@ -81,6 +81,14 @@ Para realizar el borrado casi permanente de la información tenemos herramientas
 - smenn, borra de forma segura la ram.
 - erraser (windows)
 
+# Tor
+Para usar la red tor se com
+## Nodos
+En tor los nodos se clasifican en:
+- Entrada
+- Intermedio
+- Salida
+
 # Proteger Grub
 grub-mkpasswd-pbkdfz
 
