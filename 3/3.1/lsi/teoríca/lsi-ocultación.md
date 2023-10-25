@@ -92,7 +92,9 @@ En tor los nodos se clasifican en:
 - Intermedio
 - Salida
 ## .onion
-Dominio interno para la red
+Dominio interno para la red tor donde los servicios están representados por una cadena hexadecimal .onion, siendo accesibles desde la red tor.
+## Deepwebp
+Toda la web no indexable por los navegadores.
 # Proteger Grub
 grub-mkpasswd-pbkdfz
 
