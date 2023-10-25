@@ -82,7 +82,9 @@ Para realizar el borrado casi permanente de la información tenemos herramientas
 - erraser (windows)
 
 # Tor
-Para usar la red tor se com
+Para usar la red tor se convierte nuestra paqueteria usando un **tor proxi**, estos paquetes se envían por **tor rutes** compuestas de nodos.
+## Cifrado
+El sistema de cifrado de cebolla se basa en cifrar el paquete un número de veces igual a los nodos por los que pasara, en cada nodo se quitara una capa de cifrado, en el de salida el paquete quedara limpio y sera enviado al destinatario.
 ## Nodos
 En tor los nodos se clasifican en:
 - Entrada
