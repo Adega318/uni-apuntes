@@ -26,5 +26,14 @@ Conjunto de tags para representar  información, siguiendo las siguientes reglas
 
 
 ## JSON
+## Sintaxis
+### Tipos
+- Objeto, especificado entre llaves {}
+- Array, especificado entre corchetes \[\]
+- String, especificado entre comillas dobles ""
+- Número
+- Bool
+- Null
+
 ## Validación
 La validación se realiza mediante esquemas 
