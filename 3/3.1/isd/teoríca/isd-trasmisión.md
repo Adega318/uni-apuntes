@@ -66,8 +66,8 @@ array
 {
 	"type": "array",
 	"items": {
-		"type": "string"
-		"minlenght"
+		"type": "string",
+		"minlenght": 4
 	}
 }
 ```
