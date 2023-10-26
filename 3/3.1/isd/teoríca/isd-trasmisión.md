@@ -35,7 +35,7 @@ Conjunto de tags para representar  información, siguiendo las siguientes reglas
 - Bool
 - Null
 
-### Ejemplo
+### Esquemas
 null
 ```JSON
 {"type": "null"}
@@ -48,9 +48,18 @@ número
 ```JSON
 {
 	"type": "integer", //enteros
-	"minimun": 100, //maximo
-	"maximun": 200 //ma
+	"minimun": 100, //minimo
+	"maximun": 200 //maximo
 } 
 ```
+string
+```JSON
+{
+	"type": "string",
+	"minlenght": 4,
+	"maxlenght": 10
+}
+```
+
 ## Validación
 La validación se realiza mediante esquemas 
