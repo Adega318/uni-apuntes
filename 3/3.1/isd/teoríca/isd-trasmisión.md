@@ -27,3 +27,4 @@ Conjunto de tags para representar  información, siguiendo las siguientes reglas
 
 ## JSON
 ## Validación
+La validación se realiza mediante esquemas 
