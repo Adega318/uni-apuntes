@@ -57,9 +57,17 @@ string
 {
 	"type": "string",
 	"minlenght": 4,
-	"maxlenght": 10
+	"maxlenght": 10,
+	"format": "date_time"
 }
 ```
-
-## Validación
-La validación se realiza mediante esquemas 
+array
+```JSON
+{
+	"type": "array",
+	"items": {
+		"type": "string"
+		"minlenght"
+	}
+}
+```
