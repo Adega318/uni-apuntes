@@ -35,5 +35,22 @@ Conjunto de tags para representar  información, siguiendo las siguientes reglas
 - Bool
 - Null
 
+### Ejemplo
+null
+```JSON
+{"type": "null"}
+```
+bool
+```JSON
+{"type": "boolean"}
+```
+número
+```JSON
+{
+	"type": "integer", //enteros
+	"minimun": 100, //maximo
+	"maximun": 200 //ma
+} 
+```
 ## Validación
 La validación se realiza mediante esquemas 
