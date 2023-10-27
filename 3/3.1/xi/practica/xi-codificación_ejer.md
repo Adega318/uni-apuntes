@@ -112,3 +112,14 @@ n = 3584 bits
 ## C)
 tasa usada
 $R=K/m = 3200/3584=0.893$
+## D)
+tamaño de la matriz control de paridad en ldpc
+$H_{(n-k)\times n}$
+$n= 2048$
+$k=1723$
+$325\times 2048$
+# pag49
+## A)
+bits trasmitidos por símbolo QPSK con tasa 3/5
+QPSK -> 4 niveles
+$bits\ por \ símbolo $
