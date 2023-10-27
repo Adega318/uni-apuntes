@@ -18,5 +18,7 @@ Los riesgos identificados se cuantificaran y establecerá la prioridad de los mi
 Para asegurar la subjetividad de la valoración existen múltiples técnicas:
 - Uso de valoración de terceros
 - Etiquetas de valoración para eliminar la valoración directa sobre números.
+
+
 ## Análisis
 ## Control y seguimiento
