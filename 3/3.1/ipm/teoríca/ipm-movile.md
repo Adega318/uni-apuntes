@@ -19,3 +19,4 @@ flutterdev
 // hot restart and hot reload
 
 ## Manejo de estados
+El manejo de estados se realiza mediante un 
