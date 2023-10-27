@@ -15,6 +15,8 @@ Elaboración de una lista de riesgos que pueden afectar al proyecto, esta lista 
 De manera opcional se agrupa los riesgos por causas para considerar la elaboración de planes de prevención para causas con gran cantidad de riesgos asociados.
 ## Valoración
 Los riesgos identificados se cuantificaran y establecerá la prioridad de los mismos.
-Para aseguarar la subjetividad de la valoración 
+Para asegurar la subjetividad de la valoración existen múltiples técnicas:
+- Uso de valoración de terceros
+- Etiquetas de valoración para eliminar la valoración directa sobre números.
 ## Análisis
 ## Control y seguimiento
