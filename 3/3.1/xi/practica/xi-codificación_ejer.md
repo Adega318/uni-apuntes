@@ -86,3 +86,20 @@ $K=n-m$
 
 No existe valor de m hamming para nuestra tasa.
 ## F)
+lineal sistemático con tasa 2/5 y dmin 3
+$k=2\ m=5$
+
+| u   | c     | p   |
+| --- | ----- | --- |
+| 00  | 00000 | 0   |
+| 01  | 01111 | 4   |
+| 10  | 10101 | 3   |
+| 11  | 11010 | 3   |
+
+G
+
+| 1   | 0   | 1   | 0   | 1   |
+| --- | --- | --- | --- | --- |
+| 0   | 1   | 1   | 1   | 1    |
+
+# pag47
