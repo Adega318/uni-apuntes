@@ -45,4 +45,16 @@ k=2 m=5
 
 ## A)
 tasa y si es sistemático
-$R$
+$R=k/m = 2/5$
+Es sistemático si las dos primeras posiciones son el mensaje
+## B)
+generadora
+
+| 1   | 0   | 1   | 0   | 0   |
+| --- | --- | --- | --- | --- |
+| 0   | 1   | 1   | 1   | 1   | 
+
+## C)
+control de paridad y comprueba sindromes
+
+|
