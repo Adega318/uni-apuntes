@@ -19,6 +19,12 @@ Para asegurar la subjetividad de la valoración existen múltiples técnicas:
 - Uso de valoración de terceros
 - Etiquetas de valoración para eliminar la valoración directa sobre números.
 
-
 ## Análisis
+Se clasifican los riesgos en:
+- Dentro de alcance, el evitar el riesgo tiene costos asumibles.
+- Fuera de alcance, costos in asumibles.
+- Inevitable
+
+En base a la clasificación se crean planes de contención, se sigue un estándar para los planes previamente establecidos.
 ## Control y seguimiento
+Se hace un seguimiento de los riesgos y planes de los mismos normalmente de manera mensual.
