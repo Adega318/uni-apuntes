@@ -128,4 +128,7 @@ $2*3/5=1.2$
 $8-PSK\rightarrow 8 = 2^b\rightarrow b=3$
 $3*6/7=2.57$
 ## C)
-$V_b = 5Mb/s,\ R=$
+$V_{bF} = 5Mb/s,\ R=9/10,\ 8-PSK$
+$B_m=V_s$
+$V_s=\frac{V_{bT}}{b}=\frac{V_{bF}*R^-1}{b}=\frac{5.5}{3}=1.833$
+
