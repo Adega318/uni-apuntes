@@ -122,4 +122,10 @@ $325\times 2048$
 ## A)
 bits trasmitidos por símbolo QPSK con tasa 3/5
 QPSK -> 4 niveles
-$bits\ por \ símbolo $
+$4= 2^b \rightarrow b= 2\ bits\ por \ símbolo$
+$2*3/5=1.2$
+## B)
+$8-PSK\rightarrow 8 = 2^b\rightarrow b=3$
+$3*6/7=2.57$
+## C)
+$V_b = 5Mb/s,\ R=$
