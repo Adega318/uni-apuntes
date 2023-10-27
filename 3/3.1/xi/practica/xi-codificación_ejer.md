@@ -55,6 +55,21 @@ generadora
 | 0   | 1   | 1   | 1   | 1   | 
 
 ## C)
-control de paridad y comprueba sindromes
+control de paridad y comprueba síndromes
 
-|
+| 1   | 1   | 1   | 0   | 0   |
+| --- | --- | --- | --- | --- |
+| 0   | 1   | 0   | 1   | 0   |
+| 0   | 1   | 0   | 0   | 1   |
+
+$S= V\times H^T$
+
+| 1   | 0   | 0   | 
+| --- | --- | --- |
+| 1   | 1   | 1   |
+| 1   | 0   | 0   |
+| 0   | 1   | 0   |
+| 0   | 0   | 1   |
+
+S1 = 000
+S2 = 
