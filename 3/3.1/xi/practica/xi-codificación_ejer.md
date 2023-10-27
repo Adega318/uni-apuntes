@@ -27,3 +27,22 @@ $H=[P_{(m-k)xk}^T I_{m-k}]$
 | 1   | 0   | 1   | 0   |
 | --- | --- | --- | --- |
 | 0   | 1   | 0   | 1   | 
+
+## D)
+número de errores detectables y corregibles.
+$detectables = dmin-1=2-1=1$
+$corregibles = \frac{dmin-1}{2} = 1/2 \rightarrow 0$
+
+# pag 43
+k=2 m=5
+
+| u   | c     |
+| --- | ----- |
+| 00  | 00000 |
+| 01  | 01111 |
+| 10  | 10100 |
+| 11  | 11011 | 
+
+## A)
+tasa y si es sistemático
+$R$
