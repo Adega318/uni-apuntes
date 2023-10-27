@@ -103,3 +103,12 @@ G
 | 0   | 1   | 1   | 1   | 1    |
 
 # pag47
+## A)
+bits en la entrada?
+$50\times 64=3200\ bits\ fuente$
+## B)
+cuantos bits se trasmitimos
+n = 3584 bits
+## C)
+tasa usada
+$R=K/m = 3200/3584=0.893$
