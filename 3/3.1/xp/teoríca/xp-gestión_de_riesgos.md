@@ -12,7 +12,9 @@ objetivos definidos en el proyecto, los riesgos son clasificados en múltiples t
 La gestión de riesgos divide el proceso en 4 fases básicas.
 ## Identificación
 Elaboración de una lista de riesgos que pueden afectar al proyecto, esta lista se realiza con respecto a  un marco clasificatorio de riesgos como el presentado anteriormente (tipos de riesgo).
-Gracias a la identificación de los riesgos se puede apoyar en el estudo
+Gracias a la identificación de los riesgos se puede apoyar en el estudio de causa efecto de los riesgos, para el mismo riesgo y causa el efecto puede variar.
+De manera opcional se agrupa los riesgos por causas para 
 ## Valoración
+
 ## Análisis
 ## Control y seguimiento
