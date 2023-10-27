@@ -238,5 +238,15 @@ Entre las anteriores debemos intentar mantener la asertiva mediante técnicas co
 - disco rayado, reiterar una información para conseguir que el mensaje se comprenda.
 - banco de niebla, establecer tu opinión y rechazar la discusión con el interlocutor.
 - aplazamiento asertivo, aplazar la discusión para evitar un escalamiento.
-- ignorar, 
-- pregunta asertiva, 
+- ignorar
+- pregunta asertiva
+
+# Riesgo
+Evento que podría causar
+Tenemos múltiples tipos de riesgos:
+- Estratégicos
+- Comerciales
+- Contractuales y financieros
+- Gestión
+- Proyecto
+- Explotación
