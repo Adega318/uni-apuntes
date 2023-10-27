@@ -72,4 +72,10 @@ $S= V\times H^T$
 | 0   | 0   | 1   |
 
 S1 = 000
-S2 = 
+S2 = 000
+S3 = 000
+S4 = 000
+
+## D)
+distancia mínima
+$$
