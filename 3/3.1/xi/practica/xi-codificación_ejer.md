@@ -78,4 +78,11 @@ S4 = 000
 
 ## D)
 distancia mínima
-$$
+$dmin = 2$
+## E)
+código de hamming con esa misma tasa?
+$n=2^m-1$
+$K=n-m$
+
+No existe valor de m hamming para nuestra tasa.
+## F)
