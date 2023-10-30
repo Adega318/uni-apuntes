@@ -7,6 +7,12 @@ División de redes en redes más pequeñas.
 ## VLan
 Sistema que permite el subnetting de manera independiente del sistema físico mediante el protocolo vlan, este protocolo establece puertos como trunk port que permiten propagar paquetes por la vlan.
 Los protocolos de vlan se pueden atacar con herramientas como **Yersinia (capa 2)**.
+### Protocolos
+Los principales protocolos atacables por Yersinia son:
+- STP, 
+- OTP
 ### Switch spoofing
 Enmascarado como switch del equipo mediante el uso de Yersinia dando acceso a la capa 2, evitando la mayoría de firewals y vlan.
-La proteción para este tipo de ataques es el 
+La protección para este tipo de ataques es el filtrado de las tramas no procedentes de maquinas aceptadas.
+### Double tagging
+Ataque mediante el doble etiquetado de tramas en vlan.
