@@ -99,7 +99,8 @@ Toda la web no indexable por los navegadores.
 - x11 forwarding, envió de pantallazos gráficos por ssh.
 - IODINE, encapsulador de paginas para evitar portales contiguos (hoteles), encapsulando peticiones y resoluciones con un servidor mediante resoluciones DNS.
 - corkscrew, salta proxis http.
-- port knocking, secuencias concreta de paquetes para subir y bajar servicios desactivados hacia la red (/etc/Knock.conf).
+# Port knocking
+Secuencias concreta de paquetes para subir y bajar servicios desactivados hacia la red (/etc/Knock.conf).
 
 # Proteger Grub
 grub-mkpasswd-pbkdfz
