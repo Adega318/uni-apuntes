@@ -9,7 +9,7 @@ Sistema que permite el subnetting de manera independiente del sistema físico me
 Los protocolos de vlan se pueden atacar con herramientas como **Yersinia (capa 2)**.
 ### Protocolos
 Los principales protocolos atacables por Yersinia son:
-- STP, 
+- STP, convierte la estructura de la red en un árbol usándolo para el trafico de la red evitando los bucles (hace uso de BPDUs).
 - OTP
 ### Switch spoofing
 Enmascarado como switch del equipo mediante el uso de Yersinia dando acceso a la capa 2, evitando la mayoría de firewals y vlan.
