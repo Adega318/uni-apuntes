@@ -6,3 +6,7 @@ El sniffing se puede hacer sobre trafico seguro o no seguro, el trafico seguro e
 División de redes en redes más pequeñas.
 ## VLan
 Sistema que permite el subnetting de manera independiente del sistema físico mediante el protocolo vlan, este protocolo establece puertos como trunk port que permiten propagar paquetes por la vlan.
+Los protocolos de vlan se pueden atacar con herramientas como **Yersinia (capa 2)**.
+### Switch spoofing
+Enmascarado como switch del equipo mediante el uso de Yersinia dando acceso a la capa 2, evitando la mayoría de firewals y vlan.
+La proteción para este tipo de ataques es el 
