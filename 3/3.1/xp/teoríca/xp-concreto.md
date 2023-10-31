@@ -18,23 +18,23 @@ La lista de cambios mantiene la traducibilidad en los cambios y autores de los m
 Lista de distribución del procedimiento, indicando quien tiene que versión de este procedimiento.
 ## Indice
 Un indice debe tener:
-1. Objeto, objetivo del procedimiento.
-2. Alcance, se refiere a los casos donde es aplicable el procedimiento.
-3. Procedimientos relacionados, procedimientos usados en el procedimiento.
-4. 
-5. 
-6. 
+1. **Objeto**, objetivo del procedimiento.
+2. **Alcance**, se refiere a los casos donde es aplicable el procedimiento.
+3. **Procedimientos relacionados**, procedimientos usados en el procedimiento.
+4. **Aspectos relevantes**, no aplicable a nuestro ámbito.
+5. **Aprobaciones**, persona o personas que han aprobado el proyecto.
+6. **Responsabilidades**, responsabilidad de los actores en el procedimiento.
 7. 
 8. 
 9. 
-10. Base CP
-	1. Inicio
-	2. Planificación
-	3. Seguimiento
-	4. Cierre
-11. Formularios
-	1. PP
-	2. InfSeg
-	3. InfCierre
-	4. InfExcepción
+10. **Base CP**
+	1. **Inicio**
+	2. **Planificación**
+	3. **Seguimiento**
+	4. **Cierre**
+11. **Formularios**
+	1. **PP**
+	2. **InfSeg**
+	3. **InfCierre**
+	4. **InfExcepción**
 
