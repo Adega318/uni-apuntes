@@ -6,3 +6,4 @@ En base a esto se estima el esfuerzo de las tareas del proyecto, riesgo y dificu
 - grande
 
 Sobre la plantilla del tipo de proyecto se realizan ajustes. Con la plantilla se comienza la planificación, gestión de riesgos (opcional) y estipulación del seguimiento.
+# Seguimiento
