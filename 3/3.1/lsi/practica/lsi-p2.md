@@ -162,7 +162,7 @@ OSSEC (IPS)
 - funcionamiento
 - baneo y debaneo de ips (mediante osec conf)
 
-#
+# T)x
 | servicio      | versión | puerto |
 | ------------- | ------- | ------ |
 | Prometeus     | 2.47    | 9000   |
