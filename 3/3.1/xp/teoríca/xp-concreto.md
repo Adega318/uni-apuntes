@@ -19,8 +19,8 @@ Lista de distribución del procedimiento, indicando quien tiene que versión de 
 ## Indice
 Un indice debe tener:
 1. Objeto, objetivo del procedimiento.
-2. Alcance, se refiere a las situaciones donde es aplicable
-3. 
+2. Alcance, se refiere a los casos donde es aplicable el procedimiento.
+3. Procedimientos relacionados, procedimientos usados en el procedimiento.
 4. 
 5. 
 6. 
