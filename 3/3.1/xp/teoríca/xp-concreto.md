@@ -24,11 +24,11 @@ Un indice para procedimientos orientados a proyectos debe tener:
 4. **Aspectos relevantes**, no aplicable a nuestro ámbito.
 5. **Aprobaciones**, persona o personas que han aprobado el proyecto.
 6. **Responsabilidades**, responsabilidad de los actores en el procedimiento.
-7. **Productos de entrada**, material de entrada para el proyecto.
-8. 
-9. 
+7. **Productos de entrada**, materiales de entrada.
+8. **Productos de salida**, entregarles de salida.
+9. **Mecanismos de control**, personas encargadas de controlar el proyecto.
 10. **Base CP**
-	1. **Inicio**
+	1. **Inicio**, 
 	2. **Planificación**
 	3. **Seguimiento**
 	4. **Cierre**
