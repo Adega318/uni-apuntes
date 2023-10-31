@@ -110,7 +110,7 @@ ip -s -s neigh flush all
 ```
 Activate arpON:
 ```
-arpon -d -i ens33 -S
+arpon -d -i ens33 -H
 ```
 # J)x
 - host dicovery
