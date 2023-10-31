@@ -17,14 +17,14 @@ La lista de cambios mantiene la traducibilidad en los cambios y autores de los m
 ## LD
 Lista de distribución del procedimiento, indicando quien tiene que versión de este procedimiento.
 ## Indice
-Un indice debe tener:
+Un indice para procedimientos orientados a proyectos debe tener:
 1. **Objeto**, objetivo del procedimiento.
 2. **Alcance**, se refiere a los casos donde es aplicable el procedimiento.
 3. **Procedimientos relacionados**, procedimientos usados en el procedimiento.
 4. **Aspectos relevantes**, no aplicable a nuestro ámbito.
 5. **Aprobaciones**, persona o personas que han aprobado el proyecto.
 6. **Responsabilidades**, responsabilidad de los actores en el procedimiento.
-7. 
+7. **Productos de entrada**, material de entrada para el proyecto.
 8. 
 9. 
 10. **Base CP**
