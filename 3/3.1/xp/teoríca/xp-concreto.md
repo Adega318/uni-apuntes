@@ -7,3 +7,6 @@ En base a esto se estima el esfuerzo de las tareas del proyecto, riesgo y dificu
 
 Sobre la plantilla del tipo de proyecto se realizan ajustes. Con la plantilla se comienza la planificación, gestión de riesgos (opcional) y estipulación del seguimiento.
 # Seguimiento
+# Cierre
+Se convoca una reunión de cierre con el jefe, miembros del proyecto y responsable de calidad. En esta reunión se tomaran los datos para poblar los históricos y obtener lecciones del trascurso del proyecto.
+# Procedimiento
