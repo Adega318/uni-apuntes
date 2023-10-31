@@ -11,6 +11,22 @@ Sobre la plantilla del tipo de proyecto se realizan ajustes. Con la plantilla se
 Se convoca una reunión de cierre con el jefe, miembros del proyecto y responsable de calidad. En esta reunión se tomaran los datos para poblar los históricos y obtener lecciones del trascurso del proyecto.
 # Procedimiento
 ## Portada
-La portada de un procedimiento consta de imagen corporativa, titulo, autor (senior), revisor (responsable de calidad), aprobado (director general), versión
+La portada de un procedimiento consta de imagen corporativa, titulo, autor (senior), revisor (responsable de calidad), aprobado (director general) y versión
 ## LCC
-La lista de cambios mantiene la trazabilidad en los cabios y autores de los mismos.
+La lista de cambios mantiene la traducibilidad en los cambios y autores de los mismos.
+## LD
+Lista de distribución del procedimiento, indicando quien tiene que versión de este procedimiento.
+## Indice
+Un indice debe tener:
+1. j
+2. .
+3. .
+4. 4.
+5. .
+6. .
+7. .
+8. .
+9. .
+10. Base CP
+	1. Inicio
+	2. Planifica
