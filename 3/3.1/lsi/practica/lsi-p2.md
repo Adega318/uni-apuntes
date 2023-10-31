@@ -143,7 +143,7 @@ Averiguar de la usc
 - gestores de contenido
 - servidor de correo/estafetas
 
-# R)x
+# Q)x
 password guesing
 - medusa
 - hydra
@@ -151,6 +151,11 @@ password guesing
 Se necesita un fichero de users y uno de contraseñas:
 - un usuario lsi.
 - diez contraseñas siendo la ultima la correcta.
+
+# R)x
+Detención de pasword guesing:
+- OSSEC
+
 # S)x
 OSSEC (IPS)
 -  info 
@@ -166,3 +171,5 @@ OSSEC (IPS)
 
 Grafana:
 - dashbord 1860
+
+//Prestar atención a como se generan los servicios en los tutoriales.
