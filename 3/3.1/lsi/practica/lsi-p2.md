@@ -156,3 +156,13 @@ OSSEC (IPS)
 -  info 
 - funcionamiento
 - baneo y debaneo de ips (mediante osec conf)
+
+#
+| servicio      | versión | puerto |
+| ------------- | ------- | ------ |
+| Prometeus     | 2.47    | 9000   |
+| Node_explorer | -       | 9010   |
+| Grad              |         |        |
+Prometeus (2.47)
+Node_exporter
+Grafana (10.)
