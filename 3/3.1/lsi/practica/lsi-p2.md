@@ -58,9 +58,7 @@ ping6 -c 2 -I ens33 2002:a0b::1
 ip -6 neigh
 ```
 // todo lo de ipv6 sin fe....
-# E) x
-Capturar todo el trafico de alguna de nuestras interfaces, ettercap y tcpdump
-
+# E) 
 Para obtener nuestro trafico tcp:
 ```shell
 //tomamos el trafico tcp
@@ -130,11 +128,9 @@ tcptrack -i ens33
 --
 nethogs
 ```
-# M)x
-Diferencia teórica entre DOS directo y reflexivo, como hacerlo con packit (**NIVEL TEÓRICO NO PRACTICO**)
-
+# M)
 Los Dos directos se basan en esclavizar equipos par inundar de peticiones directas a un servicio, por otra parte el reflexivo se centra en enviar peticiones a servidores de alta capacidad con origen el destino para inundarlo de las replays.
-Para realizar estos ataques con packit usaríamos su modo de inyección, para el directo (DDOS) enviando al objetivo directamente
+Para realizar estos ataques con packit usaríamos su modo de inyección, para el directo (DDOS) enviando al objetivo directamente por otra parte el reflexivo (DrDDOS) se realiza mediante la misma inyección pero como objetivo reflectores e ip falsa objetivo para que reciba las repuestas.
 # N)x
 ataque DOS web
 - victima -> server apache
