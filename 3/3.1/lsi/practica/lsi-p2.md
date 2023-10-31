@@ -124,7 +124,11 @@ conexiones y ancho de banda consumido
 - nethogs
 
 ```shell
-iftop -B
+iftop -i ens33
+--
+tcptrack -i ens33
+--
+nethogs
 ```
 # M)x
 Diferencia teórica entre DOS directo y reflexivo, como hacerlo con packit (**NIVEL TEÓRICO NO PRACTICO**)
