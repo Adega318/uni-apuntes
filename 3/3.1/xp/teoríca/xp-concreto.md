@@ -18,15 +18,23 @@ La lista de cambios mantiene la traducibilidad en los cambios y autores de los m
 Lista de distribución del procedimiento, indicando quien tiene que versión de este procedimiento.
 ## Indice
 Un indice debe tener:
-1. j
-2. .
-3. .
-4. 4.
-5. .
-6. .
-7. .
-8. .
-9. .
+1. Objeto, objetivo del procedimiento.
+2. Alcance, se refiere a las situaciones donde es aplicable
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
 10. Base CP
 	1. Inicio
-	2. Planifica
+	2. Planificación
+	3. Seguimiento
+	4. Cierre
+11. Formularios
+	1. PP
+	2. InfSeg
+	3. InfCierre
+	4. InfExcepción
+
