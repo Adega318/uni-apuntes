@@ -132,6 +132,8 @@ nethogs
 ```
 # M)x
 Diferencia teórica entre DOS directo y reflexivo, como hacerlo con packit (**NIVEL TEÓRICO NO PRACTICO**)
+
+Los Dos directos se basan en esclavizar equipos par inundar de peticiones directas a un servicio, por otra parte el reflexivo se centra en enviar peticiones a servidores de alta capacidad con origen el destino para inundarlo de las replays.
 # N)x
 ataque DOS web
 - victima -> server apache
