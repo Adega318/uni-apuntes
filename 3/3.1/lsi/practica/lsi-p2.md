@@ -161,8 +161,8 @@ OSSEC (IPS)
 | servicio      | versión | puerto |
 | ------------- | ------- | ------ |
 | Prometeus     | 2.47    | 9000   |
-| Node_explorer | -       | 9010   |
-| Grad              |         |        |
-Prometeus (2.47)
-Node_exporter
-Grafana (10.)
+| Node_explorer | -       | 9010   | 
+| Grafana       | 10.2.0  | 3000   |
+
+Grafana:
+- dashbord 1860
