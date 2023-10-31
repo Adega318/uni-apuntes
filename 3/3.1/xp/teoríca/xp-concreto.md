@@ -7,6 +7,7 @@ En base a esto se estima el esfuerzo de las tareas del proyecto, riesgo y dificu
 
 Sobre la plantilla del tipo de proyecto se realizan ajustes. Con la plantilla se comienza la planificación, gestión de riesgos (opcional) y estipulación del seguimiento.
 # Seguimiento
+
 # Cierre
 Se convoca una reunión de cierre con el jefe, miembros del proyecto y responsable de calidad. En esta reunión se tomaran los datos para poblar los históricos y obtener lecciones del trascurso del proyecto.
 # Procedimiento
@@ -28,10 +29,11 @@ Un indice para procedimientos orientados a proyectos debe tener:
 8. **Productos de salida**, entregarles de salida.
 9. **Mecanismos de control**, personas encargadas de controlar el proyecto.
 10. **Base CP**
-	1. **Inicio**, 
-	2. **Planificación**
-	3. **Seguimiento**
-	4. **Cierre**
+	1. **Inicio**
+	2. **Clasificación**
+	3. **Planificación**
+	4. **Seguimiento**
+	5. **Cierre**
 11. **Formularios**
 	1. **PP**
 	2. **InfSeg**
