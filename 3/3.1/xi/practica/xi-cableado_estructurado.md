@@ -1,7 +1,9 @@
 # Cableado estructurado
 ## Medio de transmisión
+### Cable de pares
+Permite altas distancias con bajas frecuencias en el cobre (cable telefónico), esto lleva a una baja velocidad.
 ### Par trenzado
-Formado por dos hilos conductores entrelazados, el número de pares puede variar siendo cuatro el estándar. Dentro de este tipo de cables tenemos múltiples tipos:
+Formado por dos hilos conductores entrelazados, el número de pares puede variar, siendo cuatro el estándar. Dentro de este tipo de cables tenemos múltiples tipos:
 
 | Categoría | MHz  | máximo de trasmisión Gb |
 | --------- | ---- | ----------------------- |
@@ -14,7 +16,11 @@ Formado por dos hilos conductores entrelazados, el número de pares puede variar
 ### Fibra óptica
 La fibra óptica es más delicada, pero permite trasmisión y distancias de trasmisión de órdenes de magnitud superior al cobre. Tenemos dos tipos:
 - Monomodo, prioriza la distancia sobre la velocidad.
-- Multimodo, prioriza la velocidad sob
+- Multimodo, prioriza la velocidad sobre la distancia.
+## Arquitectura
+### Esturucturado
+### Subsistemas
+
 # Redes de almacenamiento
 # Visualización de red
 # Organización de un CPD
