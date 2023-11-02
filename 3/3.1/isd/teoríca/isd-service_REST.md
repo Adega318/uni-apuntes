@@ -13,5 +13,8 @@ flowchart LR
 ```
 
 # Servicios REST
-## Metodos
+## Métodos
+### PUT
+### DELETE
+### POST
 # Diseño e implementación
