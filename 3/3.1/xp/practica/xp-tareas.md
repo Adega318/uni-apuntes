@@ -25,3 +25,6 @@ compra
 4d intalación
 Revisar
 # Seguimiento
+## Groso modo
+## Semidetallado
+## Detallado
