@@ -19,10 +19,10 @@ El estándar EIA-568 divide los cables en:
 | 7A        | 1000 | 10        |
 | 8         | 2000 | 40        |
 ### Fibra óptica
-La fibra óptica es más delicada, pero permite trasmisión y distancias de trasmisión de órdenes de magnitud superior al cobre, pero con alto coste e. Tenemos dos tipos:
+La fibra óptica es más delicada, pero permite trasmisión y distancias de trasmisión de órdenes de magnitud superior al cobre, pero con alto coste. Tenemos dos tipos:
 - Monomodo, prioriza la distancia sobre la velocidad.
 - Multimodo, prioriza la velocidad sobre la distancia.
-
+[xi-redes](xi-redes.md)
 ## Arquitectura
 La arquitectura se centra en cableado horizontal, vertical y campus.
 # Redes de almacenamiento
