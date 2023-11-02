@@ -7,7 +7,8 @@ Formado por dos hilos conductores entrelazados, el número de pares puede variar
 - UTP, pares sin apantallamiento.
 - FTP, pares con pantalla exterior.
 - STP, pares con pantallas por pares.
-El estándar EIA-568 
+
+El estándar EIA-568 divide los cables en:
 
 | Categoría | MHz  | máximo de trasmisión Gb |
 | --------- | ---- | ----------------------- |
@@ -21,6 +22,7 @@ El estándar EIA-568
 La fibra óptica es más delicada, pero permite trasmisión y distancias de trasmisión de órdenes de magnitud superior al cobre. Tenemos dos tipos:
 - Monomodo, prioriza la distancia sobre la velocidad.
 - Multimodo, prioriza la velocidad sobre la distancia.
+
 ## Arquitectura
 La arquitectura se centra en cableado horizontal, vertical y campus.
 # Redes de almacenamiento
