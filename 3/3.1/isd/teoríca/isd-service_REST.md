@@ -4,13 +4,14 @@ El caso de estudio se basa en un cliente con una capa interfaz de usuario y una 
 ```mermaid
 flowchart LR
 	subgraph Client
-		Interfaz -.-> a[Acceso a servicios]
+		I[Interfaz] -.-> AS[Acceso a servicios]
 	end
 	subgraph Servidor
-		Servicios -.-> Modelo
+		S[Servicios] -.-> M[Modelo]
 	end
-	a -.- Red -.-> Servicios
+	AS -.->|Red| S
 ```
 
 # Servicios REST
+## Metodos
 # Diseño e implementación
