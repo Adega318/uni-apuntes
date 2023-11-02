@@ -4,6 +4,10 @@
 Permite altas distancias con bajas frecuencias en el cobre (cable telefónico), esto lleva a una baja velocidad.
 ### Par trenzado
 Formado por dos hilos conductores entrelazados, el número de pares puede variar, siendo cuatro el estándar. Dentro de este tipo de cables tenemos múltiples tipos:
+- UTP, pares sin apantallamiento.
+- FTP, pares con pantalla exterior.
+- STP, pares con pantallas por pares.
+El estándar EIA-568 
 
 | Categoría | MHz  | máximo de trasmisión Gb |
 | --------- | ---- | ----------------------- |
@@ -18,9 +22,7 @@ La fibra óptica es más delicada, pero permite trasmisión y distancias de tras
 - Monomodo, prioriza la distancia sobre la velocidad.
 - Multimodo, prioriza la velocidad sobre la distancia.
 ## Arquitectura
-### Esturucturado
-### Subsistemas
-
+La arquitectura se centra en cableado horizontal, vertical y campus.
 # Redes de almacenamiento
 # Visualización de red
 # Organización de un CPD
