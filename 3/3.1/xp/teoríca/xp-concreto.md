@@ -86,5 +86,17 @@ Un indice para procedimientos orientados a proyectos debe tener:
 				2. aprobado, responsable de calidad
 			3. fecha
 		2. índice
+		3. introducción
+			1. Resumen
+			2. Estado del sistema desarrollado
+			3. Revisión de objetivos cumplidos
+			4. Dimensión del proyecto
+		4. resumen de la gestión
+			1. resumen del trabajo realizado (WBS)
+			2. errores destacables
+			3. conclusiones destacadas
+		5. consideraciones principales
+			1. Fases del proyecto con su principales consideraciones
+			2. 
 	4. **InfExcepción**
 
