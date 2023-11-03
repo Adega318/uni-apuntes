@@ -1,5 +1,5 @@
 ```mermeid
-D1[CZMiD]
+D1[CZMiDebian]
 R((Red))
 
 ```
