@@ -1,13 +1,18 @@
 # Red de máquinas
+
 ```mermaid
-flowchart LR
+flowchart TD
 	D1[CZMiDebian1]
 	D2[CZMiDebian2]
 	DS[CZMiDebianServer]
+	N[/Nas/]
 	R((Red interna))
 	D1---R
+	D1---N
 	D2---R
+	D2---N
 	DS---R
+	DS---N
 ```
 # Conceptos
 - Clonar, hacer una copia exacta.
@@ -16,4 +21,5 @@ flowchart LR
 	- BootROM, soporte de pxe en hardware.
 	- Etherboot, soporte por tarjeta de red.
 - WOL, protocolo que permite arrancar una máquina en remoto mediante una máquina local (router) con necesidades de configuración de la misma.
-- 
+- Ip multicast
+- DRBL, 
