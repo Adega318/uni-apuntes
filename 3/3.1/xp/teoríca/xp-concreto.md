@@ -54,8 +54,8 @@ Un indice para procedimientos orientados a proyectos debe tener:
 			3. fecha
 		2. registro de cambios, trazabilidad y autores
 		3. índice
-		4. introducción, propósito y alcance del plan
-		5. objetivos
+		4. introducción, propósito y alcance del plan con nombre, código, objetivo, clasificación, prioridad y dependencias con otros proyectos del proyecto
+		5. objetivos del proyecto, lista de entregables con calidades esperadas
 		6. organización y responsabilidades
 		7. dependencias
 		8. 
