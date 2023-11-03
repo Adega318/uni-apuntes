@@ -37,13 +37,21 @@ Un indice para procedimientos orientados a proyectos debe tener:
 		2. comprobando las hojas de tiempo
 		3. reuniéndose con el equipo
 		4. gestión de riesgos
-		5. ante altos retrasos se replanifica
+		5. ante altos retrasos se replanificará
 		6. ante excepciones con alto impacto se documentarán en la plantilla de informe de excepción, enviado al director técnico
 	5. **Cierre**
 		1. convocación a los implicados a la reunión de cierre
-		2. 
+		2. creación del informe de cierre
+		3. cierre de las hojas de tiempo
 11. **Formularios**
 	1. **PP**
+		1. portada con:
+			1. nombre de proyecto y código del mismo
+			2. firmas de:
+				1. autor, jefe de proyecto
+				2. revisor, responsable de calidad
+				3. aprobado, director técnico
+			3. fecga
 	2. **InfSeg**
 	3. **InfCierre**
 	4. **InfExcepción**
