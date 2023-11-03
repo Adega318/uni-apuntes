@@ -35,10 +35,13 @@ Un indice para procedimientos orientados a proyectos debe tener:
 	4. **Seguimiento**
 		1. cubrir la plantilla de seguimiento
 		2. comprobando las hojas de tiempo
-		3. reuniendose con el equipo
+		3. reuniéndose con el equipo
 		4. gestión de riesgos
-		5. ante altos retrasos se replanifi
+		5. ante altos retrasos se replanifica
+		6. ante excepciones con alto impacto se documentarán en la plantilla de informe de excepción, enviado al director técnico
 	5. **Cierre**
+		1. convocación a los implicados a la reunión de cierre
+		2. 
 11. **Formularios**
 	1. **PP**
 	2. **InfSeg**
