@@ -22,6 +22,8 @@ flutterdev
 El manejo de estados se realiza mediante un "Provider" que conecta con la cima del árbol de widget, crea el estado que es observable por los widgets.
 ## Web
 ### HTML
+El empleo de html semántico tiene múltiples beneficios centrados en la compatibilidad y mantenimiento.
 ### CSS
+El css debe hacer uso del estándar Sass
 ### JavaScript
 ## Usabilidad
