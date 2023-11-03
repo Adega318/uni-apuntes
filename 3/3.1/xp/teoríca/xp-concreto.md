@@ -59,7 +59,8 @@ Un indice para procedimientos orientados a proyectos debe tener:
 		6. organización y responsabilidades, equipo del proyecto con sus roles y responsabilidades
 		7. dependencias
 		8. gestión de riesgos
-		9. desviaciones del sistema de calidad, 
+		9. desviaciones del sistema de calidad, cambios sobre el sistema de calidad base
+		10. seguimiento del proyecto, periocidad y tipo de seguimiento con los impl
 	2. **InfSeg**
 	3. **InfCierre**
 	4. **InfExcepción**
