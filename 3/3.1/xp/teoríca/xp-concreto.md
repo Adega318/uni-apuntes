@@ -56,9 +56,10 @@ Un indice para procedimientos orientados a proyectos debe tener:
 		3. índice
 		4. introducción, propósito y alcance del plan con nombre, código, objetivo, clasificación, prioridad y dependencias con otros proyectos del proyecto
 		5. objetivos del proyecto, lista de entregables con calidades esperadas
-		6. organización y responsabilidades
+		6. organización y responsabilidades, equipo del proyecto con sus roles y responsabilidades
 		7. dependencias
-		8. 
+		8. gestión de riesgos
+		9. desviaciones del sistema de calidad, 
 	2. **InfSeg**
 	3. **InfCierre**
 	4. **InfExcepción**
