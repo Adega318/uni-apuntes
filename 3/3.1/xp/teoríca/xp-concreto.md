@@ -44,14 +44,21 @@ Un indice para procedimientos orientados a proyectos debe tener:
 		2. creación del informe de cierre
 		3. cierre de las hojas de tiempo
 11. **Formularios**
-	1. **PP**
-		1. portada con:
+	1. **PP**, plan de proyecto con:
+		1. portada
 			1. nombre de proyecto y código del mismo
-			2. firmas de:
+			2. firmas
 				1. autor, jefe de proyecto
 				2. revisor, responsable de calidad
 				3. aprobado, director técnico
-			3. fecga
+			3. fecha
+		2. registro de cambios, trazabilidad y autores
+		3. índice
+		4. introducción, propósito y alcance del plan
+		5. objetivos
+		6. organización y responsabilidades
+		7. dependencias
+		8. 
 	2. **InfSeg**
 	3. **InfCierre**
 	4. **InfExcepción**
