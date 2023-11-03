@@ -1,6 +1,6 @@
 # Inicio y planificación
 Tras el inicio del proyecto con el nombramiento del jefe de proyecto, presentación de disponibilidad de recursos y establecimiento del contrato.
-En base a esto se estima el esfuerzo de las tareas del proyecto, riesgo y dificultad de coordinación para  clasificar el proyecto en:
+Basándose en esto se estima el esfuerzo de las tareas del proyecto, riesgo y dificultad de coordinación para clasificar el proyecto en:
 - pequeño
 - mediano
 - grande
@@ -9,10 +9,10 @@ Sobre la plantilla del tipo de proyecto se realizan ajustes. Con la plantilla se
 # Seguimiento
 
 # Cierre
-Se convoca una reunión de cierre con el jefe, miembros del proyecto y responsable de calidad. En esta reunión se tomaran los datos para poblar los históricos y obtener lecciones del trascurso del proyecto.
+Se convoca una reunión de cierre con el jefe, miembros del proyecto y responsable de calidad. En esta reunión se tomarán los datos para poblar los históricos y obtener lecciones del trascurso del proyecto.
 # Procedimiento
 ## Portada
-La portada de un procedimiento consta de imagen corporativa, titulo, autor (senior), revisor (responsable de calidad), aprobado (director general) y versión
+La portada de un procedimiento consta de imagen corporativa, título, autor (senior), revisor (responsable de calidad), aprobado (director general) y versión
 ## LCC
 La lista de cambios mantiene la traducibilidad en los cambios y autores de los mismos.
 ## LD
@@ -60,8 +60,15 @@ Un indice para procedimientos orientados a proyectos debe tener:
 		7. dependencias
 		8. gestión de riesgos
 		9. desviaciones del sistema de calidad, cambios sobre el sistema de calidad base
-		10. seguimiento del proyecto, periocidad y tipo de seguimiento con los impl
+		10. seguimiento del proyecto, periodicidad y tipo de seguimiento con los implicados, criterios de replanificación y métricas de seguimiento
+		11. cronograma
 	2. **InfSeg**
+		1. portada
+			1. nombre de proyecto y código del mismo
+			2. firmas
+				1. autor, jefe de proyecto
+				3. aprobado, director técnico
+			3. fecha
 	3. **InfCierre**
 	4. **InfExcepción**
 
