@@ -33,6 +33,11 @@ Un indice para procedimientos orientados a proyectos debe tener:
 	2. **Clasificación**
 	3. **Planificación**
 	4. **Seguimiento**
+		1. cubrir la plantilla de seguimiento
+		2. comprobando las hojas de tiempo
+		3. reuniendose con el equipo
+		4. gestión de riesgos
+		5. ante altos retrasos se replanifi
 	5. **Cierre**
 11. **Formularios**
 	1. **PP**
