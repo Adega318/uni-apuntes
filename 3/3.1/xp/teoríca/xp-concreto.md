@@ -97,6 +97,10 @@ Un indice para procedimientos orientados a proyectos debe tener:
 			3. conclusiones destacadas
 		5. consideraciones principales
 			1. Fases del proyecto con su principales consideraciones
-			2. 
+			2. documentación
+			3. organización del proyecto (OBS)
+			4. normas y procedimientos, consideraciones sobre el sistema de calidad y sus desviaciones
+			5. tecnicas de desarrollo
+			6. esfuerzo, tiempo y coste
 	4. **InfExcepción**
 
