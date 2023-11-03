@@ -71,13 +71,20 @@ Un indice para procedimientos orientados a proyectos debe tener:
 			3. periodo de seguimiento
 			4. fecha
 		2. índice
-		3. introducción, visión de la situación del pr
-		4. periodo de seguimiento
+		3. introducción, visión de la situación del proyecto a fecha del informe
+		4. periodo de seguimiento, periodo del informe
 		5. tareas realizadas desde el último informe
 		6. tareas a realizar
-		7. seguimiento de riesgos
+		7. seguimiento de riesgos, hoja de riesgos actualizada
 		8. diagrama de Grantt de seguimiento
 		9. lista de problemas e incidentes
 	3. **InfCierre**
+		1. portada
+			1. nombre de proyecto y código del mismo
+			2. firmas
+				1. autor, jefe de proyecto
+				2. aprobado, responsable de calidad
+			3. fecha
+		2. índice
 	4. **InfExcepción**
 
