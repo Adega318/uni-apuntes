@@ -4,9 +4,9 @@
 flowchart TD
 	D1[CZMiDebian1]
 	D2[CZMiDebian2]
-	DS[CZMiDebianServer]
-	N[/Nas/]
-	R((Red interna))
+	DS[CZMiDebianServer\n 10.10.24]
+	N[/"NAT (enp0s8)"/]
+	R(("Red interna (enp0s3)"))
 	D1---R
 	D1---N
 	D2---R
