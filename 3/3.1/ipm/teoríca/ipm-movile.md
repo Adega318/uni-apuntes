@@ -21,5 +21,7 @@ flutterdev
 ## Manejo de estados
 El manejo de estados se realiza mediante un "Provider" que conecta con la cima del árbol de widget, crea el estado que es observable por los widgets.
 ## Web
-
+### HTML
+### CSS
+### JavaScript
 ## Usabilidad
