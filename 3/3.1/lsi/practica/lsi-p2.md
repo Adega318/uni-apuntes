@@ -77,7 +77,7 @@ Lanzamiento del spofing sobre la maquina con el remote.
 ```shell
 ettercap -T -i ens33 -P remote_browser -q -M arp:remote //10.11.48.142/ //10.11.48.1/
 ```
-# G) x
+# G) xB
 Generación de peiloads y envió al atacado, la segunda parte es ingeniería social para que parezca natural.
 Para creación:
 - metasploit + msfvenom (neterpreter/shell/bash)
@@ -90,7 +90,7 @@ MITM ipv6 ettercap + ndp
 ```
 ettercap -T -i 6to4 -Q -M ndp:remote //2002:a0b:308e::1/ //2002:a0b:308e::1/
 ```
-# I)x
+# I)xK
 arpon(defensa) vs ettercap + arp poisoning(ataque)
 - registros del ataque
 - mostrar que el arp se mantiene
@@ -110,12 +110,12 @@ Activate arpON:
 ```
 arpon -d -i ens33 -H
 ```
-# J)x
+# J)xk
 - host dicovery
 - port scaning
 - os fingerprinting
 
-# K)x
+# K)
 conexiones y ancho de banda consumido
 - iftop
 - tcptrack
@@ -131,7 +131,7 @@ nethogs
 # M)
 Los Dos directos se basan en esclavizar equipos par inundar de peticiones directas a un servicio, por otra parte el reflexivo se centra en enviar peticiones a servidores de alta capacidad con origen el destino para inundarlo de las replays.
 Para realizar estos ataques con packit usaríamos su modo de inyección, para el directo (DDOS) enviando al objetivo directamente por otra parte el reflexivo (DrDDOS) se realiza mediante la misma inyección pero como objetivo reflectores e ip falsa objetivo para que reciba las repuestas.
-# N)x
+# N)xk
 ataque DOS web
 - victima -> server apache
 - atacante
@@ -143,13 +143,13 @@ defender apache
 - modsecurity (dentro de apache)
 - modevaise -0,25 (NO USAR)
 
-# P)x
+# P)xB
 Averiguar de la usc
 - server dns/transferencia de zona
 - gestores de contenido
 - servidor de correo/estafetas
 
-# Q)x
+# Q)xB
 password guesing
 - medusa
 - hydra
@@ -158,17 +158,17 @@ Se necesita un fichero de users y uno de contraseñas:
 - un usuario lsi.
 - diez contraseñas siendo la ultima la correcta.
 
-# R)x
+# R)xk
 Detención de pasword guesing:
 - OSSEC
 
-# S)x
+# S)xk
 OSSEC (IPS)
 -  info 
 - funcionamiento
 - baneo y debaneo de ips (mediante osec conf)
 
-# T)x
+# T)xk
 | servicio      | versión | puerto |
 | ------------- | ------- | ------ |
 | Prometeus     | 2.47    | 9000   |
