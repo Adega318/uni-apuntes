@@ -128,22 +128,35 @@ tcptrack -i ens33
 --
 nethogs
 ```
+# L)x B
+Monitoreo infraestructura.
+
+| servicio      | versión | puerto |
+| ------------- | ------- | ------ |
+| Prometeus     | 2.47    | 9000   |
+| Node_explorer | -       | 9010   | 
+| Grafana       | 10.2.0  | 3000   |
+
+Grafana:
+- dashbord 1860
+
+//Prestar atención a como se generan los servicios en los tutoriales.
 # M)
 Los Dos directos se basan en esclavizar equipos par inundar de peticiones directas a un servicio, por otra parte el reflexivo se centra en enviar peticiones a servidores de alta capacidad con origen el destino para inundarlo de las replays.
 Para realizar estos ataques con packit usaríamos su modo de inyección, para el directo (DDOS) enviando al objetivo directamente por otra parte el reflexivo (DrDDOS) se realiza mediante la misma inyección pero como objetivo reflectores e ip falsa objetivo para que reciba las repuestas.
-# N)xk
+# N)x k
 ataque DOS web
 - victima -> server apache
 - atacante
 	- sloworis
 	- slowhttprest
 
-# O)x
+# O)x B
 defender apache
 - modsecurity (dentro de apache)
 - modevaise -0,25 (NO USAR)
 
-# P)xB
+# P)x B
 Averiguar de la usc
 - server dns/transferencia de zona
 - gestores de contenido
@@ -169,13 +182,4 @@ OSSEC (IPS)
 - baneo y debaneo de ips (mediante osec conf)
 
 # T)xk
-| servicio      | versión | puerto |
-| ------------- | ------- | ------ |
-| Prometeus     | 2.47    | 9000   |
-| Node_explorer | -       | 9010   | 
-| Grafana       | 10.2.0  | 3000   |
-
-Grafana:
-- dashbord 1860
-
-//Prestar atención a como se generan los servicios en los tutoriales.
+OSSEC
