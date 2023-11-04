@@ -51,7 +51,7 @@ Nmap scan report for 10.11.49.17
 Host is up (0.00040s latency).
 MAC Address: 00:50:56:97:F6:06 (VMware)
 ```
-# D) x
+# D)x
 Para obtener las ipv6 usamos:
 ```
 ping6 -c 2 -I ens33 2002:a0b::1
@@ -77,7 +77,7 @@ Lanzamiento del spofing sobre la maquina con el remote.
 ```shell
 ettercap -T -i ens33 -P remote_browser -q -M arp:remote //10.11.48.142/ //10.11.48.1/
 ```
-# G) xB
+# G)x B
 Generación de peiloads y envió al atacado, la segunda parte es ingeniería social para que parezca natural.
 Para creación:
 - metasploit + msfvenom (neterpreter/shell/bash)
@@ -90,7 +90,7 @@ MITM ipv6 ettercap + ndp
 ```
 ettercap -T -i 6to4 -Q -M ndp:remote //2002:a0b:308e::1/ //2002:a0b:308e::1/
 ```
-# I)xK
+# I)x K
 arpon(defensa) vs ettercap + arp poisoning(ataque)
 - registros del ataque
 - mostrar que el arp se mantiene
@@ -110,7 +110,7 @@ Activate arpON:
 ```
 arpon -d -i ens33 -H
 ```
-# J)xk
+# J)x k
 - host dicovery
 - port scaning
 - os fingerprinting
@@ -142,8 +142,8 @@ Grafana:
 
 //Prestar atención a como se generan los servicios en los tutoriales.
 # M)
-Los Dos directos se basan en esclavizar equipos par inundar de peticiones directas a un servicio, por otra parte el reflexivo se centra en enviar peticiones a servidores de alta capacidad con origen el destino para inundarlo de las replays.
-Para realizar estos ataques con packit usaríamos su modo de inyección, para el directo (DDOS) enviando al objetivo directamente por otra parte el reflexivo (DrDDOS) se realiza mediante la misma inyección pero como objetivo reflectores e ip falsa objetivo para que reciba las repuestas.
+Los Dos directos se basan en esclavizar equipos para inundar de peticiones directas a un servicio, por otra parte, el reflexivo se centra en enviar peticiones a servidores de alta capacidad con origen el destino para inundarlo de las replays.
+Para realizar estos ataques con packit utilizaríamos su modo de inyección, para el directo (DDOS) enviando al objetivo directamente, por otra parte, el reflexivo (DrDDOS) se realiza mediante la misma inyección, pero como objetivo reflectores e ip falsa objetivo para que reciba las repuestas.
 # N)x k
 ataque DOS web
 - victima -> server apache
@@ -162,7 +162,11 @@ Averiguar de la usc
 - gestores de contenido
 - servidor de correo/estafetas
 
-# Q)xB
+# Q)x K
+Trate de sacar un perfil de los principales sistemas que conviven en su red de prácticas, 
+puertos accesibles, fingerprinting, et
+
+# R)x B
 password guesing
 - medusa
 - hydra
@@ -171,15 +175,12 @@ Se necesita un fichero de users y uno de contraseñas:
 - un usuario lsi.
 - diez contraseñas siendo la ultima la correcta.
 
-# R)xk
+# S)x k
 Detención de pasword guesing:
 - OSSEC
 
-# S)xk
+# T)x k
 OSSEC (IPS)
 -  info 
 - funcionamiento
 - baneo y debaneo de ips (mediante osec conf)
-
-# T)xk
-OSSEC
