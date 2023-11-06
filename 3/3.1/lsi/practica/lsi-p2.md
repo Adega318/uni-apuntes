@@ -148,18 +148,11 @@ Grafana:
 # M)
 Los Dos directos se basan en esclavizar equipos para inundar de peticiones directas a un servicio, por otra parte, el reflexivo se centra en enviar peticiones a servidores de alta capacidad con origen el destino para inundarlo de las replays.
 Para realizar estos ataques con packit utilizaríamos su modo de inyección, para el directo (DDOS) enviando al objetivo directamente, por otra parte, el reflexivo (DrDDOS) se realiza mediante la misma inyección, pero como objetivo reflectores e ip falsa objetivo para que reciba las repuestas.
-# N)x k
-ataque DOS web
-- victima -> server apache
-- atacante
-	- sloworis
-	- slowhttprest
-
-Ataque ddos basado en el envío de cabeceras incompletas para reservar recursos en el servidor a la espera del resto del mensaje.
+# N)
+Ataque ddos basado en el envío de cabeceras incompletas para reservar recursos en el servidor a la espera del resto del mensaje (sloworis).
 ```shell
 slowhttptest -c 1000 -H -g -o slowhttp -i 10 -r 200 -t GET -u http://10.11.48.142 -x 24 -p 3
 ```
-
 # O)x B
 defender apache
 - modsecurity (dentro de apache)
