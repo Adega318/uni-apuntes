@@ -90,13 +90,13 @@ MITM ipv6 ettercap + ndp
 ```
 ettercap -T -i 6to4 -Q -M ndp:remote //2002:a0b:308e::1/ //2002:a0b:308e::1/
 ```
-# I)x K
+# I)
 arpon(defensa) vs ettercap + arp poisoning(ataque)
 - registros del ataque
 - mostrar que el arp se mantiene
 
 cong in /etc/arpon.conf
-logs in /var/log/arpon.log
+logs in /var/log/arpon.log.1
 
 Ver el arp:
 ```
