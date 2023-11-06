@@ -29,3 +29,10 @@ Configuración del dhcp a nivel de conmutador.
 Abuso del sistema dinámico de puertos mediante el envío de paquetes con destino la mac de otro puerto para que el sistema dinámico pase a enviar al nuevo puerto la paquetería, produciendo snifing.
 # DNSSec
 Sistema de segurizado del tráfico dns con autentificación, requiriendo de herramientas adicionales para el cifrado.
+# Arp
+- arp -a, tabla
+- arp -d \<ip\>, elimina una entrada de la tabla
+- arp -s \<ip>\<mac\>, setea una ip fija
+## Arp tables
+Seteo de reglas en capa 2.
+
