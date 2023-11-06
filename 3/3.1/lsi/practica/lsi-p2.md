@@ -115,6 +115,111 @@ arpon -d -i ens33 -S
 - port scaning
 - os fingerprinting
 
+```shell
+nmap -A 10.11.48.142
+
+Starting Nmap 7.93 ( https://nmap.org ) at 2023-11-07 04:11 CET
+Nmap scan report for 10.11.48.142
+Host is up (0.00037s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    VERSION
+22/tcp   open  ssh?
+|_ssh-hostkey: ERROR: Script execution failed (use -d to debug)
+80/tcp   open  http       Apache httpd 2.4.57 ((Debian))
+|_http-title: 403 Forbidden
+|_http-server-header: Apache/2.4.57 (Debian)
+3000/tcp open  ppp?
+| fingerprint-strings:
+|   FourOhFourRequest:
+|     HTTP/1.0 302 Found
+|     Cache-Control: no-store
+|     Content-Type: text/html; charset=utf-8
+|     Location: /login
+|     Set-Cookie: redirect_to=%2Fnice%2520ports%252C%2FTri%256Eity.txt%252ebak; Path=/; HttpOnly; SameSite=Lax
+|     X-Content-Type-Options: nosniff
+|     X-Frame-Options: deny
+|     X-Xss-Protection: 1; mode=block
+|     Date: Mon, 06 Nov 2023 16:42:01 GMT
+|     Content-Length: 29
+|     href="/login">Found</a>.
+|   GenericLines, Help, Kerberos, RTSPRequest, SSLSessionReq, TLSSessionReq, TerminalServerCookie:
+|     HTTP/1.1 400 Bad Request
+|     Content-Type: text/plain; charset=utf-8
+|     Connection: close
+|     Request
+|   GetRequest:
+|     HTTP/1.0 302 Found
+|     Cache-Control: no-store
+|     Content-Type: text/html; charset=utf-8
+|     Location: /login
+|     X-Content-Type-Options: nosniff
+|     X-Frame-Options: deny
+|     X-Xss-Protection: 1; mode=block
+|     Date: Mon, 06 Nov 2023 16:41:31 GMT
+|     Content-Length: 29
+|     href="/login">Found</a>.
+|   HTTPOptions:
+|     HTTP/1.0 302 Found
+|     Cache-Control: no-store
+|     Location: /login
+|     X-Content-Type-Options: nosniff
+|     X-Frame-Options: deny
+|     X-Xss-Protection: 1; mode=block
+|     Date: Mon, 06 Nov 2023 16:41:36 GMT
+|_    Content-Length: 0
+9090/tcp open  http       Golang net/http server (Go-IPFS json-rpc or InfluxDB API)
+| http-title: Prometheus Time Series Collection and Processing Server
+|_Requested resource was /graph
+9100/tcp open  jetdirect?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port3000-TCP:V=7.93%I=7%D=11/7%Time=6549AAFD%P=x86_64-pc-linux-gnu%r(Ge
+SF:nericLines,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20t
+SF:ext/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x
+SF:20Request")%r(GetRequest,118,"HTTP/1\.0\x20302\x20Found\r\nCache-Contro
+SF:l:\x20no-store\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nLocat
+SF:ion:\x20/login\r\nX-Content-Type-Options:\x20nosniff\r\nX-Frame-Options
+SF::\x20deny\r\nX-Xss-Protection:\x201;\x20mode=block\r\nDate:\x20Mon,\x20
+SF:06\x20Nov\x202023\x2016:41:31\x20GMT\r\nContent-Length:\x2029\r\n\r\n<a
+SF:\x20href=\"/login\">Found</a>\.\n\n")%r(Help,67,"HTTP/1\.1\x20400\x20Ba
+SF:d\x20Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnec
+SF:tion:\x20close\r\n\r\n400\x20Bad\x20Request")%r(HTTPOptions,D2,"HTTP/1\
+SF:.0\x20302\x20Found\r\nCache-Control:\x20no-store\r\nLocation:\x20/login
+SF:\r\nX-Content-Type-Options:\x20nosniff\r\nX-Frame-Options:\x20deny\r\nX
+SF:-Xss-Protection:\x201;\x20mode=block\r\nDate:\x20Mon,\x2006\x20Nov\x202
+SF:023\x2016:41:36\x20GMT\r\nContent-Length:\x200\r\n\r\n")%r(RTSPRequest,
+SF:67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\
+SF:x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request")
+SF:%r(SSLSessionReq,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type
+SF::\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x2
+SF:0Bad\x20Request")%r(TerminalServerCookie,67,"HTTP/1\.1\x20400\x20Bad\x2
+SF:0Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection
+SF::\x20close\r\n\r\n400\x20Bad\x20Request")%r(TLSSessionReq,67,"HTTP/1\.1
+SF:\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20charset=ut
+SF:f-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request")%r(Kerberos,6
+SF:7,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x
+SF:20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request")%
+SF:r(FourOhFourRequest,182,"HTTP/1\.0\x20302\x20Found\r\nCache-Control:\x2
+SF:0no-store\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nLocation:\
+SF:x20/login\r\nSet-Cookie:\x20redirect_to=%2Fnice%2520ports%252C%2FTri%25
+SF:6Eity\.txt%252ebak;\x20Path=/;\x20HttpOnly;\x20SameSite=Lax\r\nX-Conten
+SF:t-Type-Options:\x20nosniff\r\nX-Frame-Options:\x20deny\r\nX-Xss-Protect
+SF:ion:\x201;\x20mode=block\r\nDate:\x20Mon,\x2006\x20Nov\x202023\x2016:42
+SF::01\x20GMT\r\nContent-Length:\x2029\r\n\r\n<a\x20href=\"/login\">Found<
+SF:/a>\.\n\n");
+MAC Address: 00:50:56:97:C7:42 (VMware)
+Device type: general purpose
+Running: Linux 4.X|5.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5
+OS details: Linux 4.15 - 5.6
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.37 ms 10.11.48.142
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 190.12 seconds
+```
 # K)
 conexiones y ancho de banda consumido
 - iftop
