@@ -16,3 +16,8 @@ Enmascarado como switch del equipo mediante el uso de Yersinia dando acceso a la
 La protección para este tipo de ataques es el filtrado de las tramas no procedentes de maquinas aceptadas.
 ### Double tagging
 Ataque mediante el doble etiquetado de tramas en vlan.
+# ARP Spoofing
+# ICMP redirects
+Se configura en /etc/systcl.conf con flags para restringir el redirect.
+# Source routing
+Desig
