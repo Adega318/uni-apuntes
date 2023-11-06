@@ -33,6 +33,9 @@ Sistema de segurizado del tráfico dns con autentificación, requiriendo de herr
 - arp -a, tabla
 - arp -d \<ip\>, elimina una entrada de la tabla
 - arp -s \<ip>\<mac\>, setea una ip fija
+
+Configuración de tiempos de limpieza de caché en gc.stable.
 ## Arp tables
 Seteo de reglas en capa 2.
-
+## ArpOn
+MERDA
