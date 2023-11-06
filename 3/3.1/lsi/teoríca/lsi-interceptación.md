@@ -41,5 +41,8 @@ Seteo de reglas en capa 2.
 MERDA
 ## Snort
 # Fluding
+Interrupción de los servicios de un conmutador mediante el exceso de fluding.
 ## Unicast fluding protection
-Vigilancia de la tasa de fluding para en caso de actividad anomala reducir recursos.
+Vigilancia de la tasa de fluding para en caso de actividad anómala reducir recursos.
+# Port span and mirror
+El port span y miror replican el tráfico de un puerto y lo securiza. Causa problemas por cuello de botella a excepción de que se haga uso de un trunk port
