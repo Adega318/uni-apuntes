@@ -110,13 +110,15 @@ Activate arpON:
 ```
 arpon -d -i ens33 -S
 ```
-# J)x k
+# J)
 - discobery
 	- nmap -sP 10.11.48.0/23
 - port scaning
-	- namap -sS 10.11.48.142
+	- nmap -sS 10.11.48.142
 - fingerprintimg
-	- 
+	- nmap -O 10.11.48.142
+- ipv6
+	- namp -sS -6 2002:a0b:308f::1
 # K)
 conexiones y ancho de banda consumido
 - iftop
