@@ -20,4 +20,9 @@ Ataque mediante el doble etiquetado de tramas en vlan.
 # ICMP redirects
 Se configura en /etc/systcl.conf con flags para restringir el redirect.
 # Source routing
-Desig
+Designación de la ruta de los paquetes en el equipo origen.
+# DHCP spoofing
+Spoofing de la comunicación con el dhcp, siendo protegido por el dhcp snoping.
+## Dhcp snoping
+Configuración del dhcp a nivel de conmutador.
+# Port stealing
