@@ -27,3 +27,5 @@ Spoofing de la comunicación con el dhcp, siendo protegido por el dhcp snoping.
 Configuración del dhcp a nivel de conmutador.
 # Port stealing
 Abuso del sistema dinámico de puertos mediante el envío de paquetes con destino la mac de otro puerto para que el sistema dinámico pase a enviar al nuevo puerto la paquetería, produciendo snifing.
+# DNSSec
+Sistema de segurizado del tráfico dns con autentificación, requiriendo de herramientas adicionales para el cifrado.
