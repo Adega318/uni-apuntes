@@ -34,8 +34,12 @@ Sistema de segurizado del tráfico dns con autentificación, requiriendo de herr
 - arp -d \<ip\>, elimina una entrada de la tabla
 - arp -s \<ip>\<mac\>, setea una ip fija
 
-Configuración de tiempos de limpieza de caché en gc.stable.
+Configuración de tiempos de limpieza de caché en gc.stable
 ## Arp tables
 Seteo de reglas en capa 2.
 ## ArpOn
 MERDA
+## Snort
+# Fluding
+## Unicast fluding protection
+Vigilancia de la tasa de fluding para en caso de actividad anomala reducir recursos.
