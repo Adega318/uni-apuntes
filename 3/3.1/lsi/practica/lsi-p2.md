@@ -180,8 +180,7 @@ Se necesita un fichero de users y uno de contraseñas:
 - diez contraseñas siendo la ultima la correcta.
 
 # S)x k
-Detención de pasword guesing:
-- OSSEC
+
 
 # T)x k
 OSSEC (IPS)
