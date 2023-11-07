@@ -180,11 +180,21 @@ Se necesita un fichero de users y uno de contraseñas:
 - diez contraseñas siendo la ultima la correcta.
 
 # S)
-- run
+- Run
 ```shell
 /var/ossec/bin/ossec-control start
 ```
-- 
+- Desbanear
+```shell
+/var/ossec/active-response/bin/host-deny.sh delete - 10.11.48.142
+/var/ossec/active-response/bin/firewall-drop.sh delete - 10.11.48.142
+/var/ossec/bin/ossec-control restart
+```
+- Modify rules
+```shell
+// reglas en /var/ossec/rules/
+add overwite=""
+```
 # T)x k
 OSSEC (IPS)
 -  info 
