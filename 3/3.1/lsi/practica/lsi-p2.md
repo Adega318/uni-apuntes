@@ -191,9 +191,9 @@ Se necesita un fichero de users y uno de contraseñas:
 /var/ossec/bin/ossec-control restart
 ```
 - Modify rules
-```shell
+```xml
 // reglas en /var/ossec/rules/
-add overwite=""
+add overwite="yes"
 ```
 # T)x k
 OSSEC (IPS)
