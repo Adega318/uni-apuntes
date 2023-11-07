@@ -9,6 +9,10 @@ Facilitar la visibilidad en estado e historia de la versión con la que se traba
 	- Satisfacer las necesidades del usuario.
 	- Cumplimiento de requisitos.
 	- Trazabilidad desde la concepción al fin.
-
+Las principales actividades para cumplir lo anteriormente mencionado:
+- Identificar las configuraciones.
+- Control de cambios.
+- Gestión de informes de estado.
+- autoria de comfiguración.
 # Conceptos
 # Aspectos relacionados
