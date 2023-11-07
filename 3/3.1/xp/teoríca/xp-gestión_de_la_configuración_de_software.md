@@ -3,11 +3,12 @@ Coordinación del desarrollo de software, reduciendo los errores y facilitando l
 # Objetivos
 Facilitar la visibilidad en estado e historia de la versión con la que se trabaja. Esto se consigue con:
 - Visibilidad.
-	- estado.
-	- evolución.
+	- Estado.
+	- Evolución.
 - Integridad.
-	- satisfacer las necesidades del usuario.
-	- cumplimiento de requisitos.
-	- 
+	- Satisfacer las necesidades del usuario.
+	- Cumplimiento de requisitos.
+	- Trazabilidad desde la concepción al fin.
+
 # Conceptos
 # Aspectos relacionados
