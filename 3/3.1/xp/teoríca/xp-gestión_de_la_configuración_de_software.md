@@ -13,6 +13,6 @@ Las principales actividades para cumplir lo anteriormente mencionado:
 - Identificar las configuraciones.
 - Control de cambios.
 - Gestión de informes de estado.
-- autoria de comfiguración.
-# Conceptos
+- Autoría de configuración.
+# Conceptos básicos
 # Aspectos relacionados
