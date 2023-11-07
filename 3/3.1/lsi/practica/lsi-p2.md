@@ -153,6 +153,7 @@ Ataque ddos basado en el envío de cabeceras incompletas para reservar recursos 
 ```shell
 slowhttptest -c 1000 -H -g -o slowhttp -i 10 -r 200 -t GET -u http://10.11.48.142 -x 24 -p 3
 ```
+Para proteger contra este tipo de ataque en el mismo segmento, un firewall que detectara y filtrara el tráfico sospechoso, gran cantidad de peticiones saliendo de un mismo equipo con cabeceras incompletas y distintas direcciones. Para reducir el inpacto de est
 # O)x B
 defender apache
 - modsecurity (dentro de apache)
