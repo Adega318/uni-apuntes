@@ -63,6 +63,12 @@ En el modelo jerárquico se divide la red en tres partes:
 	- Alta velocidad y baja latencia.
 	- Mínima manipulación.
 	- Alta disponibilidad y tolerancia.
+### Red corporativa
+Estructura utilizada para redes de alto tamaño, dividiendo en áreas:
+- Campus.
+- Frontera corporativa.
+- Provedor de servicios.
+- Acceso remoto.
 # Redes de almacenamiento
 # Visualización de red
 # Organización de un CPD
