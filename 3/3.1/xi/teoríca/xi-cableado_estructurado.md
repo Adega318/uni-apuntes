@@ -30,7 +30,7 @@ Los principales tipos de conectores son:
 ## Arquitectura
 La arquitectura se centra en cableado horizontal, vertical y campus.
 ```mermaid
-flowchart LR
+flowchart TD
 	subgraph Horizontal
 		p1(pc1)
 		p2(pc2)
@@ -42,9 +42,17 @@ flowchart LR
 	p1---|100m|t1
 	p2---|100m|t1
 	t1---|fibra|t2
-	t2---pbx
+	t2---Campus
 
 ```
+El modelo usado es el jerárquico donde se divide la red en tres partes:
+- Núcleo, transporte rápido entre redes unidas.
+- Distribución, conectividad basada en directivas.
+- Acceso, acceso a los usuarios finales.
+	- Capa 2.
+	- Ancho de banda completo.
+	- Seguridad de puerto.
+	- 
 # Redes de almacenamiento
 # Visualización de red
 # Organización de un CPD
