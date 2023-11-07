@@ -45,7 +45,8 @@ flowchart TD
 	t2---Campus
 
 ```
-El modelo usado es el jerárquico donde se divide la red en tres partes:
+### Red jerárquica
+En el modelo jerárquico se divide la red en tres partes:
 - Acceso, acceso a los usuarios finales.
 	- Capa 2.
 	- Ancho de banda completo.
@@ -59,6 +60,9 @@ El modelo usado es el jerárquico donde se divide la red en tres partes:
 	- Enrutamiento entre VLANs.
 	- ACLs.
 - Núcleo, transporte rápido entre redes unidas.
+	- Alta velocidad y baja latencia.
+	- Mínima manipulación.
+	- Alta disponibilidad y tolerancia.
 # Redes de almacenamiento
 # Visualización de red
 # Organización de un CPD
