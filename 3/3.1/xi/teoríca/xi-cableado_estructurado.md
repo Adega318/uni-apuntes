@@ -28,23 +28,21 @@ Los principales tipos de conectores son:
 - LC
 - LC multimodo dúplex
 ## Arquitectura
-subgraph one
-a1-->a2
-end
-
 La arquitectura se centra en cableado horizontal, vertical y campus.
 ```mermaid
 flowchart LR
-	subgreph Horizontal
+	subgraph Horizontal
 		p1(pc1)
 		p2(pc2)
 	end
 	subgraph Vertical
-		t[/Cros-connect/]
+		t1[/Cros-connect px/]
+		t2[/Cros-connect p0/]
 	end
-	Horizontal --- 
-	p1---t
-	p2---t
+	p1---|100m|t1
+	p2---|100m|t1
+	t1---|fibra|t2
+	t2---pbx
 
 ```
 # Redes de almacenamiento
