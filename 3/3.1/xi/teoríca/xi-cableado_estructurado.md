@@ -46,13 +46,14 @@ flowchart TD
 
 ```
 El modelo usado es el jerárquico donde se divide la red en tres partes:
-- Núcleo, transporte rápido entre redes unidas.
-- Distribución, conectividad basada en directivas.
 - Acceso, acceso a los usuarios finales.
 	- Capa 2.
 	- Ancho de banda completo.
-	- Seguridad de puerto.
-	- 
+	- Seguridad de puerto (no muy usado).
+	- Spanning tree (bucle de tráfico).
+	- PoE
+- Distribución, conectividad basada en directivas.
+- Núcleo, transporte rápido entre redes unidas.
 # Redes de almacenamiento
 # Visualización de red
 # Organización de un CPD
