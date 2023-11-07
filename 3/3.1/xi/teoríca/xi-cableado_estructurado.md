@@ -51,8 +51,13 @@ El modelo usado es el jerárquico donde se divide la red en tres partes:
 	- Ancho de banda completo.
 	- Seguridad de puerto (no muy usado).
 	- Spanning tree (bucle de tráfico).
-	- PoE
+	- PoE (alimentación).
 - Distribución, conectividad basada en directivas.
+	- Balanceo de carga y redundancias.
+	- Agregación de conexiones.
+	- VLANs.
+	- Enrutamiento entre VLANs.
+	- ACLs.
 - Núcleo, transporte rápido entre redes unidas.
 # Redes de almacenamiento
 # Visualización de red
