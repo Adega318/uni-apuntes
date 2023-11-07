@@ -22,7 +22,11 @@ El estándar EIA-568 divide los cables en:
 La fibra óptica es más delicada, pero permite trasmisión y distancias de trasmisión de órdenes de magnitud superior al cobre, pero con alto coste. Tenemos dos tipos:
 - Monomodo, prioriza la distancia sobre la velocidad.
 - Multimodo, prioriza la velocidad sobre la distancia.
-
+Los principales tipos de conectores son:
+- ST
+- SC
+- LC
+- LC multimodo dúplex
 ## Arquitectura
 La arquitectura se centra en cableado horizontal, vertical y campus.
 # Redes de almacenamiento
