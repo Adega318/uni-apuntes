@@ -193,7 +193,7 @@ Se necesita un fichero de users y uno de contraseñas:
 - Modify rules
 ```xml
 // reglas en /var/ossec/rules/
-add overwite="yes"
+add overwite="yes" and edit.
 ```
 # T)x k
 OSSEC (IPS)
