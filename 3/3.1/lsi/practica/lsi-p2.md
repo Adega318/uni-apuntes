@@ -179,9 +179,12 @@ Se necesita un fichero de users y uno de contraseñas:
 - un usuario lsi.
 - diez contraseñas siendo la ultima la correcta.
 
-# S)x k
-
-
+# S)
+- run
+```shell
+/var/ossec/bin/ossec-control start
+```
+- 
 # T)x k
 OSSEC (IPS)
 -  info 
