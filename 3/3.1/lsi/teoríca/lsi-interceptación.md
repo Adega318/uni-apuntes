@@ -56,4 +56,5 @@ El port span y miror replican el tráfico de un puerto y lo securiza. Causa prob
 | 4    | 802.3ad       |
 | 5    | Balance TLB   |
 | 6    | Balance ALB   |
-|      |               |
+
+Para mortar un bounding en una marina hacemos uso de ...
