@@ -68,4 +68,4 @@ Centrándonos en los firewalls de nueva generación, debemos destacar:
 El soc (centro de operaciones de una organización), compuesto de:
 - SIEM, sistema que recopila y procesa los logs de la organización.
 - EDR, monitorea las máquinas finales usando agentes (OSSEC).
-- NOR, 
+- NOR
