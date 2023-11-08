@@ -63,4 +63,9 @@ Centrándonos en los firewalls de nueva generación, debemos destacar:
 - Trabajo en todas las capas.
 - Sistemas de prevención de intrusiones.
 - Vinculación con los sistemas de autentificación.
-- Análisis de tráfico (problemas con el trafico cifrado).
+- Análisis de tráfico (problemas con el tráfico cifrado).
+# SOC
+El soc (centro de operaciones de una organización), compuesto de:
+- SIEM, sistema que recopila y procesa los logs de la organización.
+- EDR, monitorea las máquinas finales usando agentes (OSSEC).
+- NOR, 
