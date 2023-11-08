@@ -58,3 +58,9 @@ El port span y miror replican el tráfico de un puerto y lo securiza. Causa prob
 | 6    | Balance ALB   |
 
 Para mortar un bounding en una marina hacemos uso de ...
+# Firewall
+Centrándonos en los firewalls de nueva generación, debemos destacar:
+- Trabajo en todas las capas.
+- Sistemas de prevención de intrusiones.
+- Vinculación con los sistemas de autentificación.
+- Análisis de tráfico.
