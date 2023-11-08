@@ -69,3 +69,5 @@ El soc (centro de operaciones de una organización), compuesto de:
 - SIEM, sistema que recopila y procesa los logs de la organización.
 - EDR, monitorea las máquinas finales usando agentes (OSSEC).
 - NOR
+# HSTS
+Sistema de seguridad con el cual con la primera conesión con un servidor se envia una cadena con fecha de expiración que asegura el corre
