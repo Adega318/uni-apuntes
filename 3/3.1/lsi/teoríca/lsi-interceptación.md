@@ -46,3 +46,14 @@ Interrupción de los servicios de un conmutador mediante el exceso de fluding.
 Vigilancia de la tasa de fluding para en caso de actividad anómala reducir recursos.
 # Port span and mirror
 El port span y miror replican el tráfico de un puerto y lo securiza. Causa problemas por cuello de botella a excepción de que se haga uso de un trunk port.
+## Mirror
+| Mode | Balans        |
+| ---- | ------------- |
+| 0    | Roiund roning |
+| 1    | Active backup |
+| 2    | B. XOR        |
+| 3    | Broadcast     |
+| 4    | 802.3ad       |
+| 5    | Balance TLB   |
+| 6    | Balance ALB   |
+|      |               |
