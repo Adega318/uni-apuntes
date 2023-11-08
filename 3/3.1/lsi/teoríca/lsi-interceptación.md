@@ -63,4 +63,5 @@ Centrándonos en los firewalls de nueva generación, debemos destacar:
 - Trabajo en todas las capas.
 - Sistemas de prevención de intrusiones.
 - Vinculación con los sistemas de autentificación.
-- Análisis de tráfico.
+- Análisis de tráfico (problemas con el trafico cifrado).
+- 
