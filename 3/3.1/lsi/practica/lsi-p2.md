@@ -169,7 +169,27 @@ Averiguar de la usc
 # Q)x K
 Trate de sacar un perfil de los principales sistemas que conviven en su red de prácticas, 
 puertos accesibles, fingerprinting, et
+```shell
+root@debian:/home/lsi# nmap -A 10.11.48.1
+Starting Nmap 7.93 ( https://nmap.org ) at 2023-11-09 04:57 CET
+Nmap scan report for 10.11.48.1
+Host is up (0.0017s latency).
+All 1000 scanned ports on 10.11.48.1 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: DC:08:56:10:84:B9 (Alcatel-Lucent Enterprise)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
 
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.71 ms 10.11.48.1
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 30.58 seconds
+```
+```shell
+
+```
 # R)x B
 password guesing
 - medusa
