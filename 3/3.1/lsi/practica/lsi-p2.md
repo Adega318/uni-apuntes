@@ -151,7 +151,9 @@ Para realizar estos ataques con packit utilizaríamos su modo de inyección, par
 # N)
 Ataque ddos basado en el envío de cabeceras incompletas para reservar recursos en el servidor a la espera del resto del mensaje (sloworis).
 ```shell
+//cabeceras incompletas
 slowhttptest -c 1000 -H -g -o slowhttp -i 10 -r 200 -t GET -u http://10.11.48.142 -x 24 -p 3
+//
 ```
 Para proteger contra este tipo de ataque en el mismo segmento, un firewall que detectara y filtrara el tráfico sospechoso, gran cantidad de peticiones saliendo de un mismo equipo con cabeceras incompletas y distintas direcciones. Para reducir el impacto de este tipo de ataques cuando provienen de fuera del segmento sería las restricciones del servicio para velocidades de descarga bajas y tiempos máximos de conexión.
 Para evitar estas protecciones en el caso del firewall 
