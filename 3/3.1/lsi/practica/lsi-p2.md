@@ -226,8 +226,3 @@ Para desvanear una ip hay que buscar la entrada de la respuesta activa donde se 
 /var/ossec/active-response/bin/firewall-drop.sh delete - 10.11.50.142 1699433223.32626 5720
 ```
 
-OSSEC (IPS)
--  info 
-- funcionamiento
-- baneo y debaneo de ips (mediante osec conf)
-
