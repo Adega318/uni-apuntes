@@ -193,10 +193,13 @@ Se necesita un fichero de users y uno de contraseñas:
 - Modify rules
 Desactivamos el máximo de intentos de ssh básico, ignoramos las normas 5758 y 2502. Para seleccionar la cantidad que queremos, modificamos la 5720.
 # T)
-Para ver los logs de ossec necesitamos ver tres archivos:
-- ossec.logs, funcionamiento general.
-- alerts.log, alertas activadas en el sistema.
-- active-response.log, respuestas ante alertas.
+Para ver los logs de ossec necesitamos:
+```shell
+//logs
+cat /var/log/auth.log | /var/ossec/bin/ossec-logtest -a
+//reporte de los logs
+cat /var/log/auth.log | /var/ossec/bin/ossec-logtest -a |/var/ossec/bin/ossec-reportd
+```
 Para desvanear una ip hay que buscar la entrada de la respuesta activa donde se ha vaneado y replicarla con un delete en vez de add, ejemplo:
 ```log
 /var/ossec/active-response/bin/host-deny.sh delete - 10.11.50.142 1699433223.32626 5720
