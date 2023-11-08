@@ -29,6 +29,9 @@ El empleo de html semántico tiene múltiples beneficios centrados en la compati
 	<head>
 		<title>My page</title>
 	</head>
+	<body>
+		<p>dkfjalfajdñlfjdslkj</p>
+	</body>
 </html>
 ```
 ### CSS
