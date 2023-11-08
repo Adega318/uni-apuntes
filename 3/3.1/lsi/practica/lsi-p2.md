@@ -191,11 +191,12 @@ Se necesita un fichero de users y uno de contraseñas:
 /var/ossec/bin/ossec-control restart
 ```
 - Modify rules
-```xml
-// reglas en /var/ossec/rules/
-copiar la regla de su xml original al xml de local_rules, añadir overwrite="yes" y hacer los cambios que quieras.
-```
+Desactivamos el máximo de intentos de ssh básico, ignoramos las normas 5758 y 2502. Para seleccionar la cantidad que queremos, modificamos la 5720.
 # T)x k
+Para ver los logs de ossec necesitamos ver tres archivos:
+- ossec.logs, funcionamineto gueneral.
+- active-response.log, respuse
+
 OSSEC (IPS)
 -  info 
 - funcionamiento
