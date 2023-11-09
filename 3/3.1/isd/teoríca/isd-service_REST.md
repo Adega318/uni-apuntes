@@ -13,14 +13,14 @@ flowchart LR
 ```
 
 # Servicios REST
-
-## Stateless
-Servicios sin memoria de estado sobre los clientes. Esto da ventajas como la fácil replicación y balanceo de carga al no reservar recursos, el inconveniente de este acercamiento es la necesidad de enviar ciertos datos múltiples veces.
 ## Métodos
 Los principales métodos de un servicio REST:
 - GET, petición de información.
 - POST, envió de información.
 - PUT, carga de información en el servicio.
 - DELETE, eliminado de información en el servicio.
-
+## Stateless
+Servicios sin memoria de estado sobre los clientes. Esto da ventajas como la fácil replicación y balanceo de carga al no reservar recursos, el inconveniente de este acercamiento es la necesidad de enviar ciertos datos múltiples veces.
+## Statefull
+Servicios que conservan el estado de los clientes. Esto tiene ventajas en la comunicación al evitar la redundancia de datos en las peticiones, por otra parte, dificulta el balanceo de carga y escalabilidad al necesitar conservar los estados de los clientes entre peticiones.
 # Diseño e implementación
