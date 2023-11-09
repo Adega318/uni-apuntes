@@ -27,3 +27,7 @@ flowchart TD
 	c1---a1
 	c2---a2
 ```
+### Direct attach storage
+Conexión de manera local usando discos externos, este tipo de conexión tiene una única conexión llevando a cuellos de botella y un gran punto crítico.
+### Network attched storage
+Conexión mediante red -t
