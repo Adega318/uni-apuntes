@@ -72,5 +72,5 @@ Esta opción aumenta el balance, pero reduce severamente la tolerancia a fallos 
 Los recursos son los datos expuestos al exterior por el servicio, existiendo dos tipos:
 - Colección, conjunto de recursos del mismo tipo.
 - Individuales, recurso concreto de un tipo.
-Los recursos son identificados por un identificador único y global (url), al invocar estos identificadores (llamada GET) obtenemos la representación (html, json, xml, ... )del recurso al que le corresponden.
+Los recursos son identificados por un identificador único y global (url), al invocar estos identificadores (llamada GET) obtenemos la representación (html, json, xml, …)del recurso al que le corresponden, estas representaciones son variables en el tiempo a diferencia del identificador.
 # Diseño e implementación
