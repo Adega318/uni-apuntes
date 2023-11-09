@@ -1,5 +1,5 @@
 # Descripción del caso de estudio
-El caso de estudio se basa en un cliente con una capa interfaz de usuario y una acceso a servicios, por otro lado tenemos el servidor con su capa servicios y modelo. Esta arquitectura asegura que cada capa modelo solo conozca a la directamente inferior a ella.
+El caso de estudio se basa en un cliente con una capa interfaz de usuario y una acceso a servicios, por otro lado, tenemos el servidor con su capa servicios y modelo. Esta arquitectura asegura que cada capa modelo solo conozca a la directamente inferior a ella.
 
 ```mermaid
 flowchart LR
@@ -13,8 +13,12 @@ flowchart LR
 ```
 
 # Servicios REST
+
 ## Métodos
 Los principales métodos de un servicio REST:
-- GET, peticion de información.
-- POST, s
+- GET, petición de información.
+- POST, envió de información.
+- PUT, carga de información en el servicio.
+- DELETE, eliminado de información en el servicio.
+
 # Diseño e implementación
