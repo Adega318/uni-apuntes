@@ -25,8 +25,8 @@ flowchart LR
 	c1[cliente 1]
 	c2[cliente N]
 	b(("Balanceo de\ncarga"))
-	s1[servidor 1]
-	s2[servidor N]
+	s1((servidor 1))
+	s2((servidor N))
 	c1-->b
 	c2-->b
 	b-->s1
@@ -39,12 +39,30 @@ flowchart LR
 	c1[cliente 1]
 	c2[cliente N]
 	b(("Balanceo de\ncarga"))
-	s1[servidor 1]
-	s2[servidor N]
+	s1((servidor 1))
+	s2((servidor N))
 	c1-->b
 	c2-.->b
 	b-->s1
 	b-.->s2
 ```
-Se mantiene la misma instancia para un cliente de la cual se lea asigno originalmente. Esto 
+Se mantiene la misma instancia para un cliente de la cual se lea asigno originalmente. Esto se puede resolver estableciendo un servidor de sesiones.
+```mermaid
+flowchart LR
+	c1[cliente 1]
+	c2[cliente N]
+	b(("Balanceo de\ncarga"))
+	s1((servidor 1))
+	s2((servidor N))
+	ss(("Servidor de\nsesiones"))
+	db[("Sesion\ndatabase")]
+	c1-->b
+	c2-->b
+	b-->s1
+	b-->s2
+	s1-->ss
+	s2-->ss
+	ss-->db
+```
+Esta opción aumenta el balance, pero reduce severamente la tolerancia a fallos al crear dos puntos críticos.
 # Diseño e implementación
