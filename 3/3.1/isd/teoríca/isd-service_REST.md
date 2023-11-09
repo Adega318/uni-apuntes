@@ -11,7 +11,6 @@ flowchart LR
 	end
 	AS -.->|Red| S
 ```
-
 # Servicios REST
 ## Métodos
 Los principales métodos de un servicio REST:
@@ -23,13 +22,29 @@ Los principales métodos de un servicio REST:
 Servicios sin memoria de estado sobre los clientes. Esto da ventajas como la fácil replicación y balanceo de carga al no reservar recursos, el inconveniente de este acercamiento es la necesidad de enviar ciertos datos múltiples veces.
 ```mermaid
 flowchart LR
-	c1[cliente1]
-	c2[cliente2]
-	b((Balanceo de carga))
-	s1[servidor1]
-	s2[servidor2]
-	c1-->
+	c1[cliente 1]
+	c2[cliente N]
+	b(("Balanceo de\ncarga"))
+	s1[servidor 1]
+	s2[servidor N]
+	c1-->b
+	c2-->b
+	b-->s1
+	b-->s2
 ```
 ## Statefull
 Servicios que conservan el estado de los clientes. Esto tiene ventajas en la comunicación al evitar la redundancia de datos en las peticiones, por otra parte, dificulta el balanceo de carga y escalabilidad al necesitar conservar los estados de los clientes entre peticiones.
+```mermaid
+flowchart LR
+	c1[cliente 1]
+	c2[cliente N]
+	b(("Balanceo de\ncarga"))
+	s1[servidor 1]
+	s2[servidor N]
+	c1-->b
+	c2-.->b
+	b-->s1
+	b-.->s2
+```
+Se mantiene la misma instancia para un cliente de la cual se lea asigno originalmente. Esto 
 # Diseño e implementación
