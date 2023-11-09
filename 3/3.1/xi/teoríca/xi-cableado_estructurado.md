@@ -1,8 +1,7 @@
-# Cableado estructurado
-## Medio de transmisión
-### Cable de pares
+# Medio de transmisión
+## Cable de pares
 Permite altas distancias con bajas frecuencias en el cobre (cable telefónico), esto lleva a una baja velocidad.
-### Par trenzado
+## Par trenzado
 Formado por dos hilos conductores entrelazados, el número de pares puede variar, siendo cuatro el estándar. Dentro de este tipo de cables tenemos múltiples tipos:
 - UTP, pares sin apantallamiento.
 - FTP, pares con pantalla exterior.
@@ -18,7 +17,7 @@ El estándar EIA-568 divide los cables en:
 | 7         | 600  | 10        |
 | 7A        | 1000 | 10        |
 | 8         | 2000 | 40        |
-### Fibra óptica
+## Fibra óptica
 La fibra óptica es más delicada, pero permite trasmisión y distancias de trasmisión de órdenes de magnitud superior al cobre, pero con alto coste. Tenemos dos tipos:
 - Monomodo, prioriza la distancia sobre la velocidad.
 - Multimodo, prioriza la velocidad sobre la distancia.
@@ -27,7 +26,7 @@ Los principales tipos de conectores son:
 - SC
 - LC
 - LC multimodo dúplex
-## Arquitectura
+# Arquitectura
 La arquitectura se centra en cableado horizontal, vertical y campus.
 ```mermaid
 flowchart TD
@@ -45,7 +44,7 @@ flowchart TD
 	t2---Campus
 
 ```
-### Red jerárquica
+## Red jerárquica
 En el modelo jerárquico se divide la red en tres partes:
 - Acceso, acceso a los usuarios finales.
 	- Capa 2.
@@ -63,14 +62,16 @@ En el modelo jerárquico se divide la red en tres partes:
 	- Alta velocidad y baja latencia.
 	- Mínima manipulación.
 	- Alta disponibilidad y tolerancia.
-### Red corporativa
+## Red corporativa
 Estructura utilizada para redes de alto tamaño, dividiendo en áreas:
 - Campus.
 - Frontera corporativa.
-- Provedor de servicios.
+- Proveedor de servicios.
 - Acceso remoto.
-# Redes de almacenamiento
-# Visualización de red
-# Organización de un CPD
-# Fundamentos de ITIL
-# Virtualización de servidores
+# Cableado en un CPD
+Estandares de cableado ede los cpd
+## MDA
+## EoR/MoR
+Distribución con equipos centrales de conexión.
+## Tor
+Puesto superior del conjunto con las conexiones.
