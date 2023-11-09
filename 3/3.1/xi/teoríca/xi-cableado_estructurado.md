@@ -69,7 +69,7 @@ Estructura utilizada para redes de alto tamaño, dividiendo en áreas:
 - Proveedor de servicios.
 - Acceso remoto.
 # Cableado en un CPD
-Estandares de cableado ede los cpd
+Estándares de cableado de los CPDs.
 ## MDA
 ## EoR/MoR
 Distribución con equipos centrales de conexión.
