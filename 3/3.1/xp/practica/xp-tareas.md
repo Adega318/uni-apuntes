@@ -28,3 +28,5 @@ Revisar
 ## Groso modo
 ## Semidetallado
 ## Detallado
+# Replanificación
+La replanificación se realiza cuando el proyecto llega a un límite acordado de retraso de entre el 15 y 20 porciento. El proceso de replanificación consiste en tras un seguimiento en el cual percibamos las condiciones para una replanificación, modificar los caminos críticos para reducir el retraso del proyecto. En caso de no conseguir recuperar la fecha con la reducu
