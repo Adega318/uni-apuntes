@@ -14,7 +14,7 @@ flowchart LR
 
 # Servicios REST
 ## Métodos
-### PUT
-### DELETE
-### POST
+Los principales métodos de un servicio REST:
+- GET, peticion de información.
+- POST, s
 # Diseño e implementación
