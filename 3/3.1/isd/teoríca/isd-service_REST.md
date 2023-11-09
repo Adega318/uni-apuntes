@@ -27,6 +27,7 @@ flowchart LR
 	b(("Balanceo de\ncarga"))
 	s1((servidor 1))
 	s2((servidor N))
+	
 	c1-->b
 	c2-->b
 	b-->s1
@@ -41,6 +42,7 @@ flowchart LR
 	b(("Balanceo de\ncarga"))
 	s1((servidor 1))
 	s2((servidor N))
+	
 	c1-->b
 	c2-.->b
 	b-->s1
@@ -56,6 +58,7 @@ flowchart LR
 	s2((servidor N))
 	ss(("Servidor de\nsesiones"))
 	db[("Sesion\ndatabase")]
+	
 	c1-->b
 	c2-->b
 	b-->s1
@@ -65,4 +68,9 @@ flowchart LR
 	ss-->db
 ```
 Esta opción aumenta el balance, pero reduce severamente la tolerancia a fallos al crear dos puntos críticos.
+## Recursos y representaciones
+Los recursos son los datos expuestos al exterior por el servicio, existiendo dos tipos:
+- Colección, conjunto de recursos del mismo tipo.
+- Individuales, recurso concreto de un tipo.
+- 
 # Diseño e implementación
