@@ -10,21 +10,20 @@ El almacenamiento tradicionalmente usado son las cabinas de discos, compuestas d
 	- SAS
 	- SATA
 	- NVMe
+Estos componentes dividen el sistema en partes:
+- Agregado, conjunto físico de discos.
+- Volumen, representación lógica del almacenamiento.
+- LUN, conjunto de bloques en un volumen.
 ```mermaid
 flowchart TD
 	ci["cluster\ninterconnect"]
+	c1[controller 1]
+	a1[aggregate 1]
+	c2[controller 2]
+	a2[aggregate 2]
 
-	subgraph \n
-		c1[controller 1]
-		a1[aggregate 1]
-	end
-	subgraph 2
-		c2[controller 2]
-		a2[aggregate 2]
-	end
-
-	c1---ci---c2
-	c1---a1-.-c2
-	c2---a2-.-c1
+	ci---c1
+	ci---c2
+	c1---a1
+	c2---a2
 ```
-
