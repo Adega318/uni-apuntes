@@ -27,7 +27,13 @@ flowchart TD
 	c1---a1
 	c2---a2
 ```
-### Direct attach storage
+### Direct attach storage (DAS)
 Conexión de manera local usando discos externos, este tipo de conexión tiene una única conexión llevando a cuellos de botella y un gran punto crítico.
-### Network attched storage
-Conexión mediante red -t
+### Network attched storage (NAS)
+Conexión mediante red TCP/IP para compartiendo la capacidad de almacenamiento, esto ofrece ventajas como:
+- Menor coste al usar la red existente.
+- Gestión sencilla.
+- Menor rendimiento al usar tcp/ip.
+- Menor fiabilidad.
+### Storage area network (SAN)
+Conexión mediante una red específica de almacenamiento, dando gran fiabilidad, disponibilidad y rendimiento.
