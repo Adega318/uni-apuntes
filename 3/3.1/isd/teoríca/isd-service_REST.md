@@ -56,9 +56,12 @@ flowchart LR
 	b(("Balanceo de\ncarga"))
 	s1((servidor 1))
 	s2((servidor N))
-	ss(("Servidor de\nsesiones"))
-	db[("Sesion\ndatabase")]
-	
+	subgraph \n
+		direction TB
+		ss(("Servidor de\nsesiones"))
+		db[("Sesion\ndatabase")]
+	end
+
 	c1-->b
 	c2-->b
 	b-->s1
@@ -72,5 +75,5 @@ Esta opción aumenta el balance, pero reduce severamente la tolerancia a fallos 
 Los recursos son los datos expuestos al exterior por el servicio, existiendo dos tipos:
 - Colección, conjunto de recursos del mismo tipo.
 - Individuales, recurso concreto de un tipo.
-- 
+Los recursos son identificados por un identificador único y global ( url ).
 # Diseño e implementación
