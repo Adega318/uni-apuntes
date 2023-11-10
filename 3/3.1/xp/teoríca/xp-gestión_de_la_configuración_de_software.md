@@ -33,3 +33,4 @@ flowchart LR
 	r-->|Checkout|l
 	l-->|Checkin|r
 ```
+El repositorio almacena las versiones que son solicitadas por el local y modificadas para luego subidas al repositorio. El almacenamiento se realiza normalmente con el almacenamiento completo de unas pocas versiones con el almacenamiento de los cambios sobre las mismas.
