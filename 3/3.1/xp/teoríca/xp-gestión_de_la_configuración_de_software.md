@@ -15,4 +15,6 @@ Las principales actividades para cumplir lo anteriormente mencionado:
 - Gestión de informes de estado.
 - Autoría de configuración.
 # Conceptos básicos
+- La configuración del software es la información del conjunto de productos utilizados o generados por el proyecto como resultado del proyecto de ingeniería software.
+- Un elemento de configuración del software (ECS) es la unidad mínima de trabajo del GCS, siendo cada uno de los componentes de la configuración software.
 # Aspectos relacionados
