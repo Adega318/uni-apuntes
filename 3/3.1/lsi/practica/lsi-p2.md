@@ -27,7 +27,7 @@ ettercap -T -q -i ens33 -M arp:remote //10.11.48.142/ //10.11.48.1/ -w bisbi.pca
 Envió de los archivos:
 ```shell
 //en otra maquina
-scp lsi@10.11.48.143:/home/lsi/tcp_bisbi.pcap .
+scp lsi@10.11.48.143:/home/lsi/bisbi.pcap
 ```
 Abrimos en wireshark buscamos el png y en File -> Export object lo guardamos y luego abrimos.
 # C)
