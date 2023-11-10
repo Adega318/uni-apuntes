@@ -191,9 +191,17 @@ HOP RTT     ADDRESS
 
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 30.58 seconds
-```
-```shell
 
+root@debian:/home/lsi# nmap -sV 10.11.48.1
+Starting Nmap 7.93 ( https://nmap.org ) at 2023-11-10 19:19 CET
+Nmap scan report for 10.11.48.1
+Host is up (0.00079s latency).
+All 1000 scanned ports on 10.11.48.1 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: DC:08:56:10:84:B9 (Alcatel-Lucent Enterprise)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 23.21 seconds
 ```
 # R)x B
 password guesing
