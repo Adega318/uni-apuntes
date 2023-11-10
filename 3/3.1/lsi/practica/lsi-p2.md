@@ -120,9 +120,9 @@ conexiones y ancho de banda consumido
 - nethogs
 
 ```shell
-//información so
-iftop -i ens33
---
+//información sobre el trafico en ens33
+iftop -l -i ens33
+//información detallada de tcp
 tcptrack -i ens33
 //procesos usando la red
 nethogs
