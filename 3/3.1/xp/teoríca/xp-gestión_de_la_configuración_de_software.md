@@ -26,3 +26,10 @@ Instancia de un ECS en un momento de desarrollo almacenada en un repositorio con
 ### Revisión
 Son lo mismo que versión desde la vista del estándar, en las empresas se le suele considerar cambios menores.
 ### Modelo de trabajo
+```mermaid
+flowchart LR
+	r[Repositorio]
+	l((Versión local))
+	r-->|Checkout|l
+	l-->|Checkin|r
+```
