@@ -81,6 +81,8 @@ Social:
 MITM ipv6 ettercap + ndp
 ```
 ettercap -T -i 6to4 -Q -M ndp:remote //2002:a0b:308e::1/ //2002:a0b:308e::1/
+
+??ettercap -T -i ens33 -Q -M arp:remote //2002:a0b:308e::1/ //::10.11.48.1/
 ```
 # I)
 arpon(defensa) vs ettercap + arp poisoning(ataque)
