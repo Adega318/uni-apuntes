@@ -19,6 +19,5 @@ Las principales actividades para cumplir lo anteriormente mencionado:
 - **ECS** es un elemento de configuración del software, es la unidad mínima de trabajo del GCS, siendo cada uno de los componentes de la configuración software.
 - **Línea base** es la recopilación de ECSs siendo un punto de referencia en el proyecto de desarrollo, los ECS se pueden modificar libremente previamente a ser introducidos en una línea base, obligando a segur un proceso formal de cambios.
 # Aspectos relacionados
-## Herramientas CASE
-Las herramientas CASE que automatizan la GCS suelen incluir funciones adicionales:
-- Control de 
+## Control de versiones
+El control de versiones facilita la GCS permitiendo la relación de versiones y recuperación de las mismas.
