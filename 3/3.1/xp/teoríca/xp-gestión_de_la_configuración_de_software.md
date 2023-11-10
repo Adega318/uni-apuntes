@@ -36,4 +36,7 @@ flowchart LR
 El repositorio almacena las versiones que son solicitadas por el local y modificadas para luego subidas al repositorio. El almacenamiento se realiza normalmente con el almacenamiento completo de unas pocas versiones, con el almacenamiento de los cambios sobre las mismas, siendo a estos llamados el delta y teniendo dos principales:
 - Directo, se almacenan los cambios desde la versión inicial.
 - Inverso, se almacenan los cambios desde la versión final.
-Tambien podemos diferenciar 
+También podemos diferenciar por localización:
+- Separados
+- Mezclados
+## Variantes
