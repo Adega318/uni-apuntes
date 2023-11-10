@@ -21,3 +21,10 @@ Las principales actividades para cumplir lo anteriormente mencionado:
 # Aspectos relacionados
 ## Control de versiones
 El control de versiones facilita la GCS permitiendo la relación de versiones y recuperación de las mismas.
+### Versión
+Instancia de un ECS en un momento de desarrollo almacenada en un repositorio con disponibilidad para su recuperación y modificación.
+### Revisión
+Son lo mismo que versión desde la vista del estándar, en las empresas se le suele considerar cambios menores.
+### Grado de evolución de versiones
+- Uso de un esquema que permita identificar las versiones.
+- 
