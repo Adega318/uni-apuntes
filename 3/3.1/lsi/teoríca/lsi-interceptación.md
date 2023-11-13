@@ -73,3 +73,7 @@ El soc (centro de operaciones de una organización), compuesto de:
 Infectado de la conexión htts.
 ## HSTS
 Sistema de seguridad con el cual con la primera conexión con un servidor se envía una cadena con fecha de expiración que asegura el correcto funcionamiento de htts con ese servidor.
+
+bettercap
+mitmf
+sipejacking, a través de intercepción se trata de robar una cooki de autentificación para autenticarse de manera falsa.
