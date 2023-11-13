@@ -98,8 +98,19 @@ Replica el servicio sin hacer que el cliente ni el servicio se vean alterados. D
 - Caché, almacena en caché información pedida al servicio para liberar carga del mismo, atendiendo peticiones cacheadas.
 ```mermaid
 flowchart LR
-C1[Cliente1]-->|1:get A|I((Intermediario))-->|1:get A|S((Servicio))
-C2[Cliente2]-->I
+subgraph \n
+	C1[Cliente1]
+	C2[Cliente2]
+end
+I((Intermediario))
+S((Servicio))
 
-S-.->|1:response A|I-.->|1:response A|C1
+C1-->|1:get A|I
+C2-->|2:get A|I
+I-->|1:get A|S
+S-.->|1:response A|I
+
+I-.->|1:response A|C1
+I-.->|2:response A|C2
 ```
+- 
