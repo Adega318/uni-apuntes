@@ -17,4 +17,8 @@ Tenemos dos tipos de conexiones:
 Red de máquinas infectadas que bajo control que en un momento dado pueden atacar de manera coordinada.
 ## Syn flood
 Inundación de la TCB para bloquear la comunicación tcp. Esto es mitigadle mediante:
-- odificación del /proc/sys/net/ipv4/tcp_max_syn.backlog siendo normalmente 128, si en el etc añadimos esta variable incrementada podemos aguantar más (un incremento excesivo puede causar la reducción de la calidad de servicio). Otro método es la variable /proc/sys/net/ipv4/tcp_synack_netmen esto maneja el time out del ack, reduciendo el tiempo de infección del flood.
+- Modificación del /proc/sys/net/ipv4/tcp_max_syn.backlog siendo normalmente 128, si en el etc añadimos esta variable incrementada podemos aguantar más (un incremento excesivo puede causar la reducción de la calidad de servicio).
+- Modificación de la variable /proc/sys/net/ipv4/tcp_synack_netmen esto maneja el time out del ack, reduciendo el tiempo de infección del flood.
+- Uso de syn cookies para asegurar el sync mediante el suso de cookies, tcp.syncookies.
+- syn proxy que filtra la comunicación syn, encargándose del handshake en lugar de la máquina y dándole la conexión establecida.
+- syn caché que almacena lo mínimo necesario para la conexión, permitiendo mantener servicio durante el ataque.
