@@ -16,4 +16,5 @@ Tenemos dos tipos de conexiones:
 ## Bot nets
 Red de máquinas infectadas que bajo control que en un momento dado pueden atacar de manera coordinada.
 ## Syn flood
-Inundación de la TCB para bloquear la comunicación tcp. Esto es p
+Inundación de la TCB para bloquear la comunicación tcp. Esto es mitigadle mediante:
+- odificación del /proc/sys/net/ipv4/tcp_max_syn.backlog siendo normalmente 128, si en el etc añadimos esta variable incrementada podemos aguantar más (un incremento excesivo puede causar la reducción de la calidad de servicio). Otro método es la variable /proc/sys/net/ipv4/tcp_synack_netmen esto maneja el time out del ack, reduciendo el tiempo de infección del flood.
