@@ -79,7 +79,7 @@ La interfaz uniforme es el concepto que desde cualquier equipo se acede a la mis
 - PUT, remplaza la representación de un recurso o en caso de no existir lo genera si es permitido.
 - POST, creación de recursos colección y modelado de operaciones no seguras (contenedor desastre).
 - DELETE, borrado de un recurso.
-## Respuestas
+### Respuestas
 Las respuestas http son:
 - 200, OK
 - 201, Created
@@ -89,4 +89,9 @@ Las respuestas http son:
 - 410, Gone
 - 500, Internal Error (no lo deberíamos ver nosotros)
 Los errores podemos diferenciar si son temporales o permanentes, no establecido en http, esta distinción nos permite hacer peticiones con mayor eficiencia al saber si es solucionable con tiempo.
-# Diseño e implementación
+## Intermediarios
+```mermaid
+flowchart LR
+C[Cliente]-->I((Intermediario))-->S((Servicio))
+```
+Replica el servicio sin hacer que el cliente ni el servicio se vean alterados. Dentro de los intermediarios tenemos ti
