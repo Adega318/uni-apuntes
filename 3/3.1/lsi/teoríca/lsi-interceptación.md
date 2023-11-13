@@ -79,6 +79,7 @@ mitmf
 ## Cookies
 - sipejacking, mediante las cookies de autentificación se roba el acceso.
 - Conf.Perfiles, fingerprinting a través de la configuración representada en las cookies.
+Conceptos a sonar:
 - cookie persistentes
 - super cookies
 - zombie cookies
@@ -86,4 +87,4 @@ mitmf
 
 # Html 5
 - webstorage, almacenamiento durante la sesión evitando las cookies.
-- localstorage, almacenamiento local, permanente entre sesiones evitando las cookies.
+- localstorage, almacenamiento local, permanente entre sesiones, evitando las cookies.
