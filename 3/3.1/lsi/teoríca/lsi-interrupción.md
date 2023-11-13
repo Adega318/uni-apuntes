@@ -13,3 +13,5 @@ Tenemos dos tipos de conexiones:
 - Directa, se envían los paquetes al objetivo.
 - Reflectivo, se envían a un gran servidor para que le llegue al objetivo las respuestas.
 	- Protegido con el uso de firewals de control de estado, en UDP el control de estado debe de ser aplicado mediante la correspondencia de proceso y puerto, servicio y destino.
+## Bot nets
+Red de máquinas infectadas que bajo control que en un momento dado pueden atacar de manera coordinada.
