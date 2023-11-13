@@ -94,4 +94,12 @@ Los errores podemos diferenciar si son temporales o permanentes, no establecido 
 flowchart LR
 C[Cliente]-->I((Intermediario))-->S((Servicio))
 ```
-Replica el servicio sin hacer que el cliente ni el servicio se vean alterados. Dentro de los intermediarios tenemos ti
+Replica el servicio sin hacer que el cliente ni el servicio se vean alterados. Dentro de los intermediarios tenemos tipos por función:
+- Caché, almacena en caché información pedida al servicio para liberar carga del mismo, atendiendo peticiones cacheadas.
+```mermaid
+flowchart LR
+C1[Cliente1]-->|1:get A|I((Intermediario))-->|1:get A|S((Servicio))
+C2[Cliente2]-->I
+
+S-.->|1:response A|I-.->|1:response A|C1
+```
