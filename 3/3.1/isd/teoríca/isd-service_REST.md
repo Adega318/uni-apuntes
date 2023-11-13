@@ -4,7 +4,7 @@ El caso de estudio se basa en un cliente con una capa interfaz de usuario y una 
 ```mermaid
 flowchart LR
 	subgraph Client
-		I[Interfaz] -.-> AS["Acceso a servicios"]
+		I[Interfaz] -.-> AS["Acceso a\nservicios"]
 	end
 	subgraph Servidor
 		S[Servicio REST] -.-> M[Modelo]
@@ -79,4 +79,14 @@ La interfaz uniforme es el concepto que desde cualquier equipo se acede a la mis
 - PUT, remplaza la representación de un recurso o en caso de no existir lo genera si es permitido.
 - POST, creación de recursos colección y modelado de operaciones no seguras (contenedor desastre).
 - DELETE, borrado de un recurso.
+## Respuestas
+Las respuestas http son:
+- 200, OK
+- 201, Created
+- 400, Bad Request
+- 403, Forbidden
+- 404, Not Found
+- 410, Gone
+- 500, Internal Error (no lo deberíamos ver nosotros)
+Los errores podemos diferenciar si son temporales o permanentes, no establecido en http, 
 # Diseño e implementación
