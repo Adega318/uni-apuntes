@@ -22,3 +22,4 @@ Inundación de la TCB para bloquear la comunicación tcp. Esto es mitigadle medi
 - Uso de syn cookies para asegurar el sync mediante el suso de cookies, tcp.syncookies.
 - syn proxy que filtra la comunicación syn, encargándose del handshake en lugar de la máquina y dándole la conexión establecida.
 - syn caché que almacena lo mínimo necesario para la conexión, permitiendo mantener servicio durante el ataque.
+## Udp flood
