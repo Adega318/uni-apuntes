@@ -73,4 +73,10 @@ Los recursos son los datos expuestos al exterior por el servicio, existiendo dos
 - Colección, conjunto de recursos del mismo tipo.
 - Individuales, recurso concreto de un tipo.
 Los recursos son identificados por un identificador único y global (url), al invocar estos identificadores (llamada GET) obtenemos la representación (html, json, xml, …)del recurso al que le corresponden, estas representaciones son variables en el tiempo a diferencia del identificador.
+## Interfaz uniforme
+La interfaz uniforme es el concepto que desde cualquier equipo se acede a la misma interfaz. Tenemos las siguientes peticiones:
+- GET
+- PUT
+- POST
+- 
 # Diseño e implementación
