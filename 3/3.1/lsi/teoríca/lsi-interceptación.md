@@ -76,4 +76,14 @@ Sistema de seguridad con el cual con la primera conexión con un servidor se env
 
 bettercap
 mitmf
-sipejacking, a través de intercepción se trata de robar una cooki de autentificación para autenticarse de manera falsa.
+## Cookies
+- sipejacking, mediante las cookies de autentificación se roba el acceso.
+- Conf.Perfiles, fingerprinting a través de la configuración representada en las cookies.
+- cookie persistentes
+- super cookies
+- zombie cookies
+- \*cookies
+
+# Html 5
+- webstorage, almacenamiento durante la sesión evitando las cookies.
+- localstorage, almacenamiento local, permanente entre sesiones evitando las cookies.
