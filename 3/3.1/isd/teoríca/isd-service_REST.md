@@ -4,10 +4,10 @@ El caso de estudio se basa en un cliente con una capa interfaz de usuario y una 
 ```mermaid
 flowchart LR
 	subgraph Client
-		I[Interfaz] -.-> AS[Acceso a servicios]
+		I[Interfaz] -.-> AS["Acceso a servicios"]
 	end
 	subgraph Servidor
-		S[Servicios] -.-> M[Modelo]
+		S[Servicio REST] -.-> M[Modelo]
 	end
 	AS -.->|Red| S
 ```
@@ -76,7 +76,7 @@ Los recursos son identificados por un identificador único y global (url), al in
 ## Interfaz uniforme
 La interfaz uniforme es el concepto que desde cualquier equipo se acede a la misma interfaz. Tenemos las siguientes peticiones:
 - GET, acceso a representaciones.
-- PUT, remplaza la representación de un recurso o en caso de no existir lo crea si es permitido.
+- PUT, remplaza la representación de un recurso o en caso de no existir lo genera si es permitido.
 - POST, creación de recursos colección y modelado de operaciones no seguras (contenedor desastre).
-- DELETE
+- DELETE, borrado de un recurso.
 # Diseño e implementación
