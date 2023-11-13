@@ -84,8 +84,8 @@ Las respuestas http son:
 - 200, OK
 - 201, Created
 - 400, Bad Request
-- 403, Forbidden
-- 404, Not Found & Temporal Error
+- 403, Forbidden or Permanent Error
+- 404, Not Found or Temporal Error
 - 410, Gone
 - 500, Internal Error (no lo deberíamos ver nosotros)
 Los errores podemos diferenciar si son temporales o permanentes, no establecido en http, esta distinción nos permite hacer peticiones con mayor eficiencia al saber si es solucionable con tiempo.
