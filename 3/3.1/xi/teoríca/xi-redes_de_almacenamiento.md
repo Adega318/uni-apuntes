@@ -53,12 +53,15 @@ end
 
 BD---FC---H
 ```
-Arquitectura pensada para el intercambio de bloques modelada completamente:
-- Interfaz física
-- Protocolo de trasmisión, mecanismos de codificación y a
-- Protocolo de señalización
-- Servicios comunes
-- Mapeo de protocolos
+Arquitectura SAN pensada para el intercambio de bloques modelada completamente:
+- FC-0, Interfaz física
+- FC-1, Protocolo de trasmisión
+- FC-2, Protocolo de señalización
+- FC-3, Servicios comunes
+- FC-4, Mapeo de protocolos
+Dentro de esta arquitectura tenemos tres topologías:
+- FC-P2P (punto a punto), conexión directa de equipos permitiendo conectividad.
+- FC-AL ()
 #### ISCSI
 ```mermaid
 flowchart LR
