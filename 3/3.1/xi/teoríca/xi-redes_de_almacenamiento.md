@@ -36,7 +36,10 @@ Conexión mediante red TCP/IP para compartiendo la capacidad de almacenamiento, 
 - Menor rendimiento al usar tcp/ip.
 - Menor fiabilidad.
 ### Storage area network (SAN)
-Conexión mediante una red específica de almacenamiento, dando gran fiabilidad, disponibilidad y rendimiento (red estrella).
+Conexión mediante una red específica de almacenamiento, dando gran fiabilidad, disponibilidad y rendimiento (red estrella), para conectarse a la red necesitamos de tarjetas con conectividad SAN, pudiendo ser:
+- MMF, para largas distancias.
+- SMF, para cortas distancias.
+- UTP ()
 #### Fibre Channel
 ```mermaid
 flowchart LR
@@ -57,6 +60,14 @@ subgraph Almacenamiento ISCSI
 SP
 end
 R((red IP))
+subgraph Host A
+HBA
+end
+subgraph Host B
+NIC
+end
 
-SP---
+SP---R
+R---HBA
+R---NIC
 ```
