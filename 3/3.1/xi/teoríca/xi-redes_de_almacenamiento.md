@@ -39,7 +39,7 @@ Conexión mediante red TCP/IP para compartiendo la capacidad de almacenamiento, 
 Conexión mediante una red específica de almacenamiento, dando gran fiabilidad, disponibilidad y rendimiento (red estrella), para conectarse a la red necesitamos de tarjetas con conectividad SAN, pudiendo ser:
 - MMF, para largas distancias.
 - SMF, para cortas distancias.
-- UTP ()
+- UTP (cobre).
 #### Fibre Channel
 ```mermaid
 flowchart LR
@@ -53,6 +53,12 @@ end
 
 BD---FC---H
 ```
+Arquitectura pensada para el intercambio de bloques modelada completamente:
+- Interfaz física
+- Protocolo de trasmisión, mecanismos de codificación y a
+- Protocolo de señalización
+- Servicios comunes
+- Mapeo de protocolos
 #### ISCSI
 ```mermaid
 flowchart LR
