@@ -39,4 +39,8 @@ El repositorio almacena las versiones que son solicitadas por el local y modific
 También podemos diferenciar por localización:
 - Separados
 - Mezclados
-## Variantes
+### Variantes
+Ramificaciones del grafo de modificación base, habiendo tres tipos:
+- Temporales, ramificaciones con vida limitada.
+- Usar y tirar, variantes de un solo uso (pruebas).
+- Permanentes, 
