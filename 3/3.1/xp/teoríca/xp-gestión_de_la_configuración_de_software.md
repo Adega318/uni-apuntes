@@ -49,3 +49,4 @@ La creación de variantes produce la aparición de configuraciones alternativas,
 Las configuraciones entregadas al cliente, debe ser identificada y tener una GCS asociada.
 # Ejemplo práctico
 Partes del proceso de gestión de configuraciones de la empresa.
+1. Ecs
