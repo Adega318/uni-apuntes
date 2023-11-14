@@ -50,3 +50,5 @@ Las configuraciones entregadas al cliente, debe ser identificada y tener una GCS
 # Ejemplo práctico
 Partes del proceso de gestión de configuraciones de la empresa.
 1. Ecs
+2. Linea base
+3. 
