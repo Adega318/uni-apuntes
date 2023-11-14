@@ -61,7 +61,9 @@ Arquitectura SAN pensada para el intercambio de bloques modelada completamente:
 - FC-4, Mapeo de protocolos
 Dentro de esta arquitectura tenemos tres topologías:
 - FC-P2P (punto a punto), conexión directa de equipos permitiendo conectividad.
-- FC-AL ()
+- FC-AL (anillo arbitrario), dispositivos en anillo compartiendo un mismo buss.
+- FC-SW (estrella fabric), topología en estrella con swiches centrales.
+El direcionamiento dentro del fivre se realiza con World Wide Name (WWN) 
 #### ISCSI
 ```mermaid
 flowchart LR
