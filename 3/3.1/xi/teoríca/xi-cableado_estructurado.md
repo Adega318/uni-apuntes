@@ -75,3 +75,5 @@ Estándares de cableado de los CPDs.
 Distribución con equipos centrales de conexión.
 ## Tor
 Puesto superior del conjunto con las conexiones.
+## SAN
+Red en estructura estrella, ofreciendo el mayor rendimiento pero con el mayor coste.
