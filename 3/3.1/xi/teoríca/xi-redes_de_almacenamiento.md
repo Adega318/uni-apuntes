@@ -1,9 +1,8 @@
-# Sistemas de almacenamiento
-## Modos de transferencia
+# Modos de transferencia
 Tenemos do principales modos de trasferencia de datos:
 - Bloque, solicitud de bloques concretos de la memoria, permitiendo un acceso preciso pero obtuso para el uso por usuarios.
 - Fichero, solicitudes de ficheros con la recopilación de los bloques que lo componen, permitiendo facilidad de empleo del mismo pero con menor eficiencia.
-## Almacenamiento tradicional
+# Almacenamiento tradicional
 El almacenamiento tradicionalmente usado son las cabinas de discos, compuestas de los siguientes componentes:
 - Controladora, sistema que procesa las peticiones de bloques.
 - Bandeja de discos, chasis que aloja los discos, pudiendo ser:
@@ -27,20 +26,20 @@ flowchart TD
 	c1---a1
 	c2---a2
 ```
-### Direct attach storage (DAS)
+## Direct attach storage (DAS)
 Conexión de manera local usando discos externos, este tipo de conexión tiene una única conexión llevando a cuellos de botella y un gran punto crítico.
-### Network attched storage (NAS)
+## Network attched storage (NAS)
 Conexión mediante red TCP/IP para compartiendo la capacidad de almacenamiento, esto ofrece ventajas como:
 - Menor coste al usar la red existente.
 - Gestión sencilla.
 - Menor rendimiento al usar tcp/ip.
 - Menor fiabilidad.
-### Storage area network (SAN)
+## Storage area network (SAN)
 Conexión mediante una red específica de almacenamiento, dando gran fiabilidad, disponibilidad y rendimiento (red estrella), para conectarse a la red necesitamos de tarjetas con conectividad SAN, pudiendo ser:
 - MMF, para largas distancias.
 - SMF, para cortas distancias.
 - UTP (cobre).
-#### Fibre Channel
+### Fibre Channel
 ```mermaid
 flowchart LR
 subgraph Disk Array
@@ -63,10 +62,10 @@ Dentro de esta arquitectura tenemos tres topologías:
 - FC-P2P (punto a punto), conexión directa de equipos permitiendo conectividad.
 - FC-AL (anillo arbitrario), dispositivos en anillo compartiendo un mismo buss.
 - FC-SW (estrella fabric), topología en estrella con swiches centrales.
-El direccionamiento dentro del fivre se realiza con World Wide Name (WWN), pudiendo hacer zoning por software o hardware.
-##### Fibre channel over ethernet
-Se substituyen los niveles 0 y 1 por Físico y MAC de ethernet respectivamente, perdiendo calidad de servicio y prestaciones, pero con menor precio.
-#### ISCSI
+El direccionamiento dentro del fibre se realiza con World Wide Name (WWN), pudiendo hacer zoning por software o hardware.
+#### Fibre channel over ethernet
+Se substituyen los niveles 0 y 1 por Físico y MAC de Ethernet respectivamente, perdiendo calidad de servicio y prestaciones, pero con menor precio.
+### ISCSI
 ```mermaid
 flowchart LR
 subgraph Almacenamiento ISCSI
@@ -84,5 +83,3 @@ SP---R
 R---HBA
 R---NIC
 ```
-# SCSI
-Definición de las trasferencias de datos a nivel de bloque 
