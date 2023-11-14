@@ -47,3 +47,4 @@ Ramificaciones del grafo de modificación base, habiendo tres tipos:
 La creación de variantes produce la aparición de configuraciones alternativas, definidas por los ECS y versiones de los mismos. Esto se puede facilitar con la asignación de atributos a los ECSs.
 # Release
 Las configuraciones entregadas al cliente, debe ser identificada y tener una GCS asociada.
+# Ejemplo practico
