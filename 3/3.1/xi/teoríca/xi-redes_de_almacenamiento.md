@@ -36,4 +36,5 @@ Conexión mediante red TCP/IP para compartiendo la capacidad de almacenamiento, 
 - Menor rendimiento al usar tcp/ip.
 - Menor fiabilidad.
 ### Storage area network (SAN)
-Conexión mediante una red específica de almacenamiento, dando gran fiabilidad, disponibilidad y rendimiento.
+Conexión mediante una red específica de almacenamiento, dando gran fiabilidad, disponibilidad y rendimiento (red estrella).
+#### Fibre Channel
