@@ -64,6 +64,8 @@ Dentro de esta arquitectura tenemos tres topologías:
 - FC-AL (anillo arbitrario), dispositivos en anillo compartiendo un mismo buss.
 - FC-SW (estrella fabric), topología en estrella con swiches centrales.
 El direccionamiento dentro del fivre se realiza con World Wide Name (WWN), pudiendo hacer zoning por software o hardware.
+##### Fibre channel over ethernet
+Se substituyen los niveles 0 y 1 por Físico y MAC de ethernet respectivamente, perdiendo calidad de servicio y prestaciones, pero con menor precio.
 #### ISCSI
 ```mermaid
 flowchart LR
@@ -82,3 +84,5 @@ SP---R
 R---HBA
 R---NIC
 ```
+# SCSI
+Definición de las trasferencias de datos a nivel de bloque 
