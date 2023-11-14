@@ -43,4 +43,5 @@ También podemos diferenciar por localización:
 Ramificaciones del grafo de modificación base, habiendo tres tipos:
 - Temporales, ramificaciones con vida limitada.
 - Usar y tirar, variantes de un solo uso (pruebas).
-- Permanentes, 
+- Permanentes, ramas que continúan de manera separada.
+La creación de variantes produce la aparición de configuraciones alternativas, definidas por los ECS y versiones de los mismos.
