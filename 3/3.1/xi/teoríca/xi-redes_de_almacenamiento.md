@@ -38,3 +38,25 @@ Conexión mediante red TCP/IP para compartiendo la capacidad de almacenamiento, 
 ### Storage area network (SAN)
 Conexión mediante una red específica de almacenamiento, dando gran fiabilidad, disponibilidad y rendimiento (red estrella).
 #### Fibre Channel
+```mermaid
+flowchart LR
+subgraph Disk Array
+BD[SP]
+end
+FC[FC Switch]
+subgraph Host
+H[HBA]
+end
+
+BD---FC---H
+```
+#### ISCSI
+```mermaid
+flowchart LR
+subgraph Almacenamiento ISCSI
+SP
+end
+R((red IP))
+
+SP---
+```
