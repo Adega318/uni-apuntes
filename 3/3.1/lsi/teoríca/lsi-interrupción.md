@@ -24,4 +24,7 @@ Inundación de la TCB para bloquear la comunicación tcp. Esto es mitigadle medi
 - syn caché que almacena lo mínimo necesario para la conexión, permitiendo mantener servicio durante el ataque.
 ## Udp flood
 ## Defensa
-La defensa de los sevicios web se suele realizar mediante el uso de reverse proxis y firewals de estado.
+La defensa de los servicios web se suele realizar mediante el uso de reverse proxis y firewalls de estado.
+### Pruebas de carga
+- Apache bench
+- Metev
