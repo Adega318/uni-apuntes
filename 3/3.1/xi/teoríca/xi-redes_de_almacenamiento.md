@@ -83,4 +83,4 @@ SP---R
 R---HBA
 R---NIC
 ```
-# Virtualizaci
+# Virtualización de almacenamiento
