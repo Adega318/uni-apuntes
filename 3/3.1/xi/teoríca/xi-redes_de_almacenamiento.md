@@ -84,3 +84,4 @@ R---HBA
 R---NIC
 ```
 # Virtualización de almacenamiento
+Permite la disociación entre el hardware de almacenamiento del software, permitiendo el suso de diferentes hardwares diferente.
