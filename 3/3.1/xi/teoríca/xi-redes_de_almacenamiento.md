@@ -94,5 +94,3 @@ Se agrupan conjuntos de discos por motivos de rendimiento, tenemos dos tipos:
 - Híbridos, caché flash y capacidad magnética.
 ## Almacenamiento basado en objetos
 Sistema flexible basado en el establecimiento de políticas de seguridad sobre objetos, contenedores de almacenamiento de datos.
-A la hora de distribuir un objeto se :
-- comprue
