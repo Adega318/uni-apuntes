@@ -83,3 +83,4 @@ SP---R
 R---HBA
 R---NIC
 ```
+# Virtualizaci
