@@ -104,7 +104,7 @@ I(("Intermediario\ncache: A"))
 S((Servicio))
 
 C1 ~~~ C2
-C1 ---> I
+C1 --> I
 C2 --> I
 I -.-> C1
 I -.-> C2
