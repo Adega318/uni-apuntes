@@ -103,15 +103,16 @@ C2[Cliente2]
 I(("Intermediario\ncache: A"))
 S((Servicio))
 
-C1-->I
-C2-->I
-I-->S
-S-.->I
+C1 ~~~ C2
+C1 ---> I
+C2 --> I
+I -.-> C1
+I -.-> C2
 
-I-.->C1
-I-.->C2
+I --> S
+S -.-> I
 ```
-### Balanceo de carga con reintentos
+- Balanceo de carga con reintentos, distribuye las peticiones entre varios servicios, teniendo en cuenta los códigos de error de respuesta para reintentar las peticiones.
 ```mermaid
 flowchart LR
 C[Cliente]-->I(("Intermediario\ncon balanceo"))
@@ -120,4 +121,3 @@ S2((Servicio 2))
 I-->S1
 I--xS2
 ```
-El balanceador de carga distribulle las peticiones entre vari
