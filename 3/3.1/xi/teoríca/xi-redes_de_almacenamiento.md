@@ -87,5 +87,12 @@ R---NIC
 Permite la disociación entre el hardware de almacenamiento del software, permitiendo el uso de diferentes hardwares diferentes. Se pueden establecer rangos de servicio:
 - Tier 1, alto rendimiento (Raid 10 + SAS)
 - Tier 2, rendimiento medio (Raid 5 + SAS)
-- Tier 3, bajo rendimiento (Raid 5 + SA)
+- Tier 3, bajo rendimiento (Raid 5 + SATA)
 ## Grupos de discos
+Se agrupan conjuntos de discos por motivos de rendimiento, tenemos dos tipos:
+- All-flash, caché y capacidad en tecnología flash.
+- Híbridos, caché flash y capacidad magnética.
+## Almacenamiento basado en objetos
+Sistema flexible basado en el establecimiento de políticas de seguridad sobre objetos, contenedores de almacenamiento de datos.
+A la hora de distribuir un objeto se :
+- comprue
