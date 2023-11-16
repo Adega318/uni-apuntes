@@ -111,3 +111,13 @@ S-.->I
 I-.->C1
 I-.->C2
 ```
+### Balanceo de carga con reintentos
+```mermaid
+flowchart LR
+C[Cliente]-->I(("Intermediario\ncon balanceo"))
+S1((Servicio 1))
+S2((Servicio 2))
+I-->S1
+I--xS2
+```
+El balanceador de carga distribulle las peticiones entre vari
