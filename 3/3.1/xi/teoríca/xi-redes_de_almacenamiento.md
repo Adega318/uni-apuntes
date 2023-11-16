@@ -84,4 +84,8 @@ R---HBA
 R---NIC
 ```
 # Virtualización de almacenamiento
-Permite la disociación entre el hardware de almacenamiento del software, permitiendo el suso de diferentes hardwares diferente.
+Permite la disociación entre el hardware de almacenamiento del software, permitiendo el uso de diferentes hardwares diferentes. Se pueden establecer rangos de servicio:
+- Tier 1, alto rendimiento (Raid 10 + SAS)
+- Tier 2, rendimiento medio (Raid 5 + SAS)
+- Tier 3, bajo rendimiento (Raid 5 + SA)
+## Grupos de discos
