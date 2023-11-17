@@ -31,3 +31,5 @@ El redimiendo debe ser optimizado par móvil, con métodos como:
 - Reducir las peticiones HTTP.
 - Evitar el empleo de CSS de alto consumo.
 - Empleo de CSS sprites para imágenes pequeñas.
+# Geolocalización
+# Herramientas de desarrollo y pruebas
