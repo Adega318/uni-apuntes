@@ -89,7 +89,7 @@ En el documento de procedimiento del gcs:
 	1. Solicitudes de cambio rellenadas.
 	2. Versiones.
 	3. Registros de configuración.
-9. **Mecanismos de control**, personas encargadas de controlar el proyecto.
+9. **Mecanismos de control**, personas encargadas de controlar el proyecto
 10. **Base CP**
 	1. **Inicio**
 	2. **Clasificación**
