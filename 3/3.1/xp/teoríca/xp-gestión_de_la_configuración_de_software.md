@@ -81,9 +81,14 @@ En el documento de procedimiento del gcs:
 5. **Aprobaciones**, persona o personas que han aprobado el proyecto (director general).
 6. **Responsabilidades**, responsabilidad de los actores en el procedimiento.
 7. **Productos de entrada**, materiales de entrada.
-	1. ECS
-		1. Documenta
+	1. ECS.
+		1. Documentación.
+		2. Software.
+	2. Solicitudes de cambio.
 8. **Productos de salida**, entregarles de salida.
+	1. Solicitudes de cambio rellenadas.
+	2. Versiones.
+	3. Registros de configuración.
 9. **Mecanismos de control**, personas encargadas de controlar el proyecto.
 10. **Base CP**
 	1. **Inicio**
