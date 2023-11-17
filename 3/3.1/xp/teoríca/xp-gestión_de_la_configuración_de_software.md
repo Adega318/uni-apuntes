@@ -51,5 +51,5 @@ Las configuraciones entregadas al cliente, debe ser identificada y tener una GCS
 Proceso de gestión de configuraciones software:
 1. ECSs
 	1. 
-2. Linea base
+2. Línea base
 3. 
