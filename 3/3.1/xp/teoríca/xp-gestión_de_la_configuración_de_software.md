@@ -89,11 +89,14 @@ En el documento de procedimiento del gcs:
 	1. Solicitudes de cambio rellenadas.
 	2. Versiones.
 	3. Registros de configuración.
-9. **Mecanismos de control**, personas encargadas de controlar el proyecto
-10. **Base CP**
-	1. **Inicio**
-	2. **Clasificación**
-	3. **Planificación**
+9. **Mecanismos de control**, el responsable de calidad realizará auditorias para asegurar la integridad del proyecto.
+10. **Base CP**.
+	1. **Elementos de configuración**.
+	2. **Documentación**.
+		1. Especificación de requisitos.
+		2. Documentación de usuario.
+	3. **Software**.
+		1. Codigo fu
 	4. **Seguimiento**
 		1. cubrir la plantilla de seguimiento
 		2. comprobando las hojas de tiempo
@@ -101,13 +104,13 @@ En el documento de procedimiento del gcs:
 		4. gestión de riesgos
 		5. ante altos retrasos se replanificará
 		6. ante excepciones con alto impacto se documentarán en la plantilla de informe de excepción, enviado al director técnico
-	5. **Cierre**
-		1. convocación a los implicados a la reunión de cierre
-		2. creación del informe de cierre
-		3. cierre de las hojas de tiempo
+	5. **Cierre**.
+		1. convocación a los implicados a la reunión de cierre.
+		2. creación del informe de cierre.
+		3. cierre de las hojas de tiempo.
 11. **Formularios**
 	1. **PP**, plan de proyecto con:
-		1. portada
+		1. portada.
 			1. nombre de proyecto y código del mismo
 			2. firmas
 				1. autor, jefe de proyecto
