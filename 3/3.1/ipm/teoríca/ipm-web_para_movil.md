@@ -18,4 +18,11 @@ Los eventos en una pantalla táctil cambian, desapareciendo el mouse over o mous
 ## Formularios
 Los formularios deben ser adaptados al móvil, cambiando los tipos text planos a tipos más concretos para la información requerida y evitando la obstrucción de elementos por el formulario.
 # Conectividad
-La conectividad en móvil se ve sometida a las redes moviles, haciendo necesaria la optim
+La conectividad en móvil se ve sometida a las redes móviles, haciendo necesaria la optimización del código, algunos métodos son:
+- Minimización de tamaño.
+	- Eliminar espacios.
+	- No cargar recursos no usados.
+	- Compresión de imágenes.
+	- Empleo de versiones mínimas de librerías.
+- Peticiones AJAX (lazy loading).
+# Rendimiento
