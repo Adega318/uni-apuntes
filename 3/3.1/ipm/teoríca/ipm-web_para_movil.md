@@ -1,4 +1,4 @@
 # Opciones de desarrollo
 Dentro de las opciones de desarrollo podemos crear sitios independientes para sobremesa y móvil, siendo el método usado en el pasado, hoy en día se usa un diseño adaptable. Este método es soportado por los navegadores móviles mediante HTML5 y CSS3.
 # HTML 5
-En html el concepto principal a tener en cuenta es el v
+En HTML el concepto principal a tener en cuenta es el **Viewport**, siendo dependiente del dispositivo. En móvil este viewport es escalado al tamaño del móvil, lo que puede llevar a tamaños inadecuados, lo que se puede mitigar con tags para establecer atributos como no escalables.
