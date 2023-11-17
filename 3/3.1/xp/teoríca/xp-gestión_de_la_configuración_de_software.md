@@ -58,7 +58,7 @@ Proceso de gestión de configuraciones software:
 		2. Software.
 	2. Línea base.
 		1. LB de requisitos.
-		2. LB de 
+		2. LB
 	3. Registros de configuración.
 	4. Procedimiento de control de cambios.
 		1. Registro de solicitudes de cambio.
@@ -68,3 +68,8 @@ Proceso de gestión de configuraciones software:
 	5. Sistema de gestión de versiones.
 		1. Numeración usada.
 		2. Entornos de trabajo.
+
+Los procedimientos que debemos referenciar son:
+- Especificación de requisitos.
+- Informe de errores.
+- Atención al cliente.
