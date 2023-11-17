@@ -16,4 +16,6 @@ La interacción con dispositivos móviles es necesario tener en cuenta el uso de
 ## Eventos
 Los eventos en una pantalla táctil cambian, desapareciendo el mouse over o mouse move y apaceriendo el tap.
 ## Formularios
-Los formularios deven ser adactados al móvil, cambiando los tipos text planos a tipos más concretos p
+Los formularios deben ser adaptados al móvil, cambiando los tipos text planos a tipos más concretos para la información requerida y evitando la obstrucción de elementos por el formulario.
+# Conectividad
+La conectividad en móvil se ve sometida a las redes moviles, haciendo necesaria la optim
