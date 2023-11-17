@@ -60,4 +60,9 @@ Proceso de gestión de configuraciones software:
 	3. Registros de configuración.
 	4. Procedimiento de control de cambios.
 		1. Registro de solicitudes de cambio.
-		2. Analisis de las 
+		2. Análisis de las solicitudes de cambio.
+		3. Ejecución de cambios.
+		4. Cierre de la solicitud de cambio.
+	5. Sistema de gestión de versiones.
+		1. Numeración usada.
+		2. Entornos de trabajo.
