@@ -32,4 +32,5 @@ El redimiendo debe ser optimizado par móvil, con métodos como:
 - Evitar el empleo de CSS de alto consumo.
 - Empleo de CSS sprites para imágenes pequeñas.
 # Geolocalización
+Los dispositivos móviles tienen la capacidad de proporcionar información asíncrona de posición. Necesitando normalmente de permisos y con la capacidad de establecer la calidad y frecuencias de actualización de posición.
 # Herramientas de desarrollo y pruebas
