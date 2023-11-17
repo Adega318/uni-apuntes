@@ -26,3 +26,8 @@ La conectividad en móvil se ve sometida a las redes móviles, haciendo necesari
 	- Empleo de versiones mínimas de librerías.
 - Peticiones AJAX (lazy loading).
 # Rendimiento
+El redimiendo debe ser optimizado par móvil, con métodos como:
+- Empleo de código simple.
+- Reducir las peticiones HTTP.
+- Evitar el empleo de CSS de alto consumo.
+- Empleo de CSS sprites para imágenes pequeñas.
