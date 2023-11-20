@@ -28,4 +28,5 @@ La defensa de los servicios web se suele realizar mediante el uso de reverse pro
 ### Pruebas de carga
 - Apache bench
 - Metev
-#
+# Conectividad
+La conectividad es cuantificada por el RSSI, comenzando en 0 y bajando a los negativos cuando empeora la señal. Podemos observar estos valores con programas como ACRILIC.
