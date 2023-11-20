@@ -37,4 +37,4 @@ Las principales bandas usadas son 2.4 y 5 GHz siendo el primero de mayor alcance
 	- Sistema de atractivo de señales.
 # Clustering
 Creación de listas blancas y negras para priorizar el servicio a los usuarios legítimos y agrupado de servicios para el ajuste de calidad de servicio y mínimos de la misma.
-Para listas negras tenemos a RTBL que nos da consultas en bases de datos de reputación para detectar conexiones sospechosas.
+Para listas negras tenemos a RTBL que nos da consultas en bases de datos de reputación para detectar conexiones sospechosas, otras bases de datos pueden ser encontradas en SpamHaus con SBL(spam de correo) y XBL(ips que han estado infectadas).
