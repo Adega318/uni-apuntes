@@ -35,3 +35,5 @@ Las principales bandas usadas son 2.4 y 5 GHz siendo el primero de mayor alcance
 - Wifi 5.
 - Wifi 6.
 	- Sistema de atractivo de señales.
+# Clustering
+Creación de listas blancas para priorizar el servicio a los usuarios legítimos.
