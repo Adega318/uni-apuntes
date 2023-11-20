@@ -31,4 +31,7 @@ La defensa de los servicios web se suele realizar mediante el uso de reverse pro
 # Conectividad
 La conectividad es cuantificada por el RSSI, comenzando en 0 y bajando a los negativos cuando empeora la señal. Podemos observar estos valores con programas como ACRILIC.
 ## Bandas
-Las principales bandas usadas son 2.4 y 5 GHz siendo el primero de mayor alcanze y segundo de mayor potencia.
+Las principales bandas usadas son 2.4 y 5 GHz siendo el primero de mayor alcance y segundo de mayor potencia. En estas bandas de frecuencia tenemos dos estándares:
+- Wifi 5.
+- Wifi 6.
+	- Sistema de atractivo de señales.
