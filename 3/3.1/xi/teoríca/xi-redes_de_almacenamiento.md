@@ -100,4 +100,4 @@ Los dominios de fallo son copias, réplica y testigo. En caso de un error en el 
 Para manejar el gran número de máquinas virtuales ha llevado a la virtualización de las redes, perdiendo velocidad pero aumentando la flexibilidad.
 Los principales modelos de virtualización:
 - NFV (virtualización de funciones), servicios de red son virtualizados en hardware abierto, acelerando el despliegue.
-- SDN (redes definidas por software), separación del envío de datos del sistema de control, permitiendo programar el control.
+- SDN (redes definidas por software), separación del envío de datos del sistema de control, permitiendo programar el control, haciéndolo dinámico.
