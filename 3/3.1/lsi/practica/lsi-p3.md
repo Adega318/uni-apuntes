@@ -20,6 +20,15 @@ Apache
 	- easy-rsa (preferente)
 - servidores
 	- generar certificado propio.
+	- Configuración de las claves privada y pública.
+	- Enviar la publica a la entidad certificadora y sellarlo.
+	- Usar al pública certificada estipulando el certificador con su clave pública.
+- Problemas
+	- No haber instalado la entidad certificadora en la máquina.
+		- Carpeta de devian de entidades certificadoras
+	- Url desconocida.
+		- Añadir al fichero de hosts el dominio asociado a la ip
+		- 
 ## A)
 ## B)
 ## C)
