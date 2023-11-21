@@ -106,5 +106,5 @@ En el documento de procedimiento del gcs:
 		1. Solicitudes de cambio.
 		2. Valoración por el jefe de proyecto, pudiendo rechazarla.
 		3. Realización de cambios
-		4. Aztualización
+		4. Actualización
 		5. Cierre
