@@ -104,5 +104,7 @@ En el documento de procedimiento del gcs:
 	5. **Hoja de registros de configuración**.
 	6. Gestión de cambios.
 		1. Solicitudes de cambio.
-		2. Valoración por el jefe de proyecto.
+		2. Valoración por el jefe de proyecto, pudiendo rechazarla.
 		3. Realización de cambios
+		4. Aztualización
+		5. Cierre
