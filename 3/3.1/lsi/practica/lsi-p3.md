@@ -1,23 +1,14 @@
 En el firewall de control de estados no olvidarse del udp.
 
-# 1.
+# 1.~
 SSH -v | -vw
 - Ficheros de configuración (SSH_KONWN_HOST)
 - Cifrado
 - Clave pública INPORTANTE (devian.org info del funcionamiento)
 - Securizar servicio con túnel SSH, comprobar con tráfico http y en el snifing sale tráfico codificado ssh.
 - Montaje directorio compartido (dropbox), generación modificado y borrado
-## A)
-### Clave publica
-Generamos la clave con:
-```shell
-ssh-keygen -t rsa
-```
-Enviamos la clave:
-```shell
-ssh-copy-id -i /root/.ssh/id_rsa.pub lsi@10.11.50.142
-```
-## B)
+## A)x
+## B)~
 Seleccionamos el cifrado con el comando:
 ```shell
 scp -c <cipher> <origen> <destino>
@@ -37,11 +28,20 @@ Los principales cifrados son:
 - 3des-cbc
 ### Proceso
 
-## C)
-## D)
-## E)
-## F)
-# 2.
+## C)~
+Generamos la clave con:
+```shell
+ssh-keygen -t rsa
+```
+Enviamos la clave:
+```shell
+ssh-copy-id -i /root/.ssh/id_rsa.pub lsi@10.11.50.142
+```
+### Explicación
+## D)x
+## E)x
+## F)x
+# 2.x
 Apache
 - entidad certificadora
 	- cert
@@ -59,10 +59,10 @@ Apache
 		- APUNTAR TODO CUANDO ESTEMOS CREANDO EL CERTIFICADO.
 		- Usualmente el problema es el **canonical name** (no ip).
 - Carpeta securizada con https
-## A)
-## B)
-## C)
-# 3.
+## A)x
+## B)x
+## C)x
+# 3.x
 Configuración de VPN
 - OpenVpn
 	- cliente
@@ -72,7 +72,7 @@ Configuración de VPN
 		- clave/secreto compartido (Pre-Shared Key), pruebas:
 			- ifconfig
 			- ping de maquina a maquina
-# 5.
-# 6.
-# 7.
-# 8.
+# 5.x
+# 6.x
+# 7.x
+# 8.x
