@@ -40,7 +40,9 @@ ssh-copy-id -i /root/.ssh/id_rsa.pub lsi@10.11.50.142
 ```
 ## D)
 Creamos un túnel entre nuestra máquina y la del compañero:
-
+```shell
+ssh -L 8080:
+```
 ## E)x
 ## F)x
 # 2.x
