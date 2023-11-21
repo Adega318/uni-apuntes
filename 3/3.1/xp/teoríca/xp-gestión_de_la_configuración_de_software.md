@@ -103,5 +103,6 @@ En el documento de procedimiento del gcs:
 		2. LB de Producto.
 	5. **Hoja de registros de configuración**.
 	6. Gestión de cambios.
-		1. Solicitudes de cambio
-		2. 
+		1. Solicitudes de cambio.
+		2. Valoración por el jefe de proyecto.
+		3. Realización de cambios
