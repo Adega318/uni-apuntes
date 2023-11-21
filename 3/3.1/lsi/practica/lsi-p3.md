@@ -18,6 +18,25 @@ Enviamos la clave:
 ssh-copy-id -i /root/.ssh/id_rsa.pub lsi@10.11.50.142
 ```
 ## B)
+Seleccionamos el cifrado con el comando:
+```shell
+scp -c <cipher> <origen> <destino>
+```
+Los principales cifrados son:
+- aes128-ctr
+- aes128-cbc
+- aes192-ctr
+- aes192-cbc
+- aes256-ctr
+- aes256-cbc
+- blowfish-cbc
+- arcfour
+- arcfour128
+- arcfour256
+- cast128-cbc
+- 3des-cbc
+### Proceso
+
 ## C)
 ## D)
 ## E)
