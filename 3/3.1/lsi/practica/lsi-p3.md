@@ -28,7 +28,7 @@ Los principales cifrados son:
 - 3des-cbc
 ### Proceso
 
-## C)\che
+## C)
 Generamos la clave con:
 ```shell
 ssh-keygen -t rsa
