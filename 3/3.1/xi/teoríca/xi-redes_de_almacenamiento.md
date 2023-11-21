@@ -96,8 +96,3 @@ Se agrupan conjuntos de discos por motivos de rendimiento, tenemos dos tipos:
 Sistema flexible basado en el establecimiento de políticas de seguridad sobre objetos, contenedores de almacenamiento de datos.
 ## Dominio de fallo
 Los dominios de fallo son copias, réplica y testigo. En caso de un error en el principal, la réplica comprobará que sus datos son correcto con el testigo y restablecerá el sistema.
-## Virtualización de red
-Para manejar el gran número de máquinas virtuales ha llevado a la virtualización de las redes, perdiendo velocidad pero aumentando la flexibilidad.
-Los principales modelos de virtualización:
-- NFV (virtualización de funciones), servicios de red son virtualizados en hardware abierto, acelerando el despliegue.
-- SDN (redes definidas por software), separación del envío de datos del sistema de control, permitiendo programar el control, haciéndolo dinámico.
