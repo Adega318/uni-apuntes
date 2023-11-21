@@ -8,6 +8,15 @@ SSH -v | -vw
 - Securizar servicio con túnel SSH, comprobar con tráfico http y en el snifing sale tráfico codificado ssh.
 - Montaje directorio compartido (dropbox), generación modificado y borrado
 ## A)
+### Clave publica
+Generamos la clave con:
+```shell
+ssh-keygen -t rsa
+```
+Enviamos la clave:
+```shell
+ssh-copy-id -i /root/.ssh/id_rsa.pub lsi@10.11.50.142
+```
 ## B)
 ## C)
 ## D)
