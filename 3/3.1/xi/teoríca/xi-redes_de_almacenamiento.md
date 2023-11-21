@@ -95,4 +95,4 @@ Se agrupan conjuntos de discos por motivos de rendimiento, tenemos dos tipos:
 ## Almacenamiento basado en objetos
 Sistema flexible basado en el establecimiento de políticas de seguridad sobre objetos, contenedores de almacenamiento de datos.
 ## Dominio de fallo
-Los dominios de fallo son un par de copias, una réplica y un testigo. En caso de un error en el principal, la réplica comprobará que sus datos son correcto con el testigo y restablecerá el sistema.
+Los dominios de fallo son copias, réplica y testigo. En caso de un error en el principal, la réplica comprobará que sus datos son correcto con el testigo y restablecerá el sistema.
