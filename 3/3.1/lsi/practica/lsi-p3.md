@@ -41,7 +41,9 @@ Configuración de VPN
 	- servidor
 		- rango de ips
 		- cifrado
-		- clave/secreto compartido (Pre-Shared Key)
+		- clave/secreto compartido (Pre-Shared Key), pruebas:
+			- ifconfig
+			- ping de maquina a maquina
 # 5.
 # 6.
 # 7.
