@@ -28,11 +28,20 @@ Apache
 		- Carpeta de devian de entidades certificadoras
 	- Url desconocida.
 		- Añadir al fichero de hosts el dominio asociado a la ip
-		- 
+		- APUNTAR TODO CUANDO ESTEMOS CREANDO EL CERTIFICADO.
+		- Usualmente el problema es el **canonical name** (no ip).
+- Carpeta securizada con https
 ## A)
 ## B)
 ## C)
 # 3.
+Configuración de VPN
+- OpenVpn
+	- cliente
+	- servidor
+		- rango de ips
+		- cifrado
+		- clave/secreto compartido (Pre-Shared Key)
 # 5.
 # 6.
 # 7.
