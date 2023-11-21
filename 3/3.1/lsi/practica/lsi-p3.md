@@ -28,16 +28,16 @@ Los principales cifrados son:
 - 3des-cbc
 ### Proceso
 
-## C)~
+## C)\che
 Generamos la clave con:
 ```shell
 ssh-keygen -t rsa
 ```
 Enviamos la clave:
 ```shell
+// lo setea automaticamente en authorized_keys desde la otra maquina
 ssh-copy-id -i /root/.ssh/id_rsa.pub lsi@10.11.50.142
 ```
-### Explicación
 ## D)x
 ## E)x
 ## F)x
