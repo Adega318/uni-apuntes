@@ -121,4 +121,3 @@ S2((Servicio 2))
 I-->S1
 I--xS2
 ```
-# Jetty y Maven
