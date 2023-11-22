@@ -34,13 +34,13 @@ El redimiendo debe ser optimizado par móvil, con métodos como:
 # Geolocalización
 Los dispositivos móviles tienen la capacidad de proporcionar información asíncrona de posición. Necesitando normalmente de permisos y con la capacidad de establecer la calidad y frecuencias de actualización de posición.
 # Herramientas de desarrollo y pruebas
-## Desarrollo responsivo
-### Contenidos flexibles
+## Contenidos flexibles
 Los contenidos son colocados de manera flexible en la pantalla, basándose en porcentajes de la resolución para permitir la adaptabilidad de los elementos en pantalla.
-#### Tipografías flexibles
+### Tipografías flexibles
 Para adaptar el tamaño de fuente de manera dinámica se hace uso de los tamaños configurados en el sistema y escalado a partir del mismo. Otro método es el empleo del tamaño del contenedor para ajustar la fuente:
 - em, tamaño del contenedor.
 - rem, tamaño de fuente base.
 Podemos adaptarlos al tamaño del view port con:
 - vw, tamaño del view port.
-- 
+### Grid fluido
+Establecer el tamaño de los contenedores de manera relativa al vw con porcentajes de mismo.
