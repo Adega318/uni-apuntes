@@ -16,7 +16,7 @@ Opciones:
 - -F, elimina las reglas.
 - -x, elimina las cadenas.
 - -P \<Regla> \<acción>, selecciona las políticas por defecto.
-- -A \<Regla> 
+- -A \<Regla>, añadir filtros.
 	- -i, interfaz a usar.
 	- -j \<acción>, acción a realizar.
 	- -s \<ip>, origen.
@@ -24,4 +24,3 @@ Opciones:
 	- -p \<protocolo>, protocolo a filtrar.
 		- --dport \<puerto>, puerto destino.
 		- --sport \<puerto>, puerto origen.
-- 
