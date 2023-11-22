@@ -44,3 +44,4 @@ Podemos adaptarlos al tamaño del view port con:
 - vw, tamaño del view port.
 ### Grid fluido
 Establecer el tamaño de los contenedores de manera relativa al vw con porcentajes de mismo.
+### Imágenes flexibles
