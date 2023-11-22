@@ -45,4 +45,6 @@ Podemos adaptarlos al tamaño del view port con:
 ### Grid fluido
 Establecer el tamaño de los contenedores de manera relativa al vw con porcentajes de mismo.
 ### Imágenes flexibles
-Las imagenes flexibles es la combinación de carga de imagenes de distinas calidades y el escalado de las mismas al tamaño de view port.
+Las imágenes flexibles es la combinación de carga de imágenes de distintas calidades y el escalado de las mismas al tamaño de view port.
+## Patrones responsivos
+Distribuciones de elementos que varían en función de la resolución del dispositivo.
