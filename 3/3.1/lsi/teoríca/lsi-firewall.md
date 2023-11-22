@@ -17,6 +17,10 @@ Opciones:
 - -x, elimina las cadenas.
 - -P \<Regla> \<acción>, selecciona las políticas por defecto.
 - -A \<Regla> 
-	- -i, intefaz a usar.
+	- -i, interfaz a usar.
 	- -j \<acción>, acción a realizar.
-	- -s \<ip>, 
+	- -s \<ip>, origen.
+	- -d \<ip>, destino.
+	- -p \<protocolo>, protocolo a filtrar.
+		- --dport \<puerto> 
+- 
