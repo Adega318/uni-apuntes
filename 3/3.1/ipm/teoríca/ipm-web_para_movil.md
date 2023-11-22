@@ -34,3 +34,8 @@ El redimiendo debe ser optimizado par móvil, con métodos como:
 # Geolocalización
 Los dispositivos móviles tienen la capacidad de proporcionar información asíncrona de posición. Necesitando normalmente de permisos y con la capacidad de establecer la calidad y frecuencias de actualización de posición.
 # Herramientas de desarrollo y pruebas
+## Desarrollo responsivo
+### Contenidos flexibles
+Los contenidos son colocados de manera flexible en la pantalla, basándose en porcentajes de la resolución para permitir la adaptabilidad de los elementos en pantalla.
+#### Tipografías flexibles
+Para adaptar el tamaño de fuente de manera dinámica se hace uso de los tamaños configurados en el sistema y escalado a partir del mismo.
