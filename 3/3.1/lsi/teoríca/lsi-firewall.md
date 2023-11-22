@@ -1,10 +1,18 @@
 # Reglas
 ```mermaid
 flowchart TD
-Interface-->Prerouting-->Input-->Proces-->Output-->Postrouting-->Interface
+I((Interface))
+P((Proces))
+I-->Prerouting-->Input-->P
 Prerouting-->Forwarding-->Postrouting
+P-->Output-->Postrouting-->I
 ```
 ## Input Output
 ## Forward
 ## Mangle
 ## NAT
+# Iptables
+Opciones:
+- F, elimina las reglas
+- x, elimina las cadenas
+- P <
