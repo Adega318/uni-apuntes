@@ -13,6 +13,10 @@ P-->Output-->Postrouting-->I
 ## NAT
 # Iptables
 Opciones:
-- F, elimina las reglas
-- x, elimina las cadenas
-- P <
+- -F, elimina las reglas.
+- -x, elimina las cadenas.
+- -P \<Regla> \<acción>, selecciona las políticas por defecto.
+- -A \<Regla> 
+	- -i, intefaz a usar.
+	- -j \<acción>, acción a realizar.
+	- -s \<ip>, 
