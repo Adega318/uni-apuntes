@@ -22,5 +22,6 @@ Opciones:
 	- -s \<ip>, origen.
 	- -d \<ip>, destino.
 	- -p \<protocolo>, protocolo a filtrar.
-		- --dport \<puerto> 
+		- --dport \<puerto>, puerto destino.
+		- --sport \<puerto>, puerto origen.
 - 
