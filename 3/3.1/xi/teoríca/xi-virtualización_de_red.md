@@ -19,10 +19,4 @@ Switch virtual, usado principalmente para establecer comunicación entre máquin
 Virtualizaciones servicios realizados por hardware a su versión virtualizada, estableciéndolo sobre hardware genérico. Permitiendo una alta velocidad de despliegue y escalabilidad, dando una mayor velocidad de retorno y adaptabilidad de las capacidades al cliente.
 ## Cadenas de servicios
 Creación de servicios aplicables a distintos tipos de tráfico, permitiendo la alta personalización de los servicios.
-## Características
-- Sencillez, interfaces web, cli, api.
-- Administración, control y monitoreo de recursos.
-- Almacén distribuido, 
-- Elasticidad
-- Seguridad
 ## Arquitectura
