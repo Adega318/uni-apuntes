@@ -20,5 +20,9 @@ Virtualizaciones servicios realizados por hardware a su versión virtualizada, e
 ## Cadenas de servicios
 Creación de servicios aplicables a distintos tipos de tráfico, permitiendo la alta personalización de los servicios.
 ## Características
-
+- Sencillez, interfaces web, cli, api.
+- Administración, control y monitoreo de recursos.
+- Almacén distribuido, 
+- Elasticidad
+- Seguridad
 ## Arquitectura
