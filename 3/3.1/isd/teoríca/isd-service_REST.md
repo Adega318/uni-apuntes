@@ -122,5 +122,11 @@ I-->S1
 I--xS2
 ```
 # Procesos de la capa servicio 
-1. Convertimos el JSON en una instancia de clase con los atributos necesarios (DTO).
-2. Se convierte el DTO a una clase válida.
+## Petición JSON
+1. Recibimos la petición con un JSON.
+2. Convertimos el JSON en una instancia de clase con los atributos necesarios (DTO).
+3. Se convierte el DTO a una clase válida.
+4. Llamamos a la operación del modelo necesaria.
+5. Se convierte la respuesta en un DTO.
+6. Se convierte el DTO a JSON.
+7. Enviamos la respuesta con el JSON.
