@@ -13,5 +13,7 @@ Aplicación --- Controlador --- Hardware
 La TCAM es la memoria del sistema, siendo terciaria y basada en la búsqueda de datos en lugar de la búsqueda de direcciones.
 ## OpenFlow
 Protocolo principal del SND que estipula la programación remota de la red, permitiendo establecer reglas de flujo sobre la red (similar a un firewall).
+### Open VSwitsh
+Switch virtual, usado principalmente para establecer comunicación entre máquinas virtuales sin salir a la red real, reduciendo el tráfico de la misma. Permite la creación de VLANs, monitoreo, QoS, …
 # NFV
 Virtualización de funciones, servicios de red son virtualizados en hardware abierto, acelerando el despliegue.
