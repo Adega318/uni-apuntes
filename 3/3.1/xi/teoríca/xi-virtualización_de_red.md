@@ -16,4 +16,9 @@ Protocolo principal del SND que estipula la programación remota de la red, perm
 ### Open VSwitsh
 Switch virtual, usado principalmente para establecer comunicación entre máquinas virtuales sin salir a la red real, reduciendo el tráfico de la misma. Permite la creación de VLANs, monitoreo, QoS, …
 # NFV
-Virtualizaciones servicios realizados por hardware a su versión virtualizada, estableciéndolo sobre hardware genérico. 
+Virtualizaciones servicios realizados por hardware a su versión virtualizada, estableciéndolo sobre hardware genérico. Permitiendo una alta velocidad de despliegue y escalabilidad dando una mayor velocidad de retorno y variavil
+## Cadenas de servicios
+Creación de servicios aplicables a distintos tipos de tráfico, permitiendo la alta personalización de los servicios.
+## Soluciones comerciales
+## Características
+## Arquitectura
