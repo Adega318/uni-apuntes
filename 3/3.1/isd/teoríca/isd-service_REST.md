@@ -121,3 +121,6 @@ S2((Servicio 2))
 I-->S1
 I--xS2
 ```
+# Procesos de la capa servicio 
+1. Convertimos el JSON en una instancia de clase con los atributos necesarios (DTO).
+2. Se convierte el DTO a una clase válida.
