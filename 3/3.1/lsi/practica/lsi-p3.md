@@ -41,7 +41,11 @@ ssh-copy-id -i /root/.ssh/id_rsa.pub lsi@10.11.50.142
 ## D)
 Creamos un túnel entre nuestra máquina y la del compañero:
 ```shell
-ssh -L 80:10.11.48.142:80 lsi@10.11.50.142
+ssh -L 8080:10.11.48.142:80 -N lsi@10.11.50.142
+```
+Acedemos a nuestro compañero por el 8080:
+```shell
+w3m http://localhost:8080
 ```
 ## E)x
 ## F)x
