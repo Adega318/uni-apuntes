@@ -61,4 +61,6 @@ Distribuciones de elementos que varían en función de la resolución del dispos
 ## WAI-ARIA
 Accesibilidad para páginas con alto uso de java.
 ### Roles
-- Landmark, identifica regiones d
+- Landmark, identifica regiones de la página para lectores de pantalla.
+- Document structure, describe las estructuras de la página.
+- 
