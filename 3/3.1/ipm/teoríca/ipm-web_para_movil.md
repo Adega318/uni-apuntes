@@ -51,4 +51,8 @@ Distribuciones de elementos que varían en función de la resolución del dispos
 # Accesibilidad
 ## Sección 508
 - Imágenes y tablas, proporcionar textos alternativos a las imágenes y tablas.
-- Contenido repetitivo, organizar el ht
+- Contenido repetitivo, organizar el HTML para poder saltar los contenidos repetitivos.
+- Color, no hacer uso de funciones basadas en colores y comprobar el contraste de los colores.
+- Formularios, asociar una etiqueta a cada input, agruparlo por regiones afines, evitar cambios de páginas y dar información de las características del input.
+- Enlaces y botones, dat tooltips sobre la función de los botones o naturaleza de los enlaces.
+- Teclado y focus, t
