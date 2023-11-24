@@ -48,4 +48,7 @@ Establecer el tamaño de los contenedores de manera relativa al vw con porcentaj
 Las imágenes flexibles es la combinación de carga de imágenes de distintas calidades y el escalado de las mismas al tamaño de view port.
 ## Patrones responsivos
 Distribuciones de elementos que varían en función de la resolución del dispositivo.
-# Acesibilidad
+# Accesibilidad
+## Sección 508
+- Imágenes y tablas, proporcionar textos alternativos a las imágenes y tablas.
+- Contenido repetitivo, organizar el ht
