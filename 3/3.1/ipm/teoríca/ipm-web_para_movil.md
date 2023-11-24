@@ -63,4 +63,4 @@ Accesibilidad para páginas con alto uso de java.
 ### Roles
 - Landmark, identifica regiones de la página para lectores de pantalla.
 - Document structure, describe las estructuras de la página.
-- 
+- Widget, indica la funcionalidad de los widgets.
