@@ -57,4 +57,4 @@ Distribuciones de elementos que varían en función de la resolución del dispos
 - Enlaces y botones, dat tooltips sobre la función de los botones o naturaleza de los enlaces.
 - Teclado y focus, todas las funcionalidades accesibles por teclado y el focus es visible.
 - Hojas de estilos, no se puede introducir información mediante hojas de estilos.
-- Titulos y cabecera, mantener rigurosamente los niveles de html para facilitar la lectura.
+- Títulos y cabecera, mantener rigurosamente los niveles de HTML para facilitar la lectura.
