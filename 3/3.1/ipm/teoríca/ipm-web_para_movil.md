@@ -55,4 +55,6 @@ Distribuciones de elementos que varían en función de la resolución del dispos
 - Color, no hacer uso de funciones basadas en colores y comprobar el contraste de los colores.
 - Formularios, asociar una etiqueta a cada input, agruparlo por regiones afines, evitar cambios de páginas y dar información de las características del input.
 - Enlaces y botones, dat tooltips sobre la función de los botones o naturaleza de los enlaces.
-- Teclado y focus, t
+- Teclado y focus, todas las funcionalidades accesibles por teclado y el focus es visible.
+- Hojas de estilos, no se puede introducir información mediante hojas de estilos.
+- Titulos y cabecera, mantener rigurosamente los niveles de html para facilitar la lectura.
