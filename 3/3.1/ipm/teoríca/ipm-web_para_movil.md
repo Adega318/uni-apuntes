@@ -58,3 +58,7 @@ Distribuciones de elementos que varían en función de la resolución del dispos
 - Teclado y focus, todas las funcionalidades accesibles por teclado y el focus es visible.
 - Hojas de estilos, no se puede introducir información mediante hojas de estilos.
 - Títulos y cabecera, mantener rigurosamente los niveles de HTML para facilitar la lectura.
+## WAI-ARIA
+Accesibilidad para páginas con alto uso de java.
+### Roles
+- Landmark, identifica regiones d
