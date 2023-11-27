@@ -24,3 +24,5 @@ Opciones:
 	- -p \<protocolo>, protocolo a filtrar.
 		- --dport \<puerto>, puerto destino.
 		- --sport \<puerto>, puerto origen.
+	- -m <extensión>, cargar extensiones (comtrack).
+		- --estate \<estado> (NEW)
