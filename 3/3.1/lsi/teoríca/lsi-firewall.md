@@ -34,10 +34,16 @@ iptables -A INPUT -m conntrack --estate ESTABLISHED, RELATED -j ACCEPT
 iptables -A OUTPUT -m conntrack --estate ESTABLISHED, RELATED -j ACCEPT
 ```
 - Control de estado NEW
-```
+```shell
 iptables -A INPUT -P TCP --dport 22 -s 10.11.30.0/24 -d 10.11.48.143 -m conntrack --estate NEW -j ACCEPT
 ```
 - A varios puertos
+```shell
+-i ens33 ... -m multiport 22,80,443,...
 ```
--i ens33 ... -m multiport 22,80,
+- respuestas
 ```
+iptables -A INPUT -P TCP -j REJECT --rejectwith tcp-reset
+```
+
+IMPORTANTES, IPTABLES NO PERSISTENTES
