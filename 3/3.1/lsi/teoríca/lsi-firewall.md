@@ -46,4 +46,10 @@ iptables -A INPUT -P TCP --dport 22 -s 10.11.30.0/24 -d 10.11.48.143 -m conntrac
 iptables -A INPUT -P TCP -j REJECT --rejectwith tcp-reset
 ```
 
+## Iptables persistent
 IMPORTANTES, IPTABLES NO PERSISTENTES
+
+Establecimiento del persistente:
+```
+iptables -persistent > /etc/iptables/rules.v4
+```
