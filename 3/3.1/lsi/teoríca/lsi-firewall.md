@@ -42,11 +42,16 @@ iptables -A INPUT -P TCP --dport 22 -s 10.11.30.0/24 -d 10.11.48.143 -m conntrac
 -i ens33 ... -m multiport 22,80,443,...
 ```
 - respuestas
-```
+```shell
 iptables -A INPUT -P TCP -j REJECT --rejectwith tcp-reset
 ```
-## Bodys
+- Logear los intentos no autorizados
+```shell
 iptables -A INPUT -P TCP --dport 22 -j LOG --log-prefix "intento denegado" --log-level 4
+```
+```shell
+
+```
 ## Iptables persistent
 IMPORTANTES, IPTABLES NO PERSISTENTES
 
@@ -54,3 +59,4 @@ Establecimiento del persistente:
 ```
 iptables -persistent > /etc/iptables/rules.v4
 ```
+# Netfilter
