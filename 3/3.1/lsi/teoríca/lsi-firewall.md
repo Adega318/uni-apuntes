@@ -60,7 +60,6 @@ Establecimiento del persistente:
 iptables -persistent > /etc/iptables/rules.v4
 ```
 # Netfilter
-- j
 ```
 nft add rule filter forward ip sadd xxx dadd xxx tcp dport 514 ct state NEW ACCET
 ```
