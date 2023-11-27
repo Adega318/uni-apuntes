@@ -27,8 +27,17 @@ Opciones:
 - -m <extensión>, cargar extensiones (conntrack).
 	- --estate \<estado> (NEW, ESTABLISHED, RLATED)
 Reglas óptimas:
-- Control de estado
+- Control de estado base
 ```shell
+//aceptado de lo ya establecido
 iptables -A INPUT -m conntrack --estate ESTABLISHED, RELATED -j ACCEPT
 iptables -A OUTPUT -m conntrack --estate ESTABLISHED, RELATED -j ACCEPT
+```
+- Control de estado NEW
+```
+iptables -A INPUT -P TCP --dport 22 -s 10.11.30.0/24 -d 10.11.48.143 -m conntrack --estate NEW -j ACCEPT
+```
+- A varios puertos
+```
+-i ens33 ... -m multiport 22,80,
 ```
