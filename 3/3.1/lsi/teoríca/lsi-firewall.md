@@ -56,7 +56,11 @@ iptables -A INPUT -P TCP --dport 22 -j LOG --log-prefix "intento denegado" --log
 IMPORTANTES, IPTABLES NO PERSISTENTES
 
 Establecimiento del persistente:
-```
+```shell
 iptables -persistent > /etc/iptables/rules.v4
 ```
 # Netfilter
+- j
+```
+nft add rule filter forward ip sadd xxx dadd xxx tcp dport 514 ct state NEW ACCE
+```
