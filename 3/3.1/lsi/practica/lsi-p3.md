@@ -109,6 +109,14 @@ Firewall stateful
 	4. Temporizador 1 a 2min.
 	5. Restablecer políticas.
 	6. Borrado de reglas.
+
+1. Variables
+2. vaciado
+3. por defecto
+4. reglas
+	1. generiacas control de estado
+	2. loop
+5. vaciado
 # 7.x
 LYNIS
 1. instalación
