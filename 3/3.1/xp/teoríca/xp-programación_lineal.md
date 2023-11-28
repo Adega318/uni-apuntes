@@ -11,6 +11,4 @@ sabiendo:
 - $x_{2}>=0$
 
 Esto se puede representar como una gráfica bi dimensional con x1 y x2 como ejes y las restricciones como rectas, siendo el área definida por las rectas nuestros valores de x 1 y dos permitidos, buscaremos la maximización en este espacio.
-## Ejemplo2
-
 # Algoritmo simplex
