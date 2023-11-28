@@ -118,6 +118,9 @@ Firewall stateful
 	2. loopback
 	3. 6to4
 	4. ssh
+	5. DNS
+	6. rsys
+	7. 
 5. vaciado
 # 7.x
 LYNIS
