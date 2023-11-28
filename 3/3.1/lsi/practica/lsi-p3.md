@@ -80,7 +80,6 @@ Configuración de VPN
 		- clave/secreto compartido (Pre-Shared Key), pruebas:
 			- ifconfig
 			- ping de maquina a maquina
-# 5.x
 # 6.x
 Firewall stateful
 - iptables
@@ -91,7 +90,7 @@ Firewall stateful
 		- NEW
 		- STABLISHED
 		- RELATED
-- sevicios
+- servicios
 	- ssh ipv4/ipv6
 	- ntp
 	- rsyslog
@@ -101,6 +100,13 @@ Firewall stateful
 	3. Generar reglas.
 	4. Temporizador 1 a 2min.
 	5. Restablecer políticas.
-	6. borrado reglas.
+	6. Borrado de reglas.
+```mermaid
+flowchart LR
+a[10.11.48.143]---b[firewall]---c[10.11.48.142]
+```
 # 7.x
-# 8.x
+LYNIS
+1. instalación
+2. aceptacion
+3. reporte
