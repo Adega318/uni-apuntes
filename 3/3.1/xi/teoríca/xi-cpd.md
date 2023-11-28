@@ -5,11 +5,9 @@ Un cpd debe ser dimensionado a las necesidades de la empresa con la orientación
 Existen varios modelos para organizar un cpd:
 - Jerárquico
 	- claras responsabilidades
-
-
-
-
-
-
-
-
+	- problemas de conpetencias.
+- Funcional
+	- competencia para funciones
+- Mixto
+- Colegial
+- Matricial
