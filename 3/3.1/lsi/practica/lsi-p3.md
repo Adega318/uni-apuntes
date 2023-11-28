@@ -120,7 +120,9 @@ Firewall stateful
 	4. ssh
 	5. DNS
 	6. rsys
-	7. 
+	7. vpn
+	8. ntp
+	9. 
 5. vaciado
 # 7.x
 LYNIS
