@@ -81,6 +81,14 @@ Configuración de VPN
 			- ifconfig
 			- ping de maquina a maquina
 # 6.x
+```mermaid
+flowchart LR
+subgraph \n
+	b[firewall]
+	a[10.11.48.143]
+end
+a---b---c[10.11.48.142]
+```
 Firewall stateful
 - iptables
 	- -L
@@ -101,12 +109,8 @@ Firewall stateful
 	4. Temporizador 1 a 2min.
 	5. Restablecer políticas.
 	6. Borrado de reglas.
-```mermaid
-flowchart LR
-a[10.11.48.143]---b[firewall]---c[10.11.48.142]
-```
 # 7.x
 LYNIS
 1. instalación
 2. aceptacion
-3. reporte
+3. reporte (nivel maximo)
