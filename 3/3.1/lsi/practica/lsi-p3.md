@@ -114,8 +114,10 @@ Firewall stateful
 2. vaciado
 3. por defecto
 4. reglas
-	1. generiacas control de estado
-	2. loop
+	1. genéricas control de estado
+	2. loopback
+	3. 6to4
+	4. ssh
 5. vaciado
 # 7.x
 LYNIS
