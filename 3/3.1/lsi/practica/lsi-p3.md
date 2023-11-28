@@ -70,7 +70,7 @@ Apache
 ## A)x
 ## B)x
 ## C)x
-# 3.x
+# 3.
 Configuración de VPN
 - OpenVpn
 	- cliente
@@ -82,5 +82,25 @@ Configuración de VPN
 			- ping de maquina a maquina
 # 5.x
 # 6.x
+Firewall stateful
+- iptables
+	- -L
+	- -F
+	- -X
+	- -m conntrack estate
+		- NEW
+		- STABLISHED
+		- RELATED
+- sevicios
+	- ssh ipv4/ipv6
+	- ntp
+	- rsyslog
+- Script
+	1. borrado reglas.
+	2. Políticas por defecto.
+	3. Generar reglas.
+	4. Temporizador 1 a 2min.
+	5. Restablecer políticas.
+	6. borrado reglas.
 # 7.x
 # 8.x
