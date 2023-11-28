@@ -122,7 +122,10 @@ Firewall stateful
 	6. rsys
 	7. vpn
 	8. ntp
-	9. 
+	9. http
+	10. https
+	11. icmp
+	12. rejects
 5. vaciado
 # 7.x
 LYNIS
