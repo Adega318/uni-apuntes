@@ -57,8 +57,14 @@ $x_{i}<=1$
 $x_{i}EZ$
 # Ejer 6
 Xi: informaticos contratados al comienzo del turno i
-min:
+min: $\sum\limits^{6}_{i=1}x_{i}$
 rules:
-$x_1>=4$
-$x_{2}>=20-x_{1}$
-$x_{3}>=$
+$x_6+x_1>=4$
+$x_{1}+x_{2}>=20$
+$x_{2}+x_{3}>=15$
+$x_{3}+x_{4}>=10$
+$x_{4}+x_{5}>=4$
+$x_{5}+x_{6}>=2$
+
+$x_{i}>=0\ ViE\{1,...,6\}$
+# Ejer 7
