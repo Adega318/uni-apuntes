@@ -16,7 +16,7 @@ Los estándares de seguridad de un cpd son definidas por las ISO, habiendo varia
 - gestión de incidentes
 - continuidad de negocio
 - cumplimiento legal
-	- sla, 
+	- sla, acuerdo de caracteristicas del sevicio con penanizaciones de incumplimiento.
 # Riesgos
 Los riesgos de un cpd dependen del emplazamiento del cpd y servicios dependientes del mismo.
 ## Procedimiento
