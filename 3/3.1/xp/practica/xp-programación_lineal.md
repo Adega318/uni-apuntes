@@ -23,7 +23,7 @@ $7m+7f+8i>=960$
 $m | f | i >=0$
 # Ejer4
 min: $x_{11}$
-x11 es una tarea
+x11 és una tarea ficticia final de duración 0
 rules:
 $x_{1}+3<=x_{2}$
 $x_{1}+3<=x_{3}$
@@ -41,4 +41,8 @@ $x_{7}+5<=x_{11}$
 $x_{5}+3<=x_{11}$
 $x_{4}+2<=x_{11}$
 
+$x_{1}=0$
 $x_{i}>=0$
+# Ejer5
+min: 
+rules:
