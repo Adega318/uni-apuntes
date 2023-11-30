@@ -5,9 +5,17 @@ Los estándares de seguridad de un cpd son definidas por las ISO, habiendo varia
 ## Dominios de la ISO
 - formación
 - seguridad
-- clasificació de activos
+- clasificación de activos
 - control de acceso
-- c
+- criptografía
+- seguridad física
+- operaciones de seguridad
+- seguridad de comunicaciones
+- gestión de sistemas
+- relaciones con proveedores
+- gestión de incidentes
+- continuidad de negocio
+- cumplimiento legal
 # Riesgos
 Los riesgos de un cpd dependen del emplazamiento del cpd y servicios dependientes del mismo.
 ## Procedimiento
