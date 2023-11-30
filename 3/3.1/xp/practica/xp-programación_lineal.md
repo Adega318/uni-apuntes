@@ -56,3 +56,9 @@ $x_{i}>=0$
 $x_{i}<=1$
 $x_{i}EZ$
 # Ejer 6
+Xi: informaticos contratados al comienzo del turno i
+min:
+rules:
+$x_1>=4$
+$x_{2}>=20-x_{1}$
+$x_{3}>=$
