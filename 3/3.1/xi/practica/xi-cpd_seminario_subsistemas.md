@@ -51,6 +51,10 @@ Los principales esfuerzos de reducción de consumos son la refrigeración y TI.
 - Refrigeración por gas, compresor de aire (aire acondicionado).
 - Refrigeración líquida, uso de un ciclo de refrigeración de agua e intercambio térmico interior.
 ## Arquitecturas de refrigeración
-
+- Refrigeración por sala, enfriamiento completo de la sala (poco eficiente).
+- Refrigeración por filas, enfriamiento por pasillo frío y caliente.
+	- Los racks toman aire de un pasillo por donde entra el aire frío y expulsan el caliente a otra fila donde el sistema de refrigeración absorbe el aire caliente.
+	- 
+- Enfriamiento por rack, enfriamiento de los racks individuales.
 # Protección contra incendios
 # Sistemas de control
