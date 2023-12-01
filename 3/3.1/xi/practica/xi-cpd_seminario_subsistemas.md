@@ -57,5 +57,9 @@ Los principales esfuerzos de reducción de consumos son la refrigeración y TI.
 	- HACS, aislamiento del aire caliente para evitar la contaminación del aire frío.
 - Enfriamiento por rack, enfriamiento de los racks individuales.
 # Protección contra incendios
-Sistemas de alarma y mitigación
+Sistemas de alarma y mitigación/extinción:
+- Extintores
+- Agua nebulizada, sistema que aumentan la humedad y reducen la temperatura para mitigar.
+- Gas, gases que eliminan el oxígeno en el aire (no usados normalmente).
 # Sistemas de control
+Sensores de control de acceso para restringir la entrada al cpd y circuito cerrado de televisión por motivos 
