@@ -7,8 +7,17 @@
 ## Normativa
 Para regir el espacio físico tenemos la normativa ANSI que estipula las características del espacio físico. Las principales consideraciones son:
 - Doble acceso en calles separadas.
-- Edificio esclusivo.
+- Edificio exclusivo.
 - Altura de techos de 3 o más metros.
+- Muelle de carga y descarga.
+- Ausencia de radiación electromagnética.
+- Ubicación par encima de la fontanería del edificio.
+- Sala sin ventanas.
+## Certificación de CPD
+- Tier I, 28.82 horas parado al año.
+- Tier II, 22.68 horas parado al año.
+- Tier III, 1.57 horas parado al año.
+- Tier IV, 52 minutos parado al año.
 # Cableado estructurado
 # Sistema de distribución eléctrica
 # Sistema de refrigeración
