@@ -24,6 +24,13 @@ Los racks son estructurados con pasillo de aire frío y aire caliente y disponib
 - ToR, cada rack tiene su conexión y swich propios.
 - EoR and MoR, primer y último rack de la fila, tienen swich y conexión directa, con el resto interconectado a ellos.
 # Sistema de distribución eléctrica
+Sobre los sistemas eléctricos debemos diferencial entre:
+- Potencia útil, energía dirigida a la operación de las máquinas.
+- Alimentación de soporte, potencia dirigida a subsistemas del cpd.
+	- PUE, consumo absoluto $PUE=\frac{C\_Global}{C\_TI}$
+	- DCiE, consumo proporcional $DCiE=\frac{C\_TI}{C\_Global}$
+## Eficiencia
+La carga de
 # Sistema de refrigeración
 # Protección contra incendios
 # Sistemas de control
