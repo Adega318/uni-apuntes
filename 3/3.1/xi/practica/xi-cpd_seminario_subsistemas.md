@@ -62,4 +62,4 @@ Sistemas de alarma y mitigación/extinción:
 - Agua nebulizada, sistema que aumentan la humedad y reducen la temperatura para mitigar.
 - Gas, gases que eliminan el oxígeno en el aire (no usados normalmente).
 # Sistemas de control
-Sensores de control de acceso para restringir la entrada al cpd y circuito cerrado de televisión por motivos 
+Sensores de control de acceso para restringir la entrada al cpd y circuito cerrado de televisión por motivos judiciales.
