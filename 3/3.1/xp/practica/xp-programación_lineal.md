@@ -56,7 +56,7 @@ $x_{i}>=0$
 $x_{i}<=1$
 $x_{i}EZ$
 # Ejer 6
-Xi: informaticos contratados al comienzo del turno i
+Xi: informaticos contratados al comienzo del turno is
 min: $\sum\limits^{6}_{i=1}x_{i}$
 rules:
 $x_6+x_1>=4$
