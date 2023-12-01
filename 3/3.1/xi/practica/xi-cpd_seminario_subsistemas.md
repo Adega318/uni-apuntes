@@ -46,8 +46,11 @@ Los principales esfuerzos de reducción de consumos son la refrigeración y TI.
 - Unidades de distribución eléctrica, rack para el despliegue de los módulos de potencia en las filas del cpd.
 - Disyuntor, protector térmico del cable para evitar cortes por sobrecalentamiento del cable del módulo de potencia.
 - PDU, regleta para la distribución de potencia y monitoreo de la misma a los equipos.
-## Cálculo de potencia
-
 # Sistema de refrigeración
+## Elementos de refrigeración
+- Refrigeración por gas, compresor de aire (aire acondicionado).
+- Refrigeración líquida, uso de un ciclo de refrigeración de agua e intercambio térmico interior.
+## Arquitecturas de refrigeración
+
 # Protección contra incendios
 # Sistemas de control
