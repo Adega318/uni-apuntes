@@ -30,7 +30,19 @@ Sobre los sistemas eléctricos debemos diferencial entre:
 	- PUE, consumo absoluto $PUE=\frac{C\_Global}{C\_TI}$
 	- DCiE, consumo proporcional $DCiE=\frac{C\_TI}{C\_Global}$
 ## Eficiencia
-La carga de
+La carga de electricidad del cpd se divide en:
+- Refrigerador 23%.
+- Humidificador 3%.
+- CRAC/CRAH 15%.
+- TI 47%.
+- PDU 3%.
+- SAI 6%.
+- Iluminación 2%.
+- Conmutadores 1%.
+Los principales esfuerzos de reducción de consumos son la refrigeración y TI.
+## Distribución
+- SAI, sistemas de alimentación ininterrumpida, centrado en el filtrado de la señal eléctrica y asegurado del suministro eléctrico.
+- 
 # Sistema de refrigeración
 # Protección contra incendios
 # Sistemas de control
