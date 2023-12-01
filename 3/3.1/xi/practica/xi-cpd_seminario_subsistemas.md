@@ -19,6 +19,10 @@ Para regir el espacio físico tenemos la normativa ANSI que estipula las caracte
 - Tier III, 1.57 horas parado al año.
 - Tier IV, 52 minutos parado al año.
 # Cableado estructurado
+Los rack son estructurados con pasillo de aire frío y aire caliente y disponibilidad de conexión.
+## Conexión
+- ToR, cada rack tiene su conexión y swicht propios.
+- EoR and MoR, primer y ultimo rack de la fila tinen switch y conexión directa, con el resto interconectados a ellos.
 # Sistema de distribución eléctrica
 # Sistema de refrigeración
 # Protección contra incendios
