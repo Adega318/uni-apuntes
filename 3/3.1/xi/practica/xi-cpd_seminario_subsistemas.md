@@ -42,6 +42,8 @@ La carga de electricidad del cpd se divide en:
 Los principales esfuerzos de reducción de consumos son la refrigeración y TI.
 ## Distribución
 - SAI, sistemas de alimentación ininterrumpida, centrado en el filtrado de la señal eléctrica y asegurado del suministro eléctrico.
+- Módulos de potencia, convierten el circuito SAI a circuitos de menor amperaje, usable por los racks.
+- Unidades de distribución eléctrica, rack para el despliegue de los módulos de potencia en las filas del cpd.
 - 
 # Sistema de refrigeración
 # Protección contra incendios
