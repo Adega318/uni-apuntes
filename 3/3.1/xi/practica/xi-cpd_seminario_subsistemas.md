@@ -44,7 +44,10 @@ Los principales esfuerzos de reducción de consumos son la refrigeración y TI.
 - SAI, sistemas de alimentación ininterrumpida, centrado en el filtrado de la señal eléctrica y asegurado del suministro eléctrico.
 - Módulos de potencia, convierten el circuito SAI a circuitos de menor amperaje, usable por los racks.
 - Unidades de distribución eléctrica, rack para el despliegue de los módulos de potencia en las filas del cpd.
-- 
+- Disyuntor, protector térmico del cable para evitar cortes por sobrecalentamiento del cable del módulo de potencia.
+- PDU, regleta para la distribución de potencia y monitoreo de la misma a los equipos.
+## Cálculo de potencia
+
 # Sistema de refrigeración
 # Protección contra incendios
 # Sistemas de control
