@@ -10,5 +10,7 @@ El rcp requiere los siguientes pasos para la implementación:
 	- Generación de un skeleton con el fichero de definición.
 	- Implementación de las funciones sobre el skeleton
 - aplicación cliente:
+	- Ejecutar compilación para generar la definición.
+	- Invocar las operaciones del servidor.
 # Thrift
 # REST vs RPC
