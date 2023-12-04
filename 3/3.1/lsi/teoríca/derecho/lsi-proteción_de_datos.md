@@ -33,3 +33,9 @@
 - Datos con posible perjuicio grave a causa de exactitudes requieren del aseguramiento de la exactitud de manera periódica.
 ## Limitación del plazo de conservación
 - Los datos deben conservarse únicamente el tiempo necesario para la función.
+## Seguridad
+- Medidas técnicas de seguridad.
+- Informe de brechas de seguridad a los afectados.
+## Responsabilidad proactiva
+- El responsable debe de ser capaz de demostrar el cumplimiento del correcto tratamiento de datos.
+- Medidas 
