@@ -38,4 +38,9 @@
 - Informe de brechas de seguridad a los afectados.
 ## Responsabilidad proactiva
 - El responsable debe de ser capaz de demostrar el cumplimiento del correcto tratamiento de datos.
-- Medidas 
+- Medidas técnicas y organizativas.
+	- Registro de las actividades.
+	- Delegado de protección.
+	- Evaluación de impacto.
+	- Procedimiento para ejercer derechos
+	- Consulta y certificación.
