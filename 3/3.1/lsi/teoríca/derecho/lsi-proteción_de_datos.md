@@ -30,5 +30,6 @@
 - Técnicas como la seudonimización.
 ## Exactitud de datos
 - Derecho a datos exactos y derecho a la corrección de los mismos.
-- Datos con posible perjuicios graves a causa de lo
+- Datos con posible perjuicio grave a causa de exactitudes requieren del aseguramiento de la exactitud de manera periódica.
 ## Limitación del plazo de conservación
+- Los datos deben conservarse únicamente el tiempo necesario para la función.
