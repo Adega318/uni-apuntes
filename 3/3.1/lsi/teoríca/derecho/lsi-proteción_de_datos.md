@@ -16,4 +16,4 @@
 	- Obligación legal.
 	- Necesidad de proteger los intereses vitales del interesado o de otra persona.
 	- Necesidad de cumplir una misión realizada en interés publico.
-	- Cumplir intereses legítimos del responsable o tercero
+	- Cumplir intereses legítimos del responsable o tercero.
