@@ -20,4 +20,15 @@
 - La legitimidad requiere de que los afectados sean informados del tratamiento.
 - Transparencia, informado del método de tratamiento al interesado.
 ## Limitación de la finalidad
-- El taratamiento debe persegur lso fines definidos
+- El tratamiento debe perseguir los fines definidos anteriormente.
+- Fines definidos.
+- Se pueden añadir fines compatibles con el inicial.
+- Fines independientes deben tener su propia justificación.
+- Los datos pueden siempre ser usados con fines científicos u estadísticos.
+## Minimización de datos
+- Cantidad de datos acorde a la finalidad.
+- Técnicas como la seudonimización.
+## Exactitud de datos
+- Derecho a datos exactos y derecho a la corrección de los mismos.
+- Datos con posible perjuicios graves a causa de lo
+## Limitación del plazo de conservación
