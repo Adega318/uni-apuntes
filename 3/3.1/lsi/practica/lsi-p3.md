@@ -49,7 +49,7 @@ w3m http://localhost:8080
 ```
 ## E)B
 ## F)x
-# 2.x
+# 2.B
 Apache
 - entidad certificadora
 	- cert
@@ -67,9 +67,9 @@ Apache
 		- APUNTAR TODO CUANDO ESTEMOS CREANDO EL CERTIFICADO.
 		- Usualmente el problema es el **canonical name** (no ip).
 - Carpeta securizada con https
-## A)x
-## B)x
-## C)x
+## A)B
+## B)B
+## C)B
 # 3.
 Configuración de VPN
 - OpenVpn
@@ -80,7 +80,7 @@ Configuración de VPN
 		- clave/secreto compartido (Pre-Shared Key), pruebas:
 			- ifconfig
 			- ping de maquina a maquina
-# 6.x
+# 6.
 ```mermaid
 flowchart LR
 subgraph \n
@@ -127,7 +127,7 @@ Firewall stateful
 	11. icmp
 	12. rejects
 5. vaciado
-# 7.x
+# 7.B
 LYNIS
 1. instalación
 2. aceptacion
