@@ -48,7 +48,8 @@ Acedemos a nuestro compañero por el 8080:
 w3m http://localhost:8080
 ```
 ## E)B
-## F)x
+## F)
+En un principio se crearía un firewall y wrapers para restringir la comunicación al servicio ssh con las ips deseadas.
 # 2.B
 Apache
 - entidad certificadora
