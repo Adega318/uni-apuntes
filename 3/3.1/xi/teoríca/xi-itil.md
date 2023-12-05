@@ -12,10 +12,14 @@ Las cualificaciones se representa como una pirámide desde lo básico hasta más
 Un servicio es un medio para proporcionar valor al cliente.
 ## Concepto de servicios
 Los servicios los dividimos en varios conceptos:
-- Soporte, servicios necesarios para realizar la actividad, pero no son directamente el ofrecido.
-- Nulceo, servicios ofrecidos directamente al cliente.
-- 
+- Soporte, servicios necesarios para realizar la actividad, pero no son directamente conectados a la actividad
+- Cliente, servicios ofrecidos directamente al cliente.
+	- Interno, servicios internos que apoyan el funcionamiento del negocio.
+	- Externo, servicios proporcionados directamente al cliente.
 ## Valor de servicio
+El valor es la percepción del cliente sobre el servicio, expresado por:
+- Garantía, valoración de las condiciones en las que se proporcionan el servicio.
+- Utilidad, valoración del efecto obtenido del servicio.
 ## Activos de servicio
 ## Componentes de servicio
 ## Gestión de servicios TI
