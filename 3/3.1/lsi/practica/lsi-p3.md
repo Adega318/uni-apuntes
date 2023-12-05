@@ -36,7 +36,7 @@ ssh-keygen -t rsa
 Enviamos la clave:
 ```shell
 // lo setea automaticamente en authorized_keys desde la otra maquina
-ssh-copy-id -i /root/.ssh/id_rsa.pub lsi@10.11.50.142
+ssh-copy-id -i $HOME$/.ssh/id_rsa.pub lsi@10.11.50.142
 ```
 ## D)
 Creamos un túnel entre nuestra máquina y la del compañero:
@@ -47,7 +47,7 @@ Acedemos a nuestro compañero por el 8080:
 ```shell
 w3m http://localhost:8080
 ```
-## E)x
+## E)B
 ## F)x
 # 2.x
 Apache
