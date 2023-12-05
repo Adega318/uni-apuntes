@@ -11,6 +11,10 @@ Las cualificaciones se representa como una pirámide desde lo básico hasta más
 # Servicios
 Un servicio es un medio para proporcionar valor al cliente.
 ## Concepto de servicios
+Los servicios los dividimos en varios conceptos:
+- Soporte, servicios necesarios para realizar la actividad, pero no son directamente el ofrecido.
+- Nulceo, servicios ofrecidos directamente al cliente.
+- 
 ## Valor de servicio
 ## Activos de servicio
 ## Componentes de servicio
