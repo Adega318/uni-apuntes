@@ -23,7 +23,7 @@ El valor es la percepción del cliente sobre el servicio, expresado por:
 ## Activos de servicio
 Son los elementos usados para proporcionar el servicio:
 - Recursos, bienes materiales que habilitan el servicio.
-- Capacid
+- Capacidades, habilidades de las personas para proporcionar el servicio.
 ## Componentes de servicio
 ## Gestión de servicios TI
 # Procesos, funciones y roles
