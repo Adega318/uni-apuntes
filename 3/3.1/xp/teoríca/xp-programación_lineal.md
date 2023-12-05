@@ -12,3 +12,6 @@ sabiendo:
 
 Esto se puede representar como una gráfica bi dimensional con x1 y x2 como ejes y las restricciones como rectas, siendo el área definida por las rectas nuestros valores de x 1 y dos permitidos, buscaremos la maximización en este espacio.
 # Algoritmo simplex
+
+# Solvers
+Los solvers son programas con algoritmos de resolución de problemas de programación lineal, con modelos (suelen dar por heco el >=0 de las variables).
