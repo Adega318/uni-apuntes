@@ -3,9 +3,13 @@ La itil es una guía completa para la gestión de servicios de tecnologías de l
 - No prescriptible, no requiere de un tamaño de proyecto para la ejecución.
 - Prácticas, recopilación de buenas prácticas para la mejora del servicio.
 # Organismos certificadores
-Las principale
+Las principales organización son:
+- APM
+- TSO
 # Esquema de certificación
+Las cualificaciones se representa como una pirámide desde lo básico hasta máster.
 # Servicios
+Un servicio es un medio para proporcionar valor al cliente.
 ## Concepto de servicios
 ## Valor de servicio
 ## Activos de servicio
