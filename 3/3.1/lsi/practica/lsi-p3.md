@@ -8,7 +8,7 @@ SSH -v | -vw
 - Securizar servicio con túnel SSH, comprobar con tráfico http y en el snifing sale tráfico codificado ssh.
 - Montaje directorio compartido (dropbox), generación modificado y borrado
 ## A)x
-## B)~
+## B)
 Seleccionamos el cifrado con el comando:
 ```shell
 scp -c <cipher> <origen> <destino>
