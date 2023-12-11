@@ -13,4 +13,8 @@ El rcp requiere los siguientes pasos para la implementación:
 	- Ejecutar compilación para generar la definición.
 	- Invocar las operaciones del servidor.
 # Thrift
+## IDL
+Sistema de definición de interfaces, en thrift este sistema funciona como:
+- Struct, sistema de estructura de datos (DTOs)
+- 
 # REST vs RPC
