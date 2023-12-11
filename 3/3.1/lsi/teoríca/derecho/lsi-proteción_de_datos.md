@@ -46,5 +46,7 @@
 	- Consulta y certificación.
 # Intermediarios
 ## Responsabilidades
-Los servicios considerados como servicios de intermediación se les estipula unas responsabilidades reducidas:
--
+Los servicios considerados como servicios de intermediación se les estipula unas responsabilidades reducidas, teniendo regulaciones especiales para los derechos de autor.
+El régimen aplicados es un régimen condicional de exoneración de responsabilidad con las siguientes condiciones:
+- Información legal, accesible y visible.
+- Colaboración con organos publicos, retirado de contenidos ilicitos bajo solicitud y entregar información solicita
