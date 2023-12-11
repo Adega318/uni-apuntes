@@ -52,7 +52,8 @@ El régimen aplicado es un régimen condicional de exoneración de responsabilid
 - Colaboración con órganos públicos, retirado de contenidos ilícitos bajo solicitud y entregar información solicitada sobre usuarios.
 - Prohibición de la obligación de supervisión general de los contenidos de los servicios.
 ### Trasmisión
-A los servicios de trasmisión de datos son exonerados de responsabilidad cuando no real
+A los servicios de trasmisión de datos son exonerados de responsabilidad cuando se dedican exclusivamente a trasmitir los datos entre terceros.
 ### Caching
+Los servicios de las copias cache so condicionados a la 
 ### Almacenamiento
 
