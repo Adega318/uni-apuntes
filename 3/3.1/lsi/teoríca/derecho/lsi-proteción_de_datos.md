@@ -50,4 +50,9 @@ Los servicios considerados como servicios de intermediación se les estipula una
 El régimen aplicado es un régimen condicional de exoneración de responsabilidad con las siguientes condiciones:
 - Información legal, accesible y visible.
 - Colaboración con órganos públicos, retirado de contenidos ilícitos bajo solicitud y entregar información solicitada sobre usuarios.
-- Prohibición de la obligación de supervisión de los contenidos de los servicios.
+- Prohibición de la obligación de supervisión general de los contenidos de los servicios.
+### Trasmisión
+A los servicios de trasmisión de datos son exonerados de responsabilidad cuando no real
+### Caching
+### Almacenamiento
+
