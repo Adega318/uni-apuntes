@@ -8,6 +8,10 @@ SSH -v | -vw
 - Securizar servicio con túnel SSH, comprobar con tráfico http y en el snifing sale tráfico codificado ssh.
 - Montaje directorio compartido (dropbox), generación modificado y borrado
 ## A)x
+```
+touch /etc/ssh/ssh_known_hosts
+ssh-keyscan 10.11.50.142 >> /etc/ssh/
+```
 ## B)
 Seleccionamos el cifrado con el comando:
 ```shell
