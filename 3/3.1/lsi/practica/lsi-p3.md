@@ -36,7 +36,6 @@ Los principales cifrados son:
 - 3des-cbc
 ### Proceso
 Se establece una conexión, autentifica por el método pertinente y se cifra el mensaje, enviándolo y descifrándolo en destino.
-
 ## C)
 Generamos la clave con:
 ```shell
