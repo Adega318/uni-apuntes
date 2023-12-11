@@ -54,6 +54,5 @@ El régimen aplicado es un régimen condicional de exoneración de responsabilid
 ### Trasmisión
 A los servicios de trasmisión de datos son exonerados de responsabilidad cuando se dedican exclusivamente a trasmitir los datos entre terceros.
 ### Caching
-Los servicios de las copias cache so condicionados a la 
+Los servicios de las copias caché so condicionados a la no modificación de la información, mantener los requisitos de la página original y mantenimiento de la actualización de las páginas. Estos servicios también están obligados a la retirada de contenidos ilícitos.
 ### Almacenamiento
-
