@@ -60,6 +60,7 @@ Para rsyslog:
 ```shell
 //maquina bisbi
 ssh -L 8080:10.11.48.143:514 -N lsi@10.11.50.143
+//modificar fin del rsyslog del cliente target y port
 ```
 ## E)B
 ## F)
