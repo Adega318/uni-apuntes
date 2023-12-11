@@ -47,6 +47,7 @@
 # Intermediarios
 ## Responsabilidades
 Los servicios considerados como servicios de intermediación se les estipula unas responsabilidades reducidas, teniendo regulaciones especiales para los derechos de autor.
-El régimen aplicados es un régimen condicional de exoneración de responsabilidad con las siguientes condiciones:
+El régimen aplicado es un régimen condicional de exoneración de responsabilidad con las siguientes condiciones:
 - Información legal, accesible y visible.
-- Colaboración con organos publicos, retirado de contenidos ilicitos bajo solicitud y entregar información solicita
+- Colaboración con órganos públicos, retirado de contenidos ilícitos bajo solicitud y entregar información solicitada sobre usuarios.
+- Prohibición de la obligación de supervisión de los contenidos de los servicios.
