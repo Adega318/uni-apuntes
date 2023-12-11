@@ -46,3 +46,5 @@
 	- Consulta y certificación.
 # Intermediarios
 ## Responsabilidades
+Los servicios considerados como servicios de intermediación se les estipula unas responsabilidades reducidas:
+-
