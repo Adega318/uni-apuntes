@@ -8,9 +8,13 @@ SSH -v | -vw
 - Securizar servicio con túnel SSH, comprobar con tráfico http y en el snifing sale tráfico codificado ssh.
 - Montaje directorio compartido (dropbox), generación modificado y borrado
 ## A)x
-```
+```shell
+//creamos
 touch /etc/ssh/ssh_known_hosts
-ssh-keyscan 10.11.50.142 >> /etc/ssh/
+//añadimos
+ssh-keyscan 10.11.50.142 >> /etc/ssh/ssh_known_hosts
+//vaciamos
+echo "" > /home/lsi/.ssh/known_hosts
 ```
 ## B)
 Seleccionamos el cifrado con el comando:
@@ -51,6 +55,11 @@ ssh -L 8080:10.11.48.142:80 -N lsi@10.11.50.142
 Acedemos a nuestro compañero por el 8080:
 ```shell
 w3m http://localhost:8080
+```
+Para rsyslog:
+```shell
+//maquina bisbi
+ssh -L 8080:10.11.48.143:514 -N lsi@10.11.50.143
 ```
 ## E)B
 ## F)
