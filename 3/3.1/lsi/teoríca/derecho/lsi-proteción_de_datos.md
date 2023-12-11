@@ -42,5 +42,7 @@
 	- Registro de las actividades.
 	- Delegado de protección.
 	- Evaluación de impacto.
-	- Procedimiento para ejercer derechos
+	- Procedimiento para ejercer derechos.
 	- Consulta y certificación.
+# Intermediarios
+## Responsabilidades
