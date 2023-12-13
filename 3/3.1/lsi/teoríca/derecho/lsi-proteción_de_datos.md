@@ -60,5 +60,9 @@ Los servicios de almacenamiento son exentos bajo las condiciones:
 - Falta de conocimiento efectivo sobre la existencia de contenidos ilícitos.
 - Posibilidad del aviso por parte de los usuarios de contenidos ilícitos, dándose estos avisos como conocimiento efectivo.
 - En caso de la facilitación de contratos entre consumidores y comerciantes, deben aclarar claramente su función de intermediario para ser exentos.
-## Digital services act
-Reglas para las obligaciones de servicios online, diferenciando por ta
+# Digital services act
+Reglas para las obligaciones de servicios online, diferenciando por tamaño de las bases de usuarios.
+## Trasmisión
+## Almacenamiento
+- Servicio de notificación de contenidos ilícitos.
+- 
