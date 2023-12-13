@@ -65,4 +65,4 @@ Reglas para las obligaciones de servicios online, diferenciando por tamaño de l
 ## Trasmisión
 ## Almacenamiento
 - Servicio de notificación de contenidos ilícitos.
-- 
+- Transparencia en los motivos de eliminación de contenidos o restricción de los mismos.
