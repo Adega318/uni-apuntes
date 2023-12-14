@@ -18,3 +18,7 @@ Sistema de definición de interfaces, en thrift este sistema funciona como:
 - Struct, sistema de estructura de datos (DTOs)
 - 
 # REST vs RPC
+# Diseño de implementación en thrift
+## Servicios
+
+## Acceso a servicios
