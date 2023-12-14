@@ -22,3 +22,7 @@ Sistema de definición de interfaces, en thrift este sistema funciona como:
 ## Servicios
 
 ## Acceso a servicios
+1. Implementar conversores ClientMatchDto <- ThriftMatchDto
+2. Implementar interfaz ClientMatchService
+	1. thrifClientMatchService
+	2. thriftMatchService.Client
