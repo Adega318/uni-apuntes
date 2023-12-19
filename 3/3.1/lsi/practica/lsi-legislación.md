@@ -6,6 +6,7 @@
 - Comentarios de clase en redes sociales sin información personal detallada.
 ## Preguntas
 1. ¿Es obligatorio, según el RGPD, que la UDC cuente con un DPO? ¿Por qué?
+   La presencia de DPOs es voluntaria, a excepción de casos concretos, la udc se acoge al caso de ser un organismo público.
 2. En este escenario, ¿puede concluirse que quienes estaban presentes en la sesión online y continuaron conectados durante la clase han consentido el tratamiento de datos?
 3. En el caso de los diez estudiantes que no estaban presentes en el momento de solicitar el consentimiento, si se conectan con posterioridad, ¿puede considerarse que el tratamiento de sus datos está cubierto por una causa de licitud? En caso de respuesta afirmativa, ¿Cuál o cuáles?
 4. Asumiendo que el tratamiento de datos descrito en el caso fuese lícito, ¿debería haber hecho algo el profesor independientemente de solicitar el consentimiento? ¿Es suficiente la información que traslada en la comunicación citada en el caso?
