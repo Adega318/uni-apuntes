@@ -13,5 +13,12 @@ Los principales beneficios son:
 - Consolidación de múltiples equipos hardware.
 - Convierte hardware en software (permitiendo modificaciones al hardware real con perturbaciones mínimas).
 - Ajustes de configuraciones de manera sencilla.
-- Movimiento de máquinas virtuales entre equipos fisicos.
+- Movimiento de máquinas virtuales entre equipos físicos.
 ## Desventajas
+- Fallos físicos con efecto sobre múltiples servicios.
+- Fallos de rendimiento se extienden a otros servicios.
+- Problemas de gestión de almacenamiento.
+## Hypervisors
+Sistema que permite la creación y gestión de máquinas virtuales, dividiéndose en dos tipos:
+- Tipo 2, aplicación que funciona sobre el sistema operativo.
+- Tipo 1, sistema operativo que da directamente el servicio.
