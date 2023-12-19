@@ -14,3 +14,5 @@
 ## Respuestas
 1. La presencia de DPOs es voluntaria, a excepción de casos concretos, la udc se acoge al caso de ser un organismo público.
 2. El tratamiento sería legítimo al ser informado y transparente al informarse del método, pero su licitud es cuestionable al no ser un consentimiento explícito.
+3. En caso de unirse el tratamiento seguía siendo ilícito y por encima de ello no sería ni legítimo ni transparente.
+4. 
