@@ -16,5 +16,5 @@
 2. El tratamiento tiene una licitud cuestionable al no tener un consentimiento explícito, pero se ve acogido por el interés público.
 3. En caso de unirse, el tratamiento seguía siendo lícito y por encima de ello no sería ni legítimo ni transparente.
 4. El principio de transparencia y lealtad serían cumplidos parcialmente al informarse de método y finalidad, faltando la información de la metodología de tratamiento de datos e información de la licitud.
-5. Ese tratamiento no cumpliría con los principios de la limitación de la finalidad de los mismos presentada en la exposición de la recolección de datos, pueden ser considerados datos anónimos por su falta de detalle.
-6. La publicación sería la revelación de datos sensibles violando la limitación de finalidad.
+5. Ese tratamiento no cumpliría con los principios de la limitación de la finalidad de los mismos presentada en la exposición de la recolección de datos, pueden ser considerados datos anónimos por su falta de detalle, permitiendo el incumplimiento del régimen de tratamiento de datos, para ser anónimos la persona no debe poder ser identificada.
+6. En este caso, la anonimidad no sería un argumento válido y, por lo tanto, tendría que cumplir con el régimen, incumpliendo la limitación de finalidad.
