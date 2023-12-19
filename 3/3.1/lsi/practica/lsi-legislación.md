@@ -32,8 +32,8 @@
 6. ¿Es PicBurst responsable de tratamiento de datos? ¿Debe FlashSphere contar con un/a DPO?
 7. Imaginemos que un usuario emplea PicBurst para subir contenidos ilícitos. ¿Es responsable FlashSphere por los daños ocasionados por esos contenidos? Imaginemos que alguien notifica a la red social que existen dichos contenidos, ¿sería entonces responsable por los daños ocasionados?
 ## Respuestas
-1. Es un servicio de intermediación, siendo de calmacenamiento de los mismos, por ello sería considerado un servicio de almacenamiento, plataforma online. (6 DSA)
-2. Al ser clasificada como plataforma online de muy gran tamaño () requiere de auditorias independientes con una prioridad al menos anual (37 DSA).
+1. Es un servicio de intermediación, siendo un servicio de almacenamiento, plataforma online. (6 DSA)
+2. Es una plataforma online al ser 
 3. Sí, al ser un servicio de almacenamiento, debe de constar de un sistema de marcado de contenidos como ilícitos.
 4. Sí (22 DSA).
 5. Debe cumplir con la transparencia en los sistemas de recomendación (27 DSA) e informativa (15 DSA) (puede abstenerse por plataforma online)(15 DSA).
