@@ -35,5 +35,7 @@
 1. No sería un servicio de trasmisión, ya que tiene un tratamiento de los datos que recibe, almacenamiento de los mismos, por ello sería considerado un servicio de almacenamiento. (6 DSA)
 2. Al ser clasificada como plataforma online de muy gran tamaño () requiere de auditorias independientes con una prioridad al menos anual (37 DSA).
 3. Sí, al ser un servicio de almacenamiento, debe de constar de un sistema de marcado de contenidos como ilícitos.
-4. Sí (22 DSA)
-5. Debe cumplir con la tranparencia en los sistemas de recomendación
+4. Sí (22 DSA).
+5. Debe cumplir con la transparencia en los sistemas de recomendación (27 DSA) e informativa (15 DSA) (puede abstenerse por plataforma online)(15 DSA).
+6. Sí, al realizar tratamiento a de manera sistemática a gran escala.
+7. No seria respo
