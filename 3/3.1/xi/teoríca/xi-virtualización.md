@@ -7,4 +7,7 @@ Esquema para cpds basado en la virtualización que para evitar la caída de la b
 ## Sistemas híbridos
 Para aumentar la disponibilidad sé hace uso de la hiperconvergencia en paralelo con el uso de una cabina de discos.
 # Virtualización
-Re
+Representación de los recursos hardware en múltiples sistemas, en caso de usar programas específicos para ser virtualizados se hace llamar paravirtualización.
+## Beneficios
+Los principales beneficios son:
+- Consolida
