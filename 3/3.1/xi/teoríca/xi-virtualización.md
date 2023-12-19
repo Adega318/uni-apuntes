@@ -27,3 +27,4 @@ Las tecnologías de virtualización avarcan server, network, storage y escritori
 ## Guardado de configuraciones
 La virtualización permite convertir una máquina en un árbol de ficheros, permitiendo su replicación instantánea y guardado de sesiones sencilla.
 ## Hardware en virtualización
+El hardware en virtualización el proceso de coordinación es esencial, siendo definido los recursos otorgados a cada maquina en la configuración de la misma.
