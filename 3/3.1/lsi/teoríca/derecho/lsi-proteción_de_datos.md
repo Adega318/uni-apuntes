@@ -17,7 +17,7 @@
 	- Consentimiento explícito (consentimiento proactivo).
 	- Necesidad de ejecución de un contrato.
 	- Obligación legal.
-	- Necesidad de proteger los intereses vitales del interesado o de otra persona (tratamientos de alta inportancia para superviviencia o bienestar).
+	- Necesidad de proteger los intereses vitales del interesado o de otra persona (tratamientos de alta importancia para supervivencia o bienestar).
 	- Necesidad de cumplir una misión realizada en interés publico.
 	- Cumplir intereses legítimos del responsable o tercero.
 - La lealtad requiere de que los afectados sean informados del tratamiento.
