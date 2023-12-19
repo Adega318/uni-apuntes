@@ -1,5 +1,8 @@
 # Sujetos implicados
-- Delegado.
+- Delegado, su presencia es voluntaria a excepción de:
+	- Organismos de autoridad o públicos.
+	- Tratamiento a gran escala de categorías especiales de datos.
+	- Tratamientos sistemati
 - Responsable, encargado de los fines y medio de tratamiento.
 	- Registro del tratamiento.
 	- Medidas de protección de datos.

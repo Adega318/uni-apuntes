@@ -12,9 +12,9 @@
 5. Un estudiante de LSI se dirige a ti señalado que él fue quien respondió a la pregunta sobre Bruselas. Siente que el profesor le ha faltado al respeto y que ha publicado datos personales suyos. Cree que eso debería ser ilegal y te pide que se tomen medidas. Le preguntas al profesor y este responde que los alumnos consintieron que se tratasen sus datos personales, por lo que no debería haber problema con ese post. ¿Cómo valorarías este caso?
 6. Tras consultar al profesor, este vuelve a LinkedIn y, en comentario a su post original, escribe: "Por cierto, el alumno es Juan García García y además es un engreído que no tiene ni idea de protección de datos…". ¿Cómo valoras este nuevo post como DPO?
 ## Respuestas
-1. La presencia de DPOs es voluntaria, a excepción de casos concretos, la udc se acoge al caso de ser un organismo público.
+1. La presencia de DPO es voluntaria, a excepción de casos concretos, la udc se acoge al caso de ser un organismo público.
 2. El tratamiento tiene una licitud cuestionable al no tener un consentimiento explícito.
 3. En caso de unirse, el tratamiento seguía siendo ilícito y por encima de ello no sería ni legítimo ni transparente.
 4. La trasparencia es cumplida al ser el método de tratamiento informado (grabación) y leal al ser informados del propio tratamiento.
 5. Ese tratamiento no cumpliría con los principios de la limitación de la finalidad de los mismos presentada en la exposición de la recolección de datos.
-6. La publicación sería la revelación de datos sensibles
+6. La publicación sería la revelación de datos sensibles violando la limitación de finalidad.
