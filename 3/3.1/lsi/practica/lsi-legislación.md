@@ -32,4 +32,5 @@
 6. ¿Es PicBurst responsable de tratamiento de datos? ¿Debe FlashSphere contar con un/a DPO?
 7. Imaginemos que un usuario emplea PicBurst para subir contenidos ilícitos. ¿Es responsable FlashSphere por los daños ocasionados por esos contenidos? Imaginemos que alguien notifica a la red social que existen dichos contenidos, ¿sería entonces responsable por los daños ocasionados?
 ## Respuestas
-1. 
+1. No sería un servicio de trasmisión, ya que tiene un tratamiento de los datos que recibe, almacenamiento de los mismos, por ello sería considerado un servicio de almacenamiento. (6 DSA)
+2. 
