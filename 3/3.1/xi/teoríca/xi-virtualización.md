@@ -22,3 +22,7 @@ Los principales beneficios son:
 Sistema que permite la creación y gestión de máquinas virtuales, dividiéndose en dos tipos:
 - Tipo 2, aplicación que funciona sobre el sistema operativo.
 - Tipo 1, sistema operativo que da directamente el servicio.
+## Tecnologías
+Las tecnologías de virtualización avarcan server, network, storage y escritorio.
+## Guardado de configuraciones
+La virtualización permite convertir una máquina en un árbol de ficheros, permitiendo su replicación instantánea y guardado de sesiones sencilla.
