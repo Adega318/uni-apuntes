@@ -10,4 +10,8 @@ Para aumentar la disponibilidad sé hace uso de la hiperconvergencia en paralelo
 Representación de los recursos hardware en múltiples sistemas, en caso de usar programas específicos para ser virtualizados se hace llamar paravirtualización.
 ## Beneficios
 Los principales beneficios son:
-- Consolida
+- Consolidación de múltiples equipos hardware.
+- Convierte hardware en software (permitiendo modificaciones al hardware real con perturbaciones mínimas).
+- Ajustes de configuraciones de manera sencilla.
+- Movimiento de máquinas virtuales entre equipos fisicos.
+## Desventajas
