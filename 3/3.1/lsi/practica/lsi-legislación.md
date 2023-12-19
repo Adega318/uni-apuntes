@@ -38,4 +38,4 @@
 4. Sí (22 DSA).
 5. Debe cumplir con la transparencia en los sistemas de recomendación (27 DSA) e informativa (15 DSA) (puede abstenerse por plataforma online)(15 DSA).
 6. Sí, al realizar tratamiento a de manera sistemática a gran escala.
-7. No seria respo
+7. No sería responsable mientras no se tenga conocimiento efectivo de la ilicitud de los contenidos, en el caso de ser los contenidos marcados como ilícitos por reportes no sería responsable siempre que se actuara sobre el reporte bloqueando los contenidos de manera inmediata.
