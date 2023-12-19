@@ -1,8 +1,8 @@
 # Sujetos implicados
 - Delegado, su presencia es voluntaria a excepción de:
 	- Organismos de autoridad o públicos.
-	- Tratamiento a gran escala de categorías especiales de datos.
-	- Tratamientos sistemati
+	- Tratamiento de categorías especiales de datos.
+	- Tratamiento sistemático de gran escala.
 - Responsable, encargado de los fines y medio de tratamiento.
 	- Registro del tratamiento.
 	- Medidas de protección de datos.
@@ -14,10 +14,10 @@
 # Principios del tratamiento de datos
 ## Licitud, lealtad y transparencia
 - Para ser lícito debe de cumplir al menos de una de ellas:
-	- Consentimiento explícito.
+	- Consentimiento explícito (consentimiento proactivo).
 	- Necesidad de ejecución de un contrato.
 	- Obligación legal.
-	- Necesidad de proteger los intereses vitales (supervivencia, bienestar y dignidad) del interesado o de otra persona.
+	- Necesidad de proteger los intereses vitales del interesado o de otra persona (tratamientos de alta inportancia para superviviencia o bienestar).
 	- Necesidad de cumplir una misión realizada en interés publico.
 	- Cumplir intereses legítimos del responsable o tercero.
 - La lealtad requiere de que los afectados sean informados del tratamiento.
