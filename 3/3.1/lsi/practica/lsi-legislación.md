@@ -13,8 +13,8 @@
 6. Tras consultar al profesor, este vuelve a LinkedIn y, en comentario a su post original, escribe: "Por cierto, el alumno es Juan García García y además es un engreído que no tiene ni idea de protección de datos…". ¿Cómo valoras este nuevo post como DPO?
 ## Respuestas
 1. La presencia de DPOs es voluntaria, a excepción de casos concretos, la udc se acoge al caso de ser un organismo público.
-2. El tratamiento sería legítimo al ser informado y transparente al informarse del método, pero su licitud es cuestionable al no ser un consentimiento explícito.
+2. El tratamiento tiene una licitud cuestionable al no tener un consentimiento explícito.
 3. En caso de unirse, el tratamiento seguía siendo ilícito y por encima de ello no sería ni legítimo ni transparente.
-4. 
+4. La trasparencia es cumplida al ser el método de tratamiento informado (grabación) y leal al ser informados del propio tratamiento.
 5. Ese tratamiento no cumpliría con los principios de la limitación de la finalidad de los mismos presentada en la exposición de la recolección de datos.
-6. No tendría ni licitud, ni transparencia, ni lealtad, violando la anonimidad de los afectados.
+6. La publicación sería la revelación de datos sensibles

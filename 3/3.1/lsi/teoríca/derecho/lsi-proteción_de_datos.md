@@ -14,10 +14,10 @@
 	- Consentimiento explícito.
 	- Necesidad de ejecución de un contrato.
 	- Obligación legal.
-	- Necesidad de proteger los intereses vitales (supervivencia, binenestar y dignidad) del interesado o de otra persona.
+	- Necesidad de proteger los intereses vitales (supervivencia, bienestar y dignidad) del interesado o de otra persona.
 	- Necesidad de cumplir una misión realizada en interés publico.
 	- Cumplir intereses legítimos del responsable o tercero.
-- La leatad requiere de que los afectados sean informados del tratamiento.
+- La lealtad requiere de que los afectados sean informados del tratamiento.
 - Transparencia, informado del método de tratamiento al interesado.
 ## Limitación de la finalidad
 - El tratamiento debe perseguir los fines definidos anteriormente.
