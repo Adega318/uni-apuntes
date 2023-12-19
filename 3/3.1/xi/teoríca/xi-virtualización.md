@@ -1,0 +1,1 @@
+La virtualización nace para dar resolución a multiples problematicas.
