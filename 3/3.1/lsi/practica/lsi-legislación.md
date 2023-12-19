@@ -18,3 +18,18 @@
 4. El principio de transparencia y lealtad serían cumplidos parcialmente al informarse de método y finalidad, faltando la información de la metodología de tratamiento de datos e información de la licitud.
 5. Ese tratamiento no cumpliría con los principios de la limitación de la finalidad de los mismos presentada en la exposición de la recolección de datos, pueden ser considerados datos anónimos por su falta de detalle, permitiendo el incumplimiento del régimen de tratamiento de datos, para ser anónimos la persona no debe poder ser identificada.
 6. En este caso, la anonimidad no sería un argumento válido y, por lo tanto, tendría que cumplir con el régimen, incumpliendo la limitación de finalidad.
+# Caso 2
+## Enunciado
+- 2025
+- Red social con publicación de imágenes con texto breve.
+- 50 millones de usuarios.
+## Preguntas
+1. ¿Es PicBurst un servicio intermediario? ¿Y un servicio de alojamiento de datos?
+2. ¿Debe PicBurst realizar auditorías anuales independientes?
+3. ¿Es obligatorio que PicBurst establezca mecanismos para la notificación de contenidos ilícitos?
+4. ¿Debe PicBurst incorporar la figura de alertadores fiables?
+5. Con respecto a las obligaciones de transparencia, ¿qué obligaciones debe cumplir?
+6. ¿Es PicBurst responsable de tratamiento de datos? ¿Debe FlashSphere contar con un/a DPO?
+7. Imaginemos que un usuario emplea PicBurst para subir contenidos ilícitos. ¿Es responsable FlashSphere por los daños ocasionados por esos contenidos? Imaginemos que alguien notifica a la red social que existen dichos contenidos, ¿sería entonces responsable por los daños ocasionados?
+## Respuestas
+1. 
