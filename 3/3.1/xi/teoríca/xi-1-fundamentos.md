@@ -42,19 +42,11 @@ De una onda senoidal se pueden destacar:
 	- El periodo fundamental pasa a ser $T_{0}= \frac{2\pi}{\omega}$
 ### Fase
 La fase es el desplazamiento en el tiempo ( señal senoidal desplazada ), representada por $\phi=-\omega t_{0}=-2\pi\frac{t_0}{T_0}$
-
 ## Señal sinc
-
-$$
-x(t)=sinc(t)=\frac{sin\ \pi t}{\pi t}
-$$
-
-En el punto o existe una indeterminación que lleva a :
-
-$$
-sinc(0)=-\lim_{t->0}\frac{\pi \ cos\ \pi t}{\pi}= 1
-$$
-
+Señal representada por:
+$$x(t)=sinc(t)=\frac{sin\ \pi t}{\pi t}$$
+En el punto 0 existe una indeterminación que lleva a:
+$$sinc(0)=\lim_{t\rightarrow0}\frac{\sin\pi t}{\pi t}= 1$$
 # Potencia e energía
 
 ## Potencia instantánea
