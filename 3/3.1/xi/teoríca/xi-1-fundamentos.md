@@ -10,9 +10,11 @@ Pulso centrado en T:
 $$
 p_2(t) = \begin{dcases}1\ \ \ \frac{-T}{2}<t<\frac{T}{2} \\ 0\ \ \ resto\end{dcases}
 $$
-El pulso $p_2$ es la desplazada de $p_1$, cumpliendose la función:$$p_2(t)=p_{1(t+\frac{T}{})$$
+El pulso $p_2$ es la desplazada de $p_1$, cumpliendose la función:$$p_2(t)=p_1(t+\frac{T}{2})$$
+## Señal escalón unidad
+Señal de altura uno y duración infinita.$$u(t) = \begin{dcases}1\ \ \ t>0 \\ 0\ \ \ resto\end{dcases}$$
+Un pulso p puede expresarse en función de u:$$p(t)=u(t)-u(t-T)$$
 ## Tren de pulsos
-
 Suma de versiones desplazadas de pulsos con amplitud $A_k$
 
 $x(t) = \sum_{K=-N}^N A_K$
@@ -112,10 +114,10 @@ $$x(t)=  \begin{dcases}\frac{A}{T_0}t_0<t<T_0 \\ 0\end{dcases}$$
 $$E_x=\int^{\infty}_{-\infty}\frac{A^2}{T_0^2}t^2dt$$
 ```
 
-## Pulse amplitude modulation (PAM)
+## Pulse amplitud modulation (PAM)
 
 $M=2^b$
-M : número de señales
+M: número de señales
 b: número de bits agrupados
 $S_0(t)=A_0p(t)$ $S_1(t)=A_1p(t)$
 
@@ -134,9 +136,9 @@ $G=10\log_{10}\frac{P_y}{P_x}$
 
 # Salida del sistema
 
-A través de la comvolución se puede 
+A través de la convolución se puede 
 
-## Propiedades de la comvolución
+## Propiedades de la convolución
 
 1. Elemento neutro:  $x(t)*0=0$
 2. Elemento unidad:  $x(t)*\delta (t)=x(t)$  $x(t)*\delta (t-t_0)=x(t-t_0)$
