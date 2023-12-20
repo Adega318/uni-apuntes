@@ -20,8 +20,9 @@ $$x(t) = \sum_{K=-N}^N A_Kp_1(t-kT)$$
 ## Impulso unidad
 El impulso (delta) es una señal imaginaria que cambia de 0 a 1 en tiempo 0.
 ### Propiedades
-1. Con un pulso rectangular de duración $A$ y amplitud $\frac{1}{A}$, si un 
-$$\delta (t)= 0 \ \ cuando \ \ t\neq0$$
+1. Con un pulso rectangular de duración $A$ y amplitud $\frac{1}{A}$, si $A$ disminuye la duración del rectángulo disminuye y su amplitud aumenta (conserva el área).
+$$\delta_A(t)=\begin{dcases}\frac{1}{A}\ \ \ 0<t<A \\ 0\ \ \ resto\end{dcases}$$
+$$Área=\int^{\infty}_{-\infty}\delta$$
 ## Señales senoidales
 
 Las señales senoidales pueden ser representadas por el coseno, siendo definida por tres parámetros:
