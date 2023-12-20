@@ -29,14 +29,14 @@ $$Área=\int^{\infty}_{-\infty}\delta_{A}(t)dt=\int^{A}_0\frac{1}{A}dt=\frac{1}{
 4. Multiplicación por una constante ( $K\delta(t)$ ), cambia la altura de uno a K.
 5. Desplazamiento ( $\delta(t-t_0)$ ) 
 ## Señales senoidales
-Las señales senoidales pueden ser representadas por el coseno, siendo definida por tres parámetros:
-- Amplitud (positiva) $|A|$
-- Frecuencia (Hz) $f$
-- Fase $\phi$
-La representación se realizaría con la siguiente ecuación:
+La representación de una señal senoidal se realizaría con el coseno en la siguiente ecuación:
 $$x(t)=A\cos(2\pi f t + \phi)$$
 Pudiendo ser representada alternativamente con la función trigonométrica:
 $$x(t)=A\sin(2\pi ft+\varphi)$$
+De una onda senoidal se pueden destacar:
+- Periodo fundamental, distancia entre máximos (s) $T_0=\frac{1}{f}$
+- Frecuencia, número de ciclos por unidad de tiempo (Hz) $f=\frac{1}{T_0}$
+
 Ejer
 
 $x(t)=-2\cos(4\pi f t + \pi/2)$
