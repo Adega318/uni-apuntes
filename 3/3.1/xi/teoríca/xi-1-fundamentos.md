@@ -30,14 +30,13 @@ $$Área=\int^{\infty}_{-\infty}\delta_{A}(t)dt=\int^{A}_0\frac{1}{A}dt=\frac{1}{
 5. Desplazamiento ( $\delta(t-t_0)$ ) 
 ## Señales senoidales
 Las señales senoidales pueden ser representadas por el coseno, siendo definida por tres parámetros:
-- Amplitud (positiva)
-- Frecuencia (Hz)
-- Fase
-
+- Amplitud (positiva) $|A|$
+- Frecuencia (Hz) $f$
+- Fase $\phi$
 La representación se realizaría con la siguiente ecuación:
-
-$x(t)=A\cos(2\pi f t + \phi)$
-
+$$x(t)=A\cos(2\pi f t + \phi)$$
+Pudiendo ser representada alternativamente con la función trigonométrica:
+$$x(t)=A\sin(2\pi ft+\varphi)$$
 Ejer
 
 $x(t)=-2\cos(4\pi f t + \pi/2)$
