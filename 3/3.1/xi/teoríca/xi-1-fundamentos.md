@@ -39,11 +39,9 @@ De una onda senoidal se pueden destacar:
 - Amplitud, valores entre los que oscila la señal $|A|$
 - Frecuencia angular, (rad/seg) $\omega=2\pi f$
 	- Permite la simplificación de la representación trigonométrica, $$x(t)=A\cos(\omega t + \phi)$$
-	- El periodo fundamental pasa a ser $T_{0=}$
-Ejer
-
+	- El periodo fundamental pasa a ser $T_{0}= \frac{2\pi}{\omega}$
+---
 $x(t)=-2\cos(4\pi f t + \pi/2)$
-
 Amplitud = 2
 frecuencia(
     Hz = 2
@@ -51,7 +49,6 @@ frecuencia(
 Fase(
     Rad = pi/2
     Grad = 90º)
-
 ### Fase
 
 La fase es el desplazamiento en el tiempo ( señal senoidal desplazada ), representada por $\phi=-2\pi ft_0 -> \phi = \frac{-2\pi}{T}t_0$
