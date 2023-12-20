@@ -16,16 +16,12 @@ Señal de altura uno y duración infinita.$$u(t) = \begin{dcases}1\ \ \ t>0 \\ 0
 Un pulso p puede expresarse en función de u:$$p(t)=u(t)-u(t-T)$$
 ## Tren de pulsos
 Suma de versiones desplazadas de pulsos con amplitud $A_k$
-
-$x(t) = \sum_{K=-N}^N A_K$
-
+$$x(t) = \sum_{K=-N}^N A_Kp_1(t-kT)$$
 ## Impulso unidad
-
 El impulso (delta) es una señal imaginaria que cambia de 0 a 1 en tiempo 0.
-Propiedades:
-
-1. $\delta (t)= 0 \ \ cuando \ \ t\neq0$
-
+### Propiedades
+1. Con un pulso rectangular de duración $A$ y amplitud $\frac{1}{A}$, si un 
+$$\delta (t)= 0 \ \ cuando \ \ t\neq0$$
 ## Señales senoidales
 
 Las señales senoidales pueden ser representadas por el coseno, siendo definida por tres parámetros:
