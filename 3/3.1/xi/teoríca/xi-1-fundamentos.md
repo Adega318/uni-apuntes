@@ -1,21 +1,16 @@
 # Señales
-
-Una señal es una magnitud física que varia (rango) con  respecto a una variable independiente (dominio). Una señal puede ser representada como una función $f(x)$
-
+Una señal es una magnitud física qué varía (rango) con respecto a una variable independiente (dominio). Una señal puede ser representada como una función $f(x)$.
 ## Pulso rectangular
 
 Un pulso de duración T:
-
 $$
 p_1(t) = \begin{dcases}1\ \ \ 0<t<T \\ 0\ \ \ resto\end{dcases}
 $$
-
 Pulso centrado en T:
-
 $$
-p_1(t) = \begin{dcases}1\ \ \ \frac{-T}{2}<t<\frac{T}{2} \\ 0\ \ \ resto\end{dcases}
+p_2(t) = \begin{dcases}1\ \ \ \frac{-T}{2}<t<\frac{T}{2} \\ 0\ \ \ resto\end{dcases}
 $$
-
+El pulso $p_2$ es la desplazada de $p_1$, cumpliendose la función:$$p_2(t)=p_{1(t+\frac{T}{})$$
 ## Tren de pulsos
 
 Suma de versiones desplazadas de pulsos con amplitud $A_k$
