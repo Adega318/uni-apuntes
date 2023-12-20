@@ -19,10 +19,11 @@ Suma de versiones desplazadas de pulsos con amplitud $A_k$
 $$x(t) = \sum_{K=-N}^N A_Kp_1(t-kT)$$
 ## Impulso unidad
 El impulso (delta) es una señal imaginaria que cambia de 0 a 1 en tiempo 0.
-### Propiedades
-1. Con un pulso rectangular de duración $A$ y amplitud $\frac{1}{A}$, si $A$ disminuye la duración del rectángulo disminuye y su amplitud aumenta (conserva el área).
+Con un pulso rectangular de duración $A$ y amplitud $\frac{1}{A}$, si $A$ disminuye, la duración del rectángulo disminuye y su amplitud aumenta (conserva el área, siendo siempre igual a uno), si $A$ es igual a 0 el pulso rectangular se convierte en un pulso unidad.
 $$\delta_A(t)=\begin{dcases}\frac{1}{A}\ \ \ 0<t<A \\ 0\ \ \ resto\end{dcases}$$
-$$Área=\int^{\infty}_{-\infty}\delta$$
+$$Área=\int^{\infty}_{-\infty}\delta_{A}(t)dt=\int^{A}_0\frac{1}{A}dt=\frac{1}{A}\times A=1$$
+### Propiedades
+1. 
 ## Señales senoidales
 
 Las señales senoidales pueden ser representadas por el coseno, siendo definida por tres parámetros:
