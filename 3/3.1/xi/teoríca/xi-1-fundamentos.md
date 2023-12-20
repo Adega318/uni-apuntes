@@ -23,11 +23,13 @@ Con un pulso rectangular de duración $A$ y amplitud $\frac{1}{A}$, si $A$ dismi
 $$\delta_A(t)=\begin{dcases}\frac{1}{A}\ \ \ 0<t<A \\ 0\ \ \ resto\end{dcases}$$
 $$Área=\int^{\infty}_{-\infty}\delta_{A}(t)dt=\int^{A}_0\frac{1}{A}dt=\frac{1}{A}\times A=1$$
 ### Propiedades
-1. 
+1. $\delta(t)=0\ cuado\ t \neq 0$
+2. $\delta(0)\rightarrow \infty$
+3. $\int^{\infty}_{-\infty}\delta(t)dt=1$
+4. Multiplicación por una constante ( $K\delta(t)$ ), cambia la altura de uno a K.
+5. Desplazamiento ( $\delta(t-t_0)$ ) 
 ## Señales senoidales
-
 Las señales senoidales pueden ser representadas por el coseno, siendo definida por tres parámetros:
-
 - Amplitud (positiva)
 - Frecuencia (Hz)
 - Fase
