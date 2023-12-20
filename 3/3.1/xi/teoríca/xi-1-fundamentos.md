@@ -36,7 +36,10 @@ $$x(t)=A\sin(2\pi ft+\varphi)$$
 De una onda senoidal se pueden destacar:
 - Periodo fundamental, distancia entre máximos (s) $T_0=\frac{1}{f}$
 - Frecuencia, número de ciclos por unidad de tiempo (Hz) $f=\frac{1}{T_0}$
-
+- Amplitud, valores entre los que oscila la señal $|A|$
+- Frecuencia angular, (rad/seg) $\omega=2\pi f$
+	- Permite la simplificación de la representación trigonométrica, $$x(t)=A\cos(\omega t + \phi)$$
+	- El periodo fundamental pasa a ser $T_{0=}$
 Ejer
 
 $x(t)=-2\cos(4\pi f t + \pi/2)$
