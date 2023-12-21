@@ -56,12 +56,14 @@ Considerando un intervalo $[-\frac{T}{2}, \frac{T}{2}]$ la energía disipada en 
 $$
 E^T_x=\int^{\frac{T}{2}}_{-\frac{T}{2}}x^2(t)dt
 $$
-Si el intecalo es infinito el cálculo de sudicipaciñon se convierte en:
+Si el intervalo es infinito el cálculo de su disipación se convierte en:
 $$
 E_x=\lim_{T-> \infty}\int^{\frac{T}{2}}_{-\frac{T}{2}}x^2(t)dt=\int^\infty_{-\infty }x^2(t)dt
 $$
+## Potencia en un intervalo
+La potencia de $x(t)$ en el intervalo $[-\frac{T}{2}, \frac{T}{2}]$ es definida por:
+$$P_{x}^T=\frac{E_{x}^{T}}{T}=\frac{}{}$$
 ## Potencia media de una señal
-
 $$
 P_x=\lim_{T->\infty}\frac{E_x^T}{T}=\lim_{T->\infty}\frac{1}{T}\int^{\frac{T}{2}}_{-\frac{T}{2}}x^2(t)dt
 $$
