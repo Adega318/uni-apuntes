@@ -71,7 +71,8 @@ $$
 ### Propiedades
 - $E_{x}\ge 0 \ y\ P_{x}\ge 0$
 - Para una señal con energía infinita la potencia media es 0.
-- $0<$
+- $0<P_{x}<\infty \Rightarrow E_{x}=\infty$
+- Existen señales con energía y potencia media infinita.
 
 ```ad-summary
 title: ejer1
@@ -91,12 +92,12 @@ $$x(t)=  \begin{dcases}\frac{A}{T_0}t_0<t<T_0 \\ 0\end{dcases}$$
 $$E_x=\int^{\infty}_{-\infty}\frac{A^2}{T_0^2}t^2dt$$
 ```
 
-## Pulse amplitud modulation (PAM)
-
+# Modelo de un sistema de comunicaciones digitales
+## Pulse amplitude modulation (PAM)
 $M=2^b$
 M: número de señales
 b: número de bits agrupados
-$S_0(t)=A_0p(t)$ $S_1(t)=A_1p(t)$
+$S_i(t)=A_ip(t)$ $S_1(t)=A_1p(t)$
 
 Cada símbolo es un bit, siendo la velocidad igual a la de bit $v_s=v_b$, y a cada símbolo se le asigna un pulso $v_s=\frac {1}{T}$
 
