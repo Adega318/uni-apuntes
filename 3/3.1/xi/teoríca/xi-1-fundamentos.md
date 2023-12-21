@@ -62,11 +62,16 @@ E_x=\lim_{T-> \infty}\int^{\frac{T}{2}}_{-\frac{T}{2}}x^2(t)dt=\int^\infty_{-\in
 $$
 ## Potencia en un intervalo
 La potencia de $x(t)$ en el intervalo $[-\frac{T}{2}, \frac{T}{2}]$ es definida por:
-$$P_{x}^T=\frac{E_{x}^{T}}{T}=\frac{}{}$$
+$$P_{x}^T=\frac{E_{x}^{T}}{T}=\frac{1}{T}\int^{\frac{T}{2}}_{-\frac{T}{2}}x^{2}(t)dt$$
 ## Potencia media de una señal
+La potencia media de una señal es:
 $$
 P_x=\lim_{T->\infty}\frac{E_x^T}{T}=\lim_{T->\infty}\frac{1}{T}\int^{\frac{T}{2}}_{-\frac{T}{2}}x^2(t)dt
 $$
+### Propiedades
+- $E_{x}\ge 0 \ y\ P_{x}\ge 0$
+- Para una señal con energía infinita la potencia media es 0.
+- $0<$
 
 ```ad-summary
 title: ejer1
