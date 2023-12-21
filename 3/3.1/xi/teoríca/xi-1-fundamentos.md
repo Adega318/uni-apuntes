@@ -50,21 +50,16 @@ $$sinc(0)=\lim_{t\rightarrow0}\frac{\sin\pi t}{\pi t}= 1$$
 # Potencia media y energía
 ## Potencia instantánea
 La potencia instantánea es la cantidad de potencia disipada por una resistencia:
-$$$$
+$$p(t)=Ri^{2}(t)=R(\frac{v(t)}{R})^{2}= \frac{v^{2}(t)}{R}$$
 ## Energía disipada en un intervalo
-
-Considerando un intervalo $[-\frac{T}{2}, \frac{T}{2}]$ la energía disipada es :
-
+Considerando un intervalo $[-\frac{T}{2}, \frac{T}{2}]$ la energía disipada en el mismo es:
 $$
 E^T_x=\int^{\frac{T}{2}}_{-\frac{T}{2}}x^2(t)dt
 $$
-
-Para calcular la disipación total se da un intervalo infinito: 
-
+Si el intecalo es infinito el cálculo de sudicipaciñon se convierte en:
 $$
 E_x=\lim_{T-> \infty}\int^{\frac{T}{2}}_{-\frac{T}{2}}x^2(t)dt=\int^\infty_{-\infty }x^2(t)dt
 $$
-
 ## Potencia media de una señal
 
 $$
