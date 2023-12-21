@@ -47,16 +47,10 @@ Señal representada por:
 $$x(t)=sinc(t)=\frac{sin\ \pi t}{\pi t}$$
 En el punto 0 existe una indeterminación que lleva a:
 $$sinc(0)=\lim_{t\rightarrow0}\frac{\sin\pi t}{\pi t}= 1$$
-# Potencia e energía
-
+# Potencia media y energía
 ## Potencia instantánea
-
-La potencia instantánea es igual a:
-
-$$
-p(t)=x^2(t)
-$$
-
+La potencia instantánea es la cantidad de potencia disipada por una resistencia:
+$$$$
 ## Energía disipada en un intervalo
 
 Considerando un intervalo $[-\frac{T}{2}, \frac{T}{2}]$ la energía disipada es :
