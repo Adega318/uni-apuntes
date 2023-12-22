@@ -116,6 +116,15 @@ El dBm es el decibelio-miliVatio tomando como referencia 1mW.
 $G_{dBm}=10\log_{10}(\frac{P_{y}}{1mW})$
 ## Retardos
 Los retardos cuando son de trasmisión son producidos por los equipos implicados y capacidad de flujo de datos. Los retrasos de propagación son el retraso de la trasmisión por el medio.
+## Ruido
+Señales de naturaleza aleatoria que modifica la señal transmitida y que puede distorsionar la significativamente.
+### AWGN
+Ruido que se suma a la señal $x(t)=s(t)+r(t)$, cuando tenemos este tipo de ruido podemos calcular:
+- SNR, ratio de señal y ruido (S, potencia de la señal y N, potencia del ruido)
+$$SNR(dB)$$
+
+
+
 # Respuesta al impulso
 
 # Salida del sistema
