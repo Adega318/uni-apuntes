@@ -61,5 +61,5 @@ Para la trasmisión se hace uso de canales en dos zonas:
 | 2.4 GHz | 3      | 1      |        |         |
 | 5 GHz   | 25     | 12     | 6      | 2       | 
 ## OFDM
-
+División de la señal en múltiples portadoras parcialmente superpuestas para la trasmisión en canales.
 ## Tasa
