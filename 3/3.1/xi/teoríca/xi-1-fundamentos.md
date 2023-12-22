@@ -104,8 +104,15 @@ Cada símbolo es un bit, siendo la velocidad igual a la de bit $v_s=v_b$, y a ca
 ## Atenuación
 Perdida de potencia a causa del medio entre el receptor y emisor.
 $G=\frac{P_y}{P_{x}}\ W$
-$G_{db}10\log_{10}\frac{P_{y}}{P_{x}}=10\log_{10}$
-
+$G_{db}=10\log_{10}(\frac{P_{y}}{P_{x}})=10\log_{10}(P_{y})-10\log_{10}(P_{x})\ db$
+## Potencia
+| Potencia (dBm) | Potencia (W) | Aplicación                                   |
+| -------------- | ------------ | -------------------------------------------- |
+| 70             | 10000        | Frecuencia de radio FM                       |
+| 60             | 1000         | Máxima salida de radiofrecuencia no regulada |
+| 20             | 0.1          | WiFi 2.4GHz                                  |
+| 15             | 0.032        | WiFi en dispositivos portátiles              |
+El dBm es 
 # Respuesta al impulso
 
 # Salida del sistema
