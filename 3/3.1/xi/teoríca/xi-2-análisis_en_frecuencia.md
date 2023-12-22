@@ -38,5 +38,12 @@ Para dos señales $x_{1}(t)$ y $x_{2}(t)$ con transformadas $X_{1}(\omega)$ y $X
 $$a_{1}x_{1}(t)+a_{2}x_{2}(t)\quad \underleftrightarrow{TF\{.\}}\quad a_{1}X_{1}(\omega)+a_{2}X_{2}(\omega)$$
 >[!NOTE] Las dos a son constantes cualquieras.
 # Propiedad de escalado en el tiempo
+El escalado en el tiempo trasforma una señal en otra tal que:
+$$x(t)\rightarrow y(t)=x(at)$$
+Donde a es un número real positivo
 $$x(t)\rightarrow y(t)= x(\alpha t)\alpha = cte$$
 # Propiedad de convolución
+## Filtrado en tiempo y frecuencia
+## Filtro paso bajo ideal
+## Canales de banda limitada
+## Trasmisión con pulso rectangular
