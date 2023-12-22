@@ -47,4 +47,19 @@ Las categorías que se establecen son:
 - Información de fondo
 Las prioridades siguen el orden anteriormente indicado y se aplican mediante la introducción de nuevos tiempos de prioridad, también se modifican los mínimos y máximos CWs para la prioridad.
 # Capa PHY
-## Modulaciones y códigos de canal
+## Canales radio
+Para la trasmisión se hace uso de canales en dos zonas:
+- 2.4 GHz
+	- Mayor distancia.
+	- Solapamiento.
+- 5 GHz
+	- Menor distancia.
+	- No solapamiento.
+
+| Canal   | 20 MHz | 40 MHz | 80 MHz | 160 MHz |
+| ------- | ------ | ------ | ------ | ------- |
+| 2.4 GHz | 3      | 1      |        |         |
+| 5 GHz   | 25     | 12     | 6      | 2       | 
+## OFDM
+
+## Tasa
