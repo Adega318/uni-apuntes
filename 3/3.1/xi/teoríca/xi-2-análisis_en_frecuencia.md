@@ -51,4 +51,19 @@ Dando el efecto de:
 Para $x(t)$ y $h(t)$ se trasforman:
 $$x(t)\times h(t)\quad\underleftrightarrow{TF\{.\}}\quad X(\omega)\times H(\omega)$$
 # Propiedad de multiplicación
-# Sistema de 
+$$x(t)\cos(\omega_{c}t) \quad\underleftrightarrow{TF\{.\}}\quad \frac{1}{2}$$
+# Sistema de trasmisión digital
+## Modulación
+## Mapeado Gray
+## Canales
+## Trasmisión
+## Probabilidad de error
+# Trasmisión de banda base
+## Modelo del sistema
+## Pulsos
+## Comparación
+## Ancho de banda mínimo
+# Trasmisión paso banda
+## Modulación ASK
+## Modulación PSK
+## Modulación QAM
