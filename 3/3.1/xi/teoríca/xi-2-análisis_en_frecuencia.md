@@ -12,10 +12,13 @@ $$x(t)=TF^{-1}\{X(\omega)\}=\frac{1}{2\pi}\int^{\infty}_{-\infty}X(\omega)e^{j\o
 ## Trasformación de señales básicas
 ### Rectangular
 $$x(t) = \begin{dcases}A \quad \frac{-T}{2}<t<\frac{T}{2} \\ 0 \quad resto\end{dcases}$$
-$$X(\omega)=2A\frac{\sin(\frac{wT}{2})}{\omega}$$
-Al transformarla:
-$$X(\omega) = \begin{dcases}1\ \ \ \ -W<\omega<W \\ 0\ \ \ \ \ resto\end{dcases}$$
-#### Senoidal
+$$X(\omega)=2A\frac{\sin(\frac{\omega T}{2})}{\omega}$$
+### Sinc
+$$x(t)=\frac{\sin{Wt}}{\pi t}$$
+$$X(\omega)=\begin{dcases}1\quad -W<\omega<W\\ 0\quad resto\end{dcases}$$
+### Coseno
+$$\cos(\omega_{0}t)$$
+$$\pi\delta(\omega-\omega_0)+()$$
 # Relación de Parseval
 $$x(t) \rightarrow E_x=\int_{-\infty}^\infty x^2(t)dt =  \frac{1}{2\pi}\int_{-\infty}^\infty |x(\omega)|^2d\omega$$
 # Propiedad de linealidad
