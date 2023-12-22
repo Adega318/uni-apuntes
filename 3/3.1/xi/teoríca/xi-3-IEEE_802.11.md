@@ -74,4 +74,4 @@ Las diferentes modulaciones tiene una eficiencia espectral $\eta$ \[bit/s/Hz]
 - QPSK, $\eta = 2\ bit/s/Hz$
 - M-QAM, $\eta = \log_{2}M\ bit/s/Hz$
 A lo anterior se le añade bits de redundancia para compensar el ruido del canal. Por cada K bits fuente se trasmiten n bits. Tasa de codificación: $R=k/n$
-Con
+Para mirar las tasas se toman estos dos datos y se mira en la tabla.
