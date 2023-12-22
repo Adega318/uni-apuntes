@@ -33,16 +33,18 @@ El estándar se basa en la espera de un tiempo aleatoria tras la finalización d
 ### Unicast
 Se envía ACKs al terminar el periodo de SIFS (sin contención), el uso de ACKs permite la confirmación de la recepción de paquetes.
 ### RTS/CTS
-Modo de trasmisión opcional para ayudar a enviar el problema del nodo oculto con paquetes de alto tamaño. Cuando se hace uso de este método se envía dos paquetes extra:
+Modo de trasmisión opcional para ayudar a enviar el problema del nodo oculto. Cuando se hace uso de este método se envía dos paquetes extra:
 - RTS, paquete de solicitud de canal con tiempo estimado.
 - CTS, paquete de concesión de canal con tiempo estimado.
+Con estos paquetes se calcula el NAV (tiempo de RTS a ACK).
+Sobre este protocolo se puede fragmentar el paquete para evitar las tramas erróneas.
 ## IEEE 802.11e EDCF
-Mejoras en la capa MAC mediante la división del trafico y aseguramiento de la calidad del mismo, esto se realiza mediante el HCF que sustituye el PCF y DCF.
+Mejoras en la capa MAC mediante la división del tráfico y aseguramiento de la calidad del mismo (QoS), esto se realiza mediante el HCF que sustituye el PCF y DCF.
 Las categorías que se establecen son:
 - Voz
 - Video
 - Mejor esfuerzo
 - Información de fondo
-Las prioridades siguen el orden anteriormente indicado y se aplican mediante la introducción de nuevos tiempos de prioridad, tambien se modifican los minimos y maximos CWs para la prioridad.
+Las prioridades siguen el orden anteriormente indicado y se aplican mediante la introducción de nuevos tiempos de prioridad, también se modifican los mínimos y máximos CWs para la prioridad.
 # Capa PHY
 ## Modulaciones y códigos de canal
