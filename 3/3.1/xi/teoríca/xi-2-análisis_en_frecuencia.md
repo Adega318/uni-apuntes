@@ -18,7 +18,13 @@ $$x(t)=\frac{\sin{Wt}}{\pi t}$$
 $$X(\omega)=\begin{dcases}1\quad -W<\omega<W\\ 0\quad resto\end{dcases}$$
 ### Coseno
 $$\cos(\omega_{0}t)$$
-$$\pi\delta(\omega-\omega_0)+()$$
+$$\pi\delta(\omega-\omega_0)+\pi\delta(\omega+\omega_0)$$
+## Fase de una señal senoidal
+Si desplazamos un tiempo $t_{0}$ una onda senoidal obtenemos:
+$$x(t-t_{0})=A\cos(\omega t +\phi)$$
+$$\phi=-\omega t_{0}=-2\pi \frac{t_{0}}{T_{0}}$$
+## Desplazamiento en tiempo
+
 # Relación de Parseval
 $$x(t) \rightarrow E_x=\int_{-\infty}^\infty x^2(t)dt =  \frac{1}{2\pi}\int_{-\infty}^\infty |x(\omega)|^2d\omega$$
 # Propiedad de linealidad
