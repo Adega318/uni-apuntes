@@ -25,7 +25,11 @@ Bajo el estándar existen tres modos de trasmisión:
 - CSMA/CA+ACK → unicast
 - RTS/CTS → alto tamaño (opcional)
 ### Principios
-El están
+El estándar se basa en la espera de un tiempo aleatoria tras la finalización de la ocupación del canal, este tiempo es denotado por CW, teniendo longitudes diferentes en función de la prioridad:
+1. SIFS (ACK y CTS)
+2. PIFS (Coordianción)
+3. DIFS (Data y RTS)
+>[!important] Si la espera se ve interrumpida el CW se pausa.
 ## IEEE 802.11e EDCF
 Mejoras en la capa MAC mediante la división del trafico y aseguramiento de la calidad del mismo, esto se realiza mediante el HCF que sustituye el PCF y DCF.
 Las categorías que se establecen son:
