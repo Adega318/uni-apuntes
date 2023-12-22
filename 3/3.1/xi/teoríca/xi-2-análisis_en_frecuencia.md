@@ -48,7 +48,7 @@ Dando el efecto de:
 -  Cuando a > 1 y 1/a <1 la señal se comprime en tiempo, pero expande en frecuencia.
 -  Cuando a < 1 y 1/a >1 la señal se expande en tiempo, pero comprime en frecuencia.
 # Propiedad de convolución
-## Filtrado en tiempo y frecuencia
-## Filtro paso bajo ideal
-## Canales de banda limitada
-## Trasmisión con pulso rectangular
+Para $x(t)$ y $h(t)$ se trasforman:
+$$x(t)\times h(t)\quad\underleftrightarrow{TF\{.\}}\quad X(\omega)\times H(\omega)$$
+# Propiedad de multiplicación
+# Sistema de 
