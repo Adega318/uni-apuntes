@@ -136,13 +136,10 @@ $$y(t)=x(t)\times h(t)=\int^{\infty}_{-\infty}x(\tau)h(t-\tau)d\tau$$
 	- $x(t)\times h(t)=h(t) \times x(t)$
 4. Asociativa
 	- $(x(t)\times h(t))\times h_2(t)=x(t)\times(h(t)\times h_2(t))$
-5. Distributiva
+5. Distributiva respecto a la suma
 	- $x(t)\times h(t)+x(t)\times h_2(t)=x(t)\times (h(t)+h_2(t))$
-
-## Convolución de señales  continuas
-
+### Convolución con $\delta(t)$
 $y(t)=\int_{-\infty}^\infty x(\tau)\times h(t-\tau)d\tau$
 
-$y(t)=\begin{dcases}0 \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  0>t \\ ABt\ \ \ \  \ \ \ \ \ \ \ \ 0<t<1 \\AB \ \ \ \ \ \ \ \ \ \ \ \ \  \ 1<t<2 \\AB(3-t) \ \ \  2<t<3\end{dcases}$
+$y(t)=\begin{dcases}0 \t t>  2<t<3\end{dcases}$
 
-La convolución lleva a la formación de un trapecio.
