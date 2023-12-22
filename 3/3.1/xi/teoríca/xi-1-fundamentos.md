@@ -141,5 +141,6 @@ $$y(t)=x(t)\times h(t)=\int^{\infty}_{-\infty}x(\tau)h(t-\tau)d\tau$$
 ### Convolución con $\delta(t)$
 $y(t)=\int_{-\infty}^\infty x(\tau)\times h(t-\tau)d\tau$
 
-$y(t)=\begin{dcases}0 \t t>  2<t<3\end{dcases}$
+$y(t)=\begin{dcases}0 \qquad t<0 \\ x(t) \quad 0<t<2 \\ 0 \qquad t>2\end{dcases}$
 
+$\delta$
