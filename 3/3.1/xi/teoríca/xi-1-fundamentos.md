@@ -112,7 +112,10 @@ $G_{db}=10\log_{10}(\frac{P_{y}}{P_{x}})=10\log_{10}(P_{y})-10\log_{10}(P_{x})\ 
 | 60             | 1000         | Máxima salida de radiofrecuencia no regulada |
 | 20             | 0.1          | WiFi 2.4GHz                                  |
 | 15             | 0.032        | WiFi en dispositivos portátiles              |
-El dBm es 
+El dBm es el decibelio-miliVatio tomando como referencia 1mW.
+$G_{dBm}=10\log_{10}(\frac{P_{y}}{1mW})$
+## Retardos
+Los retardos cuando son de trasmisión son producidos por los equipos implicados y capacidad de flujo de datos. Los retrasos de propagación son el retraso de la trasmisión por el medio.
 # Respuesta al impulso
 
 # Salida del sistema
