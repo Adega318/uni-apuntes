@@ -31,7 +31,11 @@ El estándar se basa en la espera de un tiempo aleatoria tras la finalización d
 3. DIFS (Data y RTS)
 >[!important] Si la espera se ve interrumpida, el CW se pausa.
 ### Unicast
-Se envía ACKs al terminar el periodo de SIFS (sin contención), el uso de ACKs permite la confirmación de la rece
+Se envía ACKs al terminar el periodo de SIFS (sin contención), el uso de ACKs permite la confirmación de la recepción de paquetes.
+### RTS/CTS
+Modo de trasmisión opcional para ayudar a enviar el problema del nodo oculto con paquetes de alto tamaño. Cuando se hace uso de este método se envía dos paquetes extra:
+- RTS, paquete de solicitud de canal con tiempo estimado.
+- CTS, paquete de concesión de canal con tiempo estimado.
 ## IEEE 802.11e EDCF
 Mejoras en la capa MAC mediante la división del trafico y aseguramiento de la calidad del mismo, esto se realiza mediante el HCF que sustituye el PCF y DCF.
 Las categorías que se establecen son:
