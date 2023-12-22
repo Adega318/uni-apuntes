@@ -112,7 +112,7 @@ $G_{db}=10\log_{10}(\frac{P_{y}}{P_{x}})=10\log_{10}(P_{y})-10\log_{10}(P_{x})\ 
 | 60             | 1000         | Máxima salida de radiofrecuencia no regulada |
 | 20             | 0.1          | WiFi 2.4GHz                                  |
 | 15             | 0.032        | WiFi en dispositivos portátiles              |
-El dBm es el decibelio-miliVatio tomando como referencia 1mW.
+El dBm es el decibelio-miliVatio tomando como referencia 1 mW.
 $G_{dBm}=10\log_{10}(\frac{P_{y}}{1mW})$
 ## Retardos
 Los retardos cuando son de trasmisión son producidos por los equipos implicados y capacidad de flujo de datos. Los retrasos de propagación son el retraso de la trasmisión por el medio.
@@ -147,3 +147,4 @@ $\delta(t)\times x(t)=x(t)$
 ### Convolución de dos pulsos rectangulares
 Al realizar la convolución de dos pulsos rectangulares se crea un trapecio de salida:
 $$y(t)=\begin{dcases}0 \qquad t<0 \\ t \qquad 0<t<1 \\1 \qquad 1<t<2 \\ 3-t \quad 2<t<3\\ 0\qquad 3<t\end{dcases}$$
+Para realizar un cálculo gráfico de la convolución tomamos el punto de partida de ambas ondas y los sumamos para obtener el punto de partida de la convolución e igual para el punto de fin, el trapecio crecera desde el punto de inicio la longuitud del pulso menor y descendera esa misma longuitud hasta el filan tras tener un valle.
