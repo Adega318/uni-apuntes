@@ -24,8 +24,11 @@ Si desplazamos un tiempo $t_{0}$ una onda senoidal obtenemos:
 $$x(t-t_{0})=A\cos(\omega t +\phi)$$
 $$\phi=-\omega t_{0}=-2\pi \frac{t_{0}}{T_{0}}$$
 ## Desplazamiento en tiempo
-
+$$x(t-t_{0})\quad \underleftrightarrow{TF\{.\}}\quad X(\omega)e^{-j\omega t_{0}}$$
+## Desplazamiento en frecuencia
+$$x(t)e^{j\omega_{0}t}\quad \underleftrightarrow{TF\{.\}}\quad X(\omega-\omega_{0})$$
 # Relación de Parseval
+La energía de una señal real $x()$
 $$x(t) \rightarrow E_x=\int_{-\infty}^\infty x^2(t)dt =  \frac{1}{2\pi}\int_{-\infty}^\infty |x(\omega)|^2d\omega$$
 # Propiedad de linealidad
 Al sumar en el dominio del tiempo un numero de señales sumadas a una constante, en el dominio de la frecuencia se suman también.
