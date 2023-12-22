@@ -8,10 +8,11 @@ Los números reales tiene fase 0 : $e^{j\theta}$
 Para representar de manera directa una señal en el dominio de la frecuencia:
 $$X(\omega)=TF\{x(t)\}=\int^{\infty}_{-\infty}x(t)e^{-j\omega t}dt$$
 Para obtener $x(t)$ de $X(\omega)$ usaremos la inversa:
-$$x(t)=TF^{-1}\{X(\omega)\}=\frac{}{}$$
-Toda señal se puede representar como la superposición de cosenos de una cierta frecuencia.
-#### Rectangular
-$$x(t) = \begin{dcases}A\ \ \ \frac{-T}{2}<t<\frac{T}{2} \\ 0\ \ \ resto\end{dcases}$$
+$$x(t)=TF^{-1}\{X(\omega)\}=\frac{1}{2\pi}\int^{\infty}_{-\infty}X(\omega)e^{j\omega t}d\omega$$
+## Trasformación de señales básicas
+### Rectangular
+$$x(t) = \begin{dcases}A \quad \frac{-T}{2}<t<\frac{T}{2} \\ 0 \quad resto\end{dcases}$$
+$$X(\omega)=2A\frac{\sin(\frac{wT}{2})}{\omega}$$
 Al transformarla:
 $$X(\omega) = \begin{dcases}1\ \ \ \ -W<\omega<W \\ 0\ \ \ \ \ resto\end{dcases}$$
 #### Senoidal
