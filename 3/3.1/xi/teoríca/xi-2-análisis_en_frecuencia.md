@@ -28,9 +28,12 @@ $$x(t-t_{0})\quad \underleftrightarrow{TF\{.\}}\quad X(\omega)e^{-j\omega t_{0}}
 ## Desplazamiento en frecuencia
 $$x(t)e^{j\omega_{0}t}\quad \underleftrightarrow{TF\{.\}}\quad X(\omega-\omega_{0})$$
 # Relación de Parseval
-La energía de una señal real $x()$
-$$x(t) \rightarrow E_x=\int_{-\infty}^\infty x^2(t)dt =  \frac{1}{2\pi}\int_{-\infty}^\infty |x(\omega)|^2d\omega$$
+La energía de una señal real $x(t)$ se puede calcular de la siguiente manera:
+$$E_x=\int_{-\infty}^\infty x^2(t)dt =  \frac{1}{2\pi}\int_{-\infty}^\infty |x(\omega)|^2d\omega$$
+>[!NOTE] 
+>$|X(\omega)|^{2}$ se conoce como la densidad espectral de energía.
 # Propiedad de linealidad
-Al sumar en el dominio del tiempo un numero de señales sumadas a una constante, en el dominio de la frecuencia se suman también.
+Al sumar en el dominio del tiempo un número de señales sumadas a una constante, en el dominio de la frecuencia se suman también.
+Para dos señales $x_{1}$
 # Propiedad de escalado en el tiempo
 $$x(t)\rightarrow y(t)= x(\alpha t)\alpha = cte$$
