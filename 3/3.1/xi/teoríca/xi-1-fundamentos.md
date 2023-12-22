@@ -100,11 +100,7 @@ b: número de bits agrupados
 $S_i(t)=A_ip(t)$ $S_1(t)=A_1p(t)$
 
 Cada símbolo es un bit, siendo la velocidad igual a la de bit $v_s=v_b$, y a cada símbolo se le asigna un pulso $v_s=\frac {1}{T}$
-
-```
-AB
-```
-
+# Distorsión
 ## Atenuación
 
 Perdida de potencia a causa del medio entre el receptor y emisor.
