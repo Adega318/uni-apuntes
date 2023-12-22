@@ -34,6 +34,8 @@ $$E_x=\int_{-\infty}^\infty x^2(t)dt =  \frac{1}{2\pi}\int_{-\infty}^\infty |x(\
 >$|X(\omega)|^{2}$ se conoce como la densidad espectral de energía.
 # Propiedad de linealidad
 Al sumar en el dominio del tiempo un número de señales sumadas a una constante, en el dominio de la frecuencia se suman también.
-Para dos señales $x_{1}$
+Para dos señales $x_{1}(t)$ y $x_{2}(t)$ con transformadas $X_{1}(\omega)$ y $X_{2}(\omega)$ respectivamente:
+$$a_{1}x_{1}(t)+a_{2}x_{2}(t)\quad \underleftrightarrow{TF\{.\}}\quad a_{1}X_{1}(\omega)+a_{2}X_{2}(\omega)$$
+>[!NOTE] Las dos a son constantes cualquieras.
 # Propiedad de escalado en el tiempo
 $$x(t)\rightarrow y(t)= x(\alpha t)\alpha = cte$$
