@@ -125,14 +125,19 @@ $$SNR(dB)=10\log_{10}(\frac{S}{N})$$
 # Multitrayecto
 ## Salida del sistema
 Con la respuesta a un impulso podemos calcular la salida del sistema para cualquier entrada mediante la convolución.
-$$y(t)=x(t)\times h(t)=\$$
-## Propiedades de la convolución
-
-1. Elemento neutro:  $x(t)*0=0$
-2. Elemento unidad:  $x(t)*\delta (t)=x(t)$  $x(t)*\delta (t-t_0)=x(t-t_0)$
-3. Conmutativa:  $x(t)*h(t)=h(t) * x(t)$
-4. Asociativa:  $(x(t)*h(t))*h_2(t)=x(t)*(h(t)*h_2(t))$
-5. Distributiva:  $x(t)*h(t)+x(t)*h_2(t)=x(t)*(h(t)+h_2(t))$
+$$y(t)=x(t)\times h(t)=\int^{\infty}_{-\infty}x(\tau)h(t-\tau)d\tau$$
+### Propiedades de la convolución
+1. Elemento neutro
+	- $x(t)\times0=0$
+2. Elemento unidad
+	- $x(t)\times\delta (t)=x(t)$
+	- $x(t)\times\delta (t-t_0)=x(t-t_0)$
+3. Conmutativa
+	- $x(t)\times h(t)=h(t) \times x(t)$
+4. Asociativa
+	- $(x(t)\times h(t))\times h_2(t)=x(t)\times(h(t)\times h_2(t))$
+5. Distributiva
+	- $x(t)\times h(t)+x(t)\times h_2(t)=x(t)\times (h(t)+h_2(t))$
 
 ## Convolución de señales  continuas
 
