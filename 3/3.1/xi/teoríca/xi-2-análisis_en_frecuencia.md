@@ -1,11 +1,10 @@
-# Frecuencia
-## Notación
-### Números complejos
+# Notación
+## Números complejos
 Los números complejos se representan con la siguiente forma:
 $$z = \rho e^{j\theta}$$
-#### Valores especiales
+### Valores especiales
 Los números reales tiene fase 0 : $e^{j\theta}$
-### Transformada de Fourier
+# Transformada de Fourier
 Toda señal se puede representar como la superposición de cosenos de una cierta frecuencia.
 #### Rectangular
 $$x(t) = \begin{dcases}A\ \ \ \frac{-T}{2}<t<\frac{T}{2} \\ 0\ \ \ resto\end{dcases}$$
