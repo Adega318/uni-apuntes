@@ -6,7 +6,10 @@ En una red con tres nodos donde dos tiene comunicación a uno y no entre ellos, 
 ### Nodo expuesto
 Un nodo se comunica con otros dos inconexos, este nodo transmite a uno de ellos y el otro nodo inconexo no puede trasmitir a un tercero por la trasmisión del nodo medio pese a no ocasionar colisiones.
 ## CSMA/CA
-La 
+La estrategia CSMA/CA se basa en la escucha antes de hablar y evitar colisiones. El proceso de trasmisión con esta estrategia se basa en:
+- Trasmitir sin esperar si el canal está libre.
+- Si está ocupado esperar un tiempo aleatorio tras la liberación del canal, si se interrumpe esa espera con una trasmisión se pausa la cuenta atrás.
+>[!]Esta estrategia no detecta colisiones.
 ## MACA
 
 ## IEEE 802.11 DCF
