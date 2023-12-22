@@ -47,6 +47,12 @@ Las categorías que se establecen son:
 - Información de fondo
 Las prioridades siguen el orden anteriormente indicado y se aplican mediante la introducción de nuevos tiempos de prioridad, también se modifican los mínimos y máximos CWs para la prioridad.
 # Capa PHY
+| Estándar | Modulación                       | Codificación |
+| -------- | -------------------------------- | ------------ |
+| 802.11g  | BPSK / QPSK / 16-64 QAM          | BCC          |
+| 802.11n  | BPSK / QPSK / 16-64 QAM          | BCC / LDPC   |
+| 802.11ac | BPSK / QPSK / 16-64-256 QAM      | BCC / LDPC   |
+| 802.11ax | BPSK / QPSK / 16-64-256-1024 QAM | BCC / LDPC   |
 ## Canales radio
 Para la trasmisión se hace uso de canales en dos zonas:
 - 2.4 GHz
