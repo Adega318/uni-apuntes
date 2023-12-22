@@ -121,16 +121,11 @@ Señales de naturaleza aleatoria que modifica la señal transmitida y que puede 
 ### AWGN
 Ruido que se suma a la señal $x(t)=s(t)+r(t)$, cuando tenemos este tipo de ruido podemos calcular:
 - SNR, ratio de señal y ruido (S, potencia de la señal y N, potencia del ruido)
-$$SNR(dB)$$
-
-
-
-# Respuesta al impulso
-
-# Salida del sistema
-
-A través de la convolución se puede 
-
+$$SNR(dB)=10\log_{10}(\frac{S}{N})$$
+# Multitrayecto
+## Salida del sistema
+Con la respuesta a un impulso podemos calcular la salida del sistema para cualquier entrada mediante la convolución.
+$$y(t)=x(t)\times h(t)=\$$
 ## Propiedades de la convolución
 
 1. Elemento neutro:  $x(t)*0=0$
