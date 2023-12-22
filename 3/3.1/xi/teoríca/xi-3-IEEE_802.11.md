@@ -69,3 +69,9 @@ Para la trasmisión se hace uso de canales en dos zonas:
 ## OFDM
 División de la señal en múltiples portadoras parcialmente superpuestas para la trasmisión en canales.
 ## Tasa
+Las diferentes modulaciones tiene una eficiencia espectral $\eta$ \[bit/s/Hz]
+- BPSK, $\eta = 1\ bit/s/Hz$
+- QPSK, $\eta = 2\ bit/s/Hz$
+- M-QAM, $\eta = \log_{2}M\ bit/s/Hz$
+A lo anterior se le añade bits de redundancia para compensar el ruido del canal. Por cada K bits fuente se trasmiten n bits. Tasa de codificación: $R=k/n$
+Con
