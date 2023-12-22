@@ -35,13 +35,18 @@ $$E_x=\int_{-\infty}^\infty x^2(t)dt =  \frac{1}{2\pi}\int_{-\infty}^\infty |x(\
 # Propiedad de linealidad
 Al sumar en el dominio del tiempo un número de señales sumadas a una constante, en el dominio de la frecuencia se suman también.
 Para dos señales $x_{1}(t)$ y $x_{2}(t)$ con transformadas $X_{1}(\omega)$ y $X_{2}(\omega)$ respectivamente:
-$$a_{1}x_{1}(t)+a_{2}x_{2}(t)\quad \underleftrightarrow{TF\{.\}}\quad a_{1}X_{1}(\omega)+a_{2}X_{2}(\omega)$$
+$$a_{1}x_{1}(t)+a_{2}x_{2}(t)\quad\underleftrightarrow{TF\{.\}}\quad a_{1}X_{1}(\omega)+a_{2}X_{2}(\omega)$$
 >[!NOTE] Las dos a son constantes cualquieras.
 # Propiedad de escalado en el tiempo
 El escalado en el tiempo trasforma una señal en otra tal que:
 $$x(t)\rightarrow y(t)=x(at)$$
-Donde a es un número real positivo
-$$x(t)\rightarrow y(t)= x(\alpha t)\alpha = cte$$
+Donde $a$ es un número real positivo.
+## TF de escalado en tiempo
+La propiedad de escalado en el tiempo de la trasformada de $x(t)$ se define con:
+$$x(at)\quad\underleftrightarrow{TF\{.\}}\quad \frac{1}{|a|}X(\frac{\omega}{a})$$
+Dando el efecto de:
+-  Cuando a > 1 y 1/a <1 la señal se comprime en tiempo, pero expande en frecuencia.
+-  Cuando a < 1 y 1/a >1 la señal se expande en tiempo, pero comprime en frecuencia.
 # Propiedad de convolución
 ## Filtrado en tiempo y frecuencia
 ## Filtro paso bajo ideal
