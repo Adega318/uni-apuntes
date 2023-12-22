@@ -39,3 +39,4 @@ $$a_{1}x_{1}(t)+a_{2}x_{2}(t)\quad \underleftrightarrow{TF\{.\}}\quad a_{1}X_{1}
 >[!NOTE] Las dos a son constantes cualquieras.
 # Propiedad de escalado en el tiempo
 $$x(t)\rightarrow y(t)= x(\alpha t)\alpha = cte$$
+# Propiedad de convolución
