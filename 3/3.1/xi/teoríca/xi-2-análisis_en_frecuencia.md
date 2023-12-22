@@ -5,6 +5,10 @@ $$z = \rho e^{j\theta}$$
 ### Valores especiales
 Los números reales tiene fase 0 : $e^{j\theta}$
 # Transformada de Fourier
+Para representar de manera directa una señal en el dominio de la frecuencia:
+$$X(\omega)=TF\{x(t)\}=\int^{\infty}_{-\infty}x(t)e^{-j\omega t}dt$$
+Para obtener $x(t)$ de $X(\omega)$ usaremos la inversa:
+$$x(t)=TF^{-1}\{X(\omega)\}=\frac{}{}$$
 Toda señal se puede representar como la superposición de cosenos de una cierta frecuencia.
 #### Rectangular
 $$x(t) = \begin{dcases}A\ \ \ \frac{-T}{2}<t<\frac{T}{2} \\ 0\ \ \ resto\end{dcases}$$
