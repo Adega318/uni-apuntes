@@ -51,9 +51,13 @@ Dando el efecto de:
 Para $x(t)$ y $h(t)$ se trasforman:
 $$x(t)\times h(t)\quad\underleftrightarrow{TF\{.\}}\quad X(\omega)\times H(\omega)$$
 # Propiedad de multiplicación
-$$x(t)\cos(\omega_{c}t) \quad\underleftrightarrow{TF\{.\}}\quad \frac{1}{2}$$
+$$x(t)\cos(\omega_{c}t) \quad\underleftrightarrow{TF\{.\}}\quad \frac{1}{2}(X(\omega+\omega_{c})+X(\omega-\omega_{c}))$$
 # Sistema de trasmisión digital
 ## Modulación
+```mermaid
+flowchart LR
+F[Fuente] --> M[Modulador] --> C[Canal] --Ts--> D[Detector]
+```
 ## Mapeado Gray
 ## Canales
 ## Trasmisión
