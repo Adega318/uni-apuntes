@@ -143,4 +143,7 @@ $y(t)=\int_{-\infty}^\infty x(\tau)\times h(t-\tau)d\tau$
 
 $y(t)=\begin{dcases}0 \qquad t<0 \\ x(t) \quad 0<t<2 \\ 0 \qquad t>2\end{dcases}$
 
-$\delta$
+$\delta(t)\times x(t)=x(t)$
+### Convolución de dos pulsos rectangulares
+Al realizar la convolución de dos pulsos rectangualares se crea un trapecio de salida:
+$$y(t)=\begin{dcases}0 \qquad t<0 \\ x(t) \quad 0<t<1 \\ 1<t<2 \\ 0 \qquad 2<t<3\end{dcases}$$
