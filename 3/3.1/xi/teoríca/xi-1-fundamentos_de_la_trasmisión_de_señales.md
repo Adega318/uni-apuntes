@@ -97,6 +97,7 @@ $$E_x=\int^{\infty}_{-\infty}\frac{A^2}{T_0^2}t^2dt$$
 $M=2^b$
 M: número de señales
 b: número de bits agrupados
+<<<<<<< HEAD:3/3.1/xi/teoríca/xi-1-fundamentos.md
 $$S_i(t)=A_ip(t)$$
 # Distorsión
 ## Atenuación
@@ -118,8 +119,56 @@ A través de la convolución se puede
 
 ## Convolución de señales  continuas
 
+=======
+$S_i(t)=A_ip(t)$ $S_1(t)=A_1p(t)$
+
+Cada símbolo es un bit, siendo la velocidad igual a la de bit $v_s=v_b$, y a cada símbolo se le asigna un pulso $v_s=\frac {1}{T}$
+# Distorsión
+## Atenuación
+Perdida de potencia a causa del medio entre el receptor y emisor.
+$G=\frac{P_y}{P_{x}}\ W$
+$G_{db}=10\log_{10}(\frac{P_{y}}{P_{x}})=10\log_{10}(P_{y})-10\log_{10}(P_{x})\ db$
+## Potencia
+| Potencia (dBm) | Potencia (W) | Aplicación                                   |
+| -------------- | ------------ | -------------------------------------------- |
+| 70             | 10000        | Frecuencia de radio FM                       |
+| 60             | 1000         | Máxima salida de radiofrecuencia no regulada |
+| 20             | 0.1          | WiFi 2.4GHz                                  |
+| 15             | 0.032        | WiFi en dispositivos portátiles              |
+El dBm es el decibelio-miliVatio tomando como referencia 1 mW.
+$G_{dBm}=10\log_{10}(\frac{P_{y}}{1mW})$
+## Retardos
+Los retardos cuando son de trasmisión son producidos por los equipos implicados y capacidad de flujo de datos. Los retrasos de propagación son el retraso de la trasmisión por el medio.
+## Ruido
+Señales de naturaleza aleatoria que modifica la señal transmitida y que puede distorsionar la significativamente.
+### AWGN
+Ruido que se suma a la señal $x(t)=s(t)+r(t)$, cuando tenemos este tipo de ruido podemos calcular:
+- SNR, ratio de señal y ruido (S, potencia de la señal y N, potencia del ruido)
+$$SNR(dB)=10\log_{10}(\frac{S}{N})$$
+# Multitrayecto
+## Salida del sistema
+Con la respuesta a un impulso podemos calcular la salida del sistema para cualquier entrada mediante la convolución.
+$$y(t)=x(t)\times h(t)=\int^{\infty}_{-\infty}x(\tau)h(t-\tau)d\tau$$
+### Propiedades de la convolución
+1. Elemento neutro
+	- $x(t)\times0=0$
+2. Elemento unidad
+	- $x(t)\times\delta (t)=x(t)$
+	- $x(t)\times\delta (t-t_0)=x(t-t_0)$
+3. Conmutativa
+	- $x(t)\times h(t)=h(t) \times x(t)$
+4. Asociativa
+	- $(x(t)\times h(t))\times h_2(t)=x(t)\times(h(t)\times h_2(t))$
+5. Distributiva respecto a la suma
+	- $x(t)\times h(t)+x(t)\times h_2(t)=x(t)\times (h(t)+h_2(t))$
+### Convolución con $\delta(t)$
+>>>>>>> origin/main:3/3.1/xi/teoríca/xi-1-fundamentos_de_la_trasmisión_de_señales.md
 $y(t)=\int_{-\infty}^\infty x(\tau)\times h(t-\tau)d\tau$
 
-$y(t)=\begin{dcases}0 \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  0>t \\ ABt\ \ \ \  \ \ \ \ \ \ \ \ 0<t<1 \\AB \ \ \ \ \ \ \ \ \ \ \ \ \  \ 1<t<2 \\AB(3-t) \ \ \  2<t<3\end{dcases}$
+$y(t)=\begin{dcases}0 \qquad t<0 \\ x(t) \quad 0<t<2 \\ 0 \qquad t>2\end{dcases}$
 
-La convolución lleva a la formación de un trapecio.
+$\delta(t)\times x(t)=x(t)$
+### Convolución de dos pulsos rectangulares
+Al realizar la convolución de dos pulsos rectangulares se crea un trapecio de salida:
+$$y(t)=\begin{dcases}0 \qquad t<0 \\ t \qquad 0<t<1 \\1 \qquad 1<t<2 \\ 3-t \quad 2<t<3\\ 0\qquad 3<t\end{dcases}$$
+Para realizar un cálculo gráfico de la convolución tomamos el punto de partida de ambas ondas y los sumamos para obtener el punto de partida de la convolución e igual para el punto de fin, el trapecio crecera desde el punto de inicio la longuitud del pulso menor y descendera esa misma longuitud hasta el filan tras tener un valle.
