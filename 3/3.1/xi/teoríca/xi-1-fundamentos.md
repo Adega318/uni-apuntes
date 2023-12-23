@@ -97,19 +97,11 @@ $$E_x=\int^{\infty}_{-\infty}\frac{A^2}{T_0^2}t^2dt$$
 $M=2^b$
 M: número de señales
 b: número de bits agrupados
-$S_i(t)=A_ip(t)$ $S_1(t)=A_1p(t)$
-
-Cada símbolo es un bit, siendo la velocidad igual a la de bit $v_s=v_b$, y a cada símbolo se le asigna un pulso $v_s=\frac {1}{T}$
-
-```
-AB
-```
-
+$$S_i(t)=A_ip(t)$$
+# Distorsión
 ## Atenuación
-
 Perdida de potencia a causa del medio entre el receptor y emisor.
 $G=10\log_{10}\frac{P_y}{P_x}$
-
 # Respuesta al impulso
 
 # Salida del sistema
