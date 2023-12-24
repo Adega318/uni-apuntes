@@ -35,3 +35,4 @@ $s'=c'H^{T}$
 ## Códigos Hamming
 Los códigos con $d_{min}=3$ para cualquier longitud de bloque n, puede corregir errores de 1 bit.
 Matriz de control de paridad $H_{m\times(2^{m}-1)}$ formada por las posibles m-tuplas no nulas.
+## Decodificación óptima mediante el síndrome
