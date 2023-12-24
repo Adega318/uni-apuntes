@@ -69,9 +69,6 @@ Estructura utilizada para redes de alto tamaño, dividiendo en áreas:
 - Proveedor de servicios.
 - Acceso remoto.
 # Cableado en un CPD
-Estándares de cableado de los CPDs.
-## MDA
-## EoR/MoR
-Distribución con equipos centrales de conexión.
-## Tor
-Puesto superior del conjunto con las conexiones.
+En un cpd tenemos routers de salida y una distribución interna:
+- EoR/MoR, los comienzos o finales de línea tienen la concentración de los equipos de distribución.
+- ToR, los racks tienen en sus huecos superiores individuales.
