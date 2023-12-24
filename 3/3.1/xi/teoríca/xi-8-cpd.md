@@ -4,8 +4,8 @@ Un cpd es organizado dentro de la organización a la que pertenece siguiendo tí
 - Jerárquica, modelo basado en una unidad de mando, dirección.
 - Funcional, modelo basado en la división del trabajo del que deriva la especialización funcional del personal de la organización.
 - Mixta, modelo intermedio entre el jerárquico y funcional.
-- Colegial, basado en una coordinación horizontal mediante el uso de
-- Matricial
+- Colegial, basado en una coordinación horizontal mediante el uso de comités.
+- Matricial, compromiso en la creación de departamentos por función y por producto.
 # Dimensionado
 Un cpd debe ser dimensionado a las necesidades de la empresa con la orientación a la escalabilidad y flexibilidad.
 # Modelos de organización
