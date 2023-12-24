@@ -1,14 +1,18 @@
 Para manejar el gran número de máquinas virtuales ha llevado a la virtualización de las redes, perdiendo velocidad pero aumentando la flexibilidad.
 # SND
-Redes definidas por software), separación del envío de datos del sistema de control, permitiendo programar el control, haciéndolo dinámico.
+Redes definidas por software, separación del envío de datos del sistema de control, permitiendo programar el control, haciéndolo dinámico.
 ```mermaid
 flowchart TD
 Aplicación --- Controlador --- Hardware
 ```
 ## Programación
-- Northbound API, gran variedad de servicios.
-- Southbound API, conexión con equipos de red para cambios en tiempo real.
-### Controladores
+Para la programación de una red definida por software tenemos varias APIs:
+- Northbound, gran variedad de servicios.
+- Southbound, conexión con equipos de red para cambios en tiempo real.
+## Ventajas e inconvenientes
+- Flexibilidad
+- Innovación
+- 
 ## TCAM
 La TCAM es la memoria del sistema, siendo terciaria y basada en la búsqueda de datos en lugar de la búsqueda de direcciones.
 ## OpenFlow
