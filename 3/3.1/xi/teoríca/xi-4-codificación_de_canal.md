@@ -30,3 +30,8 @@ $H=(P^{T}I_{n-k})$
 Para cada palabra código de peso $p_H$ existen $p_H$ columnas de H cuya suma es el vector 0. De igual modo, si existen $p_H$ columnas de H que suman 0, entonces existe una palabra código con peso de Hamming $p_H$.
 Este teorema se interpreta como que la distancia mínima de un código es igual al mínimo número de columnas de H que hay que sumar para obtener 0.
 ## Detección de errores
+Si el síndrome de una palabra recibida es distinto de 0, es seguro que se ha producido un error.
+$s'=c'H^{T}$
+## Codigos Hamming
+Los códigos con $d_{min}=3$ para cualquier longitud de bloque n, puede corregir errores de 1 bit.
+Matriz de control de paridad $H_{m\times(2^{m}-1)}$ formada por las posibles m-tuplas no nulas.
