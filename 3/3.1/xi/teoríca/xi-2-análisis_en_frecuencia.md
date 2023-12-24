@@ -59,6 +59,7 @@ flowchart LR
 F[Fuente] --> M[Modulador] --> C[Canal] --Ts--> D[Detector]
 ```
 ## Mapeado Gray
+
 ## Canales
 ## Trasmisión
 ## Probabilidad de error
