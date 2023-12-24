@@ -12,8 +12,10 @@ Tasa de codificación: $r=\frac{k}{n}$
 # Decodificación
 Usando las distancia de Hamming para una palabra recibida, elegimos la palabra código más próxima.
 # Corrección de errores
-
+Un código puede detectar errores siempre y cuando se cumpla $d_{mín}-1$ y pudendo corregir $|\frac{d_{mín}-1}{2}|$
 # Códigos lineales
+Los códigos binarios son lineales si son cerrados respecto a al suma de n-tuplas.
+	$c+c'\in C$
 ## Código dual y matriz de control de paridad
 ## Distancia minima
 
