@@ -15,7 +15,12 @@ Usando las distancia de Hamming para una palabra recibida, elegimos la palabra c
 Un código puede detectar errores siempre y cuando se cumpla $d_{mín}-1$ y pudendo corregir $|\frac{d_{mín}-1}{2}|$
 # Códigos lineales
 Los códigos binarios son lineales si son cerrados respecto a al suma de n-tuplas.
-	$c+c'\in C$
+$c+c'\in C\quad\forall c,c'\in C$
+Los códigos lineales tienen las siguientes características:
+- Incluye la palabra cero.
+- Distancia mínima igual al peso mínimo.
+	$d_{min}=min_{v\in C}w(v)$
+- Un código binario lineal es un subespacio del espacio vectorial $\{0,1\}^{n}$
 ## Código dual y matriz de control de paridad
 ## Distancia minima
 
