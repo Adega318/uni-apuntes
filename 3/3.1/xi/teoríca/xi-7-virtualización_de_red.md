@@ -9,10 +9,11 @@ Aplicación --- Controlador --- Hardware
 Para la programación de una red definida por software tenemos varias APIs:
 - Northbound, gran variedad de servicios.
 - Southbound, conexión con equipos de red para cambios en tiempo real.
-## Ventajas e inconvenientes
-- Flexibilidad
-- Innovación
-- 
+## Ventajas
+- Flexibilidad.
+- Innovación.
+- OPEX, sencillez de configuración y gestión de redes.
+- CAPEX, amplitud de la vida útil de los equipos y reducción de número de equipos.
 ## TCAM
 La TCAM es la memoria del sistema, siendo terciaria y basada en la búsqueda de datos en lugar de la búsqueda de direcciones.
 ## OpenFlow
