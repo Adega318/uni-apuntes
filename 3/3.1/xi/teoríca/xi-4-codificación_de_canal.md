@@ -32,6 +32,6 @@ Este teorema se interpreta como que la distancia mínima de un código es igual 
 ## Detección de errores
 Si el síndrome de una palabra recibida es distinto de 0, es seguro que se ha producido un error.
 $s'=c'H^{T}$
-## Codigos Hamming
+## Códigos Hamming
 Los códigos con $d_{min}=3$ para cualquier longitud de bloque n, puede corregir errores de 1 bit.
 Matriz de control de paridad $H_{m\times(2^{m}-1)}$ formada por las posibles m-tuplas no nulas.
