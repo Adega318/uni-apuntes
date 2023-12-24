@@ -2,8 +2,13 @@
 Un código binario de longitud n y cardinalidad $2^k$ es una colección de $2^{k}$ elementos.
 $C(k,n)=\{c^{1},c^{2},...,c^{2^{k}}\},c^{m}$
 Los elementos $c^{m}$ son las palabras código, con n como longitud de bloque.
-Tasa de codi
+Tasa de codificación: $r=\frac{k}{n}$
 # Distancia
+- Peso de Hamming de una palabra $w(u)$ es el número de bits distinto de cero que contiene la palabra u.
+- Distancia de Hamming entre dos palabras:
+$d(u,v)=d(u-v,0)=w(u-v)$
+- Distancia mínima de un código es la distancia mínima entre dos palabras cualquiera.
+	$d(C)=min\{d(c,c'):c,c'\cont\}$
 # Decodificación
 # Corrección de errores
 # Códigos lineales
