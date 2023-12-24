@@ -6,11 +6,13 @@ Tasa de codificación: $r=\frac{k}{n}$
 # Distancia
 - Peso de Hamming de una palabra $w(u)$ es el número de bits distinto de cero que contiene la palabra u.
 - Distancia de Hamming entre dos palabras:
-$d(u,v)=d(u-v,0)=w(u-v)$
+	$d(u,v)=d(u-v,0)=w(u-v)$
 - Distancia mínima de un código es la distancia mínima entre dos palabras cualquiera.
-	$d(C)=min\{d(c,c'):c,c'\cont\}$
+	$d(C)=min\{d(c,c'):c,c'\in C,c\neq c'\}$
 # Decodificación
+Usando las distancia de Hamming para una palabra recibida, elegimos la palabra código más próxima.
 # Corrección de errores
+
 # Códigos lineales
 ## Código dual y matriz de control de paridad
 ## Distancia minima
