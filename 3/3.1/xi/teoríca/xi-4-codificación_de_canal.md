@@ -22,9 +22,11 @@ Los códigos lineales tienen las siguientes características:
 	$d_{min}=min_{v\in C}w(v)$
 - Un código binario lineal es un subespacio del espacio vectorial $\{0,1\}^{n}$
 ## Matriz de control de paridad
-H de un código C es la metriz generadora
+H de un código C es la matriz generadora:
 $cH^{T}=0$
-Por lo tanto:
-$$
+Por lo tanto, si G es sistemática:
+$H=(P^{T}I_{n-k})$
 ## Distancia mínima
-
+Para cada palabra código de peso $p_H$ existen $p_H$ columnas de H cuya suma es el vector 0. De igual modo, si existen $p_H$ columnas de H que suman 0, entonces existe una palabra código con peso de Hamming $p_H$.
+Este teorema se interpreta como que la distancia mínima de un código es igual al mínimo número de columnas de H que hay que sumar para obtener 0.
+## Detección de errores
