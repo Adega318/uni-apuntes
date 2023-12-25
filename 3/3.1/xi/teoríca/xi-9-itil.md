@@ -9,7 +9,7 @@ Parte encargada de mantener la propiedad intelectual, copyright y marcas.
 - ItSMF Internacional, comunidad internacional sin ánimo de lucro para profesionales de gestión de servicios TI.
 # Esquema de certificación
 - Lifecycle
-	- Módulos intermedios para candidaros que quieren obtener un rol de líder de questión o de equipo que requiera centrarse en múltiples áreas.
+	- Módulos intermedios para candidatos que quieren obtener un rol de líder, de gestión o de equipo que requiera centrarse en múltiples áreas.
 # Servicios
 Un servicio es un medio para proporcionar valor al cliente.
 ## Concepto de servicios
