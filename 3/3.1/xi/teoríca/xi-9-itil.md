@@ -8,7 +8,8 @@ Parte encargada de mantener la propiedad intelectual, copyright y marcas.
 - TSO, editor oficial sobre las publicaciones sobre ITIL.
 - ItSMF Internacional, comunidad internacional sin ánimo de lucro para profesionales de gestión de servicios TI.
 # Esquema de certificación
-
+- Lifecycle
+	- Módulos intermedios para candidaros que quieren obtener un rol d
 # Servicios
 Un servicio es un medio para proporcionar valor al cliente.
 ## Concepto de servicios
