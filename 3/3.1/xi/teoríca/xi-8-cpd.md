@@ -12,4 +12,5 @@ Tenemos múltiples tipos de cpds a implementar en organizaciones:
 	- Dependiente de la dirección, el cpd presta servicio a los diferentes departamentos de la organización.
 	- Dependiente de un departamento, el cpd presta servicio a los diferentes departamentos.
 	- Independiente, un departamento más de la organización.
-	- 
+- Descentralizado, ubicado en múltiples puntos de la organización asignados a diferentes funciones.
+- 
