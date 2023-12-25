@@ -10,6 +10,8 @@ Parte encargada de mantener la propiedad intelectual, copyright y marcas.
 # Esquema de certificación
 - Lifecycle
 	- Módulos intermedios para candidatos que quieren obtener un rol de líder, de gestión o de equipo que requiera centrarse en múltiples áreas.
+- Capability
+	- Módulos intermedios para candidatos que quieran obtener un conocimiento más extenso y especializado en uno o más procesos.
 # Servicios
 Un servicio es un medio para proporcionar valor al cliente.
 ## Concepto de servicios
