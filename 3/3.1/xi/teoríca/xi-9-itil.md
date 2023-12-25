@@ -6,8 +6,9 @@ La ITIL es una guía completa para la gestión de servicios de tecnologías de l
 Parte encargada de mantener la propiedad intelectual, copyright y marcas.
 - APM, organismo acreditador oficial desde 2006.
 - TSO, editor oficial sobre las publicaciones sobre ITIL.
+- ItSMF Internacional, comunidad internacional sin ánimo de lucro para profesionales de gestión de servicios TI.
 # Esquema de certificación
-Las cualificaciones se representa como una pirámide desde lo básico hasta máster.
+
 # Servicios
 Un servicio es un medio para proporcionar valor al cliente.
 ## Concepto de servicios
