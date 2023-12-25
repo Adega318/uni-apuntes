@@ -3,7 +3,9 @@ La ITIL es una guía completa para la gestión de servicios de tecnologías de l
 - No prescriptible, no requiere de un tamaño de proyecto para la ejecución.
 - Prácticas, recopilación de buenas prácticas para la mejora del servicio.
 # Organismos certificadores
-Parte encargada de mantener la propiedad intelectual
+Parte encargada de mantener la propiedad intelectual, copyright y marcas.
+- APM, organismo acreditador oficial desde 2006.
+- TSO, editor oficial sobre las publicaciones sobre ITIL.
 # Esquema de certificación
 Las cualificaciones se representa como una pirámide desde lo básico hasta máster.
 # Servicios
