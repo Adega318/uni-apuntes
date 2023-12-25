@@ -9,4 +9,5 @@ Un cpd es organizado dentro de la organización a la que pertenece siguiendo tí
 # Tipos de cpd
 Tenemos múltiples tipos de cpds a implementar en organizaciones:
 - Centralizado, localización única en la empresa.
-	- Dependiente de la dirección, 
+	- Dependiente de la dirección, el cpd presta servicio a los diferentes departamentos de la organización.
+	- Dependiente de un departamento, el cpd 
