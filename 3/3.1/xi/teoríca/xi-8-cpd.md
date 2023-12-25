@@ -7,3 +7,6 @@ Un cpd es organizado dentro de la organización a la que pertenece siguiendo tí
 - Colegial, basado en una coordinación horizontal mediante el uso de comités.
 - Matricial, compromiso en la creación de departamentos por función y por producto.
 # Tipos de cpd
+Tenemos múltiples tipos de cpds a implementar en organizaciones:
+- Centralizado, localización única en la empresa.
+	- Dependiente de la dirección, 
