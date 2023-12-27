@@ -33,7 +33,10 @@ El modelo de un ciclo de vida:
 	- Gestión de riesgos.
 ### Recomendaciones
 - Planificación disciplinada.
-- 
+- Seguimiento de estándares.
+- Mediciones adecuadas y evaluación de resultados.
+- Acciones correctivas adecuadas.
+- Liderazgo en los equipos.
 # Conceptos
 
 ## Tarea/Actividad
