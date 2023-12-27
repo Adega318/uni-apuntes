@@ -26,6 +26,8 @@ Sistema que permite la creación y gestión de máquinas virtuales, dividiéndos
 Las tecnologías de virtualización avarcan server, network, storage y escritorio.
 ## Guardado de configuraciones
 La virtualización permite convertir una máquina en un árbol de ficheros, permitiendo su replicación instantánea y guardado de sesiones sencilla.
+# Visualización de servidores
 ## Hardware en virtualización
 El hardware en virtualización el proceso de coordinación es esencial, siendo definido los recursos otorgados a cada máquina en la configuración de la misma. Con la ram hay problemas, ya que los sistemas operativos no comunican al hardware que memoria está en uso y cuál está libre, para esto se inventaron tres técnicas:
 - Páginas libres transparentes, uso de proceso que permite mostrar al hardware las páginas libres para permitir su reclamado.
+## Networking
