@@ -46,4 +46,5 @@ Un servidor proporciona múltiples escritorios virtualizados, para el uso de usu
 - Bajo coste de despliegue.
 - Escritorios compartidos con alta seguridad ante fallos.
 - Trabajo remoto con altas comodidades de mantenimiento y portabilidad.
-- Facilidad de 
+- Facilidad de administración de los escritorios de empleados.
+- Seguridad administrada y centr
