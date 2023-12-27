@@ -11,7 +11,10 @@ Un proyecto se trata de un conjunto de:
 - Entorno de riesgo.
 Si estos elementos son cotidianos u operaciones estándar de la organización, a estos estándares se les considera operaciones normales y no son proyectos.
 ## Modelo de ciclo de vida
-
+El modelo de un ciclo de vida:
+- Fases propias
+	- 
+- Fases adyacentes
 # Ciclo de vida de un proyecto
 
 ## Fases
