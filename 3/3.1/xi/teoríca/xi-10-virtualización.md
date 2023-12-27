@@ -31,4 +31,4 @@ La virtualización permite convertir una máquina en un árbol de ficheros, perm
 El hardware en virtualización, el proceso de coordinación es esencial, siendo definido los recursos otorgados a cada máquina en la configuración de la misma. Con la ram hay problemas, ya que los sistemas operativos no comunican al hardware que memoria está en uso y cuál está libre, para esto se inventaron tres técnicas:
 - Páginas libres transparentes, uso de proceso que permite mostrar al hardware las páginas libres para permitir su reclamado.
 ## Networking
-El networking de máquinas virtuales se conectan entre ellas mediante 
+El networking de máquinas virtuales se conectan entre ellas mediante el enrutamiento interno por el hypervisor, 
