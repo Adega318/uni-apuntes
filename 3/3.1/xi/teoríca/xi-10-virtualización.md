@@ -34,6 +34,10 @@ El hardware en virtualización, el proceso de coordinación es esencial, siendo 
 El networking de máquinas virtuales se conectan entre ellas mediante el enrutamiento interno por el hypervisor, para la conexión con redes físicas se hace uso de uplinks entre los switches virtuales y reales.
 # Virtualización de almacenamiento
 Las máquinas virtuales son almacenadas como ficheros, para el almacenamiento de dichos ficheros hacemos uso de:
-- RAID
-- Storage arrays
-- Storag
+- RAID.
+	- Raid 0, rápido pero de baja protección.
+	- Raid 1, rápido pero no eficiente.
+	- Raid 5, relativamente lento pero con buena protección y eficiencia.
+	- Raid 6, lento pero con la mayor protección.
+- Storage arrays.
+- Storage networks.
