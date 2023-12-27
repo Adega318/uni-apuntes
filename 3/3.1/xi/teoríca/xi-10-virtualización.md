@@ -41,3 +41,4 @@ Las máquinas virtuales son almacenadas como ficheros, para el almacenamiento de
 	- Raid 6, lento pero con la mayor protección.
 - Storage arrays.
 - Storage networks.
+# Virtualización de escritorio
