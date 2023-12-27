@@ -12,11 +12,20 @@ Un proyecto se trata de un conjunto de:
 Si estos elementos son cotidianos u operaciones estándar de la organización, a estos estándares se les considera operaciones normales y no son proyectos.
 ## Modelo de ciclo de vida
 El modelo de un ciclo de vida:
-- Fases propias
-	- 
-- Fases adyacentes
-# Ciclo de vida de un proyecto
-
+- Fases propias.
+	- Evaluación de riesgos y aprobación del proyecto.
+	- Planificación y puesta en marcha.
+		- Identificar requisitos de trabajo.
+		- Cuantificar requisitos.
+		- Identificar requisitos de recursos.
+	- Ejecución.
+		- Planificación detallada.
+		- Or
+	- Finalización.
+- Fases adyacentes.
+	- Gestión de calidad.
+	- Gestión de cambios.
+	- Gestión de riesgos.
 ## Fases
 
 ### Evaluación de riesgos
