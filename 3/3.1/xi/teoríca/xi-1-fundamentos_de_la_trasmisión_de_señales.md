@@ -97,18 +97,16 @@ $$E_x=\int^{\infty}_{-\infty}\frac{A^2}{T_0^2}t^2dt$$
 $M=2^b$
 M: número de señales
 b: número de bits agrupados
-<<<<<<< HEAD:3/3.1/xi/teoríca/xi-1-fundamentos.md
 $$S_i(t)=A_ip(t)$$
+Las amplitudes se determinan con:
+$A_$
 # Distorsión
 ## Atenuación
 Perdida de potencia a causa del medio entre el receptor y emisor.
 $G=10\log_{10}\frac{P_y}{P_x}$
 # Respuesta al impulso
-
 # Salida del sistema
-
 A través de la convolución se puede 
-
 ## Propiedades de la convolución
 
 1. Elemento neutro:  $x(t)*0=0$
@@ -118,8 +116,6 @@ A través de la convolución se puede
 5. Distributiva:  $x(t)*h(t)+x(t)*h_2(t)=x(t)*(h(t)+h_2(t))$
 
 ## Convolución de señales  continuas
-
-=======
 $S_i(t)=A_ip(t)$ $S_1(t)=A_1p(t)$
 
 Cada símbolo es un bit, siendo la velocidad igual a la de bit $v_s=v_b$, y a cada símbolo se le asigna un pulso $v_s=\frac {1}{T}$
@@ -162,7 +158,6 @@ $$y(t)=x(t)\times h(t)=\int^{\infty}_{-\infty}x(\tau)h(t-\tau)d\tau$$
 5. Distributiva respecto a la suma
 	- $x(t)\times h(t)+x(t)\times h_2(t)=x(t)\times (h(t)+h_2(t))$
 ### Convolución con $\delta(t)$
->>>>>>> origin/main:3/3.1/xi/teoríca/xi-1-fundamentos_de_la_trasmisión_de_señales.md
 $y(t)=\int_{-\infty}^\infty x(\tau)\times h(t-\tau)d\tau$
 
 $y(t)=\begin{dcases}0 \qquad t<0 \\ x(t) \quad 0<t<2 \\ 0 \qquad t>2\end{dcases}$
