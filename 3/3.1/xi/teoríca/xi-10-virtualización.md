@@ -42,4 +42,8 @@ Las máquinas virtuales son almacenadas como ficheros, para el almacenamiento de
 - Storage arrays.
 - Storage networks.
 # Virtualización de escritorio
-Un servidor proporciona múltiples escritorios virtualizados, para el uso de usuarios con requerimiento de un OS especifico. Los escritorios virtuales otorgan los sigui
+Un servidor proporciona múltiples escritorios virtualizados, para el uso de usuarios con requerimiento de un OS especifico. Los escritorios virtuales otorgan los siguientes beneficios:
+- Bajo coste de despliegue.
+- Escritorios compartidos con alta seguridad ante fallos.
+- Trabajo remoto con altas comodidades de mantenimiento y portabilidad.
+- Facilidad de 
