@@ -97,9 +97,9 @@ $$E_x=\int^{\infty}_{-\infty}\frac{A^2}{T_0^2}t^2dt$$
 $M=2^b$
 M: número de señales
 b: número de bits agrupados
-$$S_i(t)=A_ip(t)$$
+$S_i(t)=A_ip(t)$
 Las amplitudes se determinan con:
-$A_$
+$A_{i}=M-2i-1$
 # Distorsión
 ## Atenuación
 Perdida de potencia a causa del medio entre el receptor y emisor.
