@@ -20,41 +20,21 @@ El modelo de un ciclo de vida:
 		- Identificar requisitos de recursos.
 	- Ejecución.
 		- Planificación detallada.
-		- Or
+		- Organización de la infraestructura.
+		- Organización de los recursos.
+		- Seguimiento y control.
+			- Seguimiento con respecto al plan.
+			- Ajustes necesarios.
+			- Analizar el impacto.
 	- Finalización.
 - Fases adyacentes.
 	- Gestión de calidad.
 	- Gestión de cambios.
 	- Gestión de riesgos.
-## Fases
-
-### Evaluación de riesgos
-
-Se consideran riesgos y características del proyecto, siendo aprobado o denegado.
-
-### Planificación
-
-La planificación se realiza en tres fases:
-
-- Identificar requisitos de trabajo
-- Cuantificar requisitos de trabajo
-- Identificar requisitos de recursos
-
-### Ejecución
-
-- Plan detallado
-- Organización
-- Seguimiento
-  - LB, linea base del proyecto que en caso de una gran desviación sobre la misma indica la necesidad de una replanificación.
-
-### Cierre
-
-## Recomendaciones
-
+### Recomendaciones
 - Planificación sobre papel y formalización en herramienta.
 - Adecuación con estándares preestablecidos.
 - Planificación ligera !!!!
-
 # Conceptos
 
 ## Tarea/Actividad
