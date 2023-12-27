@@ -32,9 +32,8 @@ El modelo de un ciclo de vida:
 	- Gestión de cambios.
 	- Gestión de riesgos.
 ### Recomendaciones
-- Planificación sobre papel y formalización en herramienta.
-- Adecuación con estándares preestablecidos.
-- Planificación ligera !!!!
+- Planificación disciplinada.
+- 
 # Conceptos
 
 ## Tarea/Actividad
