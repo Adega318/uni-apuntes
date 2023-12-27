@@ -2,14 +2,16 @@
 - Definición del proyecto
 - Modelo genérico de ciclo
 - Metodologías especificas
-## Definición
-Un proyecto se trata de un conjunto de :
-- Recursos
-- Organización
-- Productos
-- Objetivos
-- Entorno de riesgo
-Si estos elementos son cotidianos o operaciones estándar de la organización, a estos estándar se les considera operaciones normales y no son proyectos.
+## Definición de proyecto
+Un proyecto se trata de un conjunto de:
+- Recursos.
+- Organización.
+- Productos.
+- Objetivos.
+- Entorno de riesgo.
+Si estos elementos son cotidianos u operaciones estándar de la organización, a estos estándares se les considera operaciones normales y no son proyectos.
+## Modelo de ciclo de vida
+
 # Ciclo de vida de un proyecto
 
 ## Fases
