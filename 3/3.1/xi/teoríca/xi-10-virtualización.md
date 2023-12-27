@@ -42,3 +42,4 @@ Las máquinas virtuales son almacenadas como ficheros, para el almacenamiento de
 - Storage arrays.
 - Storage networks.
 # Virtualización de escritorio
+Un servidor proporciona múltiples escritorios virtualizados, para el uso de usuarios con requerimiento de un OS especifico. Los escritorios virtuales otorgan los sigui
