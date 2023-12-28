@@ -31,4 +31,5 @@ Para resolver riesgos podemos:
 - Evitar riesgos.
 - Trasladar el riesgo, mover la causa de los riesgos fuera del camino crítico.
 - Informarse del riesgo.
-- Asumir el riesgo, 
+- Asumir el riesgo, si la consecuencia son pequeñas y el esfuerzo grande.
+- Comunicar, 
