@@ -49,19 +49,19 @@ Dos hitos, inicio y fin de subcontrata, unidos por comienzo fin con demora de la
 - Calidad, auditorias para control de calidad.
 ## Recurso
 Un recurso se considera así si:
-- Esta sujeto a compartición.
+- Está sujeto a compartición.
 - Origine conflictos de uso.
 - Origine coste.
 Los recursos podemos clasificaros por:
 - Humanos, individuos o grupos homogéneos.
-- Materiales, consumibles
-- Maquinaria, 
+- Materiales, consumibles.
+- Maquinaria.
 # Técnicas
 ## Representación
 - Diagrama de gantt, representa la duración en el tiempo de las tareas y su relación temporal.
 - Red de precedencias, grafo de representación de las dependencias entre tareas del proyecto (grafo dirigido sin ciclos).
   - PDM, hace uso de nodos para representar actividades y las aristas para representar sus dependencias.
-  - ADM, los nodos representan inicio y fin de actividades y los vectores el transcurso de la misma.
+  - ADM, los nodos representan comienzo y fin de actividades y los vectores el transcurso de la misma.
 - Histograma, diagrama que representa el uso de los recursos a trabes del tiempo.
 ## Estructuración
 - WBS, método de división del proyecto en árbol de tareas (se usa para estimar coste y esfuerzo).
@@ -71,9 +71,9 @@ Los recursos podemos clasificaros por:
   - Tp, estimación pesimista del tiempo.
   - To, estimación optimista del tiempo.
   - Tmp, estimación realista del tiempo.
-- CPM, en base a una estimación de tiempos estática y crea el camino critico.
-### Camino critico
-El camino critico es la serie de tareas que en caso de un retraso se produce el retraso del proyecto al completo.
+- CPM, basándose en una estimación de tiempos estática y crea el camino crítico.
+### Camino crítico
+El camino crítico es la serie de tareas que en caso de un retraso se produce el retraso del proyecto al completo.
 ## Pasos en la planificación
 1. Definir actividades
 2. Definir restricciones lógicas
@@ -88,6 +88,7 @@ El camino critico es la serie de tareas que en caso de un retraso se produce el 
 5. Optimizar la planificación
    1. nivelación de recursos
 # Seguimiento
+Proceso de comparación de los resultados esperados bajo la planificación con los obtenidos y medida de la desviación producida.
 ## Métricas
 Las métricas son la medición de los aspectos del proyecto, siendo todo lo no cuantificable incontrolable.
 ### Tipos
