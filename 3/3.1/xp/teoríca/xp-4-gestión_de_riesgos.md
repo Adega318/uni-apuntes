@@ -29,5 +29,6 @@ Una parte vital de la gestión de riesgos en la clasificación de los mismos en 
 ## Resolución de riesgos
 Para resolver riesgos podemos:
 - Evitar riesgos.
-- Trasladar el riesgo, mover la causa del riesgos fuera del camino critico.
-- 
+- Trasladar el riesgo, mover la causa de los riesgos fuera del camino crítico.
+- Informarse del riesgo.
+- Asumir el riesgo, 
