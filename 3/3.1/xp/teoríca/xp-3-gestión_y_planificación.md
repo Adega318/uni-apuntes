@@ -37,17 +37,12 @@ El modelo de un ciclo de vida:
 - Mediciones adecuadas y evaluación de resultados.
 - Acciones correctivas adecuadas.
 - Liderazgo en los equipos.
-# Conceptos
-
+# Conceptos de planificación y seguimiento
 ## Tarea/Actividad
-
 Unidad elemental del nivel de planificación, identificada por su duración o consumo de recurso o ambas.
 La actividades son independientes y homogéneas.
-
 ## Hito
-
 Actividad de duración 0 que indica un momento importante, sirviendo para el seguimiento y control especial. Los hitos se usan también para terceras partes ( subcontratas ).
-
 ### Subcontrata
 
 Dos hitos, inicio y fin de subcontrata, unidos por comienzo fin con demora de la duración de la subcontrata. Sobre la subcontrata se debe vigilar:
