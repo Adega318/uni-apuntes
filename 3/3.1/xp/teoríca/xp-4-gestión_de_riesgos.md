@@ -24,6 +24,8 @@ Se clasifican los riesgos en:
 - Fuera de alcance, costos en asumibles.
 - Inevitable
 Basándose en la clasificación se crean planes de contención, se sigue un estándar para los planes previamente establecidos.
+## Control y seguimiento
+
 ## Priorización de riesgos
 Una parte vital de la gestión de riesgos en la clasificación de los mismos en prioridades para la gestión prioritaria de los riesgos con mayor probabilidad de causar daño.
 ## Resolución de riesgos
