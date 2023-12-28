@@ -33,3 +33,4 @@ Para resolver riesgos podemos:
 - Informarse del riesgo.
 - Asumir el riesgo, si la consecuencia son pequeñas y el esfuerzo grande.
 - Comunicar, informar del impacto del riesgo en caso de producirse.
+- Controlar, planificación de acción es con respecto a los riesgos.
