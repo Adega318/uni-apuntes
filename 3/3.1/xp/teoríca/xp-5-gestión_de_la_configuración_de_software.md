@@ -40,7 +40,13 @@ También podemos diferenciar por localización:
 - Separados.
 - Mezclados.
 ### Almacenamiento de revisiones
-
+El almacenamiento de versiones se caracteriza como un tipo de delta:
+- Según su dirección.
+	- Deltas directos.
+	- Deltas inversos.
+- Según su localización.
+	- Deltas separados.
+	- Deltas mezclados.
 ### Variantes
 Ramificaciones del grafo de modificación base, habiendo tres tipos:
 - Temporales, ramificaciones con vida limitada.
