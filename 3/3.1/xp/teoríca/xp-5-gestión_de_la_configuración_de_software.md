@@ -37,8 +37,8 @@ El repositorio almacena las versiones que son solicitadas por el local y modific
 - Directo, se almacenan los cambios desde la versión inicial.
 - Inverso, se almacenan los cambios desde la versión final.
 También podemos diferenciar por localización:
-- Separados
-- Mezclados
+- Separados.
+- Mezclados.
 ### Almacenamiento de revisiones
 
 ### Variantes
