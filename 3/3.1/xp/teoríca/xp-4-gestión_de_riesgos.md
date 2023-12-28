@@ -7,7 +7,6 @@ objetivos definidos en el proyecto, los riesgos son clasificados en múltiples t
 - Gestión
 - Proyecto
 - Explotación
-
 # Gestión de riesgos
 La gestión de riesgos divide el proceso en 4 fases básicas.
 ## Identificación
