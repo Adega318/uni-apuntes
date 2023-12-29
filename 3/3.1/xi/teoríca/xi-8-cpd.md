@@ -18,6 +18,12 @@ Tenemos múltiples tipos de cpds a implementar en organizaciones:
 - Organigrama por proyecto, el cpd se estructura por los proyectos adaptándose a los equipos y proyectos activos actualmente.
 - Organigrama mixto, el cpd se estructura usando el esquema de organización funcional sobre el que se superpone la organización por proyectos cuando necesario.
 # Personal cpd
-- Director
-	- Funciones
-		- 
+- Director.
+	- Funciones.
+		- Dirigir y planificar.
+		- Proponer estrategias y políticas.
+		- Establecer políticas de personal.
+		- Realizar estudios de equipamiento necesario.
+		- Rediseñar estructuras.
+		- Especificar las directrices para el desarrollo y documentación.
+		- Establecer procedimientos para la comunicación interna.
