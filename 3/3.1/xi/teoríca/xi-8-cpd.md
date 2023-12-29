@@ -49,4 +49,9 @@ Tenemos múltiples tipos de cpds a implementar en organizaciones:
 		- Informes.
 		- Gestión de las compras.
 	- Dependencias.
-		- 
+		- Depende el jefe de proyecto.
+		- Los analistas de aplicaciones dependen del técnico.
+- Programador.
+	- Codificación en la paltaforma selecionada.
+	- Mantenimiento y adaptaciones de aplicaciones.
+	- 
