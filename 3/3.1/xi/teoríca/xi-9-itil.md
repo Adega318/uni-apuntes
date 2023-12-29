@@ -29,6 +29,7 @@ Son los elementos usados para proporcionar el servicio:
 - Recursos, bienes materiales que habilitan el servicio.
 - Capacidades, habilidades de las personas para proporcionar el servicio.
 ## Componentes de servicio
+Un servicio es un medio de proporcionar valor a los clientes, facilitándoles los resultados que quieren obtener sin necesidad de que estos asuman la responsabilidad de los costes y riesgos específicos.
 ## Gestión de servicios TI
 # Procesos, funciones y roles
 # Matriz RACI
