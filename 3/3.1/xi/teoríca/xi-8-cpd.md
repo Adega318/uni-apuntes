@@ -60,5 +60,11 @@ Tenemos múltiples tipos de cpds a implementar en organizaciones:
 		- Depende de los analistas o jefe de proyecto de los proyectos en los que trabaje.
 - Operador.
 	- Funciones.
-		- Instalación y reconfiguración de puesto de trabajos
+		- Instalación y reconfiguración de puesto de trabajo.
+		- Mantenimiento y actualización de los sistemas.
+		- Mantenimiento de la seguridad.
+		- Soporte en la implantación de nuevos proyectos.
+		- Control y mantenimientos de copias de seguridad.
+		- Atención y resolución de incidencias.
 	- Dependencias.
+		- El operador depende del técnico de sistemas, del jefe de proyecto o directamente del de área.
