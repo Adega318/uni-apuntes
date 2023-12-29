@@ -58,4 +58,7 @@ Tenemos múltiples tipos de cpds a implementar en organizaciones:
 		- Documentación.
 	- Dependencias.
 		- Depende de los analistas o jefe de proyecto de los proyectos en los que trabaje.
-		- 
+- Operador.
+	- Funciones.
+		- Instalación y reconfiguración de puesto de trabajos
+	- Dependencias.
