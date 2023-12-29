@@ -36,3 +36,7 @@ $s'=c'H^{T}$
 Los códigos con $d_{min}=3$ para cualquier longitud de bloque n, puede corregir errores de 1 bit.
 Matriz de control de paridad $H_{m\times(2^{m}-1)}$ formada por las posibles m-tuplas no nulas.
 ## Decodificación óptima mediante el síndrome
+Al trasmitir por una canal un mensaje c se produce un error e y recibimos $c'=(c+e)$
+- Síndrome: $s'=eH^{T}$
+- Standard array, tabla que a cada síndrome le hace corresponder el patrón de error con menos peso que lo produce.
+- Decodificación óptima mediante síndrome
