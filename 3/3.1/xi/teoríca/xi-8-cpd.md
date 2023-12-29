@@ -17,8 +17,3 @@ Tenemos múltiples tipos de cpds a implementar en organizaciones:
 - Organigrama funcional o departamental, el cpd es estructurado en tantos departamentos como fases, engloba un sistema de información.
 - Organigrama por proyecto, el cpd se estructura por los proyectos adaptándose a los equipos y proyectos activos actualmente.
 - Organigrama mixto, el cpd se estructura usando el esquema de organización funcional sobre el que se superpone la organización por proyectos cuando necesario.
-## Organización funcional
-El área de desarrollo de proyectos se encarga tanto del desarrollo de nuevos proyectos como del mantenimiento de los existentes.
-- Dirección de proyectos, estudio, planificación y control de nuevos desarrollos informáticos.
-- Análisis funcional, diseño de aplicaciones de acuerdo con las especificaciones del usuario final y en consonancia con la tecnología disponible.
-- Análisis orgánico, adaptación de los anális
