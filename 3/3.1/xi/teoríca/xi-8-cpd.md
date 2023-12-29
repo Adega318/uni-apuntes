@@ -18,4 +18,5 @@ Tenemos múltiples tipos de cpds a implementar en organizaciones:
 - Organigrama por proyecto, el cpd se estructura por los proyectos adaptándose a los equipos y proyectos activos actualmente.
 - Organigrama mixto, el cpd se estructura usando el esquema de organización funcional sobre el que se superpone la organización por proyectos cuando necesario.
 ## Organización funcional
-El área de desrrollo de proyectos se encarga tanto del desarrollo de nuevos proyectos como de l
+El área de desarrollo de proyectos se encarga tanto del desarrollo de nuevos proyectos como del mantenimiento de los existentes.
+- Dirección de proyectos, 
