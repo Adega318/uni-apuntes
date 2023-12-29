@@ -15,4 +15,7 @@ Tenemos múltiples tipos de cpds a implementar en organizaciones:
 - Descentralizado, ubicado en múltiples puntos de la organización asignados a diferentes funciones.
 # Estructura interna de un cpd
 - Organigrama funcional o departamental, el cpd es estructurado en tantos departamentos como fases, engloba un sistema de información.
-- Organigrama por proyecto, el cpd se estructura por proyectos de forma que en cada momento se organizan los equipos
+- Organigrama por proyecto, el cpd se estructura por los proyectos adaptándose a los equipos y proyectos activos actualmente.
+- Organigrama mixto, el cpd se estructura usando el esquema de organización funcional sobre el que se superpone la organización por proyectos cuando necesario.
+## Organización funcional
+El área de desrrollo de proyectos se encarga tanto del desarrollo de nuevos proyectos como de l
