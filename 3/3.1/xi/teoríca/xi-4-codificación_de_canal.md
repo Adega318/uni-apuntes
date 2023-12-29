@@ -45,4 +45,5 @@ Al trasmitir por una canal un mensaje c se produce un error e y recibimos $c'=(c
 ## Probabilidad de error $p_{we}$
 - Código con $d_{mín}$ corrige todos los patrones de hasta $t=[\frac{d_{mín}-1}{2}]$ errores.
 - La probabilidad de acierto será, al menos, igual a la probabilidad de que el canal introduzca como mucho t errores.
-- El número de patrones de error de n bits con j errores es $()$
+- El número de patrones de error de n bits con j errores es $(\frac{n}{j})$
+- La probabilidad de error es de: $p_{we}\$
