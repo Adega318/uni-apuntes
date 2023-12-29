@@ -13,7 +13,7 @@ Parte encargada de mantener la propiedad intelectual, copyright y marcas.
 - Capability
 	- Módulos intermedios para candidatos que quieran obtener un conocimiento más extenso y especializado en uno o más procesos.
 # Servicios
-Un servicio es un medio para proporcionar valor al cliente.
+Un servicio es un medio de proporcionar valor a los clientes, facilitándoles los resultados que quieren obtener sin necesidad de que estos asuman la responsabilidad de los costes y riesgos específicos.
 ## Concepto de servicios
 Los servicios los dividimos en varios conceptos:
 - Soporte, servicios necesarios para realizar la actividad, pero no son directamente conectados a la actividad
@@ -29,7 +29,9 @@ Son los elementos usados para proporcionar el servicio:
 - Recursos, bienes materiales que habilitan el servicio.
 - Capacidades, habilidades de las personas para proporcionar el servicio.
 ## Componentes de servicio
-Un servicio es un medio de proporcionar valor a los clientes, facilitándoles los resultados que quieren obtener sin necesidad de que estos asuman la responsabilidad de los costes y riesgos específicos.
+Un servicio está compuesto por:
+- Proceso de negocio, proceso que define las necesidades funcionales del servicio.
+- Servicio, 
 ## Gestión de servicios TI
 # Procesos, funciones y roles
 # Matriz RACI
