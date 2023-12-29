@@ -63,5 +63,5 @@ Muestra cómo los datos entran al proceso, se procesan, salen y los resultados s
 - Los procesos se organizan alrededor de objetivos y sus principales salidas deberían estar determinadas por estos objetivos:
 	- Medidas.
 	- Informes.
-	- Prou
-# Matriz RACI
+	- Propuestas de mejora.
+- El proceso es propiedad de un propietario que es el responsable del proceso, de su mejora y de que satisfaga los objetivos definidos.
