@@ -31,7 +31,13 @@ Son los elementos usados para proporcionar el servicio:
 ## Componentes de servicio
 Un servicio está compuesto por:
 - Proceso de negocio, proceso que define las necesidades funcionales del servicio.
-- Servicio, 
+- Servicio
+- Paquete de diseño del servicio, documentos que definen todos los aspectos y requerimientos de un servicio.
+- Justificación de negocio, justificación de las inversiones y gastos.
+- Infraestructura, equipamiento de TI necesario par presentar un servicio a clientes y usuarios.
+- Entorno, entorno necesario para la operación y seguridad de la infraestructura.
+- Datos, datos necesarios para soportar el servicio y proporcionar la información requerida.
+- 
 ## Gestión de servicios TI
 # Procesos, funciones y roles
 # Matriz RACI
