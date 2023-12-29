@@ -36,4 +36,9 @@ Tenemos múltiples tipos de cpds a implementar en organizaciones:
 		- Elaborar el análisis funcional de necesidades y requerimientos informáticos del cliente o del departamento de la organización para el que está desarrollando un proyecto.
 		- Planificar cada una de las fases del desarrollo de aplicaciones.
 		- Identificar las necesidades y especificar los requerimientos.
-		- Anali
+		- Analizar y evaluar los cambios solicitados para las aplicaciones que ya se encuentran en explotación.
+		- Coordinar el trabajo de los programadores en el desarrollo.
+		- Estudiar y evaluar los nuevos productos.
+	- Dependencias.
+		- El analista depende del jefe de proyecto.
+		- 
