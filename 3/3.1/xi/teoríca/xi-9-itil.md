@@ -37,7 +37,10 @@ Un servicio está compuesto por:
 - Infraestructura, equipamiento de TI necesario par presentar un servicio a clientes y usuarios.
 - Entorno, entorno necesario para la operación y seguridad de la infraestructura.
 - Datos, datos necesarios para soportar el servicio y proporcionar la información requerida.
-- 
+- Aplicaciones, aplicaciones necesarias para manipular los datos.
+- Integración, soluciones para combinar aplicaciones o datos de distintas fuentes y proporcionar una vista unificada.
+- Acuerdos de nivel de servicio, documentos con el cliente que indican el nivel, ámbito y calidad del servicio.
+- Servicio de soporte, servicios necesarios para soportar la operación del servicio prestado.
 ## Gestión de servicios TI
 # Procesos, funciones y roles
 # Matriz RACI
