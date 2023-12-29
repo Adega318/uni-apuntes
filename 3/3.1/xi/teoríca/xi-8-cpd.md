@@ -45,4 +45,8 @@ Tenemos múltiples tipos de cpds a implementar en organizaciones:
 	- Funciones.
 		- Análisis.
 		- Presentar especificaciones técnicas.
+		- Apoyo al área de explotación y asesorar a los usuarios durante la implementación de nuevos sistemas.
+		- Informes.
+		- Gestión de las compras.
+	- Dependencias.
 		- 
