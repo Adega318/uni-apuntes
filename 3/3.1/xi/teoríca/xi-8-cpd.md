@@ -13,4 +13,6 @@ Tenemos múltiples tipos de cpds a implementar en organizaciones:
 	- Dependiente de un departamento, el cpd presta servicio a los diferentes departamentos.
 	- Independiente, un departamento más de la organización.
 - Descentralizado, ubicado en múltiples puntos de la organización asignados a diferentes funciones.
+# Estructura interna de un cpd
+- Organigrama funcional o departamental, el cpd es estructurado en tantos departamentos como fases, engloba un sistema de información.
 - 
