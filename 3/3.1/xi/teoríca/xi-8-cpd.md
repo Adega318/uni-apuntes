@@ -52,6 +52,10 @@ Tenemos múltiples tipos de cpds a implementar en organizaciones:
 		- Depende el jefe de proyecto.
 		- Los analistas de aplicaciones dependen del técnico.
 - Programador.
-	- Codificación en la paltaforma selecionada.
-	- Mantenimiento y adaptaciones de aplicaciones.
-	- 
+	- Funciones.
+		- Codificación en la plataforma seleccionada.
+		- Mantenimiento y adaptaciones de aplicaciones.
+		- Documentación.
+	- Dependencias.
+		- Depende de los analistas o jefe de proyecto de los proyectos en los que trabaje.
+		- 
