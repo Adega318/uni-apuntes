@@ -45,6 +45,7 @@ Un servicio está compuesto por:
 ## Gestión de servicios TI
 Esta gestión comprende un conjunto de capacidades organizacionales especializadas que son las que usa el proveedor de servicios TI para proporcionar valor a sus clientes en forma de servicios.
 # Procesos, funciones y roles
+## Proceso
 Conjunto estructurado de actividades diseñadas para alcanzar un objetivo específico.
 - Tienes una o más entradas definidas que convierte en salidas definidas.
 - Definen acciones, dependencias y secuencias.
@@ -52,4 +53,15 @@ Conjunto estructurado de actividades diseñadas para alcanzar un objetivo espec�
 - Pueden definir políticas, estándares, guías, actividades e instrucciones de trabajo, si es necesario.
 - Una vez definidos, deben supervisarse y documentarse.
 - Una vez controlados, los procesos pueden repetirse y ser gestionados.
+## Características
+- Facilidad de medición.
+- Resultados específicos.
+- Clientes.
+- Sensibilidad.
+## Modelo del proceso
+Muestra cómo los datos entran al proceso, se procesan, salen y los resultados se miden y revisan.
+- Los procesos se organizan alrededor de objetivos y sus principales salidas deberían estar determinadas por estos objetivos:
+	- Medidas.
+	- Informes.
+	- Prou
 # Matriz RACI
