@@ -31,4 +31,9 @@ Tenemos múltiples tipos de cpds a implementar en organizaciones:
 	- Dependencias
 		- El director depende de la dirección de la empresa.
 		- Los jefes de proyecto y explotación y asesores dependen del director del cpd.
-		- 
+- Analista.
+	- Funciones.
+		- Elaborar el análisis funcional de necesidades y requerimientos informáticos del cliente o del departamento de la organización para el que está desarrollando un proyecto.
+		- Planificar cada una de las fases del desarrollo de aplicaciones.
+		- Identificar las necesidades y especificar los requerimientos.
+		- Anali
