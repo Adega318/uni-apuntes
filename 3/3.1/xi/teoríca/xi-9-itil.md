@@ -48,5 +48,8 @@ Esta gestión comprende un conjunto de capacidades organizacionales especializad
 Conjunto estructurado de actividades diseñadas para alcanzar un objetivo específico.
 - Tienes una o más entradas definidas que convierte en salidas definidas.
 - Definen acciones, dependencias y secuencias.
-- 
+- Pueden incluir cualquier de los roles, responsabilidades, herramientas y controles de gestión necesarios para proporcionar las salidas de forma fiable.
+- Pueden definir políticas, estándares, guías, actividades e instrucciones de trabajo, si es necesario.
+- Una vez definidos, deben supervisarse y documentarse.
+- Una vez controlados, los procesos pueden repetirse y ser gestionados.
 # Matriz RACI
