@@ -27,3 +27,8 @@ Tenemos múltiples tipos de cpds a implementar en organizaciones:
 		- Rediseñar estructuras.
 		- Especificar las directrices para el desarrollo y documentación.
 		- Establecer procedimientos para la comunicación interna.
+		- Realizar informes periódicos.
+	- Dependencias
+		- El director depende de la dirección de la empresa.
+		- Los jefes de proyecto y explotación y asesores dependen del director del cpd.
+		- 
