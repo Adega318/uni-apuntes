@@ -45,4 +45,8 @@ Un servicio está compuesto por:
 ## Gestión de servicios TI
 Esta gestión comprende un conjunto de capacidades organizacionales especializadas que son las que usa el proveedor de servicios TI para proporcionar valor a sus clientes en forma de servicios.
 # Procesos, funciones y roles
+Conjunto estructurado de actividades diseñadas para alcanzar un objetivo específico.
+- Tienes una o más entradas definidas que convierte en salidas definidas.
+- Definen acciones, dependencias y secuencias.
+- 
 # Matriz RACI
