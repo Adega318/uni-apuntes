@@ -41,4 +41,8 @@ Tenemos múltiples tipos de cpds a implementar en organizaciones:
 		- Estudiar y evaluar los nuevos productos.
 	- Dependencias.
 		- El analista depende del jefe de proyecto.
+- Técnico de sistemas.
+	- Funciones.
+		- Análisis.
+		- Presentar especificaciones técnicas.
 		- 
