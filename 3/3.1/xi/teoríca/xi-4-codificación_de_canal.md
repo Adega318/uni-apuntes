@@ -44,4 +44,5 @@ Al trasmitir por una canal un mensaje c se produce un error e y recibimos $c'=(c
 - La regla de decodificación es óptima, ya que la probabilidad de un patrón de error es mayor que la de cualquier otro con mayor peso.
 ## Probabilidad de error $p_{we}$
 - Código con $d_{mín}$ corrige todos los patrones de hasta $t=[\frac{d_{mín}-1}{2}]$ errores.
-- 
+- La probabilidad de acierto será, al menos, igual a la probabilidad de que el canal introduzca como mucho t errores.
+- El número de patrones de error de n bits con j errores es $()$
