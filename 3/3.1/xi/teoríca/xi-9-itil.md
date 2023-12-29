@@ -41,6 +41,7 @@ Un servicio está compuesto por:
 - Integración, soluciones para combinar aplicaciones o datos de distintas fuentes y proporcionar una vista unificada.
 - Acuerdos de nivel de servicio, documentos con el cliente que indican el nivel, ámbito y calidad del servicio.
 - Servicio de soporte, servicios necesarios para soportar la operación del servicio prestado.
+- Procesos TI, procesos necesarios para que el proveedor TI pueda garantizar una prestación exitosa.
 ## Gestión de servicios TI
 # Procesos, funciones y roles
 # Matriz RACI
