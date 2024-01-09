@@ -22,6 +22,7 @@ El resultado que obtenemos es un tiempo total de computación de 116, de los cua
 - 27 corresponden al ordenador 2 que ha realizado la tarea 3.
 - 42 corresponden al ordenador 3 que ha realizado las tareas 1 y 6.
 # Problema 2
+Para realizar el ejercicio suponemos que solo podemos asignar jornadas completas de trabajadores, aunque se podría realizar asignando horas.
 ## Modelado
 $x_{1}$: número de inspectores de tipo A.
 $x_{2}$: número de inspectores de tipo B.
