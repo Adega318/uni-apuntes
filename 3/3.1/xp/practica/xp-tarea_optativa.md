@@ -20,7 +20,7 @@ $O_{1}\le 47, O_{2}\le 41, O_{3}\le 46$
 x1: horas contratadas a inspectores de tipo A.
 x2: horas contratadas a inspectores de tipo B.
 
-Min: $450\times x_1 + 100\times 0.98\times 250\times x_1+350\times x_2+100\times0.95\times150\times x_2$
+Min: $450\times x_1 + 100\times 0.02\times 250\times x_1+350\times x_2+100\times0.05\times150\times x_2$
 $250\times x_1+150\times x_2\ge 18000$
 $x_1\le64$
 $x_2\le80$
