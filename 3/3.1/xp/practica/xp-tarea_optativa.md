@@ -24,9 +24,10 @@ Min: $450\times x_1 + 100\times 0.02\times 250\times x_1+350\times x_2+100\times
 $250\times x_1+150\times x_2\ge 18000$
 $x_1\le64$
 $x_2\le80$
+$x_{i}\in N$
 ## Resolución
 Este ejercicio es resuelto en LPSolve, donde después de pequeñas simplificaciones se modela en el programa el problema como:
-![](Pasted%20image%2020240109175046.png)
+![](Pasted%20image%2020240109182109.png)
 El resultado obtenido será:
-![](Pasted%20image%2020240109175203.png)
-Teniendo contratados a tres inspectores tipo A y diez tipos B, siendo el coste de los mismos 1766800 u.m tras tener en cuenta los posibles errores producidos por los mismos.
+![](Pasted%20image%2020240109182125.png)
+Teniendo contratados a tres inspectores tipo A y diez tipos B, siendo el coste de los mismos 76200 u.m tras tener en cuenta los posibles errores producidos por los mismos.
