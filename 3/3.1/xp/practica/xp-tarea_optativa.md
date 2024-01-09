@@ -11,6 +11,7 @@ Adega Fernández Enrique, e.adega@udc.es
 | $T_6$  | 25    | 28      | 30      |
 | T.disp | 47      | 41        | 46        |
 ## Modelado
-Min: $$
-$0_{1}\le$
+Min: $d$
+$$
+$O_{1}\le 47, O_{2}\le 41, O_{3}\le 46$
 # Problema 2
