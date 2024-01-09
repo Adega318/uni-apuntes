@@ -13,8 +13,14 @@ $0\le x_{ij}\le1$
 $x_{ij}\in N$
 $i=1,2,3,4,5,6$     $j=1,2,3$
 ## Resultado
+Este problema lo resolvemos usando el solver incorporado en excel, presentando los daros de la siguiente manera:
 ![](Pasted%20image%2020240109212208.png)
-![](Pasted%20image%2020240109212215.png)
+![](Pasted%20image%2020240109212227.png)
+![](Pasted%20image%2020240109212237.png)
+El resultado que obtenemos es un tiempo total de computación de 116, de los cuales:
+- 47 corresponden al ordenador 1 que ha realizado las tareas 2, 4 y 5.
+- 27 corresponden al ordenador 2 que ha realizado la tarea 3.
+- 42 corresponden al ordenador 3 que ha realizado las tareas 1 y 6.
 # Problema 2
 ## Modelado
 $x_{1}$: número de inspectores de tipo A.
