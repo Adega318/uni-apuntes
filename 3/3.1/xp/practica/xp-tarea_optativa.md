@@ -13,7 +13,7 @@ $0\le x_{ij}\le1$
 $x_{ij}\in N$
 $i=1,2,3,4,5,6$     $j=1,2,3$
 ## Resultado
-Este problema lo resolvemos usando el solver incorporado en excel, presentando los daros de la siguiente manera:
+Este problema lo resolvemos usando el solver incorporado en excel, presentando los datos de la siguiente manera:
 ![](Pasted%20image%2020240109212208.png)
 ![](Pasted%20image%2020240109212227.png)
 ![](Pasted%20image%2020240109212237.png)
