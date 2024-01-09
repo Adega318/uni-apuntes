@@ -13,7 +13,8 @@ $0\le x_{ij}\le1$
 $x_{ij}\in N$
 $i=1,2,3,4,5,6$     $j=1,2,3$
 ## Resultado
-
+![](Pasted%20image%2020240109212208.png)
+![](Pasted%20image%2020240109212215.png)
 # Problema 2
 ## Modelado
 $x_{1}$: número de inspectores de tipo A.
