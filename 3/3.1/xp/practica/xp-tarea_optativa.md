@@ -12,7 +12,7 @@ Becerra Suárez Alejandro, a.becerra@udc.es
 | $T_6$  | 25    | 28      | 30      |
 | T.disp | 47      | 41        | 46        |
 ## Modelado
-Min: $T_1j+O_2+O_3$
+Min: $18x_11+16x_12+12x_13+14x_21+21x_22+19x_23+23x_31+27$
 $O_{1}\le 47, O_{2}\le 41, O_{3}\le 46$
 ## Resultado
 
