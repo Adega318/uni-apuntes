@@ -31,4 +31,4 @@ Este ejercicio es resuelto en LPSolve, donde después de pequeñas simplificacio
 ![](Pasted%20image%2020240109185616.png)
 El resultado obtenido será:
 ![](Pasted%20image%2020240109185627.png)
-Teniendo contratados a 8 inspectores tipo A y 2 de tipos B, siendo el coste de los mismos 138400 u.m tras tener en cuenta los posibles errores producidos.
+Teniendo contratados a 8 inspectores tipo A y 2 de tipos B, sSiendo el coste de los mismos 138400 u.m tras tener en cuenta los posibles errores producidos.
