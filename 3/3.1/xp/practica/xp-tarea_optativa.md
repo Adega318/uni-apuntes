@@ -11,8 +11,10 @@ Adega Fernández Enrique, e.adega@udc.es
 | $T_6$  | 25    | 28      | 30      |
 | T.disp | 47      | 41        | 46        |
 ## Modelado
-Min: $O_1$
+Min: $T_1j+O_2+O_3$
 $O_{1}\le 47, O_{2}\le 41, O_{3}\le 46$
+## Resultado
+
 # Problema 2
 ## Modelado
 x1: horas contratadas a inspectores de tipo A.
