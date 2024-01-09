@@ -15,10 +15,10 @@ Min: $d$
 $O_{1}\le 47, O_{2}\le 41, O_{3}\le 46$
 # Problema 2
 ## Modelado
-A 250 98 450
-B 150 95 350
-error 100
-paquetes 18000
-horas 8
 A: horas contratadas a inspectores de tipo A.
-min: $450\times A + 100\times 0.98\times 250\times A+350\times B+100\times0.95\times B$
+B: horas contratadas a inspectores de tipo B.
+
+Min: $450\times A + 100\times 0.98\times 250\times A+350\times B+100\times0.95\times150\times B$
+$250\times A+150\times B\ge 18000$
+$\frac{A}{8}\le8$
+$\frac{B}{8}\le10$
