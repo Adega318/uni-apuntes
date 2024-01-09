@@ -1,5 +1,6 @@
 # Participantes
 Adega Fernández Enrique, e.adega@udc.es
+Becerra Suárez Alejandro, a.becerra@udc.es
 # Problema 1
 | Tarea  | $O_1$ | $O_{2}$ | $O_{3}$ |
 | ------ | ----- | ------- | ------- |
