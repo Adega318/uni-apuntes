@@ -36,4 +36,4 @@ Este ejercicio es resuelto en LPSolve, donde después de pequeñas simplificacio
 ![](Pasted%20image%2020240109185616.png)
 El resultado obtenido será:
 ![](Pasted%20image%2020240109185627.png)
-Teniendo contratados a 8 inspectores tipo A y 2 de tipos B, siendo el coste de los mismos 138400 u.m tras tener en cuenta los posibles errores producidos.
+El número de inspectores de tipo A es 8 y de tipo B 2, dándonos un gasto diario de 138400 al tener en cuenta salarios y perdidas por errores humanos.
