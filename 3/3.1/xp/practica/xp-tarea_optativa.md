@@ -12,4 +12,5 @@ Adega Fernández Enrique, e.adega@udc.es
 | T.disp | 47      | 41        | 46        |
 ## Modelado
 Min: $$
+$0_{1}\le$
 # Problema 2
