@@ -17,7 +17,7 @@ $i=1,2,3,4,5,6$     $j=1,2,3$
 # Problema 2
 ## Modelado
 $x_{1}$: número de inspectores de tipo A.
-x2: número de inspectores de tipo B.
+$x_{2}$: número de inspectores de tipo B.
 
 Min: $450\times8\times x_1 + 100\times 0.02\times 250\times8\times x_1+350\times 8\times x_2+100\times0.05\times150\times8\times x_2$
 $250\times8\times x_1+150\times8\times x_2\ge 18000$
@@ -29,4 +29,4 @@ Este ejercicio es resuelto en LPSolve, donde después de pequeñas simplificacio
 ![](Pasted%20image%2020240109185616.png)
 El resultado obtenido será:
 ![](Pasted%20image%2020240109185627.png)
-Teniendo contratados a 8 inspectores tipo A y 2 de tipos B, sSiendo el coste de los mismos 138400 u.m tras tener en cuenta los posibles errores producidos.
+Teniendo contratados a 8 inspectores tipo A y 2 de tipos B, siendo el coste de los mismos 138400 u.m tras tener en cuenta los posibles errores producidos.
