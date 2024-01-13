@@ -53,6 +53,7 @@ Un recurso se considera así si:
 - Está sujeto a compartición.
 - Origine conflictos de uso.
 - Origine coste.
+
 Los recursos podemos clasificaros por:
 - Humanos, individuos o grupos homogéneos.
 - Materiales, consumibles.
