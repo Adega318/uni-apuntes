@@ -164,16 +164,19 @@ Comunicación con las siguientes características:
 - Directa
 - Honesta
 - Respetuosa
+
 Esta comunicación se ve sometida a momentos críticos como los siguientes:
 - Compañeros 
 	- injustos 
 	- no cooperativos
 	- expectativas no razonables
 	- con opiniones opuestas
+
 Ante estas situaciones la respuesta adecuada se basa en los tipos de comunicación:
 - sumisa, causa problemas al no mostrar opiniones pero no causa conflictos.
 - agresiva, conducta combativa con gran aporte pero muy conflictiva.
 - asertiva, aporta pero no combate.
+
 Entre las anteriores debemos intentar mantener la asertiva mediante técnicas como:
 - mensajes yo, centrarse en uno mismo al expresar comportamiento de otra persona para evitar personalizar y crear conflicto.
 - disco rayado, reiterar una información para conseguir que el mensaje se comprenda.
