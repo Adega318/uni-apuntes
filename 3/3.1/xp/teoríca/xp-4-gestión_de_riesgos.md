@@ -17,12 +17,14 @@ Los riesgos identificados se cuantificaran y establecerá la prioridad de los mi
 Para asegurar la subjetividad de la valoración existen múltiples técnicas:
 - Uso de valoración de terceros
 - Etiquetas de valoración para eliminar la valoración directa sobre números.
+
 Con la cuantificación realizada se establece los niveles de riesgos de los riesgos y umbrales de actuación sobre los mismos.
 ## Análisis
 Se clasifican los riesgos en:
 - Dentro de alcance, el evitar el riesgo tiene costos asumibles.
 - Fuera de alcance, costos en asumibles.
 - Inevitable
+
 Basándose en la clasificación se crean planes de contención, se sigue un estándar para los planes previamente establecidos.
 ## Control y seguimiento
 Conjunto de actividades centradas en:
