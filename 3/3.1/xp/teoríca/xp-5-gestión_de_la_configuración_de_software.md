@@ -9,6 +9,7 @@ Facilitar la visibilidad en estado e historia de la versión con la que se traba
 	- Satisfacer las necesidades del usuario.
 	- Cumplimiento de requisitos.
 	- Trazabilidad desde la concepción al fin.
+
 Las principales actividades para cumplir lo anteriormente mencionado:
 - Identificar las configuraciones.
 - Control de cambios.
@@ -36,6 +37,7 @@ flowchart LR
 El repositorio almacena las versiones que son solicitadas por el local y modificadas para luego subidas al repositorio. El almacenamiento se realiza normalmente con el almacenamiento completo de unas pocas versiones, con el almacenamiento de los cambios sobre las mismas, siendo a estos llamados el delta y teniendo dos principales:
 - Directo, se almacenan los cambios desde la versión inicial.
 - Inverso, se almacenan los cambios desde la versión final.
+
 También podemos diferenciar por localización:
 - Separados.
 - Mezclados.
@@ -52,6 +54,7 @@ Ramificaciones del grafo de modificación base, habiendo tres tipos:
 - Temporales, ramificaciones con vida limitada.
 - Usar y tirar, variantes de un solo uso (pruebas).
 - Permanentes, ramas que continúan de manera separada.
+
 La creación de variantes produce la aparición de configuraciones alternativas, definidas por los ECS y versiones de los mismos. Esto se puede facilitar con la asignación de atributos a los ECSs.
 # Release
 Las configuraciones entregadas al cliente, debe ser identificada y tener una GCS asociada.
