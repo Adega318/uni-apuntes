@@ -12,17 +12,18 @@ Estos sistemas SBC son caracterizados por:
 - Justificación y explicación.
 - Conocimiento explícito (datos en el propio sistema).
 
-La arquitectura de los SBC suelen parecerse a:
-```
----
-title: Node
----
-flowchart LR
-    id
-
-```
-
-
+Las ventajas y limitaciones de los sistemas SBC son:
+- Ventajas
+	- Mantenimiento del conocimiento.
+	- Resolución de problemas complejos.
+	- Ajuste de objetivos.
+	- Tratamiento de la incertidumbre.
+	- Explicación del razonamiento.
+	- Reducción de costes.
+	- Aumento de la fiabilidad.
+	- Modularidad.
+- Limitaciones
+	- Dificultad en la adquisic
 # Metodologías adaptadas de la SI
 # Metodologías de modelado de conocimientoflowchart LR
 # Metodología CommonKADS
