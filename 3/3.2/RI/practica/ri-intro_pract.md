@@ -7,4 +7,5 @@
 - tf, número de veces que aparece un término en los documentos.
 - df, número de documentos en los que aparece el término.
 - idf, inversa u otra métrica del df para la relevancia de df pequeños.
-- Frase queris, querys dondf
+- Frase queris, querys donde se da importancia a la distancia entre los términos, para lo cual almacenamos las posiciones donde aparece la palabra y se calcula la distancia entre los términos.
+- 
