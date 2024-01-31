@@ -6,9 +6,23 @@ Las dos principales definiciones son:
 	- Sistemas que utilizan conocimiento explícito en un sistema para realizar acciones.
 
 Estos sistemas SBC son caracterizados por:
-- Dominio
-- Mantenimiento perfectivo continuo
-- Reutilización de sof
+- Dominio.
+- Mantenimiento perfectivo continuo.
+- Reutilización de software.
+- Justificación y explicación.
+- Conocimiento explícito (datos en el propio sistema).
+
+La arquitectura de los SBC suelen parecerse a:
+```
+---
+title: Node
+---
+flowchart LR
+    id
+
+```
+
+
 # Metodologías adaptadas de la SI
-# Metodologías de modelado de conocimiento
+# Metodologías de modelado de conocimientoflowchart LR
 # Metodología CommonKADS
