@@ -30,5 +30,5 @@ Las ventajas y limitaciones de los sistemas SBC son:
 
 
 # Metodologías adaptadas de la SI
-# Metodologías de modelado de conocimientoflowchart LR
+# Metodologías de modelado de conocimiento
 # Metodología CommonKADS
