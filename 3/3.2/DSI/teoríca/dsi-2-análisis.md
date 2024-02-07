@@ -27,5 +27,3 @@ Este formulario está compuesto por una tabla con:
 - Soluciones.
 
 ## Modelo de tareas y agentes
-
-# Caso de estudio
