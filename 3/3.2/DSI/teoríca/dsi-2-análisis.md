@@ -27,5 +27,10 @@ Este formulario está compuesto por una tabla con:
 - Soluciones.
 
 ### Formulario de aspectos variables (OM-2)
-Este formulario está compuesto por un problema y solución
+Este formulario está compuesto por un problema y solución en forma de tabla con los aspectos de la organización afectados:
+- Estructura.
+- Procesos.
+- Recursos.
+- Conocimiento.
+- Cultura y potencial.
 ## Modelo de tareas y agentes
