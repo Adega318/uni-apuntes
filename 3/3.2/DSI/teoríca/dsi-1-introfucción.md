@@ -33,4 +33,15 @@ Las ventajas y limitaciones de los sistemas SBC son:
 # Metodologías de modelado de conocimiento
 
 # Metodología CommonKADS
-L a
+La metodología commonKADS es un estándar basado en el modelado, reutilización y gestión de riesgo. Los productos producidos son comprendidos por la organización, tareas, agentes, conocimiento, comunicación y diseño.
+```mermaid
+flowchart TD
+
+subgraph ¿Por qué?
+m1[Modelo de organizción]
+m2[Modelo de tareas]
+m3[Modelo de agentes]
+end
+
+
+```
