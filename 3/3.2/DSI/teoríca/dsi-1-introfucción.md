@@ -28,6 +28,8 @@ Las ventajas y limitaciones de los sistemas SBC son:
 	- Falta de creatividad y sentido común.
 	- Obstáculos para el aprendizaje y la adaptación.
 
+## Definición del conocimiento necesario
+- 
 # Metodologías adaptadas de la SI
 # Metodologías de modelado de conocimientoflowchart LR
 # Metodología CommonKADS
