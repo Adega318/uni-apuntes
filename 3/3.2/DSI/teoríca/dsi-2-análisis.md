@@ -26,4 +26,6 @@ Este formulario está compuesto por una tabla con:
 - Contexto de la organización.
 - Soluciones.
 
+### Formulario de aspectos variables (OM-2)
+Este formulario está compuesto por un problema y solución
 ## Modelo de tareas y agentes
