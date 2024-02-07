@@ -14,11 +14,18 @@ El proceso del modelo contextual es:
 ## Modelo de organización
 El modelo de organización se divide en:
 - Análisis
-	- Identificar áreas.
+	- Identificar áreas con sus problemas y oportunidades.
 	- Poner las áreas en perspectiva a la organización.
 - Síntesis
 	- Estudio de viabilidad económica y técnica de los proyectos.
 	- Elegir el área más prometedora y la solución meta.
-## Modelo de tareas
-## Modelo de agentes
+
+### Formulario de problemas y oportunidades (OM-1)
+Este formulario está compuesto por una tabla con:
+- Problemas y oportunidades.
+- Contexto de la organización.
+- Soluciones.
+
+## Modelo de tareas y agentes
+
 # Caso de estudio
