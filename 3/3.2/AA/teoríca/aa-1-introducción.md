@@ -32,7 +32,16 @@ Dentro del aprendizaje en el mundo natural podemos diferenciar:
 - Aprendizaje por refuerzo, presentación de ejemplos sin resolver y puntuación de los resultados.
 
 ## Clasificación basándose en respuesta deseada
-- Aprendizaje de clasificación, respuesta deseada la clase a la que perteneze el ejemplo.
-- Aprendizaje de regresión, respuesta deseada un valor numeriz
+- Aprendizaje de clasificación, la clase a la que pertenece el ejemplo.
+- Aprendizaje de regresión, valor numérico continuo.
+- Aprendizaje por secuencia, secuencia de valores deseada.
+
+## Clasificación basándose en la interacción entre los datos y el modelo
+- Aprendizaje estático, los datos son usados únicamente en el entrenamiento inicial.
+- Aprendizaje en línea, los datos son actualizados y el modelo reentrenado de manera continua.
+- Aprendizaje pro lotes, reentreno del modelo con lotes de datos de manera periódica.
+
+## Clasidicación basándose en la representación del conocimiento
+- Aprendizaje simbñ
 # Aprendizaje inductivo
 # Teoremas No Free Lunch
