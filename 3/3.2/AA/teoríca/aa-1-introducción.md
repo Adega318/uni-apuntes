@@ -53,7 +53,7 @@ Los diferentes paradigmas más formalizados en el mundo del aprendizaje automát
 - Por refuerzo, iteración sobre un entorno para la maximización de uno o varios aspectos.
 - Semi-supervisado, uso de un set etiquetado y uno sin para reducir el trabajo de etiquetado.
 - Basado en esemble, combinación de modelos para aumentar el rendimiento.
-- Evolutivo, 
+- Evolutivo, /////
 - Basado en instancias, resolución de problemas basándose en soluciones anteriores a otros problemas.
 - Basado en similitud, agrupación de datos basándose en una medida de similitud.
 - Profundo, uso de muchas capas para permitir patrones complejos.
@@ -63,7 +63,12 @@ Los diferentes paradigmas más formalizados en el mundo del aprendizaje automát
 - Activo, filtrado de instancias en los datos destacadas.
 - Jerárquico, captura de características de forma jerárquica.
 - Multi-instancia, aprendizaje sobre grupos clasificados de manera no exhaustiva.
-- Refuerzo inverso, 
-- Basado en conocimiento
+- Refuerzo inverso, ////////
+- Basado en conocimiento, /////////
+- Incremental, actualización del modelo en función a nuevos datos.
+- Probabilístico, uso de métodos probabilístico para representar relaciones.
+- Bayesiano, utilización del teorema de bayes
 # Aprendizaje inductivo
+Adquisición de conocimiento mediante el entorno.
+
 # Teoremas No Free Lunch
