@@ -1,1 +1,1 @@
-Los métodos difusos se basan en el emp
+Los métodos difusos se basan en el empleo de la ambigüedad en el razonamiento.
