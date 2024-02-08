@@ -78,6 +78,6 @@ Adquisición de conocimiento mediante el entorno, teniendo los siguientes concep
 
 Para realizar generalizaciones es de alta importancia la cantidad de datos y diversidad de los mismos, siendo **significativo** y **representativo**.
 
-Los datasets deben de ser normalizados de manera numérica, para valores etiquetados podemos hacer uso de boleanos o de enteros, siendo los enteros más útiles en caso de que haya una relación entre las etiquetas.
+Los datasets deben de ser normalizados de manera numérica, para valores etiquetados podemos hacer uso de buleanos o de enteros, siendo los enteros más útiles en caso de que haya una relación entre las etiquetas.
 # Teoremas No Free Lunch
-Teore
+Conjunto de resultados teóricos en el mundo de la inteligencia artificial (optimización), dándonos como resultado la realidad de que no hay un algoritmo óptimo para todos los problemas.
