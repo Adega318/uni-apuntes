@@ -21,7 +21,10 @@ $\forall A \subset U:A\_difuso\leftrightarrow$
 	- $A\subset B \leftrightarrow \mu_{B}(x)\le\mu_{A}(x):\forall x\in U$
 - Unión,
 - Intersección, 
-- Leyes de DeMorgan.
+- Leyes de DeMorgan,
+	- 1º,
+	- 2º,
+- Leyes distributivas,
 	- 1º,
 	- 2º,
 - 
