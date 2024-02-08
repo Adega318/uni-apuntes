@@ -25,7 +25,7 @@ Dentro del aprendizaje en el mundo natural podemos diferenciar:
 	- Inductivo, obtención de conocimiento mediante la relación de ejemplos y contraejemplos.
 	- Analógico, aplicación de conocimiento presente para situaciones similares.
 
-# Paradigmas
+# Clasificación de tipos de aprendizaje
 ## Clasificación basándose en la información y resultado
 - Aprendizaje supervisado, presentación de ejemplos resuelto.
 - Aprendizaje no supervisado, presentación de ejemplos sin resolver.
@@ -41,7 +41,15 @@ Dentro del aprendizaje en el mundo natural podemos diferenciar:
 - Aprendizaje en línea, los datos son actualizados y el modelo reentrenado de manera continua.
 - Aprendizaje pro lotes, reentreno del modelo con lotes de datos de manera periódica.
 
-## Clasidicación basándose en la representación del conocimiento
-- Aprendizaje simbñ
+## Clasificación basándose en la representación del conocimiento
+- Aprendizaje simbólico, representación explicita del conocimiento.
+- Aprendizaje no simbólico, la información está codificada.
+- Aprendizaje mixto.
+
+# Paradigmas
+- Aprendizaje supervisado, se establecen etiquetas para las salidas deseadas para cada dato.
+- Aprendizaje no supervisado, intento de obtener las relaciones entre los datos.
+- Aprendizaje por refuerzo, iteración sobre un entorno para la maximización de uno o varios aspectos.
+- Aprendizaje semi-supervisado, uso de un set etiquetado y uno sin para reducir el
 # Aprendizaje inductivo
 # Teoremas No Free Lunch
