@@ -47,9 +47,16 @@ Dentro del aprendizaje en el mundo natural podemos diferenciar:
 - Aprendizaje mixto.
 
 # Paradigmas
-- Aprendizaje supervisado, se establecen etiquetas para las salidas deseadas para cada dato.
-- Aprendizaje no supervisado, intento de obtener las relaciones entre los datos.
-- Aprendizaje por refuerzo, iteración sobre un entorno para la maximización de uno o varios aspectos.
-- Aprendizaje semi-supervisado, uso de un set etiquetado y uno sin para reducir el
+- Supervisado, se establecen etiquetas para las salidas deseadas para cada dato.
+- No supervisado, intento de obtener las relaciones entre los datos.
+- Por refuerzo, iteración sobre un entorno para la maximización de uno o varios aspectos.
+- Semi-supervisado, uso de un set etiquetado y uno sin para reducir el trabajo de etiquetado.
+- Basado en esemble, combinación de modelos para aumentar el rendimiento.
+- Evolutivo, 
+- Basado en instancias, resolución de problemas basándose en soluciones anteriores a otros problemas.
+- Basado en similitud, agrupación de datos basándose en una medida de similitud.
+- Profundo, uso de muchas capas para permitir patrones complejos.
+- Por transferencia, transferencia de conocimiento entre redes.
+- Por transfer
 # Aprendizaje inductivo
 # Teoremas No Free Lunch
