@@ -76,5 +76,6 @@ Adquisición de conocimiento mediante el entorno, teniendo los siguientes concep
 - Ejemplo.
 - Generalización.
 
+Para realizar generalizaciones es de alta importancia la cantidad de datos y diversidad de los mismos, siendo **significativo** y **representativo**.
 
 # Teoremas No Free Lunch
