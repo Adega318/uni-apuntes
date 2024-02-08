@@ -13,6 +13,12 @@ $\forall A \subset U:A\_difuso\leftrightarrow$
 - Identidad,
 	- $A\subset U/\exists \mu_{A} (x) : U\to [0,1]\forall x\in U$
 	- $B\subset U/\exists \mu_{B} (x) : U\to [0,1]\forall x\in U$
-	- $A=B \leftrightarrow \mu_{A}(x)=\mu_{B}(x)$
+	- $A=B \leftrightarrow \mu_{A}(x)=\mu_{B}(x):\forall x\in U$
 - Complementariedad,
 - Inclusión,
+	- $A\subset U/\exists \mu_{A} (x) : U\to [0,1]\forall x\in U$
+	- $B\subset U/\exists \mu_{B} (x) : U\to [0,1]\forall x\in U$
+	- $A\subset B \leftrightarrow \mu_{B}(x)\le\mu_{A}(x):\forall x\in U$
+- Unión,
+- Intersección, 
+- 
