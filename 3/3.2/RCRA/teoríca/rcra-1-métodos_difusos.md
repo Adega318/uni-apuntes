@@ -8,3 +8,6 @@ Para representar los datos obtenidos de una función $\mu_A(x)$ que son continuo
 ## Caracterización de conjuntos difusos
 Los conjuntos difusos para ser representados se requiere de un referencial (U) y un subconjunto de dicho referencial (A).
 $\forall A \subset U:A\_difuso\leftrightarrow$
+## Difusos y boole
+- Conjunto vacío, $Z\subset U/\exists \mu_{A} (x) : U\to [0,1]\forall x\in U$
+- Identidad, $$
