@@ -69,6 +69,12 @@ Los diferentes paradigmas más formalizados en el mundo del aprendizaje automát
 - Probabilístico, uso de métodos probabilístico para representar relaciones.
 - Bayesiano, utilización del teorema de bayes
 # Aprendizaje inductivo
-Adquisición de conocimiento mediante el entorno.
+Adquisición de conocimiento mediante el entorno, teniendo los siguientes conceptos:
+- Atributo.
+- Instancia.
+- Clase.
+- Ejemplo.
+- Generalización.
+
 
 # Teoremas No Free Lunch
