@@ -1,4 +1,5 @@
 # Modulos
-- Crawler, módulo que recopila páginas web.
-- Doc analyzer, analiza las web recopiladas.
-- Indexer, indexa las webs basandose en el analisis de las mismas.
+- Crawler, módulo que recopila documentos.
+- Doc analyzer, analiza los documentos recopilados.
+- Indexer, indexa los documentos basándose en el análisis de los mismos.
+- Ranker, puntúa los elementos del índice para su aparición en consultas.
