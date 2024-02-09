@@ -17,4 +17,5 @@ Razona que $(P\to Q)\leftrightarrow (Q\to P)$ no es tautología.
 | 0   | 1   | 1         |          |                      |
 | 1   | 0   |          |          |                      |
 | 1    | 1    | 1         |          | 1                     |
+
 Dado dos conjuntos A y B ¿es cierto que $2^{A}\bigcup 2^{B}= 2^{A\bigcup B}$?
