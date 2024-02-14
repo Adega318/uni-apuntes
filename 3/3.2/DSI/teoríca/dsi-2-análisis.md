@@ -59,9 +59,9 @@ Estudio de viabilidad de los siguientes aspectos:
 - Proyecto.
 
 También se deben valorar las acciones propuestas.
-# Modelo de tareas y agentes
-Modelo donde se define las tareas y agentes presentados en el modelo organizativo.
-## Descripción de tareas (TM-1)
+# Modelo de tareas
+Modelo donde se define las tareas presentadas en el modelo organizativo.
+## Formulario de descripción de tareas (TM-1)
 Descripción interna de la tarea:
 - Organización.
 - Dependencias y flujos de datos.
@@ -75,7 +75,7 @@ Y descripción externa:
 - Recursos.
 - Calidad y rendimiento.
 
-## Descripción de los items de conocimiento (TM-2)
+## ## Formulario de descripción de los items de conocimiento (TM-2)
 Para describir items de conocimiento debemos centrarnos en tres aspectos:
 - Naturaleza.
 	- Formal, riguroso.
@@ -101,3 +101,17 @@ Para describir items de conocimiento debemos centrarnos en tres aspectos:
 	- Limitaciones en acceso.
 	- Limitaciones en calidad.
 	- Limitaciones en forma.
+
+# Modelo de agentes
+Aplicación de la perspectiva de los agentes a los anteriores modelos.
+## Formulario de agentes (AM-1)
+Recopilación de los agentes en la organización y descripción de los mismos con:
+- Nombre.
+- Organización.
+- Implicado en.
+- Comunicación con.
+- Conocimiento.
+- Otras competencias.
+- Responsabilidades y restricciones.
+
+# Formulario resumen (OTA)
