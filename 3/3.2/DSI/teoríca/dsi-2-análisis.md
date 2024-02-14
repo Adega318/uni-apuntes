@@ -57,6 +57,6 @@ Estudio de viabilidad de los siguientes aspectos:
 - Negocio.
 - Técnica.
 - Proyecto.
-- Propuestas.
 
+También se deben valorar las acciones propuestas.
 ## Modelo de tareas y agentes
