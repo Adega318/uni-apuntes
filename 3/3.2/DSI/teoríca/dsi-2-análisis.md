@@ -60,4 +60,16 @@ Estudio de viabilidad de los siguientes aspectos:
 
 También se deben valorar las acciones propuestas.
 ## Modelo de tareas y agentes
-### Formulario de decripción int
+### Formulario de descripción de tareas (TM-1)
+Descripción interna de la tarea:
+- Organización.
+- Dependencias y flujos de datos.
+- Objetos manejados.
+- Tiempo y control.
+
+Y descripción externa:
+- Objetivo y valor.
+- Agentes involucrados.
+- Conocimiento y capacidad.
+- Recursos.
+- Calidad y rendimiento.
