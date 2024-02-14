@@ -42,4 +42,16 @@ Este formulario profundiza en las características de los procesos, diferenciand
 - Intensidad.
 - Importancia.
 
+### Formulario de activo de conocimiento (OM-4)
+Concretado de las características de los activos de conocimiento:
+- Poseedores.
+- Usos.
+- Adecuado en.
+	- Forma.
+	- Lugar.
+	- Tiempo.
+	- Calidad.
+
+### Formulario de viabilidad (OM-5)
+
 ## Modelo de tareas y agentes
