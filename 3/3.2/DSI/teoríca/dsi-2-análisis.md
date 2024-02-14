@@ -33,4 +33,5 @@ Este formulario está compuesto por un problema y solución en forma de tabla co
 - Recursos.
 - Conocimiento.
 - Cultura y potencial.
+
 ## Modelo de tareas y agentes
