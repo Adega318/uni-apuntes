@@ -60,6 +60,7 @@ Estudio de viabilidad de los siguientes aspectos:
 
 También se deben valorar las acciones propuestas.
 ## Modelo de tareas y agentes
+Modelo donde se define las tareas y agentes presentados en
 ### Formulario de descripción de tareas (TM-1)
 Descripción interna de la tarea:
 - Organización.
