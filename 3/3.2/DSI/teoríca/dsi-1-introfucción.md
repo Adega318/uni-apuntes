@@ -30,7 +30,16 @@ Las ventajas y limitaciones de los sistemas SBC son:
 
 
 # Metodologías adaptadas de la SI
+Las principales limitaciones para las metodologías de la SI son:
+- Dominio de conocimiento y actividades de adquisición del mismo.
+- Dificultad de especificación del conocimiento.
+- Dificultad en el establecimiento de requisitos.
+- Resultados únicamente visibles al final del desarrollo.
+- Generación de explicaciones.
+- Mantenimiento complicado.
+
 # Metodologías de modelado de conocimiento
+Uno de los procesos m
 
 # Metodología CommonKADS
 La metodología commonKADS es un estándar basado en el modelado, reutilización y gestión de riesgo. Los productos producidos son comprendidos por la organización, tareas, agentes, conocimiento, comunicación y diseño.
