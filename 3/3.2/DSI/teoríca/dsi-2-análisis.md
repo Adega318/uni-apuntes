@@ -60,3 +60,4 @@ Estudio de viabilidad de los siguientes aspectos:
 
 También se deben valorar las acciones propuestas.
 ## Modelo de tareas y agentes
+### Formulario de decripción int
