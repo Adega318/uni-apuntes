@@ -38,7 +38,8 @@ Este formulario está compuesto por un problema y solución en forma de tabla co
 Este formulario profundiza en las características de los procesos, diferenciando de cada uno:
 - Realizador.
 - Localización.
-- Conocimiento activo.
+- Activos de conocimiento.
+- Intensidad.
 - Importancia.
 
 ## Modelo de tareas y agentes
