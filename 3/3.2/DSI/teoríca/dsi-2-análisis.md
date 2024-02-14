@@ -53,5 +53,10 @@ Concretado de las características de los activos de conocimiento:
 	- Calidad.
 
 ### Formulario de viabilidad (OM-5)
+Estudio de viabilidad de los siguientes aspectos:
+- Negocio.
+- Técnica.
+- Proyecto.
+- Propuestas.
 
 ## Modelo de tareas y agentes
