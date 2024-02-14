@@ -39,7 +39,11 @@ Las principales limitaciones para las metodologías de la SI son:
 - Mantenimiento complicado.
 
 # Metodologías de modelado de conocimiento
-Uno de los procesos m
+Uno de los procesos más complejos es el modelado del conocimiento para su uso en el sistema, para ello el conocimiento del sistema se representa en un nivel de conocimiento donde es concentrado.
+Basándose en lo anterior, la metodología de modelado consiste de:
+- Análisis del sistema en el nivel de conocimiento.
+- Estructuras de control genéricas, abstractas y reutilizables.
+- Análisis y estructuración de tareas generales.
 
 # Metodología CommonKADS
 La metodología commonKADS es un estándar basado en el modelado, reutilización y gestión de riesgo. Los productos producidos son comprendidos por la organización, tareas, agentes, conocimiento, comunicación y diseño.
@@ -72,4 +76,3 @@ m3 --> m5
 m4 --> m6
 m5 --> m6
 ```
-
