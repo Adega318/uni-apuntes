@@ -115,3 +115,4 @@ Recopilación de los agentes en la organización y descripción de los mismos co
 - Responsabilidades y restricciones.
 
 # Formulario resumen (OTA)
+Lista de tareas, mejoras y medidas a emplear, puntos para toma de decisiones.
