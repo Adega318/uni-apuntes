@@ -15,4 +15,11 @@ La introducción a una memoria está compuesto por:
 - Resumen de los trabajos más importantes del campo.
 - Referencias bibliográficas del mismo tipo de problema con descripción breve de las referencias incorporadas en una narrativa.
 ## Desarrollo
-Proceso de desarrollo con las distintas aproximaciones y sus caracteristicas.
+Este apartado consta de las diferentes aproximaciones a la problemática; plasmando su descripción, resultados y discusión.
+- Descripción.
+	- Subproblema a resolver.
+	- Características destacadas.
+	- Naturaleza de los datos.
+- Resultados
+	- Descripción del ambito experimental.
+		- P
