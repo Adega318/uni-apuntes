@@ -42,4 +42,8 @@ $\forall A \subset U:A\_difuso\leftrightarrow$
 - Relación difusa, establecimiento de un criterio de aproximadamente igual de manera subjeriva.
 - Implicación difusa
 	- Permisivo
-		- $A\subset B/\exist$
+		- $A\subset B/ \exists \mu_{A}(x):U\to [0,1]\forall x \in U$ 
+	- Restrictivo
+		- $B\subset V/ \exists \mu_{B}(x):V\to [0,1]\forall y \in V$
+		- $A\to B\eq A$
+- Modus Ponens Generalizado
