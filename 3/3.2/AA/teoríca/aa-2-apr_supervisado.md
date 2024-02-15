@@ -1,4 +1,5 @@
 # Introducción
+En el aprendizaje buscamos que el sistema generalice el conocimiento para permitir su funcionamiento sobre nuevos datos.
 
 # Regresión logística
 # Máquinas de vectores de soporte
