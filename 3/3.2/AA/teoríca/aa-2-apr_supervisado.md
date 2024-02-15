@@ -24,11 +24,11 @@ Tenemos dos tipos de errores en nuestros modelos, los irreducibles y los variabl
 	- Entrenamiento del modelo sobre un subconjunto de los datos para observar la diferencia con el entrenado con el completo.
 	- Es un buen indicador de oberfiting.
 
-Para reducir estos errores podemos usar varios métodos:
+Para reducir estos errores podemos usar varias técnicas:
 - Regularización.
 	- Reduce la varianza a costa de un alto sesgo.
 	- Reduce la complejidad usada de la red, permitiendo menor ajuste.
-- 
+
 # Regresión logística
 # Máquinas de vectores de soporte
 # Árboles de decisión
