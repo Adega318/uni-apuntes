@@ -21,4 +21,3 @@ Maven tiene multiples fases de ciclo de vida que realiza secuencialmente, las pr
 - Deploy.
 
 Estas fases tienen unas metas definidas por las extensiones que en caso de que uno no se complete no se pasa a la siguiente fase del ciclo de vida.
-# 2
