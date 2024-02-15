@@ -9,12 +9,18 @@ Por otra parte, se debe de controlar el sobre ajuste e infra ajuste; para ello s
 La formalización de todo lo anterior se ve en la teoría de la dimensión Vapnik-Chervonenkis, esta teoría nos permite calcular la complejidad para un número de datos en una dimensión determinada.
 Por esta teoría podemos calcular la relación entre el error del conjunto de entrenamiento y de test.
 
-$cota(e_{test}(f))=error_{train}+\sqrt{\frac{h(\log\frac{2n}{h}+1)-\log \frac{n}{4}}{n}}$
+$\Large cota(e_{test}(f))=error_{train}+\sqrt{\frac{h(\log\frac{2n}{h}+1)-\log \frac{n}{4}}{n}}$
 
 - h es la dimensión VC de f
 - n es el número de ejemplos de entrenamiento
 - n>h
 
+## Errores en el entrenamiento
+Tenemos dos tipos de errores en nuestros modelos, los irreducibles y los variables, los variables pueden ser reducidos:
+- Bias.
+	- Diferencia entre el valor medio predicho por el modelo y el valor medio real.
+- Variance.
+	- Entrenamiento del modelo sobre un subconjunto de los datos para obserba
 # Regresión logística
 # Máquinas de vectores de soporte
 # Árboles de decisión
