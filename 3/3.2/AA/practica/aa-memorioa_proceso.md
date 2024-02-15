@@ -8,4 +8,8 @@ La introducción a una memoria está compuesto por:
 - Descripción de la base de datos.
 	- Origen.
 	- Propiedades de los datos
-- 
+- Métricas de valoración y razonamiento.
+
+# Análisis bibliográfico
+- Resumen de los trabajos más importantes del campo.
+- Referencias bibliográficas del mismo tipo de problema con descripción breve de las referencias incorporadas en una narrativa.
