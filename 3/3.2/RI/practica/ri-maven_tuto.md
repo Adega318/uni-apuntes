@@ -11,4 +11,4 @@ Esto trae varias ventajas:
 - Mejor trazabilidad.
 
 # Configuración
-La configuración de maven se define en un fichero pom.xml, encontrándose siempre en la raíz del proyecto. La sintaxis de 
+La configuración de maven se define en un fichero pom.xml, encontrándose siempre en la raíz del proyecto.
