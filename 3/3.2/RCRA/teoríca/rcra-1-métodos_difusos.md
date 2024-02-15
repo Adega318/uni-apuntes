@@ -27,4 +27,13 @@ $\forall A \subset U:A\_difuso\leftrightarrow$
 - Leyes distributivas,
 	- 1º,
 	- 2º,
-- 
+- Producto de conjuntos difusos
+	- $A\subset U/\exists \mu_{A} (x) : U\to [0,1]\forall x\in U$
+	- $B\subset U/\exists \mu_{B} (x) : U\to [0,1]\forall x\in U$
+	- $A\times B \to \mu_{AB}(x)=\mu_{B}(x)\times\mu_{A}(x):\forall x\in U$
+	- El producto de dos conjuntos difusos está contenido en la interseción.
+- Suma y suma acotada
+	- $A\subset U/\exists \mu_{A} (x) : U\to [0,1]\forall x\in U$
+	- $B\subset U/\exists \mu_{B} (x) : U\to [0,1]\forall x\in U$
+	- $A+ B \to \mu_{A+B}(x)=\mu_{B}(x)+\mu_{A}(x):\forall x\in U$
+	- $A\dotplus B \to \mu_{A+B}(x)=\mu_{B}(x)+\mu_{A}(x):\forall x\in U$
