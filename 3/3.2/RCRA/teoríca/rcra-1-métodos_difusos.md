@@ -36,4 +36,9 @@ $\forall A \subset U:A\_difuso\leftrightarrow$
 	- $A\subset U/\exists \mu_{A} (x) : U\to [0,1]\forall x\in U$
 	- $B\subset U/\exists \mu_{B} (x) : U\to [0,1]\forall x\in U$
 	- $A+ B \to \mu_{A+B}(x)=\mu_{B}(x)+\mu_{A}(x):\forall x\in U$
-	- $A\dotplus B \to \mu_{A+B}(x)=\mu_{B}(x)+\mu_{A}(x):\forall x\in U$
+	- $A\oplus B \to \mu_{A\oplus B}(x)=\mu_{B}(x)\oplus \mu_{A}(x):\forall x\in U$
+- Diferencia y diferencia absoluta
+- Núcleo de un conjunto difuso
+- Relación difusa
+	- Establecimiento de un criterio de aproximadamente igual de manera subjeriva.
+- 
