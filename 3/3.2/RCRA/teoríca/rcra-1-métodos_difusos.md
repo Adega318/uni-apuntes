@@ -39,6 +39,7 @@ $\forall A \subset U:A\_difuso\leftrightarrow$
 	- $A\oplus B \to \mu_{A\oplus B}(x)=\mu_{B}(x)\oplus \mu_{A}(x):\forall x\in U$
 - Diferencia y diferencia absoluta
 - Núcleo de un conjunto difuso
-- Relación difusa
-	- Establecimiento de un criterio de aproximadamente igual de manera subjeriva.
-- 
+- Relación difusa, establecimiento de un criterio de aproximadamente igual de manera subjeriva.
+- Implicación difusa
+	- Permisivo
+		- $A\subset B/\exist$
