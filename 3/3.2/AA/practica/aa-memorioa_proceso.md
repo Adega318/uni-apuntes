@@ -20,6 +20,18 @@ Este apartado consta de las diferentes aproximaciones a la problemática; plasma
 	- Subproblema a resolver.
 	- Características destacadas.
 	- Naturaleza de los datos.
-- Resultados
-	- Descripción del ambito experimental.
-		- P
+- Resultados.
+	- Descripción del ámbito experimental.
+		- Parámetros, normalización, ejecuciones, …
+		- Resultados obtenidos.
+			- Gráficas y tablas comparativas.
+- Discusión.
+	- Valoración de los resultados.
+	- Validez de las características extraídas.
+	- Mejor algoritmo y razonamiento sobre el mismo.
+	- Resultados interesantes.
+	- Decisiones con respecto a la siguiente aproximación.
+
+## Conclusiones
+Desarrollo de las valoraciones sobre los resultados del trabajo y lecciones aprendidas en el mismo.
+## Trabajo futuro
