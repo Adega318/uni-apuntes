@@ -46,4 +46,17 @@ $\forall A \subset U:A\_difuso\leftrightarrow$
 	- Restrictivo
 		- $B\subset V/ \exists \mu_{B}(x):V\to [0,1]\forall y \in V$
 		- $A\to B\equiv \neg A\oplus B: en\_ U\times V$
-- Modus Ponens Generalizado
+- Modus Ponens Generalizado.
+
+## Diferencias entre el razonamiento convencional y difuso
+- Modus Ponens Generalizado.
+- Certeza.
+- Predicados.
+- Modificadores.
+- Cuantificadores.
+- Probabilidades.
+
+## Modos de razonamiento
+- Categórico, unión delos descriptores.
+- Silogístico, multiplicación de los descriptores.
+- Cualitativo, razonamiento basado en una codificacij
