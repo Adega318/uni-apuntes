@@ -59,4 +59,6 @@ $\forall A \subset U:A\_difuso\leftrightarrow$
 ## Modos de razonamiento
 - Categórico, unión delos descriptores.
 - Silogístico, multiplicación de los descriptores.
-- Cualitativo, razonamiento basado en una codificacij
+- Cualitativo, método donde se expresan la representación entre entrada y salida por una colección de reglas difusas.
+
+# Control difuso
