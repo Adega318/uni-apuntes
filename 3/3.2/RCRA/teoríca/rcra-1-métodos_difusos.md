@@ -45,5 +45,5 @@ $\forall A \subset U:A\_difuso\leftrightarrow$
 		- $A\subset B/ \exists \mu_{A}(x):U\to [0,1]\forall x \in U$ 
 	- Restrictivo
 		- $B\subset V/ \exists \mu_{B}(x):V\to [0,1]\forall y \in V$
-		- $A\to B\eq A$
+		- $A\to B\equiv \neg A\oplus B: en\_ U\times V$
 - Modus Ponens Generalizado
