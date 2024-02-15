@@ -62,4 +62,4 @@ $\forall A \subset U:A\_difuso\leftrightarrow$
 - Cualitativo, método donde se expresan la representación entre entrada y salida por una colección de reglas difusas.
 
 # Control difuso
-El proceso de control difuso se basa en la codificación, establecimiento de reglas
+El proceso de control difuso se basa en la codificación, base de conocimiento, motor de inferencia y descodificación.
