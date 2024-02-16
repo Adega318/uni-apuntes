@@ -1,6 +1,9 @@
-- Lavadora
+- Lavadora 1.500 - 2.500
 - Nevera 
-- Refrigeración
-- Calefacción
-- Horno
-- 
+- Refrigeración 900 - 2.000
+- Calefacción 1.000 - 2.500
+- Horno 1.200 - 2.200
+- Vitro
+- Microondas 900 - 1.500
+- Lavavajillas 1.500 - 2.200
+- Secadora 
