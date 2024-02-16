@@ -22,4 +22,8 @@ Definimos un alfabeto como un conjunto no vacío y finito de símbolos. Con los 
 	- $A^{*}=\bigcup^{\infty}_{n=0}A^{n}$
 - El cierre positivo de A
 	- $A^{+}=\bigcup^{\infty}_{n=1}A^{n}$
-- 
+- La diferencia de lenguajes
+	- $A-B=\{w|w\in A\ y \ w\notin B\}$
+- Complementario de lenguajes
+	- $\bar{A}=\sum^{*}-A$
+- Inverso de un 
