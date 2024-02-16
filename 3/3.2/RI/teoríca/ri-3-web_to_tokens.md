@@ -21,3 +21,6 @@ La política de educación se basa en que el crawler siga unas normas establecid
 	- Mantiene únicamente el texto título y párrafo.
 - Automatic wrapper
 - Visual parsing
+
+## Representación de un documento
+Un documento se suele representar por tokens, rompiendo el mismo en palabras, frases y símbolos.
