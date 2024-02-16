@@ -15,5 +15,8 @@ Definimos un alfabeto como un conjunto no vacío y finito de símbolos. Con los 
 - La n-ésima potencia de un lenguaje A es definida como $A^{n}$
 	- $\{\in\}\ \ si \ n=0$
 	- $A\cdot A^{n-1}\ \ si \ n>0$
-- La union e interseción de lenguajes son
-	- $A\cup B=\{\}$
+- La unión e intersección de lenguajes son
+	- $A\cup B=\{w|w\in A\ o\ w\in B\}$
+	- $A\cap B= \{w|w\in A\ y\ w \in B\}$
+- Para un lenguaje a su cierre de kleene
+	- $A^{*}=\bigcup$
