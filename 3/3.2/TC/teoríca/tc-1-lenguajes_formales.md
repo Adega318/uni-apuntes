@@ -8,4 +8,5 @@ Definimos un alfabeto como un conjunto no vacío y finito de símbolos. Con los 
 	- $ww^{n-1}\ \ si\ n>0$
 - La inversa de una palabra w es la palabra transpuesta.
 - Un prefijo z de una palabra w es una palabra con los primeros caracteres de w, lo inverso es el sufijo, siempre que z y w sean distintos se dirá que son propios.
-- Una subcadena es una porción interna de una palabra tal que z es una subcadena si existe $z=$
+- Una subcadena es una porción interna de una palabra tal que z es una subcadena si existe $w=xzy$.
+- 
