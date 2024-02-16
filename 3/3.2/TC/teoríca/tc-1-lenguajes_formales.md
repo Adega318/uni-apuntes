@@ -11,3 +11,9 @@ Definimos un alfabeto como un conjunto no vacío y finito de símbolos. Con los 
 - Una subcadena es una porción interna de una palabra tal que z es una subcadena si existe $w=xzy$.
 
 # Operaciones con lenguajes
+- La concatenación de dos lenguajes A y B se define como $A\cdot B=\{w\cdot y|w\in A, y\in B\}$
+- La n-ésima potencia de un lenguaje A es definida como $A^{n}$
+	- $\{\in\}\ \ si \ n=0$
+	- $A\cdot A^{n-1}\ \ si \ n>0$
+- La union e interseción de lenguajes son
+	- $A\cup B=\{\}$
