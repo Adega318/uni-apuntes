@@ -3,4 +3,5 @@ Pieza de software que recorre la red para obtener páginas web, se basa en parti
 ## Estrategias de visita
 - Anchura primero, explora el grafo de webs por niveles.
 - Profundidad primero, explora por ramas el grafo.
-- Focused crawling, prefiere los nj
+- Focused crawling, prefiere los nuevos enlaces basándose en estrategias predefinidas.
+
