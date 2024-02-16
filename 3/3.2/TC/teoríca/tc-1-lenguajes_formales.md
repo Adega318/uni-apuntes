@@ -19,4 +19,7 @@ Definimos un alfabeto como un conjunto no vacío y finito de símbolos. Con los 
 	- $A\cup B=\{w|w\in A\ o\ w\in B\}$
 	- $A\cap B= \{w|w\in A\ y\ w \in B\}$
 - Para un lenguaje a su cierre de kleene
-	- $A^{*}=\bigcup$
+	- $A^{*}=\bigcup^{\infty}_{n=0}A^{n}$
+- El cierre positivo de A
+	- $A^{+}=\bigcup^{\infty}_{n=1}A^{n}$
+- 
