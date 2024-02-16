@@ -1,0 +1,6 @@
+- Lavadora
+- Nevera 
+- Refrigeración
+- Calefacción
+- Horno
+- 
