@@ -27,3 +27,9 @@ Un documento se suele representar por tokens, rompiendo el mismo en palabras, fr
 Para la tokenización se hace uso de:
 - Expresiones regulares (regex)
 - Métodos estáticos.
+
+## Indexado de texto
+Se puede indexar de múltiples maneras:
+- Bolsa de palabras, siendo de gran simplicidad pero perdiendo información sobre su orden.
+- N-grams, mejora sobre bolsa de palabras donde se almacenan ciertas combinaciones de palabras como una sola.
+- 
