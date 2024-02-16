@@ -6,5 +6,6 @@ Pieza de software que recorre la red para obtener páginas web, se basa en parti
 - Focused crawling, prefiere los nuevos enlaces basándose en estrategias predefinidas.
 
 En las estrategias, los focused pueden hacer uso de métricas de prioridad de las páginas:
-- In-degree, se puntua por el número de enlaces que llevan a una pagina.
-- PageRank, 
+- In-degree, se puntúa por el número de enlaces que llevan a una página.
+- PageRank, una página obtiene puntuación por sus contenidos.
+- Topical relevance, únicamente visita páginas asociadas al tema.
