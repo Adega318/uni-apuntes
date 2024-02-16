@@ -23,4 +23,7 @@ La política de educación se basa en que el crawler siga unas normas establecid
 - Visual parsing
 
 ## Representación de un documento
-Un documento se suele representar por tokens, rompiendo el mismo en palabras, frases y símbolos.
+Un documento se suele representar por tokens, rompiendo el mismo en palabras, frases y símbolos. Con ciertos idiomas se pueden realizar operaciones extras para tratar sufijos y prefijos y otras peculiaridades de los diferentes idiomas.
+Para la tokenización se hace uso de:
+- Expresiones regulares (regex)
+- Métodos estáticos.
