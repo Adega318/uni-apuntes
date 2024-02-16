@@ -8,3 +8,5 @@
 
 - Refrigeración 900 - 2.000
 - Calefacción 1.000 - 2.500
+
+calculo de consumo de calefación 
