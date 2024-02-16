@@ -9,4 +9,16 @@
 - Refrigeración 900 - 2.000
 - Calefacción 1.000 - 2.500
 
-calculo de consumo de calefación 
+cálculo de consumo de calefacción 
+$m^{2}*orientación*aislamiento*zona*116$
+
+Orientación
+- Norte 1.12
+- Sur 0.92
+- Este 1
+- Oeste 1
+
+Aislamiento
+- Bueno
+- Sencillo
+- Malo
