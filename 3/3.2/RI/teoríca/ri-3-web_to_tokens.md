@@ -15,3 +15,9 @@ Para evitar duplicados se debe comprobar que las nuevas páginas encontradas no 
 ## Política de educación
 La política de educación se basa en que el crawler siga unas normas establecidas por la web con amenaza de desconexión.
 # Técnicas de análisis de texto
+## Html parsing
+- Shallow parsing.
+	- Elimina los tags.
+	- Mantiene únicamente el texto título y párrafo.
+- Automatic wrapper
+- Visual parsing
