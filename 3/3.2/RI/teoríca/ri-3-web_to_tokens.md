@@ -14,3 +14,4 @@ En las estrategias, los focused pueden hacer uso de métricas de prioridad de la
 Para evitar duplicados se debe comprobar que las nuevas páginas encontradas no sean páginas ya visitadas con diferente url, esto se puede solucionar con la comparación de hash de la nueva página con el de las ya visitadas.
 ## Política de educación
 La política de educación se basa en que el crawler siga unas normas establecidas por la web con amenaza de desconexión.
+# Técnicas de análisis de texto
