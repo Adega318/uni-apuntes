@@ -24,52 +24,11 @@ Aislamiento
 - Malo
 
 
-- Lavadora
-	- A, 
-	- B
-	- C
-	- D
-	- E
-	- G
-- Nevera
-	- A
-	- B
-	- C
-	- D
-	- E
-	- G
-- Vitrocerámica
-	- A
-	- B
-	- C
-	- D
-	- E
-	- G
-- Horno
-	- A
-	- B
-	- C
-	- D
-	- E
-	- G
-- Microondas 
-	- A
-	- B
-	- C
-	- D
-	- E
-	- G
-- Lavavajillas
-	- A
-	- B
-	- C
-	- D
-	- E
-	- G
-- Secadora
-	- A
-	- B
-	- C
-	- D
-	- E
-	- G
+
+- Lavadora 2000
+- Nevera 300
+- Vitrocerámica 900 - 2100
+- Horno 1500
+- Microondas 1200
+- Lavavajillas 1850
+- Secadora 270
