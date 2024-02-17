@@ -32,3 +32,10 @@ Aislamiento
 - Microondas 1200
 - Lavavajillas 1850
 - Secadora 270
+
+a 0.7
+b 0.8
+c 0.9
+d 1.1
+e 1.2
+g 1.3
