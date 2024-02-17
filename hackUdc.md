@@ -22,3 +22,54 @@ Aislamiento
 - Bueno
 - Sencillo
 - Malo
+
+
+- Lavadora
+	- A, 
+	- B
+	- C
+	- D
+	- E
+	- G
+- Nevera
+	- A
+	- B
+	- C
+	- D
+	- E
+	- G
+- Vitrocerámica
+	- A
+	- B
+	- C
+	- D
+	- E
+	- G
+- Horno
+	- A
+	- B
+	- C
+	- D
+	- E
+	- G
+- Microondas 
+	- A
+	- B
+	- C
+	- D
+	- E
+	- G
+- Lavavajillas
+	- A
+	- B
+	- C
+	- D
+	- E
+	- G
+- Secadora
+	- A
+	- B
+	- C
+	- D
+	- E
+	- G
