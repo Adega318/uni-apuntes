@@ -27,7 +27,7 @@ Aislamiento
 
 - Lavadora 2000
 - Nevera 300
-- Vitrocerámica 900 - 2100
+- Vitrocerámica 1500
 - Horno 1500
 - Microondas 1200
 - Lavavajillas 1850
