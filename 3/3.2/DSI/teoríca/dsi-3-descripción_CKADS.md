@@ -32,6 +32,11 @@ Las tareas intensivas en conocimiento son convertidas en modelos de conocimiento
 	- Restricciones del contexto.
 
 ## Plantillas de modelos de conocimiento
+- Sistema, elemento sobre el que se aplica la tarea.
+- Tareas.
+	- Analíticas, solución existente pero no conocida.
+	- Sintéticas, 
+
 ## Conocimiento de la tarea
 ## Conocimiento inferencial
 ## Conocimiento del dominio
