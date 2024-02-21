@@ -31,5 +31,5 @@ Clase para el acceso a índices.
 	- document(int), devuelve un Document por el ID.
 		- Se le puede pasar un set de strings o un visitor para solo recuperar unos campos.
 - termVectors(), devuelve un TermVectors.
-	- get(int), devuelve el vector de terminos del documento.
-	- get(int, string), devuelve el vector de teminos del documento 
+	- get(int), devuelve el vector de términos del documento.
+	- get(int, string), devuelve el vector de términos del documento y campo indicado.
