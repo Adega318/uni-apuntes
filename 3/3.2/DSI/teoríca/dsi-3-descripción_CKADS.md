@@ -13,6 +13,15 @@ La construcción de un modelo del conocimiento tiene las siguientes fases:
 	- Validación del modelo.
 	- Refinado de las bases.
 
+### Identificación
+#### Búsqueda de fuentes
+- Factores.
+	- Naturaleza de las fuentes.
+	- Diversidad de las fuentes.
+- Técnicas.
+	- Marcar textos con fuentes clave.
+	- Entrevistas a expertos.
+
 ## Plantillas de modelos de conocimiento
 ## Conocimiento de la tarea
 ## Conocimiento inferencial
