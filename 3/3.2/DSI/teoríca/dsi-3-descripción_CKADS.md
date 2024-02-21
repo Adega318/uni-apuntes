@@ -35,7 +35,15 @@ Las tareas intensivas en conocimiento son convertidas en modelos de conocimiento
 - Sistema, elemento sobre el que se aplica la tarea.
 - Tareas.
 	- Analíticas, solución existente pero no conocida.
-	- Sintéticas, 
+		- Clasificación.
+		- Diagnóstico.
+		- Valoración.
+		- Monitorización.
+		- Predicción.
+	- Sintéticas, solución no existente, se debe crear.
+		- Diseño.
+		- Configuración de diseño.
+		- 
 
 ## Conocimiento de la tarea
 ## Conocimiento inferencial
