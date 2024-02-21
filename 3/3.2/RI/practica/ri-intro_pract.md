@@ -28,5 +28,7 @@ Clase para el acceso a índices.
 - totalTermFreq(Term), número de apariciones del término en todos los documentos.
 - getDocCount(string), número de documentos con el string.
 - storeFields(), devuelve un StoredFields.
-	- 
-
+	- document(int), devuelve un Document por el ID.
+		- Se le puede pasar un set de strings o un visitor para solo recuperar unos campos.
+- termVectors(), devuelve un TermVectors.
+	- get(int), 
