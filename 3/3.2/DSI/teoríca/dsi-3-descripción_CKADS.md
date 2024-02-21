@@ -21,6 +21,13 @@ La construcción de un modelo del conocimiento tiene las siguientes fases:
 - Técnicas.
 	- Marcar textos con fuentes clave.
 	- Entrevistas a expertos.
+- Tangible.
+	- Listado de fuentes de conocimiento.
+	- Resúmenes de textos clave.
+	- Glosario de términos.
+	- Descripción de los escenarios desarrollados.
+- Intangible.
+	- El propio entendimiento y comprensión del dominio por parte del ingeniero.
 
 ## Plantillas de modelos de conocimiento
 ## Conocimiento de la tarea
