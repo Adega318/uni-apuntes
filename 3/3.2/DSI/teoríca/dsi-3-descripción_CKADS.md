@@ -29,6 +29,21 @@ La construcción de un modelo del conocimiento tiene las siguientes fases:
 - Intangible.
 	- El propio entendimiento y comprensión del dominio por parte del ingeniero.
 
+#### Componentes reutilizables
+- Dimensión de la tarea.
+	- Construcción de una lista de plantillas de tareas.
+- Dimensión del dominio.
+	- Tipo del dominio.
+	- Búsquedas de descripciones estándar.
+
+### Especificación
+#### Selección de la plantilla
+- Criterio de selección.
+	- Naturaleza del sistema.
+	- Naturaleza de las entradas y salidas.
+	- Restricciones del contexto.
+- Guías para la selección
+	- 
 ## Plantillas de modelos de conocimiento
 ## Conocimiento de la tarea
 ## Conocimiento inferencial
