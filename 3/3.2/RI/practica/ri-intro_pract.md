@@ -35,4 +35,8 @@ Clase para el acceso a índices.
 	- get(int, string), devuelve el vector de términos del documento y campo indicado.
 - leaves(), devuelve las hojas del reader.
 - getContext(), devuelve la raíz del árbol de readers.
-- 
+
+## Document
+- get(String)
+- getField(String)
+- getFields()
