@@ -19,4 +19,14 @@ Lector de directorios.
 - open(Directory), devuelve un IndexReader que lee el directorio dado.
 - indexExist(Directory), verdadero en caso de existir un índice.
 
-## Index
+## IndexReader
+Clase para el acceso a índices.
+- close()
+- maxDoc(), número máximo de documentos en el índice.
+- numDoc(), número de documentos en el índice.
+- docFrew(Term), número de documentos con el término.
+- totalTermFreq(Term), número de apariciones del término en todos los documentos.
+- getDocCount(string), número de documentos con el string.
+- storeFields(), devuelve un StoredFields.
+	- 
+
