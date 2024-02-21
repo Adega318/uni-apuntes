@@ -40,3 +40,8 @@ Clase para el acceso a índices.
 - get(String)
 - getField(String)
 - getFields()
+
+## IndexReaderContext
+- isTopLevel()
+- ordInParent()
+- 
