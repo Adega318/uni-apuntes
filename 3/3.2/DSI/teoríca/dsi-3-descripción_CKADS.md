@@ -1,6 +1,7 @@
 # El modelo del conocimiento
 Las tareas intensivas en conocimiento son convertidas en modelos de conocimiento.
 ## Construcción de los modelos de conocimiento
+El modelo de conocimiento es compuesto 
 ## Plantillas de modelos de conocimiento
 ## Conocimiento de la tarea
 ## Conocimiento inferencial
