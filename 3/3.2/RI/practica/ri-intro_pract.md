@@ -33,3 +33,6 @@ Clase para el acceso a índices.
 - termVectors(), devuelve un TermVectors.
 	- get(int), devuelve el vector de términos del documento.
 	- get(int, string), devuelve el vector de términos del documento y campo indicado.
+- leaves(), devuelve las hojas del reader.
+- getContext(), devuelve la raíz del árbol de readers.
+- 
