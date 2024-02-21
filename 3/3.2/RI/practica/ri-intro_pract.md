@@ -11,5 +11,12 @@
 - Frase queris, querys donde se da importancia a la distancia entre los términos, para lo cual almacenamos las posiciones donde aparece la palabra y se calcula la distancia entre los términos.
 # Lucene
 ## Term
-Representación de una palabra del texto.
-- compareTo(term), compara dos terminos 
+Representación de una palabra del texto, compuesto por dos valores, el texto y donde aparece.
+- compareTo(term), compara dos términos.
+
+## DirectoryReader
+Lector de directorios.
+- open(Directory), devuelve un IndexReader que lee el directorio dado.
+- indexExist(Directory), verdadero en caso de existir un índice.
+
+## Index
