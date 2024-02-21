@@ -44,4 +44,16 @@ Clase para el acceso a índices.
 ## IndexReaderContext
 - isTopLevel()
 - ordInParent()
+
+## LeafReaderContext
+- children()
+- leaves()
+- fields()
+- terms()
+- postings()
+
+## Terms
+- iterator(TermsEnum)
+- size()
+- getDocCount()
 - 
