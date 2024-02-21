@@ -43,7 +43,10 @@ Las tareas intensivas en conocimiento son convertidas en modelos de conocimiento
 	- Sintéticas, solución no existente, se debe crear.
 		- Diseño.
 		- Configuración de diseño.
-		- 
+		- Asignación.
+		- Planificación.
+		- Horarios.
+		- Modelado.
 
 ## Conocimiento de la tarea
 ## Conocimiento inferencial
