@@ -56,4 +56,12 @@ Clase para el acceso a índices.
 - iterator(TermsEnum)
 - size()
 - getDocCount()
+
+## TermsEnum
+- docFreq()
+- term()
+- totalTermFreq()
+- postings()
+
+## PostingsEnum
 - 
