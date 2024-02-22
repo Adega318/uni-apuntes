@@ -1,19 +1,4 @@
-# Razonamiento clásico
-## Dominios
-- Categóricos
-- Estadísticos
-- Cuasiestadísticos
-- Difusos
-- Reales
-
-## Proceso
-- Recopilación de información
-- Análisis de la importancia relativa de las manifestaciones
-- Análisis de posibles causas
-- Exclusión una a una de posibles interpretaciones
-- Resultado
-	- Sin solución
-	- Unica solución
-	- Multiples soluciones
-
-## Elementos del razonamiento
+# Métodos Categóricos
+i2 -> i1
+i1 & !i2 -> m2
+i2 & !i1 -> !m2
