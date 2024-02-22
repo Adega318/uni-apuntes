@@ -29,6 +29,8 @@ Para reducir estos errores podemos usar varias técnicas:
 	- Reduce la varianza a costa de un alto sesgo.
 	- Reduce la complejidad usada de la red, permitiendo menor ajuste.
 
+## Preporcesado de datos
+Proceso de mejorar la calidad de los datos del dataset para potenciar las caracteristicas interasntes para el entranamiento del 
 # Regresión logística
 # Máquinas de vectores de soporte
 # Árboles de decisión
