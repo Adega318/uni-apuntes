@@ -33,14 +33,18 @@ Para reducir estos errores podemos usar varias técnicas:
 Proceso de mejorar la calidad de los datos del dataset para potenciar las características interesantes para el entrañamiento del sistema.
 ### Transformaciones
 #### Limpieza de datos
-- Eliminación de datos que faltan.
+- Datos nulos.
 	- Eliminación de la tupla.
 	- Rellenar con datos a mano.
 	- Usar una variable unknown.
 	- Usar la media del atributo en el dataset.
 	- Usar predicción para rellenar el dato.
-- Suavizado del ruido.
-	- Binning,
+- Datos con ruido.
+	- Binning, se dividen los datos en una serie de bins a los que se calcula su media y se le da a todos los elementos el mismo valor.
+	- Clustering, se agrupan los datos similares en grupos, permitiendo eliminar los datos fuera de rango.
+	- Regresión, se crea una recta que se ajusta a los datos.
+- Normalización, creación de una escala general para facilitar el aprendizaje.
+	- Min/max, sé plasman los valores en un rango, $v'=\frac{}{}$
 - Eliminación de datos fuera de rango.
 - Corrección de inconsistencias.
 
