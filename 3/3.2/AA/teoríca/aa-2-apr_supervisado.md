@@ -51,7 +51,7 @@ Proceso de mejorar la calidad de los datos del dataset para potenciar las caract
 - Generalización, sustitución de datos precisos por datos más abstractos y sencillos.
 
 #### Reducción de datos
-- 
+- Análisis de componentes principales (PCA)
 
 # Regresión logística
 # Máquinas de vectores de soporte
