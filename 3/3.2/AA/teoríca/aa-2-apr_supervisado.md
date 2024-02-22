@@ -54,6 +54,17 @@ Proceso de mejorar la calidad de los datos del dataset para potenciar las caract
 - Análisis de componentes principales (PCA)
 - Análisis de componentes independientes (ICA), técnica para obtener las fuentes originales sin datos extra.
 
+## Evaluación de sistemas
+### Clasificadores
+
+|        | Predicción |
+| ------ | ---------- |
+| Real N |            |
+|        |            |
+
+- $VPP=\frac{VP}{VP+VF}$
+- $VPN=\frac{VN}{VN+FN}$
+- 
 # Regresión logística
 # Máquinas de vectores de soporte
 # Árboles de decisión
