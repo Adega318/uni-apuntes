@@ -15,3 +15,5 @@
 	- Sin solución
 	- Unica solución
 	- Multiples soluciones
+
+## Elementos del razonamiento
