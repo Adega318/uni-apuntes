@@ -52,6 +52,7 @@ Proceso de mejorar la calidad de los datos del dataset para potenciar las caract
 
 #### Reducción de datos
 - Análisis de componentes principales (PCA)
+	- 
 
 # Regresión logística
 # Máquinas de vectores de soporte
