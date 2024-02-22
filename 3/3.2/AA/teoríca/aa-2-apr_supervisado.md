@@ -64,7 +64,7 @@ Proceso de mejorar la calidad de los datos del dataset para potenciar las caract
 
 - $VPP=\frac{VP}{VP+VF}$
 - $VPN=\frac{VN}{VN+FN}$
-- $F_{1}=(\frac{recall^{-1}+ precision^{-1}}{})$
+- $\Large F_{1}=(\frac{recall^{-1}+ precision^{-1}}{2})^{-1}$
 # Regresión logística
 # Máquinas de vectores de soporte
 # Árboles de decisión
