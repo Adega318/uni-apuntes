@@ -7,4 +7,6 @@ m1 || m2 -> i1 || i2
 !i2 V m1
 !i1 V i2 V m2
 i1 V !i2 V !m2
-[!m1 ^ !m2]
+\[!m1 ^ !m2\] V i1 V i2
+
+## Proceso sistematico de modelado categórico
