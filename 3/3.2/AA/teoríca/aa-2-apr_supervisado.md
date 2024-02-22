@@ -52,7 +52,7 @@ Proceso de mejorar la calidad de los datos del dataset para potenciar las caract
 
 #### Reducción de datos
 - Análisis de componentes principales (PCA)
-	- 
+- Análisis de componentes independientes (ICA), técnica para obtener las fuentes originales sin datos extra.
 
 # Regresión logística
 # Máquinas de vectores de soporte
