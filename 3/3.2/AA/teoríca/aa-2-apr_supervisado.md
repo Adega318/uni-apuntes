@@ -30,7 +30,20 @@ Para reducir estos errores podemos usar varias técnicas:
 	- Reduce la complejidad usada de la red, permitiendo menor ajuste.
 
 ## Preporcesado de datos
-Proceso de mejorar la calidad de los datos del dataset para potenciar las caracteristicas interasntes para el entranamiento del 
+Proceso de mejorar la calidad de los datos del dataset para potenciar las características interesantes para el entrañamiento del sistema.
+### Transformaciones
+- Limpieza de datos.
+	- Eliminación de datos que faltan.
+		- Eliminación de la tupla.
+		- Rellenar con datos a mano.
+		- 
+	- Suavizado del ruido.
+	- Eliminación de datos fuera de rango.
+	- Corrección de inconsistencias.
+- Normalización
+- Agregación
+- Generalización
+- Construcción de atributos
 # Regresión logística
 # Máquinas de vectores de soporte
 # Árboles de decisión
