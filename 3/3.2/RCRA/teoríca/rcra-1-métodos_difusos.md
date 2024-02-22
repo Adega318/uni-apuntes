@@ -63,3 +63,5 @@ $\forall A \subset U:A\_difuso\leftrightarrow$
 
 # Control difuso
 El proceso de control difuso se basa en la codificación, base de conocimiento, motor de inferencia y descodificación.
+# Métodos formales de representación del conocimiento
+- 
