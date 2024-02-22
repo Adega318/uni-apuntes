@@ -32,18 +32,18 @@ Para reducir estos errores podemos usar varias técnicas:
 ## Preporcesado de datos
 Proceso de mejorar la calidad de los datos del dataset para potenciar las características interesantes para el entrañamiento del sistema.
 ### Transformaciones
-- Limpieza de datos.
-	- Eliminación de datos que faltan.
-		- Eliminación de la tupla.
-		- Rellenar con datos a mano.
-		- 
-	- Suavizado del ruido.
-	- Eliminación de datos fuera de rango.
-	- Corrección de inconsistencias.
-- Normalización
-- Agregación
-- Generalización
-- Construcción de atributos
+#### Limpieza de datos
+- Eliminación de datos que faltan.
+	- Eliminación de la tupla.
+	- Rellenar con datos a mano.
+	- Usar una variable unknown.
+	- Usar la media del atributo en el dataset.
+	- Usar predicción para rellenar el dato.
+- Suavizado del ruido.
+	- Binning,
+- Eliminación de datos fuera de rango.
+- Corrección de inconsistencias.
+
 # Regresión logística
 # Máquinas de vectores de soporte
 # Árboles de decisión
