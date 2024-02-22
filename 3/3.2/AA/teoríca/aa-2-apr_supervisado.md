@@ -57,14 +57,14 @@ Proceso de mejorar la calidad de los datos del dataset para potenciar las caract
 ## Evaluación de sistemas
 ### Clasificadores
 
-|        | Predicción |
-| ------ | ---------- |
-| Real N |            |
-|        |            |
+|        | Predicción N | Predicción P |
+| ------ | ------------ | ------------ |
+| Real N | VN           | FP             |
+| Real P | FN             | VP             |
 
 - $VPP=\frac{VP}{VP+VF}$
 - $VPN=\frac{VN}{VN+FN}$
-- 
+- $F_{1}=(\frac{recall^{-1}+ precision^{-1}}{})$
 # Regresión logística
 # Máquinas de vectores de soporte
 # Árboles de decisión
