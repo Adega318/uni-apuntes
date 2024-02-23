@@ -7,3 +7,8 @@ Las complejidades a analizar son:
 Para resolverlas se hace uso de un índice invertido, donde creamos un índice de términos que llevan a documentos.
 (algoritmo de inversión en memoria)
 ### Sorting-based
+Al crear un índice invertido debemos almacenar los términos en un orden, se suelen usar:
+- DocID
+- TermID
+
+### Actualización dinámica
