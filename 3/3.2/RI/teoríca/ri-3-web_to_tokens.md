@@ -32,4 +32,8 @@ Para la tokenización se hace uso de:
 Se puede indexar de múltiples maneras:
 - Bolsa de palabras, siendo de gran simplicidad pero perdiendo información sobre su orden.
 - N-grams, mejora sobre bolsa de palabras donde se almacenan ciertas combinaciones de palabras como una sola.
-- 
+
+## Ley de Zipf
+La frecuencia de una palabra en un dicionario es definida por:
+$\Large f(k;s,N)=\frac{
+\frac{1}{k^{s}}{\sum\limits^{N}_{n=1}(\frac{1}{n^{s}})}$
