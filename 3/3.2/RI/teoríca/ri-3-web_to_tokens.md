@@ -34,6 +34,7 @@ Se puede indexar de múltiples maneras:
 - N-grams, mejora sobre bolsa de palabras donde se almacenan ciertas combinaciones de palabras como una sola.
 
 ## Ley de Zipf
-La frecuencia de una palabra en un dicionario es definida por:
-$\Large f(k;s,N)=\frac{
-\frac{1}{k^{s}}{\sum\limits^{N}_{n=1}(\frac{1}{n^{s}})}$
+La frecuencia de una palabra en un diccionario es definida por:
+$\Large f(k;s,N)=\frac{1/k^{s}}{\sum\limits^{N}_{n=1}(1/n^{s})}$
+Donde k es el ranking de la palabra, N el vocabulario y s un parámetro especifico del lenguaje.
+
