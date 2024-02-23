@@ -33,7 +33,7 @@ Se puede indexar de múltiples maneras:
 - Bolsa de palabras, siendo de gran simplicidad pero perdiendo información sobre su orden.
 - N-grams, mejora sobre bolsa de palabras donde se almacenan ciertas combinaciones de palabras como una sola.
 
-## Ley de Zipf
+### Ley de Zipf
 La frecuencia de una palabra en un diccionario es definida por:
 $\Large f(k;s,N)=\frac{1/k^{s}}{\sum\limits^{N}_{n=1}(1/n^{s})}$
 Donde k es el ranking de la palabra, N el vocabulario y s un parámetro específico del lenguaje.
@@ -41,3 +41,8 @@ Esto nos lleva a definir tres tipos de palabras:
 - Cabeceras, palabras de poca información repetitivas.
 - Colas, mayor cantidad del vocabulario, siendo raras en documentos.
 - Normales, palabras de aparición frecuente con información.
+
+### Normalización
+Conversión de diversos formatos de palabras en una forma canónica.
+### Stremming
+Unión de palabras que por reglas morfológicas pueden ser colapsadas en una misma raíz
