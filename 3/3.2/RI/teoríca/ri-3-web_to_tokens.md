@@ -45,4 +45,4 @@ Esto nos lleva a definir tres tipos de palabras:
 ### Normalización
 Conversión de diversos formatos de palabras en una forma canónica.
 ### Stremming
-Unión de palabras que por reglas morfológicas pueden ser colapsadas en una misma raíz
+Unión de palabras que por reglas morfológicas pueden ser colapsadas en una misma raíz, puede haber problemas en el colapso.
