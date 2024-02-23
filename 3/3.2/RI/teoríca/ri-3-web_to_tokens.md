@@ -36,5 +36,8 @@ Se puede indexar de múltiples maneras:
 ## Ley de Zipf
 La frecuencia de una palabra en un diccionario es definida por:
 $\Large f(k;s,N)=\frac{1/k^{s}}{\sum\limits^{N}_{n=1}(1/n^{s})}$
-Donde k es el ranking de la palabra, N el vocabulario y s un parámetro especifico del lenguaje.
-
+Donde k es el ranking de la palabra, N el vocabulario y s un parámetro específico del lenguaje.
+Esto nos lleva a definir tres tipos de palabras:
+- Cabeceras, palabras de poca información repetitivas.
+- Colas, mayor cantidad del vocabulario, siendo raras en documentos.
+- Normales, palabras de aparición frecuente con información.
