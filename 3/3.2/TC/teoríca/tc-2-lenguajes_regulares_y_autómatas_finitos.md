@@ -6,5 +6,6 @@ Para trabajar sobre estados tenemos que tener en cuenta 5 elementos para su repr
 - $\delta:Q\times\sum\to Q$, función de transición entre estados en función de la entrada.
 - $F\subsetq Q$
 
-Una cadena se considera aceptada si estando en el estado inicial, la entrada de la cadena lleva al estado final.
+Una cadena se considera aceptada si estando en el estado inicial, la entrada de la cadena lleva al estado final. El lenguaje aceptado para un automata M:
+$L(M)=\{w\in\sum^{*}| \delta(s,w)\in F\}$
 
