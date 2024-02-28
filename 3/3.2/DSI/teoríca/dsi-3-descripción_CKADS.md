@@ -49,6 +49,12 @@ Las tareas intensivas en conocimiento son convertidas en modelos de conocimiento
 		- Modelado.
 
 ### Plantillas de tareas
+Para establecer una plantilla se debe realizar una caracterización general:
+- Object, objeto a calificar.
+- Class, grupo de objetos al que pertenece.
+- Attribute, característica observable o inferible.
+- Feature, par atributo-valor.
+
 
 ## Conocimiento de la tarea
 
