@@ -48,7 +48,10 @@ Las tareas intensivas en conocimiento son convertidas en modelos de conocimiento
 		- Horarios.
 		- Modelado.
 
+### Plantillas de tareas
+
 ## Conocimiento de la tarea
+
 ## Conocimiento inferencial
 ## Conocimiento del dominio
 # El modelo de comunicación
