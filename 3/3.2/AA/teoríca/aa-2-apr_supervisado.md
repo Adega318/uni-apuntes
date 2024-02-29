@@ -66,7 +66,13 @@ Proceso de mejorar la calidad de los datos del dataset para potenciar las caract
 - $VPN=\frac{VN}{VN+FN}$
 - $\Large F_{1}=(\frac{recall^{-1}+ precision^{-1}}{2})^{-1}$
 
+Para aplicar estas métricas a clasificaciones con múltiples opciones, la matriz de confusión será dividida usando la técnica de uno contra todos y se calcularán las métricas, siendo combinadas de una de las siguientes maneras:
+- Macro, media de las métricas.
+- Weighted, media ponderada para tener en cuenta datasets desbalanceados.
+- Micro, aplicable para clases no excluyentes.
 
+### Criterios de evaluación de clasificadores
+- Curva ROC, 
 # Regresión logística
 # Máquinas de vectores de soporte
 # Árboles de decisión
