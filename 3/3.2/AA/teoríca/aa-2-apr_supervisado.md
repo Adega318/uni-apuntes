@@ -87,6 +87,7 @@ $\Large K=\frac{P_{0}-P_{e}}{1-P_{e}}$
 
 
 # Regresión logística
+
 # Máquinas de vectores de soporte
 # Árboles de decisión
 # Aprendizaje basado en instancias
