@@ -56,6 +56,7 @@ Proceso de mejorar la calidad de los datos del dataset para potenciar las caract
 
 ## Evaluación de sistemas
 ### Clasificadores
+Para evaluar clasificadores usamos una tabla de confusión donde se cuenta el número de veces que la predicción y la realidad coinciden o difieren.
 
 |        | Predicción N | Predicción P |
 | ------ | ------------ | ------------ |
@@ -72,7 +73,7 @@ Para aplicar estas métricas a clasificaciones con múltiples opciones, la matri
 - Micro, aplicable para clases no excluyentes.
 
 ### Criterios de evaluación de clasificadores
-- Curva ROC, 
+- Curva ROC, curva donde la x es la tasa de falsos positivos e y la de verdaderos positivos; esta curva se puede modificar usando el umbral en la salida.
 # Regresión logística
 # Máquinas de vectores de soporte
 # Árboles de decisión
