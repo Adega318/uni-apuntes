@@ -103,9 +103,16 @@ $\Large e^{z}= \frac{p}{1-p} \to p=\frac{1}{1+e^{-z}}$
 
 En estas operaciones z es representado como un modelo lineal, lo que nos permite interpretarlo y facilita la regularización.
 
-$\Large p=\frac{1}{1+e^{-(b_{0}+\sum b_ix_i)}}$
+$\Large p=\frac{1}{1+e^{-(b_{0}+\sum b_{i}x_{i})}}$
 
 Gracias a la regresión mediante z reducimos los impactos de los valores atípicos, también beneficiando en la normalización dando valores entre 0 y 1.
+
+## Entrenamiento
+Para el entrenamiento se usan técnicas similares a las empleadas en los perceptrones.
+Siendo la maximización para n observaciones:
+$LL = \sum [y\times log(p)+(1-y)\times log(1-p)]$
+Aplicándole una técnica de ascenso del gradiante, siendo la técnica de descenso del gradiante con el signo inverso.
+
 # Máquinas de vectores de soporte
 # Árboles de decisión
 # Aprendizaje basado en instancias
