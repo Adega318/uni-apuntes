@@ -72,8 +72,9 @@ Para aplicar estas métricas a clasificaciones con múltiples opciones, la matri
 - Weighted, media ponderada para tener en cuenta datasets desbalanceados.
 - Micro, aplicable para clases no excluyentes.
 
-### Criterios de evaluación de clasificadores
+Otros criterios en clasificación son:
 - Curva ROC, curva donde la x es la tasa de falsos positivos e y la de verdaderos positivos; esta curva se puede modificar usando el umbral en la salida.
+- Índice Kappa, calculo de la  
 # Regresión logística
 # Máquinas de vectores de soporte
 # Árboles de decisión
