@@ -89,15 +89,23 @@ $\Large K=\frac{P_{0}-P_{e}}{1-P_{e}}$
 # Regresión logística
 Técnica de clasificación basada en el uso de regresiones lineales.
 Para esto usamos el odds, siendo:
-$odds=\frac{p}{1-p}$
-Donde el resultado está entre 0 e 1 indicando la relación entre la probabilidad de acierto y fallo.
+
+$\Large odds=\frac{p}{1-p}$
+
+Donde el resultado está entre 0 y 1 indicando la relación entre la probabilidad de acierto y fallo.
 Para hacer uso del odds, tomamos su logaritmo que lo llamamos logit:
-$logit(p)=\log(\frac{p}{1-p})=z$
+
+$\Large logit(p)=\log(\frac{p}{1-p})=z$
+
 Despejamos la probabilidad del logit:
-$e^{z}= \frac{p}{1-p} \to p=\frac{1}{1+e^{-z}}$
+
+$\Large e^{z}= \frac{p}{1-p} \to p=\frac{1}{1+e^{-z}}$
 
 En estas operaciones z es representado como un modelo lineal, lo que nos permite interpretarlo y facilita la regularización.
 
+$\Large p=\frac{1}{1+e^{-(b_{0}+\sum b_ix_i)}}$
+
+Gracias a la regresión mediante z reducimos los impactos de los valores atípicos, también beneficiando en la normalización dando valores entre 0 y 1.
 # Máquinas de vectores de soporte
 # Árboles de decisión
 # Aprendizaje basado en instancias
