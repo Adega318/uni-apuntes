@@ -8,3 +8,7 @@ $\Large P(f)=\frac{N(f)}{N}$
 - N(f) número de elementos del universo en f.
 
 $\Large P(Dj)=\frac{N(Dj)}{N}$
+
+
+Expresión generalizada del teorema de Bayes:
+$\Large P(A_{0}/E)=\frac{P(E/A_{0})P(A)}{\sum\limits_{i} P(E/A_{i})P(A_{i})}$
