@@ -74,15 +74,17 @@ Para aplicar estas métricas a clasificaciones con múltiples opciones, la matri
 
 Otros criterios en clasificación son:
 - Curva ROC, curva donde la x es la tasa de falsos positivos e y la de verdaderos positivos; esta curva se puede modificar usando el umbral en la salida.
-- Índice Kappa, cálculo de la probabilidad aciertos aleatorios.
+- Índice Kappa, cálculo de la probabilidad, aciertos aleatorios.
 
 | A\B      | Negativo | Positivo |
 | -------- | -------- | -------- |
 | Negativo | a        | b        |
 | Positivo | c        | d        |
+
 $\Large P_{e}= \frac{(a+b)\times(a+c)+(c+d)\times(b+d)}{n^{2}}$
-$P_{0}= \frac{a+d}{n}$
-$K=\frac{P_{0}-P_{e}}{1-P_{e}}$
+$\Large P_{0}= \frac{a+d}{n}$
+$\Large K=\frac{P_{0}-P_{e}}{1-P_{e}}$
+
 
 # Regresión logística
 # Máquinas de vectores de soporte
