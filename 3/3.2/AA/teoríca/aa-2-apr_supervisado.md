@@ -87,7 +87,12 @@ $\Large K=\frac{P_{0}-P_{e}}{1-P_{e}}$
 
 
 # Regresión logística
-
+Técnica de clasificación basada en el uso de regresiones lineales.
+Para esto usamos el odds, siendo:
+$odds=\frac{p}{1-p}$
+Donde el resultado está entre 0 e 1 indicando la relación entre la probabilidad de acierto y fallo.
+Para hacer uso del odds, tomamos su logaridmo que lo llamamos logit:
+$logit$
 # Máquinas de vectores de soporte
 # Árboles de decisión
 # Aprendizaje basado en instancias
