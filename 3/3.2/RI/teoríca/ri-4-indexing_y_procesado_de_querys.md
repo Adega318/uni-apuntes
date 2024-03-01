@@ -24,3 +24,7 @@ Los principales sistemas de compresión son:
 - Bit-Aligned, almacenamiento de números usando el 0 como separador.
 - Elias-y, cálculo del número usando kd y kr, mírate la diapo.
 - Elias-delta, versión de elias-y con mejor desempeñó para números grandes.
+
+```note!
+mirar porque elias-delta toma (log2((log2K)+1))+1
+```
