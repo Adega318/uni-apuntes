@@ -35,3 +35,5 @@ mirar porque elias-delta toma 2log2(log2 K) +log2(k)
 ```
 Leer Croft seción 3.51 codificación UTF-8
 ```
+
+- Skip Pointers, punteros introducidos al comienzo de una posting list para saltar a documentos de manera rápida.
