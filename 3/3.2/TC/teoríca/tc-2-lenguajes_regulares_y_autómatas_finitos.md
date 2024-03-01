@@ -11,3 +11,5 @@ $L(M)=\{w\in\sum^{*}| \delta(s,w)\in F\}$
 # Autómata finito no determinista (AFN)
 Autómatas que para una misma cadena puede tener varios resultados. Los no deterministas cambian su función de transición al dar un conjunto de estados en lugar de uno único.
 Las transiciones paran a ser un paso de carácter a conjunto de estados, considerando la cadena como aceptada si alguno de los estados en el conjunto es un estado final.
+# Equivalencias entre AFN y AFD
+Tanto los autómatas deterministas como no deterministas pueden procesar los lenguajes reales, teniendo la distinción el no determinista al poder procesar los irreales.
