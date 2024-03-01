@@ -30,6 +30,7 @@ mirar porque elias-delta toma 2log2(log2 K) +log2(k)
 ```
 
 - Byte-Aligned, sistema de codificación con códigos de 1 a 4 bytes.
+	- V-byte, uso del número más significativo para indicar si se debe leer otro byte, siendo el uno el indicativo de último byte y 0 de no último (**0**0000001**1**0000011, el primer 0 indica seguir leyendo y el uno del segundo byte fin)
 
 ```
 Leer Croft seción 3.51 codificación UTF-8
