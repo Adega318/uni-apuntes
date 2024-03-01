@@ -15,3 +15,4 @@ Las transiciones paran a ser un paso de carácter a conjunto de estados, conside
 Tanto los autómatas deterministas como no deterministas pueden procesar los lenguajes reales, teniendo la distinción el no determinista al poder procesar los irreales.
 # Autómata finito no determinista con transiciones épsilon (AFN-$\epsilon$)
 Autómatas no determina con la capacidad de realizar transiciones con cadenas vacías, tomando el camino vacío antes de procesar ningún símbolo.
+# Autómatas finitos y expresiones regulares
