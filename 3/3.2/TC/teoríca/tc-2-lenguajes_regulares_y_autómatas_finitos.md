@@ -9,4 +9,5 @@ Para trabajar sobre estados tenemos que tener en cuenta 5 elementos para su repr
 Una cadena se considera aceptada si estando en el estado inicial, la entrada de la cadena lleva al estado final. El lenguaje aceptado para un autómata M:
 $L(M)=\{w\in\sum^{*}| \delta(s,w)\in F\}$
 # Autómata finito no determinista (AFN)
-Autómatas que para una misma cadena puede tener varios resultados. Los no deterministas cambian su función de transición al dar 
+Autómatas que para una misma cadena puede tener varios resultados. Los no deterministas cambian su función de transición al dar un conjunto de estados en lugar de uno único.
+Las transiciones paran a ser un paso de carácter a conjunto de estados, considerando la cadena como aceptada si alguno de los estados en el conjunto es un estado final.
