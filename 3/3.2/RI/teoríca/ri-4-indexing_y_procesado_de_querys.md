@@ -39,5 +39,7 @@ Leer Croft seción 3.51 codificación UTF-8
 - Skip Pointers, punteros introducidos al comienzo de una posting list para saltar a documentos de manera rápida.
 
 ```
-Leer Croft pag 153-154 expli
+Leer Croft pag 153-154 explicación del problema de dgaps con skip pointers
 ```
+
+### Busqueda con indice invertido
