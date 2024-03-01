@@ -13,5 +13,5 @@ Autómatas que para una misma cadena puede tener varios resultados. Los no deter
 Las transiciones paran a ser un paso de carácter a conjunto de estados, considerando la cadena como aceptada si alguno de los estados en el conjunto es un estado final.
 # Equivalencias entre AFN y AFD
 Tanto los autómatas deterministas como no deterministas pueden procesar los lenguajes reales, teniendo la distinción el no determinista al poder procesar los irreales.
-# Autómata finito no determinista con transiciones epsilon (AFN-$\epsilon$)
-Autómatas no determista con la capacidad de realizar transici
+# Autómata finito no determinista con transiciones épsilon (AFN-$\epsilon$)
+Autómatas no determina con la capacidad de realizar transiciones con cadenas vacías, tomando el camino vacío antes de procesar ningún símbolo.
