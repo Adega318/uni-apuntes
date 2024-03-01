@@ -26,5 +26,11 @@ Los principales sistemas de compresión son:
 - Elias-delta, versión de elias-y con mejor desempeñó para números grandes.
 
 ```note!
-mirar porque elias-delta toma (log2((log2K)+1))+1
+mirar porque elias-delta toma 2log2(log2 K) +log2(k)
+```
+
+- Byte-Aligned, sistema de codificación con códigos de 1 a 4 bytes.
+
+```
+Leer Croft seción 3.51 codificación UTF-8
 ```
