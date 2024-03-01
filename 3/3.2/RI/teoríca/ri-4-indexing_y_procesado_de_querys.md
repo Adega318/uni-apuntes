@@ -42,4 +42,4 @@ Leer Croft seción 3.51 codificación UTF-8
 Leer Croft pag 153-154 explicación del problema de dgaps con skip pointers
 ```
 
-### Busqueda con indice invertido
+### Búsqueda con índice invertido
