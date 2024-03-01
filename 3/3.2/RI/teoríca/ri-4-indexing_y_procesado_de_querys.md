@@ -20,4 +20,5 @@ Al comprimir los índices permitimos el aumento de velocidad de cargado. Los pri
 - Compresión de índices, reducción del tamaño de los gaps entre términos.
 
 Los principales sistemas de compresión son:
-- Delta encoding, 
+- Delta encoding, almacenamiento de los documentos como diferencias con el anterior.
+- Bit-Aligned, 
