@@ -21,4 +21,6 @@ Al comprimir los índices permitimos el aumento de velocidad de cargado. Los pri
 
 Los principales sistemas de compresión son:
 - Delta encoding, almacenamiento de los documentos como diferencias con el anterior.
-- Bit-Aligned, 
+- Bit-Aligned, almacenamiento de números usando el 0 como separador.
+- Elias-y, cálculo del número usando kd y kr, mírate la diapo.
+- 
