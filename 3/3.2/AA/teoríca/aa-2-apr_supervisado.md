@@ -65,7 +65,7 @@ Para evaluar clasificadores usamos una tabla de confusión donde se cuenta el n�
 
 - $VPP=\frac{VP}{VP+VF}$
 - $VPN=\frac{VN}{VN+FN}$
-- $\Large F_{1}=(\frac{recall^{-1}+ precision^{-1}}{2})^{-1}$
+- $\Large F_{1}=2(\frac{recall \times precision}{recall + precision})$
 
 Para aplicar estas métricas a clasificaciones con múltiples opciones, la matriz de confusión será dividida usando la técnica de uno contra todos y se calcularán las métricas, siendo combinadas de una de las siguientes maneras:
 - Macro, media de las métricas.
