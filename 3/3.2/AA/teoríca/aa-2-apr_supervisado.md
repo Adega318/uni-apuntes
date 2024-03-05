@@ -60,8 +60,8 @@ Para evaluar clasificadores usamos una tabla de confusión donde se cuenta el n�
 
 |        | Predicción N | Predicción P |
 | ------ | ------------ | ------------ |
-| Real N | VN           | FP             |
-| Real P | FN             | VP             |
+| Real N | VN           | FP           |
+| Real P | FN           | VP           |
 
 - $VPP=\frac{VP}{VP+VF}$
 - $VPN=\frac{VN}{VN+FN}$
