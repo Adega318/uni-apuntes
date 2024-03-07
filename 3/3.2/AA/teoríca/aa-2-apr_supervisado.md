@@ -127,8 +127,9 @@ Establecimiento de un valor máximo para los parámetros.
 ### Dropout
 Técnica de desactivación de parámetros cuando se vuelven demasiado importantes.
 ### Parada temprana
-Técnica basada en parar el entrenamiento iterativo de manera temprana para evitar el sobre 
+Técnica basada en parar el entrenamiento iterativo de manera temprana para evitar el sobre ajuste.
 # Máquinas de vectores de soporte
+Sistema de clasificación 
 # Árboles de decisión
 # Aprendizaje basado en instancias
 # Evaluación
