@@ -38,8 +38,13 @@ $MD(h,e)=0$
 
 Establecemos un factor de incertidumbre $CF(h,e)= MB(h,e)-MD(h,e)$, siendo un valor entre 1 y -1 siendo el 0 la incertidumbre, cabe destacar que la inversa de CF es $CF(h,e)=-CF(\neg h,e)$
 Para un conjunto de evidencias E el cálculo del CF(h,E) sería:
-$CF(h,E)= \sum\limits^{n}_{i}CFi-\sum\limits^{n}_{i<j}CFi\times CFj + \sum\limits$
+$CF(h,E)= \sum\limits^{n}_{i}CFi-\sum\limits^{n}_{i<j}CFi\times CFj + \sum\limits^{n}_{i<j<k}CFi\times CFj\times CFk - ...$
 
+Esta ecuación da problemas cuando las evidencias no tienen el mismo símbolo, usando en caso de símbolo distinto:
+
+$\Large CF(h, e1e2)= \frac{CF(h,e1)+CF(h,e2)}{1-min\{|CF(h,e1)|,|CF(h,e2)|\}}$
+
+haciendo e
 
 ### Combinación de evidencias
 ### Propagación de incertidumbre
