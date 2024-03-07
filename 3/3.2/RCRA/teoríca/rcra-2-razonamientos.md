@@ -21,6 +21,13 @@ p!e dado a = 1-x
 ## Factores de certidumbre
 ### Aspectos básicos
 En los modelos cuasi-estadísticos se puede representar cualquier sistema lógico como P(li/Sk)=x.
+Esto aplicado a hipótesis nos lleva a que para una dada hipótesis h se tiene una p(h) que al aparecer una evidencia se convierte en p(h/e) siendo p(h/e) > p(h).
+Evidencia que respalda la hipótesis:
+$MB(h,e)>0$
+$MD(h,e)=0$
+$MB(h,e)=\frac{p(h/e)-p(h)}{1-p(h)}$
+Evidencia que refuta:
+
 
 ### Combinación de evidencias
 ### Propagación de incertidumbre
