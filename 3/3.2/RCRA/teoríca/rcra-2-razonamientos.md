@@ -37,12 +37,10 @@ $MB(h,e)=0$
 $MD(h,e)=0$
 
 Establecemos un factor de incertidumbre $CF(h,e)= MB(h,e)-MD(h,e)$, siendo un valor entre 1 y -1 siendo el 0 la incertidumbre, cabe destacar que la inversa de CF es $CF(h,e)=-CF(\neg h,e)$
-Para un conjunto de evidencias E el calculo del CF(h,E) seria:
-$CF(h,e1)+CF(h,e2)+... - CF(h,e1)\times CF(h,e2) \times $
+Para un conjunto de evidencias E el cálculo del CF(h,E) sería:
+$CF(h,e1)+CF(h,e2)+... - CF(h,e1)\times CF(h,e2) \times ... = CF(h,E)$
 
-cf1 = 07
-cf2 = 08
-cf1+cf2 - cf1cf2 = 0,98
+
 ### Combinación de evidencias
 ### Propagación de incertidumbre
 ## Teoría evidencial
