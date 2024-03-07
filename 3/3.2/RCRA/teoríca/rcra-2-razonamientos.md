@@ -23,3 +23,8 @@ p!e dado a = 1-x
 
 ### Combinación de evidencias
 ### Propagación de incertidumbre
+## Teoría evidencial
+### Fundamentos
+### Combinación de evidencias
+### Credibilidad, Plausibilidad, Intervalo de Confianza
+### Casos particulares
