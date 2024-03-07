@@ -129,7 +129,9 @@ Técnica de desactivación de parámetros cuando se vuelven demasiado importante
 ### Parada temprana
 Técnica basada en parar el entrenamiento iterativo de manera temprana para evitar el sobre ajuste.
 # Máquinas de vectores de soporte
-Sistema de clasificación 
+Sistema de clasificación binaria (-1, 1) similar a un perceptron.
+## Problemas linealmente separables
+
 # Árboles de decisión
 # Aprendizaje basado en instancias
 # Evaluación
