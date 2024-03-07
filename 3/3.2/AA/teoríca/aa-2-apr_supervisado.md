@@ -121,7 +121,13 @@ Similar a l1 pero usando los coeficientes al cuadrado, reduciendo los coeficient
 ### Elastic Net
 Modelo que usa en combinación L1 y L2, pudiendo implementar regulación de implicación de cada una.
 ### Tikhonov
-Adición de una matriz multiplicada por la matrid de 
+Complicado.
+### Norma Max
+Establecimiento de un valor máximo para los parámetros.
+### Dropout
+Técnica de desactivación de parámetros cuando se vuelven demasiado importantes.
+### Parada temprana
+Técnica basada en parar el entrenamiento iterativo de manera temprana para evitar el sobre 
 # Máquinas de vectores de soporte
 # Árboles de decisión
 # Aprendizaje basado en instancias
