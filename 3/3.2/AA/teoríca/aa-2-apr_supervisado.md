@@ -112,7 +112,10 @@ Para el entrenamiento se usan técnicas similares a las empleadas en los percept
 Siendo la maximización para n observaciones:
 $LL = \sum [y\times log(p)+(1-y)\times log(1-p)]$
 Aplicándole una técnica de ascenso del gradiante, siendo la técnica de descenso del gradiante con el signo inverso.
-
+## Regularización
+Proceso de evitar el aumento excesivo de ciertos parámetros para evitar el sobre ajuste.
+### Lasso (L1)
+Tecnica que agrega a  la función de conste un termino de penalización que es proporcional al valor absoluto de los coeficientes.
 # Máquinas de vectores de soporte
 # Árboles de decisión
 # Aprendizaje basado en instancias
