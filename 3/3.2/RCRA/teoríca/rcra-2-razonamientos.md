@@ -36,7 +36,7 @@ Evidencia sin correlación:
 $MB(h,e)=0$
 $MD(h,e)=0$
 
-Establecemos un factor de incertidumbre $CF(h,e)= MB(h,e)-MD(h,e)$, siendo un valor entre 1 y -1 siendo el 0 la incertidumbre.
+Establecemos un factor de incertidumbre $CF(h,e)= MB(h,e)-MD(h,e)$, siendo un valor entre 1 y -1 siendo el 0 la incertidumbre, cabe destacar que la inversa de CF es $CF(h,e)=-CF(\neg h,e)$
 ### Combinación de evidencias
 ### Propagación de incertidumbre
 ## Teoría evidencial
