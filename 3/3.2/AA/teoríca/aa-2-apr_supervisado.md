@@ -115,7 +115,9 @@ Aplicándole una técnica de ascenso del gradiante, siendo la técnica de descen
 ## Regularización
 Proceso de evitar el aumento excesivo de ciertos parámetros para evitar el sobre ajuste.
 ### Lasso (L1)
-Tecnica que agrega a  la función de conste un termino de penalización que es proporcional al valor absoluto de los coeficientes.
+Técnica que agrega a la función de coste un término de penalización que es proporcional al valor absoluto de los coeficientes, reduce los valores llevándolos a 0, consiguiendo en algunos casos descartarlos al hacerlos 0.
+### Ridge (L2)
+Similar a l1 pero usando los coeficientes sin valor absoluto, reduciendo los coeficientes sin llevarlos a 0, aumentando la estabilidad.
 # Máquinas de vectores de soporte
 # Árboles de decisión
 # Aprendizaje basado en instancias
