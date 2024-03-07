@@ -115,9 +115,13 @@ Aplicándole una técnica de ascenso del gradiante, siendo la técnica de descen
 ## Regularización
 Proceso de evitar el aumento excesivo de ciertos parámetros para evitar el sobre ajuste.
 ### Lasso (L1)
-Técnica que agrega a la función de coste un término de penalización que es proporcional al valor absoluto de los coeficientes, reduce los valores llevándolos a 0, consiguiendo en algunos casos descartarlos al hacerlos 0.
+Técnica que agrega a la función de coste un término de penalización que es proporcional al valor absoluto de los coeficientes, reduce los valores llevándolos a 0, consiguiendo en algunos casos anular parámetros.
 ### Ridge (L2)
-Similar a l1 pero usando los coeficientes sin valor absoluto, reduciendo los coeficientes sin llevarlos a 0, aumentando la estabilidad.
+Similar a l1 pero usando los coeficientes al cuadrado, reduciendo los coeficientes sin llevarlos a 0, aumentando la estabilidad.
+### Elastic Net
+Modelo que usa en combinación L1 y L2, pudiendo implementar regulación de implicación de cada una.
+### Tikhonov
+Adición de una matriz multiplicada por la matrid de 
 # Máquinas de vectores de soporte
 # Árboles de decisión
 # Aprendizaje basado en instancias
