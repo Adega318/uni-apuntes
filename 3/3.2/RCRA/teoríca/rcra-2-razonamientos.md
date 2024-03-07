@@ -47,7 +47,7 @@ $\Large CF(h, e1e2)= \frac{CF(h,e1)+CF(h,e2)}{1-min\{|CF(h,e1)|,|CF(h,e2)|\}}$
 
 Haciendo el sistema asociativo pero con perdidas.
 ### Propagación de incertidumbre
-
+La propagación 
 
 ## Teoría evidencial
 ### Fundamentos
