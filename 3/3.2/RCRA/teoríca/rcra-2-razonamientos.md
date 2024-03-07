@@ -20,6 +20,7 @@ p!e dado a = 1-x
 # Cuasi-Estadística
 ## Factores de certidumbre
 ### Aspectos básicos
+En los modelos cuasi-estadísticos se puede representar cualquier sistema lógico como P(li/Sk)=x.
 
 ### Combinación de evidencias
 ### Propagación de incertidumbre
