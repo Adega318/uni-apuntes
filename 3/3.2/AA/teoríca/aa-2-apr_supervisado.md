@@ -131,7 +131,12 @@ Técnica basada en parar el entrenamiento iterativo de manera temprana para evit
 # Máquinas de vectores de soporte
 Sistema de clasificación binaria (-1, 1) similar a un perceptron.
 ## Problemas linealmente separables
-Para resolver problemas linealmente separables se define un hiperplano y sus positivos y negativos (márgenes), maximizando la distancia de los márgenes al hiperplano. Los vectores que tocan el margen son llamados de soporte y son definicos por:
+Para resolver problemas linealmente separables se define un hiperplano y sus positivos y negativos (márgenes), maximizando la distancia de los márgenes al hiperplano. Los vectores que tocan el margen son llamados de soporte y son definidos por:
+
+Queriendo optimizar la minimización de:
+$\frac{1}{2}||W||^{2}$
+Para resolverlo se establece un problema dual:
+$L_{D}=$
 
 # Árboles de decisión
 # Aprendizaje basado en instancias
