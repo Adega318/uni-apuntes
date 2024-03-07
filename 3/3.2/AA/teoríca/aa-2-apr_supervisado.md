@@ -137,7 +137,8 @@ Queriendo optimizar la minimización de:
 $\frac{1}{2}||W||^{2}$
 Para resolverlo se establece un problema dual:
 $L_{D}=\sum\limits^{l}_{i=l}\alpha_{i}- \frac{1}{2}\sum\limits^{l}_{i=l}\sum\limits^{l}_{j=l}$
-
+## Problemas no linealmente separables
+Para clasificar se debe de permitir cierta holgura y fallo. Permitimos fallos en la clasificación en la zona de margen del hiperplano, teniendo el parametro C para d
 # Árboles de decisión
 # Aprendizaje basado en instancias
 # Evaluación
