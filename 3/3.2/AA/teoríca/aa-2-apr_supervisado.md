@@ -136,7 +136,7 @@ Para resolver problemas linealmente separables se define un hiperplano y sus pos
 Queriendo optimizar la minimización de:
 $\frac{1}{2}||W||^{2}$
 Para resolverlo se establece un problema dual:
-$L_{D}=$
+$L_{D}=\sum\limits^{l}_{i=l}\alpha_{i}- \frac{1}{2}\sum\limits^{l}_{i=l}\sum\limits^{l}_{j=l}$
 
 # Árboles de decisión
 # Aprendizaje basado en instancias
