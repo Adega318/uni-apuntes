@@ -26,9 +26,17 @@ Evidencia que respalda la hipótesis:
 $MB(h,e)>0$
 $MD(h,e)=0$
 $MB(h,e)=\frac{p(h/e)-p(h)}{1-p(h)}$
+
 Evidencia que refuta:
+$MB(h,e)=0$
+$MD(h,e)>0$
+$MB(h,e)=\frac{p(h)-p(h/e)}{p(h)}$
 
+Evidencia sin correlación:
+$MB(h,e)=0$
+$MD(h,e)=0$
 
+Establecemos un factor de incertidumbre $CF(h,e)= MB(h,e)-MD(h,e)$, siendo un valor entre 1 y -1 siendo el 0 la incertidumbre.
 ### Combinación de evidencias
 ### Propagación de incertidumbre
 ## Teoría evidencial
