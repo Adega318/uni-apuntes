@@ -43,3 +43,8 @@ Leer Croft pag 153-154 explicación del problema de dgaps con skip pointers
 ```
 
 ### Búsqueda con índice invertido
+Para la búsqueda se le aplica a la query el mismo procesado que a los documentos, sobre los elementos de la query obtenidos:
+- Se buscan en el diccionario.
+- Se recupera la posting list
+- Se realiza la operación.
+
