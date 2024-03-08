@@ -16,4 +16,8 @@ Tanto los autómatas deterministas como no deterministas pueden procesar los len
 # Autómata finito no determinista con transiciones épsilon (AFN-$\epsilon$)
 Autómatas no determina con la capacidad de realizar transiciones con cadenas vacías, tomando el camino vacío antes de procesar ningún símbolo.
 # Autómatas finitos y expresiones regulares
-Para dos expresiones regulares se 
+Una expresión regular se puede expresar como un lenguaje el cual puede pasarse a un autómata. Las operaciones serían:
+- Unión, la unión se entendería como un autómata con transición épsilon del estado inicial a los iniciales de los autómatas unidos.
+- Concatenación, transición épsilon de los estados finales del primer automata al inicial del segundo.
+- Estrella, los estados finales del autómata llevan a un estado inicial final del cual hay una transición épsilon al inicio del autómata.
+- 
