@@ -55,4 +55,7 @@ La primera es mucho más eficiente con respecto al uso de memoria, la no hacer u
 ## Optimizaciones
 Para optimizar el proceso se puede leer menos información de las listas invertidas (skip list) o calcular menos documentos (conjunctive processing).
 - Skip list, lectura de querys teniendo en cuenta el tipo de términos para parar la búsqueda de manera temprana, saltándose partes.
+- Conjunctive, ignorado de los documentos que no contienen el total de los términos o la mayoria en función de la predicción de la dificultad de la query.
+
+Por otra parte tenemos los metodos de limite, donde se descartan documentos que no superan una puntuación minima.
 
