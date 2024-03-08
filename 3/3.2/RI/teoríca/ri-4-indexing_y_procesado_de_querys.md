@@ -58,3 +58,7 @@ Para optimizar el proceso se puede leer menos información de las listas inverti
 - Conjunctive, ignorado de los documentos que no contienen el total de los términos o la mayoría en función de la predicción de la dificultad de la query.
 
 Por otra parte, tenemos los métodos de límite, donde se descartan documentos que no superan una puntuación estimada mínima, eliminando los documentos por debajo de la misma. Para el cálculo de la puntuación estimada se puede usar el MaxScore, que toma la puntuación máxima de un término en un documento, permitiendo el descarte de documentos con baja puntuación para uno de los términos.
+
+## Phrase query
+Procesado de querys en la que se trata de mantener la relación entre los términos, la mejor manera es la existencia de índices invertidos de múltiples términos, pero es una opción muy costosa en espacio, siendo necesario el uso de bigrams parciales. Otra solución es el uso de índices con información posicional, permitiendo la búsqueda en los documentos con la condición de las posiciones de los términos en el documento.
+# Correciones
