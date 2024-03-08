@@ -51,4 +51,8 @@ Para el procesamiento de los términos de la query tenemos:
 - Document-At-A-Time, computado de cada documento de manera independiente con el uso de todos los términos para el cómputo de la puntuación de cada documento.
 - Term-At-A-Time, se computa la puntuación de cada término para todos los documentos, acumulándolos en las puntuaciones de los documentos.
 
-La primera es mucho más eficiente con respecto al uso de memoria, la no hacer uso de una tabla de acumuladores y la seguanda tiene un menor haceso a memoria, la no tener que haceder a disco para recuperar las listas invertidas varias vezes.
+La primera es mucho más eficiente con respecto al uso de memoria, la no hacer uso de una tabla de acumuladores y la segunda tiene un menor acceso a memoria, la no tener que acceder a disco para recuperar las listas invertidas varias veces.
+## Optimizaciones
+Para optimizar el proceso se puede leer menos información de las listas invertidas (skip list) o calcular menos documentos (conjunctive processing).
+- Skip list, lectura de querys teniendo en cuenta el tipo de términos para parar la búsqueda de manera temprana, saltándose partes.
+
