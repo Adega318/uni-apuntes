@@ -48,5 +48,5 @@ Para la búsqueda se le aplica a la query el mismo procesado que a los documento
 
 ## Métodos de procesado de términos
 Para el procesamiento de los términos de la query tenemos:
-- Document-At-A-Time
-	- Computado de cada documento de manera independiente con el uso de todos d
+- Document-At-A-Time, computado de cada documento de manera independiente con el uso de todos los términos para el cómputo de cada documento.
+- Term-At-A-Time, computado de cada término para el conjunto de los documentos.
