@@ -16,3 +16,4 @@ Tanto los autómatas deterministas como no deterministas pueden procesar los len
 # Autómata finito no determinista con transiciones épsilon (AFN-$\epsilon$)
 Autómatas no determina con la capacidad de realizar transiciones con cadenas vacías, tomando el camino vacío antes de procesar ningún símbolo.
 # Autómatas finitos y expresiones regulares
+Para dos expresiones regulares se 
