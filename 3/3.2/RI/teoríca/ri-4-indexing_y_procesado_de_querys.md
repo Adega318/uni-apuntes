@@ -61,4 +61,5 @@ Por otra parte, tenemos los métodos de límite, donde se descartan documentos q
 
 ## Phrase query
 Procesado de querys en la que se trata de mantener la relación entre los términos, la mejor manera es la existencia de índices invertidos de múltiples términos, pero es una opción muy costosa en espacio, siendo necesario el uso de bigrams parciales. Otra solución es el uso de índices con información posicional, permitiendo la búsqueda en los documentos con la condición de las posiciones de los términos en el documento.
-# Correciones
+# Correcciones
+Empleo de correcciones en la escritura de la query.
