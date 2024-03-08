@@ -43,4 +43,5 @@ in( ) --> s(((S))) --E--> m[M] --E--> s
 ```
 
 ## Obtención de expresiones por autómata
-Se deconstruye el autómata en sus estados, comenzando por el inicial, representando las interacciones que llevan a un estado final desde el estado actual.
+Se deconstruye el autómata en sus estados, comenzando por el inicial, representando las interacciones que llevan a un estado final desde el estado actual. Los ciclos en este proceso sé sustituyen por estrella, esto viene dado por el lema de Arden $X=A\cdot X\cup B=A^{*}\cdot B$
+
