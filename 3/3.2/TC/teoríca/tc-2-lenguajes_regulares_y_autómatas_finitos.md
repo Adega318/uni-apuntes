@@ -42,5 +42,5 @@ flowchart LR
 in( ) --> s(((S))) --E--> m[M] --E--> s
 ```
 
-## Obtención de expresiones por automata
-Se basa en la des
+## Obtención de expresiones por autómata
+Se deconstruye el autómata en sus estados, comenzando por el inicial, representando las interacciones que llevan a un estado final desde el estado actual.
