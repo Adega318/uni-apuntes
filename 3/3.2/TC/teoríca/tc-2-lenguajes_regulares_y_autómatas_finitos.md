@@ -18,6 +18,13 @@ Autómatas no determina con la capacidad de realizar transiciones con cadenas va
 # Autómatas finitos y expresiones regulares
 Una expresión regular se puede expresar como un lenguaje el cual puede pasarse a un autómata. Las operaciones serían:
 - Unión, la unión se entendería como un autómata con transición épsilon del estado inicial a los iniciales de los autómatas unidos.
+```mermaid
+flowchart LR
+s((S)) --|E|--> [M1]
+s((S) --|E|--> [M2]
+id1((Some text))
+
+```
+
 - Concatenación, transición épsilon de los estados finales del primer automata al inicial del segundo.
 - Estrella, los estados finales del autómata llevan a un estado inicial final del cual hay una transición épsilon al inicio del autómata.
-- 
