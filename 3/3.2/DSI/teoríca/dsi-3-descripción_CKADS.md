@@ -79,7 +79,13 @@ Codificación de la transferencia de un item de información entre el agente de 
 #### Conceptos
 Instancias del dominio que comparten características similares, los conceptos son definidos por atributos, valores que se comparten entre las instancias del dominio.
 #### Relaciones
-Iteraciones entre conceptos.
+Iteraciones entre conceptos:
+- SUBTYPE-OF
+- PART-OF
+- BINARY_RELATION, se establece un titulo de la relación.
+	- No direcional
+	- Direcional
+	- Materializada
 #### Tipos de reglas
 
 ### Base de conocimiento
