@@ -67,8 +67,15 @@ Los roles se dividen en:
 - Dinámicos, entrada y salida de la inferencia en tiempo de ejecución.
 - Estáticos, especificación de la colección de conocimiento del dominio usada por la inferencia.
 
-
 ### Funciones de transferencia
+Codificación de la transferencia de un item de información entre el agente de razonamiento y otro agente del mundo externo.
+
+| Información \\ Iniciativa | Sistema | Externa |
+| ------------------------- | ------- | ------- |
+| Externa                   | Obtain  | Recive  |
+| Interna                   | Present | Provide |
+
 ## Conocimiento del dominio
+
 # El modelo de comunicación
 # Caso de estudio
