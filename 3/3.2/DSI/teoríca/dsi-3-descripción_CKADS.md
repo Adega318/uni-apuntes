@@ -59,7 +59,6 @@ Para establecer una plantilla se debe realizar una caracterización general:
 ## Conocimiento de la tarea
 
 ## Conocimiento inferencial
-
 ### Inferencias
 Las inferencias son pasos de razonamiento menores que componen el problema total.
 ### Roles de conocimiento
@@ -76,6 +75,10 @@ Codificación de la transferencia de un item de información entre el agente de 
 | Interna                   | Present | Provide |
 
 ## Conocimiento del dominio
+### Esquema de dominio
+#### Conceptos
+Instancias del dominio que comparten características similares, los conceptos son definidos por atributos, 
+### Base de conocimiento
 
 # El modelo de comunicación
 # Caso de estudio
