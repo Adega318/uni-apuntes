@@ -82,12 +82,13 @@ Instancias del dominio que comparten características similares, los conceptos s
 Iteraciones entre conceptos:
 - SUBTYPE-OF
 - PART-OF
-- BINARY_RELATION, se establece un titulo de la relación.
-	- No direcional
-	- Direcional
+- BINARY_RELATION, se establece un título de la relación.
+	- No direccional
+	- Direccional
 	- Materializada
-#### Tipos de reglas
 
+#### Tipos de reglas
+Limitaciones establecidas sobre reglas.
 ### Base de conocimiento
 
 # El modelo de comunicación
