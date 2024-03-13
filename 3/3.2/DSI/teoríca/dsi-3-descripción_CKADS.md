@@ -90,6 +90,6 @@ Iteraciones entre conceptos:
 #### Tipos de reglas
 Limitaciones establecidas sobre relaciones entre conceptos.
 ### Base de conocimiento
-
+La base de conocimiento contiene instancias de los tipos de conocimiento definidos en el esquema del dominio.
 # El modelo de comunicación
 # Caso de estudio
