@@ -77,7 +77,11 @@ Codificación de la transferencia de un item de información entre el agente de 
 ## Conocimiento del dominio
 ### Esquema de dominio
 #### Conceptos
-Instancias del dominio que comparten características similares, los conceptos son definidos por atributos, 
+Instancias del dominio que comparten características similares, los conceptos son definidos por atributos, valores que se comparten entre las instancias del dominio.
+#### Relaciones
+Iteraciones entre conceptos.
+#### Tipos de reglas
+
 ### Base de conocimiento
 
 # El modelo de comunicación
