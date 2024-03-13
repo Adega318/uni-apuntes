@@ -88,7 +88,7 @@ Iteraciones entre conceptos:
 	- Materializada
 
 #### Tipos de reglas
-Limitaciones establecidas sobre reglas.
+Limitaciones establecidas sobre relaciones entre conceptos.
 ### Base de conocimiento
 
 # El modelo de comunicación
