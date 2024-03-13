@@ -61,7 +61,12 @@ Para establecer una plantilla se debe realizar una caracterización general:
 ## Conocimiento inferencial
 
 ### Inferencias y roles
-Las inferencias son pasos de raconamiento menores que componen el problema 
+Las inferencias son pasos de razonamiento menores que componen el problema total.
+Los roles son divididos en:
+- Dinámicos, inferencia en tiempo de ejecución.
+- Estáticos, estables en el tiempo y usados para especificar el dominio.
+
+
 ### Roles de conocimiento
 ### Funciones de transferencia
 ## Conocimiento del dominio
