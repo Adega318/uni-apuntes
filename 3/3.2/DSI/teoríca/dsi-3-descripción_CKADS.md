@@ -59,6 +59,10 @@ Para establecer una plantilla se debe realizar una caracterización general:
 ## Conocimiento de la tarea
 
 ## Conocimiento inferencial
+
+### Inferencias
+### Roles de conocimiento
+### Funciones de transferencia
 ## Conocimiento del dominio
 # El modelo de comunicación
 # Caso de estudio
