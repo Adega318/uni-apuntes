@@ -60,7 +60,8 @@ Para establecer una plantilla se debe realizar una caracterización general:
 
 ## Conocimiento inferencial
 
-### Inferencias
+### Inferencias y roles
+Las inferencias son pasos de raconamiento menores que componen el problema 
 ### Roles de conocimiento
 ### Funciones de transferencia
 ## Conocimiento del dominio
