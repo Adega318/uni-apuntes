@@ -133,7 +133,8 @@ Sistema de clasificación binaria (-1, 1) similar a un perceptron.
 ## Problemas linealmente separables
 Para resolver problemas linealmente separables se define un hiperplano y sus positivos y negativos (márgenes), maximizando la distancia de los márgenes al hiperplano; siendo los datos sobre el margen los vectores de soporte.
 ## Problemas no linealmente separables
-Para clasificar se debe de permitir cierta holgura y fallo. Permitimos fallos en la clasificación en la zona de margen del hiperplano, teniendo el parámetro C para elegir la prioridad de los márgenes sobre la holgura. 
+Para clasificar se debe de permitir cierta holgura y fallo. Permitimos fallos en la clasificación en la zona de margen del hiperplano, teniendo el parámetro C para elegir la prioridad de los márgenes sobre la holgura.
+En caso de no querer considera error se proyecta los datos en un hiperespacio para poder usar un hiperplano para separar los datos.
 # Árboles de decisión
 # Aprendizaje basado en instancias
 # Evaluación
