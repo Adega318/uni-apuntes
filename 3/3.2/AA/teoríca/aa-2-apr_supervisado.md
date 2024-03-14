@@ -161,7 +161,7 @@ Algoritmo basado en el ID3 con las siguientes modificaciones:
 - Costes de atributos.
 
 ### CART
-
+Algoritmo basado en nodos que busca maximizar la pureza del sistema. Usando como medida de pureza el índice de Gini, proporcionando la probabilidad de un etiquetado erróneo de acuerdo a la distribución de clases.
 # Aprendizaje basado en instancias
 # Evaluación
 # Metaclasidicadores
