@@ -57,6 +57,7 @@ La teoría evidencial de dempster y shafer:
 - Permite reflejar de forma elegante la falta de conocimiento.
 
 Marco de discernimiento, conjunto finito de todas las hipótesis que se pueden establecer en el dominio del problema, siendo un conjunto exhaustivo de hipótesis mutuamente excluyentes.
+Evidencia, hecho que apoya a un subconjunto del marco de discernimiento con una asignación de verosimilitud de s al subconjunto y 1-s al marco.
 ### Fundamentos
 ### Combinación de evidencias
 ### Credibilidad, Plausibilidad, Intervalo de Confianza
