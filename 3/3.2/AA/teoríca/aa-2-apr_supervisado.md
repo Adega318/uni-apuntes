@@ -152,7 +152,7 @@ Para la representación de decisiones vinarias se usa la disyunción de conjunci
 ## Generación de árboles
 Dado un conjunto de ejemplos clasificados, se genera el árbol de decisión óptimo.
 ### ID3
-El proceso de creación de árbol con ID3 se basa en el concepto de entropía, se seleccionan las distintas características y se calcula las entropías producidas al separar basándose en la característica seleccionada. El cálculo de la entropía es la suma ponderada de las varianzas de las clases cra
+El proceso de creación de árbol con ID3 se basa en el concepto de entropía, se seleccionan las distintas características y se calcula las entropías producidas al separar basándose en la característica seleccionada, el cálculo de la entropía es la suma ponderada de las varianzas ($\log_{2}(casosA/casosB)$) de las clases creadas.
 
 # Aprendizaje basado en instancias
 # Evaluación
