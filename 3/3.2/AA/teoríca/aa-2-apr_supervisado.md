@@ -150,8 +150,9 @@ Las desventajas son:
 Representación del proceso de decisión basándose en condiciones.
 Para la representación de decisiones vinarias se usa la disyunción de conjunciones, la unión de los caminos que llevan a un resultado correcto.
 ## Generación de árboles
-Dado un conjunto de ejemplos clasificados se genera el árbol de decisión óptimo.
+Dado un conjunto de ejemplos clasificados, se genera el árbol de decisión óptimo.
 ### ID3
+El proceso de creación de árbol con ID3 se basa en el concepto de entropía, se seleccionan las distintas características y se calcula las entropías producidas al separar basándose en la característica seleccionada. El cálculo de la entropía es la suma ponderada de las varianzas de las clases cra
 
 # Aprendizaje basado en instancias
 # Evaluación
