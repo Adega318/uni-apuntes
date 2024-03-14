@@ -149,7 +149,10 @@ Las desventajas son:
 # Árboles de decisión
 Representación del proceso de decisión basándose en condiciones.
 Para la representación de decisiones vinarias se usa la disyunción de conjunciones, la unión de los caminos que llevan a un resultado correcto.
-##
+## Generación de árboles
+Dado un conjunto de ejemplos clasificados se genera el árbol de decisión óptimo.
+### ID3
+
 # Aprendizaje basado en instancias
 # Evaluación
 # Metaclasidicadores
