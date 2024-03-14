@@ -50,6 +50,13 @@ Haciendo el sistema asociativo pero con perdidas.
 La propagación 
 
 ## Teoría evidencial
+La teoría evidencial de dempster y shafer:
+- Fuerte base teórica.
+- Permite modelar de forma sencilla la incertidumbre.
+- Permite usar conjuntos de hipótesis.
+- Permite reflejar de forma elegante la falta de conocimiento.
+
+Marco de discernimiento, conjunto finito de todas las hipótesis que se pueden establecer en el dominio del problema, siendo un conjunto exhaustivo de hipótesis mutuamente excluyentes.
 ### Fundamentos
 ### Combinación de evidencias
 ### Credibilidad, Plausibilidad, Intervalo de Confianza
