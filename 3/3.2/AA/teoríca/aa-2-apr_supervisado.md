@@ -149,6 +149,7 @@ Las desventajas son:
 # Árboles de decisión
 Representación del proceso de decisión basándose en condiciones.
 Para la representación de decisiones vinarias se usa la disyunción de conjunciones, la unión de los caminos que llevan a un resultado correcto.
+##
 # Aprendizaje basado en instancias
 # Evaluación
 # Metaclasidicadores
