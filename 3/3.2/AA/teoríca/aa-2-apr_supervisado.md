@@ -138,9 +138,17 @@ En caso de no querer considerar error se proyecta los datos en un hiperespacio p
 ## Ventajas y desventajas
 Las ventajas son:
 - Entrenamiento sencillo.
-- Sin optimos locales.
-- Buen
+- Sin óptimos locales.
+- Buen escalado para espacios de datos altos.
+- Sobreentrenamiento controlable.
+
+Las desventajas son:
+- Necesidad de una función kernel adecuada para la topología de los datos.
+- Ajuste de parámetros laborioso.
+
 # Árboles de decisión
+Representación del proceso de decisión basándose en condiciones.
+Para la representación de decisiones vinarias se usa la disyunción de conjunciones, la unión de los caminos que llevan a un resultado correcto.
 # Aprendizaje basado en instancias
 # Evaluación
 # Metaclasidicadores
