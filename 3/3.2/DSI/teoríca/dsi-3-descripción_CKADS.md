@@ -93,15 +93,12 @@ Limitaciones establecidas sobre relaciones entre conceptos.
 La base de conocimiento contiene instancias de los tipos de conocimiento definidos en el esquema del dominio. Para la definición del conocimiento y permitir su reutilización se hacen uso de ontologías, siendo la descripción formal de conceptos y especificación explícita y formal de una conceptualización.
 # El modelo de comunicación
 El modelo de comunicación específica el intercambio de información entre las tareas llevadas a cabo por diferentes agentes.
-Capas:
-- Plan general, define el diálogo completo entre los agentes.
-- Transacciones individuales, construido por uno a más mensajes.
-- Especificación detallada de los intercambios.
+## Plan de comunicaciones
+Diálogo de alto nivel entre los agentes para realizar una tarea. Las entradas del modelo son:
+- TM, listado de las tareas de cada agente con los elementos de información usados.
+- KM, conjunto de funciones de transferencia.
+- AM, descripción de los agentes.
 
-## Modelo de tareas
-Tareas llevadas a cabo por los agentes considerados.
-## Modelo de conocimiento
-Funciones de transferencia.
-## Modelo de agentes
-Descripción de los agentes relevantes.
+### Actividades
+Para cada agente se selecionan las tareas con intercambio de 
 # Caso de estudio
