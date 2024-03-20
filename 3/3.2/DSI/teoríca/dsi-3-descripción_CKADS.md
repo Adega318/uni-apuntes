@@ -138,3 +138,9 @@ Estos mensajes suelen combinarse de las siguientes maneras:
 
 ### CM-2
 Definición de la transacción con emisores, receptores, items con información, expresión de mensajes y control sobre los mismos.
+## Validación
+Para validar se puede:
+- Recorridos.
+- Revisión por pares.
+- Mago de Oz, simulación de funcionamiento.
+- Usabilidad, evaluación de usabilidad por el usuario.
