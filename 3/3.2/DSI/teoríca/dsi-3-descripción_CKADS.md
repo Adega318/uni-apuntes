@@ -100,5 +100,11 @@ Diálogo de alto nivel entre los agentes para realizar una tarea. Las entradas d
 - AM, descripción de los agentes.
 
 ### Actividades
-Para cada agente se selecionan las tareas con intercambio de 
+Para cada agente se seleccionan las tareas con intercambio de información con otros agentes, para cada tarea se identifican las transferencias agente-agente, el resultado será un diagrama de diálogo (DD).
+### Control de transacciones
+Para el control se crea un diagrama de transición de estados (UML), pudiendo ser representados con pseudo-código con primitivas de control.
+## Transacciones
+Definición de las transacciones de información entre agentes.
+### CM-1
+Formulario de especificación de transacción entre agentes (pag.145)
 # Caso de estudio
