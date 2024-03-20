@@ -92,5 +92,16 @@ Limitaciones establecidas sobre relaciones entre conceptos.
 ### Base de conocimiento
 La base de conocimiento contiene instancias de los tipos de conocimiento definidos en el esquema del dominio. Para la definición del conocimiento y permitir su reutilización se hacen uso de ontologías, siendo la descripción formal de conceptos y especificación explícita y formal de una conceptualización.
 # El modelo de comunicación
+El modelo de comunicación específica el intercambio de información entre las tareas llevadas a cabo por diferentes agentes.
+Capas:
+- Plan general, define el diálogo completo entre los agentes.
+- Transacciones individuales, construido por uno a más mensajes.
+- Especificación detallada de los intercambios.
 
+## Modelo de tareas
+Tareas llevadas a cabo por los agentes considerados.
+## Modelo de conocimiento
+Funciones de transferencia.
+## Modelo de agentes
+Descripción de los agentes relevantes.
 # Caso de estudio
