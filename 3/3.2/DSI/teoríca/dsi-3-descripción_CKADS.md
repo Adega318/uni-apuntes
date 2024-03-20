@@ -113,8 +113,28 @@ Especificación del mensaje usado en las transacciones:
 - Intención, mensaje escrito.
 
 Los propósitos usuales de los mensajes son:
+- Request
+- Require
+- Order
+- Reject-td
+- Propose
+- Offer
+- Agee
+- Reject-ta
+- Ask
+- Replay
 - Inform
-- Order/Report
-- Require/Acept|Reject
-- Reque
+- Report
+
+Estos mensajes suelen combinarse de las siguientes maneras:
+- Inform
+- Order / Report
+- Require / Agree | Reject-ta
+- Request / Propose | Offer | Reject-ta
+- Ask / Replay
+- Agree / Report
+- Offer / Order | Reject
+- Propose / Request | Require | Reject
+
+
 # Caso de estudio
