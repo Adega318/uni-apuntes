@@ -91,8 +91,6 @@ Iteraciones entre conceptos:
 Limitaciones establecidas sobre relaciones entre conceptos.
 ### Base de conocimiento
 La base de conocimiento contiene instancias de los tipos de conocimiento definidos en el esquema del dominio. Para la definición del conocimiento y permitir su reutilización se hacen uso de ontologías, siendo la descripción formal de conceptos y especificación explícita y formal de una conceptualización.
-
-
 # El modelo de comunicación
 
 # Caso de estudio
