@@ -137,5 +137,5 @@ Estos mensajes suelen combinarse de las siguientes maneras:
 - Propose / Request | Require | Reject-td
 
 ### CM-2
-Definición de la transacción con emisores, receptores, items con información, expresión de mensajes y comntrol sobre los mismos.
+Definición de la transacción con emisores, receptores, items con información, expresión de mensajes y control sobre los mismos.
 # Caso de estudio
