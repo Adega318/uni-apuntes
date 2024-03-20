@@ -106,5 +106,15 @@ Para el control se crea un diagrama de transición de estados (UML), pudiendo se
 ## Transacciones
 Definición de las transacciones de información entre agentes.
 ### CM-1
-Formulario de especificación de transacción entre agentes (pag.145)
+Formulario de especificación de transacción entre agentes (pag.145).
+## Nivel de detalle
+Especificación del mensaje usado en las transacciones:
+- Contenido, declaración proposicional.
+- Intención, mensaje escrito.
+
+Los propósitos usuales de los mensajes son:
+- Inform
+- Order/Report
+- Require/Acept|Reject
+- Reque
 # Caso de estudio
