@@ -172,8 +172,17 @@ Los problemas adecuados para los árboles de decisión son aquellos donde los va
 # Aprendizaje basado en instancias
 Clasificación de nueva instancias basándose en similitud con instancias ya clasificadas. Esto se realiza acumulando el conjunto de entrenamiento con el que se comparara el nuevo valor.
 ## K-NN
-Algoritmo que clasifica un nuevo caso en la categoría más frecuente de sus similares. Para el cálculo de las similitudes usamos la distancia euclídea, siendo muy importante la normalización antes del calculo de la distancia.
-$d(x_{i}, x_{j})=\sqrt{\sum\limits_{r=i}^{n}(x_{i}[r]-x_{j}[r])^{2}$
+Algoritmo que clasifica un nuevo caso en la categoría más frecuente de sus similares. Para el cálculo de las similitudes usamos la distancia euclídea, siendo muy importante la normalización antes del cálculo de la distancia.
+
+$d(x_{i}, x_{j})=\sqrt{\sum\limits_{r=i}^{n}(x_{i}[r]-x_{j}[r])^{2}}$
+
+Otras funciones de distancia serían:
+- Manhattan.
+- Minkowski.
+- Coseno.
+
+En este algoritmo el valor k será nuestro número de vecinos usados para el cálculo de la distancia, siendo los k más cercanos.
+
 # Evaluación
 # Metaclasidicadores
 # Redes de neuronas artificiales
