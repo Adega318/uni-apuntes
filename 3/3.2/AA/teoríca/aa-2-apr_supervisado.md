@@ -185,9 +185,13 @@ En este algoritmo el valor k será nuestro número de vecinos usados para el cá
 ### K-NN con rechazo
 Se establece una métrica para asegurar la seguridad del veredicto, suele ser un diferencial entre la clase elegida y las otras opciones.
 ### K-NN con distancia media
-Se hace uso de la distancia de los casos al punto para determinar la clase elegida, priorizando los valores más cercanos.
+Se hace uso de la distancia de los casos al punto para determinar la clase elegida, tomando la clase con la menor distancia media al punto.
 ### K-NN con ponderación de vecinos
 Se pondera los vecinos con su distancia al punto y peso de dicho valor.
+$\Large f'(x)=\frac{\sum\limits^{k}_{i=1}w_{i}f(x_{i})}{\sum\limits^{k}_{i=1}w_{i}}$
+### K-NN con distancia mínima
+Se reducen las clases a un único caso por clase posicionado en la distancia mínima de la clase, este sistema es únicamente usavle para linealmente separables.
+###
 # Evaluación
 # Metaclasidicadores
 # Redes de neuronas artificiales
