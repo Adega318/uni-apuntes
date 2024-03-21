@@ -190,8 +190,9 @@ Se hace uso de la distancia de los casos al punto para determinar la clase elegi
 Se pondera los vecinos con su distancia al punto y peso de dicho valor.
 $\Large f'(x)=\frac{\sum\limits^{k}_{i=1}w_{i}f(x_{i})}{\sum\limits^{k}_{i=1}w_{i}}$
 ### K-NN con distancia mínima
-Se reducen las clases a un único caso por clase posicionado en la distancia mínima de la clase, este sistema es únicamente usavle para linealmente separables.
-###
+Se reducen las clases a un único caso por clase posicionado en la distancia mínima de la clase, este sistema es únicamente para linealmente separables.
+### K-NN con ponderación de variables
+Para el cálculo de la distancia se emplean pesos para establecer la importancia de cada variable en el establecimiento de la similitud entre casos.
 # Evaluación
 # Metaclasidicadores
 # Redes de neuronas artificiales
