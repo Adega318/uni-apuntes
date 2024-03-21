@@ -161,7 +161,9 @@ Algoritmo basado en el ID3 con las siguientes modificaciones:
 - Costes de atributos.
 
 ### CART
-Algoritmo basado en nodos que busca maximizar la pureza del sistema. Usando como medida de pureza el índice de Gini, proporcionando la probabilidad de un etiquetado erróneo de acuerdo a la distribución de clases.
+Algoritmo basado en nodos que busca maximizar la pureza del sistema. Usando como medida de pureza el índice de Gini, proporcionando la probabilidad de un etiquetado erróneo de acuerdo a la distribución de clases. Este proceso se basa en la construcción de árboles donde las hojas contienen las impurezas, siendo la manera de controlar el ajuste se hace uso de la profundidad y anchura máximo del sistema.
+## Usos de árboles
+Los problemas adecuados par los arboles de decisión son aquellos donde los valores sean categoricos y dificiles 
 # Aprendizaje basado en instancias
 # Evaluación
 # Metaclasidicadores
