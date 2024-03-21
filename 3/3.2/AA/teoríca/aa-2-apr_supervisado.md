@@ -163,7 +163,12 @@ Algoritmo basado en el ID3 con las siguientes modificaciones:
 ### CART
 Algoritmo basado en nodos que busca maximizar la pureza del sistema. Usando como medida de pureza el índice de Gini, proporcionando la probabilidad de un etiquetado erróneo de acuerdo a la distribución de clases. Este proceso se basa en la construcción de árboles donde las hojas contienen las impurezas, siendo la manera de controlar el ajuste se hace uso de la profundidad y anchura máximo del sistema.
 ## Usos de árboles
-Los problemas adecuados par los arboles de decisión son aquellos donde los valores sean categoricos y dificiles 
+Los problemas adecuados para los árboles de decisión son aquellos donde los valores sean categóricos y difíciles de codificar, siendo robusta ante errores en datos y datos perdidos. Esto lleva a múltiples ventajas:
+- Facilidad de interpretación, es fácil interpretar el proceso de decisión.
+- Puede funcionar sin todos los datos.
+- Funcionamiento con entradas categóricas.
+- Permite múltiples valores de coste.
+
 # Aprendizaje basado en instancias
 # Evaluación
 # Metaclasidicadores
