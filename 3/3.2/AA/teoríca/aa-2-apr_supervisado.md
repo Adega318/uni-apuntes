@@ -182,7 +182,6 @@ Otras funciones de distancia serían:
 - Coseno.
 
 En este algoritmo el valor k será nuestro número de vecinos usados para el cálculo de la distancia, siendo los k más cercanos.
-
 # Evaluación
 # Metaclasidicadores
 # Redes de neuronas artificiales
