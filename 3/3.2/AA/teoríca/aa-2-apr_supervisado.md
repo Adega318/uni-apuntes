@@ -170,6 +170,9 @@ Los problemas adecuados para los árboles de decisión son aquellos donde los va
 - Permite múltiples valores de coste.
 
 # Aprendizaje basado en instancias
+Clasificación de nueva instancias basándose en similitud con instancias ya clasificadas. Esto se realiza acumulando el conjunto de entrenamiento con el que se comparara el nuevo valor.
+## K-NN
+
 # Evaluación
 # Metaclasidicadores
 # Redes de neuronas artificiales
