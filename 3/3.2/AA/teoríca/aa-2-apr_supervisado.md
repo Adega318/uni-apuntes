@@ -194,7 +194,12 @@ Se reducen las clases a un único caso por clase posicionado en la distancia mí
 ### K-NN con ponderación de variables
 Para el cálculo de la distancia se emplean pesos para establecer la importancia de cada variable en el establecimiento de la similitud entre casos.
 # Evaluación
-Para evaluar un sistema se debe comenzar por evaluar la media y continuar por la desviación típica para ver cuanto varía. Todo esto se realiza sobre el set de test que debe de ser representativo.
+Para evaluar un sistema se debe comenzar por evaluar la media y continuar por la desviación típica para ver cuanto varía. Todo esto se realiza sobre el set de test que debe de ser representativo, para la selección de los datos correspondientes a este conjunto:
+- Hold Out, se seleccionan datos aleatorios para el conjunto de test.
+- Submuestreo aleatorio, se repite hold out multiples veces para no ser dependiente de un único experimento.
+- Bootstrapping, se toma un número de datos del conjunto total, pudiendo repetir dato y se usan los no tomados para el test.
+- Leave k-Out, 
+- Validación cruzada, se realizan experimentos usando como test todos los subconjuntos continuos 
 # Metaclasidicadores
 # Redes de neuronas artificiales
 # Aprendizaje bayesiano
