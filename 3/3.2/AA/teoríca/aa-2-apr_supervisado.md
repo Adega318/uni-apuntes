@@ -199,7 +199,7 @@ Para evaluar un sistema se debe comenzar por evaluar la media y continuar por la
 - Submuestreo aleatorio, se repite hold out multiples veces para no ser dependiente de un único experimento.
 - Bootstrapping, se toma un número de datos del conjunto total, pudiendo repetir dato y se usan los no tomados para el test.
 - Leave k-Out, 
-- Validación cruzada, se realizan experimentos usando como test todos los subconjuntos continuos 
+- Validación cruzada, se realizan experimentos usando como test todos los subconjuntos disjuntos, siendo k el número de subconjuntos sobre el conjunto total de orden aleatorio.
 # Metaclasidicadores
 # Redes de neuronas artificiales
 # Aprendizaje bayesiano
