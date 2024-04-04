@@ -202,8 +202,13 @@ Para evaluar un sistema se debe comenzar por evaluar la media y continuar por la
 - Validación cruzada, se realizan experimentos usando como test todos los subconjuntos disjuntos, siendo k el número de subconjuntos sobre el conjunto total de orden aleatorio.
 
 Para la comparación de modelos tenemos múltiples tipos de test:
-- T-test
-- Wilcoxon
+- Test de comparación simple
+	- T-test
+	- Wilcoxon
+- Test de comparación múltiple
+	- ANOVA
+	- Kruskal-Wallis
+
 # Metaclasidicadores
 # Redes de neuronas artificiales
 # Aprendizaje bayesiano
