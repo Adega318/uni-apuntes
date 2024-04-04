@@ -200,6 +200,12 @@ Para evaluar un sistema se debe comenzar por evaluar la media y continuar por la
 - Bootstrapping, se toma un número de datos del conjunto total, pudiendo repetir dato y se usan los no tomados para el test.
 - Leave k-Out, 
 - Validación cruzada, se realizan experimentos usando como test todos los subconjuntos disjuntos, siendo k el número de subconjuntos sobre el conjunto total de orden aleatorio.
+
+Para la comparación de modelos:
+1. Definir la hipótesis nula ($H_0$)
+2. Selección de la media de discrepancia.
+3. Elección de nivel de significación del test ($\alpha$)
+4. Definición de 
 # Metaclasidicadores
 # Redes de neuronas artificiales
 # Aprendizaje bayesiano
