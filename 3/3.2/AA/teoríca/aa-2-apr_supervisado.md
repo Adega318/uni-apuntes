@@ -210,5 +210,6 @@ Para la comparación de modelos tenemos múltiples tipos de test:
 	- Kruskal-Wallis
 
 # Metaclasidicadores
+
 # Redes de neuronas artificiales
 # Aprendizaje bayesiano
