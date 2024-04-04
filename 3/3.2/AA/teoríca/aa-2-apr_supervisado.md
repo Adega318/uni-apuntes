@@ -194,6 +194,7 @@ Se reducen las clases a un único caso por clase posicionado en la distancia mí
 ### K-NN con ponderación de variables
 Para el cálculo de la distancia se emplean pesos para establecer la importancia de cada variable en el establecimiento de la similitud entre casos.
 # Evaluación
+Para evaluar un sistema se debe comenzar por evaluar la media y continuar por la desviación típica para ver cuanto varia.
 # Metaclasidicadores
 # Redes de neuronas artificiales
 # Aprendizaje bayesiano
