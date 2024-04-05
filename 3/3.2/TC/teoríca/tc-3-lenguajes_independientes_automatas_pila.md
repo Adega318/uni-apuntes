@@ -1,3 +1,3 @@
 # Gramáticas y lenguajes regulares
 Los lenguajes independientes del contexto son más amplios que los regulares, incluyéndolos.
-Una gramática regul
+Una gramática regular es una colección de un conjunto de símbolos no terminales o variables (N), conjunto finito de símbolos terminales o alfabeto ($\sum$), un conjunto finito de producciones o reglas de reescritura (P) y un símbolo destacado de N, inicial de la gramática (S).
