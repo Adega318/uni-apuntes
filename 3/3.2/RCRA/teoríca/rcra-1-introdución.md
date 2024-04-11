@@ -6,4 +6,10 @@ Para representar estas variables tenemos tres tipos:
 - Aciones, operaciones que cambian el estado de un fluente.
 - Situaciones, términos para la representación de estados concretos en una línea temporal de razonamiento.
 - Escenarios, conjunto de fluentes, aciones, estados y situaciones.
-- 
+
+## Tipos de problemas
+- Simulación, con un conjunto de acciones sobre el estado inicial, resulta en uno o varios estados finales.
+- Explicación temporal, basándose en datos del estado final, obtener las aciones realizadas.
+- Planificación, creación de un conjunto de aciones para pasar de un estado inicial a un final, completo o parcial.
+- Diagnóstico, explicación sencilla de la aparición de un resultado inesperado.
+- Verificación, 
