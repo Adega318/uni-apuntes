@@ -7,6 +7,7 @@ Las principales arquitecturas son:
 - Bidireccionales
 
 ## Tipos de entrenamiento
+A la hora de entrenar en función del número de datos etiquetados podemos usar:
 - Puramente supervisado, se requiere de todos los datos supervisados.
 - No supervisado en cada capa y supervisado en el nivel más alto, uso de datos etiquetados para el entrenamiento del clasificador final.
 - No supervisado en cada capa y supervisado global, adición de una capa supervisada para un entrenamiento global.
