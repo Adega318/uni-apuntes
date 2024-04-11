@@ -6,6 +6,10 @@ Las principales arquitecturas son:
 - Feed-Back
 - Bidireccionales
 
-## Tipos d
+## Tipos de entrenamiento
+- Puramente supervisado, se requiere de todos los datos supervisados.
+- No supervisado en cada capa y supervisado en el nivel más alto, uso de datos etiquetados para el entrenamiento del clasificador final.
+- No supervisado en cada capa y supervisado global, adición de una capa supervisada para un entrenamiento global.
+
 # Redes convolucionales
 # Modelos avanzados
