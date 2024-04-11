@@ -12,4 +12,5 @@ Para representar estas variables tenemos tres tipos:
 - Explicación temporal, basándose en datos del estado final, obtener las aciones realizadas.
 - Planificación, creación de un conjunto de aciones para pasar de un estado inicial a un final, completo o parcial.
 - Diagnóstico, explicación sencilla de la aparición de un resultado inesperado.
-- Verificación, 
+- Verificación, comprobación de propiedades de un sistema.
+
