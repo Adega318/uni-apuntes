@@ -4,4 +4,6 @@ Para razonar sobre acciones y cambios se comienza pro establecer los símbolos q
 Para representar estas variables tenemos tres tipos:
 - Fluentes, sistemas con características que varían a lo largo del tiempo.
 - Aciones, operaciones que cambian el estado de un fluente.
-- Situaciones, términos para la representación de estados concretos.
+- Situaciones, términos para la representación de estados concretos en una línea temporal de razonamiento.
+- Escenarios, conjunto de fluentes, aciones, estados y situaciones.
+- 
