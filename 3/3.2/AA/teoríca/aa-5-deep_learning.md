@@ -12,5 +12,6 @@ A la hora de entrenar en función del número de datos etiquetados podemos usar:
 - No supervisado en cada capa y supervisado en el nivel más alto, uso de datos etiquetados para el entrenamiento del clasificador final.
 - No supervisado en cada capa y supervisado global, adición de una capa supervisada para un entrenamiento global.
 
+El entrenamiento de estas redes tienen un problema a causa de la perdiada de la señal del backpropagation en causa de ua
 # Redes convolucionales
 # Modelos avanzados
