@@ -22,6 +22,9 @@ Para hacer el aprendizaje no supervisado de capas hacemos uso del greedy layer-w
 Tipo de redes diseñadas para reconover patrones visuales directamente de los pixeles con un preprocesado minimo.
 Las capas que componen estas redes se pueden caracterizar en tres tipos:
 - Convolucionales, cada neurona toma datos de un conjunto cuadarado de la capa anterior realizando una convolución sobre las mismas.
-- Max-Pooling
-- Totalmente conectadas
+- Max-Pooling, se reduce los valores de un cuadrado de la capa anterior a un unico dato que va a la neurona de la siguiente capa.
+- Totalmente conectadas, conecta con todas las neuronas de la capa anterior.
+
+## Entrenamiento
+El proceso de entrenamiento se basa en la propagación acia atras, requeriendo de grandes conjuntos de datos etiquetados.
 # Modelos avanzados
