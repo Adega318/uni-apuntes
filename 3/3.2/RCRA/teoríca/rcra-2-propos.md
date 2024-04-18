@@ -11,3 +11,4 @@
 - $(\alpha)$
 
 ## Semantica
+# Razonamiento proposicional
