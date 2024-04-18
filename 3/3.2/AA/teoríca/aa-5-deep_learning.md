@@ -19,4 +19,5 @@ Para hacer el aprendizaje no supervisado de capas hacemos uso del greedy layer-w
 - Deep Belief Networks, redes con el uso de capas con conexiones bidireccionales, permitiendo alimentarle datos para obtener una salida e invertir el flujo para comprobar que se recuperan los datos originales.
 
 # Redes convolucionales
+Tipo de redes diseñadas para reconover patrones visuales directamente de los pixeles con un preprocesado minimo.
 # Modelos avanzados
