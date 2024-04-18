@@ -20,4 +20,8 @@ Para hacer el aprendizaje no supervisado de capas hacemos uso del greedy layer-w
 
 # Redes convolucionales
 Tipo de redes diseñadas para reconover patrones visuales directamente de los pixeles con un preprocesado minimo.
+Las capas que componen estas redes se pueden caracterizar en tres tipos:
+- Convolucionales, cada neurona toma datos de un conjunto cuadarado de la capa anterior realizando una convolución sobre las mismas.
+- Max-Pooling
+- Totalmente conectadas
 # Modelos avanzados
