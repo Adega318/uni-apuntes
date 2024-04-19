@@ -12,4 +12,8 @@ P(D|Q) = P(D/\\Q)/P(Q)
 P(Q|D) = P(D/\\Q)/P(D)
 P(D|Q)P(Q)=P(Q|D)P(D)
 siendo P(Q|D) el query likihod
-Para estimar la probabilidad 
+
+Podemos establecer la probabilidad de un documento en función de la query como:
+$P(D|Q)=P(Q|D)P(D)$
+
+Para estimar la probabilidad de un documento se puede usar una equitativa entre todos los documentos o algun tipo de metrica de calidad.
