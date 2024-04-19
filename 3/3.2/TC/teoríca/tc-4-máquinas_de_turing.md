@@ -11,3 +11,4 @@ Una máquina de turing consta de siete elementos:
 # Lenguajes y MT
 El lenguaje aceptado por una MT es definido por:
 $L(M)=\{w\in\sum^*|sw\vdash^*w_1pw_2\ donde\ p\in F \ w_1,w_2\in\varGamma^*\}$
+# Construcción de máquinas
