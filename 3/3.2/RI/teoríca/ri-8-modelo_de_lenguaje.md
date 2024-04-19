@@ -27,10 +27,13 @@ Para optener la probabilidad de un termino en un documento se hace uso de la div
 A las palabras con probabilidad 0 en el documento se le aplica cierta probabilidad para así redistribuir las probabilidades evitando las 0.
 Para suavizar podemos:
 - Additive, aplica un suavizado general.
-$\Large p(w|d)=\frac{c(w,d)+1}{|d|+|V|}$
+$\large p(w|d)=\frac{c(w,d)+1}{|d|+|V|}$
 - Referencia, en caso de no estar en el documento dar el valor de la probabilidad en REF, documento de referencia.
-$\Large\alpha_d=\frac{1-\sum_{w\in d}p(w|d)}{\sum_{v\notin d}p(w|REF)}$
-$\Large p(w|d)=\alpha_dp(w|REF)$
+$\large\alpha_d=\frac{1-\sum_{w\in d}p(w|d)}{\sum_{v\notin d}p(w|REF)}$
+$\large p(w|d)=\alpha_dp(w|REF)$
 - Descuento absoluto, refuce una cantidad constante de todos los terminos.
-- Jelinek-Mercer, 
-$\Large p(w|d)=(1-\lambda)\frac{c(w,d)}{|d|}+\lambda p(w|REF)$
+$\large p(w|d)=\frac{max(c(w,d)-\delta , 0)+\delta |d|_u p(w|REF)}{|d|}$
+- Jelinek-Mercer, usa un parametro lambda para ponderar la importancia de la coleción y el documento.
+$\large p(w|d)=(1-\lambda)\frac{c(w,d)}{|d|}+\lambda p(w|REF)$
+- Dirichlet,  
+$\large p(w|d)=\frac{c(w,d)+\mu\frac{c(w,C)}{|C|}}{|d|+\mu}$
