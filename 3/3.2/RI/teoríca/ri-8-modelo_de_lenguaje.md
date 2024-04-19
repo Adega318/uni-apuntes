@@ -21,3 +21,4 @@ Para estimar la probabilidad de un documento se puede usar una equitativa entre 
 Para estimar la probabilidad de la query en base al documento como:
 $Q_i$, termino numero i de la query.
 $\log p(Q|D)=\displaystyle\sum_i \log p(Q_i|D)$
+Para optener la probabilidad de un termino en un documento se hace uso de la división del tf del termino y el número de terminos del documento, esto se le hace llamado estimación MLE, teniendo el probelma de la perdida de los sinonimos y relaciones sintacticas, para evitar esto se hace uso de tecnicas de smoothing.
