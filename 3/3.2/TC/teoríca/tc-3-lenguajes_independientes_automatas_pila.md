@@ -3,3 +3,5 @@ Una gramática regular es una colección de un conjunto de símbolos no terminal
 # Gramáticas independientes de contexto
 # Árboles de derivación y ambigüedad
 # Simplificación de gramáticas independientes de contexto
+# Autómatas de pila
+Autómatas con cierta capacidad de memoria implementada mediante el  uso de una pila, tomando como necesidades para las transiciones entradas y cima de la pila.
