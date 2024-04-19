@@ -5,3 +5,5 @@ Una gramática regular es una colección de un conjunto de símbolos no terminal
 # Simplificación de gramáticas independientes de contexto
 # Autómatas de pila
 Autómatas con cierta capacidad de memoria implementada mediante el  uso de una pila, tomando como necesidades para las transiciones entradas y cima de la pila.
+# Forma Greibach
+Forma en la que toda relación termina en "No-"
