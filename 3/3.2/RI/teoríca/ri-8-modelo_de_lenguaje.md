@@ -17,3 +17,7 @@ Podemos establecer la probabilidad de un documento en función de la query como:
 $P(D|Q)=P(Q|D)P(D)$
 
 Para estimar la probabilidad de un documento se puede usar una equitativa entre todos los documentos o algun tipo de metrica de calidad.
+
+Para estimar la probabilidad de la query en base al documento como:
+$Q_i$, termino numero i de la query.
+$\log p(Q|D)=\displaystyle\sum_i \log p(Q_i|D)$
