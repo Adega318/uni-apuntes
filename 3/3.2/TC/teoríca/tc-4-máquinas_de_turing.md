@@ -6,4 +6,8 @@ Una máquina de turing consta de siete elementos:
 - $s\in Q$, estado inicial.
 - $B \in \varGamma$, símbolo blanco.
 - $F\subseteq Q$, estados de aceptación.
-- $\delta :Q\times\varGamma\rightarrow Q\times\varGamma\times\{L,R\}$, 
+- $\delta :Q\times\varGamma\rightarrow Q\times\varGamma\times\{L,R\}$, función de transición para la entrada y estado saliendo movimiento L o R. 
+
+# Lenguajes y MT
+El lenguaje aceptado por una MT es definido por:
+$L(M)=\{w\in\sum^*|sw\$
