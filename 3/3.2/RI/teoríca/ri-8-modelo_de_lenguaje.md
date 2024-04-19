@@ -25,3 +25,8 @@ Para optener la probabilidad de un termino en un documento se hace uso de la div
 
 ## Smoothing
 A las palabras con probabilidad 0 en el documento se le aplica cierta probabilidad para así redistribuir las probabilidades evitando las 0.
+Para suavizar podemos:
+- Additive, aplica un suavizado general.
+$\Large p(w|d)=\frac{c(w,d)+1}{|d|+|V|}$
+- Referencia, en caso de no estar en el documento dar el valor de la probabilidad en REF, documento de referencia.
+$$
