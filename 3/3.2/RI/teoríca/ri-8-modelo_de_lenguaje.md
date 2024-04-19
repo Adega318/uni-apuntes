@@ -29,4 +29,8 @@ Para suavizar podemos:
 - Additive, aplica un suavizado general.
 $\Large p(w|d)=\frac{c(w,d)+1}{|d|+|V|}$
 - Referencia, en caso de no estar en el documento dar el valor de la probabilidad en REF, documento de referencia.
-$$
+$\Large\alpha_d=\frac{1-\sum_{w\in d}p(w|d)}{\sum_{v\notin d}p(w|REF)}$
+$\Large p(w|d)=\alpha_dp(w|REF)$
+- Descuento absoluto, refuce una cantidad constante de todos los terminos.
+- Jelinek-Mercer, 
+$\Large p(w|d)=(1-\lambda)\frac{c(w,d)}{|d|}+\lambda p(w|REF)$
