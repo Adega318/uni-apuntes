@@ -13,4 +13,4 @@
 ## Semantica
 # Razonamiento proposicional
 ## SAT
-Sistemas de resolución
+Sistemas de resolución estandarizado de altas prestaciones, teniendo entrada en forma normal conjuntiva
