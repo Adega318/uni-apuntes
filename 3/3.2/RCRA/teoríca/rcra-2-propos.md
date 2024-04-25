@@ -24,3 +24,4 @@ Razonamiento donde se establecen reglas para obtener conclusiones, hay dos lectu
 - Lanzamiento de reglas, si se activa el cuerpo se produce la cabeza (ASP).
 - Objetivos, se considera el objetivo, cabeza, y se buscan sus causas, cuerpo (Prolog).
 
+## Programa lógico positivo
