@@ -8,7 +8,7 @@
 		- Rust, C, Java, C#
 - Altia
 	- IA, Backend, Big data
-- Avansing
+- Avansig
 	- Desarrollo software
 		- Topologia, sanitario
 - Enxenio
@@ -69,8 +69,11 @@
 	- +34 981 173 206
 	- +34 691 367 296
 - Cinfo
+	- cinfo.es
 	- personas@cinfo.es
-- Avansing
+	- [linkeding](https://www.linkedin.com/company/cinfotv/)
+- Avansig
+	- [linkeding](https://www.linkedin.com/company/avansig/)
 - Singular
 - Trileuce
 	- people@diverger.ai
