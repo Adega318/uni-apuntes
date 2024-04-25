@@ -12,3 +12,5 @@
 
 ## Semantica
 # Razonamiento proposicional
+## SAT
+Sistemas de resolución
