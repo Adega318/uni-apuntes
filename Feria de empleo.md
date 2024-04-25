@@ -36,4 +36,27 @@
 		- Python
 - Navantia
 - Nunegal Consulting
-	- Desarrollo software, a
+	- Desarrollo software, Analitica, IA
+- Possible
+	- Datos, IA
+- Aldana
+	- Ingenieria de software y sistemas, Ciberseguridad
+		- AWS
+- ITG
+	- I+D, Desarrollo de producto
+- Minsait
+- NTTData
+	- Back to front, Ciberseguridad, Infraestructura
+	- Proyecto real
+- Oindel Group
+	- Desarrollo
+- Singular
+	- IA, Cloud, RV, Videojuegos, Backend
+	- Proyectos no reales
+- Torus Ware
+	- Cloud, Minado de datos
+	- Presencial
+- Trileuce
+	- Apoyo al desarroyo mediante IA
+		- Java
+	- Proyecto no real
