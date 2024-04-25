@@ -6,7 +6,7 @@ Sistemas con la intención de agrupar datos por similitud, sin clasificarlos en 
 	- Distancia del coseno
 - K-means++, mejora sobre el sistema de inicialización de contenidos, maximizando la distancia entre los datos para minimizar la posibilidad del colapso de los centroide en subóptimos.
 - K-medoids, substituye los centroides por medoids, datos reales considerados los representativos de su cluster.
-- Jerárquico, clustering que se basa en el establecimiento de un árbol.
+- Jerárquico, clustering que se basa en el establecimiento de un árbol, siendo considerablemente costoso y sensible al ruido.
 	- Aglomerativo, comienza con los puntos como clusters individuales y agruparlos.
 	- Divisivo, todos los puntos en un cluster y extraer los diferentes.
-- 
+- DBSCAN, algoritmo de vecindad que crea cluster cuando se supera un número de vecinos determinados, siendo los puntos con suficientes vecinos considerados core.
