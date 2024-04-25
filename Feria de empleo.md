@@ -40,7 +40,7 @@
 	- Desarrollo software, Analitica, IA
 - Possible
 	- Datos, IA
-- Aldana
+- Aldaba
 	- Ingenieria de software y sistemas, Ciberseguridad
 		- AWS
 - ITG
@@ -63,18 +63,18 @@
 	- Proyecto no real
 
 # Interesantes
-- ITG
+1. ITG
 	- itg.es
 	- talento@itg.es
 	- +34 981 173 206
 	- +34 691 367 296
-- Cinfo
+2. Cinfo
 	- cinfo.es
 	- personas@cinfo.es
 	- [linkeding](https://www.linkedin.com/company/cinfotv/)
-- Avansig
+3. Avansig
 	- [linkeding](https://www.linkedin.com/company/avansig/)
-- Singular
-- Trileuce
+4. Singular
+5. Trileuce
 	- people@diverger.ai
-- Innogando
+6. Innogando
