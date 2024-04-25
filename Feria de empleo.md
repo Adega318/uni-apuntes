@@ -17,7 +17,7 @@
 	- Solución software, Optimización de procesos
 	- Necesidad de idiomas
 - Imatia
-- Indicon
+- Indycon
 	- Ciberseguridad, IA, Datos
 - Merlín
 	- Desarrollo software
