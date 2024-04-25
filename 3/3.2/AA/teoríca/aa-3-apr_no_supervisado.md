@@ -10,3 +10,7 @@ Sistemas con la intención de agrupar datos por similitud, sin clasificarlos en 
 	- Aglomerativo, comienza con los puntos como clusters individuales y agruparlos.
 	- Divisivo, todos los puntos en un cluster y extraer los diferentes.
 - DBSCAN, algoritmo de vecindad que crea cluster cuando se supera un número de vecinos determinados, siendo los puntos con suficientes vecinos considerados core.
+- GMM, intenta repartir los datos en dos distribuciones gausianas.
+
+# Reducción de dimensionalidad
+Técnicas para la reducción de datos manteniendo la máxima cantidad de datos.
