@@ -4,3 +4,4 @@ Sistemas con la intención de agrupar datos por similitud, sin clasificarlos en 
 	- Distancia de Manhattan
 	- Distancia de Mahalanobis
 	- Distancia del coseno
+- 
