@@ -14,4 +14,7 @@
 # Razonamiento proposicional
 ## SAT
 Sistemas de resolución estandarizado de altas prestaciones, teniendo entrada en forma normal conjuntiva.
-Para pasar a la normal conjuntiva se pasa por la negativa normarl mediante la aplicación de De Morgan asta que los atomos sean los unicos nega
+Para pasar a la normal conjuntiva:
+1. Eliminar las implicaciones.
+2. Negativa normal mediante la aplicación de De Morgan asta que los átomos sean los únicos negados.
+3. Aplica la distributiva y asociativa para tener una conjunción de disyunciones.
