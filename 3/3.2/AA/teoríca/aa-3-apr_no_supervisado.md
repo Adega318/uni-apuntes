@@ -14,3 +14,5 @@ Sistemas con la intención de agrupar datos por similitud, sin clasificarlos en 
 
 # Reducción de dimensionalidad
 Técnicas para la reducción de datos manteniendo la máxima cantidad de datos.
+- Random Forest y GBoost, técnica supervisada para la clasificación y regresión que puntúa las características, lo que permite la extracción de características.
+# A
