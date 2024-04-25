@@ -58,7 +58,7 @@
 	- Cloud, Minado de datos
 	- Presencial
 - Trileuce  people@diverger.ai
-	- Apoyo al desarroyo mediante IA
+	- Apoyo al desarrollo mediante IA
 		- Java
 	- Proyecto no real
 
