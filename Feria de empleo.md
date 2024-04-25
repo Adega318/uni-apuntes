@@ -1,0 +1,16 @@
+- Denodo
+	- Integración y gestión de datos
+- Data spartan
+	- IA, Big data
+- Cinfo
+	- Microservicicios, smart home, tv interactiva
+		- Rust, C, Java, C#
+- Altia
+	- IA, Backend, Big data
+- Avansing
+	- Desarrollo software
+		- Topologia, sanitario
+- Enxenio
+	- Software a medida
+- GB
+	- Solución softwr
