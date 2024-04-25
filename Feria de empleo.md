@@ -1,3 +1,4 @@
+# Empresas
 - Denodo
 	- Integración y gestión de datos
 - Data spartan
@@ -56,7 +57,18 @@
 - Torus Ware
 	- Cloud, Minado de datos
 	- Presencial
-- Trileuce
+- Trileuce  people@diverger.ai
 	- Apoyo al desarroyo mediante IA
 		- Java
 	- Proyecto no real
+
+# Interesantes
+- ITG
+	- talento@itg.es
+	- 981 
+- Cingo
+- Avansing
+- Singular
+- Trileuce
+	- people@diverger.ai
+- Innogando
