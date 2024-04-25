@@ -13,4 +13,27 @@
 - Enxenio
 	- Software a medida
 - GB
-	- Solución softwr
+	- Solución software, Optimización de procesos
+	- Necesidad de idiomas
+- Imatia
+- Indicon
+	- Ciberseguridad, IA, Datos
+- Merlín
+	- Desarrollo software
+- Abanca
+	- Sistemas inteligentes
+- Balidea
+	- Desarrollo software, Civerseguridad, I+D
+		- Java, .Net
+	- Proyecto real
+- HPCDS
+	- Necesidad de idiomas
+- Initex
+	- Herramientas para el área de producto
+	- Practicas remuneradas
+- Innogando
+	- Biometria de ganderia
+		- Python
+- Navantia
+- Nunegal Consulting
+	- Desarrollo software, a
