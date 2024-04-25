@@ -46,7 +46,7 @@
 - ITG
 	- I+D, Desarrollo de producto
 - Minsait
-- NTTData
+- NTTData  spain.lcg.hhrr@nttdata.com
 	- Back to front, Ciberseguridad, Infraestructura
 	- Proyecto real
 - Oindel Group
@@ -64,9 +64,12 @@
 
 # Interesantes
 - ITG
+	- itg.es
 	- talento@itg.es
-	- 981 
-- Cingo
+	- +34 981 173 206
+	- +34 691 367 296
+- Cinfo
+	- personas@cinfo.es
 - Avansing
 - Singular
 - Trileuce
