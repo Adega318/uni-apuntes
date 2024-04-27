@@ -63,20 +63,20 @@
 	- Proyecto no real
 
 # Interesantes
-1. ITG
+1. ITG |
 	- itg.es
 	- talento@itg.es
 	- +34 981 173 206
 	- +34 691 367 296
-2. Cinfo
+2. Cinfo |
 	- cinfo.es
 	- personas@cinfo.es
 	- [linkeding](https://www.linkedin.com/company/cinfotv/)
-3. Avansig
+3. Avansig |
 	- [linkeding](https://www.linkedin.com/company/avansig/)
-4. Singular
-5. Trileuce
+4. Singular 
+5. Trileuce |
 	- people@diverger.ai
-6. Innogando
-7. GB
+6. Innogando |
+7. GB |
 	1. hr@gbtec.es
