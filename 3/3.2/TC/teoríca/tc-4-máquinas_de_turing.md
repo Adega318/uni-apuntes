@@ -13,3 +13,5 @@ El lenguaje aceptado por una MT es definido por:
 $L(M)=\{w\in\sum^*|sw\vdash^*w_1pw_2\ donde\ p\in F \ w_1,w_2\in\varGamma^*\}$
 Estas máquinas pueden leer y escribir sobre una cinta con la capacidad de moverse a la derecha e izquierda.
 # Construcción de máquinas
+Para simplificar la construcción de máquinas de Turing se establecen componentes básicas para la realización de tareas habituales:
+- $R_{x}$ , se mueve hacia la derecha hasta encontrar un elemento x
