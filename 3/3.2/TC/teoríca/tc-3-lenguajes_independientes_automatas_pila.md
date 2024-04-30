@@ -14,8 +14,11 @@ Una de las principales características es para una GIC con $|N|=x$ el camino m�
 ## Lema del Bombeo
 Suponemos que L es un LIC y sea k su constante asociada según el lema del bombeo:
 1. Tomamos la cadena $z\in L$ tal que $|z|\ge k$.
-2. Consideramos las descomposiciones de z en $uvwxy$, tales que $|vwx| \le k$  y  $|v | + |x| > 0$.
-3. 
+2. Consideramos las descomposiciones de z en $uvwxy$, tales que: 
+	1. $|vwx| \le k$
+	2. $|v | + |x| > 0$
+	3. $uv^{i}wx^{i}y\in L, \forall i \ge 0$.
+
 # Autómatas de pila
 Autómatas con cierta capacidad de memoria implementada mediante el uso de una pila, tomando como necesidades para las transiciones entradas y cima de la pila.
 # Forma Greibach
