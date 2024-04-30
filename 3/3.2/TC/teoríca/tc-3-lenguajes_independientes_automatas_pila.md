@@ -12,13 +12,14 @@ Representación de una cadena sobre una gramática, mostrando las normas de la g
 # Propiedades de los lenguajes independientes del contexto
 Una de las principales características es para una GIC con $|N|=x$ el camino más largo es de profundidad $x+1$.
 ## Lema del Bombeo
-Suponemos que L es un LIC y sea k su constante asociada según el lema del bombeo:
+Dado un lenguaje L independiente del contexto:
 1. Tomamos la cadena $z\in L$ tal que $|z|\ge k$.
 2. Consideramos las descomposiciones de z en $uvwxy$, tales que: 
 	1. $|vwx| \le k$
 	2. $|v | + |x| > 0$
 	3. $uv^{i}wx^{i}y\in L, \forall i \ge 0$.
 
+Mediante este lema podemos demostrar que un dado lenguaje no es un LIC.
 # Autómatas de pila
 Autómatas con cierta capacidad de memoria implementada mediante el uso de una pila, tomando como necesidades para las transiciones entradas y cima de la pila.
 # Forma Greibach
