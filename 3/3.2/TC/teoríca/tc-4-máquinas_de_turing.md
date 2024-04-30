@@ -14,6 +14,11 @@ $L(M)=\{w\in\sum^*|sw\vdash^*w_1pw_2\ donde\ p\in F \ w_1,w_2\in\varGamma^*\}$
 Estas máquinas pueden leer y escribir sobre una cinta con la capacidad de moverse a la derecha e izquierda.
 # Construcción de máquinas
 Para simplificar la construcción de máquinas de Turing se establecen componentes básicas para la realización de tareas habituales:
+- R , se mueve una posición a la derecha.
+- L , se mueve una posición a la izquierda.
 - $R_{x}$ , se mueve hacia la derecha hasta encontrar un elemento x.
 - $L_{x}$ , se mueve hacia la izquierda hasta encontrar un elemento x.
-- $R_{}$
+- $R_{!B}$ , se mueve hacia la derecha hasta encontrar un elemento no blanco.
+- $L_{!B}$ , se mueve hacia la izquierda hasta encontrar un elemento no blanco.
+- $S_R$ , mueve hacia la derecha el conjunto de elementos no blancos, machacando elementos blancos.
+- $S_L$ , mueve hacia la izquierda el conjunto de elementos no blancos, machacando elementos blancos.
