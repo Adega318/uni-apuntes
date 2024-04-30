@@ -22,5 +22,7 @@ Dado un lenguaje L independiente del contexto:
 Mediante este lema podemos demostrar que un dado lenguaje no es un LIC.
 # Autómatas de pila
 Autómatas con cierta capacidad de memoria implementada mediante el uso de una pila, tomando como necesidades para las transiciones entradas y cima de la pila.
+
+Un APN es una colección de siete elementos, $M=(Q, \sum, )$
 # Forma Greibach
 Forma en la que toda relación termina en "No terminal".
