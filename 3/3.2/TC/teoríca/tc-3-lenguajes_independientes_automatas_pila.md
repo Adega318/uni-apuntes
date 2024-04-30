@@ -5,8 +5,9 @@ Una gramática regular se puede decir que es:
 - Lineal por la derecha, $A\rightarrow B w$
 
 # Gramáticas independientes de contexto
-
+Las gramáticas independientes no constan de restricciones en forma a diferencia de las regulares con las formas lineales.
 # Árboles de derivación y ambigüedad
+Representación de la
 # Simplificación de gramáticas independientes de contexto
 # Autómatas de pila
 Autómatas con cierta capacidad de memoria implementada mediante el  uso de una pila, tomando como necesidades para las transiciones entradas y cima de la pila.
