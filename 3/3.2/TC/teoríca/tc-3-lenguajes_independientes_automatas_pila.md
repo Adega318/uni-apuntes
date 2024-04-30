@@ -9,6 +9,7 @@ Las gramáticas independientes no constan de restricciones en forma a diferencia
 # Árboles de derivación y ambigüedad
 Representación de una cadena sobre una gramática, mostrando las normas de la gramática activadas. Estos árboles se pueden usar para ver la ambigüedad de la gramática, iterando exclusivamente por la derecha y por la izquierda sobre una cadena, en caso de dar árboles distintos se trata de una gramática ambigua. Una gramática ambigua no implica que el lenguaje generado de ella lo sea.
 # Simplificación de gramáticas independientes de contexto
+
 # Autómatas de pila
 Autómatas con cierta capacidad de memoria implementada mediante el  uso de una pila, tomando como necesidades para las transiciones entradas y cima de la pila.
 # Forma Greibach
