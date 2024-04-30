@@ -32,4 +32,4 @@ Un APN es una colección de siete elementos, $M=(Q, \Sigma, \Gamma, s, Z, F, \De
 
 Siempre se puede convertir una GIC en un APN tal que L(APN) = L(GIC).
 # Forma Greibach
-Forma en la que toda relación termina en "No terminal".
+Forma en la cual todas las relaciones son del tipo "Terminal" seguido de un número arbitrario de "No Terminal".
