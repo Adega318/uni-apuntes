@@ -5,6 +5,7 @@ Una gramática regular se puede decir que es:
 - Lineal por la derecha, $A\rightarrow B w$
 
 # Gramáticas independientes de contexto
+
 # Árboles de derivación y ambigüedad
 # Simplificación de gramáticas independientes de contexto
 # Autómatas de pila
