@@ -26,4 +26,4 @@ Razonamiento donde se establecen reglas para obtener conclusiones, hay dos lectu
 
 # Negación por defecto
 Programas estratificado
-Programa donde el grafo de dependencias no consta de ningún ciclo, siendo el gafo de dependencias el constituido por las cabezas de las reglas nodos y las aristas a las colas de las regalas.
+Programas que al realizar el grafo de dependencia no tiene ciclos con aristas negaticas, siendo el grafo de dependencai el contruido con los atomos como nodos y aristas como la relación de cabeza a cola de las reglas, 
