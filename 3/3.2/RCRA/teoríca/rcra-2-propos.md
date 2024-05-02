@@ -25,3 +25,5 @@ Razonamiento donde se establecen reglas para obtener conclusiones, hay dos lectu
 - Objetivos, se considera el objetivo, cabeza, y se buscan sus causas, cuerpo (Prolog).
 
 # Negación por defecto
+Programas estratificado
+Programa donde el grafo de dependencias no consta de ningún ciclo, siendo el gafo de dependencias el constituido por las cabezas de las reglas nodos y las aristas a las colas de las regalas.
