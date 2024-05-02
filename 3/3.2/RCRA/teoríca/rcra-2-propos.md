@@ -25,5 +25,5 @@ Razonamiento donde se establecen reglas para obtener conclusiones, hay dos lectu
 - Objetivos, se considera el objetivo, cabeza, y se buscan sus causas, cuerpo (Prolog).
 
 # Negación por defecto
-Programas estratificado
-Programas que al realizar el grafo de dependencia no tiene ciclos con aristas negaticas, siendo el grafo de dependencai el contruido con los atomos como nodos y aristas como la relación de cabeza a cola de las reglas, 
+# Programas estratificado
+Programas que al realizar el grafo de dependencia no tiene ciclos con aristas negativas, siendo el grafo de dependencia el construido con los átomos como nodos y aristas como la relación de cabeza a cola de las reglas, siendo las aristas negativas cuando el elemento de la cola se haya negado.
