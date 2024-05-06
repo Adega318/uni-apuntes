@@ -84,20 +84,18 @@ $\Large P_{e}= \frac{(a+b)\times(a+c)+(c+d)\times(b+d)}{n^{2}}$
 $\Large P_{0}= \frac{a+d}{n}$
 $\Large K=\frac{P_{0}-P_{e}}{1-P_{e}}$
 # Regresión logística
-Metodo de modelación de relación entre caracteristicas y probabilidad de pertenencia a una clase.
-
-Para esto usamos el odds, siendo:
+Método de modelación de relación entre características y probabilidad de pertenencia a una clase, para ello usamos el odds, siendo:
 
 $\Large odds=\frac{p}{1-p}$
 
-Donde el resultado está entre 0 y 1 indicando la relación entre la probabilidad de acierto y fallo.
+Donde p es la probabilidad de pertenecer a una clase concreta, esto nos permite conocer la probabilidad de que un elemento pertenezca a la clase.
 Para hacer uso del odds, tomamos su logaritmo que lo llamamos logit:
 
 $\Large logit(p)=\log(\frac{p}{1-p})=z$
 
-Despejamos la probabilidad del logit:
+Usando logit podemos despejar p:
 
-$\Large e^{z}= \frac{p}{1-p} \to p=\frac{1}{1+e^{-z}}$
+$\Large p=\frac{1}{1+e^{-z}}$
 
 En estas operaciones z es representado como un modelo lineal, lo que nos permite interpretarlo y facilita la regularización.
 
