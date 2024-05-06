@@ -129,7 +129,6 @@ Sistema de clasificación binaria (-1, 1) similar a un perceptron.
 ## Problemas linealmente separables
 Para resolver problemas linealmente separables se define un hiperplano y sus positivos y negativos (márgenes), maximizando la distancia de los márgenes al hiperplano, siendo los datos sobre el margen los vectores de soporte.
 ## Problemas no linealmente separables
-
 Para clasificar se debe de permitir cierta holgura y fallo. Permitimos fallos en la clasificación en la zona de margen del hiperplano, teniendo el parámetro C para elegir la prioridad de los márgenes sobre la holgura.
 En caso de no querer considerar error se proyecta los datos en un hiperespacio para poder usar un hiperplano para separar los datos. Para construir este plano se hace uso del truco del kernel, donde se crea una función que transforma nuestros vectores en su proyección, permitiéndonos usar varios tipos de kernels para realizar esta función.
 ## Ventajas y desventajas
