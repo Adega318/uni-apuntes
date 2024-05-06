@@ -67,7 +67,7 @@ Los diferentes paradigmas más formalizados en el mundo del aprendizaje automát
 - Jerárquico, captura de características de forma jerárquica.
 - Multi-instancia, aprendizaje sobre grupos clasificados de manera no exhaustiva.
 - Refuerzo inverso, usa el conocimiento de un experto para codificarlo.
-- Basado en conocimiento, 
+- Basado en conocimiento, aprendizaje por la codificación de reglas.
 - Incremental, actualización del modelo en función a nuevos datos.
 - Probabilístico, uso de métodos probabilístico para representar relaciones.
 - Bayesiano, utilización del teorema de bayes
