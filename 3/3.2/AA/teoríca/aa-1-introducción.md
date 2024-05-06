@@ -62,11 +62,11 @@ Los diferentes paradigmas más formalizados en el mundo del aprendizaje automát
 - Profundo, utilización de muchas capas para permitir patrones complejos y la abstracción de los datos de entrada.
 - Por transferencia, transferencia de conocimiento entre redes y posterior ajuste.
 - Por transferencia profunda, transferencia de información entre redes profundas.
-- No supervisado profundo, proceso de abstracció de los datos de entrada para tratar de obtener claras características diferenciadoras.
+- No supervisado profundo, proceso de abstracción de los datos de entrada para tratar de obtener claras características diferenciadoras.
 - Activo, filtrado de instancias en los datos destacadas.
 - Jerárquico, captura de características de forma jerárquica.
 - Multi-instancia, aprendizaje sobre grupos clasificados de manera no exhaustiva.
-- Refuerzo inverso, ////////
+- Refuerzo inverso, 
 - Basado en conocimiento, /////////
 - Incremental, actualización del modelo en función a nuevos datos.
 - Probabilístico, uso de métodos probabilístico para representar relaciones.
