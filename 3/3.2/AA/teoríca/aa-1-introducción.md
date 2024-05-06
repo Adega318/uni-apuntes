@@ -11,15 +11,14 @@ Un sistema se considera capaz de aprender si:
 - Modifica el comportamiento del sistema o su representación interna.
 - Mejora con respecto a algún criterio.
 
+## Aprendizaje natural
 Dentro del aprendizaje en el mundo natural podemos diferenciar:
 - Perspectiva conductista.
 	- Habituación, conocimiento de diferenciar los datos importantes de los superfluos.
 	- Aprendizaje asociativo, conocimiento de asociar datos relacionados.
 		- Condicionamiento clásico, asociación por respuestas comunes a datos diferentes.
 		- Prueba y error, asociación aleatoria.
-		- Latente, 
-	- Impronta.
-	- Imitación.
+		- Latente.
 - Perspectiva filosófica.
 	- Conexionismo.
 	- Aprendizaje genético.
@@ -28,6 +27,7 @@ Dentro del aprendizaje en el mundo natural podemos diferenciar:
 	- Inductivo, obtención de conocimiento mediante la relación de ejemplos y contraejemplos.
 	- Analógico, aplicación de conocimiento presente para situaciones similares.
 
+# Paradigmas de aprendizaje
 ## Clasificación de tipos de aprendizaje
 ### Clasificación basándose en la información y resultado
 - Aprendizaje supervisado, presentación de ejemplos resuelto.
@@ -49,7 +49,7 @@ Dentro del aprendizaje en el mundo natural podemos diferenciar:
 - Aprendizaje no simbólico, la información está codificada.
 - Aprendizaje mixto.
 
-# Paradigmas
+## Paradigmas
 Los diferentes paradigmas más formalizados en el mundo del aprendizaje automático son:
 - Supervisado, se establecen etiquetas para las salidas deseadas para cada dato.
 - No supervisado, intento de obtener las relaciones entre los datos.
@@ -71,6 +71,7 @@ Los diferentes paradigmas más formalizados en el mundo del aprendizaje automát
 - Incremental, actualización del modelo en función a nuevos datos.
 - Probabilístico, uso de métodos probabilístico para representar relaciones.
 - Bayesiano, utilización del teorema de bayes
+
 # Aprendizaje inductivo
 Adquisición de conocimiento mediante el entorno, teniendo los siguientes conceptos:
 - Atributo.
