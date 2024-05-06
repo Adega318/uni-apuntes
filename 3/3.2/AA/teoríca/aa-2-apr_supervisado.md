@@ -55,7 +55,6 @@ Proceso de mejorar la calidad de los datos del dataset para potenciar las caract
 - Análisis de componentes independientes (ICA), técnica para obtener las fuentes originales sin datos extra.
 
 ## Evaluación de sistemas
-### Clasificadores
 Para evaluar clasificadores usamos una tabla de confusión donde se cuenta el número de veces que la predicción y la realidad coinciden o difieren.
 
 |        | Predicción N | Predicción P |
@@ -74,7 +73,7 @@ Para aplicar estas métricas a clasificaciones con múltiples opciones, la matri
 
 Otros criterios en clasificación son:
 - Curva ROC, curva donde la x es la tasa de falsos positivos e y la de verdaderos positivos; esta curva se puede modificar usando el umbral en la salida.
-- Índice Kappa, cálculo de la probabilidad, aciertos aleatorios.
+- Índice Kappa, cálculo de la probabilidad, aciertos aleatorios:
 
 | A\B      | Negativo | Positivo |
 | -------- | -------- | -------- |
@@ -84,8 +83,6 @@ Otros criterios en clasificación son:
 $\Large P_{e}= \frac{(a+b)\times(a+c)+(c+d)\times(b+d)}{n^{2}}$
 $\Large P_{0}= \frac{a+d}{n}$
 $\Large K=\frac{P_{0}-P_{e}}{1-P_{e}}$
-
-
 # Regresión logística
 Técnica de clasificación basada en el uso de regresiones lineales.
 Para esto usamos el odds, siendo:
