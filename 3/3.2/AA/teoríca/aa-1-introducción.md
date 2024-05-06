@@ -13,8 +13,11 @@ Un sistema se considera capaz de aprender si:
 
 Dentro del aprendizaje en el mundo natural podemos diferenciar:
 - Perspectiva conductista.
-	- Habituación.
-	- Aprendizaje asociativo.
+	- Habituación, conocimiento de diferenciar los datos importantes de los superfluos.
+	- Aprendizaje asociativo, conocimiento de asociar datos relacionados.
+		- Condicionamiento clásico, asociación por respuestas comunes a datos diferentes.
+		- Prueba y error, asociación aleatoria.
+		- Latente, 
 	- Impronta.
 	- Imitación.
 - Perspectiva filosófica.
@@ -31,17 +34,17 @@ Dentro del aprendizaje en el mundo natural podemos diferenciar:
 - Aprendizaje no supervisado, presentación de ejemplos sin resolver.
 - Aprendizaje por refuerzo, presentación de ejemplos sin resolver y puntuación de los resultados.
 
-## Clasificación basándose en respuesta deseada
+### Clasificación basándose en respuesta deseada
 - Aprendizaje de clasificación, la clase a la que pertenece el ejemplo.
 - Aprendizaje de regresión, valor numérico continuo.
 - Aprendizaje por secuencia, secuencia de valores deseada.
 
-## Clasificación basándose en la interacción entre los datos y el modelo
+### Clasificación basándose en la interacción entre los datos y el modelo
 - Aprendizaje estático, los datos son usados únicamente en el entrenamiento inicial.
 - Aprendizaje en línea, los datos son actualizados y el modelo reentrenado de manera continua.
 - Aprendizaje pro lotes, reentreno del modelo con lotes de datos de manera periódica.
 
-## Clasificación basándose en la representación del conocimiento
+### Clasificación basándose en la representación del conocimiento
 - Aprendizaje simbólico, representación explicita del conocimiento.
 - Aprendizaje no simbólico, la información está codificada.
 - Aprendizaje mixto.
