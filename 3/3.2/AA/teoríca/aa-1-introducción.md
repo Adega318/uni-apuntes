@@ -56,13 +56,13 @@ Los diferentes paradigmas más formalizados en el mundo del aprendizaje automát
 - Por refuerzo, iteración sobre un entorno para la maximización de uno o varios aspectos.
 - Semi-supervisado, uso de un set etiquetado y uno sin para reducir el trabajo de etiquetado.
 - Basado en esemble, combinación de modelos para aumentar el rendimiento.
-- Evolutivo, /////
+- Evolutivo, uso de diversos algoritmos genéticos.
 - Basado en instancias, resolución de problemas basándose en soluciones anteriores a otros problemas.
 - Basado en similitud, agrupación de datos basándose en una medida de similitud.
-- Profundo, uso de muchas capas para permitir patrones complejos.
+- Profundo, utilización de muchas capas para permitir patrones complejos y la abstracción de los datos de entrada.
 - Por transferencia, transferencia de conocimiento entre redes y posterior ajuste.
 - Por transferencia profunda, transferencia de información entre redes profundas.
-- No supervisado profundo.
+- No supervisado profundo, proceso de abstracció de los datos de entrada para tratar de obtener claras características diferenciadoras.
 - Activo, filtrado de instancias en los datos destacadas.
 - Jerárquico, captura de características de forma jerárquica.
 - Multi-instancia, aprendizaje sobre grupos clasificados de manera no exhaustiva.
