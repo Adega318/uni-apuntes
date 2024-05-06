@@ -97,12 +97,12 @@ Usando logit podemos despejar p:
 
 $\Large p=\frac{1}{1+e^{-z}}$
 
-En estas operaciones z es representado como un modelo lineal, lo que nos permite interpretarlo y facilita la regularización.
+Siendo una aproximación lineal al modelo, con facilidad de entrenamiento y configuración.
+Por otra parte, la alternativa logística expresada como:
 
 $\Large p=\frac{1}{1+e^{-(b_{0}+\sum b_{i}x_{i})}}$
 
-Gracias a la regresión mediante z reducimos los impactos de los valores atípicos, también beneficiando en la normalización dando valores entre 0 y 1.
-
+Con las ventajas de mejorar la resiliencia a datos anómalos por la normalización aplicada entre 0 y 1.
 ## Entrenamiento
 Para el entrenamiento se usan técnicas similares a las empleadas en los perceptrones.
 Siendo la maximización para n observaciones:
