@@ -84,7 +84,8 @@ $\Large P_{e}= \frac{(a+b)\times(a+c)+(c+d)\times(b+d)}{n^{2}}$
 $\Large P_{0}= \frac{a+d}{n}$
 $\Large K=\frac{P_{0}-P_{e}}{1-P_{e}}$
 # Regresión logística
-Técnica de clasificación basada en el uso de regresiones lineales.
+Metodo de modelación de relación entre caracteristicas y probabilidad de pertenencia a una clase.
+
 Para esto usamos el odds, siendo:
 
 $\Large odds=\frac{p}{1-p}$
