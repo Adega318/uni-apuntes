@@ -25,8 +25,8 @@ Dentro del aprendizaje en el mundo natural podemos diferenciar:
 	- Inductivo, obtención de conocimiento mediante la relación de ejemplos y contraejemplos.
 	- Analógico, aplicación de conocimiento presente para situaciones similares.
 
-# Clasificación de tipos de aprendizaje
-## Clasificación basándose en la información y resultado
+## Clasificación de tipos de aprendizaje
+### Clasificación basándose en la información y resultado
 - Aprendizaje supervisado, presentación de ejemplos resuelto.
 - Aprendizaje no supervisado, presentación de ejemplos sin resolver.
 - Aprendizaje por refuerzo, presentación de ejemplos sin resolver y puntuación de los resultados.
