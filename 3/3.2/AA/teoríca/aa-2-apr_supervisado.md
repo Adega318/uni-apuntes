@@ -106,7 +106,9 @@ Con las ventajas de mejorar la resiliencia a datos anómalos por la normalizaci�
 ## Entrenamiento
 Para el entrenamiento se usan técnicas similares a las empleadas en los perceptrones, siendo la maximización de la verosimilitud de las conclusiones.
 Siendo la maximización para n observaciones:
+
 $LL = \sum [y\times log(p)+(1-y)\times log(1-p)]$
+
 Aplicándole una técnica de ascenso del gradiante, siendo la técnica de descenso del gradiante con el signo inverso.
 ## Regularización
 Proceso de evitar el aumento excesivo de ciertos parámetros para evitar el sobre ajuste.
@@ -206,6 +208,3 @@ Para la comparación de modelos tenemos múltiples tipos de test:
 	- Kruskal-Wallis
 
 # Metaclasidicadores
-
-# Redes de neuronas artificiales
-# Aprendizaje bayesiano
