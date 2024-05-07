@@ -207,12 +207,12 @@ La evaluación se realiza sobre el conjunto de test, el cual debe ser representa
 - Leave k-Out, 
 - Validación cruzada, se realizan experimentos usando como test todos los subconjuntos disjuntos, siendo k el número de subconjuntos sobre el conjunto total de orden aleatorio.
 
-Para la comparación de modelos tenemos múltiples tipos de test:
-- Test de comparación simple
-	- T-test
-	- Wilcoxon
+Para evaluar modelos se hace uso de múltiples test:
+- Test de selección de modelos.
+	- T-test, evaluación de los errores medios de los modelos.
+	- Wilcoxon, evaluación de las diferencias de las medias de los modelos.
 - Test de comparación múltiple
-	- ANOVA
+	- ANOVA, test paramétrico de comparación de modelos.
 	- Kruskal-Wallis
 
 # Metaclasidicadores
