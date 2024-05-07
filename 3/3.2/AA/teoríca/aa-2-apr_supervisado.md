@@ -212,7 +212,7 @@ Para evaluar modelos se hace uso de múltiples test:
 	- T-test, evaluación de los errores medios de los modelos.
 	- Wilcoxon, evaluación de las diferencias de las medias de los modelos.
 - Test de comparación múltiple
-	- ANOVA, test paramétrico de comparación de modelos.
-	- Kruskal-Wallis
+	- ANOVA, test paramétrico de comparación med.
+	- Kruskal-Wallis, test no paramétrico de comparación de medias.
 
 # Metaclasidicadores
