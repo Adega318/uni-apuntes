@@ -184,14 +184,16 @@ Otras funciones de distancia serían:
 - Minkowski.
 - Coseno.
 
-En este algoritmo el valor k será nuestro número de vecinos usados para el cálculo de la distancia, siendo los k más cercanos. Este valor regula la sensibilidad al ruido del sistema, pudiendo llevar a error en muy bajas y en muy altas al descarte de peculiaridades en la frontera de clases. Para evitar empate en el número de clases se hace uso siempre de K impares.
+En este algoritmo el valor k será nuestro número de vecinos usados para el cálculo de la distancia, siendo los k más cercanos. Este valor regula la sensibilidad al ruido del sistema, pudiendo llevar a error en muy bajas y en muy altas al descarte de peculiaridades en la frontera de clases. Para evitar empate en el número de clases se hace uso siempre de K impares, otra opción es el uso de radio para la elección de vecinos.
 ### K-NN con rechazo
 Se establece una métrica para asegurar la seguridad del veredicto, suele ser un diferencial entre la clase elegida y las otras opciones.
 ### K-NN con distancia media
 Se hace uso de la distancia de los casos al punto para determinar la clase elegida, tomando la clase con la menor distancia media al punto.
 ### K-NN con ponderación de vecinos
 Se pondera los vecinos con su distancia al punto y peso de dicho valor.
+
 $\Large f'(x)=\frac{\sum\limits^{k}_{i=1}w_{i}f(x_{i})}{\sum\limits^{k}_{i=1}w_{i}}$
+
 ### K-NN con distancia mínima
 Se reducen las clases a un único caso por clase posicionado en la distancia mínima de la clase, este sistema es únicamente para linealmente separables.
 ### K-NN con ponderación de variables
