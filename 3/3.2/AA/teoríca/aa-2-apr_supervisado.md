@@ -149,7 +149,10 @@ Representación del proceso de decisión basándose en condiciones, para la repr
 ## Generación de árboles
 Dado un conjunto de ejemplos clasificados, se genera el árbol de decisión óptimo.
 ### ID3
-El proceso de creación de árbol con ID3 se basa en el concepto de entropía, se seleccionan las distintas características y se calcula las entropías producidas al separarlas , el cálculo de la entropía es la suma ponderada de las varianzas de las clases creadas.
+El proceso de creación de árbol con ID3 se basa en el concepto de entropía, se seleccionan las distintas características y se calcula las entropías producidas al separarlas, el cálculo de la entropía es la suma ponderada de las varianzas de las clases creadas.
+
+$I(A_I)=\sum(n_{ij}/n)I_{ij}$
+
 
 $\large \frac{numValClasA}{numVal}\log_{2}(\frac{numValClasA}{numVal})-\frac{numValClasB}{numVal}\log_{2}(\frac{numValClasB}{numVal})$
 
