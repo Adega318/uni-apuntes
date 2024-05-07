@@ -151,11 +151,10 @@ Dado un conjunto de ejemplos clasificados, se genera el árbol de decisión ópt
 ### ID3
 El proceso de creación de árbol con ID3 se basa en el concepto de entropía, se seleccionan las distintas características y se calcula las entropías producidas al separarlas, el cálculo de la entropía es la suma ponderada de las varianzas de las clases creadas.
 
-$I(A_I)=\sum(n_{ij}/n)I_{ij}$
-$I_{nj}=-()\log_{2}()-()\log_{2}()$
-
-
-$\large \frac{numValClasA}{numVal}\log_{2}(\frac{numValClasA}{numVal})-\frac{numValClasB}{numVal}\log_{2}(\frac{numValClasB}{numVal})$
+$\large I=-\sum\limits_{c}(n_{c}/n)\log_{2}(n_{c}/n)$
+$\large I(A_I)=\sum(n_{ij}/n)I_{ij}$
+$\large I_{ij}=-\sum\limits_{c}(n_{ijc}/n_{ij})\log_{2}(n_{ijc}/n_{ij})$
+$G(A_{i})=I-I(A_{i})$
 
 ### C4.5
 Algoritmo basado en el ID3 con las siguientes modificaciones:
