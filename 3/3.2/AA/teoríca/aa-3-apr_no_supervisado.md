@@ -19,7 +19,13 @@ Sistema de clustering que construye un árbol o un dendograma a partir de los da
 - Divisivo, todos los puntos en un cluster y extraer los diferentes.
 
 Para la medición de distancias existen los siguientes métodos:
-- Distacia máxima o completa, medida de la distancia maxi
+- Máxima, medida de la distancia máxima entre los puntos de dos clusters.
+- Mínima, medida de la mínima distancia entre puntos de dos clusters.
+- Promedio, media de distancia entre los puntos de dos clusters.
+- Centroide, distancia entre los centros geométricos de dos clusters.
+- Ward.
+
+La principal ventada de la agrupación 
 ## DBSCAN
 ## GMM
 
