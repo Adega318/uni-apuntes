@@ -215,18 +215,18 @@ Para evaluar modelos se hace uso de múltiples test:
 	- Kruskal-Wallis, test no paramétrico de comparación de medias.
 
 # Metaclasidicadores
-Los diferentes clasificadores se pueden unir para crear sistemas con mayo
+Los diferentes clasificadores se pueden unir para crear sistemas con mayor precisión y fiabilidad, los métodos son los siguientes:
 - Básicos.
 	- Fusión de etiquetas.
-		- Voto por mayoría, se asigna la clase con más votos.
+		- Voto por mayoría, se asigna la clase con más votos.2
 		- Mayoría absoluta, la clase debe conseguir la mitad de los votos más uno.
 		- Voto por mayoría con umbral, mínimo de votos.
 		- Voto por mayoría con peso, se ponderan los votos.
 	- Fusión de salidas continuas, se asigna cada valor a una o varias clases.
 	- Stacking, múltiples capas de clasificadores que terminan con una decisión categórica.
-	- Cascada
+	- Cascada, uso de diferentes modelos para descartar progresivamente clases, funcionando los modelos en paralelo.
 - Avanzados.
-	- Bagging
+	- Bagging, se dividen los patrones en diferentes conjuntos de bootstrap para la utilización e diferentes clasificadores.
 	- Aleatorización
 	- Boosting
 - Más comunes.
