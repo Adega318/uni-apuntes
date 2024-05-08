@@ -231,4 +231,4 @@ Los diferentes clasificadores se pueden unir para crear sistemas con mayor preci
 	- Boosting.
 - Más comunes.
 	- Random forest, se genera un conjunto de árboles mediante bagging  y se selecciona un subconjunto aleatorio.
-	- XGBoost, similar a random forest pero mediante el uso de gradiente boosting, usando 
+	- XGBoost, similar a random forest pero mediante el uso de gradiente boosting, haciendo uso del descenso del gradiante sobre una función objetivo.
