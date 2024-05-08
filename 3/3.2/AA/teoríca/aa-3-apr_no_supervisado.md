@@ -10,8 +10,16 @@ Otras métricas de distancia son:
 - Distancia del coseno, medición de la similitud angular entre dos vectores de características.
 
 Algunas variantes de K-means son:
-- K-means++, mejora sobre el sistema de inicialización de contenidos, maximizando la distancia entre los datos para minimizar la posibilidad del colapso de los centroide en subóptimos.
+- K-means++, mejora sobre el sistema de inicialización de contenidos, maximizando la distancia entre los datos para minimizar la posibilidad del colapso de los centroides en subóptimos.
 - K-medoids, substituye los centroides por medoids, datos reales considerados los representativos de su cluster.
+
+## Jerárquico
+Sistema de clustering que construye un árbol o un dendograma a partir de los datos, teniendo dos tipos principales:
+- Aglomerativo, comienza con los puntos como clusters individuales y agruparlos.
+- Divisivo, todos los puntos en un cluster y extraer los diferentes.
+
+## DBSCAN
+## GMM
 
 
 - Clustering jerárquico, división de los datos en grupos anidados mediante la agregación o división de grupos existentes.
