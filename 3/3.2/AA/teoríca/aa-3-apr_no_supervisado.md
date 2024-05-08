@@ -60,5 +60,4 @@ La detección de anomalías se basa en el supuesto de las instancias contienen d
 Las principales metodologías son: 
 - Mapas autoorganizativos.
 	- SOM, sistema que agrupa las neuronas para la encapsulación de los datos.
-- Autoencoders, redes 
-	- 
+- Autoencoders, redes donde las entradas son establecidas como las salidas deseadas, comprimiendo los datos en una capa oculta de **cuello de botella**, precedido por un encoder y seguido de un decoder, esto permite operaciones como la eliminación del decoder para tener una simplificación de los datos o el uso de la red al completo para la eliminación del ruido.
