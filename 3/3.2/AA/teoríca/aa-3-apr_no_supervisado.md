@@ -1,11 +1,13 @@
 Los sistemas de aprendizaje no supervisado permite el entrenamiento sobre grandes cantidades de datos no etiquetados, teniendo grandes dificultades para la evaluación de los resultados del entrenamiento.
-# Agrupación
-La principal función de los sistemas no supervisados es la agrupación de instancias similares, sin clasificarlos en clases, para ello se hace uso de:
-- Clustering.
-	- K-means
-	- Clustering jerárquico
-	- DBSCAN
-	- GMM
+La principal función de los sistemas no supervisados es la agrupación de instancias similares, sin clasificarlos en clases.
+# Clustering
+Método de agrupación mediante la medida de la similitud de datos, con los principales métodos son:
+- K-means, división de los datos en K clusters basados en distancias euclidiana.
+- Clustering jerárquico, división de los datos en gruapos anidados mediante la agregaci
+- DBSCAN
+- GMM
+
+
 - Reducción de dimensionalidad.
 - Asociación de reglas.
 	- Apriori
