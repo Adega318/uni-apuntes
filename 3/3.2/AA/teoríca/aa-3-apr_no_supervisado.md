@@ -1,11 +1,19 @@
 Los sistemas de aprendizaje no supervisado permite el entrenamiento sobre grandes cantidades de datos no etiquetados, teniendo grandes dificultades para la evaluación de los resultados del entrenamiento.
 La principal función de los sistemas no supervisados es la agrupación de instancias similares, sin clasificarlos en clases.
 # Clustering
-Método de agrupación mediante la medida de la similitud de datos, con los principales métodos son:
-- K-means, división de los datos en K clusters basados en distancias euclidiana, teniendo problemas para datos con distribuciones no clusterizadas. Con métricas de distancias:
-	- Distancia de Manhattan, suma de las diferencias absolutas entre las coordenadas de los puntos.
-	- Distancia de Mahalanobis, distancia con consideración de la escala de las variables.
-	- Distancia del coseno, medición de la simit
+Método de agrupación mediante la medida de la similitud de datos.
+## K-means
+Los métodos de K-means usan distancias entre los puntos para su agrupación, usando principalmente las distancias euclidianas y teniendo problemas con datos no clusterizables y sensibilidad a la inicialización de los clusters.
+Otras métricas de distancia son:
+- Distancia de Manhattan, suma de las diferencias absolutas entre las coordenadas de los puntos.
+- Distancia de Mahalanobis, distancia con consideración de la escala de las variables.
+- Distancia del coseno, medición de la similitud angular entre dos vectores de características.
+
+Algunas variantes de K-means son:
+- K-means++, mejora sobre el sistema de inicialización de contenidos, maximizando la distancia entre los datos para minimizar la posibilidad del colapso de los centroide en subóptimos.
+- K-medoids, substituye los centroides por medoids, datos reales considerados los representativos de su cluster.
+
+
 - Clustering jerárquico, división de los datos en grupos anidados mediante la agregación o división de grupos existentes.
 - DBSCAN, agrupación de puntos por densidad de puntos cercanos.
 - GMM, asignación de probabilidades a los datos para su pertenencia a diferentes grupos.
