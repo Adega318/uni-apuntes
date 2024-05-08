@@ -40,8 +40,14 @@ Bajo la suposición de la procedencia de datos de una distribución gaussiana, d
 El proceso se basa en la inicialización de los parámetros en las distribuciones gaussianas con la asignación de probabilidad de pertenencia a las diferentes distribuciones.
 # Reducción de dimensionalidad
 Proceso para la representación de datos en un espacio de características más pequeño sin perder información.
-Basándose en la generación de arboles y entrenamiento de los mismos tenemos:
-- Random forest, los arboles son evaluados haciendo uso de las 
+Basándose en la generación de árboles y entrenamiento de los mismos tenemos:
+- Random forest, los árboles son evaluados haciendo uso de las siguientes medias para la evaluación de las características:
+	- Gini, disminución de la impureza en los nodos donde se hace uso de las características para la separación de datos.
+	- Accuracy, perdida de precisión por la eliminación de una característica.
+- XGBoost, para la medida de la importancia de las caracteristicas se hace uso de:
+	- Peso, número de veces que un atributo pertenece a un árbol.
+	- Ganancia, mejora a la predición proporcionada por cada caracteristica.
+	- Cobertura, n
 
 Técnicas para la reducción de datos manteniendo la máxima cantidad de datos.
 - Random Forest y GBoost, técnica supervisada para la clasificación y regresión que puntúa las características, lo que permite la extracción de características.
