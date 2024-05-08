@@ -5,7 +5,7 @@ Para lo siguiente debemos distinguir entre parámetros e hiperparámetros:
 - Hiperparámetros, parámetros definidos para el control del proceso de aprendizaje.
 
 Por otra parte, se debe de controlar el sobre ajuste e infra ajuste, para ello se debe controlar la complejidad del modelo, tratando de llegar a una buena generalización, evitando el ajuste excesivo a los datos de entrenamiento. Otros aspectos ajustables son el número de ejemplos disponibles y error de generalización.
-## Vapnik-Chervonenkis
+## Vapnik-Chervonenkis (VC)
 La formalización de todo lo anterior se ve en la teoría de la dimensión Vapnik-Chervonenkis, esta teoría nos permite calcular la complejidad para un número de datos en una dimensión determinada.
 Por esta teoría podemos calcular la relación entre el error del conjunto de entrenamiento y de test.
 
@@ -211,7 +211,7 @@ Para evaluar modelos se hace uso de múltiples test:
 	- T-test, evaluación de los errores medios de los modelos.
 	- Wilcoxon, evaluación de las diferencias de las medias de los modelos.
 - Test de comparación múltiple
-	- ANOVA, test paramétrico de comparación med.
+	- ANOVA, test paramétrico de comparación media.
 	- Kruskal-Wallis, test no paramétrico de comparación de medias.
 
 # Metaclasidicadores
