@@ -226,7 +226,7 @@ Los diferentes clasificadores se pueden unir para crear sistemas con mayor preci
 	- Stacking, múltiples capas de clasificadores que terminan con una decisión categórica.
 	- Cascada, uso de diferentes modelos para descartar progresivamente clases, funcionando los modelos en paralelo.
 - Avanzados.
-	- Bagging, se dividen los patrones en diferentes conjuntos de bootstrap para la utilización e diferentes clasificadores.
+	- Bagging, se dividen los patrones en diferentes conjuntos de bootstrap para la utilización en diferentes clasificadores, seleccionando la salida más común como la correcta.
 	- Aleatorización
 	- Boosting
 - Más comunes.
