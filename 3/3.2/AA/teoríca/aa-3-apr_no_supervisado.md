@@ -28,10 +28,14 @@ Para la medición de distancias existen los siguientes métodos:
 La principal ventada de la agrupación jerárquica es la capacidad de regulación de la granularidad en los resultados a coste de un alto requerimiento computacional de entrenamiento.
 ## DBSCAN
 Algoritmo de clustering de densidad basado en la vecindad de los datos, formando clustes por la identificación de zonas de alta densidad de datos. El sistema es regulado por:
-eps (epsilon), distancia máxima de dos puntos para su consideración como vecinos.
-minPts, número mínimo de puntos necesarios para la formación de un cluster.
+- eps (epsilon), distancia máxima de dos puntos para su consideración como vecinos.
+- minPts, número mínimo de puntos necesarios para la formación de un cluster.
 
 ## GMM
+Bajo la suposición de la procedencia de datos de una distribución gaussiana, dividiendo los datos en un número de distribuciones, para el ajuste del modelo tenemos los parametros:
+- $\mu_{k}$, centro de cada cluster.
+- $\Sigma_{k}$, ancho de cada cluster.
+- $\Pi_{k}$, 
 
 
 - Clustering jerárquico, división de los datos en grupos anidados mediante la agregación o división de grupos existentes.
