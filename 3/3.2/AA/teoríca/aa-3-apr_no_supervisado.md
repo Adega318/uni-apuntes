@@ -32,7 +32,7 @@ Algoritmo de clustering de densidad basado en la vecindad de los datos, formando
 - minPts, número mínimo de puntos necesarios para la formación de un cluster.
 
 ## GMM
-Bajo la suposición de la procedencia de datos de una distribución gaussiana, dividiendo los datos en un número de distribuciones, para el ajuste del modelo tenemos los parametros:
+Bajo la suposición de la procedencia de datos de una distribución gaussiana, dividiendo los datos en un número de distribuciones, para el ajuste del modelo tenemos los parámetros:
 - $\mu_{k}$, centro de cada cluster.
 - $\Sigma_{k}$, ancho de cada cluster.
 - $\Pi_{k}$, tamaño de la función gausiana de cada cluster.
@@ -44,11 +44,12 @@ Basándose en la generación de árboles y entrenamiento de los mismos tenemos:
 - Random forest, los árboles son evaluados haciendo uso de las siguientes medias para la evaluación de las características:
 	- Gini, disminución de la impureza en los nodos donde se hace uso de las características para la separación de datos.
 	- Accuracy, perdida de precisión por la eliminación de una característica.
-- XGBoost, para la medida de la importancia de las caracteristicas se hace uso de:
+- XGBoost, para la medida de la importancia de las características, se hace uso de:
 	- Peso, número de veces que un atributo pertenece a un árbol.
-	- Ganancia, mejora a la predición proporcionada por cada caracteristica.
-	- Cobertura, n
+	- Ganancia, mejora a la predicción proporcionada por cada característica.
+	- Cobertura, número de muestras afectadas por la característica.
 
-Técnicas para la reducción de datos manteniendo la máxima cantidad de datos.
-- Random Forest y GBoost, técnica supervisada para la clasificación y regresión que puntúa las características, lo que permite la extracción de características.
 # Asociación de reglas
+Para la asociación de regalas la principal técnica es la **Apriori**, algoritmo de minería de datos utilizado para encontrar patrones frecuentes o reglas de asociación en grandes conjunto de datos transaccionales, funcionando mediante la generación y prueba de hipótesis sobre elementos frecuentes en los datos.
+# Detección de anomalías
+# Redes de neuronas artificiales no supervisadas
