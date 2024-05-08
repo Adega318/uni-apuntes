@@ -57,6 +57,8 @@ La detección de anomalías se basa en el supuesto de las instancias contienen d
 - One-class, se usa algoritmos de clasificación con una única clase, siendo la de anomalía.
 
 # Redes de neuronas artificiales no supervisadas
-Una de las principales metodologias son las redes no
-- SOM, mapa que permite visualizar y agrupar datos multidimensionales de manera bidimensional.
-- 
+Las principales metodologías son: 
+- Mapas autoorganizativos.
+	- SOM, sistema que agrupa las neuronas para la encapsulación de los datos.
+- Autoencoders, redes 
+	- 
