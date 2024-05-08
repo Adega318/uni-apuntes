@@ -30,9 +30,8 @@ Para reducir estos errores podemos usar varias técnicas:
 	- Reduce la complejidad usada de la red, permitiendo menor ajuste.
 
 ## Preporcesado de datos
-Proceso de mejorar la calidad de los datos del dataset para potenciar las características interesantes para el entrañamiento del sistema.
-### Transformaciones
-#### Limpieza de datos
+Proceso de mejorar la calidad de los datos del dataset para potenciar las características interesantes para el entrañamiento del sistema, mediante el uso de transformaciones.
+### Limpieza de datos
 - Datos nulos.
 	- Eliminación de la tupla.
 	- Rellenar con datos a mano.
@@ -50,7 +49,7 @@ Proceso de mejorar la calidad de los datos del dataset para potenciar las caract
 - Agregación, unión de atributos basándonos en el conocimiento del problema.
 - Generalización, sustitución de datos precisos por datos más abstractos y sencillos.
 
-#### Reducción de datos
+### Reducción de datos
 - Análisis de componentes principales (PCA)
 - Análisis de componentes independientes (ICA), técnica para obtener las fuentes originales sin datos extra.
 
