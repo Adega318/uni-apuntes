@@ -71,7 +71,7 @@ Para aplicar estas métricas a clasificaciones con múltiples opciones, la matri
 - Micro, aplicable para clases no excluyentes.
 
 Otros criterios en clasificación son:
-- Curva ROC, curva donde la x es la tasa de falsos positivos e y la de verdaderos positivos; esta curva se puede modificar usando el umbral en la salida.
+- Curva ROC, curva donde la **x** es la tasa de falsos positivos e **y** la de verdaderos positivos; esta curva se puede modificar usando el umbral en la salida.
 - Índice Kappa, cálculo de la probabilidad, aciertos aleatorios:
 
 | A\B      | Negativo | Positivo |
