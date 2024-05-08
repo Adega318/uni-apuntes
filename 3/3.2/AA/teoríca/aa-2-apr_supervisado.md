@@ -215,3 +215,19 @@ Para evaluar modelos se hace uso de múltiples test:
 	- Kruskal-Wallis, test no paramétrico de comparación de medias.
 
 # Metaclasidicadores
+- Básicos.
+	- Fusión de etiquetas
+		- Voto por mayoría, se asigna la clase con más votos.
+		- Mayoría absoluta, la calse debe conseguir la mitad de los votos más uno.
+		- Voto por mayoría con umbral, mínimo de voto
+		- Voto por mayoría con peso
+	- Fusión de salidas continuas
+	- Stacking
+	- Cascada
+- Avanzados.
+	- Bagging
+	- Aleatorización
+	- Boosting
+- Más comunes.
+	- Random forest
+	- XGBoost
