@@ -3,9 +3,9 @@ La principal función de los sistemas no supervisados es la agrupación de insta
 # Clustering
 Método de agrupación mediante la medida de la similitud de datos, con los principales métodos son:
 - K-means, división de los datos en K clusters basados en distancias euclidiana.
-- Clustering jerárquico, división de los datos en gruapos anidados mediante la agregaci
-- DBSCAN
-- GMM
+- Clustering jerárquico, división de los datos en grupos anidados mediante la agregación o división de grupos existentes.
+- DBSCAN, agrupación de puntos por densidad de puntos cercanos.
+- GMM, asignación de probabilidades a los datos para su pertenencia a diferentes grupos.
 
 
 - Reducción de dimensionalidad.
