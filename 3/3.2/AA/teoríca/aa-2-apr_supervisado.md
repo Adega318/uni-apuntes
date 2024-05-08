@@ -228,7 +228,7 @@ Los diferentes clasificadores se pueden unir para crear sistemas con mayor preci
 - Avanzados.
 	- Bagging, se dividen los patrones en diferentes conjuntos de bootstrap para la utilización en diferentes clasificadores, seleccionando la salida más común como la correcta.
 	- Aleatorización.
-	- Boosting, 
+	- Boosting.
 - Más comunes.
-	- Random forest
+	- Random forest, 
 	- XGBoost
