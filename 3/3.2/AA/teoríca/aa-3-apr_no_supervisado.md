@@ -18,6 +18,8 @@ Sistema de clustering que construye un árbol o un dendograma a partir de los da
 - Aglomerativo, comienza con los puntos como clusters individuales y agruparlos.
 - Divisivo, todos los puntos en un cluster y extraer los diferentes.
 
+Para la medición de distancias existen los siguientes métodos:
+- Distacia máxima o completa, medida de la distancia maxi
 ## DBSCAN
 ## GMM
 
