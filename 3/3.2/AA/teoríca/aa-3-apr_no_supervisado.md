@@ -2,7 +2,10 @@ Los sistemas de aprendizaje no supervisado permite el entrenamiento sobre grande
 La principal función de los sistemas no supervisados es la agrupación de instancias similares, sin clasificarlos en clases.
 # Clustering
 Método de agrupación mediante la medida de la similitud de datos, con los principales métodos son:
-- K-means, división de los datos en K clusters basados en distancias euclidiana.
+- K-means, división de los datos en K clusters basados en distancias euclidiana, teniendo problemas para datos con distribuciones no clusterizadas. Con métricas de distancias:
+	- Distancia de Manhattan, suma de las diferencias absolutas entre las coordenadas de los puntos.
+	- Distancia de Mahalanobis, distancia con consideración de la escala de las variables.
+	- Distancia del coseno, medición de la simit
 - Clustering jerárquico, división de los datos en grupos anidados mediante la agregación o división de grupos existentes.
 - DBSCAN, agrupación de puntos por densidad de puntos cercanos.
 - GMM, asignación de probabilidades a los datos para su pertenencia a diferentes grupos.
