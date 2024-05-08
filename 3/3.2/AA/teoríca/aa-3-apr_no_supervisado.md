@@ -52,4 +52,10 @@ Basándose en la generación de árboles y entrenamiento de los mismos tenemos:
 # Asociación de reglas
 Para la asociación de regalas la principal técnica es la **Apriori**, algoritmo de minería de datos utilizado para encontrar patrones frecuentes o reglas de asociación en grandes conjunto de datos transaccionales, funcionando mediante la generación y prueba de hipótesis sobre elementos frecuentes en los datos.
 # Detección de anomalías
+La detección de anomalías se basa en el supuesto de las instancias contienen determinada estructura. Para la detección de anomalías las principales técnicas son:
+- K-NN,
+- One-class
+- Custering
+- Autoencoders
+- Local Outliner Factor
 # Redes de neuronas artificiales no supervisadas
