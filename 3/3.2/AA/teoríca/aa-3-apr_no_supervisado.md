@@ -1,3 +1,8 @@
+Los sistemas de aprendizaje no supervisado permite el entrenamiento sobre grandes cantidades de datos no etiquetados, teniendo grandes dificultades para la evaluación de los resultados del entrenamiento.
+Los principales problemas a resolver son:
+- clustering.
+- compresión d datos y reducción de dimensionalidad.
+- asociación de reglas
 # Agrupación
 Sistemas con la intención de agrupar datos por similitud, sin clasificarlos en clases, para ello se hace uso de:
 - K-means, hace uso de la agrupación de datos en un número k de clusters minimizando las distancias euclídeas entre los puntos, teniendo problemas para datos con distribuciones no clusterizadas.
