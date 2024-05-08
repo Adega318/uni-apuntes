@@ -125,7 +125,7 @@ Establecimiento de un valor máximo para los parámetros.
 Técnica de desactivación de parámetros cuando se vuelven demasiado importantes.
 ### Parada temprana
 Técnica basada en parar el entrenamiento iterativo de manera temprana para evitar el sobre ajuste.
-# Máquinas de vectores de soporte
+# Máquinas de vectores de soporte (SVM)
 Sistema de clasificación binaria (-1, 1) similar a un perceptron.
 ## Problemas linealmente separables
 Para resolver problemas linealmente separables se define un hiperplano y sus positivos y negativos (márgenes), maximizando la distancia de los márgenes al hiperplano, siendo los datos sobre el margen los vectores de soporte.
@@ -230,5 +230,5 @@ Los diferentes clasificadores se pueden unir para crear sistemas con mayor preci
 	- Aleatorización.
 	- Boosting.
 - Más comunes.
-	- Random forest, se genera un conjunto de árboles mediante bagging  y se selecciona un subconjunto aleatorio.
-	- XGBoost, similar a random forest pero mediante el uso de gradiente boosting, haciendo uso del descenso del gradiante sobre una función objetivo.
+	- Random forest, se genera un conjunto de árboles mediante bagging y se selecciona un subconjunto aleatorio.
+	- XGBoost, similar a random forest, pero mediante el uso de gradiente boosting, haciendo uso del descenso del gradiante sobre una función objetivo.

@@ -18,7 +18,7 @@ Para hacer el aprendizaje no supervisado de capas hacemos uso del greedy layer-w
 	- Denoising Auto-Encoders, uso de ruido en las entradas con la exigencia de salida sin ruido lleva a una tolerancia al ruido.
 - Deep Belief Networks, redes con el uso de capas con conexiones bidireccionales, permitiendo alimentarle datos para obtener una salida e invertir el flujo para comprobar que se recuperan los datos originales.
 
-# Redes convolucionales
+# Redes convolucionales (CNN)
 Tipo de redes diseñadas para reconocer patrones visuales directamente de los píxeles con un preprocesado mínimo.
 Las capas que componen estas redes se pueden caracterizar en tres tipos:
 - Convolucionales, cada neurona toma datos de un conjunto cuadrado de la capa anterior realizando una convolución sobre las mismas.
@@ -28,6 +28,6 @@ Las capas que componen estas redes se pueden caracterizar en tres tipos:
 ## Entrenamiento
 El proceso de entrenamiento se basa en la propagación hacia atrás, requiriendo de grandes conjuntos de datos etiquetados.
 # Modelos avanzados
-- R-CNN
-- Fast RCNN, usando una imagen como etrada de una CNN 
+- R-CNN, se toma una imagen de la cual se utilizan algoritmos para seleccionar regiones de interés, se pasan a una CNN de las cuales sus salidas son pasadas a un clasificador.
+- Fast RCNN, usando una imagen como entrada de una CNN, su salida es dividida en zonas de interés, escalándolas a un tamaño común y son usadas como entrada de un perceptron.
 - YOLO, una única imagen es dividida en una rejilla donde se usa un algoritmo de búsqueda selectiva para tomar las regiones de interés, creando etiquetas para cada celda de la rejilla-
