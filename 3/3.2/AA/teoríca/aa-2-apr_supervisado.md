@@ -110,15 +110,15 @@ $LL = \sum [y\times log(p)+(1-y)\times log(1-p)]$
 
 Aplicándole una técnica de ascenso del gradiante, siendo la técnica de descenso del gradiante con el signo inverso.
 ## Regularización
-Proceso de refinado de datos para su consumo eficiente por el sist
+Proceso de refinado de datos para su consumo eficiente por el sistema.
 ### Lasso (L1)
-Técnica que agrega a la función de coste un término de penalización que es proporcional al valor absoluto de los coeficientes, reduce los valores llevándolos a 0, consiguiendo en algunos casos anular parámetros.
+Técnica que agrega a la función de coste un término de penalización que es proporcional al valor absoluto de los coeficientes, reduce los valores llevándolos a 0, consiguiendo en algunos casos anular parámetros, este parámetro de penalización es denotado por **$\lambda$**(lambda).
 ### Ridge (L2)
-Similar a l1 pero usando los coeficientes al cuadrado, reduciendo los coeficientes sin llevarlos a 0, aumentando la estabilidad.
+Similar a **L1** pero usando los coeficientes al cuadrado, reduciendo los coeficientes sin llevarlos a 0, aumentando la estabilidad pero evitando su eliminación.
 ### Elastic Net
 Modelo que usa en combinación L1 y L2, pudiendo implementar regulación de implicación de cada una.
 ### Tikhonov
-Complicado.
+
 ### Norma Max
 Establecimiento de un valor máximo para los parámetros.
 ### Dropout
