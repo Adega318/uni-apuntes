@@ -12,4 +12,3 @@ Los elementos principales en el aprendizaje por refuerzo son:
 
 # Taxonomía de métodos de AR
 # Q-learning
-# Robots autónomos
