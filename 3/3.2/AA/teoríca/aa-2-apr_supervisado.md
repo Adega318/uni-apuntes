@@ -225,8 +225,8 @@ La evaluación se realiza sobre el conjunto de test, el cual debe ser representa
 
 Para evaluar modelos se hace uso de múltiples test:
 - Test de selección de modelos.
-	- T-test, evaluación de los errores medios de los modelos.
-	- Wilcoxon, evaluación de las diferencias de las medias de los modelos.
+	- T-test, evaluación de los errores medios de los modelos, suponiendo que ambas distribuciones siguen una distribución normal con idéntica varianza.
+	- Wilcoxon, evaluación de las diferencias de las medias de los modelos sin establecer ninguna suposición.
 - Test de comparación múltiple
 	- ANOVA, test paramétrico de comparación media.
 	- Kruskal-Wallis, test no paramétrico de comparación de medias.
