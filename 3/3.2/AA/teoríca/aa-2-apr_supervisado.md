@@ -118,7 +118,7 @@ Similar a **L1** pero usando los coeficientes al cuadrado, reduciendo los coefic
 ### Elastic Net
 Modelo que usa en combinación L1 y L2, pudiendo implementar regulación de implicación de cada una.
 ### Tikhonov
-
+Para un problema de regresión lineal se añade una matriz $\Gamma$ para intentar encontrar una solución con normas bajas (Ridge es un caso particular de esta).
 ### Norma Max
 Establecimiento de un valor máximo para los parámetros.
 ### Dropout
