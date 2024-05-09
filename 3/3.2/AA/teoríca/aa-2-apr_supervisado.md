@@ -211,7 +211,7 @@ Se pondera los vecinos con su distancia al punto y peso de dicho valor.
 $\Large f'(x)=\frac{\sum\limits^{k}_{i=1}w_{i}f(x_{i})}{\sum\limits^{k}_{i=1}w_{i}}$
 
 ### K-NN con distancia mínima
-Se reducen las clases a un único caso por clase posicionado en la distancia mínima de la clase, este sistema es únicamente para linealmente separables.
+Se reducen las clases a casos únicos posicionados en el baricentro o centroide de la clase, clasificando nuevos casos como la clase más cercana. Las ventajas de esta metodología es extremadamente eficiente pero con precisión dependiente de la dispersión de los datos de las clases.
 ### K-NN con ponderación de variables
 Para el cálculo de la distancia se emplean pesos para establecer la importancia de cada variable en el establecimiento de la similitud entre casos.
 # Evaluación
