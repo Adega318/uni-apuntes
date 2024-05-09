@@ -217,10 +217,10 @@ Para el cálculo de la distancia se emplean pesos para establecer la importancia
 # Evaluación
 Para la evaluación de modelos se debe de diferenciar los deterministas donde una ejecución es suficiente para su evaluación y no determinista donde se deberá hacer la media de múltiples ejecuciones.
 La evaluación se realiza sobre el conjunto de test, el cual debe ser representativo y seleccionado con uno de los siguientes métodos:
-- Hold Out, se seleccionan datos aleatorios para el conjunto de test.
+- Hold Out, se seleccionan datos aleatorios para el conjunto de test, es considerada una selección pesimista.
 - Submuestreo aleatorio, se repite hold out multiples veces para no ser dependiente de un único experimento.
 - Bootstrapping, se toma un número de datos del conjunto total, pudiendo repetir dato y se usan los no tomados para el test.
-- Leave k-Out, 
+- Leave k-Out, separar k datos y entrenar con el resto, realizando esto un número de veces, sin repetir los datos k.
 - Validación cruzada, se realizan experimentos usando como test todos los subconjuntos disjuntos, siendo k el número de subconjuntos sobre el conjunto total de orden aleatorio.
 
 Para evaluar modelos se hace uso de múltiples test:
