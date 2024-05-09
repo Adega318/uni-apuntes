@@ -72,7 +72,7 @@ Para aplicar estas métricas a clasificaciones con múltiples opciones, la matri
 
 Otros criterios en clasificación son:
 - Curva ROC, curva donde la **x** es la tasa de falsos positivos e **y** la de verdaderos positivos; esta curva se puede modificar usando el umbral en la salida.
-- Índice Kappa, cálculo de la probabilidad, aciertos aleatorios:
+- Índice Kappa, permite determinar hasta qué punto la concordancia observada es superior a la que se espera obtener por puro azar:
 
 | A\B      | Negativo | Positivo |
 | -------- | -------- | -------- |
@@ -87,7 +87,7 @@ Método de modelación de relación entre características y probabilidad de per
 
 $\Large odds=\frac{p}{1-p}$
 
-Donde p es la probabilidad de pertenecer a una clase concreta, esto nos permite conocer la probabilidad de que un elemento pertenezca a la clase.
+Donde **p** es la probabilidad de pertenecer a una clase concreta, esto nos permite conocer la probabilidad de que un elemento pertenezca a la clase.
 Para hacer uso del odds, tomamos su logaritmo que lo llamamos logit:
 
 $\Large logit(p)=\log(\frac{p}{1-p})=z$
@@ -110,7 +110,7 @@ $LL = \sum [y\times log(p)+(1-y)\times log(1-p)]$
 
 Aplicándole una técnica de ascenso del gradiante, siendo la técnica de descenso del gradiante con el signo inverso.
 ## Regularización
-Proceso de evitar el aumento excesivo de ciertos parámetros para evitar el sobre ajuste.
+Proceso de refinado de datos para su consumo eficiente por el sist
 ### Lasso (L1)
 Técnica que agrega a la función de coste un término de penalización que es proporcional al valor absoluto de los coeficientes, reduce los valores llevándolos a 0, consiguiendo en algunos casos anular parámetros.
 ### Ridge (L2)
