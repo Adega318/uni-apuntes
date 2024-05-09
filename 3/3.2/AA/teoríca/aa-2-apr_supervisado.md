@@ -165,7 +165,11 @@ $I=-\sum\limits_{c}(n_{c}/n)\log_{2}(n_{c}/n)$
 $I(A_I)=\sum(n_{ij}/n)I_{ij}$
 $I_{ij}=-\sum\limits_{c}(n_{ijc}/n_{ij})\log_{2}(n_{ijc}/n_{ij})$
 $G(A_{i})=I-I(A_{i})$
+- C, conjunto de clases.
+- n, número de patrones.
+- $n_i$, número de patrones de la clase $i\in C$
 
+La decisión de las características por nodo se basa en la minimización de la entropía.
 ### C4.5
 Algoritmo basado en el ID3 con las siguientes modificaciones:
 - Trabaja con valores continuos.
