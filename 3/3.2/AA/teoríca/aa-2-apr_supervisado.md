@@ -136,7 +136,13 @@ Para clasificar se debe de permitir cierta holgura y fallo. Permitimos fallos en
 - $\alpha=C$, elementos en la zona de holgura.
 
 En caso de no querer considerar error se proyecta los datos en un hiperespacio para poder usar un hiperplano para separar los datos. Para construir este plano se hace uso del truco del kernel, donde se crea una función que transforma nuestros vectores en su proyección, permitiéndonos usar varios tipos de kernels para realizar esta función. Los kernels más comunes son:
-- 
+- Lineal.
+- Polinómico, adecuados para problemas sobre datos normalizados.
+- Gausiano.
+- Exponencial.
+- Laplaciano, equivalente a exponencial pero menos sensible al parámetro.
+- Hiperbólico tangente.
+
 ## Ventajas y desventajas
 Las ventajas son:
 - Entrenamiento sencillo.
