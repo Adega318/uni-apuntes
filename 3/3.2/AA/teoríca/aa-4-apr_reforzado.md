@@ -6,9 +6,10 @@ Los elementos principales en el aprendizaje por refuerzo son:
 - Política, define el comportamiento del agente, estableciendo los estados y aciones.
 - Función de refuerzo, establece recompensa para aciones beneficiosas y penalizaciones para erróneas.
 - Función de acción-valor, establece recompensas a largo plazo para el agente.
-- Modelo de entorno (opcional), 
+- Modelo de entorno (opcional).
 
 # Procesos de Decisión de Markov
+
 # Taxonomía de métodos de AR
 # Q-learning
 # Robots autónomos
