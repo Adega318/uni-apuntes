@@ -204,7 +204,7 @@ En este algoritmo el valor k será nuestro número de vecinos usados para el cá
 ### K-NN con rechazo
 Se establecen criterios para dar garantías de la pertenencia a la clase, pudiendo rechazar elementos clasificados pero sin garantías de la veracidad de la clasificación.
 ### K-NN con distancia media
-Se hace uso de la distancia de los casos para determinar la clase elegida, tomando la clase con la menor distancia media al punto.
+Se hace uso de la distancia de los casos para determinar la clase elegida, tomando la clase con la menor distancia media al dato a clasificar.
 ### K-NN con ponderación de vecinos
 Se pondera los vecinos con su distancia al punto y peso de dicho valor.
 
