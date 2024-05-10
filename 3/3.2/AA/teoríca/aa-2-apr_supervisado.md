@@ -7,9 +7,8 @@ Para lo siguiente debemos distinguir entre parámetros e hiperparámetros:
 Por otra parte, se debe de controlar el sobre ajuste e infra ajuste, para ello se debe controlar la complejidad del modelo, tratando de llegar a una buena generalización, evitando el ajuste excesivo a los datos de entrenamiento. Otros aspectos ajustables son el número de ejemplos disponibles y error de generalización.
 ## Vapnik-Chervonenkis (VC)
 La VC es la medición de la complejidad de una determinada familia de funciones, definiéndose como el máximo número de ejemplos que pueden ser explicados por la familia de funciones $f(x;\Theta)$.
-Se dice de un conjunto que produce **Shatter** cuando para cualquier dicotomía existe un conjunto de parámetros resolubles por $f(x;\Theta)$.
-Por lo tanto la dimentsion VC de $f(x;\Theta)$ es el ta
-Por esta teoría podemos calcular la relación entre el error del conjunto de entrenamiento y de test.
+Se dice de un conjunto que produce **Shatter** cuando para cualquier dicotomía existe un conjunto de parámetros que de manera independiente de su forma son resolubles por $f(x;\Theta)$.
+Por lo tanto, la **dimensión VC** de $f(x;\Theta)$ es el tamaño del mayor conjunto que produce un shatter, podemos calcular el riesgo esperado a partir del empírico con:
 
 $\Large cota(e_{test}(f))=error_{train}+\sqrt{\frac{h(\log\frac{2n}{h}+1)-\log \frac{n}{4}}{n}}$
 
@@ -17,6 +16,7 @@ $\Large cota(e_{test}(f))=error_{train}+\sqrt{\frac{h(\log\frac{2n}{h}+1)-\log \
 - n es el número de ejemplos de entrenamiento
 - n>h
 
+Por lo tanto, cuando $n/h$ aumenta la confianza VC disminuye indicando mayor poder de generalización a mayor riesgo, por lo con
 ## Errores en el entrenamiento
 Tenemos dos tipos de errores en nuestros modelos, los irreducibles y los variables, los variables pueden ser reducidos:
 - Bias.
