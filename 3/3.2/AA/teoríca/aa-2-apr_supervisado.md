@@ -19,13 +19,13 @@ $\Large cota(e_{test}(f))=error_{train}+\sqrt{\frac{h(\log\frac{2n}{h}+1)-\log \
 Por lo tanto, cuando $n/h$ aumenta la confianza VC disminuye indicando mayor poder de generalización a mayor riesgo, por lo contrario, al disminuir $n/h$ la confianza VC aumenta, llevando a sobre ajuste.
 ``El riesgo empírico realiza la inversa a la confianza VC y el esperado la suma.``
 ## Errores en el entrenamiento
-Tenemos dos tipos de errores en nuestros modelos, los irreducibles y los variables, los variables pueden ser reducidos:
-- Bias.
+Tenemos dos tipos de errores en nuestros modelos, los irreducibles (ruido) y los variables, los variables pueden ser reducidos:
+- Bias (precisión).
 	- Diferencia entre el valor medio predicho por el modelo y el valor medio real.
 	- Indicando la posible falta de complejidad del sistema.
-- Variance.
-	- Entrenamiento del modelo sobre un subconjunto de los datos para observar la diferencia con el entrenado con el completo.
-	- Es un buen indicador de oberfiting.
+- Variance (consistencia).
+	- Medida de la dispersión de las estimaciones.
+	- Indicador de oberfiting.
 
 Para reducir estos errores podemos usar varias técnicas:
 - Regularización.
