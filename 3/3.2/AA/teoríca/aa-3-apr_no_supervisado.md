@@ -23,7 +23,7 @@ Para la medición de distancias existen los siguientes métodos:
 - Mínima, medida de la mínima distancia entre puntos de dos clusters.
 - Promedio, media de distancia entre los puntos de dos clusters.
 - Centroide, distancia entre los centros geométricos de dos clusters.
-- Ward, incremento de la suma de los cuadrados cuando se unan.
+- Ward, incremento de la suma de los cuadrados cuando se unan, por lo tanto, se escoge la clase que aumente en menor medida la varianza del sistema.
 
 La principal ventada de la agrupación jerárquica es la capacidad de regulación de la granularidad en los resultados a coste de un alto requerimiento computacional de entrenamiento.
 ## DBSCAN
