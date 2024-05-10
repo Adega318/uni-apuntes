@@ -57,7 +57,7 @@ Proceso de mejorar la calidad de los datos del dataset para potenciar las caract
 
 ### Reducción de datos
 - Análisis de componentes principales (PCA), eliminación de la redundancia mediante la transformación del conjunto de variables en uno incorrelado, siendo una combinación lineal del anterior, para esto se toma en gran importancia la variabilidad de los datos, intentando preservar la ya existente.
-- Análisis de componentes independientes (ICA), técnica de descomposición de señales en componentes independientes, la tecnica usada depende de la naturaleza de la señal.
+- Análisis de componentes independientes (ICA), técnica de descomposición de señales en componentes independientes, la técnica usada depende de la naturaleza de la señal.
 
 ## Evaluación de sistemas
 Para evaluar clasificadores usamos una tabla de confusión donde se cuenta el número de veces que la predicción y la realidad coinciden o difieren.
@@ -85,14 +85,13 @@ Para aplicar estas métricas a clasificaciones con múltiples opciones, la matri
 - Micro, aplicable para clases no excluyentes.
 
 Otros criterios en clasificación son:
-- Curva ROC, curva donde la **x** es la tasa de falsos positivos e **y** la de verdaderos positivos, formando la curaba con los resultados de un modelo en función de su parameto.
+- Curva ROC, curva donde la **x** es la tasa de falsos positivos e **y** la de verdaderos positivos, formando la curaba con los resultados de un modelo en función de su parámetro.
 - Índice Kappa, permite determinar hasta qué punto la concordancia observada es superior a la que se espera obtener por puro azar:
 
 | A\B      | Negativo | Positivo |
 | -------- | -------- | -------- |
 | Negativo | a        | b        |
 | Positivo | c        | d        |
-
 $\Large P_{e}= \frac{(a+b)\times(a+c)+(c+d)\times(b+d)}{n^{2}}$
 $\Large P_{0}= \frac{a+d}{n}$
 $\Large K=\frac{P_{0}-P_{e}}{1-P_{e}}$
