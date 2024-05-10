@@ -66,10 +66,18 @@ Para evaluar clasificadores usamos una tabla de confusión donde se cuenta el n�
 | ------ | ------------ | ------------ |
 | Real N | VN           | FP           |
 | Real P | FN           | VP           |
+- VN, casos negativos clasificados correctamente.
+- FP, casos positivos clasificados incorrectamente.
+- FN, casos negativos clasificados incorrectamente.
+- VP, caoss positivos clasificados correctamente.
 
-- $VPP=\frac{VP}{VP+VF}$
-- $VPN=\frac{VN}{VN+FN}$
-- $\Large F_{1}=2(\frac{recall \times precision}{recall + precision})$
+$Accuracy=\frac{VN+VP}{VN+FN+FP+VP}$
+$Error = \frac{FN+FP}{VN+FN+FP+VP}$
+$Recall= \frac{VP}{FN+VP}$
+$Especificidad=\frac{VN}{VN+FP}$
+$VPP=\frac{VP}{VP+VF}$
+$VPN=\frac{VN}{VN+FN}$
+$\Large F_{1}=2(\frac{recall \times precision}{recall + precision})$
 
 Para aplicar estas métricas a clasificaciones con múltiples opciones, la matriz de confusión será dividida usando la técnica de uno contra todos y se calcularán las métricas, siendo combinadas de una de las siguientes maneras:
 - Macro, media de las métricas.
