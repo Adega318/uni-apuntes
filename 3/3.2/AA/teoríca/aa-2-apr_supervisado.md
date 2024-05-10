@@ -69,7 +69,7 @@ Para evaluar clasificadores usamos una tabla de confusi√≥n donde se cuenta el n√
 - VN, casos negativos clasificados correctamente.
 - FP, casos positivos clasificados incorrectamente.
 - FN, casos negativos clasificados incorrectamente.
-- VP, casos positivos clasificados correctamente.
+- VP (sensibilidad), casos positivos clasificados correctamente.
 
 $Accuracy=\frac{VN+VP}{VN+FN+FP+VP}$
 $Error = \frac{FN+FP}{VN+FN+FP+VP}$
