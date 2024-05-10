@@ -235,7 +235,7 @@ Para evaluar modelos se hace uso de múltiples test:
 Los diferentes clasificadores se pueden unir para crear sistemas con mayor precisión y fiabilidad, los métodos son los siguientes:
 - Básicos.
 	- Fusión de etiquetas.
-		- Voto por mayoría, se asigna la clase con más votos.2
+		- Voto por mayoría, se asigna la clase con más votos.
 		- Mayoría absoluta, la clase debe conseguir la mitad de los votos más uno.
 		- Voto por mayoría con umbral, mínimo de votos.
 		- Voto por mayoría con peso, se ponderan los votos.
