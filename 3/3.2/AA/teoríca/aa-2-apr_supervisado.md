@@ -206,7 +206,7 @@ Se establecen criterios para dar garantías de la pertenencia a la clase, pudien
 ### K-NN con distancia media
 Se hace uso de la distancia de los casos para determinar la clase elegida, tomando la clase con la menor distancia media al dato a clasificar.
 ### K-NN con ponderación de vecinos
-Se pondera los vecinos con su distancia al punto y peso de dicho valor.
+Se pondera los vecinos con su distancia al dato y peso del valor.
 
 $\Large f'(x)=\frac{\sum\limits^{k}_{i=1}w_{i}f(x_{i})}{\sum\limits^{k}_{i=1}w_{i}}$
 
