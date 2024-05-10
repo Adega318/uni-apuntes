@@ -243,9 +243,10 @@ Los diferentes clasificadores se pueden unir para crear sistemas con mayor preci
 	- Stacking, múltiples capas de clasificadores apilados que terminan con una decisión categórica.
 	- Cascada, uso de diferentes modelos para descartar progresivamente clases, funcionando los modelos en paralelo.
 - Avanzados.
-	- Bagging, se dividen los patrones en diferentes conjuntos de bootstrap para la utilización en diferentes clasificadores, seleccionando la salida más común como la correcta.
-	- Aleatorización, .
-	- Boosting.
+	- Bagging, se dividen los patrones en diferentes conjuntos de bootstrap para la utilización en diferentes clasificadores, seleccionando la salida más común como la correcta, requiere de modelos del mismo tipo.
+	- Aleatorización, introducción de cierta aleatoriedad a los algoritmos estables para la mejora en la compatibilidad con los inestables.
+	- Boosting, combinación de modelos del mismo tipo usando voto para la combinación de las salidas, las muestras de entrenamiento son generadas de manera aleatoria.
+	- Híbridos.
 - Más comunes.
 	- Random forest, se genera un conjunto de árboles mediante bagging y se selecciona un subconjunto aleatorio.
 	- XGBoost, similar a random forest, pero mediante el uso de gradiente boosting, haciendo uso del descenso del gradiante sobre una función objetivo.
