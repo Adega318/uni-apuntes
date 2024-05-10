@@ -56,7 +56,7 @@ Proceso de mejorar la calidad de los datos del dataset para potenciar las caract
 - Generalización, sustitución de datos precisos por datos más abstractos y sencillos.
 
 ### Reducción de datos
-- Análisis de componentes principales (PCA)
+- Análisis de componentes principales (PCA), eliminación de la redundancia mediante la transformación de conjuntos de variables en incorrectas
 - Análisis de componentes independientes (ICA), técnica para obtener las fuentes originales sin datos extra.
 
 ## Evaluación de sistemas
