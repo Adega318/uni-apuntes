@@ -240,7 +240,7 @@ Los diferentes clasificadores se pueden unir para crear sistemas con mayor preci
 		- Voto por mayoría con umbral, mínimo de votos.
 		- Voto por mayoría con peso, se ponderan los votos.
 	- Fusión de salidas continuas, se asigna cada valor a una o varias clases.
-	- Stacking, múltiples capas de clasificadores que terminan con una decisión categórica.
+	- Stacking, múltiples capas de clasificadores apilados que terminan con una decisión categórica.
 	- Cascada, uso de diferentes modelos para descartar progresivamente clases, funcionando los modelos en paralelo.
 - Avanzados.
 	- Bagging, se dividen los patrones en diferentes conjuntos de bootstrap para la utilización en diferentes clasificadores, seleccionando la salida más común como la correcta.
