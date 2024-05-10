@@ -244,7 +244,7 @@ Los diferentes clasificadores se pueden unir para crear sistemas con mayor preci
 	- Cascada, uso de diferentes modelos para descartar progresivamente clases, funcionando los modelos en paralelo.
 - Avanzados.
 	- Bagging, se dividen los patrones en diferentes conjuntos de bootstrap para la utilización en diferentes clasificadores, seleccionando la salida más común como la correcta.
-	- Aleatorización.
+	- Aleatorización, .
 	- Boosting.
 - Más comunes.
 	- Random forest, se genera un conjunto de árboles mediante bagging y se selecciona un subconjunto aleatorio.
