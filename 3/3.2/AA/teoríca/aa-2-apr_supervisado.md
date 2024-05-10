@@ -43,9 +43,9 @@ Proceso de mejorar la calidad de los datos del dataset para potenciar las caract
 	- Clustering, se agrupan los datos similares en grupos, permitiendo eliminar los datos fuera de rango.
 	- Regresión, se crea una recta que se ajusta a los datos.
 - Normalización, creación de una escala general para facilitar el aprendizaje.
-	- Min/max, sé plasman los valores en un rango, $\Large v'=\frac{v-min}{max-min}(nuevomax-nuevomin)+nuevomin$
-	- Escalado decimal, sé mueve el punto decimal en los valores del atributo $\Large v'=\frac{v}{10^{j}}$
-	- Media cero, normalización para datos con algún dato fuera de lo normal $\Large v'=\frac{v-\mu}{\sigma}$
+	- Min/max, sé plasman los valores en un rango. $\Large v'=\frac{v-min}{max-min}(nuevomax-nuevomin)+nuevomin$
+	- Escalado decimal, sé mueve el punto decimal en los valores del atributo.  $\Large v'=\frac{v}{10^{j}}$
+	- Media cero, normalización para datos con algún dato fuera de lo normal. $\Large v'=\frac{v-\mu}{\sigma}$
 - Agregación, unión de atributos basándonos en el conocimiento del problema.
 - Generalización, sustitución de datos precisos por datos más abstractos y sencillos.
 
