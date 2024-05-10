@@ -6,8 +6,9 @@ Para lo siguiente debemos distinguir entre parámetros e hiperparámetros:
 
 Por otra parte, se debe de controlar el sobre ajuste e infra ajuste, para ello se debe controlar la complejidad del modelo, tratando de llegar a una buena generalización, evitando el ajuste excesivo a los datos de entrenamiento. Otros aspectos ajustables son el número de ejemplos disponibles y error de generalización.
 ## Vapnik-Chervonenkis (VC)
-La formalización de todo lo anterior se ve en la teoría de la dimensión Vapnik-Chervonenkis, esta teoría nos permite calcular la complejidad para un número de datos en una dimensión determinada, definiéndose como el máximo número de ejemplos que pueden ser explicados por la familia de funciones.
-Se dice de un conjunto que produce **Shatt**
+La VC es la medición de la complejidad de una determinada familia de funciones, definiéndose como el máximo número de ejemplos que pueden ser explicados por la familia de funciones $f(x;\Theta)$.
+Se dice de un conjunto que produce **Shatter** cuando para cualquier dicotomía existe un conjunto de parámetros resolubles por $f(x;\Theta)$.
+Por lo tanto la dimentsion VC de $f(x;\Theta)$ es el ta
 Por esta teoría podemos calcular la relación entre el error del conjunto de entrenamiento y de test.
 
 $\Large cota(e_{test}(f))=error_{train}+\sqrt{\frac{h(\log\frac{2n}{h}+1)-\log \frac{n}{4}}{n}}$
