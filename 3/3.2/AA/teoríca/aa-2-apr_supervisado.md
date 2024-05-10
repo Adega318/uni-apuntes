@@ -245,7 +245,7 @@ Los diferentes clasificadores se pueden unir para crear sistemas con mayor preci
 - Avanzados.
 	- Bagging, se dividen los patrones en diferentes conjuntos de bootstrap para la utilización en diferentes clasificadores, seleccionando la salida más común como la correcta, requiere de modelos del mismo tipo.
 	- Aleatorización, introducción de cierta aleatoriedad a los algoritmos estables para la mejora en la compatibilidad con los inestables.
-	- Boosting, combinación de modelos del mismo tipo usando voto para la combinación de las salidas, las muestras de entrenamiento son generadas de manera aleatoria.
+	- Boosting, combinación de modelos del mismo tipo usando voto para la combinación de las salidas, las muestras de entrenamiento son generadas de manera aleatoria con el entrenamiento individual de los modelos para su posterior combinación.
 	- Híbridos.
 - Más comunes.
 	- Random forest, se genera un conjunto de árboles mediante bagging y se selecciona un subconjunto aleatorio.
