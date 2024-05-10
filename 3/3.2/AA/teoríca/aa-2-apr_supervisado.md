@@ -44,7 +44,7 @@ Proceso de mejorar la calidad de los datos del dataset para potenciar las caract
 - Datos con ruido.
 	- Binning, se dividen los datos en una serie de bins a los que se calcula su media y se le da a todos los elementos el mismo valor.
 	- Clustering, se agrupan los datos similares en grupos, permitiendo eliminar los datos fuera de rango.
-	- Regresión, se crea una recta que se ajusta a los datos.
+	- Regresión, se crea una recta que se ajusta a los datos para encontrar una expresión matematica que representa los datos.
 - Normalización, creación de una escala general para facilitar el aprendizaje.
 	- Min/max, sé plasman los valores en un rango. $\Large v'=\frac{v-min}{max-min}(nuevomax-nuevomin)+nuevomin$
 	- Escalado decimal, sé mueve el punto decimal en los valores del atributo.  $\Large v'=\frac{v}{10^{j}}$
