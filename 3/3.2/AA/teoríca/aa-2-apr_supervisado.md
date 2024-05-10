@@ -16,7 +16,7 @@ $\Large cota(e_{test}(f))=error_{train}+\sqrt{\frac{h(\log\frac{2n}{h}+1)-\log \
 - n es el número de ejemplos de entrenamiento
 - n>h
 
-Por lo tanto, cuando la dimensión VC aumenta la confianza VC disminuye indicando mayor poder de generalización a mayor riesgo, por lo contrario, al disminuir $n/h$ la confianza VC aumenta, llevando a sobre ajuste.
+Por lo tanto, cuando la dimensión VC disminuye la confianza VC disminuye indicando mayor poder de generalización a mayor riesgo, por lo contrario, al disminuir $n/h$ la confianza VC aumenta, llevando a sobre ajuste.
 ``El riesgo empírico realiza la inversa a la confianza VC y el esperado la suma.``
 ## Errores en el entrenamiento
 Tenemos dos tipos de errores en nuestros modelos, los irreducibles (ruido) y los variables, los variables pueden ser reducidos:
