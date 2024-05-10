@@ -24,12 +24,12 @@ Tenemos dos tipos de errores en nuestros modelos, los irreducibles (ruido) y los
 	- Diferencia entre el valor medio predicho por el modelo y el valor medio real.
 	- Indicando la posible falta de complejidad del sistema.
 - Variance (consistencia).
-	- Medida de la dispersión de las estimaciones.
+	- Medida de la dispersión de las estimaciones, en función del subconjunto de datos usada.
 	- Indicador de oberfiting.
 
 Para reducir estos errores podemos usar varias técnicas:
 - Regularización.
-	- Reduce la varianza a costa de un alto sesgo.
+	- Reduce la varianza a costa de un cierto sesgo.
 	- Reduce la complejidad usada de la red, permitiendo menor ajuste.
 
 ## Preporcesado de datos
