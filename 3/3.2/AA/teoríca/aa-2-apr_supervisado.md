@@ -104,7 +104,7 @@ $\Large p=\frac{1}{1+e^{-(b_{0}+\sum b_{i}x_{i})}}$
 Con las ventajas de mejorar la resiliencia a datos anómalos por la normalización aplicada entre 0 y 1.
 ## Entrenamiento
 Para el entrenamiento se usan técnicas similares a las empleadas en los perceptrones, siendo la maximización de la verosimilitud de las conclusiones.
-Siendo la maximización para n observaciones:
+Siendo la maximización para **n** observaciones:
 
 $LL = \sum [y\times log(p)+(1-y)\times log(1-p)]$
 
