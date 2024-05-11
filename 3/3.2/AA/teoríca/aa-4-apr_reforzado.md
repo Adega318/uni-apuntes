@@ -28,6 +28,6 @@ Los métodos de resolución en un problema de aprendizaje reforzado se pueden cl
 	- Es importante encontrar la inferencia de acción-valor óptima $Q(s, a)$, donde se expresa el refuerzo correspondiente a una acción en un estado.
 
 # Exploración y explotación
-Una de las principales complicaciones es el equilibrio entre la exploración y eexplotación una de las maneras de conseguir dicho equilibrio es realizar una exploración favoreciendo progresivamente la explotación.
-
+Una de las principales complicaciones es el equilibrio entre la exploración y explotación, una de las maneras de conseguir dicho equilibrio es realizar una exploración favoreciendo progresivamente la explotación.
 # Q-learning
+Proceso de aprendizaje con conocimiento incompleto basado en la actualización de la tabla $Q(s, a)$, siendo un MDP y por lo tanto no aceptara entornos no deterministas.
