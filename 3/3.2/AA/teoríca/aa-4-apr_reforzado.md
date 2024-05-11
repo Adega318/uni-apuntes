@@ -1,5 +1,5 @@
 # Introducción
-El comportamiento deseado para el sistema es representado mediante una evaluación sobre los resultados generados sobre el entorno, esto permite que el sistema aprenda mediante un proceso de prueba y error con el entorno y refuerzo/penalización de aciones.
+El comportamiento deseado para el sistema es representado mediante una evaluación sobre los resultados generados sobre el entorno, esto permite que el sistema aprenda mediante un proceso de prueba y error con el entorno y refuerzo/penalización de aciones. La formalización del problema 
 # Elementos
 Los elementos principales en el aprendizaje por refuerzo son:
 - Agente, sujeto de aprendizaje.
