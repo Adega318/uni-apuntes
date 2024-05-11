@@ -25,8 +25,8 @@ Los MDP son definidos con <S,A,T,R> donde:
 Los métodos de resolución en un problema de aprendizaje reforzado se pueden clasificar en función del conocimiento que se tenga del modelo:
 - Resolución a partir de un conocimiento completo, estados y acciones son conocidos.
 - Resolución a partir de un conocimiento incompleto, estados y acciones son parcialmente conocidos.
-	- Es importante encontrar la inferencia de acción-valor óptima $Q(s, a)$, donde se expresa el refuerzo correspondiente a una acción en un estado.
 
+Es importante encontrar la inferencia de acción-valor óptima $Q(s, a)$, donde se expresa el refuerzo correspondiente a una acción en un estado.
 # Exploración y explotación
 Una de las principales complicaciones es el equilibrio entre la exploración y explotación, una de las maneras de conseguir dicho equilibrio es realizar una exploración favoreciendo progresivamente la explotación.
 # Q-learning
