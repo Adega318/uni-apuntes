@@ -30,4 +30,5 @@ Los métodos de resolución en un problema de aprendizaje reforzado se pueden cl
 # Exploración y explotación
 Una de las principales complicaciones es el equilibrio entre la exploración y explotación, una de las maneras de conseguir dicho equilibrio es realizar una exploración favoreciendo progresivamente la explotación.
 # Q-learning
-Proceso de aprendizaje con conocimiento incompleto basado en la actualización de la tabla $Q(s, a)$, siendo un MDP y por lo tanto no aceptara entornos no deterministas.
+Proceso de aprendizaje con conocimiento incompleto basado en la actualización de la tabla $Q(s, a)$, en caso de ser un MDP se sabe que se llegara a la tabla optima.
+$Q(s,a)\leftarrow Q(s,a)+\alpha\cdot[r+y\cdot \max\limits_{b}Q(s',b)\cdot Q(s,a)]$
