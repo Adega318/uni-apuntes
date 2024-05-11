@@ -22,5 +22,10 @@ Los MDP son definidos con <S,A,T,R> donde:
 - R, función de refuerzo.
 
 # Taxonomía de métodos
-Los metodos de resolu
+Los métodos de resolución en un problema de aprendizaje reforzado se pueden clasificar en función del conocimiento que se tenga del modelo:
+- Resolución a partir de un conocimiento completo, estados y acciones son conocidos.
+- Resolución a partir de un conocimiento incompleto, estados y acciones son parcialmente conocidos.
+
+# Exploración y explotación
+
 # Q-learning
