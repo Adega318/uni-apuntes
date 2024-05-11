@@ -15,7 +15,12 @@ Los elementos principales en el aprendizaje por refuerzo son:
 - Modelo de entorno (opcional), método para conocer el próximo estado dada una acción y estado actual.
 
 # Procesos de Decisión de Markov
-Muchos de los algoritmos de aprendizaje por refuerzo son dependientes de cumplir la **Propiedad de Markov**, en la que se estipula que la evolución del entorno es únicamente dependiente del estado y acción tomada.
+Muchos de los algoritmos de aprendizaje por refuerzo son dependientes de cumplir la **Propiedad de Markov**, en la que se estipula que la evolución del entorno es únicamente dependiente del estado y acción tomada. A un problema de aprendizaje donde el entorno cumple la propiedad ya mencionada es denominado como **Proceso de Decisión de Markov (MDP)**, cuando el espacio de estados y acciones es finito se dice que es **Procesos de Decisión de Markov finito**.
+Los MDP son definidos con <S,A,T,R> donde:
+- S, estado actual.
+- T, función de transición.
+- R, función de refuerzo.
 
-# Taxonomía de métodos de AR
+# Taxonomía de métodos
+
 # Q-learning
