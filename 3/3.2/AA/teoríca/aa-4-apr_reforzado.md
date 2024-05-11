@@ -3,7 +3,9 @@ El comportamiento deseado para el sistema es representado mediante una evaluaci�
 $\Pi : S\rightarrow A$
 $V^{\pi}(S_{t})=\sum\limits_{i=0}^{\infty}y^{i}r_{t+1}$
 - $V^{\pi}(S_{t})$, función de refuerzo acumulado al aplicar la política $\Pi$ al estado $S_{t}$.
-- $y$, constante 
+- $y$, constante que determina la importancia de las recompensas actuales frente a las futuras, valores cercanos a 0 hacen el sistema miope y cercanos al 1 precavido.
+
+
 # Elementos
 Los elementos principales en el aprendizaje por refuerzo son:
 - Agente, sujeto de aprendizaje.
