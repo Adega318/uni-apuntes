@@ -22,5 +22,5 @@ Los MDP son definidos con <S,A,T,R> donde:
 - R, función de refuerzo.
 
 # Taxonomía de métodos
-
+Los metodos de resolu
 # Q-learning
