@@ -75,7 +75,7 @@ $Accuracy=\frac{VN+VP}{VN+FN+FP+VP}$
 $Error = \frac{FN+FP}{VN+FN+FP+VP}$
 $Recall= \frac{VP}{FN+VP}$
 $Especificidad=\frac{VN}{VN+FP}$
-$VPP (precision)=\frac{VP}{VP+VF}$
+$VPP (precision)=\frac{VP}{VP+FP}$
 $VPN=\frac{VN}{VN+FN}$
 $\Large F_{1}=2(\frac{recall \times VPP}{recall + VPP})$
 
