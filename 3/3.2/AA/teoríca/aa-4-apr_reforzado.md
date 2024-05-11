@@ -15,7 +15,7 @@ Los elementos principales en el aprendizaje por refuerzo son:
 - Modelo de entorno (opcional), método para conocer el próximo estado dada una acción y estado actual.
 
 # Procesos de Decisión de Markov
-
+Muchos de los algoritmos de aprendizaje por refuerzo son dependientes de cumplir la **Propiedad de Markov**, en la que se estipula que la evolución del entorno es únicamente dependiente del estado y acción tomada.
 
 # Taxonomía de métodos de AR
 # Q-learning
