@@ -1,4 +1,5 @@
-# Introducción 
+# Introducción
+El comportamiento deseado para el sistema es representado 
 # Elementos
 Los elementos principales en el aprendizaje por refuerzo son:
 - Agente, sujeto de aprendizaje.
