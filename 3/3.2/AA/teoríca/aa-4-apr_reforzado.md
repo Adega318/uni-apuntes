@@ -5,7 +5,6 @@ $V^{\pi}(S_{t})=\sum\limits_{i=0}^{\infty}y^{i}r_{t+1}$
 - $V^{\pi}(S_{t})$, función de refuerzo acumulado al aplicar la política $\Pi$ al estado $S_{t}$.
 - $y$, constante que determina la importancia de las recompensas actuales frente a las futuras, valores cercanos a 0 hacen el sistema miope y cercanos al 1 precavido.
 
-
 # Elementos
 Los elementos principales en el aprendizaje por refuerzo son:
 - Agente, sujeto de aprendizaje.
@@ -13,7 +12,7 @@ Los elementos principales en el aprendizaje por refuerzo son:
 - Política, define el comportamiento del agente, estableciendo los estados y aciones.
 - Función de refuerzo, establece recompensa para aciones beneficiosas y penalizaciones para erróneas.
 - Función de acción-valor, establece recompensas a largo plazo para el agente.
-- Modelo de entorno (opcional).
+- Modelo de entorno (opcional), método para conocer el próximo estado dada una acción y estado actual.
 
 # Procesos de Decisión de Markov
 
