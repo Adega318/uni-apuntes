@@ -33,7 +33,7 @@ Proceso de división de un texto en tokens:
 - Frases.
 - Símbolos.
 
-La tokenización debe tener en cuenta el lenguaje del texto origen para la reducción de los tokens superfluos.
+La tokenización debe tener en cuenta el lenguaje del texto origen para la reducción de los tokens superfluos. Para realizar la tokenización se suelen usar expresiones regulares o métodos estáticos.
 ## Indexado de texto
 Se puede indexar de múltiples maneras:
 - Bolsa de palabras, siendo de gran simplicidad pero perdiendo información sobre su orden.
