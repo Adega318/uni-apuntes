@@ -1,0 +1,1 @@
+Resumen de la historia de recuperación de la información.
