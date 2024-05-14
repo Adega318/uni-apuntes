@@ -5,7 +5,7 @@
 - Query parser, convierte las querys en términos a buscar.
 - Ranker, puntúa los elementos del índice para su aparición en consultas.
 - Evaluación de resultados, calidad de los resultados obtenidos.
-- 
+- Feedback, 
 # Conceptos
 - Documento, elemento destinado de la búsqueda (videos, artículos, …)
 - Relevancia, importancia de un documento con respecto de la consulta.
