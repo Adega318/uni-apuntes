@@ -1,4 +1,3 @@
-
 # Modulos
 - Crawler, módulo que recopila documentos.
 - Doc analyzer, analiza los documentos recopilados.
