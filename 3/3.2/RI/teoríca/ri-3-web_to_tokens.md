@@ -4,6 +4,8 @@ Pieza de software que recorre la red para obtener páginas web, se basa en parti
 - Anchura primero, explora el grafo de webs por niveles.
 - Profundidad primero, explora por ramas el grafo.
 - Focused crawling, prefiere los nuevos enlaces basándose en estrategias predefinidas.
+	- In-degree, las páginas con mayor número de links de entrada son preferidas.
+	- PageRank, usa la estrategia de bread-first hasta poder aproximar el ranking.
 
 En las estrategias, los focused pueden hacer uso de métricas de prioridad de las páginas:
 - In-degree, se puntúa por el número de enlaces que llevan a una página.
