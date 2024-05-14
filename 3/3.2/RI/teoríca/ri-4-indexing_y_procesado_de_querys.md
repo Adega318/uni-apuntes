@@ -18,8 +18,14 @@ Al comprimir los índices permitimos el aumento de velocidad de cargado. Los pri
 Los principales sistemas de compresión son:
 - Delta encoding, almacenamiento de los documentos como diferencias con el anterior.
 - Bit-Aligned, almacenamiento de números usando el 0 como separador.
-- Elias-y, cálculo de codifi
-- Elias-delta, versión de elias-y con mejor desempeñó para números grandes.
+- Elias-y, cálculo de codificación mediante:
+	- $k_{d}=\log_{2}k$
+	- $k_{r}=k-2^{k_{d}}$
+	- La codificación del número k se realiza como $k_{d}$ codificado en bit-aligned seguido de $k_{r}$ codificado en binario en $k_{d}$ bits.
+- Elias-δ, versión de elias-y con mejor desempeñó para números grandes.
+	- $k_{d}=\log_{2}k$
+	- $k_{r}=k-2^{k_{d}}$
+	- $k_{dd}=\log_{2}()$
 
 ```note!
 mirar porque elias-delta toma 2log2(log2 K) +log2(k)
