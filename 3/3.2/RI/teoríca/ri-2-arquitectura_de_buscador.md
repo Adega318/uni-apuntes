@@ -13,3 +13,4 @@
 - Feedback, ajuste mediante feedback recopilado.
 
 # Ads ranking
+El sistema de valoración de 
