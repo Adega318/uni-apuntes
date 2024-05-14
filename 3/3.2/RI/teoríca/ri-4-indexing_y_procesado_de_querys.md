@@ -21,29 +21,16 @@ Los principales sistemas de compresión son:
 - Elias-y, cálculo de codificación mediante:
 	- $k_{d}=\log_{2}k$
 	- $k_{r}=k-2^{k_{d}}$
-	- La codificación del número k se realiza como $k_{d}$ codificado en bit-aligned seguido de $k_{r}$ codificado en binario en $k_{d}$ bits.
+	- La codificación del número k se realiza como $k_{d}$ codificado en unari seguido de $k_{r}$ codificado en binario en $k_{d}$ bits.
 - Elias-δ, versión de elias-y con mejor desempeñó para números grandes.
 	- $k_{d}=\log_{2}k$
 	- $k_{r}=k-2^{k_{d}}$
-	- $k_{dd}=\log_{2}()$
+	- $k_{dd}=\log_{2}(K_{d}+1)$
+	- $k_{dr}=k_{d}+1-2^{k_{dd}}$
+	- El número k se codifica como $k_{dd}$ en unari seguido de $k_{dr}$ en binario en $k_{dd}$ bits, seguido de $k_{r}$ en $k_{d}$ bits
+- V-byte, uso del número más significativo para indicar si se debe leer otro byte, siendo el uno el indicativo de último byte y 0 de no último (**0**0000001**1**0000011, el primer 0 indica seguir leyendo y el uno del segundo byte fin)
 
-```note!
-mirar porque elias-delta toma 2log2(log2 K) +log2(k)
-```
-
-- Byte-Aligned, sistema de codificación con códigos de 1 a 4 bytes.
-	- V-byte, uso del número más significativo para indicar si se debe leer otro byte, siendo el uno el indicativo de último byte y 0 de no último (**0**0000001**1**0000011, el primer 0 indica seguir leyendo y el uno del segundo byte fin)
-
-```
-Leer Croft seción 3.51 codificación UTF-8
-```
-
-- Skip Pointers, punteros introducidos al comienzo de una posting list para saltar a documentos de manera rápida.
-
-```
-Leer Croft pag 153-154 explicación del problema de dgaps con skip pointers
-```
-
+Para la ayuda a la lectura eficiente de los índices se hace uso de **Skip Pointers**, punteros introducidos al comienzo de una posting list para saltar a documentos de manera rápida.
 # Búsqueda con índice invertido
 Para la búsqueda se le aplica a la query el mismo procesado que a los documentos, sobre los elementos de la query obtenidos:
 - Se buscan en el diccionario.
