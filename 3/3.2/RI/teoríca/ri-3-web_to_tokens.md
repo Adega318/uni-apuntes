@@ -17,8 +17,9 @@ La política de educación se basa en que el crawler siga unas normas establecid
 - Shallow parsing.
 	- Elimina los tags.
 	- Mantiene únicamente el texto título y párrafo.
-- Automatic wrapper
-- Visual parsing
+- Automatic wrapper.
+	- 
+- Visual parsing.
 
 ## Representación de un documento
 Un documento se suele representar por tokens, rompiendo el mismo en palabras, frases y símbolos. Con ciertos idiomas se pueden realizar operaciones extras para tratar sufijos y prefijos y otras peculiaridades de los diferentes idiomas.
