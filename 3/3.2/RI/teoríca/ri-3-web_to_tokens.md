@@ -48,6 +48,7 @@ Esto nos lleva a definir tres tipos de palabras:
 - Colas, mayor cantidad del vocabulario, siendo raras en documentos.
 - Normales, palabras de aparición frecuente con información.
 
+Cabe mencionar las **stopwords**, palabras usadas con objetivo puramente sintactico.
 ### Normalización
 Conversión de diversos formatos de palabras en una forma canónica.
 ### Stremming
