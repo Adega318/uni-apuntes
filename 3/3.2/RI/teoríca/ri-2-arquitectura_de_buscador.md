@@ -14,3 +14,5 @@
 
 # Ads ranking
 El sistema de valoración de anuncios para su venta mediante bids:
+- bid, bid by clic.
+- CTR, ratio de clic para un anuncio cuando es mostrado.
