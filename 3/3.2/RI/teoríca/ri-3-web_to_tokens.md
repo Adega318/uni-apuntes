@@ -27,6 +27,13 @@ Para la tokenización se hace uso de:
 - Expresiones regulares (regex)
 - Métodos estáticos.
 
+## Tokenización
+Proceso de división de un texto en tokens:
+- Palabras.
+- Frases.
+- Símbolos.
+
+
 ## Indexado de texto
 Se puede indexar de múltiples maneras:
 - Bolsa de palabras, siendo de gran simplicidad pero perdiendo información sobre su orden.
