@@ -32,3 +32,6 @@ Para mejorarlas se calcula:
 
 La importancia de un documento se puede estipular de manera no binaria con la **ganancia acumulativa descontada**:
 $DCG_{p}=\sum\limits_{i=1}^{p}\frac{2^{rel_{i}}-1}{\log_{2}(1+i)}$
+Este valor es normalmente normalizado con el DCG ideal a la posición.
+## Significancia
+Para la comparación de las métricas se debe calcular el p-valor lo cual indica la probabilidad de obtener valores extremos.
