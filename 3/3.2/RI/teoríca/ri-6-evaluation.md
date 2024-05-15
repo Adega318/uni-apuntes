@@ -5,4 +5,6 @@ La principal métrica de evaluación de la información recuperada es la satisfa
 - Relevancia de resultado.
 
 ## Clásico
-El acercamiento clásico a la evaluación 
+El acercamiento clásico a la evaluación se basa en tres elementos:
+- Recogida de documentos.
+- 
