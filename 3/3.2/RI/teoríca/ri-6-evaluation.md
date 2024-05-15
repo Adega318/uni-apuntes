@@ -25,4 +25,7 @@ Las métricas son las siguientes:
 - Recall, $R=\frac{TP}{TP+FN}$
 - Precision, $P=\frac{TP}{TP+FP}$
 
-La evaluación de los sets no evaluados 
+Para mejorarlas se calcula:
+- AP, media de las precisiones actualizadas con cada petición.
+- Precision@K, precisión de los top k documentos.
+- MRR, media de posición del primer documento relevante recuperado.
