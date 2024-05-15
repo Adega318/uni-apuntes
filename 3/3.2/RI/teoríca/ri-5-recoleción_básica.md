@@ -3,3 +3,4 @@ Query con condiciones booleanas que permite la iteración entre términos, esto 
 # Búsqueda por ranking
 La recuperación de documentos basándose en su ranking para una dada query permitiendo mayor precisión.
 ## Modelo de espacio de vectores
+Se hacen uso de representación de documentos y querys como vectores de conceptos, siendo la distancia del coseno la relevancia de una dado documento para una query.
