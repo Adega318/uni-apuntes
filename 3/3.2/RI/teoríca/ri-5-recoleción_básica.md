@@ -25,4 +25,5 @@ La principales ventajas son:
 - Facilidad de implementación
 
 Las principales desventajas son:
-- 
+- Asumir la independencia de los términos.
+- Asumir la igualdad entre documento y query.
