@@ -16,4 +16,5 @@ El idf se basa en asignar valores altos a términos raros al considerarlos decis
 La combinación de las anteriores da una métrica $w(t,d)=tf(t,d)\times idf(t)$ la cual toma la frecuencia de un término en un documento y en el sistema al completo para determinar la importancia real.
 ### Similitud
 La similitud entre dos vectores puede calcularse mediante múltiples métodos:
-- Distancia euclidiana, $dist(q, d)=\root$
+- Distancia euclidiana, $dist(q, d)=\sqrt{\sum\limits_{t\in V}[tf(t,q)idf(t)-tf(t,d)idf(t)]^{2}}$
+- Similitud de coseno, $cos(V_{q}, V_{d})=\frac{\sum_{i}V_{q}[i]\times V_{d}[i]}{\sqrt{\sum_{i}V_{q}[i]^{2}}\times\sqrt{\sum_{i}V_{d}[i]^{2}}}$
