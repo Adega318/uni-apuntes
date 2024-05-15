@@ -21,4 +21,8 @@ La similitud entre dos vectores puede calcularse mediante múltiples métodos:
 	- $|V_d|_2$, igual para todos los documentos.
 
 ### Ventajas y desventajas
-La principales ventajas 
+La principales ventajas son:
+- Facilidad de implementación
+
+Las principales desventajas son:
+- 
