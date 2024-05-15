@@ -17,4 +17,8 @@ La combinación de las anteriores da una métrica $w(t,d)=tf(t,d)\times idf(t)$ 
 ### Similitud
 La similitud entre dos vectores puede calcularse mediante múltiples métodos:
 - Distancia euclidiana, $dist(q, d)=\sqrt{\sum\limits_{t\in V}[tf(t,q)idf(t)-tf(t,d)idf(t)]^{2}}$
-- Similitud de coseno, $cos(V_{q}, V_{d})=\frac{\sum_{i}V_{q}[i]\times V_{d}[i]}{\sqrt{\sum_{i}V_{q}[i]^{2}}\times\sqrt{\sum_{i}V_{d}[i]^{2}}}$
+- Similitud de coseno, $cos(V_{q}, V_{d})=V_{q}\times\frac{V_{d}}{|V_{d}|_{2}}$
+	- $|V_d|_2$, igual para todos los documentos.
+
+### Ventajas y desventajas
+La principales ventajas 
