@@ -29,3 +29,6 @@ Para mejorarlas se calcula:
 - AP, media de las precisiones actualizadas con cada petición.
 - Precision@K, precisión de los top k documentos.
 - MRR, media de posición del primer documento relevante recuperado.
+
+La importancia de un documento se puede estipular de manera no binaria con la **ganancia acumulativa descontada**:
+$DCG_{p}=\sum\limits_{i=1}^{p}\frac{2^{rel_{i}}-1}{\log_{2}(1+i)}$
