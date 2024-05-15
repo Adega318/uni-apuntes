@@ -11,4 +11,12 @@ El acercamiento clásico a la evaluación se basa en tres elementos:
 ## Relevancia de búsqueda
 Relevancia de los resultados con respecto a la necesidad de información del usuario.
 ## Métrica de evaluación
-Las principales métricas son calculadas mediante una matriz de confusi
+Las principales métricas son calculadas mediante una matriz de confusión de la relevancia.
+
+|              | relevante | no relevante |
+| ------------ | --------- | ------------ |
+| relevante    | TP        | FP           | 
+| no relevante |     Fn      |           TN   |
+Las métricas son las siguientes:
+- Recall, $R=\frac{TP}{TP+FN}$
+- Precision, $P=\frac{TP}{TP+FP}$
