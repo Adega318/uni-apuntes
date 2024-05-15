@@ -11,7 +11,11 @@ El acercamiento clásico a la evaluación se basa en tres elementos:
 ## Relevancia de búsqueda
 Relevancia de los resultados con respecto a la necesidad de información del usuario.
 ## Métrica de evaluación
-Las principales métricas son calculadas mediante una matriz de confusión de la relevancia.
+Para la creación de metricas permite la evaluación de dos tipos de sets de recuperaciones:
+- Ranked.
+- Unranked.
+
+Las principales métricas para sistemas  son calculadas mediante una matriz de confusión de la relevancia.
 
 |              | relevante | no relevante |
 | ------------ | --------- | ------------ |
