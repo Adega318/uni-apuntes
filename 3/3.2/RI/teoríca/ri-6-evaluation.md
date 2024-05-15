@@ -35,3 +35,9 @@ $DCG_{p}=\sum\limits_{i=1}^{p}\frac{2^{rel_{i}}-1}{\log_{2}(1+i)}$
 Este valor es normalmente normalizado con el DCG ideal a la posición.
 ## Significancia
 Para la comparación de las métricas se debe calcular el p-valor lo cual indica la probabilidad de obtener valores extremos.
+## Consistencia de ranking
+Para medir la consistencia de las evaluaciones se hace uso del índice kappa:
+$k=\frac{P(A)-P(E)}{1-P(E)}$
+- P(A), probabilidad de acuerdo entre evaluaciones.
+- P(E), probabilidad de acuerdo aleatorio.
+
