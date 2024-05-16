@@ -16,7 +16,13 @@ $\log(p(q|d))=\sum\limits_{i}\log(p(q_{i}|d))$
 El acercamiento más común es la **máxima probabilidad estimada** (MLE)
 $P_{ML}(w)=\frac{count\ of\ w}{count\ of\ all\ words}$
 Teniendo el problema de la perdida de los sinónimos y relaciones sintácticas, para evitar esto se hace uso de técnicas de smoothing.
-## Smo
+## Smoothing
+La idea general es reducir la probabilidad de palabras muy habituales y redistribuirlas en las menos ocurrentes. 
+- Additive, $p(w|d)=\frac{c(w,d)+1}{|d|+|V|}$
+	- |d|, número de documentos
+	- |V|, tamaño de diccionario.
+- Descuento absoluto,  $p(w|d)=\frac{max(c(w,d)-\delta,0)+\delta|d|_{u}p(w|REF)}{|d|}$
+	- 
 
 
 
