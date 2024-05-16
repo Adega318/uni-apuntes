@@ -13,4 +13,6 @@ Las principales métricas de ranking son:
 - Número de términos comunes, $X_{6}= \log M$
 
 # Puntuación por regresión
-Para clasificar se puede hacer uso de regresiones, entre las cuales tenemos la 
+Para clasificar se puede hacer uso de regresiones, entre las cuales tenemos:
+- Lineal, relación entre un escalar dependiente y una o más explicativos.
+- Logística, $P(R=1|Q,D)=\sigma(w^{T}X)=\frac{1}{1+exp(-w^{T}X)}$
