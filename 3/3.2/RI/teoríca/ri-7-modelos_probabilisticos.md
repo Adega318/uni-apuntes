@@ -39,4 +39,5 @@ Se pueden estimar estos dos variables como:
 
 # Estimación de parámetros
 Para la estimación de parámetros podemos hacer uso de múltiples acercamientos.
-- Probabilidad máxima,  
+- Probabilidad máxima, toma el valor con mayor probabilidad. $\theta\simeq$
+- Bayesiano, 
