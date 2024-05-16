@@ -26,3 +26,9 @@ $Odd(R=1|Q,D)=\frac{P(Q,D|R=1)P(R=1)}{P(Q,D|R=0)P(R=0)}$
 Este modelo hace la suposición de la relevancia como una variable binaria, teniendo dos variantes:
 - Document generation, $P(Q,D|R)=P(D|Q,R)P(Q|R)$
 - Query generation, $P(Q,D|R)=P(Q|D,R)P(D|R)$
+
+## Document generation
+$Odd(R=1|Q,D)=\prod\limits_{i=1}^{k}\frac{P(A_{i}=d_{i}|Q,R=1)}{P(A_{i}=d_{i}|Q,R=0)}$
+Con este modelo se hace la presuposición que los términos no presentes en la query son equiprobables.
+## Robertson-Sparck Jones (RSJ)
+
