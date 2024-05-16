@@ -34,7 +34,7 @@ Para mejorarlas se calcula:
 - $F_{\beta}=(1+\beta^{2})\frac{Precision\times Recall}{\beta^{2}\times Precision+Recall}$
 
 La importancia de un documento se puede estipular de manera no binaria con la **ganancia acumulativa descontada**:
-$\large DCG_{p}=rel_{1}+\sum\limits_{i=2}^{p}(\frac{rel_{i}}{\log_})$
+$\large DCG_{p}=rel_{1}+\sum\limits_{i=2}^{p}\frac{rel_{i}}{\log_{2}i}$
 Este valor es normalmente normalizado con el DCG ideal a la posición.
 ## Significancia
 Para la comparación de las métricas se debe calcular el p-valor lo cual indica la probabilidad de obtener valores extremos.
