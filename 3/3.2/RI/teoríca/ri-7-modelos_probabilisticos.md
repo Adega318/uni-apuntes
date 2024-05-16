@@ -37,7 +37,7 @@ Se pueden estimar estos dos variables como:
 - $p_{i}\simeq\frac{(rel.doc\ with\ A_{i})+0.5}{(rel.doc)+1}$
 - $u_{i}\simeq\frac{(nonrel.doc\ with\ A_{i})+0.5}{(nonrel.doc)+1}$
 
-# Estimación de parámetros
+## Estimación de parámetros
 Para la estimación de parámetros podemos hacer uso de múltiples acercamientos.
-- Probabilidad máxima, toma el valor con mayor probabilidad. $\theta\simeq$
-- Bayesiano, 
+- Probabilidad máxima, toma el valor con mayor probabilidad.
+- Bayesiano, mejor consistente con nuestro conocimiento previo.
