@@ -19,4 +19,10 @@ Para clasificar se puede hacer uso de regresiones, entre las cuales tenemos:
 - Logística, $P(R=1|Q,D)=\sigma(w^{T}X)=\frac{1}{1+exp(-w^{T}X)}$
 
 ## Ventajas y desventajas
-Las principales ventajas son el uado de la probabilidad, absoluto de relevancia con el problema del desempeño dependiente de las caracteristicas selecionadas.
+Las principales ventajas son el uso de la probabilidad, absoluto de relevancia, con el problema del desempeño dependiente de las características seleccionadas.
+# Generativos
+El modelo generativo se basa en la generación de:
+$Odd(R=1|Q,D)=\frac{P(Q,D|R=1)P(R=1)}{P(Q,D|R=0)P(R=0)}$
+Este modelo hace la suposición de la relevancia como una variable binaria, teniendo dos variantes:
+- Document generation, $P(Q,D|R)=P(D|Q,R)P(Q|R)$
+- Query generation, $P(Q,D|R)=P(Q|D,R)P(D|R)$
