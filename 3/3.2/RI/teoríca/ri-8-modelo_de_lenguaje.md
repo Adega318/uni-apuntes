@@ -13,7 +13,7 @@ Esta es una de las opciones y populares por su simplicidad.
 # Recuperación por estimación
 Proceso de puntuación por la probabilidad de la query.
 $\log(p(q|d))=\sum\limits_{i}\log(p(q_{i}|d))$
-
+El acercamiento más común es la **maxima probabilidad estimada** (MLE) 
 
 
 
