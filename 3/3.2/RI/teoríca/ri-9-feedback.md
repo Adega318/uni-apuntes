@@ -14,5 +14,4 @@ $q_{opt}=\mu(D_{r})+[\mu(D_{r})-\mu(D_{nr})]$
 Donde la query obtenida es la óptima para la obtención de los documentos relevantes.
 ## Pseudo relevancia
 La obtención de feedback específico tiene difícil obtención por ello se hace uso de la pseudo relevancia, donde se obtiene de manera automática juicios de relevancia del usuario, siendo bueno en promedio.
-# LM
-La relevancia para modelos de lenguaje
+# RM
