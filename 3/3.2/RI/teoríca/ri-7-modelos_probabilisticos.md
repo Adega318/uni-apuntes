@@ -31,4 +31,7 @@ Este modelo hace la suposición de la relevancia como una variable binaria, teni
 $Odd(R=1|Q,D)=\prod\limits_{i=1}^{k}\frac{P(A_{i}=d_{i}|Q,R=1)}{P(A_{i}=d_{i}|Q,R=0)}$
 Con este modelo se hace la presuposición que los términos no presentes en la query son equiprobables.
 ## Robertson-Sparck Jones (RSJ)
-
+$p_{i}=P(A_{i}=1|Q,R=1)$, probabilidad de aparición de $A_{i}$ en un documento relevante.
+$u_{i}=P(A_{i}=1|Q,R=0)$, probabilidad de aparición de $A_{i}$ en un documento no significativo.
+Se pueden estimar estos dos variables como:
+- $p_{i}\simeq\frac{(rel.doc\ with\ A_{i})+0.5}{(rel.doc)+1}$
