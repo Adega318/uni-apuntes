@@ -18,4 +18,5 @@ Para clasificar se puede hacer uso de regresiones, entre las cuales tenemos:
 - Lineal, relación entre un escalar dependiente y una o más explicativos.
 - Logística, $P(R=1|Q,D)=\sigma(w^{T}X)=\frac{1}{1+exp(-w^{T}X)}$
 
-## Ventajas y desbentajas
+## Ventajas y desventajas
+Las principales ventajas son el uado de la probabilidad, absoluto de relevancia con el problema del desempeño dependiente de las caracteristicas selecionadas.
