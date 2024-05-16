@@ -1,4 +1,11 @@
-Los modelos de lenguaje establecen probabilidades de secuencias de palabras
+Los modelos de lenguaje establecen probabilidades de secuencias de palabras, para lo cual existen múltiples modelos.
+# Modelos
+# Unigram
+Se consideran las palabras con probabilidades independientes.
+$p(w_{1}...w_{n})= p(w_{1})...p(w_{n})$
+$s.t.{p(w_{i})}_{i=1}^{N}, \sum\limits_{i}p(w_{i})=1, p(w_{i})\ge 0$
+Esta es una de las opciones y populares por su simplicidad.
+# N-gram
 
 
 
