@@ -1,3 +1,9 @@
+Los modelos de lenguaje establecen probabilidades de secuencias de palabras
+
+
+
+
+
 # Distribución de palabras
 Se puede aplicar la probabilidad a las secuencias de palabras
 ## Modelo de lenguaje unigram
