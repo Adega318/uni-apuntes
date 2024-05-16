@@ -23,7 +23,9 @@ Las principales métricas para sistemas puntuados son calculadas mediante una ma
 | no relevante | FN        | TN           |
 Las métricas son las siguientes:
 - Recall, $R=\frac{TP}{TP+FN}$
+	- $TP+FN$, número de documentos verdaderamente relevantes.
 - Precision, $P=\frac{TP}{TP+FP}$
+	- $TP+FP$, número de documentos recuperados.
 
 Para mejorarlas se calcula:
 - AP, media de las precisiones actualizadas con cada petición.
