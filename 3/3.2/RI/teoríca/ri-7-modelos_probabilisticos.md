@@ -10,5 +10,7 @@ Las principales métricas de ranking son:
 - Frecuencia media absoluta de documento, $X_{3}=\frac{1}{M}\sum\limits_{1}^{M}\log DAF$
 - Longitud de documento, $X_{4}=\sqrt{DL}$
 - Frecuencia inversa de documento, $X_{5}=\frac{1}{M}\sum\limits_{1}^{M}\log\frac{N-n_{t}}{n_{t}}$
-- Número de terminos comunes, $X_{6}= \log M$
+- Número de términos comunes, $X_{6}= \log M$
 
+# Puntuación por regresión
+Para clasificar se puede hacer uso de regresiones, entre las cuales tenemos la 
