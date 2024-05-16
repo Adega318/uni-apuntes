@@ -40,4 +40,3 @@ Para medir la consistencia de las evaluaciones se hace uso del índice kappa:
 $k=\frac{P(A)-P(E)}{1-P(E)}$
 - P(A), probabilidad de acuerdo entre evaluaciones.
 - P(E), probabilidad de acuerdo aleatorio.
-
