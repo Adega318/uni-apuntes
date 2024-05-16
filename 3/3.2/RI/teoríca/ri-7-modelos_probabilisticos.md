@@ -38,3 +38,5 @@ Se pueden estimar estos dos variables como:
 - $u_{i}\simeq\frac{(nonrel.doc\ with\ A_{i})+0.5}{(nonrel.doc)+1}$
 
 # Estimación de parámetros
+Para la estimación de parámetros podemos hacer uso de múltiples acercamientos.
+- Probabilidad máxima,  
