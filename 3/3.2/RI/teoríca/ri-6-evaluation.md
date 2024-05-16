@@ -19,8 +19,8 @@ Las principales métricas para sistemas puntuados son calculadas mediante una ma
 
 |              | relevante | no relevante |
 | ------------ | --------- | ------------ |
-| relevante    | TP        | FP           | 
-| no relevante |     Fn      |           TN   |
+| relevante    | TP        | FP           |
+| no relevante | FN        | TN           |
 Las métricas son las siguientes:
 - Recall, $R=\frac{TP}{TP+FN}$
 - Precision, $P=\frac{TP}{TP+FP}$
