@@ -11,5 +11,6 @@ $q_{opt}=\mu(D_{r})+[\mu(D_{r})-\mu(D_{nr})]$
 - $D_{r}$, conjunto de documentos relevantes.
 - $D_{nr}$, conjunto de documentos no significativos.
 
-Donde la query obtenida es la óptima para la obtención de los documentos significativos.
-## Pseudorelevancia
+Donde la query obtenida es la óptima para la obtención de los documentos relevantes.
+## Pseudo relevancia
+La obtención de feedback específico tiene difícil obtención
