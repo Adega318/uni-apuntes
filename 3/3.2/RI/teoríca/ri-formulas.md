@@ -37,6 +37,16 @@ $\large P(q|d)=\Pi_{i}(1-\lambda)\frac{f_{q_{i}},d}{|d|}+\lambda\frac{f_{q_{i}},
 
 Probabilidad a Priori
 $\large P(d|q)=P(q|d)\frac{P(d)}{P(q)}=_{rank}P(q|d)P(d)$
+# Feedback
+$\mu(D)=\frac{1}{|D|}\sum\limits_{d\in D}v(d)$
+- D, conjunto de documentos.
+- $v(d)$, vector que representa el documento d.
+
+$q_{opt}=\mu(D_{r})+[\mu(D_{r})-\mu(D_{nr})]$
+- $D_{r}$, conjunto de documentos relevantes.
+- $D_{nr}$, conjunto de documentos no significativos.
+
+
 # Grafo web
 Matriz de transición de grafo web
 $MTI_{\lambda}=(1-\lambda)MTI+\frac{\lambda}{N}\times [1s]$
