@@ -12,6 +12,7 @@ El tf es calculado como la frecuencia de un término en un documento, este valor
 
 El idf se basa en asignar valores altos a términos raros al considerarlos decisivos, calculado como:
  $idf(t)=1+\log(\frac{N}{df(t)})$
+ - N, número de documentos.
  
 La combinación de las anteriores da una métrica $w(t,d)=tf(t,d)\times idf(t)$ la cual toma la frecuencia de un término en un documento y en el sistema al completo para determinar la importancia real.
 ### Similitud
