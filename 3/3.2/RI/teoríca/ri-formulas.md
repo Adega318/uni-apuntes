@@ -27,7 +27,7 @@ $\large MAP=\frac{\sum\limits_{i=1}^{n}AP_{qi}}{n}$
 $\large F_{\beta}=(1+\beta^{2})\frac{Precision\times Recall}{\beta^{2}\times Precision+Recall}$
 
 $\large DCG@p=rel_{1}+\sum\limits_{i=2}^{p}\frac{rel_{i}}{\log_{2}i}$
-$\large NDCG=\frac{}{}$
+$\large NDCG@p=\frac{DCG@p}{DCG@p(for\ ideal\ rank)}$
 # Probabilidad
 Probabilidad de query.
 $\large P(q|d)=\Pi_{i}(1-\lambda)\frac{f_{q_{i}},d}{|d|}+\lambda\frac{f_{q_{i}},C}{|C|}$
