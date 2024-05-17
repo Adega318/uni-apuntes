@@ -13,4 +13,7 @@ $\large Precision=\frac{TP}{TP+FP}$
 $\large AP=\frac{\sum_{k=i}P@k}{TP+FN}$
 $\large F_{\beta}=(1+\beta^{2})\frac{Precision\times Recall}{\beta^{2}\times Precision+Recall}$
 $\large DCG_{p}=rel_{1}+\sum\limits_{i=2}^{p}\frac{rel_{i}}{\log_{2}i}$
-# Probability
+# Probabilidad
+# Grafo web
+$MTI=$
+$(1-\lambda)MTI+\lambda N \times I$
