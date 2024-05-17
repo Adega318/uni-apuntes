@@ -14,7 +14,14 @@ $\large AP=\frac{\sum_{k=i}P@k}{TP+FN}$
 $\large F_{\beta}=(1+\beta^{2})\frac{Precision\times Recall}{\beta^{2}\times Precision+Recall}$
 $\large DCG_{p}=rel_{1}+\sum\limits_{i=2}^{p}\frac{rel_{i}}{\log_{2}i}$
 # Probabilidad
-$\large p(q|d)=\Pi_{i}\frac{f_{q_{i}},d}{|d|}+\lambda\frac{f_q}{|C|}$
+Probabilidad de query.
+$\large P(q|d)=\Pi_{i}(1-\lambda)\frac{f_{q_{i}},d}{|d|}+\lambda\frac{f_{q_{i}},C}{|C|}$
+- $f_{w},d$, frecuencia de la palabra w en el documento d.
+- C, conjunto de todos los documentos.
+- $\lambda$, valor de suavizado Jelinek-Mercer.
+
+Probabilidad a Priori
+$\large P(d|q)=P(q|d)\frac{P(d)}{P(q)}=_rank$
 # Grafo web
 $MTI_{\lambda}=(1-\lambda)MTI+\frac{\lambda}{N}\times [1s]$
 - N, número de páginas.
