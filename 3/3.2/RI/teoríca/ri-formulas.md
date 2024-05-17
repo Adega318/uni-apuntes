@@ -1,4 +1,11 @@
 # Ranking
+Term frequency
+$raw\ tf(t,d)=df(t,d)$
+- $df(t,d)$, frecuencia del término en el conjunto de documentos d.
+Inverse document frequency
+$idf(t)=1+log(\frac{N}{df(t)})$
+- N, número de documentos.
+- $df(t)$
 # Evaluación
 Para el cálculo de las métricas de evaluación se genera la matriz de confusión:
 
@@ -21,7 +28,7 @@ $\large P(q|d)=\Pi_{i}(1-\lambda)\frac{f_{q_{i}},d}{|d|}+\lambda\frac{f_{q_{i}},
 - $\lambda$, valor de suavizado Jelinek-Mercer.
 
 Probabilidad a Priori
-$\large P(d|q)=P(q|d)\frac{P(d)}{P(q)}=_rank$
+$\large P(d|q)=P(q|d)\frac{P(d)}{P(q)}=_{rank}P(q|d)P(d)$
 # Grafo web
 $MTI_{\lambda}=(1-\lambda)MTI+\frac{\lambda}{N}\times [1s]$
 - N, número de páginas.
