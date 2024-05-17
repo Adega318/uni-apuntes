@@ -15,5 +15,11 @@ $\large F_{\beta}=(1+\beta^{2})\frac{Precision\times Recall}{\beta^{2}\times Pre
 $\large DCG_{p}=rel_{1}+\sum\limits_{i=2}^{p}\frac{rel_{i}}{\log_{2}i}$
 # Probabilidad
 # Grafo web
-$MTI=$
-$(1-\lambda)MTI+\lambda N \times I$
+$(1-\lambda)MTI+\frac{\lambda}{N}\times [1s]$
+- N, número de páginas.
+- [1s], matriz de unos de NxN.
+- $\lambda$, valor de teleporting.
+- MTI, matriz de conexión con la probabilidad repartida por filas.
+
+Page
+
