@@ -2,10 +2,12 @@
 Term frequency
 $raw\ tf(t,d)=f(t,d)$
 - $f(t,d)$, frecuencia del término en el conjunto de documentos d.
+
 Inverse document frequency
 $idf(t)=1+log(\frac{N}{df(t)})$
 - N, número de documentos.
 - $df(t)$, número de documentos conteniendo t.
+
 # Evaluación
 Para el cálculo de las métricas de evaluación se genera la matriz de confusión:
 
@@ -30,10 +32,12 @@ $\large P(q|d)=\Pi_{i}(1-\lambda)\frac{f_{q_{i}},d}{|d|}+\lambda\frac{f_{q_{i}},
 Probabilidad a Priori
 $\large P(d|q)=P(q|d)\frac{P(d)}{P(q)}=_{rank}P(q|d)P(d)$
 # Grafo web
+Matriz de transición de grafo web
 $MTI_{\lambda}=(1-\lambda)MTI+\frac{\lambda}{N}\times [1s]$
 - N, número de páginas.
 - [1s], matriz de unos de NxN.
 - $\lambda$, valor de teleporting.
 - MTI, matriz de conexión con la probabilidad repartida por filas.
 
+Page rank
 $p_{t}(d)=p_{t-1}(d)MTI_{\lambda}$
