@@ -1,11 +1,11 @@
 # Ranking
 Term frequency
-$raw\ tf(t,d)=df(t,d)$
-- $df(t,d)$, frecuencia del término en el conjunto de documentos d.
+$raw\ tf(t,d)=f(t,d)$
+- $f(t,d)$, frecuencia del término en el conjunto de documentos d.
 Inverse document frequency
 $idf(t)=1+log(\frac{N}{df(t)})$
 - N, número de documentos.
-- $df(t)$
+- $df(t)$, número de documentos conteniendo t.
 # Evaluación
 Para el cálculo de las métricas de evaluación se genera la matriz de confusión:
 
