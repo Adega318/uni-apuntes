@@ -14,12 +14,12 @@ $\large AP=\frac{\sum_{k=i}P@k}{TP+FN}$
 $\large F_{\beta}=(1+\beta^{2})\frac{Precision\times Recall}{\beta^{2}\times Precision+Recall}$
 $\large DCG_{p}=rel_{1}+\sum\limits_{i=2}^{p}\frac{rel_{i}}{\log_{2}i}$
 # Probabilidad
+$\large p(q|d)=\Pi_{i}\frac{f_{q_{i}},d}{|d|}+\lambda\frac{f_q}{|C|}$
 # Grafo web
-$(1-\lambda)MTI+\frac{\lambda}{N}\times [1s]$
+$MTI_{\lambda}=(1-\lambda)MTI+\frac{\lambda}{N}\times [1s]$
 - N, número de páginas.
 - [1s], matriz de unos de NxN.
 - $\lambda$, valor de teleporting.
 - MTI, matriz de conexión con la probabilidad repartida por filas.
 
-Page
-
+$p_{t}(d)=p_{t-1}(d)MTI_{\lambda}$
