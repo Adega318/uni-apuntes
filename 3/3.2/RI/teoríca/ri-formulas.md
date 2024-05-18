@@ -52,7 +52,7 @@ $\large q_{m}=\alpha q_{0}+\beta\mu(D_{r})-\gamma\mu(D_{nr})$
 - $q_{0}$, query original
 
 ```note!
-no puede tener valores negativos, se substituyen con 0
+no puede tener valores negativos, se substituyen por 0
 ```
 # Grafo web
 Matriz de transición de grafo web
