@@ -21,6 +21,7 @@ Para el cálculo de la similitud se hace:
 
 Con lo anterior calculamos la similitud entre la query (q) y el documento (D).
 $sim(q,D)=\sum q\ weights\times D\ weights$
+$cos(q,D)=\frac{}{}$
 # Evaluación
 Para el cálculo de las métricas de evaluación se genera la matriz de confusión:
 
