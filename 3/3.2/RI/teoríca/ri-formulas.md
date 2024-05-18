@@ -20,8 +20,8 @@ Para el cálculo de la similitud se hace:
 	- Euclidiana, $|D|=\sqrt{\sum (tf\times idf)^{2}}$
 
 Con lo anterior calculamos la similitud entre la query (q) y el documento (D).
-$sim(q,D)=\sum\limits_{t} tf(t,q)\times idf(t)$
-$cos(q,D)=\frac{}{}$
+$\largesim(q,D)=\sum\limits_{t} tf(t,q)\times idf(t)\times \frac{tf(t,d)\times idf(t)}{|D|}$
+$cos(q,D)=\frac{\sum\limits_{t}tf(t,q)\times idf(t)\times tf(t,d)\times idf(t)}{|Q|\times|D|}$
 # Evaluación
 Para el cálculo de las métricas de evaluación se genera la matriz de confusión:
 
