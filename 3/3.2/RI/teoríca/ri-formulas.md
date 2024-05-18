@@ -17,11 +17,12 @@ Para el cálculo de la similitud se hace:
 - N, número de documentos.
 - df(t), documentos con término t.
 - norm, cálculo de la normalización:
-	- Euclidiana, $|D|=\sqrt{\sum (tf\times idf)^{2}}$
+	- Euclidiana, $|D|=\sqrt{\sum\limits_{t} (tf(t,d)\times idf(t))^{2}}$
 
 Con lo anterior calculamos la similitud entre la query (q) y el documento (D).
-$\largesim(q,D)=\sum\limits_{t} tf(t,q)\times idf(t)\times \frac{tf(t,d)\times idf(t)}{|D|}$
-$cos(q,D)=\frac{\sum\limits_{t}tf(t,q)\times idf(t)\times tf(t,d)\times idf(t)}{|Q|\times|D|}$
+$\large sim(q,D)=\sum\limits_{t} tf(t,q)\times idf(t)\times \frac{tf(t,d)\times idf(t)}{|D|}$
+
+$\large cos(q,D)=\frac{\sum\limits_{t}tf(t,q)\times idf(t)\times tf(t,d)\times idf(t)}{|Q|\times|D|}$
 # Evaluación
 Para el cálculo de las métricas de evaluación se genera la matriz de confusión:
 
