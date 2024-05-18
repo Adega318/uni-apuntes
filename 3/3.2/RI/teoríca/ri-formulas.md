@@ -11,9 +11,9 @@ $idf(t)=1+log(\frac{N}{df(t)})$
 # Similitud
 Para el cálculo de la similitud se hace:
 
-| term | idf       | q weights           | Raw tf     | Raw tf x idf   | D weights                   |
-| ---- | --------- | ------------------- | ---------- | -------------- | --------------------------- |
-| t    | $N/df(t)$ | $idf\times in(t,q)$ | num t in d | $tf\times idf$ | $\frac{tf\times idf}{norm}$ |
+| term | idf       | Raw tf Q  | Raw tf D  | Raw tf D x idf         | D weights                            |
+| ---- | --------- | --------- | --------- | ---------------------- | ------------------------------------ |
+| t    | $N/df(t)$ | $tf(t,q)$ | $tf(t,d)$ | $tf(t,d)\times idf(t)$ | $\frac{tf(t,d)\times idf(t)}{\|D\|}$ |
 - N, número de documentos.
 - df(t), documentos con término t.
 - norm, cálculo de la normalización:
