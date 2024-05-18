@@ -11,7 +11,7 @@ $idf(t)=1+log(\frac{N}{df(t)})$
 # Similitud
 Para el cálculo de la similitud se hace:
 
-| term | idf       | Query weights       | Raw tf     | Raw tf x idf   | Doc weights                 |
+| term | idf       | q weights           | Raw tf     | Raw tf x idf   | D weights                   |
 | ---- | --------- | ------------------- | ---------- | -------------- | --------------------------- |
 | t    | $N/df(t)$ | $idf\times in(t,q)$ | num t in d | $tf\times idf$ | $\frac{tf\times idf}{norm}$ |
 - N, número de documentos.
@@ -19,6 +19,8 @@ Para el cálculo de la similitud se hace:
 - norm, cálculo de la normalización:
 	- Euclidiana, $|D|=\sqrt{\sum (tf\times idf)^{2}}$
 
+Con lo anterior calculamos la similitud entre la query (q) y el documento (D).
+$sim(q,D)=\sum q\ weights\times Raw\ tf \times D\ weights$
 # Evaluación
 Para el cálculo de las métricas de evaluación se genera la matriz de confusión:
 
