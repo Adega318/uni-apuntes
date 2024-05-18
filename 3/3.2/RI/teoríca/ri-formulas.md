@@ -20,7 +20,7 @@ Para el cálculo de la similitud se hace:
 	- Euclidiana, $|D|=\sqrt{\sum (tf\times idf)^{2}}$
 
 Con lo anterior calculamos la similitud entre la query (q) y el documento (D).
-$sim(q,D)=\sum q\ weights\times Raw\ tf \times D\ weights$
+$sim(q,D)=\sum q\ weights\times D\ weights$
 # Evaluación
 Para el cálculo de las métricas de evaluación se genera la matriz de confusión:
 
