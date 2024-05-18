@@ -9,10 +9,16 @@ $idf(t)=1+log(\frac{N}{df(t)})$
 - $df(t)$, número de documentos conteniendo t.
 
 # Similaridad
-Para el calculo de la similaridaz se hace:
-| term | idf | Query weights | Raw tf | Raw tf x idf | Doc weights |
-| ---- | --- | ------------- | ------ | ------------ | ----------- |
-| t    | $N/df(t)$    |  $idf\times in(t,q)$ |        |              |             |
+Para el cálculo de la similitud se hace:
+
+| term | idf       | Query weights       | Raw tf     | Raw tf x idf   | Doc weights                |
+| ---- | --------- | ------------------- | ---------- | -------------- | -------------------------- |
+| t    | $N/df(t)$ | $idf\times in(t,q)$ | num t in d | $tf\times idf$ | $\frac{tf\times idf}{sim}$ |
+- N, número de documentos.
+- df(t), documentos con término t.
+- sim, cálculo de la similitud:
+	- Euclidiana, $sim(q,d)=$
+
 # Evaluación
 Para el cálculo de las métricas de evaluación se genera la matriz de confusión:
 
