@@ -17,7 +17,7 @@ Para el cálculo de la similitud se hace:
 - N, número de documentos.
 - df(t), documentos con término t.
 - norm, cálculo de la normalización:
-	- Euclidiana, $|D|=\sqrt{\sum\limits_{t} (tf(t,d)\times idf(t))^{2}}$
+	- $|D|=\sqrt{\sum\limits_{t} (tf(t,d)\times idf(t))^{2}}$
 
 Con lo anterior calculamos la similitud entre la query (q) y el documento (D).
 $\large sim(q,D)=\sum\limits_{t} tf(t,q)\times idf(t)\times \frac{tf(t,d)\times idf(t)}{|D|}$
