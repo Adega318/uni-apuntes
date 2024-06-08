@@ -83,4 +83,9 @@
 
 # A pedir
 - Centro tecnológico itg Perf2
+	- 1950 B
+- Centro tecnológico itg Perf3
+	- 1950 B
+- Cinfo Perf1
+	- 1200 B
 - 
