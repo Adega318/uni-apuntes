@@ -80,3 +80,7 @@
 6. Innogando |
 7. GB |
 	1. hr@gbtec.es
+
+# A pedir
+- Centro tecnológico itg Perf2
+- 
