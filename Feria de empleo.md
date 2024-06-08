@@ -88,7 +88,7 @@
 - Centro tecnológico itg Perf3
 	- Languaje models
 	- 1950 B
-- Cinfo Perf1
+- Cinfo Perf1 -
 	- Backend
 	- 1200 B
 - Cinfo Perf2
