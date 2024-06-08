@@ -83,9 +83,18 @@
 
 # A pedir
 - Centro tecnológico itg Perf2
+	- machine view
 	- 1950 B
 - Centro tecnológico itg Perf3
+	- Languaje models
 	- 1950 B
 - Cinfo Perf1
+	- Backend
+	- 1200 B
+- Cinfo Perf2
+	- IA
+	- 1200 B
+- Cinfo Perf3 \*
+	- Grafics
 	- 1200 B
 - 
