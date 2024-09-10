@@ -4,3 +4,4 @@
 	- Static, validez del programa antes de ser ejecutado.
 	- Dynamic, validez de la interpretación.
 - Pragmatica
+
