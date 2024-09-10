@@ -7,4 +7,8 @@
 
 # Semántica
 La semántica define lo que hace un dado programa.
-
+## Métodos de especificación
+No existen métodos oficiales para la especificación de la semántica:
+- Operacional, aplicación mecánica de instrucciones predeterminadas modelando el hardware como una máquina abstracta.
+- Denotación
+- Axiomática
