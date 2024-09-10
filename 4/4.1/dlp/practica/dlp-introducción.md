@@ -10,7 +10,14 @@ La semántica define lo que hace un dado programa.
 ## Métodos de especificación
 No existen métodos oficiales para la especificación de la semántica:
 - Operacional, aplicación mecánica de instrucciones predeterminadas modelando el hardware como una máquina abstracta.
-	- Componentes de código, frases que controlan el resto de la computación.
-	- Componentes de estado, entradas modificadas por el programa durante la ejecución.
 - Denotación
 - Axiomática
+
+### Operacional
+#### Smal step
+Avance de principio a fin, parando al llegar 
+- Componentes de código, frases que controlan el resto de la computación.
+- Componentes de estado, entradas modificadas por el programa durante la ejecución.
+
+#### Big step
+El paso grande parte la tarea  al amitar la par la posterior evaluación de las componentes, teninedo problemas con la parada por error.
