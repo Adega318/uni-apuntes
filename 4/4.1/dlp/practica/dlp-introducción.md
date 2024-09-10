@@ -15,9 +15,9 @@ No existen métodos oficiales para la especificación de la semántica:
 
 ### Operacional
 #### Smal step
-Avance de principio a fin, parando al llegar 
+Avance de principio a fin, parando al llegar a  fin o al llegar a un camino sin salida, lo que lanza errores.
 - Componentes de código, frases que controlan el resto de la computación.
 - Componentes de estado, entradas modificadas por el programa durante la ejecución.
 
 #### Big step
-El paso grande parte la tarea  al amitar la par la posterior evaluación de las componentes, teninedo problemas con la parada por error.
+El paso grande parte la tarea a la mitad para la posterior evaluación de las componentes, teniendo problemas con la parada por error.
