@@ -5,3 +5,6 @@
 	- Dynamic, validez de la interpretación.
 - Pragmatica
 
+# Semántica
+La semántica define lo que hace un dado programa.
+
