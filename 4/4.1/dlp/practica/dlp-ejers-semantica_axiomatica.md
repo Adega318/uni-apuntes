@@ -19,6 +19,15 @@ while i<m
 
 # Ejer serie de fibonachi
 ```
-{}
+{n>=0}
+
+fib0 = 0
+fib1 = 1
+k = n
+
+while k>0
+	aux = fib0
+	fib0 = fib1
+	fib1 = fib1 + aux
 {}
 ```
