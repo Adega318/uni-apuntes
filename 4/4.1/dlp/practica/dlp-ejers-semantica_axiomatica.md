@@ -17,3 +17,8 @@ while i<m
 | 2   | 1\*2    |
 | 3   | 1\*2\*3 |
 
+# Ejer serie de fibonachi
+```
+{}
+{}
+```
