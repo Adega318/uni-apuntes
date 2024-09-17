@@ -29,4 +29,6 @@ a{, m} -> cadena de más de m veces
 ## Caracteres especiales
 \\t -> tab
 \\n -> enter
-\\b -> 
+\\b -> espacio
+
+# 
