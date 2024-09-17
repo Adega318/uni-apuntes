@@ -1,8 +1,8 @@
 # Arquitectura
 ```mermaid
 flowchart TD
-([Voice Sample]) --> [Mell Splectogram]
+A([Voice sample]) --> B[Mel spectogram]
+B -->
 
 ```
-
 
