@@ -55,7 +55,7 @@ while k>0
 	fib0 = fib1
 	fib1 = fib1 + aux
 	k = k - 1
-{I & k=0}
+{fib0 = Fib(n-k) & fib1 = Fib(n-k+1) & k=0}
 
 {fib0 = Fib(n)}
 ```
