@@ -30,5 +30,3 @@ a{, m} -> cadena de más de m veces
 \\t -> tab
 \\n -> enter
 \\b -> espacio
-
-# 
