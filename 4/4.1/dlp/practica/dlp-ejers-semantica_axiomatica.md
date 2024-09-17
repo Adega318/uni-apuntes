@@ -25,12 +25,14 @@ fib0 = 0
 fib1 = 1
 k = n
 
+{I}
 while k>0
+	{I & k>0}
 	aux = fib0
 	fib0 = fib1
 	fib1 = fib1 + aux
 	k = k - 1
-{I & k=0}
+{I & k<=0}
 
 {fib0 = Fib(n)}
 ```
@@ -50,12 +52,17 @@ fib0 = 0
 fib1 = 1
 k = n
 
+{(fib0 = Fib(n-k) & fib1 = Fib(n-k+1) & k>=0)}
 while k>0
+	{(fib0 = Fib(n-k) & fib1 = Fib(n-k+1) & k>=0) & k>0}
 	aux = fib0
+	{fib1 = Fib(n-k+1) & fib1 + aux = Fib(n-k+2) & k=1}
 	fib0 = fib1
+	{fib0 = Fib(n-k+1) & fib1 + aux = Fib(n-k+2) & k=1}
 	fib1 = fib1 + aux
+	{fib0 = Fib(n-k+1) & fib1 = Fib(n-k+2) & k=1}
 	k = k - 1
-{fib0 = Fib(n-k) & fib1 = Fib(n-k+1) & k=0}
+{(fib0 = Fib(n-k) & fib1 = Fib(n-k+1) & k>=0) & k<=0}
 
 {fib0 = Fib(n)}
 ```
