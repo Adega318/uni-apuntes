@@ -22,7 +22,11 @@ a$ -> búsqueda de elemento al final de línea
 \[A-ZÁÉÍÓÚÑ\]
 \[^a-z\] -> cualquier cosa que no se encuentre entre la a y z minúsculas 
 ## Multiplicidades
-a{n} -> cadena de n vezes a
-a{n, m} -> cadena de n a m vezes a
-a{n, } -> cadena de al menos n vezes a
-a{, m} -> cadena de al menos n vezes a
+a{n} -> cadena de n veces a
+a{n, m} -> cadena de n a m veces a
+a{n, } -> cadena de al menos n veces a
+a{, m} -> cadena de más de m veces 
+## Caracteres especiales
+\\t -> tab
+\\n -> enter
+\\b -> 
