@@ -29,5 +29,33 @@ while k>0
 	aux = fib0
 	fib0 = fib1
 	fib1 = fib1 + aux
-{}
+	k = k - 1
+{I & k=0}
+
+{fib0 = Fib(n)}
+```
+
+
+| k   | fib0 | fib1 |
+| --- | ---- | ---- |
+| n   | 0    | 1    |
+| n-1 | 1    | 1    |
+| n-2 | 1    | 2    |
+
+
+```
+{n>=0}
+
+fib0 = 0
+fib1 = 1
+k = n
+
+while k>0
+	aux = fib0
+	fib0 = fib1
+	fib1 = fib1 + aux
+	k = k - 1
+{I & k=0}
+
+{fib0 = Fib(n)}
 ```
