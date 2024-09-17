@@ -1,3 +1,0 @@
-- Doblaje
-	- al gallego 
-- 
