@@ -9,3 +9,8 @@
 	- Oblicua, el plano de proyección no es perpendicular al objeto.
 		- Caballera
 		- Gabinete
+
+## Elementos de definición
+Elementos a definir a la hora de crear una proyección.
+- VRP, punto de la cámara en el sistema de coordenadas.
+- VPN, 
