@@ -16,4 +16,6 @@ Elementos a definir a la hora de crear una proyección.
 - VPN, vector de apuntado de la cámara.
 - VUP, vector indicando la dirección "arriba" en la cámara.
 - Tipo de proyección.
-	- Pralela, 
+- Volumen de vista, espacio a renderizar en la proyección.
+
+# Generación de vistas 3D
