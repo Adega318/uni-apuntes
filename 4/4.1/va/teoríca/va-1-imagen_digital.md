@@ -1,3 +1,3 @@
 # Conceptos básicos
 Una imagen es una representación acotada del mundo, estas imágenes pueden ser representadas mediante señales y, por lo tanto, transformadas por funciones.
-Estas señales pueden ser almacenadas como mapas de vectores, siendo la manera más precisa pero difícil de obtener o almacenadas como mapas de bits, mucho más sencillas. Estas imagenes de mapa de bits estan compuestas por pixeles, los cuales tienen asociados unas coordenadas e información 
+Estas señales pueden ser almacenadas como mapas de vectores, siendo la manera más precisa pero difícil de obtener o almacenadas como mapas de bits, mucho más sencillas. Estas imágenes de mapa de bits están compuestas por píxeles, los cuales tienen asociados unas coordenadas e información.
