@@ -19,4 +19,4 @@ Elementos a definir a la hora de crear una proyección.
 - Volumen de vista, espacio a renderizar en la proyección.
 
 # Generación de vistas 3D
-Para la generación de vistas se hace uso de coordenadas homogéneas, las cuales añaden una nueva coordenada "W", siendo una optimización para permitir el trabajo con matrizes de tamaño constante.
+Para la generación de vistas se hace uso de coordenadas homogéneas, las cuales añaden una nueva coordenada "W", siendo una optimización para permitir el trabajo con matrices de tamaño constante.
