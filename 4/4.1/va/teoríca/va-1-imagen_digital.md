@@ -12,3 +12,5 @@ Paso1. Para cada pixel negro se analizan los vecinos superior e izquierdo.
 Paso2. Obserbamos las equivalencias y aplicamos una etiqueta a cada clase.
 Paso3. Substituimos etiquetas anticuadas
 ```
+
+# Color
