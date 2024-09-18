@@ -13,4 +13,7 @@
 ## Elementos de definición
 Elementos a definir a la hora de crear una proyección.
 - VRP, punto de la cámara en el sistema de coordenadas.
-- VPN, 
+- VPN, vector de apuntado de la cámara.
+- VUP, vector indicando la dirección "arriba" en la cámara.
+- Tipo de proyección.
+	- Pralela, 
