@@ -4,3 +4,6 @@ NTPS:
 - T, terminales, símbolos finales.
 - P, reglas, conjunto de reglas.
 - S, axioma, elemento no terminal de comienzo del sistema.
+
+# Clasificación de chomsky
+Chomsky di
