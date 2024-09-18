@@ -27,7 +27,6 @@ $A \in N$
 Es necesario un autómata con pila para su reconocimiento.
 ## Tipo 3
 Lenguajes regulares
-$A \rightarrow aB; A \ri$
-$\alpha,\beta \in (NUT)^*$
-$v \in (NUT)^+$
-$A \in N$
+$A \rightarrow aB; A \rightarrow a; A \rightarrow \lambda$
+$a \in T$
+$A,B \in N$
