@@ -19,3 +19,15 @@ $\alpha A\beta \rightarrow \alpha v\beta$
 $\alpha,\beta \in (NUT)^*$
 $v \in (NUT)^+$
 $A \in N$
+## Tipo 2
+Con contexto libre
+$A \rightarrow \alpha$
+$\alpha \in (NUT)^*$
+$A \in N$
+Es necesario un autómata con pila para su reconocimiento.
+## Tipo 3
+Lenguajes regulares
+$A \rightarrow aB; A \ri$
+$\alpha,\beta \in (NUT)^*$
+$v \in (NUT)^+$
+$A \in N$
