@@ -1,7 +1,7 @@
 # Beta reduction
 Proceso de aplicado de una función, donde la primera parte es la función seguida de valor, a esta forma se le llama $\beta-redex$ $(\lambda x.t_1)t_2$.
 
-$(\lambda x.x+1)2 = \[x\rightarrow2\](x+1)$
+$(\lambda x.x+1)2 = [x\rightarrow 2](x+1)$
 ## Complete Beta-reduction
 Las reducciones donde se encuentre una función identidad $(\lambda x.x)$ esta es substituida por id.
 $(\lambda x.x)((\lambda x.x)(\lambda z.(\lambda x.x)z))$
