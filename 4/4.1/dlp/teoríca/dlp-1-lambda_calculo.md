@@ -12,7 +12,7 @@ $\lambda z.z$
 
 Para realizar esto tenemos dos principales órdenes:
 - Llamada por nombre, en ella está prohibido la reducción dentro de abstracciones.
-- Llamada por valor, se pueden aplicar los redex externos solo cuando el término derecho ha sido reducido a un valor.
+- Llamada por valor, se pueden aplicar los redex externos solo cuando el término derecho ha sido reducido a un valor (Usada por la mayoría de lenguajes).
 # Substitution and free variable capture
 Una substitución es definida por:
 - $[x\rightarrow s]x=s$
