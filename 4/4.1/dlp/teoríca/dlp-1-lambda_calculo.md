@@ -8,4 +8,5 @@ Una substitución es definida por:
 - $[x\rightarrow s](\lambda y.t)=(\lambda y.[x\rightarrow s]t)$
 - $[x\rightarrow s]t_1 t_2=([x\rightarrow s]t_1)([x\rightarrow s]t_2)$
 
-Al hacer substituciones si se hace una que incluya el nombre de una variable ligada esa variable puede verse capturada, por lo tanto se deve evitar media
+Al hacer substituciones si se hace una que incluya el nombre de una variable ligada esa variable puede verse capturada, por lo tanto, se debe evitar mediante el renombrado de la substitución para que no contenga la variable ligada. Esto se implementa mediante la siguiente norma:
+$[x\rightarrow s](\lambda y . t)=(\lambda y . [x\rightarrow s] t)if y \$
