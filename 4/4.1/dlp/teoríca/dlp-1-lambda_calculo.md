@@ -9,8 +9,9 @@ $id(id(\lambda z.z))$
 $id(\lambda z.z)$
 $\lambda z.z$
 
-Para realizar esto tenemos dos principales ordenes:
-- Llamada por nombre, en ella esta proivido la redución dentro de abstraci
+Para realizar esto tenemos dos principales órdenes:
+- Llamada por nombre, en ella está prohibido la reducción dentro de abstracciones.
+- Llamada por valor, se pueden aplicar los redex externos solo cuando el término derecho ha sido reducido a un valor.
 # Substitution and free variable capture
 Una substitución es definida por:
 - $[x\rightarrow s]x=s$
