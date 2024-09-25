@@ -6,3 +6,5 @@ Operaciones de bajo nivel con el objetivo de convertir una imagen en una versió
 - Transformaciones geométricas
 - Métodos de vecindad local
 - Operaciones Morfológicas
+
+x
