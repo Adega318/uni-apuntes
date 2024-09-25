@@ -20,3 +20,5 @@ Elementos a definir a la hora de crear una proyección.
 
 # Generación de vistas 3D
 Para la generación de vistas se hace uso de coordenadas homogéneas, las cuales añaden una nueva coordenada "W", siendo una optimización para permitir el trabajo con matrices de tamaño constante.
+Para la generación de perspectivas se toma el punto de la cámara, plano de proyección y vértices del objeto y mediante aristas entre la cámara y vértices y su consecuente proyección en el plano se obtiene la perspectiva, si la cámara se lleva al infinito esta perspectiva se convierte en paralela.
+Para las proyecciones se debe definir un centro de proyección (COP), el cual es descr
