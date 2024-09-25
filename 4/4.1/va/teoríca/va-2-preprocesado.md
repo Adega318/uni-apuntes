@@ -14,3 +14,6 @@ Operaciones de bajo nivel con el objetivo de convertir una imagen en una versió
 	- Coordenadas homogéneas, para realizar múltiples transformaciones con un único paso se hace uso de una coordenada extra. Esta coordenada extra hace que todas las operaciones sean multiplicaciones, lo que permite pre multiplicar las matrices para obtener la matriz de transformación combinada.
 - Métodos de vecindad local
 - Operaciones Morfológicas
+
+# Interpolaciones
+Procesos usados para la elección de los niveles de gris de los píxeles en función de los píxeles ya conocidos.
