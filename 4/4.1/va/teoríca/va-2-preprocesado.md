@@ -8,9 +8,9 @@ Operaciones de bajo nivel con el objetivo de convertir una imagen en una versió
 		- **Control adaptativo**, aplicación a bloques del histograma ecualizaciones, causando bordes entre bloques, lo cual se soluciona mediante técnicas de corrección. $\LARGE g_{adapt}=K_{1}*|\frac{\mu_{local}}{\sigma_{local}}|(g(x,y)-\mu_{global})+K_{2}\mu_{global}$
 - Transformaciones geométricas, modificación de la relación espacial entre píxeles.
 	- Transformaciones
-		- Traslación, movimiento lineal de los píxeles, definido por un vector. $P'=P+T$
-		- Rotación, movimiento de los píxeles con respecto a un punto de giro. $P'=P\times R$
-		- Escalado con respecto al origen, la posición del punto es multiplicada por un valor. $P'=P\times S$
+		- **Traslación**, movimiento lineal de los píxeles, definido por un vector. $P'=P+T$
+		- **Rotación**, movimiento de los píxeles con respecto a un punto de giro. $P'=P\times R$
+		- **Escalado con respecto al origen**, la posición del punto es multiplicada por un valor. $P'=P\times S$
 	- Coordenadas homogéneas, para realizar múltiples transformaciones con un único paso se hace uso de una coordenada extra. Esta coordenada extra hace que todas las operaciones sean multiplicaciones, lo que permite pre multiplicar las matrices para obtener la matriz de transformación combinada.
 - Métodos de vecindad local
 - Operaciones Morfológicas
