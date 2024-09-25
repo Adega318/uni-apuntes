@@ -7,9 +7,5 @@ Operaciones de bajo nivel con el objetivo de convertir una imagen en una versió
 - Métodos de vecindad local
 - Operaciones Morfológicas
 
-50-150
+$$(x-50)*\frac{255}{100}$$
 
-50 -> 0
-150 -> 255
-
-$\large|x-50|*\frac{255}{100}$
