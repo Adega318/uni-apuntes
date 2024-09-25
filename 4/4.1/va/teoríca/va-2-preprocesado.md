@@ -6,6 +6,6 @@ Operaciones de bajo nivel con el objetivo de convertir una imagen en una versió
 		- **Rango dinámico**, expansión de la información para que ocupe todo el rango. $\LARGE g_{norm}(x,y)= G_{minNorm}+\frac{(G_{maxNorm}-G_{minNorm})\times (g(x,y)-G_{min})}{G_{max}-G_{min}}$
 		- **Ecualización**, operación para aplanar un histograma para dar la misma importancia a todos los píxeles, expandiendo el rango de píxeles con mayor concentración y concentrando las partes de menor densidad. Para esto se crea una función monótona acotada acorde a la imagen, siendo el histograma acumulado donde la cota es el número de píxeles de la imagen y monótona creciente, esta función se basa en el crecimiento por la acumulación de píxeles, por lo tanto, cuando hay valores similares son almacenados sobre el mismo y cuando hay alto diferencial se aplica a diferentes valores.
 		- **Control adaptativo**, aplicación a bloques del histograma ecualizaciones, causando bordes entre bloques, lo cual se soluciona mediante técnicas de corrección. $\LARGE g_{adapt}=K_{1}*|\frac{\mu_{local}}{\sigma_{local}}|(g(x,y)-\mu_{global})+K_{2}\mu_{global}$
-- Transformaciones geométricas
+- Transformaciones geométricas, modificación de la relación espacial entre píxeles,
 - Métodos de vecindad local
 - Operaciones Morfológicas
