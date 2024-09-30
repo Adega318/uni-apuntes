@@ -9,3 +9,7 @@ $(M_{o}-m_{o})\frac{I-m_{i}}{M_{i}-m_{i}}+m_{o}$
 
 ## equalizeIntensity
 Para realizar la ecualización se hace uso del histograma acumulado.
+
+Se crea el histograma con el número de bins, sobre ese histograma se aplica la acumulación, se toma el punto central de cada bin y se interpola.
+
+## filterImage
