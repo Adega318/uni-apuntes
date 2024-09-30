@@ -14,3 +14,5 @@ Se crea el histograma con el número de bins, sobre ese histograma se aplica la 
 
 ## filterImage
 I\[1:20, 1:20\] = fragmento de la imagen de 20x20
+
+Para los zeros de tamaño hacemos uso de padding de la imagen.
