@@ -10,4 +10,4 @@ Se convierte un objeto en un conjunto de primitivas contiguas no intersecadas, n
 ## Geometría sólida constructiva
 Se hace uso de la intersección y unión de objetos para la creación de uno nuevo, esto se consigue por la generación de un árbol de operaciones con las formas que componen el objeto.
 # Fractales
-Para la representación de formas orgánicas y naturales el acercamiento euclídeo es inapropiado, por ello se hace uso de los fractales. Esto nos permite la creación de modelos con niveles de detalle infinitos, ya que al hacer zoom se genera de manera recursiva el fractal.
+Para la representación de formas orgánicas y naturales el acercamiento euclídeo es inapropiado, por ello se hace uso de los fractales. Esto nos permite la creación de modelos con niveles de detalle infinitos, ya que al hacer zoom se genera de manera recursiva el fractal. Estos fractales junto de otras técnicas se puede usar para la generación de topologías
