@@ -9,4 +9,6 @@ Método de representación de objetos que cuentan de un eje de simetría, esta r
 ## División espacial
 Se convierte un objeto en un conjunto de primitivas contiguas no intersecadas, normalmente usado para simulaciones de fuerzas físicas sobre el objeto.
 ## Geometría sólida constructiva
-Se hace uso de la intersecación y union de obgetos para la creación de uno nuevo, esto se consigue por la generación de un 
+Se hace uso de la intersección y unión de objetos para la creación de uno nuevo, esto se consigue por la generación de un árbol de operaciones con las formas que componen el objeto.
+# Fractales
+Para la representación de formas orgánicas y naturales el acercamiento euclídeo es inapropiado, por ello se hace uso de los fractales. Esto lleva a multiples di
