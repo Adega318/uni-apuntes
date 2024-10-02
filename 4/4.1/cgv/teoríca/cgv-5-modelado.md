@@ -11,4 +11,5 @@ Se convierte un objeto en un conjunto de primitivas contiguas no intersecadas, n
 ## Geometría sólida constructiva
 Se hace uso de la intersección y unión de objetos para la creación de uno nuevo, esto se consigue por la generación de un árbol de operaciones con las formas que componen el objeto.
 # Fractales
-Para la representación de formas orgánicas y naturales el acercamiento euclídeo es inapropiado, por ello se hace uso de los fractales. Esto lleva a multiples di
+Para la representación de formas orgánicas y naturales el acercamiento euclídeo es inapropiado, por ello se hace uso de los fractales. Esto lleva a múltiples diferencias:
+- 
