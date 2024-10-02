@@ -5,7 +5,6 @@ El modelado de objetos mediante la definición de polígonos no se hace uso para
 Método de representación de objetos que cuentan de un eje de simetría, esta representación se realiza mediante el uso de un eje y sección. Habiendo dos tipos:
 - Traslacional, movimiento de la sección sobre el eje.
 - Revolución, giro de la sección (perfil) sobre el eje.
-
 ## División espacial
 Se convierte un objeto en un conjunto de primitivas contiguas no intersecadas, normalmente usado para simulaciones de fuerzas físicas sobre el objeto.
 ## Geometría sólida constructiva
