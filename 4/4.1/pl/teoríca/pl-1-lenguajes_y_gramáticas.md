@@ -30,5 +30,3 @@ Lenguajes regulares
 $A \rightarrow aB; A \rightarrow a; A \rightarrow \lambda$
 $a \in T$
 $A,B \in N$
-
-# Parsing
