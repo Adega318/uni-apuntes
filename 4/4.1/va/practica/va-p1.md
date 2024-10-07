@@ -19,3 +19,5 @@ Para los zeros de tamaño hacemos uso de padding de la imagen.
 
 ## gaussFilter
 $I*g_{1D}*g_{1D}^T$
+## medianFilter
+Dar el valor de la mediana del kernel
