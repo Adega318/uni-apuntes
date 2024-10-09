@@ -20,3 +20,5 @@ Para la representación paramétrica se hace uso de un segmento (Q) definido por
 La continuidad es el proceso de unión de curvas sin interrupciones, siendo de dos tipos:
 - Geométrica, igualdad de las direcciones de los vectores tangentes.
 - Paramétrica, igualdad de direcciones y magnitudes de los vectores tangentes del los segmentos.
+### Splines
+Para definir las curabas con spleines se hace uso de una matiz base y un conjunto de segmentos 
