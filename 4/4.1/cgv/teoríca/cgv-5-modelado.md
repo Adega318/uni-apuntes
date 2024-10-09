@@ -12,4 +12,5 @@ Se hace uso de la intersección y unión de objetos para la creación de uno nue
 # Fractales
 Para la representación de formas orgánicas y naturales el acercamiento euclídeo es inapropiado, por ello se hace uso de los fractales. Esto nos permite la creación de modelos con niveles de detalle infinitos, ya que al hacer zoom se genera de manera recursiva el fractal. Estos fractales junto de otras técnicas se puede usar para la generación de topologías y otros elementos.
 ## Movimiento Browniano
-En el proceso de generación de fractales se establece desplazamientos aleatorios para generar diferencias en la generación
+En el proceso de generación de fractales se establece desplazamientos aleatorios para generar diferencias en la generación.
+## Dibujo de curvas paramétricas
