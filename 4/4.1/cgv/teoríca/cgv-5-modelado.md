@@ -16,3 +16,7 @@ En el proceso de generación de fractales se establece desplazamientos aleatorio
 ## Dibujo de curvas paramétricas
 ### Representación paramétricas
 Para la representación paramétrica se hace uso de un segmento (Q) definido por un vector (T) y matriz de coeficientes (C) a su vez dependiendo del orden de la figura se necesitará un número de puntos de control igual al orden más uno.
+### Continuidad
+La continuidad es el proceso de unión de curvas sin interrupciones, siendo de dos tipos:
+- Geométrica, igualdad de las direcciones de los vectores tangentes.
+- Paramétrica, igualdad de direcciones y magnitudes de los vectores tangentes del los segmentos.
