@@ -26,3 +26,4 @@ Para definir las curabas con splines se hace uso de un matiz base y un conjunto 
 Spline definido por puntos de control y segmentos los cuales cada uno tiene relacionados tres puntos de control. Este acercamiento tiene el problema de no poder hacer pasar a la curva por un punto concreto.
 #### No uniforme no-racional
 Spline donde se hace uso de funciones de mezcla, las cuales permiten la estipulación de puntos obligatorios para la curva aunque disminuyendo la continuidad a C1.
+####
