@@ -14,3 +14,5 @@ Para la representación de formas orgánicas y naturales el acercamiento euclíd
 ## Movimiento Browniano
 En el proceso de generación de fractales se establece desplazamientos aleatorios para generar diferencias en la generación.
 ## Dibujo de curvas paramétricas
+### Representación paramétricas
+Para la representación prametrica se hace uso de un segmento definido por un vector y matriz de coeficientes.
