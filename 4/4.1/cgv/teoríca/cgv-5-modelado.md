@@ -21,4 +21,6 @@ La continuidad es el proceso de unión de curvas sin interrupciones, siendo de d
 - Geométrica, igualdad de las direcciones de los vectores tangentes.
 - Paramétrica, igualdad de direcciones y magnitudes de los vectores tangentes del los segmentos.
 ### Splines
-Para definir las curabas con spleines se hace uso de una matiz base y un conjunto de segmentos 
+Para definir las curabas con splines se hace uso de un matiz base y un conjunto de segmentos 
+#### Uniforme no-racional
+Spline definido por puntos de control y segmentos los cuales cada uno tiene relacionados tres puntos de control. Este acercamiento tiene el problema de no poder hacer pasar a la curva por un punto concreto.
