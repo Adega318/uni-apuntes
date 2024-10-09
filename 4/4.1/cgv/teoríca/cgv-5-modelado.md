@@ -27,4 +27,5 @@ Spline definido por puntos de control y segmentos los cuales cada uno tiene rela
 ### No uniforme no-racional
 Spline donde se hace uso de funciones de mezcla, las cuales permiten la estipulación de puntos obligatorios para la curva aunque disminuyendo la continuidad a C1.
 ## Subdivisión de curvas
-Proceso por el cual se duplican los puntos de control mediante la busqueda de puntos intermedios a los ya definidos.
+Proceso por el cual se duplican los puntos de control mediante la búsqueda de puntos intermedios a los ya definidos.
+## Superficies bicúbicas
