@@ -4,4 +4,7 @@ Este proceso lleva a una imagen más pequeña a no ser que se añada un padding 
 ## Suavizado
 ## Detallado
 ## Acentuado de bordes
+### Laplaze
+### Algoritmos de realce
+
 ## Eliminación de ruido
