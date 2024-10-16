@@ -8,3 +8,6 @@ Este proceso lleva a una imagen más pequeña a no ser que se añada un padding 
 ### Algoritmos de realce
 Para realzar la una imagen se calcula un realce y se le resta a la imagen original.
 ## Eliminación de ruido
+
+# Operadores morfológicos
+
