@@ -18,4 +18,5 @@ Concatenación de erosión y dilatación con un mismo elemento estructurante, pe
 ## Cierre
 Concatenación de dilatación y erosión con un mismo elemento estructurante, eliminando agujeros en figuras y conectando las adyacentes.
 
-## Dilatación en escala de grises
+## Dilatación y Erosión en escala de grises
+Para la aplicación de dilatación en escalas de grises se basa en la aplicación de un kernel que para la ampliación del blanco se hace uso del máximo y, por lo contrario, para el negro se hace uso del mínimo. Basándose en lo anterior la erosión sería la misma operación pero invertida.
