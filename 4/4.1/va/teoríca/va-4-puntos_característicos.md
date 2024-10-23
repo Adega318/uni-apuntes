@@ -8,5 +8,7 @@ Para la detección de bordes tenemos cuatro características a detectar:
 Al realizar la primera derivada obtenemos un mapa de vectores de cambio en intensidad, teniendo por cada pixel el cambio en x e y.
 ### Roberts
 Se realiza la primera derivada en lugar de haciendo uso de x e y para la derivada haciendo uso de las diagonales.
+## Prewitt
+
 # Esquinas
 # Puntos singulares
