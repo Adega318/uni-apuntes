@@ -14,5 +14,6 @@ Operaciones basadas en la forma de los conjuntos de píxeles, estas operaciones 
 ## Dilatación
 ## Erosión
 ## Apertura
-Concatenación de erosión y dilatación con un mismo elemento estructurante, permitiendo la eliminación de ruido con posterior recuperación parcial de las formas no eliminadas.
+Concatenación de erosión y dilatación con un mismo elemento estructurante, permitiendo la eliminación de ruido con posterior recuperación parcial de las formas no eliminadas. Esto lleva a un efecto de eliminación de ruido y suavizado de bordes.
 ## Cierre
+Concatenación de dilatación y erosión con un mismo elemento estructurante, eliminando agujeros en figuras y conectando las adyacentes.
