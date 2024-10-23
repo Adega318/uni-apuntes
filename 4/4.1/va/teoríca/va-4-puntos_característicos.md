@@ -22,5 +22,10 @@ La segunda derivada da bordes más concretos, siendo el principal el laplaciano,
 Para tratar la sensibilidad del laplaciano al ruido aplicamos un filtro gausiano integrado en la máscara de la segunda derivada.
 ### Diferencia de gausianas (DoG)
 Para detectar bordes se hace la diferencia de dos gausianas con sigmas ligeramente diferentes, lo que es equivalente a LoG.
+### Operador de Canny
+El operador de Canny tiene los siguientes pasos:
+1. Mejora de la imagen, uso de un suavizado y localizador de bordes (primera derivada).
+2. Supresión no máxima, reducción de bordes a grosor 1.
+3. Umbralización con histéresis, reducir los falsos contornos.
 # Esquinas
 # Puntos singulares
