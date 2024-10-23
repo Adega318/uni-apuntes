@@ -21,6 +21,6 @@ La segunda derivada da bordes más concretos, siendo el principal el laplaciano,
 ### Laplaciano de gausiano (LoG)
 Para tratar la sensibilidad del laplaciano al ruido aplicamos un filtro gausiano integrado en la máscara de la segunda derivada.
 ### Diferencia de gausianas (DoG)
-Para detectar bordes se hace la diferencia de dos gausianas con sigmas ligeramente diferentes, lo
+Para detectar bordes se hace la diferencia de dos gausianas con sigmas ligeramente diferentes, lo que es equivalente a LoG.
 # Esquinas
 # Puntos singulares
