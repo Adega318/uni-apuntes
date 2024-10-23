@@ -9,6 +9,8 @@ Al realizar la primera derivada obtenemos un mapa de vectores de cambio en inten
 ### Roberts
 Se realiza la primera derivada en lugar de haciendo uso de x e y para la derivada haciendo uso de las diagonales.
 ## Prewitt
-
+Bordes diagonales, horizontales y verticales.
+## Sobel
+Bordes con las diferencias horizontales y verticales tomadas en mayor consideración.
 # Esquinas
 # Puntos singulares
