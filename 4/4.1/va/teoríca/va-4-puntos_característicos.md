@@ -12,5 +12,7 @@ Se realiza la primera derivada en lugar de haciendo uso de x e y para la derivad
 Bordes diagonales, horizontales y verticales.
 ## Sobel
 Bordes con las diferencias horizontales y verticales tomadas en mayor consideración.
+## Robinson
+Mediante el us
 # Esquinas
 # Puntos singulares
