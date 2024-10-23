@@ -13,6 +13,12 @@ Bordes diagonales, horizontales y verticales.
 ## Sobel
 Bordes con las diferencias horizontales y verticales tomadas en mayor consideración.
 ## Robinson
-Mediante el us
+Mediante el uso de máscaras se establece la medición de bordes en ocho direcciones.
+## Kirsch
+Robinson con modificaciones.
+## Segunda derivada
+La segunda derivada da bordes más concretos, siendo el principal el laplaciano, el cual produce dobles bordes dado lo cual obtenemos bordes donde se produce un cambio de positivo a negativo.
+### Laplaciana de gausiana (LOG)
+Para tra
 # Esquinas
 # Puntos singulares
