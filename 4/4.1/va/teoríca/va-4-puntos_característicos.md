@@ -1,8 +1,10 @@
 # Bordes
-Para la deteción de bordes tenemos cuatro caracteristicas a detectar:
+Para la detección de bordes tenemos cuatro características a detectar:
 - Normal, vector del cambio en intensidad.
 - Dirección, tangente al contorno del borde.
 - Intensidad, fuerza del cambio de grises.
-- Posicion, pixel donde se realiza el cambio en intensidad.
+- Posición, pixel donde se realiza el cambio en intensidad.
+## Primera derivada
+Al realizar la primera derivada obtenemos un mapa de vectores de cambio en intensidad, lo que per
 # Esquinas
 # Puntos singulares
