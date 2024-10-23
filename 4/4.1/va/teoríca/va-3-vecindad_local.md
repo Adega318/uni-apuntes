@@ -10,7 +10,7 @@ Para realzar la una imagen se calcula un realce y se le resta a la imagen origin
 ## Eliminación de ruido
 
 # Operadores morfológicos
-Operaciones basadas en la forma de los conjuntos de píxeles, estas operaciones se realizan mediante el cálculo de conjuntos y, por lo tanto, se consideran las imágenes conjuntos.
+Operaciones basadas en la forma de los conjuntos de píxeles, estas operaciones se realizan mediante el cálculo de conjuntos y, por lo tanto, se consideran las imágenes como conjuntos.
 ## Dilatación
 ## Erosión
 ## Apertura
