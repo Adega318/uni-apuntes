@@ -1,0 +1,3 @@
+# Bordes
+# Esquinas
+# Puntos singulares
