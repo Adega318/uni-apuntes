@@ -24,10 +24,13 @@ Dar el valor de la mediana del kernel
 # Operadores morfológicos
 
 
-# edgeCanny
+# Detección de bordes
+## edgeCanny
 1. Gaussiana para sigma conocido.
 2. Aplicar el gradiente.
 3. Supresión no máxima.
 	1. Interpolar cada pixel con su vector gradiente unitario positivo y negativo
-	2. probar con un círculo
-4. 
+	2. probar con un círculo para obtener bordes unitarios
+4. Umbralización con histéresis
+	1. Establecimiento de máximo y mínimo con tendencia a mantenerse en el anterior en caso de indeterminado.
+	2. 
