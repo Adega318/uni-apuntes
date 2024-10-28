@@ -29,3 +29,5 @@ Dar el valor de la mediana del kernel
 2. Aplicar el gradiente.
 3. Supresión no máxima.
 	1. Interpolar cada pixel con su vector gradiente unitario positivo y negativo
+	2. probar con un círculo
+4. 
