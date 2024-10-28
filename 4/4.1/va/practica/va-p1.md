@@ -22,3 +22,10 @@ $I*g_{1D}*g_{1D}^T$
 ## medianFilter
 Dar el valor de la mediana del kernel
 # Operadores morfológicos
+
+
+# edgeCanny
+1. Gaussiana para sigma conocido.
+2. Aplicar el gradiente.
+3. Supresión no máxima.
+	1. 
