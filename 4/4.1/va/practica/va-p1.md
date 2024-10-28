@@ -28,4 +28,4 @@ Dar el valor de la mediana del kernel
 1. Gaussiana para sigma conocido.
 2. Aplicar el gradiente.
 3. Supresión no máxima.
-	1. 
+	1. Interpolar cada pixel con su vector gradiente unitario positivo y negativo
