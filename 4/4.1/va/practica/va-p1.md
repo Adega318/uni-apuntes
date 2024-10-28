@@ -33,4 +33,4 @@ Dar el valor de la mediana del kernel
 	2. probar con un círculo para obtener bordes unitarios
 4. Umbralización con histéresis
 	1. Establecimiento de máximo y mínimo con tendencia a mantenerse en el anterior en caso de indeterminado.
-	2. 
+	2. label scikit image
