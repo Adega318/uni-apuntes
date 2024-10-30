@@ -6,4 +6,7 @@ El procedimiento de inundación es usado cunado no hay definición de los objeto
 - Propagación, escoger píxeles cercanos a ser modificados para lo cual se debe establecer un criterio.
 - Final
 ## Inundación recursiva
+Método basado en el lanzamiento recursivo de la inundación con propagación de 4-8 vecinos por ciclo.
 ## Inundación por barrido
+Método donde sobre un pixel semilla se propaga sobre una línea de barrido, revisando huecos inferiores y superiores, los cuales serán los puntos semilla de consecuentes inundaciones.
+## Soft-filling
