@@ -33,4 +33,6 @@ Algoritmo basado en el uso de información de niveles de gris locales, se analiz
 Moravec se ve afectado por las rotaciones.
 ### Susan
 Respuesta al problema de las rotaciones de Moravec que toma un kernel circular para el cálculo de las diferencias, lo cual permite las rotaciones y escalados. Se basa en que el número de píxeles coincidentes con el central es bajo, condición exclusiva de los bordes, el porcentaje que consideremos bajo decide como de aguda debe de ser una esquina para ser detectada.
+## Harris
+
 # Puntos singulares
