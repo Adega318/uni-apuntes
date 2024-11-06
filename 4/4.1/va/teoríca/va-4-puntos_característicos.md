@@ -32,5 +32,5 @@ El operador de Canny tiene los siguientes pasos:
 Algoritmo basado en el uso de información de niveles de gris locales, se analiza toda la imagen pixel a pixel haciendo uso de una ventana. Para determinar las transiciones, desplazando la ventana en cada uno de los vecinos y calcula las diferencias absolutas elemento a elemento de cada ventana con respecto a la original y almacenan las diferencias en los píxeles, sobre el central se toma el mínimo, en caso de ser 0 es una zona homogénea.
 Moravec se ve afectado por las rotaciones.
 ### Susan
-Respuesta al problema de las rotaciones de Moravec que toma un kernel circular para el cálculo de las diferencias, lo cual permite las rotaciones y escalados.
+Respuesta al problema de las rotaciones de Moravec que toma un kernel circular para el cálculo de las diferencias, lo cual permite las rotaciones y escalados. Se basa en que el número de píxeles coincidentes con el central es bajo, condición exclusiva de los bordes, el porcentaje que consideremos bajo decide como de aguda debe de ser una esquina para ser detectada.
 # Puntos singulares
