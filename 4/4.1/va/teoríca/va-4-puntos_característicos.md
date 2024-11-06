@@ -28,4 +28,5 @@ El operador de Canny tiene los siguientes pasos:
 2. Supresión no máxima, reducción de bordes a grosor 1.
 3. Umbralización con histéresis, reducir los falsos contornos mediante umbrales y zona intermedia donde se aproximan los indecisos por continuidad.
 # Esquinas
+
 # Puntos singulares
