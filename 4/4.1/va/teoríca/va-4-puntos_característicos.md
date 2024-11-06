@@ -29,5 +29,5 @@ El operador de Canny tiene los siguientes pasos:
 3. Umbralización con histéresis, reducir los falsos contornos mediante umbrales y zona intermedia donde se aproximan los indecisos por continuidad.
 # Esquinas
 ## Moravec
-Algoritmo basado en el uso de información de niveles de gris locales, se analiza toda la imagen pixel a pixel haciendo uso de una ventana para determinar las transiciones, deplazando la ventana en cada uno de los vezinos
+Algoritmo basado en el uso de información de niveles de gris locales, se analiza toda la imagen pixel a pixel haciendo uso de una ventana. Para determinar las transiciones, desplazando la ventana en cada uno de los vecinos y calcula las diferencias absolutas elemento a elemento de cada ventana con respecto a la original, estos valores de diferencia se guardan en los pixe
 # Puntos singulares
