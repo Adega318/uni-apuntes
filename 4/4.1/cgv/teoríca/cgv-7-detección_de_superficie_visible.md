@@ -1,0 +1,1 @@
+# Determinación de superficie visible
