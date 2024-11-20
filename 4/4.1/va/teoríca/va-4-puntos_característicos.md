@@ -45,3 +45,4 @@ Toma vectores representativos de clase y clasifica los patrones en función de l
 Se toma una imagen y divide en cuatro si se considera de que posee varias clases lo cual se repite sobre las cuatro imágenes generadas, posteriormente se unen los vecinos que se consideran la misma clase (regiones excesivamente genéricas).
 ## Crecimiento de regiones
 Mediante semillas se hacen crecer regiones, tomando información de los alrededores para crecer.
+### Watershed
