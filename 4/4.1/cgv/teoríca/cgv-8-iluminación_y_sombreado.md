@@ -5,3 +5,4 @@ Sistema de combinación de imágenes basado en una ponderación de diferentes fo
 # Luz monocroma
 ## Halftoning
 Técnica basada en la integración del sistema de visión humana que permite que él suso de puntos cercanos represente una imagen coherente.
+# Color (No lo suele preguntar)
