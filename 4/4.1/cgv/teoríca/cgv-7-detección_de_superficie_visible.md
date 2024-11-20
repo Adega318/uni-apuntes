@@ -8,3 +8,4 @@ Se ordenan los polígonos por profundidad y tomando el superior se recortan los 
 ### Octrees
 División recursiva del espacio tridimensional, obteniendo una representación la cual permite el fácil cambio de cámara.
 ### Trazado de rayos
+Le lanza un "rayo" desde la cámara a cada uno de los píxeles de la imagen y tomamos el color del primer objeto encontrado.
