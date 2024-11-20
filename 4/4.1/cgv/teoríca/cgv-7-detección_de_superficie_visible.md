@@ -6,4 +6,5 @@ Se subdivide el espacio, cuando en una de las subdivisiones aparecen múltiples 
 #### Weiler-Atherton
 Se ordenan los polígonos por profundidad y tomando el superior se recortan los inferiores y eliminan dichos recortes, esto se repetirá sucesivamente (siempre se corta con las originales, no las recortadas).
 ### Octrees
-División recursiva del espacio tridimensional.
+División recursiva del espacio tridimensional, obteniendo una representación la cual permite el fácil cambio de cámara.
+### Trazado de rayos
