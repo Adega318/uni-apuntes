@@ -36,3 +36,8 @@ Respuesta al problema de las rotaciones de Moravec que toma un kernel circular p
 ## Harris
 
 # Puntos singulares
+
+
+# Clustering
+## K-means
+Toma vectores representativos de clase y clasifica los patrones en función de los representativos los cuales actualizamos, esto causa problemas al no tener un vector representativo determinado y en su lugar uno seudoaleatorio.
