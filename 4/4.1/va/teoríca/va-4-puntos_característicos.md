@@ -42,4 +42,4 @@ Respuesta al problema de las rotaciones de Moravec que toma un kernel circular p
 ## K-means
 Toma vectores representativos de clase y clasifica los patrones en función de los representativos los cuales actualizamos, esto causa problemas al no tener un vector representativo determinado y en su lugar uno pseudoaleatorio.
 ## Splitting and merging
-Se toma una imagen y divide en cuatro si se considera de que posee varias clases lo cual se repite sobre las cuatro imágenes generadas, posteriormente se unen los vecinos que se consideran la misma clase.
+Se toma una imagen y divide en cuatro si se considera de que posee varias clases lo cual se repite sobre las cuatro imágenes generadas, posteriormente se unen los vecinos que se consideran la misma clase (regiones excesivamente genéricas).
