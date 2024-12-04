@@ -14,4 +14,4 @@ Se calcula el color por los vértices y se interpola a lo largo de las aristas. 
 ## Sombreado de Phong
 Se hace el cálculo de las normales a lo largo de toda la arista, esto elimina las Bandas de Mach en gran medida.
 # Sombras
-## Hard and soft shadow
+El sombreado se puede hacer mediante la toma de la luz como un punto de proyección, usado para proyectar los bordes del objeto sobre el fondo dando lugar a sombras duras con los problemas de la incapacidad de interacción de las sobras sobre otros objetos o sobre si mismo.
