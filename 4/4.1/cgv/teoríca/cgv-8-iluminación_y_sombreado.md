@@ -18,4 +18,6 @@ El sombreado se puede hacer mediante la toma de la luz como un punto de proyecci
 ## Volúmenes de sombra
 Se crea un polígono infinito sobre cada objeto en dirección opuesta a la luz, cuando un objeto interseca este volumen la parte intersecada se encuentra a la sombra. Este cálculo se hace con la suma y resta a un contador por el uso de caras entrantes y salientes.
 ## DSV
-Sistema de deteción de superficies visibles 
+Sistema de detección de superficies visibles basado en la eliminación de los polígonos no visibles por la luz y la intersección de este recorte con el objeto original para sombrearlo.
+## Z-Buffer
+Se calculan los puntos más cercanos desde el punto de vista de la luz haciendo uso de las técnicas de z-buffer, a estas coordenadas desde el punto de vista de la luz se le llama mapa de sombreado, con esta información se sombrea desde el punto de vista normal. Este metodo tiene errores de precisión por la transformada de las coordenadas a
