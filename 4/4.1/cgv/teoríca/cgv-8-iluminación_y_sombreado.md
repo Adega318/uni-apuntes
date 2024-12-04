@@ -22,4 +22,4 @@ Sistema de detección de superficies visibles basado en la eliminación de los p
 ## Z-Buffer
 Se calculan los puntos más cercanos desde el punto de vista de la luz haciendo uso de las técnicas de z-buffer, a estas coordenadas desde el punto de vista de la luz se le llama mapa de sombreado, con esta información se sombrea desde el punto de vista normal. Este método tiene errores de precisión por la transformada de las coordenadas y problemas de aliasing ya presente en el sistema de z-buffer original.
 # Texturas
-##
+## Mapeado de texturas
