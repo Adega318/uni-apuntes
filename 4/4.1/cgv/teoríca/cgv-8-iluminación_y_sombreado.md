@@ -14,4 +14,8 @@ Se calcula el color por los vértices y se interpola a lo largo de las aristas. 
 ## Sombreado de Phong
 Se hace el cálculo de las normales a lo largo de toda la arista, esto elimina las Bandas de Mach en gran medida.
 # Sombras
-El sombreado se puede hacer mediante la toma de la luz como un punto de proyección, usado para proyectar los bordes del objeto sobre el fondo dando lugar a sombras duras con los problemas de la incapacidad de interacción de las sobras sobre otros objetos o sobre si mismo.
+El sombreado se puede hacer mediante la toma de la luz como un punto de proyección, usado para proyectar los bordes del objeto sobre el fondo dando lugar a sombras duras con los problemas de la incapacidad de interacción de las sobras sobre otros objetos o sobre sí mismo.
+## Volúmenes de sombra
+Se crea un polígono infinito sobre cada objeto en dirección opuesta a la luz, cuando un objeto interseca este volumen la parte intersecada se encuentra a la sombra. Este cálculo se hace con la suma y resta a un contador por el uso de caras entrantes y salientes.
+## DSV
+Sistema de deteción de superficies visibles 
