@@ -20,4 +20,6 @@ Se crea un polígono infinito sobre cada objeto en dirección opuesta a la luz, 
 ## DSV
 Sistema de detección de superficies visibles basado en la eliminación de los polígonos no visibles por la luz y la intersección de este recorte con el objeto original para sombrearlo.
 ## Z-Buffer
-Se calculan los puntos más cercanos desde el punto de vista de la luz haciendo uso de las técnicas de z-buffer, a estas coordenadas desde el punto de vista de la luz se le llama mapa de sombreado, con esta información se sombrea desde el punto de vista normal. Este metodo tiene errores de precisión por la transformada de las coordenadas a
+Se calculan los puntos más cercanos desde el punto de vista de la luz haciendo uso de las técnicas de z-buffer, a estas coordenadas desde el punto de vista de la luz se le llama mapa de sombreado, con esta información se sombrea desde el punto de vista normal. Este método tiene errores de precisión por la transformada de las coordenadas y problemas de aliasing ya presente en el sistema de z-buffer original.
+# Texturas
+##
