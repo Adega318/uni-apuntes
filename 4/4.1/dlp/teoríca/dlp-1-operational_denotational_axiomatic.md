@@ -12,7 +12,9 @@ Gramáticas con cierta información semántica en el árbol de nodos, siendo com
 - Atributos heredados son decorados de arriba a abajo.
 - Atributos sintetizados son decorados de abajo a arriba.
 # Semántica dinámica
-
+## Especificación
+### Operacional
+Formalización de las instrucciones comunes de un programa que pueden ser seguidas en un proceso de aplicación de reglas.  Estas reglas 
 # Semántica operacional
 # Semántica denotacional
 # Semántica axiomatica
