@@ -68,4 +68,5 @@ El renombrado de variables enlazadas es inconsecuente siempre que no se colision
 - E-If, $\Large\frac{t_{1}\to t_{1}'}{If\ t_{1}\ then\ t_{2}\ else\ t_{3}\to If\ t_{1}'\ then\ t_{2}\ else\ t_{3}}$
 ## Aridmetica
 - E-Succ, $\Large\frac{t_{1}\to t_{1}'}{succ\ t_{1}\to succ\ t_{1}'}$
-- 
+- E-PredZero, $pred\ 0\to 0$
+- E-PredSucc, $pred(succ\ nv_{1})\to$
