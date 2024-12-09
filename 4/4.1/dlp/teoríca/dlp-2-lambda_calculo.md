@@ -23,7 +23,6 @@ Una substitución es definida por:
 Al hacer substituciones si se hace una que incluya el nombre de una variable ligada esa variable puede verse capturada, por lo tanto, se debe evitar mediante el renombrado de la substitución para que no contenga la variable ligada. Esto se implementa mediante la siguiente norma:
 $[x\rightarrow s](\lambda y . t)=(\lambda z . [x\rightarrow s][y\rightarrow z] t)where\ z\notin FV(t)\ and\ z \notin FV(s)$
 
-
 # Sintaxis
 ## Variables
 El cálculo lambda comienza por las variables, donde se encuentran los siguientes elementos:
@@ -34,7 +33,6 @@ El cálculo lambda comienza por las variables, donde se encuentran los siguiente
 	- cuerpo, $t$
 - aplicaciones, $t t$
 Las variables se pueden considerar enlazadas o libres, una variable se considera enlazada si se encuentra dentro del cuerpo de una abstracción donde el binder contenga dicha variable.
-# Semántica operacional
 ## Reducciones Beta
 El proceso de reducción es el medio de computación del cálculo lambda $(\lambda x.t_{1})t_{2}\to[x\implies t_{2}]t_{1}$, siendo la segunda parte el resultado de la substitución de las apariciones enlazadas de $x$ por $t_{2}$ en $t_{1}$, estas reducciones son conocidas como *beta-redex* ($\beta-redex$) y una *forma normal* es la terminología para denotar un término sin reducciones.
 ## Estrategias de evaluación
@@ -42,11 +40,10 @@ El proceso de reducción es el medio de computación del cálculo lambda $(\lamb
 - Orden normal, reduce la reducción más externa.
 - **Llamado por nombre**, reducción normal pero sin abstracciones internas.
 - **Llamado por valor**, reducción normal, pero donde el argumento es un valor.
-# Operaciones semánticas
 ## Variables libres
 - $FV(x)=\{x\}$
 - $FV(\lambda x.t)=FV(t)\{x\}$
-- $FV(t_{1}t_{2})=FV(t_{1})\union FV(t_{2})$
+- $FV(t_{1}t_{2})=FV(t_{1})\bigcup FV(t_{2})$
 ## Sustitución y variables libres
 - $[x\rightarrow s]x=s$
 - $[x\rightarrow s]y=y\ if\ y\neq x$
@@ -58,5 +55,5 @@ El renombrado de variables enlazadas es inconsecuente siempre que no se colision
 ## Sustitución refinada
 - $[x\rightarrow s]x=s$
 - $[x\rightarrow s]y=y\ if\ y\neq x$
-- $[x\rightarrow s](\lambda y.t)=(\lambda y.[x\rightarrow s]t)\ if\ y\neq x\ an d\ y\notin FV(s)$
+- $[x\rightarrow s](\lambda y.t)=(\lambda z.[x\implies s][y\implies z]t)\ where\ z\notin FV(s)\ an d\ z\notin FV()$
 - $[x\rightarrow s]t_1 t_2=([x\rightarrow s]t_1)([x\rightarrow s]t_2)$
