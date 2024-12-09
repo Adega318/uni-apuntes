@@ -27,7 +27,7 @@ $[x\rightarrow s](\lambda y . t)=(\lambda z . [x\rightarrow s][y\rightarrow z] t
 # Sintaxis
 ## Variables
 El cálculo lambda comienza por las variables, donde se encuentran los siguientes elementos:
-- termino,$t::=$
+- termino,$t::= \dots$
 - variables, $x$
 - abstracciones, $\lambda x.t$
 	- binder, $\lambda x.$
@@ -43,6 +43,12 @@ El proceso de reducción es el medio de computación del cálculo lambda $(\lamb
 - **Llamado por nombre**, reducción normal pero sin abstracciones internas.
 - **Llamado por valor**, reducción normal, pero donde el argumento es un valor.
 # Programación
-## Sintaxis abstracta
-
+## Sustitución y variables libres
+- $[x\rightarrow s]x=s$
+- $[x\rightarrow s]y=y$
+- $[x\rightarrow s](\lambda y.t)=(\lambda y.[x\rightarrow s]t)$
+- $[x\rightarrow s]t_1 t_2=([x\rightarrow s]t_1)([x\rightarrow s]t_2)$
+Se substitullen las apariciones de variables libres (NO LAS ENLAZADAS).
+## Renombrado de variables enlazadas
+El renombrado de variables enlazadas es inconsecuente siempre que no se colisione con variables libres en el cuerpo de la abstracción, a esto s
 # Operaciones semánticas
