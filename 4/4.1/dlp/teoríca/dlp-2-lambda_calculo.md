@@ -69,4 +69,8 @@ El renombrado de variables enlazadas es inconsecuente siempre que no se colision
 ## Aridmetica
 - E-Succ, $\Large\frac{t_{1}\to t_{1}'}{succ\ t_{1}\to succ\ t_{1}'}$
 - E-PredZero, $pred\ 0\to 0$
-- E-PredSucc, $pred(succ\ nv_{1})\to$
+- E-PredSucc, $pred(succ\ nv_{1})\to nv_{1}$
+- E-Pred, $\Large\frac{t_{1}\to t_{1}'}{pred\ t_{1}\to pred\ t_{1}'}$
+- E-IsZeroZero, $iszero\ 0\to\ true$
+- E-IsZeroSucc, $iszero(succ\ nv_{1})\to false$
+- E-IsZero, $\Large\frac{t_{1}\to t_{1}'}{iszero\ t_{1}\to iszero\ t_{1}'}$
