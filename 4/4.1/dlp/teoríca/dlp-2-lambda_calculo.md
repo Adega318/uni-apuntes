@@ -55,5 +55,11 @@ El renombrado de variables enlazadas es inconsecuente siempre que no se colision
 ## Sustitución refinada
 - $[x\rightarrow s]x=s$
 - $[x\rightarrow s]y=y\ if\ y\neq x$
-- $[x\rightarrow s](\lambda y.t)=(\lambda z.[x\implies s][y\implies z]t)\ where\ z\notin FV(s)\ an d\ z\notin FV()$
+- $[x\rightarrow s](\lambda y.t)=(\lambda z.[x\implies s][y\implies z]t)\ where\ z\notin FV(t)\ an d\ z\notin FV(s)$
 - $[x\rightarrow s]t_1 t_2=([x\rightarrow s]t_1)([x\rightarrow s]t_2)$
+# Semántica operacional
+## Reglas
+- $(\lambda x.t_{1})v_{2}\to[x\implies v_{2}]t_{1}$
+- $\Large\frac{t_{1}\to t_{1}'}{t_{1}t_{2}\to t_{1}'t_{2}}$
+- $\Large\frac{t_{2}\to t_{2}'}{v_{1}t_{2}\to v_{1}t_{2}'}$
+## Boleanos
