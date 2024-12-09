@@ -14,7 +14,11 @@ Gramáticas con cierta información semántica en el árbol de nodos, siendo com
 # Semántica dinámica
 ## Especificación
 ### Operacional
-Formalización de las instrucciones comunes de un programa que pueden ser seguidas en un proceso de aplicación de reglas.  Estas reglas 
+Formalización de las instrucciones comunes de un programa que pueden ser seguidas en un proceso de aplicación de reglas.  Estas reglas también pueden describir como construcciones del lenguaje, afectan a máquinas abstractas, a cada estado de estas máquinas se le denota como configuración, estas máquinas están divididas en dos elementos:
+- Código, frase del programa que controla la computación.
+- Estado, entidades las cuales son manipuladas por el programa durante la ejecución.
+#### Ejecución
+Durante la ejecución se mapean el programa y sus entradas a una configuración inicial, sobre esta configuración se aplican iterativamente las reglas para obtener e
 # Semántica operacional
 # Semántica denotacional
 # Semántica axiomatica
