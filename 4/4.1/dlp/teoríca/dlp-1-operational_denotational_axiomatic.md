@@ -32,7 +32,12 @@ La esencia del modelado denotaciónal es la idea de que el significado de una fr
 - Álgebra sintáctica, parte que determina la sintaxis del lenguaje.
 - Álgebra semántica, parte que modela el significado de las frases del programa, compuesta por dominios semánticos.
 - Función de significado, mapeado de los elementos sintácticos con su significado semántico.
-#### Dominios sem
+#### Dominios semánticos
+El significado de un programa es obtenido por el mapeo de dominio de contexto a dominios de solución:
+- Dominio de contexto, modelado de los estados intermedios del programa.
+- Dominio de solución, representación de los posibles significados del programa.
+#### Compositionality
+Método que permite la interpretación del significado del conjunto es la composición del significado de las partes. Esto tiene las siguientes implicacion ,El significado del programa es inmutable a cambios de partes siempre y cuando tengan el mismo significado.
 # Semántica operacional
 # Semántica denotacional
 # Semántica axiomatica
