@@ -8,8 +8,11 @@ Las gramáticas libres de contexto no son capaces de describir toda la sintaxis 
 - Libres de contexto (tipos, operadores, ...)
 - No libres (variables, ...)
 ## Gramáticas de atributos
-Gramáticas con cierta información semántica en el árbol de nodos
+Gramáticas con cierta información semántica en el árbol de nodos, siendo computada:
+- Atributos heredados son decorados de arriba a abajo.
+- Atributos sintetizados son decorados de abajo a arriba.
 # Semántica dinámica
+
 # Semántica operacional
 # Semántica denotacional
 # Semántica axiomatica
