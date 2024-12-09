@@ -27,7 +27,7 @@ $\Large\frac{antecedente}{consecuente}$
 #### Big-step
 Modelo en el cual se especifican pasos grandes para pasar directamente de una frase de código a una respuesta, haciendo uso de evaluación recursiva.
 ### Denotaciónal
-La esencia del modelado denotaciónal es la idea de que el significado de una frase, el programa puede ser obtenido del significado de sus partes.
+La esencia del modelado denotaciónal es la idea de que el significado de una frase, el programa, puede ser obtenido del significado de sus partes.
 #### Estructura
 - Álgebra sintáctica, parte que determina la sintaxis del lenguaje.
 - Álgebra semántica, parte que modela el significado de las frases del programa, compuesta por dominios semánticos.
@@ -37,7 +37,14 @@ El significado de un programa es obtenido por el mapeo de dominio de contexto a 
 - Dominio de contexto, modelado de los estados intermedios del programa.
 - Dominio de solución, representación de los posibles significados del programa.
 #### Compositionality
-Método que permite la interpretación del significado del conjunto es la composición del significado de las partes. Esto tiene las siguientes implicación, el significado del programa es inmutable a cambios de partes siempre y cuando tengan el mismo significado.
+Método que permite la interpretación del significado del conjunto es la composición del significado de las partes. Esto tiene las siguiente implicación, el significado del programa es inmutable a cambios de partes siempre y cuando tengan el mismo significado.
+### Axiomática
+Sistema pensado para la verificación formal de programas hace uso de reglas de inferencia definidas para cada tipo de frase en el lenguaje para permitir la transformación de expresiones lógicas de manera formal.
+#### Aserciones
+Las expresiones lógicas son denotadas como aserciones donde se establecen:
+- Precondiciones
+- Postcondiciones
+Sobre estas se añade la precondición más débil, la cual es el mínimo requerimiento para cumplir la postcondición.
 # Semántica operacional
 # Semántica denotacional
 # Semántica axiomatica
