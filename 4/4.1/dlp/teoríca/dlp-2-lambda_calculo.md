@@ -43,6 +43,10 @@ El proceso de reducción es el medio de computación del cálculo lambda $(\lamb
 - **Llamado por nombre**, reducción normal pero sin abstracciones internas.
 - **Llamado por valor**, reducción normal, pero donde el argumento es un valor.
 # Operaciones semánticas
+## Variables libres
+- $FV(x)=\{x\}$
+- $FV(\lambda x.t)=FV(t)\{x\}$
+- $FV(t_{1}t_{2})=FV(t_{1})\union FV(t_{2})$
 ## Sustitución y variables libres
 - $[x\rightarrow s]x=s$
 - $[x\rightarrow s]y=y\ if\ y\neq x$
@@ -53,6 +57,6 @@ Se substitullen las apariciones de variables libres (NO LAS ENLAZADAS).
 El renombrado de variables enlazadas es inconsecuente siempre que no se colisione con variables libres en el cuerpo de la abstracción, a esto se le llama $\alpha-conversion$ y permite la sustitución de variables libres sin colisiones con enlazadas.
 ## Sustitución refinada
 - $[x\rightarrow s]x=s$
-- $[x\rightarrow s]y=y$
-- $[x\rightarrow s](\lambda y.t)=(\lambda y.[x\rightarrow s]t)$
+- $[x\rightarrow s]y=y\ if\ y\neq x$
+- $[x\rightarrow s](\lambda y.t)=(\lambda y.[x\rightarrow s]t)\ if\ y\neq x\ an d\ y\notin FV(s)$
 - $[x\rightarrow s]t_1 t_2=([x\rightarrow s]t_1)([x\rightarrow s]t_2)$
