@@ -22,9 +22,12 @@ Durante la ejecución se mapean el programa y sus entradas a una configuración 
 #### Terminación
 La máquina puede no llegar a una configuración final, estas configuraciones a las que no se les puede aplicar reglas para continuar se llaman estados atascados, los cuales modelan situaciones de error.
 #### Small-step
-Modelo para la descripción de la ejecución por proceso iterativo de pequeños pasos computacionales, formalizado con la sintaxis:
+Modelo para la descripción de la ejecución por proceso iterativo de pequeños pasos computacionales, formalizado con la sintaxis ($\lambda$-calculus):
 $\Large\frac{antecedente}{consecuente}$
-#### Big-se
+#### Big-step
+Modelo en el cual se especifican pasos grandes para pasar directamente de una frase de código a una respuesta, haciendo uso de evaluación recursiva.
+### Denotacional
+
 # Semántica operacional
 # Semántica denotacional
 # Semántica axiomatica
