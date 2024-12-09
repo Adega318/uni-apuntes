@@ -37,7 +37,7 @@ El significado de un programa es obtenido por el mapeo de dominio de contexto a 
 - Dominio de contexto, modelado de los estados intermedios del programa.
 - Dominio de solución, representación de los posibles significados del programa.
 #### Compositionality
-Método que permite la interpretación del significado del conjunto es la composición del significado de las partes. Esto tiene las siguientes implicacion ,El significado del programa es inmutable a cambios de partes siempre y cuando tengan el mismo significado.
+Método que permite la interpretación del significado del conjunto es la composición del significado de las partes. Esto tiene las siguientes implicación, el significado del programa es inmutable a cambios de partes siempre y cuando tengan el mismo significado.
 # Semántica operacional
 # Semántica denotacional
 # Semántica axiomatica
