@@ -33,6 +33,8 @@ El cálculo lambda comienza por las variables, donde se encuentran los siguiente
 	- cuerpo, $t$
 - aplicaciones, $t t$
 Las variables se pueden considerar enlazadas o libres, una variable se considera enlazada si se encuentra dentro del cuerpo de una abstracción donde el binder contenga dicha variable.
+## Reducciones Beta
+El proceso de reducción es el medio de computación del lambda calculos $(\lambda x.t_{1})t_{2}\to[x\implies t_{2}]t_{1}$, siendo la segunda parte el resultado de la substitución de las apariciones enlazadas de $x$ por $t_{2}$ en $t_{1}$
 # Semántica operacional
 # Programación
 # Operaciones semánticas
