@@ -7,7 +7,8 @@
 Las gramáticas libres de contexto no son capaces de describir toda la sintaxis de los lenguajes de programación: 
 - Libres de contexto (tipos, operadores, ...)
 - No libres (variables, ...)
-
+## Gramáticas de atributos
+Gramáticas con cierta información semántica en el árbol de nodos
 # Semántica dinámica
 # Semántica operacional
 # Semántica denotacional
