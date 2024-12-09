@@ -63,3 +63,8 @@ El renombrado de variables enlazadas es inconsecuente siempre que no se colision
 - $\Large\frac{t_{1}\to t_{1}'}{t_{1}t_{2}\to t_{1}'t_{2}}$
 - $\Large\frac{t_{2}\to t_{2}'}{v_{1}t_{2}\to v_{1}t_{2}'}$
 ## Boleanos
+- E-IfTrue, $If\ true\ then\ t_{2}\ else\ t_{3}\to t_{2}$
+- E-IfFalse, $If\ false\ then\ t_{2}\ else\ t_{3} \to t_{3}$
+- E-If, $\Large\frac{t_{1}\to t_{1}'}{If\ t_{1}\ then\ t_{2}\ else\ t_{3}\to If\ t_{1}'\ then\ t_{2}\ else\ t_{3}}$
+## Aridmetica
+- E-Succ, 
