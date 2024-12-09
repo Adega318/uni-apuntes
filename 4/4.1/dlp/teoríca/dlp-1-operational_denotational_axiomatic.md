@@ -56,3 +56,11 @@ $\Large\frac{\{P_{1}\}S_{1}\{P_{2}\}, \{P_{2}\}S_{2}\{P_{3}\}}{\{P_{1}\}S_{1},S_
 - Regla de bucles
 $\{P\}while\ B\ do\ S\ end\{Q\}$
 $\Large\frac{\{I\ and\ B\}S\{I\}}{\{I\}while\ B\ do\ S\{I\ and\ (not\ B)\}}$
+### Ciclo invariante
+Un ciclo invariante debe de cumplir con las siguientes condiciones:
+- $P\to I$, la invariante debe de comenzar siendo verdadera.
+- $\{I\}B\{I\}$, la evaluación de la condición no debe modificar la invariante.
+- $\{I\ an d\ B\}S\{I\}$, la invariante no es modificada por el cuerpo del ciclo.
+- $(I\ an d(not\ B))\to Q$, I verdadera y B falsa implica Q.
+- El ciclo finaliza.
+La invariante de un ciclo es una versión debil de
