@@ -25,6 +25,11 @@ $[x\rightarrow s](\lambda y . t)=(\lambda z . [x\rightarrow s][y\rightarrow z] t
 
 
 # Sintaxis
+## Variables
+El calculo 
+- variables, $x$
+- abstracciones, $\lambda x.t$
+- aplicaciones, $t t$
 # Semántica operacional
 # Programación
-# Operaciones se
+# Operaciones semánticas
