@@ -48,7 +48,15 @@ Sobre estas se añade la precondición más débil, la cual es el mínimo requer
 #### Proceso de probado
 Se establece la postcondición como el resultado objetivo y se aplica el programa inverso para obtener la entrada necesaria para dicho resultado, si la entrada es igual a al especificación del programa, el programa es correcto.
 #### Axiomas
-- Regla de consecuencia $\frac{\{P\}S\{Q\},P'\implies P,Q\implies Q'}{}$
+- Regla de consecuencia, 
+$\Large\frac{\{P\}S\{Q\},P'\implies P,Q\implies Q'}{\{P'\}S\{Q'\}}$
+- Regla de interferencia 
+$\{P_{1}\}S_{1}\{P_{2}\}$
+$\{P_{2}\}S_{2}\{P_{3}\}$
+$\Large\frac{\{P_{1}\}S_{1}\{P_{2}\}, \{P_{2}\}S_{2}\{P_{3}\}}{\{P_{1}\}S_{1},S_{2}\{P_{3}\}}$
+- Regla de bucles
+$\{P\}while\ B\ do\ S\ end\{P_{3}\}$
+$\Large\frac{\{P_{1}\}S_{1}\{P_{2}\}, \{P_{2}\}S_{2}\{P_{3}\}}{\{P_{1}\}S_{1},S_{2}\{P_{3}\}}$
 # Semántica operacional
 # Semántica denotacional
 # Semántica axiomatica
