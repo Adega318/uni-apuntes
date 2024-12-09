@@ -22,3 +22,9 @@ Una substitución es definida por:
 
 Al hacer substituciones si se hace una que incluya el nombre de una variable ligada esa variable puede verse capturada, por lo tanto, se debe evitar mediante el renombrado de la substitución para que no contenga la variable ligada. Esto se implementa mediante la siguiente norma:
 $[x\rightarrow s](\lambda y . t)=(\lambda z . [x\rightarrow s][y\rightarrow z] t)where\ z\notin FV(t)\ and\ z \notin FV(s)$
+
+
+# Sintaxis
+# Semántica operacional
+# Programación
+# Operaciones se
