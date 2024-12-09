@@ -26,10 +26,13 @@ $[x\rightarrow s](\lambda y . t)=(\lambda z . [x\rightarrow s][y\rightarrow z] t
 
 # Sintaxis
 ## Variables
-El calculo 
+El cálculo lambda comienza por las variables, donde se encuentran los siguientes elementos:
 - variables, $x$
 - abstracciones, $\lambda x.t$
+	- binder, $\lambda x.$
+	- cuerpo, $t$
 - aplicaciones, $t t$
+Las variables se pueden considerar enlazadas o libres, una variable se considera enlazada si se encuentra dentro del cuerpo de una abstracción donde el binder contenga dicha variable.
 # Semántica operacional
 # Programación
 # Operaciones semánticas
