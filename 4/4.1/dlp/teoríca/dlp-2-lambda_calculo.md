@@ -34,7 +34,11 @@ El cálculo lambda comienza por las variables, donde se encuentran los siguiente
 - aplicaciones, $t t$
 Las variables se pueden considerar enlazadas o libres, una variable se considera enlazada si se encuentra dentro del cuerpo de una abstracción donde el binder contenga dicha variable.
 ## Reducciones Beta
-El proceso de reducción es el medio de computación del lambda calculos $(\lambda x.t_{1})t_{2}\to[x\implies t_{2}]t_{1}$, siendo la segunda parte el resultado de la substitución de las apariciones enlazadas de $x$ por $t_{2}$ en $t_{1}$
+El proceso de reducción es el medio de computación del cálculo lambda $(\lambda x.t_{1})t_{2}\to[x\implies t_{2}]t_{1}$, siendo la segunda parte el resultado de la substitución de las apariciones enlazadas de $x$ por $t_{2}$ en $t_{1}$, estas reducciones son conocidas como *beta-redex* ($\beta-redex$) y una *forma normal* es la terminología para denotar un término sin reducciones.
+## Estrategias de evaluación
+- Reducción completa, toda beta puede ser reducida.
+- Orden normal, reduce la reducción más externa.
+- Llamado por nombre, reducción norm
 # Semántica operacional
 # Programación
 # Operaciones semánticas
