@@ -26,8 +26,13 @@ Modelo para la descripción de la ejecución por proceso iterativo de pequeños 
 $\Large\frac{antecedente}{consecuente}$
 #### Big-step
 Modelo en el cual se especifican pasos grandes para pasar directamente de una frase de código a una respuesta, haciendo uso de evaluación recursiva.
-### Denotacional
-
+### Denotaciónal
+La esencia del modelado denotaciónal es la idea de que el significado de una frase, el programa puede ser obtenido del significado de sus partes.
+#### Estructura
+- Álgebra sintáctica, parte que determina la sintaxis del lenguaje.
+- Álgebra semántica, parte que modela el significado de las frases del programa, compuesta por dominios semánticos.
+- Función de significado, mapeado de los elementos sintácticos con su significado semántico.
+#### Dominios sem
 # Semántica operacional
 # Semántica denotacional
 # Semántica axiomatica
