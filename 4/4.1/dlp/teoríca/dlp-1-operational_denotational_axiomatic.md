@@ -18,7 +18,13 @@ Formalización de las instrucciones comunes de un programa que pueden ser seguid
 - Código, frase del programa que controla la computación.
 - Estado, entidades las cuales son manipuladas por el programa durante la ejecución.
 #### Ejecución
-Durante la ejecución se mapean el programa y sus entradas a una configuración inicial, sobre esta configuración se aplican iterativamente las reglas para obtener e
+Durante la ejecución se mapean el programa y sus entradas a una configuración inicial, sobre esta configuración se aplican iterativamente las reglas para obtener configuraciones intermedias de las cuales la última será mapeada a la salida el programa.
+#### Terminación
+La máquina puede no llegar a una configuración final, estas configuraciones a las que no se les puede aplicar reglas para continuar se llaman estados atascados, los cuales modelan situaciones de error.
+#### Small-step
+Modelo para la descripción de la ejecución por proceso iterativo de pequeños pasos computacionales, formalizado con la sintaxis:
+$\Large\frac{antecedente}{consecuente}$
+#### Big-se
 # Semántica operacional
 # Semántica denotacional
 # Semántica axiomatica
