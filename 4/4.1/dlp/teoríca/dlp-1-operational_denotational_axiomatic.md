@@ -1,6 +1,8 @@
 # Introducción
 - Sintaxis, estructura y símbolos usados para la escritura en el lenguaje.
-- Semántica, 
+- Semántica, significado de la sintaxis del lenguaje:
+	- Estática, validación de la sintaxis con sentido semántico correcto.
+	- Dinámica
 # Semántica estática
 # Semántica dinámica
 # Semántica operacional
