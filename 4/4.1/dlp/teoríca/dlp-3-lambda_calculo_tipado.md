@@ -110,4 +110,10 @@ El subtipado establece relaciones entre tipos donde en un contexto donde S sea s
 - T-Sub, $\Large\frac{\Gamma|-t:S\ S<:T}{\Gamma|-t:T}$
 - S-Refl, $S<:S$
 - S-Trans, $\Large\frac{S<:U\ U<:T}{S<:T}$
-- 
+
+## Registros
+El subtipado de registros se puede realizar por:
+- Anchura, se toma como subtipo el registro que puede contener a su supertipo.
+	- S-RcdWidth, $\{l_{i}:T_{i}^{i=1..n+k}\}<:\{l_{i}:T_{i}^{i=1..n}\}$
+- Profundidad, los tipos de campos pueden variar siempre y cuando coincidan los campos de los registros.
+	- 
