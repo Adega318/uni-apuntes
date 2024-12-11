@@ -48,5 +48,10 @@ El secuenciado es una caracteristica util en los lenguajes permitiendo la evalua
 ### Comodines
 Para expresiones como $\lambda x:T.t$ donde x no es usado en el cuerpo se debería de poder substituir x por un comodín, $\lambda\_:T.t$ 
 ## Adscripciones
-Proceso de asignación directa de un tipo a un termino dado, $t\ as\ T$, para la implementación de esta mecanica se requieren:
-- T-Ascribe, $\Large\frac{\Gamma}{}$
+Proceso de asignación directa de un tipo a un término dado, $t\ as\ T$, para la implementación de esta mecánica se requieren:
+- T-Ascribe, $\Large\frac{\Gamma|-t_{1}:T}{\Gamma |-t_{1}\ as\ T:T}$
+- E-Ascribe, $v_{1}\ as\ T\to v_{1}$
+- E-Ascribe1, $\Large\frac{t_{1}\to t_{1}'}{t_{1}\ as\ T\to t_{1}'\ as\ T}$
+
+## Let binding
+Permite la asociació de nombres a terminos, $let\ x=t$
