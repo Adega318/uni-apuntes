@@ -138,7 +138,13 @@ Asignación de tipos explicita que el typechequer no realiza de manera automáti
 Este tipo de cast pueden ocasionar errores dado que no se realizan demandas sobre la transición.
 
 ## Variantes
-- T-Varinat, $\Large\frac{}{\Gamma|-<l_{1}=t_{1}><l_{1}:T_{1}>}$
+- T-Varinat, $\Large\frac{\Gamma|-t_{1}:T_{1}}{\Gamma|-<l_{1}=t_{1}><l_{1}:T_{1}>}$
 - S-VariantWith, $<l_{i}:T_{i}^{i=1..n}><:<l_{i}:T_{i}^{i=1..n+k}>$
-- S-VariantDepth
-- S-VariantPerm
+- S-VariantDepth, $\Large\frac{\forall i\ S_{i}<:T_{i}}{<l_{i}:S_{i}^{i=1..n}><:<l_{i}:T_{i}^{i=1..n}>}$
+- S-VariantPerm, $\Large\frac{<k_{j}:S_{j}^{j=1..n}>is\ a\ pemutation\ of<l_{i}:T_{i}^{i=1..n}>}{<k_{j}:S_{j}^{j=1..n}><:<l_{i}:T_{i}^{i=1..n}>}$
+
+## Listas
+- S-List, $\Large\frac{S<:T}{List\ S<:List\ T}$
+
+## Referencias
+- S-Ref, $S<:T\ T<:S$
