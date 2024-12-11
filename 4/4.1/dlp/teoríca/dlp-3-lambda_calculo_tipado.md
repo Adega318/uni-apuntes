@@ -40,7 +40,7 @@ El tipo unidad es un tipo usado para denotar el estado vacío de un término (vo
 
 ## Formas derivadas
 ### Secuenciado
-El secuenciado es una caracteristica util en los lenguajes permitiendo la evaluación de dos o más terminos en secuencia, para añadirlo se implementan las siguientes reglas:
+El secuenciado es una característica útil en los lenguajes permitiendo la evaluación de dos o más términos en secuencia, para añadirlo se implementan las siguientes reglas:
 - T-Seq, $\Large\frac{\Gamma|-t_{1}:Unit\ \Gamma|-t_{2}:T_{2}}{\Gamma|-t_{1};t_{2}:T_{2}}$
 - E-Seq, $\Large\frac{t_{1}\to t_{1}'}{t_{1};t_{2}\to t_{1}';t_{2}}$
 - E-SeqNext, $unit;t_{2}\to t_{2}$
@@ -54,4 +54,7 @@ Proceso de asignación directa de un tipo a un término dado, $t\ as\ T$, para l
 - E-Ascribe1, $\Large\frac{t_{1}\to t_{1}'}{t_{1}\ as\ T\to t_{1}'\ as\ T}$
 
 ## Let binding
-Permite la asociació de nombres a terminos, $let\ x=t$
+Permite la asociación de nombres a términos, $let\ x=t\ in\ t$, para la implementación de esta funcionalidad son necesarias las siguientes reglas:
+- T-Let, $\Large\frac{\Gamma|-t_{1}:T_{1}\ \Gamma, x:T_{1}|-t_{2}:T_{2}}{\Gamma|-let\ x\ =\ t_{1}\ in\ t_{2}:T_{2}}$
+- E-LetV, $let\ x = v_{1}\ in\ t_{2}\to[x\to v_{1}]t_{2}$
+- E-Let, $\Large\G$
