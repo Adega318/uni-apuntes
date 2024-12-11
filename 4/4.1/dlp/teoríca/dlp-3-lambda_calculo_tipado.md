@@ -23,3 +23,10 @@ Con las reglas anteriores se puede aplicar la derivación de tipos a un término
 $\Large\frac{\frac{\frac{}{0:Nat}(T-Zero)}{iszero\ 0:Bool}(T-IsZero)\frac{}{0:Nat}(T-Zero)\frac{\frac{}{0:Nat}(T-Zero)}{pred\ 0:Nat}(T-Pred)}{if\ iszero\ 0\ then\ 0\ else\ pred\ 0:Nat}(T-If)$
 
 # Tipado simple
+Para el tipado de términos lambda se hace uso de la escritura "$T_{1}\to T_{2}$", con esto se añaden los términos:
+- $\lambda x:T.t$
+- tt
+- x
+
+Con esto se crea una nueva regla T-Abs:
+$\Large\frac{}{}$
