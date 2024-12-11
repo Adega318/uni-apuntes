@@ -41,6 +41,12 @@ El tipo unidad es un tipo usado para denotar el estado vacío de un término (vo
 ## Formas derivadas
 ### Secuenciado
 El secuenciado es una caracteristica util en los lenguajes permitiendo la evaluación de dos o más terminos en secuencia, para añadirlo se implementan las siguientes reglas:
-- T-Seq, $\Large\frac{\Gamma|-t_{1}:Unit\ \Gamma|-t_{2}:T_{2}}{}$
+- T-Seq, $\Large\frac{\Gamma|-t_{1}:Unit\ \Gamma|-t_{2}:T_{2}}{\Gamma|-t_{1};t_{2}:T_{2}}$
 - E-Seq, $\Large\frac{t_{1}\to t_{1}'}{t_{1};t_{2}\to t_{1}';t_{2}}$
-- E-SeqNext
+- E-SeqNext, $unit;t_{2}\to t_{2}$
+
+### Comodines
+Para expresiones como $\lambda x:T.t$ donde x no es usado en el cuerpo se debería de poder substituir x por un comodín, $\lambda\_:T.t$ 
+## Adscripciones
+Proceso de asignación directa de un tipo a un termino dado, $t\ as\ T$, para la implementación de esta mecanica se requieren:
+- T-Ascribe, $\Large\frac{\Gamma}{}$
