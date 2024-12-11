@@ -129,3 +129,9 @@ Cuando trabajamos con subtipado debe de existir un tipo que es contenido en todo
 - S-Top, $S<:Top$
 ## Casting
 ### Up-cast
+Representación de un tipo como su supertipo, pudiendo realizarse con el uso de una abstracción.
+### Down-cast
+Asignación de tipos explicita que el typechequer no realiza de manera automática, cast de c, esto se realiza mediante la regla:
+- T-Downcast, $\Large\frac{\Gamma|-t_{1}:S}{\Gamma|-t_{1}\ as\ T:T}$
+
+Este tipo de cast pueden ocasionar errores dado que no se realizan demandas sobre la transición.
