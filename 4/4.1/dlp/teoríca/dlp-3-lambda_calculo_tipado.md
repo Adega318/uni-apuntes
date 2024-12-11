@@ -147,4 +147,8 @@ Este tipo de cast pueden ocasionar errores dado que no se realizan demandas sobr
 - S-List, $\Large\frac{S<:T}{List\ S<:List\ T}$
 
 ## Referencias
-- S-Ref, $S<:T\ T<:S$
+Las referencias requieren de subtipado altamente estricto a causa de la lectura y escritura de dichas referencias la cual nos limita.
+- S-Ref, $\Large\frac{S<:T\ T<:S}{\mathrm{Re}f\ S<:\mathrm{Re}f\ T}$
+
+### Fuente y sumidero
+Por hacer
