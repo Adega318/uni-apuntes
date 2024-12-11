@@ -73,4 +73,8 @@ Los pares requieren de las siguientes normas:
 - E-Proj1, $\Large\frac{t_{1}\to t_{1}'}{t_{1}.1\to t_{1}'.1}$
 - E-Proj2, $\Large\frac{t_{1}\to t_{1}'}{t_{1}.2\to t_{1}'.2}$
 - E-Pair1, $\Large\frac{t_{1}\to t_{1}'}{\{t_{1},t_{2}\}\to\{t_{1}',t_{2}\}}$
-- E-Pair1, $\Large\frac{t_{2}\to t_{2}'}{\{v_{1},t_{2}\}\to\{v_{1},t_{2}'\}}$
+- E-Pair2, $\Large\frac{t_{2}\to t_{2}'}{\{v_{1},t_{2}\}\to\{v_{1},t_{2}'\}}$
+
+## Tuplas
+Generalización de los pares para n elementos:
+- T-Tuple, $\Large\frac{}{}$
