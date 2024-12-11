@@ -28,5 +28,8 @@ Para el tipado de términos lambda se hace uso de la escritura "$T_{1}\to T_{2}$
 - tt
 - x
 
-Con esto se crea una nueva regla T-Abs:
-$\Large\frac{}{}$
+Con esto se crea una nuevas reglas: 
+- T-Abs, $\Large\frac{\Gamma,x:T_{1}|-t_{2}:T_{2}}{\Gamma|-\lambda x:T_{1}.t_{2}:T_{1}\to T_{2}}$
+- T-Var, $\Large\frac{x:T\in\Gamma}{\Gamma|-x:T}$
+- 
+En esta norma de tipo se hace uso de un contexto ($\Gamma$) que da el tipo para las variables libres. 
