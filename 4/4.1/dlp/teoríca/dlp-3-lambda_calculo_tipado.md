@@ -35,4 +35,12 @@ Con esto se crea unas nuevas reglas:
 En estas normas de tipo se hace uso de un contexto ($\Gamma$) que da el tipo para las variables libres. 
 # Extensiones simples
 ## Tipo unidad
-El tipo unidad es un tipo usado para denotar el estado vacío de un término (void en C o Java), esto es denotado por el nuevo tipo 
+El tipo unidad es un tipo usado para denotar el estado vacío de un término (void en C o Java), esto es denotado por el nuevo tipo $Unit$ y la norma de tipado:
+- T-Unit, $\Gamma|- unit:Unit$
+
+## Formas derivadas
+### Secuenciado
+El secuenciado es una caracteristica util en los lenguajes permitiendo la evaluación de dos o más terminos en secuencia, para añadirlo se implementan las siguientes reglas:
+- T-Seq, $\Large\frac{\Gamma|-t_{1}:Unit\ \Gamma|-t_{2}:T_{2}}{}$
+- E-Seq, $\Large\frac{t_{1}\to t_{1}'}{t_{1};t_{2}\to t_{1}';t_{2}}$
+- E-SeqNext
