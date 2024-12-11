@@ -133,5 +133,12 @@ Representación de un tipo como su supertipo, pudiendo realizarse con el uso de 
 ### Down-cast
 Asignación de tipos explicita que el typechequer no realiza de manera automática, cast de c, esto se realiza mediante la regla:
 - T-Downcast, $\Large\frac{\Gamma|-t_{1}:S}{\Gamma|-t_{1}\ as\ T:T}$
+- E-Downcast, $\Large\frac{|-v_{1}:T}{v_{1}\ as\ T\to v_{1}}$
 
 Este tipo de cast pueden ocasionar errores dado que no se realizan demandas sobre la transición.
+
+## Variantes
+- T-Varinat, $\Large\frac{}{\Gamma|-<l_{1}=t_{1}><l_{1}:T_{1}>}$
+- S-VariantWith, $<l_{i}:T_{i}^{i=1..n}><:<l_{i}:T_{i}^{i=1..n+k}>$
+- S-VariantDepth
+- S-VariantPerm
