@@ -66,4 +66,11 @@ Método de creación de estructuras de datos complejas con la forma:
 
 Los pares requieren de las siguientes normas:
 - T-Pair, $\Large\frac{\Gamma|-t_{1}:T_{1}\ \Gamma|-t_{2}:T_{2}}{\Gamma|-\{t_{1},t_{2}\}:T_{1}\times T_{2}}$
-- y
+- T-Proj1, $\Large\frac{\Gamma|-t_{1}:T_{11}\times T_{12}}{\Gamma|-t_{1}.1:T_{11}}$
+- T-Proj2, $\Large\frac{\Gamma|-t_{1}:T_{11}\times T_{12}}{\Gamma|-t_{1}.2:T_{12}}$
+- E-PairBeta1, $\{v_{1},v_{2}\}.1\to v_{1}$
+- E-PairBeta2, $\{v_{1},v_{2}\}.2\to v_{2}$
+- E-Proj1, $\Large\frac{t_{1}\to t_{1}'}{t_{1}.1\to t_{1}'.1}$
+- E-Proj2, $\Large\frac{t_{1}\to t_{1}'}{t_{1}.2\to t_{1}'.2}$
+- E-Pair1, $\Large\frac{t_{1}\to t_{1}'}{\{t_{1},t_{2}\}\to\{t_{1}',t_{2}\}}$
+- E-Pair1, $\Large\frac{t_{2}\to t_{2}'}{\{v_{1},t_{2}\}\to\{v_{1},t_{2}'\}}$
