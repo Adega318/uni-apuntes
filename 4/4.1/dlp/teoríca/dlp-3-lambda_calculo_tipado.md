@@ -65,4 +65,4 @@ Método de creación de estructuras de datos complejas con la forma:
 - t.1 (acceso a la posición 1)
 
 Los pares requieren de las siguientes normas:
-- T-Pair, 
+- T-Pair, $\Large\frac{\Gamma|-t_{1}:T_{1}}{}$
