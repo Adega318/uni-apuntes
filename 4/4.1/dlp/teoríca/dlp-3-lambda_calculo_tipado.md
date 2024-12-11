@@ -89,4 +89,6 @@ Generalización de las tuplas para hacer uso de etiquetas en lugar de posiciones
 - T-Proj, $\Large\frac{\Gamma|-t_{1}:\{l_{i}:T_{i}^{i=1..n}\}}{\Gamma|-t_{1}.l_{j}:T_{j}}$
 - E-ProjRcd, $\{l_{i}=v_{i}^{i=1..n}\}.l_{i}\to v_{j}$
 - E-Proj, $\Large\frac{t_{1}\to t_{1}'}{t_{1}.l\to t_{1}'.l}$
-- E-Tuple, $\Large\frac{t_{j}\to t_{j}'}{\{l_{i}=v_{i}^{i=1..j-1},t_{j},t_{k}^{k=j+1..n}\}\to\{v_{i}^{i=1..j-1},t_{j}',t_{k}^{k=j+1..n}\}}$
+- E-Tuple, $\Large\frac{t_{j}\to t_{j}'}{\{l_{i}=v_{i}^{i=1..j-1},l_{j}=t_{j},l_{k}=t_{k}^{k=j+1..n}\}\to\{l_{i}=v_{i}^{i=1..j-1},l_{j}=t_{j}',l_{k}=t_{k}^{k=j+1..n}\}}$
+
+## Sumas
