@@ -1,0 +1,2 @@
+# Tipos arithmeticos
+# Tipado si
