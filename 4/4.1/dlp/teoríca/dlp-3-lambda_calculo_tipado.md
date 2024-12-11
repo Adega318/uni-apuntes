@@ -117,3 +117,5 @@ El subtipado de registros se puede realizar por:
 	- S-RcdWidth, $\{l_{i}:T_{i}^{i=1..n+k}\}<:\{l_{i}:T_{i}^{i=1..n}\}$
 - Profundidad, los tipos de campos pueden variar siempre y cuando coincidan los campos de los registros.
 	- S-RcdDepth, $\Large\frac{\forall i\ S_{i}<:T_{i}}{\{l_{i}:S_{i}^{i=1..n}\}<:\{l_{i}:T_{i}^{i=1..n}\}}$
+- Permutación, el orden de los elementos en los records  no afectan al subtipado.
+	- S-RcdPerm, $\Large\frac{\{k_{j}:S_{j}^{j=1..n}\}is\ a\ pe\mathrm{utation\ of}}{}$
