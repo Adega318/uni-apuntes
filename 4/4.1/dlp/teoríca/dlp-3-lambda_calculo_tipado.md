@@ -33,3 +33,6 @@ Con esto se crea unas nuevas reglas:
 - T-Var, $\Large\frac{x:T\in\Gamma}{\Gamma|-x:T}$
 - T-App, $\Large\frac{\Gamma|-t_{1}:T_{11}\to T_{12}\ \Gamma|-t_{2}:T_{11}}{\Gamma|-t_{1}t_{2}:T_{12}}$
 En estas normas de tipo se hace uso de un contexto ($\Gamma$) que da el tipo para las variables libres. 
+# Extensiones simples
+## Tipo unidad
+El tipo unidad es un tipo usado para denotar el estado vacío de un término (void en C o Java), esto es denotado por el nuevo tipo 
