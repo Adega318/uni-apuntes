@@ -79,4 +79,6 @@ Los pares requieren de las siguientes normas:
 Generalización de los pares para n elementos:
 - T-Tuple, $\Large\frac{\forall i\ \Gamma|-t_{i}:T_{i}}{\Gamma|-\{t_{i}^{i=1..n}\}:\{T_{i}^{i=1..n}\}}$
 - T-Proj, $\Large\frac{\Gamma|-t_{1}:\{T_{i}^{i=1..n}\}}{\Gamma|-t_{1}.j:T_{j}}$
-- 
+- E-ProjTuple, $\{v_{i}^{i=1..n}\}.j\to v_{i}$
+- E-Proj, $\Large\frac{t_{1}\to t_{1}'}{t_{1}.i\to t_{1}'.i}$
+- E-Tuple, $\Large\frac{t_{j}\to t_{j}'}{\{v_{i}^{i=1..j-1},t_{j},t_{k}^{}\}\to\{\}}$
