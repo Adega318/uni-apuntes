@@ -109,4 +109,5 @@ Generalización de las tuplas para hacer uso de etiquetas en lugar de posiciones
 El subtipado establece relaciones entre tipos donde en un contexto donde S sea subtipo de T ($S<:T$) permite usar términos de tipo S donde se exija un tipo T.
 - T-Sub, $\Large\frac{\Gamma|-t:S\ S<:T}{\Gamma|-t:T}$
 - S-Refl, $S<:S$
-- S-Trans, 
+- S-Trans, $\Large\frac{S<:U\ U<:T}{S<:T}$
+- 
