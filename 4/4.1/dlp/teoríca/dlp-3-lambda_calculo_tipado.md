@@ -117,4 +117,3 @@ El subtipado de registros se puede realizar por:
 	- S-RcdWidth, $\{l_{i}:T_{i}^{i=1..n+k}\}<:\{l_{i}:T_{i}^{i=1..n}\}$
 - Profundidad, los tipos de campos pueden variar siempre y cuando coincidan los campos de los registros.
 	- S-RcdDepth, $\Large\frac{\forall i\ S_{i}<:T_{i}}{\{l_{i}:S_{i}^{i=1..n}\}<:\{l_{i}:T_{i}^{i=1..n}\}}$
-	- 
