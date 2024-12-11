@@ -77,4 +77,6 @@ Los pares requieren de las siguientes normas:
 
 ## Tuplas
 Generalización de los pares para n elementos:
-- T-Tuple, $\Large\frac{}{}$
+- T-Tuple, $\Large\frac{\forall i\ \Gamma|-t_{i}:T_{i}}{\Gamma|-\{t_{i}^{i=1..n}\}:\{T_{i}^{i=1..n}\}}$
+- T-Proj, $\Large\frac{\Gamma|-t_{1}:\{T_{i}^{i=1..n}\}}{\Gamma|-t_{1}.j:T_{j}}$
+- 
