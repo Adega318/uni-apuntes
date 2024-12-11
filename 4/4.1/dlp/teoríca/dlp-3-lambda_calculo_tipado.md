@@ -122,4 +122,4 @@ El subtipado de registros se puede realizar por:
 
 ## Funciones
 Las funciones son afectadas por el subtipado, donde la regla arrow se modifica:
-- 
+- S-Arrow, $\Large\frac{T_{1}<:S_{1}\ S_{2}<:T_{2}}{S_{1}\to S_{2}<:T_{1}\to T_{2}}$
