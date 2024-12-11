@@ -57,4 +57,12 @@ Proceso de asignación directa de un tipo a un término dado, $t\ as\ T$, para l
 Permite la asociación de nombres a términos, $let\ x=t\ in\ t$, para la implementación de esta funcionalidad son necesarias las siguientes reglas:
 - T-Let, $\Large\frac{\Gamma|-t_{1}:T_{1}\ \Gamma, x:T_{1}|-t_{2}:T_{2}}{\Gamma|-let\ x\ =\ t_{1}\ in\ t_{2}:T_{2}}$
 - E-LetV, $let\ x = v_{1}\ in\ t_{2}\to[x\to v_{1}]t_{2}$
-- E-Let, $\Large\G$
+- E-Let, $\Large\frac{t_{1}\to t_{1}'}{let\ x = t_{1}\ in\ t_{2}\to let\ x=t_{1}'\ in\ t_{2}}$
+
+## Pares
+Método de creación de estructuras de datos complejas con la forma:
+- {t, t}
+- t.1 (acceso a la posición 1)
+
+Los pares requieren de las siguientes normas:
+- T-Pair, 
