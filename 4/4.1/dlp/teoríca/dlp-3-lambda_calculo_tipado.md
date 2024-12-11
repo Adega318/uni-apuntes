@@ -81,4 +81,12 @@ Generalización de los pares para n elementos:
 - T-Proj, $\Large\frac{\Gamma|-t_{1}:\{T_{i}^{i=1..n}\}}{\Gamma|-t_{1}.j:T_{j}}$
 - E-ProjTuple, $\{v_{i}^{i=1..n}\}.j\to v_{i}$
 - E-Proj, $\Large\frac{t_{1}\to t_{1}'}{t_{1}.i\to t_{1}'.i}$
-- E-Tuple, $\Large\frac{t_{j}\to t_{j}'}{\{v_{i}^{i=1..j-1},t_{j},t_{k}^{}\}\to\{\}}$
+- E-Tuple, $\Large\frac{t_{j}\to t_{j}'}{\{v_{i}^{i=1..j-1},t_{j},t_{k}^{k=j+1..n}\}\to\{v_{i}^{i=1..j-1},t_{j}',t_{k}^{k=j+1..n}\}}$
+
+## Registros
+Generalización de las tuplas para hacer uso de etiquetas en lugar de posiciones:
+- T-Rcd, $\Large\frac{\forall i\ \Gamma|-t_{i}:T_{i}}{\Gamma|-\{l_{i}=t_{i}^{i=1..n}\}:\{l_{i}:T_{i}^{i=1..n}\}}$
+- T-Proj, $\Large\frac{\Gamma|-t_{1}:\{l_{i}:T_{i}^{i=1..n}\}}{\Gamma|-t_{1}.l_{j}:T_{j}}$
+- E-ProjRcd, $\{l_{i}=v_{i}^{i=1..n}\}.l_{i}\to v_{j}$
+- E-Proj, $\Large\frac{t_{1}\to t_{1}'}{t_{1}.l\to t_{1}'.l}$
+- E-Tuple, $\Large\frac{t_{j}\to t_{j}'}{\{l_{i}=v_{i}^{i=1..j-1},t_{j},t_{k}^{k=j+1..n}\}\to\{v_{i}^{i=1..j-1},t_{j}',t_{k}^{k=j+1..n}\}}$
