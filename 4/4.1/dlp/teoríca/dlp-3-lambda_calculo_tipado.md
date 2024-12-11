@@ -65,4 +65,6 @@ Método de creación de estructuras de datos complejas con la forma:
 - t.1 (acceso a la posición 1)
 
 Los pares requieren de las siguientes normas:
-- T-Pair, $\Large\frac{\Gamma|-t_{1}:T_{1}}{}$
+- T-Pair, $\Large\frac{\Gamma|-t_{1}:T_{1}\ \Gamma|-t_{2}:T_{2}}{\Gamma|-\{t_{1},t_{2}\}:T_{1}\times T_{2}}$
+
+PAG 14 EXTENSIONES DE LAMBDA CALCULO
