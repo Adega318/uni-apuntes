@@ -3,4 +3,4 @@
 - Scope, extensión del programa durante la cual un Binding concreto es activo.
 
 # Binding
-- Binding Time, punto del programa donde un binding es creado.
+- Binding Time, punto del programa donde un binding es creado o una decisión de implementación es tomada.
