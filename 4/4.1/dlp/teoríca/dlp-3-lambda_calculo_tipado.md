@@ -151,4 +151,5 @@ Las referencias requieren de subtipado altamente estricto a causa de la lectura 
 - S-Ref, $\Large\frac{S<:T\ T<:S}{\mathrm{Re}f\ S<:\mathrm{Re}f\ T}$
 
 ### Fuente y sumidero
-Por hacer
+- T-Deref, $\Large\frac{\Gamma|\Sigma|-t_{1}:Source\ T_{1}}{\Gamma|\Sigma|-!t_{1}:=t_{2}:Unit}$
+- T-Assign, $\Large\frac{\Gamma|\Sigma|-t_{1}:Sink\ T_{1}\ \Gamma|\Sigma|-t_{2}:T_{1}}{\Gamma|\Sigma|-!t_{1}:=t_{2}:Unit}$
