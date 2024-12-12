@@ -153,3 +153,7 @@ Las referencias requieren de subtipado altamente estricto a causa de la lectura 
 ### Fuente y sumidero
 - T-Deref, $\Large\frac{\Gamma|\Sigma|-t_{1}:Source\ T_{1}}{\Gamma|\Sigma|-!t_{1}:=t_{2}:Unit}$
 - T-Assign, $\Large\frac{\Gamma|\Sigma|-t_{1}:Sink\ T_{1}\ \Gamma|\Sigma|-t_{2}:T_{1}}{\Gamma|\Sigma|-!t_{1}:=t_{2}:Unit}$
+- S-Source, $\Large\frac{S<:T}{Source\ S<:Source\ T}$
+- S-Sink, $\Large\frac{T<:S}{Sink\ S<:Sink\ T}$
+- S-RefSource, $Ref\ T<:Source\ T$
+- S-RefSink, $Ref\ T<:Sink\ T$
