@@ -23,15 +23,20 @@ Dentro denuesto programa tenemos los siguientes eventos destacados:
 
 El tiempo entre la creación y eliminación de un binding es llamado ***Lifetime*** y a la zona del programa contenida en este lifetime es conocida como scope.
 
-El almacenamiento se divide en los siguientes metodos:
-- Estatica
-	- Codigo
+El almacenamiento se divide en los siguientes métodos:
+- Estática
+	- Código
 	- Globales
-	- Variables estaticas
+	- Variables estáticas
 	- Constantes
-- Pila, 
+- Pila
 	- Parametros
 	- Variables locales
 	- Temporales
 - Heap
-	- 
+
+# Scope
+Sección de programa de tamaño máximo donde no hay cambio de binding o al menos no redeclaración.
+Estos scopes tienen reglas que se les aplican:
+- En salida
+	- Eliminación 
