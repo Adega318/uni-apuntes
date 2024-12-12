@@ -39,4 +39,6 @@ El almacenamiento se divide en los siguientes métodos:
 Sección de programa de tamaño máximo donde no hay cambio de binding o al menos no redeclaración.
 Estos scopes tienen reglas que se les aplican:
 - En salida
-	- Eliminación 
+	- Eliminación de bindings locales
+	- Reactibación de bindings desactivados en entrada
+	- 
