@@ -41,4 +41,4 @@ Estos scopes tienen reglas que se les aplican:
 - En salida
 	- Eliminación de bindings locales
 	- Reactibación de bindings desactivados en entrada
-	- 
+- 
