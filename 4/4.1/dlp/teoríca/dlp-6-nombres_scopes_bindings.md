@@ -45,4 +45,4 @@ Estos scopes tienen reglas que se les aplican:
 	- Creación de bindings al entrar a un scope.
 - Ada, reservado de espacio, arranque de tareas y errores propagados.
 
-A la hora de definir los scope tenemos dos acercamientos, el clásico donde se establece basándose en la estructura léxica del código lo que permite la determinación del mismo por parte del compilador
+A la hora de definir los scope tenemos dos acercamientos, el clásico donde se establece basándose en la estructura léxica del código lo que permite la determinación del mismo por parte del compilador, por otro lado, tenemos la versión dinámica donde el scope depende el estado actual del programa.
