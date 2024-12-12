@@ -40,5 +40,9 @@ Sección de programa de tamaño máximo donde no hay cambio de binding o al meno
 Estos scopes tienen reglas que se les aplican:
 - En salida
 	- Eliminación de bindings locales
-	- Reactibación de bindings desactivados en entrada
-- 
+	- Reactivación de bindings desactivados en entrada
+- Algol 68
+	- Creación de bindings al entrar a un scope.
+- Ada, reservado de espacio, arranque de tareas y errores propagados.
+
+A la hora de definir lso scope tenemos dos acercamientos, el clásico donde 
