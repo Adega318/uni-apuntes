@@ -1,5 +1,7 @@
 # Objetos
-Los objetos estan compuestos
+Los objetos están compuestos por:
+- Campos, representación del estado del objeto.
+- Métodos, representado el comportamiento del objeto.
 
 # Subclases y herencia
 # Covarianza y contravarianza
