@@ -46,3 +46,5 @@ Estos scopes tienen reglas que se les aplican:
 - Ada, reservado de espacio, arranque de tareas y errores propagados.
 
 A la hora de definir los scope tenemos dos acercamientos, el clásico donde se establece basándose en la estructura léxica del código lo que permite la determinación del mismo por parte del compilador, por otro lado, tenemos la versión dinámica donde el scope depende el estado actual del programa.
+- Estáticos, en un scope solo se consideran las variables globales e internas del scope.
+- Dinámico, en un scope se consideran globales y las de los scope padre.
