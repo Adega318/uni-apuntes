@@ -6,4 +6,6 @@ El cambio en tipo producido por funciones como "clone" donde el tipo deseado de 
 - C++, uso de cast obligados para la indicación del tipo de salida.
 
 # Métodos binarios
-Los métodos binarios son métodos donde el tipo de uno de los parámetros es el mismo al del receptor del mensaje.
+Los métodos binarios son métodos donde el tipo de uno de los parámetros es el mismo al del receptor del mensaje (equals, grater, ...), para esto tenemos varios acercamientos:
+- Typecasting, se establece el casteo de los objetos a su común los que lleva a posibles errores en tiempo de ejecución.
+- Linked nodes, 
