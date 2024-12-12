@@ -11,7 +11,7 @@ La carateristica más importante de un binding es su Binding Time, punto de proc
 - Ejecución
 
 ## Tiempo de vida y manejo de almacenamiento
-Dentro de nuesto programa tenemos los siguientes eventos destacados:
+Dentro denuesto programa tenemos los siguientes eventos destacados:
 - Creación
 	- Objetos
 	- Bindings
@@ -21,4 +21,17 @@ Dentro de nuesto programa tenemos los siguientes eventos destacados:
 	- Objetos
 	- Bindings
 
-El tiempo entre la creación y eliminación de un elemento
+El tiempo entre la creación y eliminación de un binding es llamado ***Lifetime*** y a la zona del programa contenida en este lifetime es conocida como scope.
+
+El almacenamiento se divide en los siguientes metodos:
+- Estatica
+	- Codigo
+	- Globales
+	- Variables estaticas
+	- Constantes
+- Pila, 
+	- Parametros
+	- Variables locales
+	- Temporales
+- Heap
+	- 
