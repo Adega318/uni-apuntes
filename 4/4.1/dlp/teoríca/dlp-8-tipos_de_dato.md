@@ -45,4 +45,5 @@ Estos almacenamientos se pueden hacer de dos principales maneras,
 
 ## Strings
 Stings suelen ser arrays de caracteres con una denotación particular.
-# Sets
+# Punteros y tipos recursivos
+mirar diapos
