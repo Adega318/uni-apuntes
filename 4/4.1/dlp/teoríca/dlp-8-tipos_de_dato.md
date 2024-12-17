@@ -37,6 +37,12 @@ En la comprobación de tipos se puede dar la **coerción**, donde se cambia el t
 # Array
 Tipo compuesto, normalmente homogéneo, el cual es equivalente a un mapeo de índice valor.
 - Tiempo de vida global y forma estática, si la forma es conocida en tiempo de compilación y el array puede existir durante la duración del programa, el compilador le asignará memoria global.
-- Tiempo de vida local y forma estática, con una forma estática, pero con incapacidad de existir durante todo el programa se le asignará un stack en tiempo de ejecución.
+- Tiempo de vida local y forma estática, con una forma estática, pero con incapacidad de existir durante todo el programa, se le asignará un stack en tiempo de ejecución.
 
 Estos almacenamientos se pueden hacer de dos principales maneras, 
+- Elementos continuos, se toma un array NxM y se compone como un array de N elementos, los cuales son arrays de M elementos.
+- Punteros de fila, bueno para el almacenamiento de arrays de alto tamaño al quitar la necesidad de segmentos continuos de alto tamaño.
+
+## Strings
+Stings suelen ser arrays de caracteres con una denotación particular.
+# Sets
