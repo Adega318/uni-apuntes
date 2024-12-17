@@ -25,7 +25,9 @@ Uno de los puntos a buscar en un sistema de tipado es la **orthogonality**, lo q
 ## Comprobación de tipo
 Los sistemas de tipo tienen las siguientes comprobaciones:
 - Equivalencia, comparación de igualdad entre dos tipos o valores.
+	- Nombre, equivalencia basada en la declaración 
+	- Estructura,
 - Compatibilidad, comprobación de la capacidad de uso de un tipo A donde se pide un tipo B.
 - Inferencia, búsqueda del tipo de una expresión basándose en el de sus operandos. 
 
-En la comprobación de tipos se puede dar la ****
+En la comprobación de tipos se puede dar la **coerción**, donde se cambia el tipo de uso de los términos para realizar una operación (suma de un float y un int, se coacciona el int a float).
