@@ -1,5 +1,15 @@
-Estratègies de almacenamiento
+Estrategias de almacenamiento
 - Estática
 	- Código
 	- Globales
-	- Variables poseidas
+	- Variables poseídas
+	- Constantes
+- Stack
+	- Parámetros
+	- Variables locales
+	- Temporales
+	- Información de gestión
+- Heap
+	- Almacenamiento dinámico
+
+Sobre el stack existen dos subrutinas encargadas de su mantenimiento (prolog y epilog)
