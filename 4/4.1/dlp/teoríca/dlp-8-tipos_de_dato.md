@@ -21,4 +21,11 @@ En los sistemas te tipados tenemos principalmente los siguientes tipos:
 	- List
 	- Files
 
-Uno de los puntos a buscar en un sistema de tipado es la **orthogonality**, lo que se refiere a la capacidad de combinar los términos sin restriciones
+Uno de los puntos a buscar en un sistema de tipado es la **orthogonality**, lo que se refiere a la capacidad de combinar los términos sin restricciones.
+## Comprobación de tipo
+Los sistemas de tipo tienen las siguientes comprobaciones:
+- Equivalencia, comparación de igualdad entre dos tipos o valores.
+- Compatibilidad, comprobación de la capacidad de uso de un tipo A donde se pide un tipo B.
+- Inferencia, búsqueda del tipo de una expresión basándose en el de sus operandos. 
+
+En la comprobación de tipos se puede dar la ****
