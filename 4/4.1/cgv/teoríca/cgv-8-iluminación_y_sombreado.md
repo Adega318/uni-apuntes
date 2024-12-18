@@ -25,3 +25,6 @@ Se calculan los puntos más cercanos desde el punto de vista de la luz haciendo 
 ## Mapeado indirecto 
 ### Algoritmos de mapeado (NO ENTRA)
 ## Metodos de aplicación de bump mapp (NO ENTRA)
+
+## Radiosity
+No se pregunta el factor de forma
