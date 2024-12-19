@@ -3,8 +3,11 @@ Para el dibujado de líneas en pantalla tenemos dos opciones:
 - Calculo directo, creación de la línea entre dos puntos con la aproximación a la matriz de píxeles para el pintado, tiene problemas por el uso de punto flotante y redondeos.
 - Punto medio, cálculo basado en el uso único de sumas para el dibujo de líneas.
 # Aliasing
-Efecto de borde de sierra ocasionado por el dibujado de línea en posiciones diagonales, para la redución de este efecto existen multiples tecnicas de anti-aliasing:
-- 
+Efecto de borde de sierra ocasionado por el dibujado de línea en posiciones diagonales, para la reducción de este efecto existen múltiples técnicas de anti-aliasing:
+- Difuminado, proceso en el cual se reparte el valor de color de los píxeles de la línea no exactos entre las diferentes aproximaciones de manera proporcional.
+- Supermuestreado, aumenta la densidad de píxeles para el cálculo de la línea y aplica a los píxeles reales una intensidad dependiente de la de sus sub píxeles correspondientes.
+- Filtrado, uso de un filtro para realizar un difuminado general el típico es un kernel de paso bajo.
+- Muestreo de área, se pintan los pixeles que coinciden con la l
 # Relleno de polígonos
 ## Métodos de inundación
 El procedimiento de inundación es usado cunado no hay definición de los objetos, siguiendo los siguientes pasos:
