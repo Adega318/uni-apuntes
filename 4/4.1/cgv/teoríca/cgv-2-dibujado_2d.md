@@ -22,4 +22,4 @@ Método basado en el lanzamiento recursivo de la inundación con propagación de
 ### Inundación por barrido
 Método donde sobre un pixel semilla se propaga sobre una línea de barrido, revisando huecos inferiores y superiores, los cuales serán los puntos semilla de consecuentes inundaciones.
 ## Soft-filling
-Método donde tra
+Método donde tras el anti-aliazing en los bordes donde aplicado se mezcla el color del fondo con el del objeto.
