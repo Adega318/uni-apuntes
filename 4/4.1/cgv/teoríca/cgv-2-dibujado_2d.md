@@ -1,3 +1,8 @@
+# Dibujo de líneas
+Para el dibujado de líneas en pantalla tenemos dos opciones:
+- Calculo directo,
+- Punto medio,
+# Aliasing
 # Relleno de polígonos
 ## Métodos de inundación
 El procedimiento de inundación es usado cunado no hay definición de los objetos, siguiendo los siguientes pasos:
