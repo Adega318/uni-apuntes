@@ -9,14 +9,17 @@ Efecto de borde de sierra ocasionado por el dibujado de línea en posiciones dia
 - Filtrado, uso de un filtro para realizar un difuminado general el típico es un kernel de paso bajo.
 - Muestreo de área, se pintan los píxeles que coinciden con la línea de manera ponderada al área de la línea que ocupan.
 # Relleno de polígonos
+## Método de barrido
+Barrido por el eje x determinando en cada punto su pertenencia al polígono y pintando adecuadamente.
 ## Métodos de inundación
 El procedimiento de inundación es usado cunado no hay definición de los objetos, siguiendo los siguientes pasos:
 - Inicio
 - Modificación
 - Propagación, escoger píxeles cercanos a ser modificados para lo cual se debe establecer un criterio.
 - Final
-## Inundación recursiva
+### Inundación recursiva
 Método basado en el lanzamiento recursivo de la inundación con propagación de 4-8 vecinos por ciclo.
-## Inundación por barrido
+### Inundación por barrido
 Método donde sobre un pixel semilla se propaga sobre una línea de barrido, revisando huecos inferiores y superiores, los cuales serán los puntos semilla de consecuentes inundaciones.
 ## Soft-filling
+Método donde tra
