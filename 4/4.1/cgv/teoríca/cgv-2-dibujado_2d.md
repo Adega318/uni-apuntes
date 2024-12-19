@@ -7,7 +7,7 @@ Efecto de borde de sierra ocasionado por el dibujado de línea en posiciones dia
 - Difuminado, proceso en el cual se reparte el valor de color de los píxeles de la línea no exactos entre las diferentes aproximaciones de manera proporcional.
 - Supermuestreado, aumenta la densidad de píxeles para el cálculo de la línea y aplica a los píxeles reales una intensidad dependiente de la de sus sub píxeles correspondientes.
 - Filtrado, uso de un filtro para realizar un difuminado general el típico es un kernel de paso bajo.
-- Muestreo de área, se pintan los pixeles que coinciden con la l
+- Muestreo de área, se pintan los píxeles que coinciden con la línea de manera ponderada al área de la línea que ocupan.
 # Relleno de polígonos
 ## Métodos de inundación
 El procedimiento de inundación es usado cunado no hay definición de los objetos, siguiendo los siguientes pasos:
