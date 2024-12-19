@@ -1,7 +1,7 @@
 # Dibujo de líneas
 Para el dibujado de líneas en pantalla tenemos dos opciones:
 - Calculo directo, creación de la línea entre dos puntos con la aproximación a la matriz de píxeles para el pintado, tiene problemas por el uso de punto flotante y redondeos.
-- Punto medio, calculo basado en el uso unico de su
+- Punto medio, cálculo basado en el uso único de sumas para el dibujo de líneas.
 # Aliasing
 # Relleno de polígonos
 ## Métodos de inundación
