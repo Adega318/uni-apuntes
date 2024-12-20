@@ -18,6 +18,11 @@ Representación de un objeto por un conjunto de primitivas contiguas no intersec
 ## Geometría sólida constructiva
 Objetos creados por operaciones en forma de árbol entre primitivas.
 # Fractales
+Formas creadas por operaciones recursivas con nivel de detalle infinito y auto-similitud (estructuras recurrentes).
+
+
+
+
 
 # Fractales
 Para la representación de formas orgánicas y naturales el acercamiento euclídeo es inapropiado, por ello se hace uso de los fractales. Esto nos permite la creación de modelos con niveles de detalle infinitos, ya que al hacer zoom se genera de manera recursiva el fractal. Estos fractales junto de otras técnicas se puede usar para la generación de topologías y otros elementos.
