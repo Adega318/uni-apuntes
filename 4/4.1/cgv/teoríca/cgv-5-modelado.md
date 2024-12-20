@@ -22,6 +22,7 @@ Formas creadas por operaciones recursivas con nivel de detalle infinito y auto-s
 ## Movimiento Browniano
 En el proceso de generación de fractales se establece desplazamientos aleatorios para generar diferencias en la generación.
 # Dibujo de curvas paramétricas
+## Polinomios cúbicos
 ## Representación paramétricas
 Para la representación paramétrica se hace uso de un segmento (Q) definido por un vector (T) y matriz de coeficientes (C) a su vez dependiendo del orden de la figura se necesitará un número de puntos de control igual al orden más uno.
 ## Continuidad
