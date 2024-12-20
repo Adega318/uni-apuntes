@@ -19,13 +19,6 @@ Representación de un objeto por un conjunto de primitivas contiguas no intersec
 Objetos creados por operaciones en forma de árbol entre primitivas.
 # Fractales
 Formas creadas por operaciones recursivas con nivel de detalle infinito y auto-similitud (estructuras recurrentes).
-
-
-
-
-
-# Fractales
-Para la representación de formas orgánicas y naturales el acercamiento euclídeo es inapropiado, por ello se hace uso de los fractales. Esto nos permite la creación de modelos con niveles de detalle infinitos, ya que al hacer zoom se genera de manera recursiva el fractal. Estos fractales junto de otras técnicas se puede usar para la generación de topologías y otros elementos.
 ## Movimiento Browniano
 En el proceso de generación de fractales se establece desplazamientos aleatorios para generar diferencias en la generación.
 # Dibujo de curvas paramétricas
@@ -35,6 +28,7 @@ Para la representación paramétrica se hace uso de un segmento (Q) definido por
 La continuidad es el proceso de unión de curvas sin interrupciones, siendo de dos tipos:
 - Geométrica, igualdad de las direcciones de los vectores tangentes.
 - Paramétrica, igualdad de direcciones y magnitudes de los vectores tangentes del los segmentos.
+
 ## Splines
 Para definir las curabas con splines se hace uso de un matiz base y un conjunto de segmentos 
 ### Uniforme no-racional
