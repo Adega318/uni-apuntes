@@ -7,10 +7,15 @@ La definición de formas comunes:
 - Elipsoide
 - Toro
 
-Son pre definidas y sujetas a especificas optimizaciones.
-## 
+Son predefinidas y sujetas a específicas optimizaciones.
+## Representación de barrido
+Creación de un objeto basada en un eje mediante el uso de una sección la cual es usada como:
+- Traslacional, movimiento de la sección sobre el eje para la definición de la superficie.
+- Revolución, rotación de la sección en torno al eje para formar una superficie.
 
-
+## División espacial
+Representación de un objeto por un conjunto de primitivas contiguas no intersecadas, usada principalmente para simulación de fuerzas.
+## Geometría sólida constructiva
 
 
 
