@@ -30,8 +30,9 @@ La continuidad es el proceso de unión de curvas sin interrupciones, siendo de d
 - Paramétrica (C), igualdad de direcciones y magnitudes de los vectores tangentes del los segmentos.
 
 ## Curvas de Hermite
-
+Curvas definidas por dos puntos, inicial y final, y sus correspondientes vectores tangentes a la curva en dicho punto.
 ## Curcas de Bézier
+Curva definida por cuatro puntos, uno de inicio, uno de fin y dos de control, los cuales se pueden obtener de los vectores de Hermite.
 ## Splines
 Para definir las curabas con splines se hace uso de un matiz base y un conjunto de segmentos 
 ### Uniforme no-racional
