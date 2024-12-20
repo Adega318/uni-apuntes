@@ -36,14 +36,10 @@ Curva definida por cuatro puntos, uno de inicio, uno de fin y dos de control, lo
 ## Splines
 Para definir las curabas con splines se hace uso de un matiz base y un conjunto de segmentos 
 ### Uniforme no-racional
-Spline definido por puntos de control y segmentos los cuales cada uno tiene relacionados tres puntos de control. Este acercamiento tiene el problema de no poder hacer pasar a la curva por un punto concreto.
+Spline definido por puntos de control y segmentos, los cuales cada uno tiene relacionados tres puntos de control. Este acercamiento tiene el problema de no poder hacer pasar a la curva por un punto concreto.
 ### No uniforme no-racional
-Spline donde se hace uso de funciones de mezcla, las cuales permiten la estipulación de puntos obligatorios para la curva aunque disminuyendo la continuidad a C1.
+Spline donde se hace uso de funciones de mezcla, las cuales permiten la estipulación de puntos obligatorios para la curva, aunque disminuyendo la continuidad a C1.
 ## Subdivisión de curvas
 Proceso por el cual se duplican los puntos de control mediante la búsqueda de puntos intermedios a los ya definidos.
 ## Superficies bicúbicas
-# Otros métodos
-## Ropa
-## Pelo
-## Vegetación
-## Representación de terreno
+Generación de superficies mediante la unión de curvas.
