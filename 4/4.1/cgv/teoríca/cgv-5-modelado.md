@@ -22,14 +22,16 @@ Formas creadas por operaciones recursivas con nivel de detalle infinito y auto-s
 ## Movimiento Browniano
 En el proceso de generación de fractales se establece desplazamientos aleatorios para generar diferencias en la generación.
 # Dibujo de curvas paramétricas
-## Polinomios cúbicos
 ## Representación paramétricas
 Para la representación paramétrica se hace uso de un segmento (Q) definido por un vector (T) y matriz de coeficientes (C) a su vez dependiendo del orden de la figura se necesitará un número de puntos de control igual al orden más uno.
 ## Continuidad
 La continuidad es el proceso de unión de curvas sin interrupciones, siendo de dos tipos:
-- Geométrica, igualdad de las direcciones de los vectores tangentes.
-- Paramétrica, igualdad de direcciones y magnitudes de los vectores tangentes del los segmentos.
+- Geométrica (G), igualdad de las direcciones de los vectores tangentes.
+- Paramétrica (C), igualdad de direcciones y magnitudes de los vectores tangentes del los segmentos.
 
+## Curvas de Hermite
+
+## Curcas de Bézier
 ## Splines
 Para definir las curabas con splines se hace uso de un matiz base y un conjunto de segmentos 
 ### Uniforme no-racional
