@@ -5,4 +5,6 @@ El recorte de líneas se basa en comprobar la posición de los puntos con respec
 - Ambos dentro, pintar.
 - Uno dentro, cálculo de la intersección y pintado.
 - Ambos fuera, cálculo de la posible intersección y pintado en caso de necesario.
+
+Para el cálculo de intersecciones 
 # Recorte 3D
