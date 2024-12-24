@@ -9,4 +9,5 @@ El recorte de líneas se basa en comprobar la posición de los puntos con respec
 - Ambos fuera, cálculo de la posible intersección y pintado en caso de necesario.
 
 Para el cálculo de intersecciones se prolongan las líneas  $P(t)=P_0+(P_1-P_0)t$, para un $P(t)$ entre 0 y 1 el punto se encuentra en el segmento de la línea, los mayores a 1 están a la derecha y los menores a 0 a la izquierda.
+
 # Recorte 3D
