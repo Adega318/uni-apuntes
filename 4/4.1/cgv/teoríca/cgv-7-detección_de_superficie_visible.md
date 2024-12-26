@@ -18,7 +18,8 @@ Para cada coordenada del buffer se mira el objeto más cercano y se asigna el co
 ### A
 Extensión de z buffer con la implementación de transparencias y métodos de anti-aliasing
 ## Lista de prioridad
-
+Las listas de prioridad se usan para la subdivisión de objetos basándose en su profundidad para impedir los solapamientos.
+- Árboles binarios, este método busca un plano que separe los objetos en delante y detrás y los divide usando el mismo.
 
 
 # Determinación de superficie visible
