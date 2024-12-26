@@ -3,8 +3,9 @@ Hay dos principales opciones para la determinación de las superficies visibles:
 - Para cada píxel determina los n objetos visibles para él.
 - Para cada objeto determina las partes visibles.
 
-Para realizar esto se puede hacer uso de diferentes tecnicas:
-- Extensiones y volúmenes de enmarcad
+Para realizar esto se puede hacer uso de diferentes técnicas:
+- Extensiones y volúmenes de enmarcado, se elimina el solapamiento entre objetos mediante el rodeado de los mismos con objetos simples y estudio de solapamientos entre ellos.
+- Back-face culling, uso de las normales de las caras para eliminar las no visibles por la camara.
 # Algoritmos
 
 
