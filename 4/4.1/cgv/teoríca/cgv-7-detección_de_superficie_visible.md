@@ -14,6 +14,11 @@ Este algoritmo realiza el pintado en orden de distancia a la cámara comenzando 
 Este algoritmo extiende el del pintor donde se subdividen los polígonos solapados para resolver las ambigüedades.
 ## Buffer
 ### Z
+Para cada coordenada del buffer se mira el objeto más cercano y se asigna el color correspondiente.
+### A
+Extensión de z buffer con la implementación de transparencias y métodos de anti-aliasing
+## Lista de prioridad
+
 
 
 # Determinación de superficie visible
