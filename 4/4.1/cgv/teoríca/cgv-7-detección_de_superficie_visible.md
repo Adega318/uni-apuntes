@@ -1,6 +1,6 @@
 # Determinación de superficie visible
 Hay dos principales opciones para la determinación de las superficies visibles:
-- Para cada píxel determina los n objetos visibles para el.
+- Para cada píxel determina los n objetos visibles para él.
 - 
 # Algoritmos
 
