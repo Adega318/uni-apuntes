@@ -21,16 +21,13 @@ Extensión de z buffer con la implementación de transparencias y métodos de an
 Las listas de prioridad se usan para la subdivisión de objetos basándose en su profundidad para impedir los solapamientos.
 - Árboles binarios, este método busca un plano que separe los objetos en delante y detrás y los divide usando el mismo.
 ## Líneas de barrido
-Barridos a lo largo de los ejes que con su avance se determinan los polígonos que quedan delante. Las lienas al cruzar la arista de un poligono comienzan a pintar su color
-
-# Determinación de superficie visible
-## Algoritmos
-### Subdivisión de áreas
-#### Warnock
+Barridos a lo largo de los ejes que con su avance se determinan los polígonos que quedan delante. Las líneas al cruzar la arista de un polígono comienzan a pintar su color, asta cruzar otra, por lo tanto, pinta siempre lo más superior.
+## Subdivisión de áreas
+### Warnock
 Se subdivide el espacio, cuando en una de las subdivisiones aparecen múltiples objetos se repite el algoritmo. Con esto se establece el color a pintar en cada espacio y objetos a presentar.
-#### Weiler-Atherton
+### Weiler-Atherton
 Se ordenan los polígonos por profundidad y tomando el superior se recortan los inferiores y eliminan dichos recortes, esto se repetirá sucesivamente (siempre se corta con las originales, no las recortadas).
-### Octrees
+## Octrees
 División recursiva del espacio tridimensional, obteniendo una representación la cual permite el fácil cambio de cámara.
-### Trazado de rayos
+## Trazado de rayos
 Le lanza un "rayo" desde la cámara a cada uno de los píxeles de la imagen y tomamos el color del primer objeto encontrado.
