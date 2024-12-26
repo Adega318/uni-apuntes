@@ -9,7 +9,7 @@ Para realizar esto se puede hacer uso de diferentes técnicas:
 
 # Algoritmos
 ## Algoritmo del pintor
-
+Este algoritmo realiza el pintado en orden de distancia a la cámara comenzando por las más lejanas, por lo tanto, los objetos más cercanos se pintan sobre los lejanos. Esto puede ocasionar problemas con objetos en angulo con respecto a la camara.
 
 # Determinación de superficie visible
 ## Algoritmos
