@@ -21,7 +21,7 @@ Extensión de z buffer con la implementación de transparencias y métodos de an
 Las listas de prioridad se usan para la subdivisión de objetos basándose en su profundidad para impedir los solapamientos.
 - Árboles binarios, este método busca un plano que separe los objetos en delante y detrás y los divide usando el mismo.
 ## Líneas de barrido
-
+Barridos a lo largo de los ejes que con su avance se determinan los polígonos que quedan delante. Las lienas al cruzar la arista de un poligono comienzan a pintar su color
 
 # Determinación de superficie visible
 ## Algoritmos
