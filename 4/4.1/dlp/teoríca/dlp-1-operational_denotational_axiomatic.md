@@ -43,6 +43,7 @@ Sistema pensado para la verificación formal de programas hace uso de reglas de 
 Las expresiones lógicas son denotadas como aserciones donde se establecen:
 - Precondiciones
 - Postcondiciones
+
 Sobre estas se añade la precondición más débil, la cual es el mínimo requerimiento para cumplir la postcondición.
 ### Proceso de probado
 Se establece la postcondición como el resultado objetivo y se aplica el programa inverso para obtener la entrada necesaria para dicho resultado, si la entrada es igual a al especificación del programa, el programa es correcto.
