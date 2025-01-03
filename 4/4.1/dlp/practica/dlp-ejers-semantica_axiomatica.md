@@ -7,7 +7,7 @@
 		{f=i! & i<n}
 		i=i+1
 		f=f*i
-	{f=i! & i=m}
+	{f=i! & i<=m} and {i>=m}
 {f=m!}
 ```
 
