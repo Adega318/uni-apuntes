@@ -1,7 +1,7 @@
 ```
 {m>=0}
 	f=1
-	i=1
+	i=0
 	{f=i! & i<=m}
 	while i<m
 		{f=i! & i<n}
