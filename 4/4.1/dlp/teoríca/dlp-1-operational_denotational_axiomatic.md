@@ -63,4 +63,5 @@ Un ciclo invariante debe de cumplir con las siguientes condiciones:
 - $\{I\ an d\ B\}S\{I\}$, la invariante no es modificada por el cuerpo del ciclo.
 - $(I\ an d(not\ B))\to Q$, I verdadera y B falsa implica Q.
 - El ciclo finaliza.
+
 La invariante de un ciclo es una versión débil de la postcondición y una precondición para el ciclo, siendo lo suficientemente débil como para satisfacerse al comienzo del ciclo.
