@@ -54,6 +54,8 @@ $\Large\frac{\{P\}S\{Q\},P'\implies P,Q\implies Q'}{\{P'\}S\{Q'\}}$
 $\{P_{1}\}S_{1}\{P_{2}\}$
 $\{P_{2}\}S_{2}\{P_{3}\}$
 $\Large\frac{\{P_{1}\}S_{1}\{P_{2}\}, \{P_{2}\}S_{2}\{P_{3}\}}{\{P_{1}\}S_{1},S_{2}\{P_{3}\}}$
+- Regla de if
+${P\ and\ C}$
 - Regla de bucles
 $\{P\}while\ B\ do\ S\ end\{Q\}$
 $\Large\frac{\{I\ and\ B\}S\{I\}}{\{I\}while\ B\ do\ S\{I\ and\ (not\ B)\}}$
