@@ -1,7 +1,13 @@
 # Metodología de resolución
 - Segmentación de folio
-	- Encontrar contornos
-	- Refinar contornos
-	- Aproximar contornos a forma trapezoidal
+	- Búsqueda de contornos
+		- Pre procesado de la imagen
+	- Refinado de contornos
+		- Búsqueda de líneas en contornos
+		- Refuerzo de contornos
+		-
+	- Aproximación de contornos a forma trapezoidal
+		- Reducción de geometría
+		- Corrección de vértices (opcional)
 - Limpiado de texto
 	- 
