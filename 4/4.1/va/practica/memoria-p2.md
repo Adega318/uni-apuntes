@@ -10,7 +10,10 @@
 		- Corrección de vértices (opcional)
 - Limpiado de texto
 	- Detección de anotaciones
-	- 
+		- Búsqueda de zonas
+		- Selección de zonas
+	- Reconstrucción de texto
+		- 
 
 
 	- Detección de zonas
