@@ -66,5 +66,3 @@ Un ciclo invariante debe de cumplir con las siguientes condiciones:
 - El ciclo finaliza.
 
 La invariante de un ciclo es una versión débil de la postcondición y una precondición para el ciclo, siendo lo suficientemente débil como para satisfacerse al comienzo del ciclo.
-
-Cuál es su despacho?
