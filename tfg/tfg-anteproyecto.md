@@ -11,5 +11,6 @@ El proyecto seguirá una metodología en espiral para centrarse en la creación 
 # Fases principales
 Las principales fases en el desarrollo serán:
 - Investigación y diseño del sistema de conversión.
-- 
+- Diseño de la aplicación multiplataforma.
+- Implementación
 # Material y medios necesarios
