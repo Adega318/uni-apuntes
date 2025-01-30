@@ -4,7 +4,7 @@ Además de lo anterior la aplicación contará con un sistema de valoración de 
 # Objetivos concretos
 El objetivo principal es dar una opción de calidad para la creación de voces en gallego, para llevarlo a cabo se requerirá cumplir los siguientes objetivos:
 - Realizar un estudio de los sistemas existentes de conversión de texto a voz y buscar sets de datos útiles para nuestro caso de uso.
-- 
+- Diseño del sistema de conversión y aplicación multiplataforma, en lo que se considera la elección de arquitectura del sistema de conversión y metodologia de entrenaimento.
 # Métodos de trabajo
 # Fases principales
 # Material y medios necesarios
