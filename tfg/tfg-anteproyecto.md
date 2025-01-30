@@ -7,5 +7,6 @@ El objetivo principal es dar una opción de calidad para la creación de voces e
 - Diseño del sistema de conversión, en lo que se considera la elección de arquitectura del sistema de conversión y metodología de entrenamiento, y aplicación multiplataforma, en lo que se considera la creación de diagramas de clases, modelado de bases de datos, ...
 - Implementación del sistema y comprobación de la calidad del mismo en diferentes hardwares y sistemas operativos a través de pruebas de validación.
 # Métodos de trabajo
+La metodologia a utilizar sera una agil, concretamente la metodologia RAD
 # Fases principales
 # Material y medios necesarios
