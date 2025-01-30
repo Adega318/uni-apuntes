@@ -9,7 +9,7 @@ El objetivo principal es dar una opción de calidad para la creación de voces e
 # Métodos de trabajo
 El proyecto seguirá una metodología en espiral para centrarse en la creación del producto mínimo funcional y mejora del mismo a través del feedback. Cabe destacar que por la naturaleza del sistema este proyecto constara de dos desarrollos paralelos, la aplicación fachada y el sistema de conversión, esto se realizara de esta manera para facilitar la modificación y mejora del sistema de conversión.
 # Fases principales
-Las pricipales fases en el desarrollo seran:
+Las principales fases en el desarrollo serán:
 - Investigación y diseño del sistema de conversión.
 - 
 # Material y medios necesarios
