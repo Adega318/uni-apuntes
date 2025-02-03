@@ -18,4 +18,6 @@ Las principales fases en el desarrollo serán:
 - Implementación de la aplicación.
 # Material y medios necesarios
 Para la realización del proyecto se hará uso de lo siguiente:
+- Framework Spring Boot
+- Next.js
 - 
