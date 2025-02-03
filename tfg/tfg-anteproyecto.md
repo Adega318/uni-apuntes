@@ -18,6 +18,7 @@ Las principales fases en el desarrollo serán:
 - Implementación de la aplicación.
 # Material y medios necesarios
 Para la realización del proyecto se hará uso de lo siguiente:
-- Framework Spring Boot
-- Next.js
-- Python
+- Framework Spring Boot, framework para el desarrollo del backend en Java.
+- Next.js, framework para el desarrollo del frontend en JavaScript.
+- Python, lenguaje usado para el desarrollo del sistema de conversión
+- Equipo de entrenamiento
