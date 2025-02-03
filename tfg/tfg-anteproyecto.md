@@ -21,4 +21,3 @@ Para la realización del proyecto se hará uso de lo siguiente:
 - Framework Spring Boot
 - Next.js
 - Python
-- 
