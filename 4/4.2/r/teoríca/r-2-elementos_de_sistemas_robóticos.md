@@ -7,9 +7,11 @@ Las principales características de la robótica automata son:
 - Incertidumbre por el entorno real
 - Limitaciones hardware
 - Limitaciones de velocidad de procesado
-
-
 # Diseño de robots autónomos
+- Establecimiento de tarea
+	- IA débil, diseño para la resolución de tareas con alta especificad.
+	- IA fuerte, diseño para aprender y realizar resoluciones generalistas.
+- Análisis del entorno de operación
 # Morfología
 # Actuadores y efectores
 # Sensores
