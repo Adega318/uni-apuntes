@@ -1,5 +1,5 @@
 # Breve descripción
-En el entorno actual de software donde se han producido grandes desarrollos en la generación de voz en los últimos años este proyecto busca traer estos avances tecnológicos al idioma gallego.
+En el entorno actual de software donde se han producido grandes desarrollos en la generación de voz en los últimos años este proyecto busca traer estos avances tecnológicos al idioma gallego con la creación de un.
 
 
 El proyecto está centrada en la creación de una aplicación de conversión de texto a voz para el idioma Gallego. Contando de capacidades para la imitación de voces predefinidas y nuevas a partir de muestras de audio.
