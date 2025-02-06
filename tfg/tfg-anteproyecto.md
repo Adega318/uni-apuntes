@@ -1,6 +1,6 @@
 # Breve descripción
 En el entorno actual de software donde se han producido grandes desarrollos en la generación de voz en los últimos años este proyecto busca traer estos avances tecnológicos al idioma gallego con la creación de una aplicación que permita la conversión de texto a voz.
-Sobre la capacidad principal anteirormente establecida se espera añadir la imitación de voces mediante muestras y un sistema 
+Sobre la capacidad principal anteriormente establecida se espera añadir la imitación de voces mediante muestras y un sistema de puntuación de contenido producido para la mejora del sistema.
 
 
 El proyecto está centrada en la creación de una aplicación de conversión de texto a voz para el idioma Gallego. Contando de capacidades para la imitación de voces predefinidas y nuevas a partir de muestras de audio.
