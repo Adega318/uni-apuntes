@@ -10,6 +10,8 @@ El principal objetivo es el desarrollo de un sistema con la capacidad de la conv
 - Implementación del front-end y pruebas del sistema en diversos hardwares.
 
 Tras la primera fase se podrá valorar la implementación de la funcionalidad de imitación de voz, lo cual influenciará en gran medida en la fase de diseño y entrenamiento.
+# Método de trabajo
+Por las características del proyecto entre las cuales se encuentra la presencia de un 
 # Borrador
 # Breve descripción
 El proyecto está centrada en la creación de una aplicación de conversión de texto a voz para el idioma Gallego. Contando de capacidades para la imitación de voces predefinidas y nuevas a partir de muestras de audio.
