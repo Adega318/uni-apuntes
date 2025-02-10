@@ -26,6 +26,13 @@ Dada la metodología de trabajo, las fases del desarrollo tendrán un aspecto c�
 	- Pruebas de calidad y rendimiento sobre el sistema.
 - Creación del front-end.
 - Integración del sistema, pruebas finales y despliegue.
+# Material y medios necesarios
+Para la realización del proyecto se hará uso de lo siguiente:
+- Framework Spring Boot, framework para el desarrollo del backend en Java.
+- Next.js, framework para el desarrollo del frontend en JavaScript.
+- Python, lenguaje usado para el desarrollo del sistema de conversión
+
+Por otra parte para el entrenamiento del sistema de conversión puede ser necesario el acceso a equipos de altas prestaciones.
 # Borrador
 # Breve descripción
 El proyecto está centrada en la creación de una aplicación de conversión de texto a voz para el idioma Gallego. Contando de capacidades para la imitación de voces predefinidas y nuevas a partir de muestras de audio.
