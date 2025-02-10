@@ -3,17 +3,28 @@ En el entorno actual de software donde se han producido grandes desarrollos en l
 La aplicación consistirá de una página principal que permita la escritura de texto, generación de audio y reproducción del mismo.
 Cabe destacar la adicción de funcionalidades sobre la capacidad principal anteriormente establecida, se espera añadir la imitación de voces mediante muestras, la cual residiría en una segunda página.
 # Objetivos concretos
-El principal objetivo es el desarrollo de un sistema con la capacidad de la conversión de texto en gallego a voz, esto requiere de las siguientes fases:
+El principal objetivo es el desarrollo de un sistema con la capacidad de la conversión de texto en gallego a voz, esto requiere de los siguientes objetivos:
 - Estudio de sistemas y tecnologías existentes en el entorno de conversión de texto a voz y búsqueda de sets de datos adecuados.
 - Diseño del sistema de conversión basándose en las arquitecturas estudiadas en la fase anterior.
 - Implementación y entrenamiento del sistema de conversión, durante esta fase también se realizarán pruebas de calidad y rendimiento del sistema.
 - Implementación del front-end y pruebas del sistema en diversos hardwares.
 
-Tras la primera fase se podrá valorar el añadido de la funcionalidad de imitación de voz, lo cual influenciará en gran medida en la fase de diseño y entrenamiento.
+Con el estudio completado se podrá considerar la expansión de la funcionalidad del sistema con el añadido de la imitación de voces.
 # Método de trabajo
 La naturaleza de este proyecto genera dos ramas de desarrollo, la fachada y el sistema de conversión, las cuales tendrán una interfaz para la comunicación entre ellas, lo cual permite un desarrollo con alto nivel de agilidad.
 Por lo anteriormente mencionado haremos uso de un desarrollo en espiral, el cual nos dará la capacidad de obtener funcionalidades básicas rápidamente, realizar pruebas en cada ciclo para el control de la calidad e incorporar feedback obtenido.
 Este acercamiento es altamente beneficioso para el desarrollo del sistema de conversión por la libertad de modificación del mismo que nos proporciona.
+# Fases principales
+Dada la metodología de trabajo, las fases del desarrollo tendrán un aspecto cíclico dado que se repetiran en los diferentes ciclos del desarrollo.
+
+
+Las principales fases en el desarrollo serán:
+- Investigación y diseño del sistema de conversión.
+	- Establecimiento de arquitectura.
+	- Recopilación de sets de datos.
+- Diseño de la aplicación.
+- Implementación del sistema de conversión y pruebas de calidad del mismo.
+- Implementación de la aplicación.
 # Borrador
 # Breve descripción
 El proyecto está centrada en la creación de una aplicación de conversión de texto a voz para el idioma Gallego. Contando de capacidades para la imitación de voces predefinidas y nuevas a partir de muestras de audio.
