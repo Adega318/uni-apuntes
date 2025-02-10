@@ -24,4 +24,4 @@ pygame.event.pump(), hace que pygame procese los eventos para evitar problemas c
 ## Sonido
 El cambio de parámetros durante el juego hay que realizar una parada del mixer y reinicializarlo. CAE EN EL EXAMEN
 Estéreo paning, dar diferentes volúmenes por canales. PUNTÚA EXTRA
-El elemento music no genera ev
+El elemento music no genera eventos. CAE EN EL EXAMEN
