@@ -27,6 +27,11 @@ Dada la metodología de trabajo, las fases del desarrollo tendrán un aspecto c�
 - Creación del front-end.
 - Integración del sistema, pruebas finales y despliegue.
 # Material y medios necesarios
+Para la realización del proyecto se hará uso de los siguientes recursos digitales:
+- Spring Boot, framework usado para el desarrollo del back-end del sistema en el lenguaje Java.
+- Next.js, framework para el desarrollo del front-end del sistema en JavaS
+
+
 Para la realización del proyecto se hará uso de lo siguiente:
 - Framework Spring Boot, framework para el desarrollo del backend en Java.
 - Next.js, framework para el desarrollo del frontend en JavaScript.
