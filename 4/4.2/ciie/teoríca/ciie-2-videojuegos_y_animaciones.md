@@ -21,3 +21,5 @@ La programación de videojuegos se basa en las SDL, adaptación de normas predef
 
 ## Eventos
 pygame.event.pump(), hace que pygame procese los eventos para evitar problemas con el sistema operativo. CAE EN EL EXAMEN
+## Sonido
+El cambio de parame
