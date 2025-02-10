@@ -3,13 +3,13 @@ En el entorno actual de software donde se han producido grandes desarrollos en l
 La aplicación consistirá de una página principal que permita la escritura de texto, generación de audio y reproducción del mismo.
 Cabe destacar la adicción de funcionalidades sobre la capacidad principal anteriormente establecida se espera añadir la imitación de voces mediante muestras la cual residiría en una segunda página.
 # Objetivos concretos
-El principal objetivo es el desarrollo de un sistema con la capacidad de la conversión de texto en gallego a voz, esto requiere de los siguientes fases:
+El principal objetivo es el desarrollo de un sistema con la capacidad de la conversión de texto en gallego a voz, esto requiere de las siguientes fases:
 - Estudio de sistemas y tecnologías existentes en el entorno de conversión de texto a voz y búsqueda de sets de datos adecuados.
-- Diseño del sistema de conversión en fase a las arquitecturas estudiadas en la fase anterior y entrenamiento del mismo.
-- Implementación del sistema en formato de aplicación y pruebas de calidad y rendimiento.
+- Diseño del sistema de conversión basándose en las arquitecturas estudiadas en la fase anterior.
+- Implementación y entrenamiento del sistema de conversión, durante esta fase también se realizarán pruebas de calidad y rendimiento del sistema.
+- Implementación del front-end y pruebas del sistema en diversos hardwares.
 
-Tras la primera fase se podrá valorar la implementación de la funcionalidad de imitación de voz, lo cual sera de 
-
+Tras la primera fase se podrá valorar la implementación de la funcionalidad de imitación de voz, lo cual influenciará en gran medida en la fase de diseño y entrenamiento.
 # Borrador
 # Breve descripción
 El proyecto está centrada en la creación de una aplicación de conversión de texto a voz para el idioma Gallego. Contando de capacidades para la imitación de voces predefinidas y nuevas a partir de muestras de audio.
