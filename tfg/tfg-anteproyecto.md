@@ -3,8 +3,8 @@ En el entorno actual de software donde se han producido grandes desarrollos en l
 La aplicación consistirá de una página principal que permita la escritura de texto, generación de audio y reproducción del mismo.
 Cabe destacar la adicción de funcionalidades sobre la capacidad principal anteriormente establecida se espera añadir la imitación de voces mediante muestras la cual residiría en una segunda página.
 # Objetivos concretos
-
-
+El principal objetivo es el desarrollo de un sistema con la capacidad de la conversión de texto en gallego a voz, esto requiere de los siguientes pasos:
+- Estudio de sistemas y tecnologias existentes en el entorno de conve
 
 
 # Borrador
