@@ -1,7 +1,7 @@
 # Breve descripción
 En el entorno actual de software donde se han producido grandes desarrollos en la generación de voz en los últimos años este proyecto busca traer estos avances tecnológicos al idioma gallego con la creación de una aplicación que permita la conversión de texto a voz.
 La aplicación consistirá de una página principal que permita la escritura de texto, generación de audio y reproducción del mismo.
-Cabe destacar la adicción de funcionalidades sobre la capacidad principal anteriormente establecida se espera añadir la imitación de voces mediante muestras la cual residiría en una segunda página.
+Cabe destacar la adicción de funcionalidades sobre la capacidad principal anteriormente establecida, se espera añadir la imitación de voces mediante muestras, la cual residiría en una segunda página.
 # Objetivos concretos
 El principal objetivo es el desarrollo de un sistema con la capacidad de la conversión de texto en gallego a voz, esto requiere de las siguientes fases:
 - Estudio de sistemas y tecnologías existentes en el entorno de conversión de texto a voz y búsqueda de sets de datos adecuados.
@@ -9,17 +9,11 @@ El principal objetivo es el desarrollo de un sistema con la capacidad de la conv
 - Implementación y entrenamiento del sistema de conversión, durante esta fase también se realizarán pruebas de calidad y rendimiento del sistema.
 - Implementación del front-end y pruebas del sistema en diversos hardwares.
 
-Tras la primera fase se podrá valorar la implementación de la funcionalidad de imitación de voz, lo cual influenciará en gran medida en la fase de diseño y entrenamiento.
+Tras la primera fase se podrá valorar el añadido de la funcionalidad de imitación de voz, lo cual influenciará en gran medida en la fase de diseño y entrenamiento.
 # Método de trabajo
-La naturaleza de este proyecto genera dos ramas de desarrollo, la fachada y el sistema de conversión, las cuales tendrán una interfaz para la comunicación entre ellas lo cual permite un desarrollo con alto nivel de agilidad.
-Por lo anteriormente mencionado haremos uso de un derrarrollo en espiral el cual nos dara la capacidad de obtener funcional
-
-
-
-
-Por las características del proyecto, entre las cuales se encuentra la presencia de un sistema monolítico en el centro del proyecto, será necesario el uso de una metodología centrada en la continua mejora y modificación.
-Por lo tanto, se hará uso de la metodología en espiral, la cual permitirá la modificación y comprobación del sistema en cada ciclo, dando como resultado el fácil ajuste del proyecto e incorporación de feedback en el mismo.
-Por otra parte 
+La naturaleza de este proyecto genera dos ramas de desarrollo, la fachada y el sistema de conversión, las cuales tendrán una interfaz para la comunicación entre ellas, lo cual permite un desarrollo con alto nivel de agilidad.
+Por lo anteriormente mencionado haremos uso de un desarrollo en espiral, el cual nos dará la capacidad de obtener funcionalidades básicas rápidamente, realizar pruebas en cada ciclo para el control de la calidad e incorporar feedback obtenido.
+Este acercamiento es altamente beneficioso para el desarrollo del sistema de conversión por la libertad de modificación del mismo que nos proporciona.
 # Borrador
 # Breve descripción
 El proyecto está centrada en la creación de una aplicación de conversión de texto a voz para el idioma Gallego. Contando de capacidades para la imitación de voces predefinidas y nuevas a partir de muestras de audio.
