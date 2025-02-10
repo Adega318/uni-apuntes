@@ -29,8 +29,12 @@ Dada la metodología de trabajo, las fases del desarrollo tendrán un aspecto c�
 # Material y medios necesarios
 Para la realización del proyecto se hará uso de los siguientes recursos digitales:
 - Spring Boot, framework usado para el desarrollo del back-end del sistema en el lenguaje Java.
-- Next.js, framework para el desarrollo del front-end del sistema en JavaS
+- Next.js, framework para el desarrollo del front-end del sistema en JavaScript.
+- Python, lenguaje elegido para el sistema de conversión, dado las siguientes herramientas de desarrollo:
+	- Pandas, librería para el manejo de sets de datos.
+	- TensorFlow, librería para el desarrollo de aplicaciones de aprendizaje profundo.
 
+Por otra parte los recursos
 
 Para la realización del proyecto se hará uso de lo siguiente:
 - Framework Spring Boot, framework para el desarrollo del backend en Java.
