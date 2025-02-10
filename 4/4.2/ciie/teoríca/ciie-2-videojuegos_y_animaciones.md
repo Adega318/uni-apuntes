@@ -13,6 +13,6 @@ Los diferentes jugadores se pueden clasificar en las siguientes categorías:
 - Explorer
 	- Centrados en la exploración del entorno de juego y mecánicas
 	- Disfruta en la exploración y descubrimiento
-## Partes de un juego 
-### Motor de juego
-Sistemas de juegos establecidos de manera sistemática permitiendo el uso de las mismas a través de varios juegos.
+## Motor de juego
+Sistemas de juegos establecidos de manera sistemática permitiendo el uso de las mismas a través de varios juegos, esto permite la delegación de sistemas como las físicas o presentación por pantalla al motor. Esto lleva a la creación de juegos basándose en una arquitectura dirigida por los datos (PREGUNTA DE EXAMEN "ARQUITECTURA DIRIGIDA POR DATOS")
+# Programación en 2D
