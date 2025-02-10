@@ -16,24 +16,16 @@ Por lo anteriormente mencionado haremos uso de un desarrollo en espiral, el cual
 Este acercamiento es altamente beneficioso para el desarrollo del sistema de conversión por la libertad de modificación del mismo que nos proporciona.
 # Fases principales
 Dada la metodología de trabajo, las fases del desarrollo tendrán un aspecto cíclico dado que se repetirán en los diferentes ciclos del desarrollo.
-- Investigación y diseño de la aplicación.
+- Investigación y diseño de la aplicación, esta fase consiste en el estudio de arquitecturas y el establecimiento de la usada durante el resto del proceso de desarrollo.
 	- Establecimiento de la interfaz entre los componentes del sistema.
 	- Creación de la arquitectura inicial del sistema de conversión.
 	- Recopilación de sets de datos para entrenamiento.
-- Fase cíclica.
+- Fase cíclica, esta fase se repetirá en los múltiples ciclos durante el desarrollo de la aplicación.
 	- Implementación del sistema de conversión.
 	- Entrenamiento del sistema de conversión.
 	- Pruebas de calidad y rendimiento sobre el sistema.
-- Creación del front-end
-- Integración del sistema
-
-Las principales fases en el desarrollo serán:
-- Investigación y diseño del sistema de conversión.
-	- Establecimiento de arquitectura.
-	- Recopilación de sets de datos.
-- Diseño de la aplicación.
-- Implementación del sistema de conversión y pruebas de calidad del mismo.
-- Implementación de la aplicación.
+- Creación del front-end.
+- Integración del sistema, pruebas finales y despliegue.
 # Borrador
 # Breve descripción
 El proyecto está centrada en la creación de una aplicación de conversión de texto a voz para el idioma Gallego. Contando de capacidades para la imitación de voces predefinidas y nuevas a partir de muestras de audio.
