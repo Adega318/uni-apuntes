@@ -15,8 +15,17 @@ La naturaleza de este proyecto genera dos ramas de desarrollo, la fachada y el s
 Por lo anteriormente mencionado haremos uso de un desarrollo en espiral, el cual nos dará la capacidad de obtener funcionalidades básicas rápidamente, realizar pruebas en cada ciclo para el control de la calidad e incorporar feedback obtenido.
 Este acercamiento es altamente beneficioso para el desarrollo del sistema de conversión por la libertad de modificación del mismo que nos proporciona.
 # Fases principales
-Dada la metodología de trabajo, las fases del desarrollo tendrán un aspecto cíclico dado que se repetiran en los diferentes ciclos del desarrollo.
-
+Dada la metodología de trabajo, las fases del desarrollo tendrán un aspecto cíclico dado que se repetirán en los diferentes ciclos del desarrollo.
+- Investigación y diseño de la aplicación.
+	- Establecimiento de la interfaz entre los componentes del sistema.
+	- Creación de la arquitectura inicial del sistema de conversión.
+	- Recopilación de sets de datos para entrenamiento.
+- Fase cíclica.
+	- Implementación del sistema de conversión.
+	- Entrenamiento del sistema de conversión.
+	- Pruebas de calidad y rendimiento sobre el sistema.
+- Creación del front-end
+- Integración del sistema
 
 Las principales fases en el desarrollo serán:
 - Investigación y diseño del sistema de conversión.
