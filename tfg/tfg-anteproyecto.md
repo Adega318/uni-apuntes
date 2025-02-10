@@ -11,8 +11,15 @@ El principal objetivo es el desarrollo de un sistema con la capacidad de la conv
 
 Tras la primera fase se podrá valorar la implementación de la funcionalidad de imitación de voz, lo cual influenciará en gran medida en la fase de diseño y entrenamiento.
 # Método de trabajo
+La naturaleza de este proyecto genera dos ramas de desarrollo, la fachada y el sistema de conversión, las cuales tendrán una interfaz para la comunicación entre ellas lo cual permite un desarrollo con alto nivel de agilidad.
+Por lo anteriormente mencionado haremos uso de un derrarrollo en espiral el cual nos dara la capacidad de obtener funcional
+
+
+
+
 Por las características del proyecto, entre las cuales se encuentra la presencia de un sistema monolítico en el centro del proyecto, será necesario el uso de una metodología centrada en la continua mejora y modificación.
 Por lo tanto, se hará uso de la metodología en espiral, la cual permitirá la modificación y comprobación del sistema en cada ciclo, dando como resultado el fácil ajuste del proyecto e incorporación de feedback en el mismo.
+Por otra parte 
 # Borrador
 # Breve descripción
 El proyecto está centrada en la creación de una aplicación de conversión de texto a voz para el idioma Gallego. Contando de capacidades para la imitación de voces predefinidas y nuevas a partir de muestras de audio.
