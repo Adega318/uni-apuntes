@@ -32,6 +32,7 @@ Para la realización del proyecto se hará uso de los siguientes recursos digita
 - Next.js, framework para el desarrollo del front-end del sistema en JavaScript.
 - Python, lenguaje elegido para el sistema de conversión, dado las siguientes herramientas de desarrollo:
 	- Pandas, librería para el manejo de sets de datos.
-	- TensorFlow, librería para el desarrollo de aplicaciones de aprendizaje profundo.
+	- Numpy, librería matematica.
+	- TensorFlow o PyTorch, librería para el desarrollo de aplicaciones de aprendizaje profundo.
 
 Por otra parte, los recursos físicos necesarios para el proyecto son un ordenador para le desarrollo y acceso a sistemas de altas prestaciones, como los equipos del CESGA para el entrenamiento del sistema.
