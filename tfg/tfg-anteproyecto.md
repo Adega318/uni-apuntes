@@ -1,6 +1,6 @@
 # Breve descripción
 En el entorno actual de software donde se han producido grandes desarrollos en la generación de voz mediante el uso de redes neuronales este proyecto busca traer estos avances tecnológicos al idioma gallego con la creación de una aplicación de escritorio que permita la conversión de texto a voz.
-La aplicación estará distribuida en una página principal que permita la escritura de texto, generación de audio y reproducción del mismo.
+La aplicación contará con un area principal para la introdución de texto y reprodución del audio generado por el sistem
 Cabe destacar la adicción de funcionalidades sobre la capacidad principal anteriormente establecida, se espera añadir la imitación de voces mediante muestras, la cual residiría en una segunda página.
 # Objetivos concretos
 El principal objetivo es el desarrollo de un sistema con la capacidad de la conversión de texto en gallego a voz, esto requiere de los siguientes objetivos:
