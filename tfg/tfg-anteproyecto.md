@@ -4,7 +4,7 @@ Adicionalmente, el sistema implementará la capacidad de imitación de voces bas
 Lo fundamental es la aseguración de un sistema que permita la generación de voz con un alto grado de fiabilidad y tiempo de procesado, adecuado.
 
 
-En el entorno actual donde se han producido grandes avances en la conversión de texto a voz mediante el uso de redes neuronales 
+Los últiomos desarroyo en
 # Objetivos concretos
 El principal objetivo es el desarrollo de un sistema con la capacidad de la conversión de texto en gallego a voz, esto requiere de los siguientes objetivos:
 - Estudio de sistemas y tecnologías existentes en el entorno de conversión de texto a voz y búsqueda de sets de datos adecuados.
