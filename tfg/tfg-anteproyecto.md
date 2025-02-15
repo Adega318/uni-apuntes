@@ -6,8 +6,8 @@ Lo fundamental es la aseguración de un sistema que permita la generación de vo
 
 Los desarrollos en redes neuronales generativas han llevado a un gran avance en la conversión de texto a voz, este proyecto busca implementar estos avances para la creación de una aplicación de escritorio capaz de convertir texto a voz para el idioma gallego. Otra funcionalidad que se busca implementar es el clonado de voces basándose en muestras de audio.
 
-
-La aplicación consi
+Tradicionalmente, los sistemas de generación de voz se han basado en la composición de palabras pregrabadas, teniendo , pero recientes avances en los sistemas de redes neuronales han permitido la generación de voces de mayor calidad.
+El proyecto consiste en la creación de una aplicación de escritorio capaz de convertir texto a voz para el idioma gallego 
 # Objetivos concretos
 El principal objetivo es el desarrollo de un sistema con la capacidad de la conversión de texto en gallego a voz, esto requiere de los siguientes objetivos:
 - Estudio de sistemas y tecnologías existentes en el entorno de conversión de texto a voz y búsqueda de sets de datos adecuados.
