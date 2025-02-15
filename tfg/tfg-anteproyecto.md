@@ -9,7 +9,7 @@ Tradicionalmente, los sistemas de generación de voz se han basado en la composi
 
 El proyecto consiste en la utilización de estos avances en el campo para la creación de una aplicación de escritorio la cual mediante una red neuronal convierta texto a voz para el idioma gallego, otra función que tenía el sistema será que dada una serie de grabaciones de voz la imitación de la misma.
 
-Los aspectos cruciales en el proyecto serán la calidad de las voces generadas y su similitud a la imitada, para lo cual se harán uso de arquitecturas altamente exitosas en su implementación en otros idiomas como Tacotron 2 y de traducciones a texto fonético para permitir el uso de datasets como 
+Los aspectos cruciales en el proyecto serán la calidad de las voces generadas y su similitud a la imitada, para lo cual se harán uso de arquitecturas altamente exitosas en su implementación en otros idiomas como Tacotron 2.
 # Objetivos concretos
 El principal objetivo es el desarrollo de un sistema con la capacidad de la conversión de texto en gallego a voz, esto requiere de los siguientes objetivos:
 - Estudio de sistemas y tecnologías existentes en el entorno de conversión de texto a voz y búsqueda de sets de datos adecuados.
