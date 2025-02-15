@@ -1,10 +1,4 @@
 # Breve descripción
-En el entorno actual de software donde se han producido grandes desarrollos en la generación de voz mediante el uso de redes neuronales este proyecto busca traer estos avances tecnológicos al idioma gallego con la creación de una aplicación de escritorio que permita la conversión de texto a voz en gallego.
-Adicionalmente, el sistema implementará la capacidad de imitación de voces basándose en grabaciones, esta adición permitirá la incorporación de una galería de voces pregreneradas.
-Lo fundamental es la aseguración de un sistema que permita la generación de voz con un alto grado de fiabilidad y tiempo de procesado, adecuado.
-
-
-
 Tradicionalmente, los sistemas de generación de voz se han basado en la composición de palabras pregrabadas, teniendo distintivos errores y en general baja credibilidad. Pero recientes avances en los sistemas de redes neuronales han permitido la generación de voces de mayor calidad y credibilidad bajo el coste de requerir grandes sets de entrenamiento.
 
 El proyecto consiste en la utilización de estos avances en el campo para la creación de una aplicación de escritorio la cual mediante una red neuronal convierta texto a voz para el idioma gallego, otra función que tenía el sistema será que dada una serie de grabaciones de voz la imitación de la misma.
@@ -18,6 +12,8 @@ El principal objetivo es el desarrollo de un sistema con la capacidad de la conv
 - Implementación del front-end y pruebas del sistema en diversos hardwares.
 
 Con el estudio completado se podrá considerar la expansión de la funcionalidad del sistema con el añadido de la imitación de voces.
+
+El proyecto 
 # Método de trabajo
 La naturaleza de este proyecto genera dos ramas de desarrollo, la fachada y el sistema de conversión, las cuales tendrán una interfaz para la comunicación entre ellas, lo cual permite un desarrollo con alto nivel de agilidad.
 Por lo anteriormente mencionado haremos uso de un desarrollo en espiral, el cual nos dará la capacidad de obtener funcionalidades básicas rápidamente, realizar pruebas en cada ciclo para el control de la calidad e incorporar feedback obtenido.
