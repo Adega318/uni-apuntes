@@ -13,9 +13,16 @@ El principal objetivo es el desarrollo de un sistema con la capacidad de la conv
 
 Con el estudio completado se podrá considerar la expansión de la funcionalidad del sistema con el añadido de la imitación de voces.
 
-El objetivo principal es el desarrollo de una red neuronal capad de generar voces en gallega siguiendo un guion e imitando una voz dada.
+El objetivo principal es el desarrollo de una red neuronal capad de generar voces en gallega siguiendo un guion e imitando una voz dada y una aplicación para la interacción con la misma.
 - Realizar un estudio del estado del arte de sistemas TTS.
-- Busqueda y formateo de datasets a usar en el entra
+- Búsqueda y formateo de datasets a usar en el entrenamiento.
+- Diseño e implementación de modelos de redes neuronales en python
+	- Entrenamiento
+	- Test
+	- Validación
+- Comprobación humana.
+- Creación de un front-end para el sistema.
+- Documentación
 # Método de trabajo
 La naturaleza de este proyecto genera dos ramas de desarrollo, la fachada y el sistema de conversión, las cuales tendrán una interfaz para la comunicación entre ellas, lo cual permite un desarrollo con alto nivel de agilidad.
 Por lo anteriormente mencionado haremos uso de un desarrollo en espiral, el cual nos dará la capacidad de obtener funcionalidades básicas rápidamente, realizar pruebas en cada ciclo para el control de la calidad e incorporar feedback obtenido.
