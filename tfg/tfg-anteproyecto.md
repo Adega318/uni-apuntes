@@ -1,7 +1,7 @@
 # Breve descripción
 Tradicionalmente, los sistemas de conversión de texto a voz (TTS) se han basado en la composición de palabras pregrabadas como la ampliamente usada Loqueno. Estos sistemas sufren de grandes carencias en el realismo de las voces a causa de la falta de fluidez de las palabras y discrepancias con a entonación natural de las mismas, como respuesta a estas limitaciones y gracias a los avances en el campo de redes neuronales de aprendizaje profundo (DL) surgieron sistemas como WaveNet, capaces de generar voces con mayor fluidez.
 
-El proyecto a realizar busca la implementación de los avances en DL anteriormente mencionados para el idioma gallego 
+El proyecto a realizar busca la implementación de los avances en DL anteriormente mencionados para el idioma gallego y mediante ello crear una aplicación de 
 
 El proyecto a realizar consiste en el uso de los avances en el campo de redes neuronales para la creación de una aplicación de escritorio con la capacidad para generar voz a partir de texto para el idioma gallego junto de la funcionalidad para la elección de voces a generar y la creación de las mismas usando grabaciones de audio.
 
