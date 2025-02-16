@@ -3,7 +3,7 @@ Tradicionalmente, los sistemas de conversión de texto a voz (TTS) se han basado
 
 El proyecto a realizar busca la implementación de los avances en DL anteriormente mencionados para el idioma gallego y mediante ello crear una aplicación de escritorio TTS capaz de generar voces con alto grado de fidelidad y selección de voces a usar junto con la generación de las mismas dadas unas grabaciones proporcionadas.
 
-El proyecto a realizar consiste en el uso de los avances en el campo de redes neuronales para la creación de una aplicación de escritorio con la capacidad para generar voz a partir de texto para el idioma gallego junto de la funcionalidad para la elección de voces a generar y la creación de las mismas usando grabaciones de audio.
+
 
 Los aspectos cruciales en el proyecto serán la calidad de las voces generadas y su similitud a la imitada, para lo cual se harán uso de arquitecturas altamente exitosas en su implementación en otros idiomas como Tacotron 2.
 # Objetivos concretos
