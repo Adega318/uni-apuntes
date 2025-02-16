@@ -27,7 +27,7 @@ Cabe destacar el primer ciclo donde se establecerá la arquitectura general de l
 
 
 
-El proyecto hará uso de un proceso de desarroyo en espiral junto de 
+El proyecto hará uso de un proceso de desarrollo en espiral, ya que el ciclo de implementación, entrenamiento y prueba inherente de las redes neuronalales se ajusta perfectamente a esta metodología, 
 # Fases principales
 Dada la metodología de trabajo, las fases del desarrollo tendrán un aspecto cíclico dado que se repetirán en los diferentes ciclos del desarrollo.
 - Investigación y diseño de la aplicación, esta fase consiste en el estudio de arquitecturas y el establecimiento de la usada durante el resto del proceso de desarrollo.
