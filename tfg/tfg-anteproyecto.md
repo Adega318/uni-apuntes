@@ -1,5 +1,5 @@
 # Breve descripción
-Tradicionalmente, los sistemas de conversión de texto a voz (TTS) se han basado en la composición de palabras pregrabadas como la ampliamente usada Loqueno. Estos sistemas sufren de grandes carencias en el realismo de las voces a causa de la falta de fluidez de las palabras y discrepancias con a entonación natural de las mismas, como respuesta a estas limitaciones y gracias a los avances en el campo 
+Tradicionalmente, los sistemas de conversión de texto a voz (TTS) se han basado en la composición de palabras pregrabadas como la ampliamente usada Loqueno. Estos sistemas sufren de grandes carencias en el realismo de las voces a causa de la falta de fluidez de las palabras y discrepancias con a entonación natural de las mismas, como respuesta a estas limitaciones y gracias a los avances en el campo de redes nuronales de aprendizaje profundo (DL)
 
 teniendo distintivos errores y en general baja credibilidad. Pero recientes avances en los sistemas de redes neuronales han permitido la generación de voces de mayor calidad y credibilidad.
 
