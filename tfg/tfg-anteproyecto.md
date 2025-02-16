@@ -23,7 +23,7 @@ Dada la metodología de trabajo, las fases del desarrollo tendrán un aspecto c�
 	- Establecimiento de la interfaz entre los componentes del sistema.
 	- Creación de la arquitectura inicial del sistema de conversión.
 	- Recopilación de sets de datos para entrenamiento.
-	- Adecuación de los set
+	- Adecuación de los sets de datos.
 - Fase cíclica, esta fase se repetirá en los múltiples ciclos durante el desarrollo de la aplicación.
 	- Implementación del sistema de conversión.
 	- Entrenamiento del sistema de conversión.
