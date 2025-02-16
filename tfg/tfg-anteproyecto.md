@@ -1,5 +1,5 @@
 # Breve descripción
-Los sistemas de conversisón de texto a voz (TTS) hicieron su primera aparición como sistemas de concatenación de grabaciones de las palabras individuales, entre estos sistemas encontramos ejemplos altamente utilizados como Loquendo. Estos sistemas tenían grandes problemas en la calidad del audio producido, siendo especialmente notable en las entonaciones planas y distinguible falta de cohesión, por ello 
+Los sistemas de conversisón de texto a voz (TTS) hicieron su primera aparición como sistemas de concatenación de grabaciones de las palabras individuales, entre estos sistemas encontramos ejemplos altamente utilizados como Loquendo. Estos sistemas tenían grandes problemas en la calidad del audio producido, siendo especialmente notable en las entonaciones planas y distinguible falta de cohesión, con el surgir del aprendizaje profundo estos sistemas recibieron grandes mejoras siendo principalmente por el aumento de la cohesión
 
 
 
