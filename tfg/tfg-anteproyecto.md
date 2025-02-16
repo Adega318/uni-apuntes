@@ -1,5 +1,9 @@
 # Breve descripción
-Tradicionalmente, los sistemas de conversión de texto a voz (TTS) se han basado en la composición de palabras pregrabadas como la ampliamente usada Loqueno. Estos sistemas sufren de grandes carencias en el realismo de las voces a causa de la falta de fluidez de las palabras y discrepancias con a entonación natural de las mismas, como respuesta a estas limitaciones y gracias a los avances en el campo de redes neuronales convolucionales (CL) surgieron sistemas como WaveNet capaces de generar voces con mayor fluidez. Estos sistemas hacen uso 
+Los sistemas de conversisón de texto a voz (TTS) hicieron su primera aparición como sistemas de concatenación de grabaciones de las palabras individuales, entre estos sistemas encontramos ejemplos altamente utilizados como Loquendo. Estos sistemas tenían grandes problemas en la calidad del audio producido, siendo especialmente notable en las entonaciones planas y distinguible falta de cohesión, por ello 
+
+
+
+Tradicionalmente, los sistemas de conversión de texto a voz (TTS) se han basado en la composición de palabras pregrabadas como la ampliamente usada Loqueno. Estos sistemas sufren de grandes carencias en el realismo de las voces a causa de la falta de fluidez de las palabras y discrepancias con a entonación natural de las mismas, como respuesta a estas limitaciones y gracias a los avances en el campo de redes neuronales convolucionales (CNN) surgieron sistemas como WaveNet capaces de generar voces con mayor fluidez. Estos sistemas hacen uso 
 
 El proyecto a realizar busca la implementación de los avances en DL anteriormente mencionados para el idioma gallego y mediante ello crear una aplicación de escritorio TTS capaz de generar voces con alto grado de fidelidad y selección de voces a usar junto con la generación de las mismas dadas unas grabaciones proporcionadas.
 
