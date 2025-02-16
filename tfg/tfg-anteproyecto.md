@@ -1,7 +1,7 @@
 # Breve descripción
-Tradicionalmente, los sistemas de generación de voz se han basado en la composición de palabras pregrabadas, teniendo distintivos errores y en general baja credibilidad. Pero recientes avances en los sistemas de redes neuronales han permitido la generación de voces de mayor calidad y credibilidad bajo el coste de requerir grandes sets de entrenamiento.
+Tradicionalmente, los sistemas de generación de voz se han basado en la composición de palabras pregrabadas, teniendo distintivos errores y en general baja credibilidad. Pero recientes avances en los sistemas de redes neuronales han permitido la generación de voces de mayor calidad y credibilidad.
 
-El proyecto consiste en la utilización de estos avances en el campo para la creación de una aplicación de escritorio la cual mediante una red neuronal convierta texto a voz para el idioma gallego, otra función que tenía el sistema será que dada una serie de grabaciones de voz la imitación de la misma.
+El proyecto consiste en la utilización de estos avances en el campo para la creación de una aplicación de escritorio la cual mediante una red neuronal convierta texto a voz para el idioma gallego, otra función que tendrá el sistema e que dada una serie de grabaciones de voz la imitación de la misma.
 
 Los aspectos cruciales en el proyecto serán la calidad de las voces generadas y su similitud a la imitada, para lo cual se harán uso de arquitecturas altamente exitosas en su implementación en otros idiomas como Tacotron 2.
 # Objetivos concretos
