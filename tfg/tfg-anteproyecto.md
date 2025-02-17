@@ -33,20 +33,14 @@ Las fases de desarrollo serán las siguientes:
 	- Establecimiento de los sets de entrenamiento, test y validación.
 - Desarrollo del sistema TTS.
 	- Implementación de la arquitectura de generación de espectrograma establecida.
-	- Entrenamient
-
-Dada la metodología de trabajo, las fases del desarrollo tendrán un aspecto cíclico dado que se repetirán en los diferentes ciclos del desarrollo.
-- Investigación y diseño de la aplicación, esta fase consiste en el estudio de arquitecturas y el establecimiento de la usada durante el resto del proceso de desarrollo.
-	- Establecimiento de la interfaz entre los componentes del sistema.
-	- Creación de la arquitectura inicial del sistema de conversión.
-	- Recopilación de sets de datos para entrenamiento.
-	- Adecuación de los sets de datos.
-- Fase cíclica, esta fase se repetirá en los múltiples ciclos durante el desarrollo de la aplicación.
-	- Implementación del sistema de conversión.
-	- Entrenamiento del sistema de conversión.
-	- Pruebas de calidad y rendimiento sobre el sistema.
-- Creación del front-end.
-- Integración del sistema, pruebas finales y despliegue.
+	- Entrenamiento del sistema de generación de espectrograma implementado.
+	- Test y validación del sistema.
+	- Implementación del vcoder con capacidad de imitación de voces.
+	- Entrenamiento del vcoder.
+	- Test y validación del vcoder.
+	- Comprobación de la calidad del sistema al completo.
+- Implementación del front-end del sistema.
+- Creación de la memoria del proyecto.
 # Material y medios necesarios
 Para la realización del proyecto se hará uso de los siguientes recursos digitales:
 - Spring Boot, framework usado para el desarrollo del back-end del sistema en el lenguaje Java.
