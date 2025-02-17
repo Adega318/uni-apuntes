@@ -5,6 +5,11 @@ El proyecto a realizar busca la implementación de los anteriormente mencionados
 
 Los aspectos cruciales en el proyecto serán la calidad de las voces generadas y su similitud a la imitada, para lo cual se harán uso de arquitecturas altamente exitosas en su implementación en otros idiomas como Tacotron 2 o DeepVoice 3.
 # Objetivos concretos
+Como objetivo el proyecto tiene la creación de un sistema TTS haciendo uso de los recientes avances en el campo del DL, teniendo el sistema las funciones de generación e imitación de vozes.
+- Estudio del estado del arte para sistemas TTS.
+	- Estudio de sistemas generadores de espectrograma de mel por texto
+	- EStudio de vcoders (sistema que tranforma el espectrograma a voz)
+
 El objetivo principal es el desarrollo de una red neuronal capad de generar voces en gallega siguiendo un guion e imitando una voz dada y una aplicación para la interacción con la misma.
 - Realizar un estudio del estado del arte de sistemas TTS.
 - Búsqueda y formateo de datasets a usar en el entrenamiento.
