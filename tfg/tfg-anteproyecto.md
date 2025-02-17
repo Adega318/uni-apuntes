@@ -24,11 +24,11 @@ Cabe destacar el primer ciclo donde se establecerá la arquitectura general de l
 # Fases principales
 Las fases de desarrollo serán las siguientes:
 - Búsqueda de arquitecturas para el sistema.
-	- Estudio del estado del arte en TTS.
-	- Diseño de las redes neuronales de generación de espectrograma y vcoder.
-	- Diseño de estructura software de la aplicación.
+	- Estudio del estado del arte en TTS, en esta fase se busca encontrar arquitecturas de redes neuronales adecuadas para el proyecto.
+	- Diseño de las redes neuronales de generación de espectrograma y vcoder, con las arquitecturas encontradas anteriormente se diseñarán las usadas en él generador de espectrograma y vcoder.
+	- Diseño de estructura software de la aplicación, alrededor del sistema TTS se diseñará la estructura software de la aplicación.
 - Preparación de datasets para el uso en entrenamiento.
-	- Búsqueda de datasets de audios asociados a sus transcripciones.
+	- Búsqueda de datasets de audios asociados a sus transcripciones, se buscarán datasets de acceso público, priorizando aquellos con información extendida del texto entre la que se incluye el momento de pronunciación de las palabras e información fonética.
 	- Preparación de los datos para su uso en las fases de entrenamiento.
 	- Establecimiento de los sets de entrenamiento, test y validación.
 - Desarrollo del sistema TTS.
