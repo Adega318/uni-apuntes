@@ -15,16 +15,8 @@ Como objetivo el proyecto tiene la creación de un sistema TTS haciendo uso de l
 	- Test y validación del sitema de generación de espectrograma.
 	- Entrenamiento del vcoder.
 	- Test y validación del vcoder.
-- Implementación de una interfaz para la interación con el sistema.
-
-El objetivo principal es el desarrollo de una red neuronal capad de generar voces en gallega siguiendo un guion e imitando una voz dada y una aplicación para la interacción con la misma.
-- Realizar un estudio del estado del arte de sistemas TTS.
-- Búsqueda y formateo de datasets a usar en el entrenamiento.
-- Diseño e implementación de modelos de redes neuronales en python.
-	- Entrenamiento
-	- Test
-	- Validación
-- Comprobación humana de los resultados generados por el sistema.
+	- Comprobación humana de calidad de audio generado.
+- Implementación de una interfaz para la interacción con el sistema.
 # Método de trabajo
 El proyecto hará uso de un proceso de desarrollo en espiral, ya que el ciclo de implementación, entrenamiento y prueba inherente de las redes neuronalales se ajusta perfectamente a esta metodología, donde la libertad otorgada permite la iteración a través de los ciclos para la creación de prototipos funcionales. Por otro lado, se hará uso de la metodología kanban para la gestión de las tareas y fomento del desarrollo eficiente.
 
