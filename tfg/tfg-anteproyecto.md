@@ -5,7 +5,7 @@ El proyecto a realizar busca la implementación de los anteriormente mencionados
 
 Los aspectos cruciales en el proyecto serán la calidad de las voces generadas y su similitud a la imitada, para lo cual se harán uso de arquitecturas altamente exitosas en su implementación en otros idiomas como Tacotron 2 o DeepVoice 3.
 # Objetivos concretos
-Como objetivo el proyecto tiene la creación de un sistema TTS haciendo uso de los recientes avances en el campo del DL, teniendo el sistema las funciones de generación e imitación de vozes.
+Como objetivo el proyecto tiene la creación de un sistema TTS haciendo uso de los recientes avances en el campo del DL, teniendo el sistema las funciones de generación e imitación de voces.
 - Estudio del estado del arte para sistemas TTS.
 	- Estudio de sistemas generadores de espectrograma de mel por texto
 	- Estudio de vcoders (sistema que transforma el espectrograma a voz) con capacidad de imitar voces.
@@ -25,7 +25,7 @@ Cabe destacar el primer ciclo donde se establecerá la arquitectura general de l
 Las fases de desarrollo serán las siguientes:
 - Búsqueda de arquitecturas para el sistema.
 	- Estudio del estado del arte en TTS, en esta fase se busca encontrar arquitecturas de redes neuronales adecuadas para el proyecto.
-	- Diseño de las redes neuronales de generación de espectrograma y vcoder, con las arquitecturas encontradas anteriormente se diseñarán las usadas en él generador de espectrograma y vcoder.
+	- Diseño de las redes neuronales de generación de espectrograma y vcoder, con las arquitecturas encontradas anteriormente se diseñarán las usadas en el generador de espectrograma y vcoder.
 	- Diseño de estructura software de la aplicación, alrededor del sistema TTS se diseñará la estructura software de la aplicación.
 - Preparación de datasets para el uso en entrenamiento.
 	- Búsqueda de datasets de audios asociados a sus transcripciones, se buscarán datasets de acceso público, priorizando aquellos con información extendida del texto entre la que se incluye el momento de pronunciación de las palabras e información fonética.
@@ -42,14 +42,14 @@ Las fases de desarrollo serán las siguientes:
 - Implementación del front-end del sistema.
 - Creación de la memoria del proyecto.
 
-Cabe destacar que durante todas las fases establecidas se realizara establecimiento de tareas y seguimiento de tareas en acuerdo con la metodologia Kanban.
+Cabe destacar que durante todas las fases establecidas se realizara establecimiento de tareas y seguimiento de tareas en acuerdo con la metodología Kanban.
 # Material y medios necesarios
 Para la realización del proyecto se hará uso de los siguientes recursos digitales:
 - Spring Boot, framework usado para el desarrollo del back-end del sistema en el lenguaje Java.
 - Next.js, framework para el desarrollo del front-end del sistema en JavaScript.
 - Python, lenguaje elegido para el sistema de conversión, dado las siguientes herramientas de desarrollo:
 	- Pandas, librería para el manejo de sets de datos.
-	- Numpy, librería matematica.
+	- Numpy, librería matemática.
 	- TensorFlow o PyTorch, librería para el desarrollo de aplicaciones de aprendizaje profundo.
 
 Por otra parte, los recursos físicos necesarios para el proyecto son un ordenador para le desarrollo y acceso a sistemas de altas prestaciones, como los equipos del CESGA para el entrenamiento del sistema.
