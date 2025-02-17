@@ -23,7 +23,7 @@ El proyecto hará uso de un proceso de desarrollo en espiral, ya que el ciclo de
 Cabe destacar el primer ciclo donde se establecerá la arquitectura general de la aplicación y método de comunicación entre el sistema de conversión e interfaz de usuario, lo que será de gran ayuda al permitir mayor libertad en los consecutivos ciclos de desarrollo.
 # Fases principales
 Las fases de desarrollo serán las siguientes:
-- Investigación  de sistemas existentes
+- Búsqueda de 
 
 Dada la metodología de trabajo, las fases del desarrollo tendrán un aspecto cíclico dado que se repetirán en los diferentes ciclos del desarrollo.
 - Investigación y diseño de la aplicación, esta fase consiste en el estudio de arquitecturas y el establecimiento de la usada durante el resto del proceso de desarrollo.
