@@ -42,7 +42,7 @@ Las fases de desarrollo serán las siguientes:
 - Implementación del front-end del sistema.
 - Creación de la memoria del proyecto.
 
-Cabe destacar que durante todas las fases establecidas se reali
+Cabe destacar que durante todas las fases establecidas se realizara establecimiento de tareas y seguimiento de tareas en acuerdo con la metodologia Kanban.
 # Material y medios necesarios
 Para la realización del proyecto se hará uso de los siguientes recursos digitales:
 - Spring Boot, framework usado para el desarrollo del back-end del sistema en el lenguaje Java.
