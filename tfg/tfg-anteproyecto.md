@@ -27,6 +27,10 @@ Las fases de desarrollo serán las siguientes:
 	- Estudio del estado del arte en TTS.
 	- Diseño de las redes neuronales de generación de espectrograma y vcoder.
 	- Diseño de estructura software de la aplicación.
+- Datasets para el uso en entrenamiento.
+	- Búsqueda de datasets de audios asociados a sus transcripciones.
+	- Preparación de los datos para su uso en las fases de entrenamiento.
+	- 
 
 Dada la metodología de trabajo, las fases del desarrollo tendrán un aspecto cíclico dado que se repetirán en los diferentes ciclos del desarrollo.
 - Investigación y diseño de la aplicación, esta fase consiste en el estudio de arquitecturas y el establecimiento de la usada durante el resto del proceso de desarrollo.
