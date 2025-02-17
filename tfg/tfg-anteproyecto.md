@@ -8,7 +8,14 @@ Los aspectos cruciales en el proyecto serán la calidad de las voces generadas y
 Como objetivo el proyecto tiene la creación de un sistema TTS haciendo uso de los recientes avances en el campo del DL, teniendo el sistema las funciones de generación e imitación de vozes.
 - Estudio del estado del arte para sistemas TTS.
 	- Estudio de sistemas generadores de espectrograma de mel por texto
-	- EStudio de vcoders (sistema que tranforma el espectrograma a voz)
+	- Estudio de vcoders (sistema que transforma el espectrograma a voz) con capacidad de imitar voces.
+- Búsqueda de datasets relevantes para el proyecto y depurado de los mismos para su uso.
+- Diseño de la arquitectura de los modelos e implementación de los mismos en python.
+	- Entrenamiento del sistema de generación de espectrograma.
+	- Test y validación del sitema de generación de espectrograma.
+	- Entrenamiento del vcoder.
+	- Test y validación del vcoder.
+- Implementación de una interfaz para la interación con el sistema.
 
 El objetivo principal es el desarrollo de una red neuronal capad de generar voces en gallega siguiendo un guion e imitando una voz dada y una aplicación para la interacción con la misma.
 - Realizar un estudio del estado del arte de sistemas TTS.
