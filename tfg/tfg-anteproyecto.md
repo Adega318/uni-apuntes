@@ -14,7 +14,7 @@ Como objetivo el proyecto tiene la creación de un sistema TTS para el idioma ga
 - Búsqueda de datasets relevantes para el proyecto y depurado de los mismos para su uso.
 - Diseño de la arquitectura de los modelos e implementación de los mismos en python.
 	- Entrenamiento del sistema de generación de espectrograma.
-	- Test y validación del sitema de generación de espectrograma.
+	- Test y validación del sistema de generación de espectrograma.
 	- Entrenamiento del vcoder.
 	- Test y validación del vcoder.
 	- Comprobación humana de calidad de audio generado.
