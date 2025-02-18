@@ -1,6 +1,8 @@
 # Breve descripción
 Los sistemas de conversisón de texto a voz (TTS) hicieron su primera aparición como sistemas de concatenación de grabaciones de las palabras individuales, entre estos sistemas encontramos ejemplos altamente utilizados como Loquendo. Estos sistemas tenían grandes problemas en la calidad del audio producido, siendo especialmente notable en las entonaciones planas y distinguible falta de cohesión, con el surgir del aprendizaje profundo (DL) estos sistemas recibieron grandes mejoras siendo principalmente por el aumento de la cohesión entre grabaciones. Para continuar mejorando la calidad de las voces generadas se crearon nuevas arquitecturas, descartando el uso de voces pregrabadas en favor de la generación completa, una de estas nuevas arquitecturas fue la constituida por una única red de conexión directa entre texto de entrada y espectrograma de Mel (simplificación del audio para aislar las características de la voz humana) de salida, consiguiendo resultados con alta fidelidad.
 
+
+
 El proyecto a realizar busca la implementación de los anteriormente mencionados avances en DL para el idioma gallego y mediante ello crear una aplicación de escritorio TTS capaz de generar voces con alto grado de fidelidad y selección de voces a usar junto con la generación de las mismas dadas unas grabaciones proporcionadas.
 
 Los aspectos cruciales en el proyecto serán la calidad de las voces generadas y su similitud a la imitada, para lo cual se harán uso de arquitecturas altamente exitosas en su implementación en otros idiomas como Tacotron 2 o DeepVoice 3.
