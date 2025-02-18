@@ -31,15 +31,10 @@ Las fases de desarrollo serán las siguientes:
 	- Diseño de estructura software de la aplicación, alrededor del sistema TTS se diseñará la estructura software de la aplicación.
 - Preparación de datasets para el uso en entrenamiento.
 	- Búsqueda de datasets de audios asociados a sus transcripciones, se buscarán datasets de acceso público, priorizando aquellos con información extendida del texto entre la que se incluye el momento de pronunciación de las palabras e información fonética.
-	- Preparación de los datos para su uso en las fases de entrenamiento.
-	- Establecimiento de los sets de entrenamiento, test y validación.
+	- Preparación de los datos para su uso en las fases de entrenamiento, se ajustará el formato de los datos y dividirán en grupos de entrenamiento validación y test.
 - Desarrollo del sistema TTS.
-	- Implementación de la arquitectura de generación de espectrograma establecida.
-	- Entrenamiento del sistema de generación de espectrograma implementado.
-	- Test y validación del sistema.
-	- Implementación del vcoder con capacidad de imitación de voces.
-	- Entrenamiento del vcoder.
-	- Test y validación del vcoder.
+	- Implementación, entrenamiento y pruebas del sistema de generación de espectrograma.
+	- Implementación, entrenamiento y pruebas del vcoder.
 	- Comprobación de la calidad del sistema al completo.
 - Implementación del front-end del sistema.
 - Creación de la memoria del proyecto.
