@@ -1,4 +1,9 @@
 # Breve descripción
+Los sistemas de conversión de texto a voz (TTS) hicieron su primera aparición como sistemas de concatenación de grabaciones de sonidos individuales, este acercamiento al TTS consta de multiples deficiencias en
+
+
+
+
 Los sistemas de conversisón de texto a voz (TTS) hicieron su primera aparición como sistemas de concatenación de grabaciones de las palabras individuales, entre estos sistemas encontramos ejemplos altamente utilizados como Loquendo. Estos sistemas tenían grandes problemas en la calidad del audio producido, siendo especialmente notable en las entonaciones planas y distinguible falta de cohesión, con el surgir del aprendizaje profundo (DL) estos sistemas recibieron grandes mejoras siendo principalmente por el aumento de la cohesión entre grabaciones. Para continuar mejorando la calidad de las voces generadas se crearon nuevas arquitecturas, descartando el uso de voces pregrabadas en favor de la generación completa, una de estas nuevas arquitecturas fue la constituida por una única red de conexión directa entre texto de entrada y espectrograma de Mel (simplificación del audio para aislar las características de la voz humana) de salida, consiguiendo resultados con alta fidelidad.
 
 Estos avances han tenido una lenta adopción fuera del idioma Inglés, causando la problemática que este proyecto busca resolver, la falta de modelos de alta fidelidad y calidad de TTS para el idioma gallego.
