@@ -22,6 +22,9 @@ Como objetivo el proyecto tiene la creación de un sistema TTS para el idioma ga
 	- Comprobación humana de calidad de audio generado.
 - Implementación de una interfaz para la interacción con el sistema.
 # Método de trabajo
+El proyecto hará uso de un proceso de desarrollo en espiral por los requisitos altamente estables del mismo; esto permitirá la realización de prototipos en los diferentes ciclos, refinando el desenpeño del sistema TTS. Por otro lado se hará uso de la metodología kanban para la genstion de tareas y fomento del desarroyo eficiente.
+
+
 El proyecto hará uso de un proceso de desarrollo en espiral, ya que el ciclo de implementación, entrenamiento y prueba inherente de las redes neuronales se ajusta perfectamente a esta metodología, donde la libertad otorgada permite la iteración a través de los ciclos para la creación de prototipos funcionales. Por otro lado, se hará uso de la metodología kanban para la gestión de las tareas y fomento del desarrollo eficiente.
 
 Cabe destacar el primer ciclo donde se establecerá la arquitectura general de la aplicación y método de comunicación entre el sistema de conversión e interfaz de usuario, lo que será de gran ayuda al permitir mayor libertad en los consecutivos ciclos de desarrollo.
