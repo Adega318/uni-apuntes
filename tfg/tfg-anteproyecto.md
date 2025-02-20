@@ -1,6 +1,5 @@
 # Breve descripción
 Los sistemas de conversión de texto a voz (TTS) hicieron su primera aparición como sistemas de concatenación de grabaciones de sonidos individuales; este acercamiento al TTS consta de múltiples deficiencias en la cohesión y entonación de las voces generadas. Con el surgir del aprendizaje profundo (DL), los sistemas de concatenación recibieron mejoras para aumentar la cohesión de las voces; por otro lado, apareció un nuevo acercamiento centrado en la generación completa de las voces mediante redes neuronales.
-
 Con este nuevo acercamiento surgieron múltiples arquitecturas de redes; una de estas nuevas arquitecturas fue la constituida por una única red de conexión directa entre texto de entrada y espectrograma de Mel (simplificación del audio para aislar las características de la voz humana) de salida, consiguiendo resultados con alta fidelidad.
 
 Estos avances han tenido una lenta adopción fuera del idioma inglés, causando la problemática que este proyecto busca resolver: la falta de modelos de alta fidelidad y calidad de TTS para el idioma gallego.
@@ -22,10 +21,7 @@ Como objetivo el proyecto tiene la creación de un sistema TTS para el idioma ga
 	- Comprobación humana de calidad de audio generado.
 - Implementación de una interfaz para la interacción con el sistema.
 # Método de trabajo
-El proyecto hará uso de un proceso de desarrollo en espiral por los requisitos altamente estables del mismo; esto permitirá la realización de prototipos en los diferentes ciclos, refinando el desenpeño del sistema TTS. Por otro lado se hará uso de la metodología kanban para la genstion de tareas y fomento del desarroyo eficiente.
-
-
-El proyecto hará uso de un proceso de desarrollo en espiral, ya que el ciclo de implementación, entrenamiento y prueba inherente de las redes neuronales se ajusta perfectamente a esta metodología, donde la libertad otorgada permite la iteración a través de los ciclos para la creación de prototipos funcionales. Por otro lado, se hará uso de la metodología kanban para la gestión de las tareas y fomento del desarrollo eficiente.
+El proyecto hará uso de un proceso de desarrollo en espiral por los requisitos altamente estables del mismo; esto permitirá la realización de prototipos en los diferentes ciclos, refinando el desempeñó del sistema TTS. Por otro lado, se hará uso de la metodología kanban para la gestión de tareas y fomento del desarrollo eficiente.
 
 Cabe destacar el primer ciclo donde se establecerá la arquitectura general de la aplicación y método de comunicación entre el sistema de conversión e interfaz de usuario, lo que será de gran ayuda al permitir mayor libertad en los consecutivos ciclos de desarrollo.
 # Fases principales
