@@ -33,7 +33,6 @@ Las fases de desarrollo serán las siguientes:
 	- Implementación, entrenamiento y pruebas del vcoder.
 	- Comprobación de la calidad del sistema al completo.
 - Implementación del front-end del sistema.
-- Creación de la memoria del proyecto.
 
 Cabe destacar que durante todas las fases establecidas se realizara establecimiento de tareas y seguimiento de tareas en acuerdo con la metodología Kanban.
 # Material y medios necesarios
