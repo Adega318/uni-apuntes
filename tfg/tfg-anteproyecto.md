@@ -13,6 +13,7 @@ Como objetivo el proyecto tiene la creación de un sistema TTS para el idioma ga
 	- Estudio de sistemas generadores de espectrograma de mel por texto
 	- Estudio de vcoders (sistema que transforma el espectrograma a voz) con capacidad de imitar voces.
 - Búsqueda de datasets relevantes para el proyecto y depurado de los mismos para su uso.
+- Desarrollo de los modelos usados para la conversión de testo a
 - Diseño de la arquitectura de los modelos e implementación de los mismos en python.
 	- Entrenamiento del sistema de generación de espectrograma.
 	- Test y validación del sistema de generación de espectrograma.
