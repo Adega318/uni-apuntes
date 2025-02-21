@@ -37,8 +37,6 @@ Las fases de desarrollo serán las siguientes:
 Cabe destacar que durante todas las fases establecidas se realizara establecimiento de tareas y seguimiento de tareas en acuerdo con la metodología Kanban.
 # Material y medios necesarios
 Para la realización del proyecto se hará uso de los siguientes recursos digitales:
-- Spring Boot, framework usado para el desarrollo del back-end del sistema en el lenguaje Java.
-- Next.js, framework para el desarrollo del front-end del sistema en JavaScript.
 - Python, lenguaje elegido para el sistema de conversión, dado las siguientes herramientas de desarrollo:
 	- Pandas, librería para el manejo de sets de datos.
 	- Numpy, librería matemática.
