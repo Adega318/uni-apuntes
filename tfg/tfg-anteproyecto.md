@@ -43,3 +43,4 @@ Para la realización del proyecto se hará uso de los siguientes recursos digita
 	- TensorFlow o PyTorch, librería para el desarrollo de aplicaciones de aprendizaje profundo.
 
 Por otra parte, los recursos físicos necesarios para el proyecto son un ordenador para le desarrollo y acceso a sistemas de altas prestaciones, como los equipos del CESGA para el entrenamiento del sistema.
+Vale, mi intención era este finde tener el anteproyecto ya avanzado y la semana que viene ponerme a empezar con el trabajo
