@@ -14,6 +14,7 @@ Como objetivo el proyecto tiene la creación de un sistema TTS para el idioma ga
 	- Estudio de vcoders (sistema que transforma el espectrograma a voz) con capacidad de imitar voces.
 - Búsqueda de datasets relevantes para el proyecto y depurado de los mismos para su uso.
 - Desarrollo de los modelos usados para la conversión de texto a voz.
+	- Desarrollo 
 - Implementación de una interfaz para la interacción con el sistema.
 # Método de trabajo
 El proyecto hará uso de un proceso de desarrollo en espiral por los requisitos altamente estables del mismo; esto permitirá la realización de prototipos en los diferentes ciclos, refinando él desempeñó del sistema TTS. Por otro lado, se hará uso de la metodología kanban para la gestión de tareas y fomento del desarrollo eficiente.
