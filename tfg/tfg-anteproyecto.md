@@ -26,7 +26,7 @@ Las fases de desarrollo serán las siguientes:
 	- Diseño de las redes neuronales de generación de espectrograma y vcoder, con las arquitecturas encontradas anteriormente se diseñarán las usadas en el generador de espectrograma y vcoder.
 	- Diseño de estructura software de la aplicación, alrededor del sistema TTS se diseñará la estructura software de la aplicación.
 - Preparación de datasets para el uso en entrenamiento.
-	- Búsqueda de datasets de audios asociados a sus transcripciones, se buscarán datasets de acceso público, priorizando aquellos con información extendida del texto entre la que se incluye el momento de pronunciación de las palabras e información fonética.
+	- Búsqueda de datasets de audios asociados a sus transcripciones en gallego, se buscarán datasets de acceso público, priorizando aquellos con información extendida del texto entre la que se incluye el momento de pronunciación de las palabras e información fonética.
 	- Preparación de los datos para su uso en las fases de entrenamiento, se ajustará el formato de los datos y dividirán en grupos de entrenamiento validación y test.
 - Desarrollo del sistema TTS.
 	- Implementación, entrenamiento y pruebas del sistema de generación de espectrograma.
