@@ -10,8 +10,6 @@ Los aspectos cruciales en el proyecto serán la calidad de las voces generadas y
 # Objetivos concretos
 Como objetivo el proyecto tiene la creación de una librería de TTS para el idioma galleo haciendo uso de los recientes avances en el campo del DL, teniendo el sistema las funciones de generación e imitación de voces. Para alcanzar este objetivo los siguientes objetivos secundarios serán necesarios:
 - Estudio del estado del arte para sistemas TTS.
-	- Estudio de sistemas generadores de espectrograma de mel por texto
-	- Estudio de vcoders (sistema que transforma el espectrograma a voz) con capacidad de imitar voces.
 - Búsqueda de datasets relevantes para el proyecto y depurado de los mismos para su uso.
 - Desarrollo de los modelos usados para la conversión de texto a voz.
 # Método de trabajo
