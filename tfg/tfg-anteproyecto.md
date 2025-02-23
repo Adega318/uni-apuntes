@@ -4,7 +4,7 @@ Con este nuevo acercamiento surgieron múltiples arquitecturas de redes; una de 
 
 Estos avances han tenido una lenta adopción fuera del idioma inglés, causando la problemática que este proyecto busca resolver: la falta de modelos de alta fidelidad y calidad de TTS para el idioma gallego.
 
-El proyecto a realizar busca la implementación de los anteriormente mencionados avances en DL para el idioma gallego y, mediante ello, crear una libreria capaz de generar voces con alto grado de fidelidad y selección de voces a usar junto con la generación de las mismas dadas unas grabaciones proporcionadas.
+El proyecto a realizar busca la implementación de los anteriormente mencionados avances en DL para el idioma gallego y, mediante ello, crear una librería capaz de generar voces con alto grado de fidelidad y selección de voces a usar junto con la generación de las mismas dadas unas grabaciones proporcionadas.
 
 Los aspectos cruciales en el proyecto serán la calidad de las voces generadas y su similitud a la imitada, para lo cual se hará uso de arquitecturas altamente exitosas en su implementación en otros idiomas, como Tacotron 2 o DeepVoice 3.
 # Objetivos concretos
