@@ -9,7 +9,12 @@ El objetivo de este proyecto es aplicar los avances recientes en aprendizaje pro
 
 Los aspectos clave del proyecto serán la calidad de las voces generadas y su similitud con las voces originales. Para ello, se emplearán arquitecturas de probada eficacia en otros idiomas, como Tacotron 2 y DeepVoice 3.
 # Objetivos concretos
-Este proyecto tiene como principal objetivo la creación de un sistema TTS en gallego haciendo uso de los avances en DL
+Este proyecto tiene como principal objetivo la resolución de la problemática expuesta, para ello se presentan los siguientes subobjetivos:
+- Estudiar el estado del arte de los sistemas TTS
+- Implementar avances en DL en la conversión de texto a voz para el idioma gallego.
+- Desarrollar una biblioteca TTS de alta fidelidad que permita la generación de voces con calidad y naturalidad.
+- Permitir la selección de diferentes voces y la generación de nuevas voces a partir de grabaciones proporcionadas.
+- Garantizar que las voces generadas sean de alta calidad y mantengan una gran similitud con las originales.
 
 
 Como objetivo el proyecto tiene la creación de una librería de TTS para el idioma galleo haciendo uso de los recientes avances en el campo del DL, teniendo el sistema las funciones de generación e imitación de voces. Para alcanzar este objetivo los siguientes objetivos secundarios serán necesarios:
