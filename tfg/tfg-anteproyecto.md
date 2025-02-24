@@ -25,11 +25,11 @@ En el primer ciclo, se establecerá la arquitectura general de la aplicación y 
 
 # Fases principales
 El desarrollo del proyecto se llevará a cabo en las siguientes fases:
-1. Investigación y selección de arquitecturas.
+1. **Investigación y selección de arquitecturas.**
 	- Análisis del estado del arte en TTS: Se estudiarán las arquitecturas de redes neuronales más adecuadas para el proyecto.
 	- Diseño de las redes neuronales para la generación de espectrogramas y vocoder: Con base en la investigación previa, se definirán las arquitecturas a utilizar en el generador de espectrogramas y el vocoder.
 	- Diseño de la estructura software de la aplicación: Se establecerá la estructura del software que integrará el sistema TTS.
-2. Preparación de datasets para el entrenamiento.
+2. **Preparación de datasets para el entrenamiento.**
 	- Búsqueda de datasets en gallego: Se recopilarán conjuntos de datos de audio con transcripciones en gallego, priorizando aquellos de acceso público que incluyan información detallada, como la sincronización fonética y los tiempos de pronunciación de las palabras.
 	- Procesamiento y organización de los datos: Se ajustará el formato de los datos y se dividirán en conjuntos de entrenamiento, validación y prueba.
 3. **Desarrollo del sistema TTS.**
