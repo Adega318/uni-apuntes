@@ -9,23 +9,37 @@ El objetivo de este proyecto es aplicar los avances recientes en aprendizaje pro
 
 Los aspectos clave del proyecto serán la calidad de las voces generadas y su similitud con las voces originales. Para ello, se emplearán arquitecturas de probada eficacia en otros idiomas, como Tacotron 2 y DeepVoice 3.
 # Objetivos concretos
-Este proyecto tiene como principal objetivo la resolución de la problemática expuesta, para ello se presentan los siguientes subobjetivos:
-- Estudiar el estado del arte de los sistemas TTS
-- Implementar avances en DL en la conversión de texto a voz para el idioma gallego.
-- Desarrollar una biblioteca TTS de alta fidelidad que permita la generación de voces con calidad y naturalidad.
-- Permitir la selección de diferentes voces y la generación de nuevas voces a partir de grabaciones proporcionadas.
+Este proyecto tiene como objetivo principal abordar la problemática expuesta. Para ello, se establecen los siguientes subobjetivos:
+- Analizar el estado del arte de los sistemas TTS.
+- Aplicar avances en aprendizaje profundo (DL) a la conversión de texto a voz en idioma gallego.
+- Desarrollar una biblioteca TTS de alta fidelidad que genere voces con calidad y naturalidad.
+- Implementar la selección de diferentes voces y la generación de nuevas voces a partir de grabaciones proporcionadas.
 - Garantizar que las voces generadas sean de alta calidad y mantengan una gran similitud con las originales.
-
-
-Como objetivo el proyecto tiene la creación de una librería de TTS para el idioma galleo haciendo uso de los recientes avances en el campo del DL, teniendo el sistema las funciones de generación e imitación de voces. Para alcanzar este objetivo los siguientes objetivos secundarios serán necesarios:
-- Estudio del estado del arte para sistemas TTS.
-- Búsqueda de datasets relevantes para el proyecto y depurado de los mismos para su uso.
-- Desarrollo de los modelos usados para la conversión de texto a voz.
 # Método de trabajo
-El proyecto hará uso de un proceso de desarrollo en espiral por los requisitos altamente estables del mismo; esto permitirá la realización de prototipos en los diferentes ciclos, refinando él desempeñó del sistema TTS. Por otro lado, se hará uso de la metodología kanban para la gestión de tareas y fomento del desarrollo eficiente.
+El proyecto seguirá un proceso de desarrollo en espiral, dada la estabilidad de sus requisitos. Este enfoque permitirá la creación de prototipos en cada ciclo, refinando progresivamente el desempeño del sistema TTS. Además, se utilizará la metodología Kanban para la gestión de tareas, promoviendo un desarrollo eficiente y ágil.
 
-Cabe destacar el primer ciclo donde se establecerá la arquitectura general de la aplicación y método de comunicación entre el sistema de conversión e interfaz de usuario, lo que será de gran ayuda al permitir mayor libertad en los consecutivos ciclos de desarrollo.
+En el primer ciclo, se establecerá la arquitectura general de la aplicación y el método de comunicación entre el sistema de conversión y la interfaz de usuario. Esto será fundamental para proporcionar mayor flexibilidad en los ciclos de desarrollo posteriores.
 # Fases principales
+El desarrollo del proyecto se llevará a cabo en las siguientes fases:
+ 1. Investigación y selección de arquitecturas
+- Análisis del estado del arte en TTS: Se estudiarán las arquitecturas de redes neuronales más adecuadas para el proyecto.
+- Diseño de las redes neuronales para la generación de espectrogramas y vocoder: Con base en la investigación previa, se definirán las arquitecturas a utilizar en el generador de espectrogramas y el vocoder.
+- Diseño de la estructura software de la aplicación: Se establecerá la estructura del software que integrará el sistema TTS.
+ 1. Preparación de datasets para el entrenamiento
+- Búsqueda de datasets en gallego: Se recopilarán conjuntos de datos de audio con transcripciones en gallego, priorizando aquellos de acceso público que incluyan información detallada, como la sincronización fonética y los tiempos de pronunciación de las palabras.
+- Procesamiento y organización de los datos: Se ajustará el formato de los datos y se dividirán en conjuntos de entrenamiento, validación y prueba.
+ 1. Desarrollo del sistema TTS
+- Implementación, entrenamiento y pruebas del generador de espectrogramas.
+- Implementación, entrenamiento y pruebas del vocoder.
+- Evaluación de la calidad del sistema completo.
+ 1. Implementación del front-end
+Se desarrollará la interfaz de usuario que permitirá interactuar con el sistema TTS.
+
+Cabe destacar que, durante todas las fases del proyecto, se gestionarán y monitorizarán las tareas en concordancia con la metodología Kanban.
+
+
+
+
 Las fases de desarrollo serán las siguientes:
 - Búsqueda de arquitecturas para el sistema.
 	- Estudio del estado del arte en TTS, en esta fase se busca encontrar arquitecturas de redes neuronales adecuadas para el proyecto.
