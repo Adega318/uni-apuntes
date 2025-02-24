@@ -2,6 +2,9 @@
 Los sistemas de conversión de texto a voz (TTS) hicieron su primera aparición como sistemas de concatenación de grabaciones de sonidos individuales; este acercamiento al TTS consta de múltiples deficiencias en la cohesión y entonación de las voces generadas. Con el surgir del aprendizaje profundo (DL), estas primeras iteraciones recibieron mejoras para aumentar la cohesión de las voces; por otro lado, apareció un nuevo acercamiento centrado en la generación completa de las voces mediante redes neuronales.
 Con este nuevo acercamiento surgieron múltiples arquitecturas de redes; una de estas nuevas arquitecturas fue la constituida por una única red de conexión directa entre texto de entrada y espectrograma de Mel (simplificación del audio para aislar las características de la voz humana) de salida, consiguiendo resultados con alta fidelidad.
 
+
+Estos avances han tenido una lenta adopción fuera de idioma inglés, 
+
 Estos avances han tenido una lenta adopción fuera del idioma inglés, causando la problemática que este proyecto busca resolver: la falta de modelos de alta fidelidad y calidad de TTS para el idioma gallego.
 
 El proyecto a realizar busca la implementación de los anteriormente mencionados avances en DL para el idioma gallego y, mediante ello, crear una librería capaz de generar voces con alto grado de fidelidad y selección de voces a usar junto con la generación de las mismas dadas unas grabaciones proporcionadas.
