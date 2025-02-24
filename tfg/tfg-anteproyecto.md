@@ -1,11 +1,21 @@
 # Breve descripción
+Los sistemas de conversión de texto a voz (TTS) surgieron inicialmente como sistemas de concatenación de grabaciones de sonidos individuales, conocidos como sistemas de selección de unidades (US-TTS). Sin embargo, este enfoque presentaba múltiples deficiencias en la cohesión y entonación de las voces generadas. Con la aparición del aprendizaje profundo (DL), estos primeros sistemas fueron mejorados para aumentar la cohesión vocal. Además, surgió un nuevo enfoque basado en la generación completa de voces mediante redes neuronales.
+
+Este avance dio lugar a diversas arquitecturas de redes neuronales. Una de ellas utiliza una única red de conexión directa entre el texto de entrada y el espectrograma de Mel de salida (una representación simplificada del audio que resalta las características de la voz humana), logrando resultados de alta fidelidad.
+
+A pesar de estos progresos, la adopción de estas tecnologías ha sido lenta fuera del ámbito angloparlante, lo que ha provocado un retraso significativo en otros idiomas. En el caso del gallego, la tecnología TTS aún se basa en sistemas US-TTS, como Cotovía, desarrollado por la Universidad de Vigo. Esto plantea un problema claro: la falta de modelos TTS de alta fiabilidad y calidad para este idioma.
+
+El objetivo de este proyecto es aplicar los avances recientes en aprendizaje profundo al gallego y desarrollar una biblioteca capaz de generar voces con un alto grado de fidelidad. Además, se busca permitir la selección de diferentes voces y la generación de nuevas voces a partir de grabaciones proporcionadas.
+
+Los aspectos clave del proyecto serán la calidad de las voces generadas y su similitud con las voces originales. Para ello, se emplearán arquitecturas de probada eficacia en otros idiomas, como Tacotron 2 y DeepVoice 3.
+
+
+
+
 Los sistemas de conversión de texto a voz (TTS) hicieron su primera aparición como sistemas de concatenación de grabaciones de sonidos individuales, también conocidos como sistemas de selección de unidades (US-TTS); este acercamiento al TTS consta de múltiples deficiencias en la cohesión y entonación de las voces generadas. Con el surgir del aprendizaje profundo (DL), estas primeras iteraciones recibieron mejoras para aumentar la cohesión de las voces; por otro lado, apareció un nuevo acercamiento centrado en la generación completa de las voces mediante redes neuronales.
 Con este nuevo acercamiento surgieron múltiples arquitecturas de redes; una de estas nuevas arquitecturas fue la constituida por una única red de conexión directa entre texto de entrada y espectrograma de Mel (simplificación del audio para aislar las características de la voz humana) de salida, consiguiendo resultados con alta fidelidad.
 
-
-Estos avances han tenido una lenta adopción fuera de idioma inglés, esto ha llevado a que en otros idiomas el estado de la tecnología se encuentre altamente atrasada. Para el idioma de interés de este proyecto, el gallego, el estado de estos sistemas esta aun en el uso de 
-
-Estos avances han tenido una lenta adopción fuera del idioma inglés, causando la problemática que este proyecto busca resolver: la falta de modelos de alta fidelidad y calidad de TTS para el idioma gallego.
+Estos avances han tenido una lenta adopción fuera de idioma inglés, esto ha llevado a que en otros idiomas el estado de la tecnología se encuentre altamente atrasada. Para el idioma de interés de este proyecto, el gallego, el estado de estos sistemas está aún en el uso de US-TTS con Cotovía, sistema creado por la universidad de Vigo. Por lo anteriormente mencionado la establecemos la siguiente problemática a resolver, la falta de modelos de alta fiabilidad y calidad de TTS para el idioma gallego.
 
 El proyecto a realizar busca la implementación de los anteriormente mencionados avances en DL para el idioma gallego y, mediante ello, crear una librería capaz de generar voces con alto grado de fidelidad y selección de voces a usar junto con la generación de las mismas dadas unas grabaciones proporcionadas.
 
