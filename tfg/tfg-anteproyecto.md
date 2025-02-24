@@ -3,7 +3,7 @@ Los sistemas de conversión de texto a voz (TTS) hicieron su primera aparición 
 Con este nuevo acercamiento surgieron múltiples arquitecturas de redes; una de estas nuevas arquitecturas fue la constituida por una única red de conexión directa entre texto de entrada y espectrograma de Mel (simplificación del audio para aislar las características de la voz humana) de salida, consiguiendo resultados con alta fidelidad.
 
 
-Estos avances han tenido una lenta adopción fuera de idioma inglés, 
+Estos avances han tenido una lenta adopción fuera de idioma inglés, esto ha llevado a que en otros idiomas el estado de la tecnología se encuentre altamente atrasada. Para el idioma de interés de este proyecto, el gallego, el estado de estos sistemas
 
 Estos avances han tenido una lenta adopción fuera del idioma inglés, causando la problemática que este proyecto busca resolver: la falta de modelos de alta fidelidad y calidad de TTS para el idioma gallego.
 
