@@ -8,19 +8,10 @@ A pesar de estos progresos, la adopción de estas tecnologías ha sido lenta fue
 El objetivo de este proyecto es aplicar los avances recientes en aprendizaje profundo al gallego y desarrollar una biblioteca capaz de generar voces con un alto grado de fidelidad. Además, se busca permitir la selección de diferentes voces y la generación de nuevas voces a partir de grabaciones proporcionadas.
 
 Los aspectos clave del proyecto serán la calidad de las voces generadas y su similitud con las voces originales. Para ello, se emplearán arquitecturas de probada eficacia en otros idiomas, como Tacotron 2 y DeepVoice 3.
-
-
-
-
-Los sistemas de conversión de texto a voz (TTS) hicieron su primera aparición como sistemas de concatenación de grabaciones de sonidos individuales, también conocidos como sistemas de selección de unidades (US-TTS); este acercamiento al TTS consta de múltiples deficiencias en la cohesión y entonación de las voces generadas. Con el surgir del aprendizaje profundo (DL), estas primeras iteraciones recibieron mejoras para aumentar la cohesión de las voces; por otro lado, apareció un nuevo acercamiento centrado en la generación completa de las voces mediante redes neuronales.
-Con este nuevo acercamiento surgieron múltiples arquitecturas de redes; una de estas nuevas arquitecturas fue la constituida por una única red de conexión directa entre texto de entrada y espectrograma de Mel (simplificación del audio para aislar las características de la voz humana) de salida, consiguiendo resultados con alta fidelidad.
-
-Estos avances han tenido una lenta adopción fuera de idioma inglés, esto ha llevado a que en otros idiomas el estado de la tecnología se encuentre altamente atrasada. Para el idioma de interés de este proyecto, el gallego, el estado de estos sistemas está aún en el uso de US-TTS con Cotovía, sistema creado por la universidad de Vigo. Por lo anteriormente mencionado la establecemos la siguiente problemática a resolver, la falta de modelos de alta fiabilidad y calidad de TTS para el idioma gallego.
-
-El proyecto a realizar busca la implementación de los anteriormente mencionados avances en DL para el idioma gallego y, mediante ello, crear una librería capaz de generar voces con alto grado de fidelidad y selección de voces a usar junto con la generación de las mismas dadas unas grabaciones proporcionadas.
-
-Los aspectos cruciales en el proyecto serán la calidad de las voces generadas y su similitud a la imitada, para lo cual se hará uso de arquitecturas altamente exitosas en su implementación en otros idiomas, como Tacotron 2 o DeepVoice 3.
 # Objetivos concretos
+Este proyecto tiene como principal objetivo la creación de un sistema TTS en gallego haciendo uso de los avances en DL
+
+
 Como objetivo el proyecto tiene la creación de una librería de TTS para el idioma galleo haciendo uso de los recientes avances en el campo del DL, teniendo el sistema las funciones de generación e imitación de voces. Para alcanzar este objetivo los siguientes objetivos secundarios serán necesarios:
 - Estudio del estado del arte para sistemas TTS.
 - Búsqueda de datasets relevantes para el proyecto y depurado de los mismos para su uso.
