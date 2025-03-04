@@ -1,8 +1,7 @@
 # Resumen 
 Uso del modelo Tacotron 2 y Tacotron para TTS en Malay.
 # Puntos importantes
-Se hace un entrenamiento de ambas redes para el idioma del Malay 
-
+Se hace un entrenamiento de ambas redes para el idioma del Malay, donde bajo prueba de opinión subjetiva de la claridad y realismo, el modelo Tacotron supera a su sucesor.
 # BibTeX
 @article{aziz2023end,
   title={End to end text to speech synthesis for malay language using tacotron and tacotron 2},
