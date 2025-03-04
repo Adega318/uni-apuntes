@@ -1,6 +1,7 @@
 # Resumen 
 Uso del modelo Tacotron 2 y Tacotron para TTS en Malay.
-# Puntos importante
+# Puntos importantes
+Se hace un entrenamiento de ambas redes para el idioma del Malay 
 
 # BibTeX
 @article{aziz2023end,
