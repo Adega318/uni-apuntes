@@ -6,3 +6,9 @@ El motor de físicas de Unity se divide en:
 SOLO un micrófono por escena, CAE EN EXAMEN
 
 Clase input con móviles, limitación a 5 dedos en iphon y sin límite para Android, CAE EN EXAMEN
+
+Sonido, compresion:
+- load, directo en memoria
+- memory, comprimido
+- streaming, cargado a medida que se reproduce
+CAE EN EX
