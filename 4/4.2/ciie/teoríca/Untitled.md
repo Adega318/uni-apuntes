@@ -11,4 +11,4 @@ Sonido, compresion:
 - load, directo en memoria
 - memory, comprimido
 - streaming, cargado a medida que se reproduce
-CAE EN EX
+CAE EN EXAMEN
