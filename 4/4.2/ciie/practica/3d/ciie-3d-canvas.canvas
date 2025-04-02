@@ -1,9 +1,11 @@
 {
 	"nodes":[
-		{"id":"0761ddab80e71909","x":-660,"y":-400,"width":400,"height":348,"type":"file","file":"4/4.2/ciie/practica/3d/images/Pasted image 20250402154833.png"},
-		{"id":"1f56575b46f930db","x":-80,"y":-400,"width":250,"height":60,"type":"text","text":"captain toad, girar usando objetos en el mapa"}
+		{"id":"0761ddab80e71909","type":"file","file":"4/4.2/ciie/practica/3d/images/Pasted image 20250402154833.png","x":-660,"y":-400,"width":400,"height":348},
+		{"id":"e8fc8994eecf88d8","type":"file","file":"4/4.2/ciie/practica/3d/images/Pasted image 20250402155118.png","x":-660,"y":-20,"width":400,"height":225},
+		{"id":"1f56575b46f930db","type":"text","text":"captain toad, girar usando objetos en el mapa","x":-100,"y":-80,"width":250,"height":60}
 	],
 	"edges":[
-		{"id":"649adb0b69a2cd37","fromNode":"0761ddab80e71909","fromSide":"right","toNode":"1f56575b46f930db","toSide":"left"}
+		{"id":"649adb0b69a2cd37","fromNode":"0761ddab80e71909","fromSide":"right","toNode":"1f56575b46f930db","toSide":"left"},
+		{"id":"a2eb11299d34de98","fromNode":"e8fc8994eecf88d8","fromSide":"right","toNode":"1f56575b46f930db","toSide":"left"}
 	]
 }
