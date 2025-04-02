@@ -1,22 +1,23 @@
 {
 	"nodes":[
-		{"id":"7ea71252b7776092","x":-220,"y":-1260,"width":1280,"height":440,"type":"group","label":"Levels"},
-		{"id":"0761ddab80e71909","type":"file","file":"4/4.2/ciie/practica/3d/images/Pasted image 20250402154833.png","x":-840,"y":-540,"width":320,"height":278},
-		{"id":"6ef0b437ebc3d169","type":"file","file":"4/4.2/ciie/practica/3d/images/Pasted image 20250402160248.png","x":-840,"y":47,"width":400,"height":205},
-		{"id":"e8fc8994eecf88d8","type":"file","file":"4/4.2/ciie/practica/3d/images/Pasted image 20250402155118.png","x":-840,"y":-226,"width":425,"height":239},
-		{"id":"77e5abfadbd1fa97","type":"file","file":"4/4.2/ciie/practica/3d/images/Pasted image 20250402155726.png","x":-480,"y":-540,"width":400,"height":225},
-		{"id":"1f56575b46f930db","type":"text","text":"Capitan toad, rotar el mapa.","x":200,"y":-154,"width":260,"height":50},
-		{"id":"0a6061d95a983779","type":"file","file":"4/4.2/ciie/practica/3d/images/Pasted image 20250402155922.png","x":-380,"y":-262,"width":380,"height":253},
-		{"id":"e07138510997919d","type":"file","file":"Pasted image 20250402160858.png","x":-400,"y":27,"width":400,"height":225},
-		{"id":"f9d7cb41475ea643","type":"text","text":"Mecanicas locales","x":205,"y":-315,"width":250,"height":60},
-		{"id":"5f4cb11c8123a3e1","type":"text","text":"Drenar agua","x":340,"y":-520,"width":160,"height":60},
-		{"id":"9ca59f8100c979fb","type":"text","text":"Plataformas flotantes","x":308,"y":-620,"width":225,"height":60},
-		{"id":"cbbda0722dccb306","type":"file","file":"4/4.2/ciie/practica/3d/ciie-3d-lv2-verde.md","x":220,"y":-1240,"width":400,"height":400},
-		{"id":"d32d7b7ec6bc6dd0","type":"file","file":"4/4.2/ciie/practica/3d/ciie-3d-lv3-rojo.md","x":640,"y":-1240,"width":400,"height":400},
-		{"id":"7d0c61a4ff8c4101","type":"file","file":"4/4.2/ciie/practica/3d/ciie-3d-lv1-azul.md","x":-200,"y":-1240,"width":400,"height":400},
-		{"id":"5e7be57740cee236","type":"text","text":"Enemigos","x":740,"y":-520,"width":140,"height":60},
+		{"id":"7ea71252b7776092","type":"group","x":-660,"y":-1780,"width":1720,"height":960,"label":"Levels"},
 		{"id":"2e049d84e84b780e","type":"text","text":"Cajas","x":40,"y":-520,"width":120,"height":60},
-		{"id":"e264ee1501632d3f","x":980,"y":-520,"width":250,"height":60,"type":"text","text":"Combinación de dos estados de mapa"}
+		{"id":"9ca59f8100c979fb","type":"text","text":"Plataformas flotantes","x":235,"y":-620,"width":225,"height":60},
+		{"id":"5f4cb11c8123a3e1","type":"text","text":"Drenar agua","x":267,"y":-520,"width":160,"height":60},
+		{"id":"4316f93d4233bbc5","type":"text","text":"Rotar mapa","x":740,"y":-550,"width":158,"height":60},
+		{"id":"1f56575b46f930db","type":"text","text":"Capitan toad","x":527,"y":-120,"width":160,"height":50},
+		{"id":"5e7be57740cee236","type":"text","text":"Enemigos","x":550,"y":-680,"width":140,"height":60},
+		{"id":"e264ee1501632d3f","type":"text","text":"Combinación de dos estados de mapa","x":-25,"y":-740,"width":250,"height":60},
+		{"id":"f9d7cb41475ea643","type":"text","text":"Mecanicas locales","x":222,"y":-322,"width":250,"height":60},
+		{"id":"0761ddab80e71909","type":"file","file":"4/4.2/ciie/practica/3d/images/Pasted image 20250402154833.png","x":-550,"y":-120,"width":320,"height":278},
+		{"id":"e8fc8994eecf88d8","type":"file","file":"4/4.2/ciie/practica/3d/images/Pasted image 20250402155118.png","x":-550,"y":194,"width":425,"height":239},
+		{"id":"6ef0b437ebc3d169","type":"file","file":"4/4.2/ciie/practica/3d/images/Pasted image 20250402160248.png","x":-550,"y":467,"width":400,"height":205},
+		{"id":"77e5abfadbd1fa97","type":"file","file":"4/4.2/ciie/practica/3d/images/Pasted image 20250402155726.png","x":-190,"y":-120,"width":400,"height":225},
+		{"id":"e07138510997919d","type":"file","file":"Pasted image 20250402160858.png","x":-110,"y":447,"width":400,"height":225},
+		{"id":"0a6061d95a983779","type":"file","file":"4/4.2/ciie/practica/3d/images/Pasted image 20250402155922.png","x":-90,"y":158,"width":380,"height":253},
+		{"id":"7d0c61a4ff8c4101","type":"file","file":"4/4.2/ciie/practica/3d/ciie-3d-lv1-azul.md","x":-600,"y":-1500,"width":400,"height":400},
+		{"id":"d32d7b7ec6bc6dd0","type":"file","file":"4/4.2/ciie/practica/3d/ciie-3d-lv3-rojo.md","x":640,"y":-1500,"width":400,"height":400},
+		{"id":"cbbda0722dccb306","type":"file","file":"4/4.2/ciie/practica/3d/ciie-3d-lv2-verde.md","x":0,"y":-1500,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"649adb0b69a2cd37","fromNode":"0761ddab80e71909","fromSide":"right","toNode":"1f56575b46f930db","toSide":"left"},
@@ -25,12 +26,15 @@
 		{"id":"d20ff2b951f6ae3a","fromNode":"0a6061d95a983779","fromSide":"right","toNode":"1f56575b46f930db","toSide":"left"},
 		{"id":"ed14cedf2e03185e","fromNode":"6ef0b437ebc3d169","fromSide":"right","toNode":"1f56575b46f930db","toSide":"left"},
 		{"id":"98b5fb1c6c4e83eb","fromNode":"e07138510997919d","fromSide":"right","toNode":"1f56575b46f930db","toSide":"left"},
-		{"id":"175ccf5f8c2a8d00","fromNode":"1f56575b46f930db","fromSide":"top","toNode":"f9d7cb41475ea643","toSide":"bottom"},
+		{"id":"175ccf5f8c2a8d00","fromNode":"1f56575b46f930db","fromSide":"top","toNode":"4316f93d4233bbc5","toSide":"bottom"},
 		{"id":"836ec91507b9ed71","fromNode":"f9d7cb41475ea643","fromSide":"top","toNode":"2e049d84e84b780e","toSide":"bottom"},
 		{"id":"3205c7a1d0e6361d","fromNode":"f9d7cb41475ea643","fromSide":"top","toNode":"5f4cb11c8123a3e1","toSide":"bottom"},
 		{"id":"a0e92f470f512165","fromNode":"f9d7cb41475ea643","fromSide":"top","toNode":"5e7be57740cee236","toSide":"bottom"},
 		{"id":"f2b11ded8366a3d3","fromNode":"5f4cb11c8123a3e1","fromSide":"top","toNode":"9ca59f8100c979fb","toSide":"bottom"},
 		{"id":"b65ab0fe3dc4f644","fromNode":"7d0c61a4ff8c4101","fromSide":"right","toNode":"cbbda0722dccb306","toSide":"left"},
-		{"id":"ff46facb01336cfb","fromNode":"cbbda0722dccb306","fromSide":"right","toNode":"d32d7b7ec6bc6dd0","toSide":"left"}
+		{"id":"ff46facb01336cfb","fromNode":"cbbda0722dccb306","fromSide":"right","toNode":"d32d7b7ec6bc6dd0","toSide":"left"},
+		{"id":"a088dc6e3476811d","fromNode":"f9d7cb41475ea643","fromSide":"top","toNode":"e264ee1501632d3f","toSide":"bottom"},
+		{"id":"dac0b43fd5e76177","fromNode":"9ca59f8100c979fb","fromSide":"top","toNode":"cbbda0722dccb306","toSide":"bottom"},
+		{"id":"d43b8197feb7e663","fromNode":"f9d7cb41475ea643","fromSide":"top","toNode":"4316f93d4233bbc5","toSide":"bottom"}
 	]
 }
