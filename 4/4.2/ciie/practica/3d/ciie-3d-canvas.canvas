@@ -7,7 +7,10 @@
 		{"id":"1f56575b46f930db","type":"text","text":"Capitan toad, rotar el mapa.","x":200,"y":-154,"width":260,"height":50},
 		{"id":"0a6061d95a983779","type":"file","file":"4/4.2/ciie/practica/3d/images/Pasted image 20250402155922.png","x":-380,"y":-262,"width":380,"height":253},
 		{"id":"e07138510997919d","x":-400,"y":27,"width":400,"height":225,"type":"file","file":"Pasted image 20250402160858.png"},
-		{"id":"f9d7cb41475ea643","x":260,"y":-431,"width":250,"height":60,"type":"text","text":"Mecanicas locales"}
+		{"id":"f9d7cb41475ea643","x":205,"y":-315,"width":250,"height":60,"type":"text","text":"Mecanicas locales"},
+		{"id":"2e049d84e84b780e","x":200,"y":-520,"width":120,"height":60,"type":"text","text":"Cajas"},
+		{"id":"5f4cb11c8123a3e1","x":340,"y":-520,"width":165,"height":60,"type":"text","text":"Drenar agua"},
+		{"id":"5e7be57740cee236","x":520,"y":-520,"width":250,"height":60,"type":"text","text":""}
 	],
 	"edges":[
 		{"id":"649adb0b69a2cd37","fromNode":"0761ddab80e71909","fromSide":"right","toNode":"1f56575b46f930db","toSide":"left"},
@@ -16,6 +19,9 @@
 		{"id":"d20ff2b951f6ae3a","fromNode":"0a6061d95a983779","fromSide":"right","toNode":"1f56575b46f930db","toSide":"left"},
 		{"id":"ed14cedf2e03185e","fromNode":"6ef0b437ebc3d169","fromSide":"right","toNode":"1f56575b46f930db","toSide":"left"},
 		{"id":"98b5fb1c6c4e83eb","fromNode":"e07138510997919d","fromSide":"right","toNode":"1f56575b46f930db","toSide":"left"},
-		{"id":"74fcd9cc9418691a","fromNode":"f9d7cb41475ea643","fromSide":"bottom","toNode":"1f56575b46f930db","toSide":"top"}
+		{"id":"175ccf5f8c2a8d00","fromNode":"1f56575b46f930db","fromSide":"top","toNode":"f9d7cb41475ea643","toSide":"bottom"},
+		{"id":"836ec91507b9ed71","fromNode":"f9d7cb41475ea643","fromSide":"top","toNode":"2e049d84e84b780e","toSide":"bottom"},
+		{"id":"3205c7a1d0e6361d","fromNode":"f9d7cb41475ea643","fromSide":"top","toNode":"5f4cb11c8123a3e1","toSide":"bottom"},
+		{"id":"a0e92f470f512165","fromNode":"f9d7cb41475ea643","fromSide":"top","toNode":"5e7be57740cee236","toSide":"bottom"}
 	]
 }
