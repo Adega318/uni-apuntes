@@ -2,10 +2,13 @@
 	"nodes":[
 		{"id":"c4a7ba7a6d7ec8bb","x":-420,"y":-120,"width":250,"height":60,"type":"text","text":"Navegación"},
 		{"id":"7c95ae30f992b206","x":-421,"y":-382,"width":250,"height":60,"type":"text","text":"crear mapa"},
-		{"id":"53ebca483427403c","x":-460,"y":-560,"width":331,"height":111,"type":"text","text":"Seguir pared mano izquierda y en una matriz marcar como ocupadas las colisiones detectadas por los lasers"}
+		{"id":"53ebca483427403c","x":-461,"y":-580,"width":331,"height":111,"type":"text","text":"Seguir pared mano izquierda y en una matriz marcar como ocupadas las colisiones detectadas por los lasers"},
+		{"id":"080918ddb072123a","x":-419,"y":-755,"width":250,"height":60,"type":"text","text":"Matriz enorme"},
+		{"id":"fba1017e171a5242","x":60,"y":-554,"width":160,"height":172,"type":"text","text":""}
 	],
 	"edges":[
 		{"id":"555cabfc2e99f1fa","fromNode":"c4a7ba7a6d7ec8bb","fromSide":"top","toNode":"7c95ae30f992b206","toSide":"bottom"},
-		{"id":"8752ed2798b8d6e3","fromNode":"7c95ae30f992b206","fromSide":"top","toNode":"53ebca483427403c","toSide":"bottom"}
+		{"id":"8752ed2798b8d6e3","fromNode":"7c95ae30f992b206","fromSide":"top","toNode":"53ebca483427403c","toSide":"bottom"},
+		{"id":"abe814977acb2f91","fromNode":"53ebca483427403c","fromSide":"top","toNode":"080918ddb072123a","toSide":"bottom"}
 	]
 }
