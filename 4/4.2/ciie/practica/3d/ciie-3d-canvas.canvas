@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"0761ddab80e71909","x":-660,"y":-400,"width":400,"height":348,"type":"file","file":"4/4.2/ciie/practica/3d/images/Pasted image 20250402154833.png"},
+		{"id":"1f56575b46f930db","x":-80,"y":-400,"width":250,"height":60,"type":"text","text":"captain toad, girar usando objetos en el mapa"}
+	],
+	"edges":[
+		{"id":"649adb0b69a2cd37","fromNode":"0761ddab80e71909","fromSide":"right","toNode":"1f56575b46f930db","toSide":"left"}
+	]
+}
