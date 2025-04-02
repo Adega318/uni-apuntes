@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"c4a7ba7a6d7ec8bb","x":-420,"y":-120,"width":250,"height":60,"type":"text","text":"Navegación"},
+		{"id":"7c95ae30f992b206","x":-421,"y":-382,"width":250,"height":60,"type":"text","text":"crear mapa"},
+		{"id":"53ebca483427403c","x":-460,"y":-560,"width":331,"height":111,"type":"text","text":"Seguir pared mano izquierda y en una matriz marcar como ocupadas las colisiones detectadas por los lasers"}
+	],
+	"edges":[
+		{"id":"555cabfc2e99f1fa","fromNode":"c4a7ba7a6d7ec8bb","fromSide":"top","toNode":"7c95ae30f992b206","toSide":"bottom"},
+		{"id":"8752ed2798b8d6e3","fromNode":"7c95ae30f992b206","fromSide":"top","toNode":"53ebca483427403c","toSide":"bottom"}
+	]
+}
