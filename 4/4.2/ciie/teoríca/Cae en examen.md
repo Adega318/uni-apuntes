@@ -14,8 +14,6 @@ El elemento music no genera eventos.
 
 SOLO un micrófono por escena.
 
-Clase input con móviles, limitación a 5 dedos en iphon y sin límite para Android.
-
 Sonido, compresion:
 - load, directo en memoria
 - memory, comprimido
@@ -31,3 +29,5 @@ El director implementa el bucle de eventos y notifica al encargado.
 fisicas para 2d, phisics de Nvidia para 3d, havok mas eficiente para multiples nodos
 
 SCRIPTS CLASE IMPUT EJES
+
+Clase input con móviles, limitación a 5 dedos en iphon y sin límite para Android.
