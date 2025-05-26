@@ -21,7 +21,8 @@ Sonido, compresion:
 - memory, comprimido
 - streaming, cargado a medida que se reproduce
 
-# Arquitectura dirigida por los datos
+# Arquitectura
+arquitectura dirigida por los datos
 
 pygame.event.pump(), hace que pygame procese los eventos para evitar problemas con el sistema operativo.
 
