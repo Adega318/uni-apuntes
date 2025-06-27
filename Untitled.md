@@ -1,0 +1,1 @@
+diapositiva sin concepto claro
